@@ -18,8 +18,8 @@ MonoBehaviour:
   checkPoint: 1
   leftCard:
     messageText: "\u041E\u0442\u043A\u0440\u044B\u0442\u044C \u0434\u0432\u0435\u0440\u044C"
-    illustrationSprite: {fileID: 21300000, guid: 22d6611ab7b421d499fc8970640dea8b, type: 3}
-    animationClip: {fileID: 0}
+    illustrationSprite: {fileID: 21300000, guid: 3fc3348bf4ec307419dd2346610fa967, type: 3}
+    animationClip: {fileID: 7400000, guid: 0d0a4fe3e3f66d34e80211141f66240b, type: 2}
     itemSprite: {fileID: 0}
     requiredItemSprite: {fileID: 0}
     removeItemSprite: 0
@@ -39,8 +39,8 @@ MonoBehaviour:
     changeLifePointsIfNoItem: 0
   rightCard:
     messageText: "\u041E\u043A\u043D\u043E"
-    illustrationSprite: {fileID: 0}
-    animationClip: {fileID: 0}
+    illustrationSprite: {fileID: 21300000, guid: 3fc3348bf4ec307419dd2346610fa967, type: 3}
+    animationClip: {fileID: 7400000, guid: 0d0a4fe3e3f66d34e80211141f66240b, type: 2}
     itemSprite: {fileID: 0}
     requiredItemSprite: {fileID: 0}
     removeItemSprite: 0
