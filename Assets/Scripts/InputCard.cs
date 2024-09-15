@@ -1,5 +1,6 @@
 using Cysharp.Threading.Tasks;
 using DG.Tweening;
+using UnityEditor.Animations;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
@@ -13,8 +14,10 @@ public class InputCard : MonoBehaviour, IPointerEnterHandler, IPointerExitHandle
 
     private Transform _transform;
     private AnimationClip _animationClip;
+    private AnimatorController _animatorController;
 
     public AnimationClip AnimationClip { get => _animationClip; set => _animationClip = value; }
+    public AnimatorController AnimatorController { get => _animatorController; set => _animatorController = value; }
 
     private void Start()
     {
@@ -27,6 +30,7 @@ public class InputCard : MonoBehaviour, IPointerEnterHandler, IPointerExitHandle
         // Анимация при наведении
         if (_animationClip != null && _animator != null)
         {
+            _animator.runtimeAnimatorController = AnimatorController;
             _animator.enabled = true;
             _animator.Play(_animationClip.name);
             _animator.speed = 1f;
@@ -81,7 +85,7 @@ public class InputCard : MonoBehaviour, IPointerEnterHandler, IPointerExitHandle
         await contentCard.HoldBanner();
         await contentCard.ChangeLocationSprite();
         contentCard.SetContent(contentCard.NextCardSetScriptableObject);
-        
+
         await UniTask.Delay(600);
         await contentCard.ShowBanner();
         await cardAnimation.ShowCards();

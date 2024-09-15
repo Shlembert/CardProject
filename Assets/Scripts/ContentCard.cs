@@ -44,9 +44,11 @@ public class ContentCard : MonoBehaviour
         portraitSprite.sprite = cardSetScriptableObject?.portrait;
 
         input_L.AnimationClip = cardSetScriptableObject?.leftCard?.animationClip;
+        input_L.AnimatorController = cardSetScriptableObject?.leftCard?.animator;
         illustrationSprite_L.sprite = cardSetScriptableObject?.leftCard?.illustrationSprite;
 
         input_R.AnimationClip = cardSetScriptableObject?.rightCard?.animationClip;
+        input_R.AnimatorController = cardSetScriptableObject?.rightCard?.animator;
         illustrationSprite_R.sprite = cardSetScriptableObject?.rightCard?.illustrationSprite;
 
         bannerText.text = cardSetScriptableObject?.bannerText;
