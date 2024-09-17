@@ -17,12 +17,13 @@ MonoBehaviour:
     \u0434\u0432\u0435\u0440\u044C \u0438 \u0442\u0435\u043F\u0435\u0440\u044C\n
     \u0432\u044B \u0435\u0434\u0435\u0442\u0435 \u0432 \u0437\u0430\u043C\u043E\u043A
     \u043F\u043E\u0434 \u0441\u0442\u0440\u0430\u0436\u0435\u0439"
-  indexCheckPoint: 0
+  checkPoint: 0
   leftCard:
     messageText: "\u0421\u0435\u0441\u0442\u044C \u043A \u043A\u0440\u0430\u044E
       \u043F\u043E\u0432\u043E\u0437\u043A\u0438"
-    illustrationSprite: {fileID: 21300000, guid: df7ed549d32eef94bb15dd7b1e61fc0f, type: 3}
-    animationClip: {fileID: 7400000, guid: 34725ddacd0992442b64dcca9de9b4b0, type: 2}
+    illustrationSprite: {fileID: 21300000, guid: d1fbe207293879145bbb0b588c24a9c0, type: 3}
+    animator: {fileID: 0}
+    animationClip: {fileID: 0}
     itemSprite: {fileID: 0}
     requiredItemSprite: {fileID: 0}
     removeItemSprite: 0
@@ -30,13 +31,12 @@ MonoBehaviour:
     locationSprite: {fileID: 0}
     nextSetIfItem: {fileID: 11400000, guid: 92980bbab46386e4dba3b7a2db8a784d, type: 2}
     nextSetIfNoItem: {fileID: 0}
-    reverseSpriteIfItem: {fileID: 0}
-    reverseTopTextIfItem: "\u0421\u0435\u0441\u0442\u044C \u043A \u043A\u0440\u0430\u044E
-      \u043F\u043E\u0432\u043E\u0437\u043A\u0438"
-    reverseBottomTextIfItem: "\u0412\u044B \u0441\u0430\u0434\u0438\u0442\u0435\u0441\u044C
+    reverseSpriteIfItem: {fileID: 21300000, guid: d1fbe207293879145bbb0b588c24a9c0, type: 3}
+    reverseTopTextIfItem: "\u0412\u044B \u0441\u0430\u0434\u0438\u0442\u0435\u0441\u044C
       \u0431\u043B\u0438\u0436\u0435 \u043A \u043A\u0440\u0430\u044E \u043F\u043E\u0432\u043E\u0437\u043A\u0438,
       \u0447\u0442\u043E\u0431\u044B \u043D\u0435 \u0440\u0430\u0437\u0434\u0440\u0430\u0436\u0430\u0442\u044C
       \u0441\u0442\u0440\u0430\u0436\u0443"
+    reverseBottomTextIfItem: 
     changeLifePointsIfItem: 0
     reverseSpriteIfNoItem: {fileID: 0}
     reverseTopTextIfNoItem: 
@@ -44,24 +44,23 @@ MonoBehaviour:
     changeLifePointsIfNoItem: 0
   rightCard:
     messageText: "\u041F\u0440\u043E\u0434\u043E\u043B\u0436\u0438\u0442\u044C \u0441\u043E\u043F\u0440\u043E\u0442\u0438\u0432\u043B\u044F\u0442\u044C\u0441\u044F"
-    illustrationSprite: {fileID: 21300000, guid: d987f061978d0084f9e0a4820289ebe5, type: 3}
-    animationClip: {fileID: 0}
+    illustrationSprite: {fileID: 21300000, guid: 8a0fa2eaf691f3e409e899de58bfdb5d, type: 3}
+    animator: {fileID: 9100000, guid: c7b1a565abe39664ca8fe1435e8711ea, type: 2}
+    animationClip: {fileID: 7400000, guid: 99e66ccd25f66ef4481b2be111db1cca, type: 2}
     itemSprite: {fileID: 0}
     requiredItemSprite: {fileID: 0}
     removeItemSprite: 0
-    changeBanner: 1
+    changeBanner: 0
     locationSprite: {fileID: 0}
     nextSetIfItem: {fileID: 11400000, guid: 68236e48266d8f94f8006bf32b10680c, type: 2}
     nextSetIfNoItem: {fileID: 0}
     reverseSpriteIfItem: {fileID: 21300000, guid: fede03e2466eab2458062dcab5f9a258, type: 3}
-    reverseTopTextIfItem: "\u041F\u0440\u043E\u0434\u043E\u043B\u0436\u0438\u0442\u044C
-      \u0441\u043E\u043F\u0440\u043E\u0442\u0438\u0432\u043B\u044F\u0442\u044C\u0441\u044F"
-    reverseBottomTextIfItem: "\u0412\u044B \u0442\u043E\u043B\u043A\u0430\u0435\u0442\u0435
-      \u0441\u0442\u0440\u0430\u0436\u043D\u0438\u043A\u043E\u0432, \u0441\u043E\u043F\u0440\u043E\u0442\u0438\u0432\u043B\u044F\u0435\u0442\u0435\u0441\u044C
-      \u0438 \u0432\u0435\u043B\u0435\u0434\u0442\u0435 \u0441\u0435\u0431\u044F
-      \u0432\u044B\u0437\u044B\u0432\u0430\u044E\u0449\u0435, \u0437\u0430 \u0447\u0442\u043E
-      \u043F\u043E\u043B\u0443\u0447\u0430\u0435\u0442\u0435 \u0441\u0438\u043B\u044C\u043D\u044B\u0439
-      \u0443\u0434\u0430\u0440 \u043F\u043E \u0433\u043E\u043B\u043E\u0432\u0435"
+    reverseTopTextIfItem: "\u0412\u044B \u0442\u043E\u043B\u043A\u0430\u0435\u0442\u0435
+      \u0441\u0442\u0440\u0430\u0436\u043D\u0438\u043A\u043E\u0432 \u0438 \u0432\u0435\u0434\u0435\u0442\u0435
+      \u0441\u0435\u0431\u044F \u0432\u044B\u0437\u044B\u0432\u0430\u044E\u0449\u0435,
+      \u0437\u0430 \u0447\u0442\u043E \u043F\u043E\u043B\u0443\u0447\u0430\u0435\u0442\u0435
+      \u0441\u0438\u043B\u044C\u043D\u044B\u0439 \u0443\u0434\u0430\u0440"
+    reverseBottomTextIfItem: 
     changeLifePointsIfItem: -1
     reverseSpriteIfNoItem: {fileID: 0}
     reverseTopTextIfNoItem: 

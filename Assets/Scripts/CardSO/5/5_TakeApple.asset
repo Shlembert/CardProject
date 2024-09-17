@@ -15,15 +15,16 @@ MonoBehaviour:
   portrait: {fileID: 21300000, guid: 134373ec52e7efa40b03b5f33b1b6cae, type: 3}
   bannerText: "\u041E\u043D\u0430 \u0434\u0430\u043B\u0430 \u0432\u0430\u043C \u0441\u043E\u0447\u043D\u043E\u0435
     \u043A\u0440\u0430\u0441\u043D\u043E\u0435 \u044F\u0431\u043B\u043E\u043A\u043E"
-  indexCheckPoint: 0
+  checkPoint: 0
   leftCard:
     messageText: "\u0421\u044A\u0435\u0441\u0442\u044C \u044F\u0431\u043B\u043E\u043A\u043E"
     illustrationSprite: {fileID: 21300000, guid: 236b4076b6ff0c14b89e79ba45f5d49b, type: 3}
+    animator: {fileID: 0}
     animationClip: {fileID: 0}
     itemSprite: {fileID: 0}
     requiredItemSprite: {fileID: 0}
     removeItemSprite: 0
-    changeBanner: 0
+    changeBanner: 1
     locationSprite: {fileID: 21300000, guid: a96e6bf20cd0ea8409c46b937cc6091e, type: 3}
     nextSetIfItem: {fileID: 11400000, guid: 92f33e50c6a9dfa41b83835b91648dc1, type: 2}
     nextSetIfNoItem: {fileID: 0}
@@ -41,6 +42,7 @@ MonoBehaviour:
     messageText: "\u041F\u043E\u043B\u043E\u0436\u0438\u0442\u044C \u0435\u0433\u043E
       \u0432 \u043A\u0430\u0440\u043C\u0430\u043D"
     illustrationSprite: {fileID: 21300000, guid: 77c8786545888914c9f5174f86ace338, type: 3}
+    animator: {fileID: 0}
     animationClip: {fileID: 0}
     itemSprite: {fileID: 21300000, guid: f3f8b74d060340c4bbb001c0cf4797db, type: 3}
     requiredItemSprite: {fileID: 0}
