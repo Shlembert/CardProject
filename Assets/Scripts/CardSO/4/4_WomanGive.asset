@@ -16,24 +16,24 @@ MonoBehaviour:
   bannerText: "\u0412\u0430\u043C \u0432\u0441\u0442\u0440\u0435\u0442\u0438\u043B\u0430\u0441\u044C
     \u0436\u0435\u043D\u0449\u0438\u043D\u0430, \u043E\u043D\u0430 \u043F\u0440\u043E\u0442\u044F\u0433\u0438\u0432\u0430\u0435\u0442
     \u0432\u0430\u043C \u0440\u0443\u043A\u0443"
-  indexCheckPoint: 0
+  checkPoint: 0
   leftCard:
     messageText: "\u041F\u0440\u043E\u0442\u044F\u043D\u0443\u0442\u044C \u0440\u0443\u043A\u0443
       \u0432 \u043E\u0442\u0432\u0435\u0442"
     illustrationSprite: {fileID: 21300000, guid: ff908b6e1e30b3348865af0fca8b1635, type: 3}
+    animator: {fileID: 0}
     animationClip: {fileID: 0}
     itemSprite: {fileID: 0}
     requiredItemSprite: {fileID: 0}
     removeItemSprite: 0
     changeBanner: 0
-    locationSprite: {fileID: 0}
+    locationSprite: {fileID: 21300000, guid: a96e6bf20cd0ea8409c46b937cc6091e, type: 3}
     nextSetIfItem: {fileID: 11400000, guid: 39f12e39bba61564b9ca68f94038f5b0, type: 2}
     nextSetIfNoItem: {fileID: 0}
     reverseSpriteIfItem: {fileID: 0}
-    reverseTopTextIfItem: "\u041F\u0440\u043E\u0442\u044F\u043D\u0443\u0442\u044C
-      \u0440\u0443\u043A\u0443 \u0432 \u043E\u0442\u0432\u0435\u0442"
-    reverseBottomTextIfItem: "\u0423 \u0436\u0435\u043D\u0449\u0438\u043D\u044B \u0432
+    reverseTopTextIfItem: "\u0423 \u0436\u0435\u043D\u0449\u0438\u043D\u044B \u0432
       \u0440\u0443\u043A\u0435 \u0447\u0442\u043E \u0442\u043E \u0435\u0441\u0442\u044C"
+    reverseBottomTextIfItem: 
     changeLifePointsIfItem: 0
     reverseSpriteIfNoItem: {fileID: 0}
     reverseTopTextIfNoItem: 
@@ -42,21 +42,21 @@ MonoBehaviour:
   rightCard:
     messageText: "\u041F\u0440\u043E\u0438\u0433\u043D\u043E\u0440\u0438\u0440\u043E\u0432\u0430\u0442\u044C
       \u0435\u0435"
-    illustrationSprite: {fileID: 21300000, guid: 53c73b0a387b55f46b4877e140728fed, type: 3}
-    animationClip: {fileID: 0}
+    illustrationSprite: {fileID: 21300000, guid: 618350fd8e7223048aa5151b0674514e, type: 3}
+    animator: {fileID: 9100000, guid: 211d72dc0b84e664b8c4bafcb5c035b5, type: 2}
+    animationClip: {fileID: 7400000, guid: f7d7a9a2ea016a343bd448b922d9686e, type: 2}
     itemSprite: {fileID: 0}
     requiredItemSprite: {fileID: 0}
     removeItemSprite: 0
     changeBanner: 1
-    locationSprite: {fileID: 21300000, guid: 13c903baa8bb08c4786a5830dc4f3717, type: 3}
-    nextSetIfItem: {fileID: 0}
+    locationSprite: {fileID: 21300000, guid: dabc19750805c6143a0fb000e46b6e38, type: 3}
+    nextSetIfItem: {fileID: 11400000, guid: 92f33e50c6a9dfa41b83835b91648dc1, type: 2}
     nextSetIfNoItem: {fileID: 0}
     reverseSpriteIfItem: {fileID: 0}
-    reverseTopTextIfItem: "\u041F\u0440\u043E\u0438\u0433\u043D\u043E\u0440\u0438\u0440\u043E\u0432\u0430\u0442\u044C
-      \u0435\u0435"
-    reverseBottomTextIfItem: "\u0412\u044B \u0434\u0435\u043B\u0430\u0435\u0442\u0435
+    reverseTopTextIfItem: "\u0412\u044B \u0434\u0435\u043B\u0430\u0435\u0442\u0435
       \u0432\u0438\u0434 \u0447\u0442\u043E \u043D\u0435\u0437\u0430\u043C\u0435\u0447\u0430\u0442\u0435
       \u0435\u0435"
+    reverseBottomTextIfItem: 
     changeLifePointsIfItem: 0
     reverseSpriteIfNoItem: {fileID: 0}
     reverseTopTextIfNoItem: 
