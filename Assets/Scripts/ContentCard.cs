@@ -40,7 +40,7 @@ public class ContentCard : MonoBehaviour
     public void SetContent(CardSetScriptableObject cardSetScriptableObject)
     {
         CardSetScriptableObject = cardSetScriptableObject;
-
+        Debug.Log(cardSetScriptableObject.name);
         portraitSprite.sprite = cardSetScriptableObject?.portrait;
 
         input_L.AnimationClip = cardSetScriptableObject?.leftCard?.animationClip;

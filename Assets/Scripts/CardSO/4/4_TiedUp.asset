@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8636afbb060c9543bb985dfc1b704ad, type: 3}
   m_Name: 4_TiedUp
   m_EditorClassIdentifier: 
-  portrait: {fileID: 21300000, guid: cbb1c106c552a574197ef4c0810f3953, type: 3}
+  portrait: {fileID: 21300000, guid: 2841b4cff1a5bd544b4b4265c136d1eb, type: 3}
   bannerText: "\u0412\u0430\u0441 \u043F\u043E\u043A\u043E\u043B\u043E\u0442\u0438\u043B\u0438,
     \u0441\u0432\u044F\u0437\u0430\u043B\u0438 \u0438 \u0442\u0435\u043F\u0435\u0440\u044C
     \u0432\u044B \u0441\u043F\u043E\u043A\u043E\u0439\u043D\u044B"
@@ -25,7 +25,7 @@ MonoBehaviour:
     itemSprite: {fileID: 0}
     requiredItemSprite: {fileID: 0}
     removeItemSprite: 0
-    changeBanner: 1
+    changeBanner: 0
     locationSprite: {fileID: 0}
     nextSetIfItem: {fileID: 11400000, guid: f6ea6492857e55e4f995ea63d0a8ae4e, type: 2}
     nextSetIfNoItem: {fileID: 0}
@@ -50,7 +50,7 @@ MonoBehaviour:
     itemSprite: {fileID: 0}
     requiredItemSprite: {fileID: 0}
     removeItemSprite: 0
-    changeBanner: 1
+    changeBanner: 0
     locationSprite: {fileID: 21300000, guid: 8fc82799b3c4f124fb68b84e81a92d90, type: 3}
     nextSetIfItem: {fileID: 0}
     nextSetIfNoItem: {fileID: 0}
