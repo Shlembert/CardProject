@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class ContentCard : MonoBehaviour
 {
     [SerializeField] private Image portraitSprite, illustrationSprite_L, illustrationSprite_R, reverseSprite, locationSprite;
-    [SerializeField] private TMP_Text bannerText, reverseTopText, reverseDownText, cartText_L, cardText_R;
+    [SerializeField] private TMP_Text bannerText, reverseTopText, cartText_L, cardText_R;
     [SerializeField] private InventoryController inventoryController;
     [SerializeField] private InputCard input_L, input_R;
     [SerializeField] private MapController mapController;
@@ -95,7 +95,6 @@ public class ContentCard : MonoBehaviour
             NextCardSetScriptableObject = cardData.nextSetIfItem;
             _changeLifeCount = cardData.changeLifePointsIfItem;
             reverseTopText.text = cardData.reverseTopTextIfItem;
-            reverseDownText.text = cardData.reverseBottomTextIfItem;
 
             if (cardData.itemSprite) // Проверка, дается ли предмет
             {

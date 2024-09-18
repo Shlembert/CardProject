@@ -65,16 +65,14 @@ public class CardSetScriptableObjectEditor : Editor
 
         // Реверс карты (если предмет есть)
         EditorGUILayout.PropertyField(serializedObject.FindProperty($"{cardPropertyPath}.reverseSpriteIfItem"), new GUIContent("Спрайт реверса"));
-        EditorGUILayout.PropertyField(serializedObject.FindProperty($"{cardPropertyPath}.reverseTopTextIfItem"), new GUIContent("Верхний текст реверса"));
-        EditorGUILayout.PropertyField(serializedObject.FindProperty($"{cardPropertyPath}.reverseBottomTextIfItem"), new GUIContent("Нижний текст реверса"));
+        EditorGUILayout.PropertyField(serializedObject.FindProperty($"{cardPropertyPath}.reverseTopTextIfItem"), new GUIContent("Текст реверса"));
         EditorGUILayout.PropertyField(serializedObject.FindProperty($"{cardPropertyPath}.changeLifePointsIfItem"), new GUIContent("Изменить очки жизни"));
 
         EditorGUILayout.Space();
 
         // Реверс карты (если предмета нет)
         EditorGUILayout.PropertyField(serializedObject.FindProperty($"{cardPropertyPath}.reverseSpriteIfNoItem"), new GUIContent("Спрайт реверса"));
-        EditorGUILayout.PropertyField(serializedObject.FindProperty($"{cardPropertyPath}.reverseTopTextIfNoItem"), new GUIContent("Верхний текст реверса"));
-        EditorGUILayout.PropertyField(serializedObject.FindProperty($"{cardPropertyPath}.reverseBottomTextIfNoItem"), new GUIContent("Нижний текст реверса"));
+        EditorGUILayout.PropertyField(serializedObject.FindProperty($"{cardPropertyPath}.reverseTopTextIfNoItem"), new GUIContent("Текст реверса"));
         EditorGUILayout.PropertyField(serializedObject.FindProperty($"{cardPropertyPath}.changeLifePointsIfNoItem"), new GUIContent("Изменить очки жизни"));
     }
 }

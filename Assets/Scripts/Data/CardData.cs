@@ -26,14 +26,12 @@ public class CardData
     // Реверс карты (если предмет есть)
     [Header("Реверс карты (если предмет есть)")]
     public Sprite reverseSpriteIfItem; // Спрайт реверса карты (есть предмет)
-    [TextArea(3, 3)] public string reverseTopTextIfItem; // Верхний текст реверса карты
-    [TextArea(3, 3)] public string reverseBottomTextIfItem; // Нижний текст реверса карты
+    [TextArea(3, 3)] public string reverseTopTextIfItem; // Текст реверса карты
     public int changeLifePointsIfItem; // Изменить очки жизни
 
     // Реверс карты (если предмета нет)
     [Header("Реверс карты (если предмета нет)")]
     public Sprite reverseSpriteIfNoItem; // Спрайт реверса карты (нет предмета)
-    [TextArea(3, 3)] public string reverseTopTextIfNoItem; // Верхний текст реверса карты
-    [TextArea(3, 3)] public string reverseBottomTextIfNoItem; // Нижний текст реверса карты
+    [TextArea(3, 3)] public string reverseTopTextIfNoItem; // Текст реверса карты
     public int changeLifePointsIfNoItem; // Изменить очки жизни
 }
