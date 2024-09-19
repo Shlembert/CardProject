@@ -9,7 +9,7 @@ public class SoundController : MonoBehaviour
 
     private void Start()
     {
-        musAudioSource.PlayOneShot(menuMus);
+       // musAudioSource.PlayOneShot(menuMus);
     }
     public void PlayFlip()
     {

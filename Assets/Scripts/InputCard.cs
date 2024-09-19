@@ -73,7 +73,8 @@ public class InputCard : MonoBehaviour, IPointerEnterHandler, IPointerExitHandle
     {
         contentCard.ChangeCountHP();
 
-        if (contentCard.RemoveItem) await contentCard.RemoveItemFromInventory();
+        await contentCard.RemoveItemFromInventory();
+
         if (gameController.IsGameOver)
         {
             gameController.IsGameOver = false;

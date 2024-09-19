@@ -35,8 +35,6 @@ public class ContentCard : MonoBehaviour
         set => _nextCardSetScriptableObject = value;
     }
 
-    public bool RemoveItem { get => _removeItem; set => _removeItem = value; }
-
     public void SetContent(CardSetScriptableObject cardSetScriptableObject)
     {
         CardSetScriptableObject = cardSetScriptableObject;
@@ -60,54 +58,71 @@ public class ContentCard : MonoBehaviour
 
     public void CheckRequestItem(CardType cardType)
     {
-        CardData cardData = null;
+        CardData cardData = SetSideCard(cardType);
         StopAnim();
-
-        if (cardType == CardType.Left) cardData = CardSetScriptableObject.leftCard;
-        else if (cardType == CardType.Right) cardData = CardSetScriptableObject.rightCard;
+        CheckChangeLocation(cardData);
 
         reverseSprite.enabled = true;
+
         _changeBanner = cardData.changeBanner; // Проверка на смену баннера
 
-        if (cardData.locationSprite != null) _location = cardData.locationSprite; // Проверка на смену локации
-        else _location = null;
+        if (cardData.requiredItemSprite != null) RequestItem(cardData);// Проверка, требуется ли предмет
+        else NotRequestItem(cardData);
+        
+    }
 
-        if (cardData.requiredItemSprite) // Проверка, требуется ли предмет
+    private void RequestItem(CardData cardData) 
+    {
+        if (inventoryController.CheckHaveItem(cardData)) // Есть предмет в инвентаре
         {
-            if (inventoryController.CheckHaveItem(cardData)) // Есть предмет в инвентаре
-            {
-                NextCardSetScriptableObject = cardData.nextSetIfItem;
-                _changeLifeCount = cardData.changeLifePointsIfItem;
-                _haveItem = cardData.requiredItemSprite;
+            NextCardSetScriptableObject = cardData.nextSetIfItem;
 
-                RemoveItem = cardData.removeItemSprite; // Проверка, нужно удалить предмет из инветоаря
-            }
-            else                                       // Нет предмета
-            {
-                NextCardSetScriptableObject = cardData.nextSetIfNoItem;
-                _changeLifeCount = cardData.changeLifePointsIfNoItem;
-            }
+            _haveItem = cardData.requiredItemSprite;
+            _removeItem = cardData.requiredItemSprite;
+            reverseTopText.text = cardData.reverseTopTextIfItem;
+        }
+        else                                       // Нет предмета
+        {
+            NextCardSetScriptableObject = cardData.nextSetIfNoItem;
+            _changeLifeCount = cardData.changeLifePointsIfNoItem;
+            reverseTopText.text = cardData.reverseTopTextIfNoItem;
+        }
 
-            reverseSprite.sprite = cardData.requiredItemSprite;
+        reverseSprite.sprite = cardData.requiredItemSprite;
+    }
+
+    private void NotRequestItem(CardData cardData)
+    {
+        NextCardSetScriptableObject = cardData.nextSetIfItem;
+        _changeLifeCount = cardData.changeLifePointsIfItem;
+
+        reverseTopText.text = cardData.reverseTopTextIfItem;
+
+        if (cardData.itemSprite) // Проверка, дается ли предмет
+        {
+            reverseSprite.sprite = cardData.itemSprite;
+            _giveItem = cardData.itemSprite;
         }
         else
         {
-            NextCardSetScriptableObject = cardData.nextSetIfItem;
-            _changeLifeCount = cardData.changeLifePointsIfItem;
-            reverseTopText.text = cardData.reverseTopTextIfItem;
-
-            if (cardData.itemSprite) // Проверка, дается ли предмет
-            {
-                reverseSprite.sprite = cardData.itemSprite;
-                _giveItem = cardData.itemSprite;
-            }
-            else
-            {
-                if (cardData.reverseSpriteIfItem) reverseSprite.sprite = cardData.reverseSpriteIfItem;
-                else reverseSprite.enabled = false;
-                _giveItem = null;
-            }
+            if (cardData.reverseSpriteIfItem) reverseSprite.sprite = cardData.reverseSpriteIfItem;
+            else reverseSprite.enabled = false;
+            _giveItem = null;
         }
+    }
+
+    private void CheckChangeLocation(CardData cardData)
+    {
+        if (cardData.locationSprite != null) _location = cardData.locationSprite; // Проверка на смену локации
+        else _location = null;
+    }
+
+    private CardData SetSideCard(CardType cardType)
+    {
+        CardData cardData = null;
+        if (cardType == CardType.Left) cardData = CardSetScriptableObject.leftCard;
+        else if (cardType == CardType.Right) cardData = CardSetScriptableObject.rightCard;
+        return cardData;
     }
 
     public async UniTask SetItemToInventory()
@@ -116,7 +131,6 @@ public class ContentCard : MonoBehaviour
         {
             await inventoryAnimation
                 .MoveItemToInventory(_giveItem, reverseSprite.transform, inventoryController.GetTarget());
-            await UniTask.Yield();
         }
     }
 
@@ -137,22 +151,22 @@ public class ContentCard : MonoBehaviour
     {
         if (_changeBanner) await bannerAnimation.HideBanner();
         else await bannerAnimation.HideMessageBanner();
-
-        await UniTask.Yield();
     }
 
     public async UniTask RemoveItemFromInventory()
     {
-        inventoryController.RemoveItem(_haveItem);
-        await inventoryAnimation.RemoveItemFromInventory(_haveItem);
-        await UniTask.Yield();
+        if (_removeItem)
+        {
+            inventoryController.RemoveItem(_haveItem);
+            _giveItem = null;
+            await inventoryAnimation.RemoveItemFromInventory(_haveItem);
+        }
     }
 
     public async UniTask ChangeLocationSprite()
     {
         if (_location == null) return;
         await gameController.ChangeBG(_location);
-        await UniTask.Yield();
     }
 
     private void StopAnim()
