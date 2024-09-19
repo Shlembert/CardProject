@@ -22,6 +22,7 @@ public class ContentCard : MonoBehaviour
     private int _changeLifeCount = 0;
     private bool _changeBanner;
     private bool _removeItem;
+    private bool _checkRemove;
 
     public CardSetScriptableObject CardSetScriptableObject
     {
@@ -34,6 +35,7 @@ public class ContentCard : MonoBehaviour
         get => _nextCardSetScriptableObject;
         set => _nextCardSetScriptableObject = value;
     }
+    public bool CheckRemove { get => _checkRemove; set => _checkRemove = value; }
 
     public void SetContent(CardSetScriptableObject cardSetScriptableObject)
     {
@@ -61,7 +63,7 @@ public class ContentCard : MonoBehaviour
         CardData cardData = SetSideCard(cardType);
         StopAnim();
         CheckChangeLocation(cardData);
-
+        CheckRemove = cardData.removeItemSprite;
         reverseSprite.enabled = true;
 
         _changeBanner = cardData.changeBanner; // Проверка на смену баннера
@@ -155,7 +157,7 @@ public class ContentCard : MonoBehaviour
 
     public async UniTask RemoveItemFromInventory()
     {
-        if (_removeItem)
+        if (CheckRemove)
         {
             inventoryController.RemoveItem(_haveItem);
             _giveItem = null;
