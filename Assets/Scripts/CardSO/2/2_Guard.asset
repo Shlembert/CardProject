@@ -26,7 +26,7 @@ MonoBehaviour:
     animationClip: {fileID: 7400000, guid: 8dca9e793794260469e273157ac22364, type: 2}
     itemSprite: {fileID: 0}
     requiredItemSprite: {fileID: 21300000, guid: 3d0028b64a7695942a5fa11a39ffbbad, type: 3}
-    removeItemSprite: 1
+    removeItemSprite: 0
     changeBanner: 1
     locationSprite: {fileID: 21300000, guid: abbee1f62502fff4abc89216757fc7ef, type: 3}
     nextSetIfItem: {fileID: 11400000, guid: 5b8bb2d823ac7f64cadeed6172e26eb4, type: 2}
