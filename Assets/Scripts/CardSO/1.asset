@@ -33,7 +33,7 @@ MonoBehaviour:
       \u0441 \u043F\u0435\u0447\u0438 \u0438 \u043E\u0442\u043A\u0440\u044B\u0432\u0430\u0442\u0435
       \u0434\u0432\u0435\u0440\u044C"
     changeLifePointsIfItem: 0
-    reverseSpriteIfNoItem: {fileID: 0}
+    reverseSpriteIfNoItem: {fileID: 21300000, guid: 2f99548800bb5e54a80f51fbf3e791d2, type: 3}
     reverseTopTextIfNoItem: 
     changeLifePointsIfNoItem: 0
   rightCard:
