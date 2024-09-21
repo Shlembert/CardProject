@@ -18,9 +18,9 @@ MonoBehaviour:
   checkPoint: 0
   leftCard:
     messageText: "\u0421\u044A\u0435\u0441\u0442\u044C \u044F\u0431\u043B\u043E\u043A\u043E"
-    illustrationSprite: {fileID: 21300000, guid: 236b4076b6ff0c14b89e79ba45f5d49b, type: 3}
-    animator: {fileID: 0}
-    animationClip: {fileID: 0}
+    illustrationSprite: {fileID: 21300000, guid: 65ca3b8e14d973b4b873d13a832e6682, type: 3}
+    animator: {fileID: 9100000, guid: bc29798f9bc22404fa8430f7da0278fc, type: 2}
+    animationClip: {fileID: 7400000, guid: 5a62645d7ed00c94b8faff858de8dd29, type: 2}
     itemSprite: {fileID: 0}
     requiredItemSprite: {fileID: 0}
     removeItemSprite: 0
@@ -32,11 +32,9 @@ MonoBehaviour:
     reverseTopTextIfItem: "\u0412\u044B \u0441\u044A\u0435\u0434\u0430\u0435\u0442\u0435
       \u044F\u0431\u043B\u043E\u043A\u043E \u0438 \u043E\u043D\u043E \u043D\u0430\u043F\u043E\u043B\u043D\u044F\u0435\u0442
       \u0432\u0430\u0441 \u044D\u043D\u0435\u0440\u0433\u0438\u0435\u0439"
-    reverseBottomTextIfItem: 
     changeLifePointsIfItem: 1
     reverseSpriteIfNoItem: {fileID: 0}
     reverseTopTextIfNoItem: 
-    reverseBottomTextIfNoItem: 
     changeLifePointsIfNoItem: 0
   rightCard:
     messageText: "\u041F\u043E\u043B\u043E\u0436\u0438\u0442\u044C \u0435\u0433\u043E
@@ -57,9 +55,7 @@ MonoBehaviour:
       \u043D\u043E \u0432\u044B \u043D\u0435 \u0433\u043E\u043B\u043E\u0434\u043D\u044B
       \u0438 \u043F\u0440\u044F\u0447\u0435\u0442\u0435 \u0435\u0433\u043E \u0432
       \u043A\u0430\u0440\u043C\u0430\u043D"
-    reverseBottomTextIfItem: 
     changeLifePointsIfItem: 0
     reverseSpriteIfNoItem: {fileID: 0}
     reverseTopTextIfNoItem: 
-    reverseBottomTextIfNoItem: 
     changeLifePointsIfNoItem: 0

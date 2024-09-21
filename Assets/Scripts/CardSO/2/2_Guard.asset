@@ -25,17 +25,17 @@ MonoBehaviour:
     animator: {fileID: 9100000, guid: a70de2b8e03ccd14ba861ac2b247dd17, type: 2}
     animationClip: {fileID: 7400000, guid: 8dca9e793794260469e273157ac22364, type: 2}
     itemSprite: {fileID: 0}
-    requiredItemSprite: {fileID: 21300000, guid: 3d0028b64a7695942a5fa11a39ffbbad, type: 3}
+    requiredItemSprite: {fileID: 0}
     removeItemSprite: 0
     changeBanner: 1
     locationSprite: {fileID: 21300000, guid: abbee1f62502fff4abc89216757fc7ef, type: 3}
     nextSetIfItem: {fileID: 11400000, guid: 5b8bb2d823ac7f64cadeed6172e26eb4, type: 2}
-    nextSetIfNoItem: {fileID: 11400000, guid: 97713ca7521477f4dba0d797498b9bd4, type: 2}
-    reverseSpriteIfItem: {fileID: 21300000, guid: 3d0028b64a7695942a5fa11a39ffbbad, type: 3}
+    nextSetIfNoItem: {fileID: 0}
+    reverseSpriteIfItem: {fileID: 21300000, guid: 0d38550f1ab6802478d5d50b01b3a758, type: 3}
     reverseTopTextIfItem: "\u0412\u044B \u0441\u043E\u0433\u043B\u0430\u0448\u0430\u0435\u0442\u0435\u0441\u044C
       \u043E\u0442\u043F\u0440\u0430\u0432\u0438\u0442\u044C\u0441\u044F \u0432 \u0437\u0430\u043C\u043E\u043A"
     changeLifePointsIfItem: 0
-    reverseSpriteIfNoItem: {fileID: 157236604, guid: e20da041102d9d44f890c4636c28b624, type: 3}
+    reverseSpriteIfNoItem: {fileID: 0}
     reverseTopTextIfNoItem: 
     changeLifePointsIfNoItem: 0
   rightCard:

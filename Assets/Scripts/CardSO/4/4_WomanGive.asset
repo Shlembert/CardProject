@@ -20,7 +20,7 @@ MonoBehaviour:
   leftCard:
     messageText: "\u041F\u0440\u043E\u0442\u044F\u043D\u0443\u0442\u044C \u0440\u0443\u043A\u0443
       \u0432 \u043E\u0442\u0432\u0435\u0442"
-    illustrationSprite: {fileID: 21300000, guid: ff908b6e1e30b3348865af0fca8b1635, type: 3}
+    illustrationSprite: {fileID: 21300000, guid: a984f1f38bd08444896a7fd4e94e8a0f, type: 3}
     animator: {fileID: 0}
     animationClip: {fileID: 0}
     itemSprite: {fileID: 0}
@@ -30,14 +30,12 @@ MonoBehaviour:
     locationSprite: {fileID: 0}
     nextSetIfItem: {fileID: 11400000, guid: 39f12e39bba61564b9ca68f94038f5b0, type: 2}
     nextSetIfNoItem: {fileID: 0}
-    reverseSpriteIfItem: {fileID: 0}
+    reverseSpriteIfItem: {fileID: 21300000, guid: 6e734b6a62002654e9d64b90ad2a1da6, type: 3}
     reverseTopTextIfItem: "\u0423 \u0436\u0435\u043D\u0449\u0438\u043D\u044B \u0432
       \u0440\u0443\u043A\u0435 \u0447\u0442\u043E \u0442\u043E \u0435\u0441\u0442\u044C"
-    reverseBottomTextIfItem: 
     changeLifePointsIfItem: 0
     reverseSpriteIfNoItem: {fileID: 0}
     reverseTopTextIfNoItem: 
-    reverseBottomTextIfNoItem: 
     changeLifePointsIfNoItem: 0
   rightCard:
     messageText: "\u041F\u0440\u043E\u0438\u0433\u043D\u043E\u0440\u0438\u0440\u043E\u0432\u0430\u0442\u044C
@@ -52,13 +50,11 @@ MonoBehaviour:
     locationSprite: {fileID: 21300000, guid: dabc19750805c6143a0fb000e46b6e38, type: 3}
     nextSetIfItem: {fileID: 11400000, guid: 92f33e50c6a9dfa41b83835b91648dc1, type: 2}
     nextSetIfNoItem: {fileID: 0}
-    reverseSpriteIfItem: {fileID: 0}
+    reverseSpriteIfItem: {fileID: 21300000, guid: 618350fd8e7223048aa5151b0674514e, type: 3}
     reverseTopTextIfItem: "\u0412\u044B \u0434\u0435\u043B\u0430\u0435\u0442\u0435
       \u0432\u0438\u0434 \u0447\u0442\u043E \u043D\u0435\u0437\u0430\u043C\u0435\u0447\u0430\u0442\u0435
       \u0435\u0435"
-    reverseBottomTextIfItem: 
     changeLifePointsIfItem: 0
     reverseSpriteIfNoItem: {fileID: 0}
     reverseTopTextIfNoItem: 
-    reverseBottomTextIfNoItem: 
     changeLifePointsIfNoItem: 0

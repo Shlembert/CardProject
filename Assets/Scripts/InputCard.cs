@@ -1,5 +1,6 @@
 using Cysharp.Threading.Tasks;
 using DG.Tweening;
+using System.Collections.Generic;
 using UnityEditor.Animations;
 using UnityEngine;
 using UnityEngine.EventSystems;
@@ -24,10 +25,15 @@ public class InputCard : MonoBehaviour, IPointerEnterHandler, IPointerExitHandle
         _transform = transform;
     }
 
+    private void OnEnable()
+    {
+        // Проверка позиции курсора при активации объекта
+        CheckCursorPosition();
+    }
+
     public void OnPointerEnter(PointerEventData eventData)
     {
         _transform.DOScale(_transform.localScale * 1.1f, 0.3f);
-        // Анимация при наведении
         if (_animationClip != null && _animator != null)
         {
             _animator.runtimeAnimatorController = AnimatorController;
@@ -40,11 +46,10 @@ public class InputCard : MonoBehaviour, IPointerEnterHandler, IPointerExitHandle
     public void OnPointerExit(PointerEventData eventData)
     {
         _transform.DOScale(Vector3.one, 0.3f);
-        // Отключение анимации с переходом на первый кадр
         if (_animationClip != null && _animator != null)
         {
-            _animator.Play(_animationClip.name, 0, 0f); // Вернуть на первый кадр
-            _animator.speed = 0f; // Остановить анимацию
+            _animator.Play(_animationClip.name, 0, 0f);
+            _animator.speed = 0f;
         }
     }
 
@@ -68,11 +73,9 @@ public class InputCard : MonoBehaviour, IPointerEnterHandler, IPointerExitHandle
         }
     }
 
-    // Клик по реверсу карты с последующим воспроизведением сценария
     private async void ClickReverse()
     {
         contentCard.ChangeCountHP();
-
         await contentCard.RemoveItemFromInventory();
 
         if (gameController.IsGameOver)
@@ -90,5 +93,28 @@ public class InputCard : MonoBehaviour, IPointerEnterHandler, IPointerExitHandle
         await UniTask.Delay(600);
         await contentCard.ShowBanner();
         await cardAnimation.ShowCards();
+    }
+
+    // Метод для проверки позиции курсора и вызова OnPointerEnter при необходимости
+    private void CheckCursorPosition()
+    {
+        PointerEventData pointerData = new PointerEventData(EventSystem.current)
+        {
+            position = Input.mousePosition
+        };
+
+        // Создаем список для хранения результатов рэйкаста
+        var results = new List<RaycastResult>();
+        EventSystem.current.RaycastAll(pointerData, results);
+
+        // Проверяем, содержит ли список данный объект
+        foreach (var result in results)
+        {
+            if (result.gameObject == gameObject)
+            {
+                OnPointerEnter(pointerData); // Принудительно вызываем событие OnPointerEnter
+                break;
+            }
+        }
     }
 }
