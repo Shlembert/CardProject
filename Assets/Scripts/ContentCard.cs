@@ -18,7 +18,7 @@ public class ContentCard : MonoBehaviour
 
     private CardSetScriptableObject _cardSetScriptableObject, _nextCardSetScriptableObject;
     private Sprite _giveItem, _haveItem, _location;
-
+    private AudioClip _reverseAudioClip, _bannerAudioClip;
     private int _changeLifeCount = 0;
     private bool _changeBanner;
     private bool _removeItem;
@@ -35,14 +35,18 @@ public class ContentCard : MonoBehaviour
         get => _nextCardSetScriptableObject;
         set => _nextCardSetScriptableObject = value;
     }
+
     public bool CheckRemove { get => _checkRemove; set => _checkRemove = value; }
+    public AudioClip ReverseAudioClip { get => _reverseAudioClip; set => _reverseAudioClip = value; }
+    public AudioClip BannerAudioClip { get => _bannerAudioClip; set => _bannerAudioClip = value; }
 
     public void SetContent(CardSetScriptableObject cardSetScriptableObject)
     {
         CardSetScriptableObject = cardSetScriptableObject;
         Debug.Log(cardSetScriptableObject.name);
         portraitSprite.sprite = cardSetScriptableObject?.portrait;
-
+        BannerAudioClip = null;
+        BannerAudioClip = cardSetScriptableObject?.bannerSound;
         input_L.AnimationClip = cardSetScriptableObject?.leftCard?.animationClip;
         input_L.AnimatorController = cardSetScriptableObject?.leftCard?.animator;
         illustrationSprite_L.sprite = cardSetScriptableObject?.leftCard?.illustrationSprite;
@@ -82,6 +86,8 @@ public class ContentCard : MonoBehaviour
             _removeItem = cardData.requiredItemSprite;
             reverseTopText.text = cardData.reverseTopTextIfItem;
             reverseSprite.sprite = cardData.reverseSpriteIfItem;
+            _reverseAudioClip = null;
+            _reverseAudioClip = cardData?.reverseAudioClipItem;
         }
         else                                       // Нет предмета
         {
@@ -89,6 +95,8 @@ public class ContentCard : MonoBehaviour
             _changeLifeCount = cardData.changeLifePointsIfNoItem;
             reverseTopText.text = cardData.reverseTopTextIfNoItem;
             reverseSprite.sprite= cardData.reverseSpriteIfNoItem;
+            _reverseAudioClip = null;
+            _reverseAudioClip = cardData?.reverseAudioClipNoItem;
         }
     }
 
@@ -99,6 +107,8 @@ public class ContentCard : MonoBehaviour
 
         reverseTopText.text = cardData.reverseTopTextIfItem;
         reverseSprite.sprite= cardData.reverseSpriteIfItem;
+        _reverseAudioClip = null;
+        _reverseAudioClip = cardData?.reverseAudioClipItem;
     }
 
     private void CheckGiveItem(CardData cardData)

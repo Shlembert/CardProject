@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: 3_ToCastleHow
   m_EditorClassIdentifier: 
   portrait: {fileID: 21300000, guid: 103e48c1276507d4db598e0bc9c93daa, type: 3}
+  bannerSound: {fileID: 8300000, guid: 03c86f07a45d03845a86c9907efebc77, type: 3}
   bannerText: "\u041A\u0430\u043A \u0431\u0443\u0434\u0435\u0442\u0435 \u0434\u043E\u0431\u0438\u0440\u0430\u0442\u044C\u0441\u044F
     \u0434\u043E \u0437\u0430\u043C\u043A\u0430?"
   checkPoint: 0
@@ -25,15 +26,17 @@ MonoBehaviour:
     itemSprite: {fileID: 0}
     requiredItemSprite: {fileID: 0}
     removeItemSprite: 0
-    changeBanner: 0
+    changeBanner: 1
     locationSprite: {fileID: 21300000, guid: dabc19750805c6143a0fb000e46b6e38, type: 3}
     nextSetIfItem: {fileID: 11400000, guid: 58f23042658130540ab0b31c6f41fe1a, type: 2}
     nextSetIfNoItem: {fileID: 0}
     reverseSpriteIfItem: {fileID: 21300000, guid: 0d38550f1ab6802478d5d50b01b3a758, type: 3}
+    reverseAudioClipItem: {fileID: 8300000, guid: 5be5dc475b4e5164dad12de2611d92de, type: 3}
     reverseTopTextIfItem: "\u0412\u044B \u0434\u043E\u0431\u0435\u0440\u0435\u0442\u0435\u0441\u044C
       \u0432 \u0437\u0430\u043C\u043E\u043A \u0441\u0430\u043C\u043E\u0441\u0442\u043E\u044F\u0442\u0435\u043B\u044C\u043D\u043E"
     changeLifePointsIfItem: 0
     reverseSpriteIfNoItem: {fileID: 0}
+    reverseAudioClipNoItem: {fileID: 0}
     reverseTopTextIfNoItem: 
     changeLifePointsIfNoItem: 0
   rightCard:
@@ -50,10 +53,12 @@ MonoBehaviour:
     nextSetIfItem: {fileID: 11400000, guid: 85238a8911380584c8c40590768b33b0, type: 2}
     nextSetIfNoItem: {fileID: 0}
     reverseSpriteIfItem: {fileID: 21300000, guid: 7f60b426711fdca4ba10cdb8b1f10ad7, type: 3}
+    reverseAudioClipItem: {fileID: 0}
     reverseTopTextIfItem: "\u0412\u044B \u0437\u0430\u043B\u0435\u0437\u0430\u0435\u0442\u0435
       \u0432 \u043F\u043E\u0432\u043E\u0437\u043A\u0443 \u0438 \u0435\u0434\u0435\u0442\u0435
       \u0432 \u0437\u0430\u043C\u043E\u043A"
     changeLifePointsIfItem: 0
     reverseSpriteIfNoItem: {fileID: 0}
+    reverseAudioClipNoItem: {fileID: 0}
     reverseTopTextIfNoItem: 
     changeLifePointsIfNoItem: 0

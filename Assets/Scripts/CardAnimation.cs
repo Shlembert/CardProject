@@ -6,25 +6,28 @@ public class CardAnimation : MonoBehaviour
 {
     [SerializeField] private Transform leftCard, rightCard, reverseCard;
     [SerializeField] private GameController gameController;
+    [SerializeField] private SoundController soundController;
     [SerializeField] private float duration;
 
     private Vector3 _normalPosLeft, _normalPosRight, _normalPosReverse;
     private InputCard _inputCard_L, _inputCard_R, _inputCard_Rev;
 
+    private void Awake()
+    {
+        _inputCard_L = leftCard.GetComponent<InputCard>();
+        _inputCard_R = rightCard.GetComponent<InputCard>();
+        _inputCard_Rev = reverseCard.GetComponent<InputCard>();
+    }
     private void Start()
     {
         _normalPosLeft = leftCard.position;
         _normalPosRight = rightCard.position;
         _normalPosReverse = reverseCard.position;
-
-        _inputCard_L = leftCard.GetComponent<InputCard>();
-        _inputCard_R = rightCard.GetComponent<InputCard>();
-        _inputCard_Rev = reverseCard.GetComponent<InputCard>();
-
-        InputCardActivate(false);
+        
         HideCard();
         leftCard.gameObject.SetActive(true);
         rightCard.gameObject.SetActive(true);
+        InputCardActivate(false);
     }
 
     private void InputCardActivate(bool active)
@@ -39,7 +42,7 @@ public class CardAnimation : MonoBehaviour
         var taskCompletionSource = new UniTaskCompletionSource();
 
         InputCardActivate(false);
-
+        soundController.PlayFlip();
         leftCard.DOMove(_normalPosLeft, duration, false).SetEase(Ease.OutBack);
         rightCard.DOMove(_normalPosRight, duration, false).SetEase(Ease.OutBack);
         leftCard.DOScale(0, duration).From();
@@ -64,8 +67,6 @@ public class CardAnimation : MonoBehaviour
         Transform currentCard = null;
         Transform holdCard = null;
         
-       // rightCard.localScale = Vector3.one;
-
         switch (cardType)
         {
             case CardType.Left:
@@ -79,7 +80,7 @@ public class CardAnimation : MonoBehaviour
         }
 
         InputCardActivate(false);
-
+        soundController.PlayFlip();
         holdCard.DOMove(_normalPosReverse, duration, false).SetEase(Ease.InBack);
         holdCard.DOScale(0.001f, duration);
         currentCard.DOScale(Vector3.one, 0.4f).OnComplete(() => 
@@ -90,6 +91,7 @@ public class CardAnimation : MonoBehaviour
                 {
                     reverseCard.localScale = Vector3.one;
                     reverseCard.position = currentCard.position;
+                    soundController.PlayReverseFlip();
                     reverseCard.DOScaleX(0.001f, 0.4f).From().OnComplete(() =>
                     {
                         holdCard.localScale = Vector3.one;

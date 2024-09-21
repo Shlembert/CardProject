@@ -11,6 +11,7 @@ public class StartButton : MonoBehaviour, IPointerEnterHandler, IPointerExitHand
     [SerializeField] private CardAnimation cardAnimation;
     [SerializeField] private BannerAnimation bannerAnimation;
     [SerializeField] private GameController gameController;
+    [SerializeField] private SoundController soundController;
     [SerializeField] private HPController hpController;
 
     [Space]
@@ -35,12 +36,12 @@ public class StartButton : MonoBehaviour, IPointerEnterHandler, IPointerExitHand
 
     public async void OnPointerDown(PointerEventData eventData)
     {
+        soundController.PlayClick();
         _transform.DOScale(Vector3.one, 0.2f);
         contentCard.SetContent(cardSetScriptableObject);
         cardAnimation.HideCard();
         bG.sprite = loadBg;
         await bannerAnimation.HideBanner();
-        // hpController.ChangeCountHP(3);
          gameController.HideMenu();
         await bannerAnimation.ShowBanner();
         await cardAnimation.ShowCards();

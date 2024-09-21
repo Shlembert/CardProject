@@ -9,6 +9,7 @@ public class InputCard : MonoBehaviour, IPointerEnterHandler, IPointerExitHandle
 {
     [SerializeField] private CardAnimation cardAnimation;
     [SerializeField] private ContentCard contentCard;
+    [SerializeField] private SoundController soundController;
     [SerializeField] private GameController gameController;
     [SerializeField] private CardType cardType;
     [SerializeField] private Animator _animator;
@@ -19,22 +20,21 @@ public class InputCard : MonoBehaviour, IPointerEnterHandler, IPointerExitHandle
 
     public AnimationClip AnimationClip { get => _animationClip; set => _animationClip = value; }
     public AnimatorController AnimatorController { get => _animatorController; set => _animatorController = value; }
-
-    private void Start()
+    
+    private async void Start()
     {
         _transform = transform;
-    }
+        // Ждем один кадр, чтобы убедиться, что все компоненты инициализированы
+        await UniTask.Yield();
 
-    private void OnEnable()
-    {
-        // Проверка позиции курсора при активации объекта
         CheckCursorPosition();
     }
 
     public void OnPointerEnter(PointerEventData eventData)
     {
         _transform.DOScale(_transform.localScale * 1.1f, 0.3f);
-        if (_animationClip != null && _animator != null)
+
+        if (_animationClip != null && _animator != null && _animatorController != null)
         {
             _animator.runtimeAnimatorController = AnimatorController;
             _animator.enabled = true;
@@ -46,7 +46,7 @@ public class InputCard : MonoBehaviour, IPointerEnterHandler, IPointerExitHandle
     public void OnPointerExit(PointerEventData eventData)
     {
         _transform.DOScale(Vector3.one, 0.3f);
-        if (_animationClip != null && _animator != null)
+        if (_animationClip != null && _animator != null && _animator.isActiveAndEnabled)
         {
             _animator.Play(_animationClip.name, 0, 0f);
             _animator.speed = 0f;
@@ -85,6 +85,8 @@ public class InputCard : MonoBehaviour, IPointerEnterHandler, IPointerExitHandle
         }
 
         await contentCard.SetItemToInventory();
+        soundController.PlaySoundClip(contentCard.ReverseAudioClip);
+        Debug.Log($"Звук реверса = {contentCard.ReverseAudioClip}");
         await cardAnimation.HoldReverseCard();
         await contentCard.HoldBanner();
         await contentCard.ChangeLocationSprite();

@@ -4,13 +4,9 @@ using UnityEngine;
 public class SoundController : MonoBehaviour
 {
     [SerializeField] private AudioSource musAudioSource, sfxAudioSource;
-    [SerializeField] private AudioClip gameMus, mapMus, menuMus, flipClip, tapClip;
+    [SerializeField] private AudioClip gameMus, mapMus, menuMus, flipClip, reverseClip, tapClip;
     [SerializeField] private float transitionDuration; // Время перехода
 
-    private void Start()
-    {
-       // musAudioSource.PlayOneShot(menuMus);
-    }
     public void PlayFlip()
     {
         sfxAudioSource.PlayOneShot(flipClip);
@@ -21,6 +17,17 @@ public class SoundController : MonoBehaviour
         sfxAudioSource.PlayOneShot(tapClip);
     }
 
+    public void PlaySoundClip(AudioClip clip)
+    {
+        if (clip) 
+        {
+            sfxAudioSource.PlayOneShot(clip);
+        } 
+    }
+    public void PlayReverseFlip()
+    {
+        sfxAudioSource.PlayOneShot(reverseClip);
+    }
     public void PlayMenuMusic()
     {
         StartCoroutine(FadeToNewMusic(menuMus));
@@ -50,7 +57,8 @@ public class SoundController : MonoBehaviour
         musAudioSource.Play();
 
         // Плавно увеличиваем громкость нового трека
-        yield return StartCoroutine(FadeIn());
+        // yield return StartCoroutine(FadeIn());
+        yield return null;
     }
 
     // Метод для плавного уменьшения громкости

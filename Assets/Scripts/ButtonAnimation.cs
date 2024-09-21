@@ -4,6 +4,7 @@ using UnityEngine.EventSystems;
 
 public class ButtonAnimation : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IPointerDownHandler, IPointerUpHandler
 {
+    [SerializeField] private SoundController _soundController;
     private Transform _transform;
 
     private void Start()
@@ -23,6 +24,7 @@ public class ButtonAnimation : MonoBehaviour, IPointerEnterHandler, IPointerExit
 
     public void OnPointerDown(PointerEventData eventData)
     {
+        _soundController.PlayClick();
         _transform.DOScale(_transform.localScale * 0.9f, 0.3f);
     }
 

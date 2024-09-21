@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: 7_Listen
   m_EditorClassIdentifier: 
   portrait: {fileID: 21300000, guid: ddc083d5e2d8f57429dd85db41dd597f, type: 3}
+  bannerSound: {fileID: 8300000, guid: f28846e54974e094b8e94c9baa47d443, type: 3}
   bannerText: "\u041E\u043D \u043F\u043E\u0441\u044B\u043B\u0430\u043B \u0441\u0430\u043C\u044B\u0445
     \u043B\u0443\u0447\u0448\u0438\u0445 \u0441\u0432\u043E\u0438\u0445 \u0440\u044B\u0446\u0430\u0440\u0435\u0439,\r\n\u043D\u043E
     \u043D\u0438\u043A\u0442\u043E \u0442\u0430\u043A \u0438 \u043D\u0435 \u0432\u0435\u0440\u043D\u0443\u043B\u0441\u044F
@@ -32,11 +33,13 @@ MonoBehaviour:
     nextSetIfItem: {fileID: 11400000, guid: 36ec482e521a14047ac7e0366c291f1c, type: 2}
     nextSetIfNoItem: {fileID: 0}
     reverseSpriteIfItem: {fileID: 21300000, guid: 592066b2e387cf644a83110937e7441b, type: 3}
+    reverseAudioClipItem: {fileID: 8300000, guid: 6f73de8f1a212c749b7207486f75f04a, type: 3}
     reverseTopTextIfItem: "\u0412\u044B \u043E\u0442\u0432\u0435\u0447\u0430\u0435\u0442\u0435
       \u0447\u0442\u043E \u0443 \u0432\u0430\u0441 \u043D\u0435\u0442 \u043D\u0430\u0441\u0442\u0440\u043E\u0435\u043D\u0438\u044F
       \u0434\u043B\u044F \u043F\u043E\u0434\u0432\u0438\u0433\u043E\u0432"
     changeLifePointsIfItem: 0
     reverseSpriteIfNoItem: {fileID: 0}
+    reverseAudioClipNoItem: {fileID: 0}
     reverseTopTextIfNoItem: "\u0430\u0431\u0440\u0430\u043A\u0430\u0434\u0430\u0440\u0431\u0430"
     changeLifePointsIfNoItem: 0
   rightCard:
@@ -53,11 +56,13 @@ MonoBehaviour:
     nextSetIfItem: {fileID: 11400000, guid: e64b0bf3c90906144bce3f9cd16dd9e0, type: 2}
     nextSetIfNoItem: {fileID: 0}
     reverseSpriteIfItem: {fileID: 21300000, guid: 7e8b41fa8e20e4b449c09a8b36815510, type: 3}
+    reverseAudioClipItem: {fileID: 0}
     reverseTopTextIfItem: "\u041A\u043E\u0440\u043E\u043B\u044C \u043E\u0431\u0440\u0430\u0434\u043E\u0432\u0430\u043D
       \u0432\u0430\u0448\u0435\u0439 \u0441\u0433\u043E\u0432\u043E\u0447\u0438\u0432\u043E\u0441\u0442\u044C\u044E
       \u0438 \u0434\u0430\u0440\u0443\u0435\u0442 \u0432\u0430\u043C \u0444\u0430\u043C\u0438\u043B\u044C\u043D\u044B\u0439
       \u043C\u0435\u0447"
     changeLifePointsIfItem: 0
     reverseSpriteIfNoItem: {fileID: 21300000, guid: 592066b2e387cf644a83110937e7441b, type: 3}
+    reverseAudioClipNoItem: {fileID: 0}
     reverseTopTextIfNoItem: "\u0430\u0431\u0440\u0430\u043A\u0430\u0434\u0430\u0440\u0431\u0430"
     changeLifePointsIfNoItem: 0

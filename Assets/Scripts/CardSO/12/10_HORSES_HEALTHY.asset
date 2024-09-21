@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: 10_HORSES_HEALTHY
   m_EditorClassIdentifier: 
   portrait: {fileID: 21300000, guid: 103e48c1276507d4db598e0bc9c93daa, type: 3}
+  bannerSound: {fileID: 0}
   bannerText: "\u0412 \u043A\u043E\u043D\u044E\u0448\u043D\u0435 2 \u043F\u043E\u0440\u043E\u0434\u044B
     \u043A\u043E\u043D\u0435\u0439, \u043A\u0430\u043A\u0438\u0445 \u0432\u043E\u0437\u044C\u043C\u0435\u0442\u0435"
   checkPoint: 0
@@ -25,15 +26,17 @@ MonoBehaviour:
     itemSprite: {fileID: 0}
     requiredItemSprite: {fileID: 0}
     removeItemSprite: 0
-    changeBanner: 0
+    changeBanner: 1
     locationSprite: {fileID: 0}
     nextSetIfItem: {fileID: 0}
     nextSetIfNoItem: {fileID: 0}
     reverseSpriteIfItem: {fileID: 0}
+    reverseAudioClipItem: {fileID: 0}
     reverseTopTextIfItem: "\u0412\u0437\u044F\u0442\u044C \u0442\u0440\u0435\u0445
       \u0432\u043E\u0440\u043E\u043D\u044B\u0445 \u043A\u043E\u043D\u0435\u0439"
     changeLifePointsIfItem: 0
     reverseSpriteIfNoItem: {fileID: 0}
+    reverseAudioClipNoItem: {fileID: 0}
     reverseTopTextIfNoItem: 
     changeLifePointsIfNoItem: 0
   rightCard:
@@ -50,10 +53,12 @@ MonoBehaviour:
     nextSetIfItem: {fileID: 0}
     nextSetIfNoItem: {fileID: 0}
     reverseSpriteIfItem: {fileID: 0}
+    reverseAudioClipItem: {fileID: 0}
     reverseTopTextIfItem: "\u0412\u0437\u044F\u0442\u044C \u0434\u0432\u0443\u0445
       \u0432\u043E\u0440\u043E\u043D\u044B\u0445 \u0438 \u043E\u0434\u043D\u0443
       \u0441\u0435\u0440\u0443\u044E \u043B\u043E\u0448\u0430\u0434\u044C"
     changeLifePointsIfItem: 0
     reverseSpriteIfNoItem: {fileID: 0}
+    reverseAudioClipNoItem: {fileID: 0}
     reverseTopTextIfNoItem: 
     changeLifePointsIfNoItem: 0

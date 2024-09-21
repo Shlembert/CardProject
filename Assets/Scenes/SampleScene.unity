@@ -4089,6 +4089,7 @@ MonoBehaviour:
   cardAnimation: {fileID: 991657347}
   bannerAnimation: {fileID: 1356118122}
   gameController: {fileID: 1825275744}
+  soundController: {fileID: 791171146}
   hpController: {fileID: 1650742178}
   cardSetScriptableObject: {fileID: 11400000, guid: 3004fe589ac54114b81f693a1092670f, type: 2}
 --- !u!1 &607471567
@@ -5043,6 +5044,7 @@ MonoBehaviour:
   cardAnimation: {fileID: 991657347}
   bannerAnimation: {fileID: 1356118122}
   gameController: {fileID: 1825275744}
+  soundController: {fileID: 791171146}
   hpController: {fileID: 1650742178}
   cardSetScriptableObject: {fileID: 11400000, guid: 3004fe589ac54114b81f693a1092670f, type: 2}
 --- !u!1 &678157956
@@ -5732,9 +5734,9 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: -4784325660963204449, guid: c3cf10b2e1955e947a78776b201e85cc, type: 2}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 6ac06e74ac653514787dd6c932c33451, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.4
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -5844,7 +5846,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 513456109327506112, guid: c3cf10b2e1955e947a78776b201e85cc, type: 2}
   m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -5943,11 +5945,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   musAudioSource: {fileID: 791171143}
   sfxAudioSource: {fileID: 791171143}
-  gameMus: {fileID: 8300000, guid: c5502d98ec758a9488cebf52f3fb1d42, type: 3}
-  mapMus: {fileID: 8300000, guid: 67248708460df3745a0115ce6d410cfe, type: 3}
-  menuMus: {fileID: 8300000, guid: 2ad34cc0c325bb94487427cee37e0775, type: 3}
-  flipClip: {fileID: 8300000, guid: fa150669e6a3f6c4b9917b4df63f2777, type: 3}
-  tapClip: {fileID: 8300000, guid: 7ef2d1e278dc75243b60718459149f37, type: 3}
+  gameMus: {fileID: 8300000, guid: 8ca9b5669510ab646bfcad58a32ee85d, type: 3}
+  mapMus: {fileID: 8300000, guid: 36f059927c4ce5a43a930b57dd08ede0, type: 3}
+  menuMus: {fileID: 8300000, guid: 6ac06e74ac653514787dd6c932c33451, type: 3}
+  flipClip: {fileID: 8300000, guid: 46641e12a05dde743910d232ca3fc4c3, type: 3}
+  reverseClip: {fileID: 8300000, guid: e8f893cf3a0b9b14cbe96a7898f9b814, type: 3}
+  tapClip: {fileID: 8300000, guid: 39aaab802645bf548865723195f3ea2e, type: 3}
   transitionDuration: 0.2
 --- !u!1 &818043687
 GameObject:
@@ -7093,6 +7096,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cardAnimation: {fileID: 991657347}
   contentCard: {fileID: 991657348}
+  soundController: {fileID: 0}
   gameController: {fileID: 1825275744}
   cardType: 0
   _animator: {fileID: 1920511664}
@@ -7537,6 +7541,7 @@ MonoBehaviour:
   rightCard: {fileID: 2129594369}
   reverseCard: {fileID: 1978738030}
   gameController: {fileID: 1825275744}
+  soundController: {fileID: 791171146}
   duration: 0.5
 --- !u!114 &991657348
 MonoBehaviour:
@@ -8149,19 +8154,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1102980887}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1825275744}
-        m_TargetAssemblyTypeName: GameController, Assembly-CSharp
-        m_MethodName: GoToMenu
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &1102980887
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8227,6 +8220,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 38134f30408be37489ef689138e8b4cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _soundController: {fileID: 791171146}
 --- !u!1 &1117279694
 GameObject:
   m_ObjectHideFlags: 0
@@ -9552,7 +9546,7 @@ GameObject:
   - component: {fileID: 1311905924}
   - component: {fileID: 1311905928}
   m_Layer: 5
-  m_Name: GoToMenu
+  m_Name: GoToMap
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9699,6 +9693,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 38134f30408be37489ef689138e8b4cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _soundController: {fileID: 791171146}
 --- !u!1 &1323836541
 GameObject:
   m_ObjectHideFlags: 0
@@ -10043,9 +10038,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0a97856d15f003345a53e545e21d5e5d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  portrait: {fileID: 151893748}
-  banner: {fileID: 1341956243}
-  panel: {fileID: 1356118120}
+  contentCard: {fileID: 991657348}
+  soundController: {fileID: 791171146}
+  textPanel: {fileID: 1341956243}
+  portret: {fileID: 1098485150}
   posHold: -6.5
   posShow: 1.15
   _normalPos: {x: 0, y: 0, z: 0}
@@ -10065,7 +10061,7 @@ GameObject:
   - component: {fileID: 1405645099}
   - component: {fileID: 1405645103}
   m_Layer: 5
-  m_Name: Menu
+  m_Name: GoToMenu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10212,6 +10208,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 38134f30408be37489ef689138e8b4cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _soundController: {fileID: 791171146}
 --- !u!1 &1416524277
 GameObject:
   m_ObjectHideFlags: 0
@@ -10639,6 +10636,7 @@ MonoBehaviour:
   contentCard: {fileID: 991657348}
   bG: {fileID: 1190085053}
   cardAnimation: {fileID: 991657347}
+  soundController: {fileID: 791171146}
   bannerAnimation: {fileID: 1356118122}
   gameController: {fileID: 1825275744}
   hpController: {fileID: 1650742178}
@@ -10895,6 +10893,7 @@ MonoBehaviour:
   contentCard: {fileID: 991657348}
   bG: {fileID: 1190085053}
   cardAnimation: {fileID: 991657347}
+  soundController: {fileID: 791171146}
   bannerAnimation: {fileID: 1356118122}
   gameController: {fileID: 1825275744}
   hpController: {fileID: 1650742178}
@@ -11821,6 +11820,7 @@ MonoBehaviour:
   contentCard: {fileID: 991657348}
   bG: {fileID: 1190085053}
   cardAnimation: {fileID: 991657347}
+  soundController: {fileID: 791171146}
   bannerAnimation: {fileID: 1356118122}
   gameController: {fileID: 1825275744}
   hpController: {fileID: 1650742178}
@@ -13088,6 +13088,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 38134f30408be37489ef689138e8b4cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _soundController: {fileID: 791171146}
 --- !u!1 &1825275743
 GameObject:
   m_ObjectHideFlags: 0
@@ -13669,6 +13670,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cardAnimation: {fileID: 991657347}
   contentCard: {fileID: 991657348}
+  soundController: {fileID: 791171146}
   gameController: {fileID: 1825275744}
   cardType: 2
   _animator: {fileID: 0}
@@ -14636,6 +14638,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cardAnimation: {fileID: 991657347}
   contentCard: {fileID: 991657348}
+  soundController: {fileID: 0}
   gameController: {fileID: 1825275744}
   cardType: 1
   _animator: {fileID: 1280449570}

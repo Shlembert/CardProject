@@ -20,6 +20,7 @@ public class CardSetScriptableObjectEditor : Editor
         // Поля для сетов
         EditorGUILayout.LabelField("Информация о сете", _boldStyle);
         EditorGUILayout.PropertyField(serializedObject.FindProperty("portrait"), new GUIContent("Портрет"));
+        EditorGUILayout.PropertyField(serializedObject.FindProperty("bannerSound"), new GUIContent("Звук портрета"));
         EditorGUILayout.PropertyField(serializedObject.FindProperty("bannerText"), new GUIContent("Текст баннера"));
 
         EditorGUILayout.Space();
@@ -65,6 +66,7 @@ public class CardSetScriptableObjectEditor : Editor
 
         // Реверс карты (если предмет есть)
         EditorGUILayout.PropertyField(serializedObject.FindProperty($"{cardPropertyPath}.reverseSpriteIfItem"), new GUIContent("Спрайт реверса"));
+        EditorGUILayout.PropertyField(serializedObject.FindProperty($"{cardPropertyPath}.reverseAudioClipItem"), new GUIContent("Звук реверса"));
         EditorGUILayout.PropertyField(serializedObject.FindProperty($"{cardPropertyPath}.reverseTopTextIfItem"), new GUIContent("Текст реверса"));
         EditorGUILayout.PropertyField(serializedObject.FindProperty($"{cardPropertyPath}.changeLifePointsIfItem"), new GUIContent("Изменить очки жизни"));
 
@@ -72,6 +74,7 @@ public class CardSetScriptableObjectEditor : Editor
 
         // Реверс карты (если предмета нет)
         EditorGUILayout.PropertyField(serializedObject.FindProperty($"{cardPropertyPath}.reverseSpriteIfNoItem"), new GUIContent("Спрайт реверса"));
+        EditorGUILayout.PropertyField(serializedObject.FindProperty($"{cardPropertyPath}.reverseAudioClipNoItem"), new GUIContent("Звук реверса"));
         EditorGUILayout.PropertyField(serializedObject.FindProperty($"{cardPropertyPath}.reverseTopTextIfNoItem"), new GUIContent("Текст реверса"));
         EditorGUILayout.PropertyField(serializedObject.FindProperty($"{cardPropertyPath}.changeLifePointsIfNoItem"), new GUIContent("Изменить очки жизни"));
     }

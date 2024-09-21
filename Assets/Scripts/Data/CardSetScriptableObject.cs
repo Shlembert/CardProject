@@ -4,6 +4,7 @@ using UnityEngine;
 public class CardSetScriptableObject : ScriptableObject
 {
     public Sprite portrait; // Портрет для сета
+    public AudioClip bannerSound; // Звук баннера
     [TextArea(3, 3)] public string bannerText; // Текст на баннере
     public bool checkPoint; // Индекс активации чепоинта
 

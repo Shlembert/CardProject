@@ -8,6 +8,7 @@ public class MapButton : MonoBehaviour, IPointerEnterHandler, IPointerExitHandle
     [SerializeField] private ContentCard contentCard;
     [SerializeField] private Image bG;
     [SerializeField] private CardAnimation cardAnimation;
+    [SerializeField] private SoundController soundController;
     [SerializeField] private BannerAnimation bannerAnimation;
     [SerializeField] private GameController gameController;
     [SerializeField] private HPController hpController;
@@ -40,6 +41,7 @@ public class MapButton : MonoBehaviour, IPointerEnterHandler, IPointerExitHandle
 
     public async void OnPointerDown(PointerEventData eventData)
     {
+        soundController.PlayClick();
         _transform.DOScale(Vector3.one, 0.2f);
         contentCard.SetContent(_checkPoint.CardSetScriptableObject);
         cardAnimation.HideCard();
