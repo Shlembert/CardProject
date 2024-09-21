@@ -13,6 +13,7 @@ public class RestartButton : MonoBehaviour, IPointerEnterHandler, IPointerExitHa
     [SerializeField] private GameController gameController;
     [SerializeField] private SoundController soundController;
     [SerializeField] private HPController hpController;
+    [SerializeField] private InventoryController inventoryController;
 
     [Space]
     [SerializeField] private CardSetScriptableObject cardSetScriptableObject;
@@ -37,6 +38,8 @@ public class RestartButton : MonoBehaviour, IPointerEnterHandler, IPointerExitHa
     public async void OnPointerDown(PointerEventData eventData)
     {
         soundController.PlayClick();
+        hpController.ChangeCountHP(3);
+        inventoryController.ClearInventory();
         _transform.DOScale(Vector3.one, 0.2f);
         contentCard.SetContent(cardSetScriptableObject);
         cardAnimation.HideCard();

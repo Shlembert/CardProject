@@ -17,10 +17,11 @@ public class InputCard : MonoBehaviour, IPointerEnterHandler, IPointerExitHandle
     private Transform _transform;
     private AnimationClip _animationClip;
     private AnimatorController _animatorController;
-
+    private bool _isClick = false;
     public AnimationClip AnimationClip { get => _animationClip; set => _animationClip = value; }
     public AnimatorController AnimatorController { get => _animatorController; set => _animatorController = value; }
-    
+    public bool IsClick { get => _isClick; set => _isClick = value; }
+
     private async void Start()
     {
         _transform = transform;
@@ -69,12 +70,14 @@ public class InputCard : MonoBehaviour, IPointerEnterHandler, IPointerExitHandle
         }
         else
         {
+            if (IsClick) return;
             ClickReverse();
         }
     }
 
     private async void ClickReverse()
     {
+        IsClick = true;
         contentCard.ChangeCountHP();
         await contentCard.RemoveItemFromInventory();
 
@@ -83,11 +86,12 @@ public class InputCard : MonoBehaviour, IPointerEnterHandler, IPointerExitHandle
             gameController.IsGameOver = false;
             return;
         }
-
+        
         await contentCard.SetItemToInventory();
         soundController.PlaySoundClip(contentCard.ReverseAudioClip);
         Debug.Log($"Звук реверса = {contentCard.ReverseAudioClip}");
         await cardAnimation.HoldReverseCard();
+       
         await contentCard.HoldBanner();
         await contentCard.ChangeLocationSprite();
         contentCard.SetContent(contentCard.NextCardSetScriptableObject);
@@ -95,6 +99,7 @@ public class InputCard : MonoBehaviour, IPointerEnterHandler, IPointerExitHandle
         await UniTask.Delay(600);
         await contentCard.ShowBanner();
         await cardAnimation.ShowCards();
+        IsClick = false;
     }
 
     // Метод для проверки позиции курсора и вызова OnPointerEnter при необходимости

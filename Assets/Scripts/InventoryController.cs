@@ -8,6 +8,7 @@ public class InventoryController : MonoBehaviour
     private Transform _target, _itemTransform;
     private CardData _cardData;
     public Transform Target { get => _target; set => _target = value; }
+   
 
     // Проверка, есть ли предмет
     public bool CheckHaveItem(CardData cardData)
@@ -53,6 +54,15 @@ public class InventoryController : MonoBehaviour
             if (!image.enabled) return image.transform;
         }
         return target;
+    }
+
+    public void ClearInventory() 
+    { 
+        foreach(Image image in inventory)
+        {
+            image.sprite = null;
+            image.enabled = false;
+        }
     }
 
     // Удаление предмета из инвентаря
@@ -130,5 +140,4 @@ public class InventoryController : MonoBehaviour
             }
         }
     }
-
 }

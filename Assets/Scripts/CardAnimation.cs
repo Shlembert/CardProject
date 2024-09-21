@@ -91,6 +91,7 @@ public class CardAnimation : MonoBehaviour
                 {
                     reverseCard.localScale = Vector3.one;
                     reverseCard.position = currentCard.position;
+                    _inputCard_Rev.IsClick = false;
                     soundController.PlayReverseFlip();
                     reverseCard.DOScaleX(0.001f, 0.4f).From().OnComplete(() =>
                     {

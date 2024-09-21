@@ -4091,6 +4091,7 @@ MonoBehaviour:
   gameController: {fileID: 1825275744}
   soundController: {fileID: 791171146}
   hpController: {fileID: 1650742178}
+  inventoryController: {fileID: 70427095}
   cardSetScriptableObject: {fileID: 11400000, guid: 3004fe589ac54114b81f693a1092670f, type: 2}
 --- !u!1 &607471567
 GameObject:
