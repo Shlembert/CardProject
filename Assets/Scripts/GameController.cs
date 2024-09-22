@@ -1,5 +1,6 @@
 using Cysharp.Threading.Tasks;
 using DG.Tweening;
+using I2.Loc;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -20,6 +21,7 @@ public class GameController : MonoBehaviour
 
     private void Start()
     {
+        LocalizationManager.CurrentLanguageCode = "ru";
         _imageHold = holdPanel.GetComponent<Image>();
         _normalColorHold = _imageHold.color;
         _positionUp = new Vector3(0, posUp, 0);

@@ -9,6 +9,7 @@ public class BannerAnimation : MonoBehaviour
     [SerializeField] private Transform textPanel, portret;
     [SerializeField] private float posHold, posShow;
     [SerializeField] private Vector3 _normalPos, _holdPos;
+    [SerializeField] private int delay;
 
     private float _normalPosX;
     private Color _normalColor;
@@ -23,7 +24,6 @@ public class BannerAnimation : MonoBehaviour
 
     public async UniTask ShowBanner()
     {
-        // »спользуем UniTaskCompletionSource дл€ завершени€ таска после анимации
         var taskCompletionSource = new UniTaskCompletionSource();
 
         portret.position = _normalPos;
@@ -31,8 +31,8 @@ public class BannerAnimation : MonoBehaviour
         portret.DOScale(0, 0.7f).SetEase(Ease.OutBack).From().OnComplete(async () =>
         {
             await ShowMessageBanner();
-            await UniTask.Delay(1000);
-            taskCompletionSource.TrySetResult();
+            await UniTask.Delay(delay);
+            taskCompletionSource.TrySetResult();  // «авершаем таск
         });
 
         await taskCompletionSource.Task; // ќжидаем завершени€ анимации
@@ -40,7 +40,6 @@ public class BannerAnimation : MonoBehaviour
 
     public async UniTask HideBanner()
     {
-        // »спользуем UniTaskCompletionSource дл€ завершени€ таска после анимации
         var taskCompletionSource = new UniTaskCompletionSource();
 
         textPanel.DOMoveX(posHold, 0.5f, false).OnComplete(() =>
@@ -58,7 +57,6 @@ public class BannerAnimation : MonoBehaviour
 
     public async UniTask ShowMessageBanner()
     {
-        // »спользуем UniTaskCompletionSource дл€ завершени€ таска после анимации
         var taskCompletionSource = new UniTaskCompletionSource();
         soundController.PlaySoundClip(contentCard.BannerAudioClip);
         textPanel.DOMoveX(posShow, 0.5f, false).OnComplete(() =>
@@ -71,7 +69,6 @@ public class BannerAnimation : MonoBehaviour
 
     public async UniTask HideMessageBanner()
     {
-        // »спользуем UniTaskCompletionSource дл€ завершени€ таска после анимации
         var taskCompletionSource = new UniTaskCompletionSource();
 
         textPanel.DOMoveX(posHold, 0.5f, false).OnComplete(() =>

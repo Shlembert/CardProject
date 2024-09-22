@@ -5582,6 +5582,7 @@ GameObject:
   - component: {fileID: 784295104}
   - component: {fileID: 784295106}
   - component: {fileID: 784295105}
+  - component: {fileID: 784295107}
   m_Layer: 5
   m_Name: TopText
   m_TagString: Untagged
@@ -5706,6 +5707,46 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 784295103}
   m_CullTransparentMesh: 1
+--- !u!114 &784295107
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 784295103}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 344445a89b4f74a0e9a0a766903df87e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mTerm: "\u041A\u0430\u043A\u043E\u0439 \u0442\u043E \u0442\u0443\u0442 \u0442\u0435\u043A\u0441\u0442
+    \u0438 \u0432 \u043D\u0435\u043C \u0447\u0442\u043E \u0442\u043E \u043D\u0430\u043F\u0438\u0441\u0430\u043D\u043E"
+  mTermSecondary: 
+  PrimaryTermModifier: 0
+  SecondaryTermModifier: 0
+  TermPrefix: 
+  TermSuffix: 
+  LocalizeOnAwake: 1
+  IgnoreRTL: 0
+  MaxCharactersInRTL: 0
+  IgnoreNumbersInRTL: 1
+  CorrectAlignmentForRTL: 1
+  AddSpacesToJoinedLanguages: 0
+  AllowLocalizedParameters: 1
+  AllowParameters: 1
+  TranslatedObjects: []
+  LocalizeEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  AlwaysForceLocalize: 0
+  LocalizeCallBack:
+    Target: {fileID: 0}
+    MethodName: 
+  mGUI_ShowReferences: 0
+  mGUI_ShowTems: 1
+  mGUI_ShowCallback: 0
+  mLocalizeTarget: {fileID: 1067614903}
+  mLocalizeTargetName: I2.Loc.LocalizeTarget_TextMeshPro_UGUI
 --- !u!1 &791171142
 GameObject:
   m_ObjectHideFlags: 0
@@ -7784,6 +7825,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1040409908}
   m_CullTransparentMesh: 1
+--- !u!114 &1067614903
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 481ab606793a67349be805c13febeba0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mTarget: {fileID: 784295105}
+  mAlignment_RTL: 514
+  mAlignment_LTR: 514
+  mAlignmentWasRTL: 0
+  mInitializeAlignment: 0
 --- !u!1 &1074325419
 GameObject:
   m_ObjectHideFlags: 0
@@ -9261,7 +9319,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -10047,6 +10105,7 @@ MonoBehaviour:
   posShow: 1.15
   _normalPos: {x: 0, y: 0, z: 0}
   _holdPos: {x: 0, y: 10, z: 0}
+  delay: 1000
 --- !u!1 &1405645097
 GameObject:
   m_ObjectHideFlags: 0
