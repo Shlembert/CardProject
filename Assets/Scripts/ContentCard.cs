@@ -57,9 +57,7 @@ public class ContentCard : MonoBehaviour
         input_R.AnimatorController = cardSetScriptableObject?.rightCard?.animator;
         illustrationSprite_R.sprite = cardSetScriptableObject?.rightCard?.illustrationSprite;
 
-        //bannerText.text = cardSetScriptableObject?.bannerText;
-        //cartText_L.text = cardSetScriptableObject?.leftCard.messageText;
-        //cardText_R.text = cardSetScriptableObject?.rightCard.messageText;
+       
         bannerLoc.Term = cardSetScriptableObject?.bannerText;
         cardLoc_L.Term = cardSetScriptableObject?.leftCard?.messageText;
         cardLoc_R.Term = cardSetScriptableObject?.rightCard?.messageText;
@@ -89,7 +87,7 @@ public class ContentCard : MonoBehaviour
 
             _haveItem = cardData.requiredItemSprite;
             _removeItem = cardData.requiredItemSprite;
-            reverseTopText.text = cardData.reverseTopTextIfItem;
+            reverseLoc.Term = cardData.reverseTopTextIfItem;
             reverseSprite.sprite = cardData.reverseSpriteIfItem;
             _reverseAudioClip = null;
             _reverseAudioClip = cardData?.reverseAudioClipItem;
@@ -98,7 +96,7 @@ public class ContentCard : MonoBehaviour
         {
             NextCardSetScriptableObject = cardData.nextSetIfNoItem;
             _changeLifeCount = cardData.changeLifePointsIfNoItem;
-            reverseTopText.text = cardData.reverseTopTextIfNoItem;
+            reverseLoc.Term = cardData.reverseTopTextIfNoItem;
             reverseSprite.sprite= cardData.reverseSpriteIfNoItem;
             _reverseAudioClip = null;
             _reverseAudioClip = cardData?.reverseAudioClipNoItem;
@@ -109,8 +107,7 @@ public class ContentCard : MonoBehaviour
     {
         NextCardSetScriptableObject = cardData.nextSetIfItem;
         _changeLifeCount = cardData.changeLifePointsIfItem;
-
-        reverseTopText.text = cardData.reverseTopTextIfItem;
+        reverseLoc.Term = cardData.reverseTopTextIfItem;
         reverseSprite.sprite= cardData.reverseSpriteIfItem;
         _reverseAudioClip = null;
         _reverseAudioClip = cardData?.reverseAudioClipItem;

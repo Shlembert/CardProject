@@ -223,6 +223,23 @@ MonoBehaviour:
       - 
       Flags: 0000000000000000000000
       Languages_Touch: []
+    - Term: s2bunner
+      TermType: 0
+      Description: 
+      Languages:
+      - 2 Bunner
+      - "\u0411\u0430\u043D\u043D\u0435\u0440 \u0412\u0442\u043E\u0440\u043E\u0439"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 0000000000000000000000
+      Languages_Touch: []
     CaseInsensitiveTerms: 0
     OnMissingTranslation: 1
     mTerm_AppName: 
