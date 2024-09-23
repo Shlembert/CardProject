@@ -1,4 +1,5 @@
 using Cysharp.Threading.Tasks;
+using I2.Loc;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -7,6 +8,7 @@ public class ContentCard : MonoBehaviour
 {
     [SerializeField] private Image portraitSprite, illustrationSprite_L, illustrationSprite_R, reverseSprite, locationSprite;
     [SerializeField] private TMP_Text bannerText, reverseTopText, cartText_L, cardText_R;
+    [SerializeField] private Localize bannerLoc, reverseLoc, cardLoc_L, cardLoc_R;
     [SerializeField] private InventoryController inventoryController;
     [SerializeField] private InputCard input_L, input_R;
     [SerializeField] private MapController mapController;
@@ -55,9 +57,12 @@ public class ContentCard : MonoBehaviour
         input_R.AnimatorController = cardSetScriptableObject?.rightCard?.animator;
         illustrationSprite_R.sprite = cardSetScriptableObject?.rightCard?.illustrationSprite;
 
-        bannerText.text = cardSetScriptableObject?.bannerText;
-        cartText_L.text = cardSetScriptableObject?.leftCard.messageText;
-        cardText_R.text = cardSetScriptableObject?.rightCard.messageText;
+        //bannerText.text = cardSetScriptableObject?.bannerText;
+        //cartText_L.text = cardSetScriptableObject?.leftCard.messageText;
+        //cardText_R.text = cardSetScriptableObject?.rightCard.messageText;
+        bannerLoc.Term = cardSetScriptableObject?.bannerText;
+        cardLoc_L.Term = cardSetScriptableObject?.leftCard?.messageText;
+        cardLoc_R.Term = cardSetScriptableObject?.rightCard?.messageText;
 
         if (cardSetScriptableObject.checkPoint) mapController.ActivateCheckPoint();
     }

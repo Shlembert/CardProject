@@ -1,0 +1,14 @@
+Key,Desc,English,Russian,Chinese (Simplified),French,German,Italian,Japanese,Korean,Spanish,Turkish,Ukrainian
+ButtonStart,,Start,Старт,,,,,,,,,
+ButtonRestart,,Restart,Рестарт,,,,,,,,,
+ButtonMenu,,To Menu,В Меню,,,,,,,,,
+ButtonBack,,Back,Назад,,,,,,,,,
+ButtonMap,,To Map,На Карту,,,,,,,,,
+s1bunner,,Set 1 Bunner,Пара 1 Баннер,,,,,,,,,
+s1cardLeft,,Set 1 Card Left,Пара 1 Карта Левая,,,,,,,,,
+s1cardRight,,Set 1 Card Right,Пара 1 Карта Правая,,,,,,,,,
+s1revL,,Set 1 Reverse Left,Пара 1 Реверс Левый,,,,,,,,,
+s1revR,,Set 1 Reverse Right,Пара 1 Реверс Правый,,,,,,,,,
+s1revLno,,Set 1 Reverse Left No Item,Пара 1 Реверс Левый Нет предмета,,,,,,,,,
+s1revRno,,Set 1 Reverse Right No Item,Пара 1 Реверс Правый Нет предмета,,,,,,,,,
+,,en,ru,zh-CN,fr,de,it,ja,ko,es,tr,uk
