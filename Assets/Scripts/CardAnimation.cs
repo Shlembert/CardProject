@@ -49,10 +49,16 @@ public class CardAnimation : MonoBehaviour
         rightCard.DOScale(0, duration).From().OnComplete(() =>
         {
             InputCardActivate(true);
+
+            // Проверяем позицию курсора после активации карт
+            _inputCard_L.CheckCursorPosition();
+            _inputCard_R.CheckCursorPosition();
+
             taskCompletionSource.TrySetResult(); // Завершаем таск
         });
         await taskCompletionSource.Task; // Ожидаем завершения анимации
     }
+
 
     public void HideCard()
     {
@@ -93,8 +99,10 @@ public class CardAnimation : MonoBehaviour
                     reverseCard.position = currentCard.position;
                     _inputCard_Rev.IsClick = false;
                     soundController.PlayReverseFlip();
+
                     reverseCard.DOScaleX(0.001f, 0.4f).From().OnComplete(() =>
                     {
+                        _inputCard_Rev.CheckCursorPosition();
                         holdCard.localScale = Vector3.one;
                         currentCard.position = _normalPosReverse;
                         currentCard.localScale = Vector3.one;

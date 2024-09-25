@@ -27,8 +27,6 @@ public class InputCard : MonoBehaviour, IPointerEnterHandler, IPointerExitHandle
         _transform = transform;
         // Ждем один кадр, чтобы убедиться, что все компоненты инициализированы
         await UniTask.Yield();
-
-        CheckCursorPosition();
     }
 
     public void OnPointerEnter(PointerEventData eventData)
@@ -103,7 +101,7 @@ public class InputCard : MonoBehaviour, IPointerEnterHandler, IPointerExitHandle
     }
 
     // Метод для проверки позиции курсора и вызова OnPointerEnter при необходимости
-    private void CheckCursorPosition()
+    public void CheckCursorPosition()
     {
         PointerEventData pointerData = new PointerEventData(EventSystem.current)
         {

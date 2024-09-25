@@ -7,7 +7,6 @@ using UnityEngine.UI;
 public class ContentCard : MonoBehaviour
 {
     [SerializeField] private Image portraitSprite, illustrationSprite_L, illustrationSprite_R, reverseSprite, locationSprite;
-    [SerializeField] private TMP_Text bannerText, reverseTopText, cartText_L, cardText_R;
     [SerializeField] private Localize bannerLoc, reverseLoc, cardLoc_L, cardLoc_R;
     [SerializeField] private InventoryController inventoryController;
     [SerializeField] private InputCard input_L, input_R;

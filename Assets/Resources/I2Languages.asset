@@ -107,7 +107,8 @@ MonoBehaviour:
       Description: 
       Languages:
       - Set 1 Bunner
-      - "\u041F\u0430\u0440\u0430 1 \u0411\u0430\u043D\u043D\u0435\u0440"
+      - "\u0412\u044B \u0441\u043B\u044B\u0448\u0438\u0442\u0435 \u0441\u0442\u0443\u043A
+        \u0432 \u0434\u0432\u0435\u0440\u044C"
       - 
       - 
       - 
@@ -124,7 +125,7 @@ MonoBehaviour:
       Description: 
       Languages:
       - Set 1 Card Left
-      - "\u041F\u0430\u0440\u0430 1 \u041A\u0430\u0440\u0442\u0430 \u041B\u0435\u0432\u0430\u044F"
+      - "\u041E\u0442\u043A\u0440\u044B\u0442\u044C \u0434\u0432\u0435\u0440\u044C"
       - 
       - 
       - 
@@ -141,7 +142,7 @@ MonoBehaviour:
       Description: 
       Languages:
       - Set 1 Card Right
-      - "\u041F\u0430\u0440\u0430 1 \u041A\u0430\u0440\u0442\u0430 \u041F\u0440\u0430\u0432\u0430\u044F"
+      - "\u0412\u044B\u043B\u0435\u0437\u0442\u0438 \u0432 \u043E\u043A\u043D\u043E"
       - 
       - 
       - 
@@ -158,7 +159,8 @@ MonoBehaviour:
       Description: 
       Languages:
       - Set 1 Reverse Left
-      - "\u041F\u0430\u0440\u0430 1 \u0420\u0435\u0432\u0435\u0440\u0441 \u041B\u0435\u0432\u044B\u0439"
+      - "\u0412\u044B \u043D\u0435\u0445\u043E\u0442\u044F \u0432\u0441\u0442\u0430\u0435\u0442\u0435
+        \u0441 \u043A\u0440\u043E\u0432\u0430\u0442\u0438"
       - 
       - 
       - 
@@ -175,7 +177,10 @@ MonoBehaviour:
       Description: 
       Languages:
       - Set 1 Reverse Right
-      - "\u041F\u0430\u0440\u0430 1 \u0420\u0435\u0432\u0435\u0440\u0441 \u041F\u0440\u0430\u0432\u044B\u0439"
+      - "\u0412 \u044D\u0442\u043E\u043C \u0434\u0435\u043C\u043E \u043D\u0435 \u0434\u043E\u0441\u0442\u0443\u043F\u043D\u0430
+        \u0432\u0435\u0442\u043A\u0430 \u0441 \u043E\u043A\u043D\u043E\u043C\n\u041D\u043E
+        \u043C\u044B \u0443\u0436\u0435 \u0440\u0430\u0431\u043E\u0442\u0430\u0435\u043C
+        \u043D\u0430\u0434 \u043D\u0435\u0439"
       - 
       - 
       - 
@@ -223,12 +228,1429 @@ MonoBehaviour:
       - 
       Flags: 0000000000000000000000
       Languages_Touch: []
-    - Term: s2bunner
+    - Term: 2_guard_bunner
       TermType: 0
       Description: 
       Languages:
       - 2 Bunner
-      - "\u0411\u0430\u043D\u043D\u0435\u0440 \u0412\u0442\u043E\u0440\u043E\u0439"
+      - "\u0417\u0430 \u0434\u0432\u0435\u0440\u044C\u044E \u043E\u043A\u0430\u0437\u0430\u043B\u0430\u0441\u044C
+        \u043A\u043E\u0440\u043E\u043B\u0435\u0432\u0441\u043A\u0430\u044F \u0441\u0442\u0440\u0430\u0436\u0430\n\u0422\u0440\u0435\u0431\u0443\u044E\u0442
+        \u0447\u0442\u043E \u0431\u044B \u0432\u044B \u043E\u0442\u043F\u0440\u0430\u0432\u0438\u043B\u0438\u0441\u044C
+        \u0432\u043E \u0434\u0432\u043E\u0440\u0435\u0446"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 0000000000000000000000
+      Languages_Touch: []
+    - Term: 2_Guard_cardLeft
+      TermType: 0
+      Description: 
+      Languages:
+      - Agree to go
+      - "\u0421\u043E\u0433\u043B\u0430\u0441\u0438\u0442\u044C\u0441\u044F \u043F\u043E\u0439\u0442\u0438"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 0000000000000000000000
+      Languages_Touch: []
+    - Term: 2_Guard_cardLeft_REV
+      TermType: 0
+      Description: 
+      Languages:
+      - You agree to go to the palace
+      - "\u0412\u044B \u0441\u043E\u0433\u043B\u0430\u0448\u0430\u0435\u0442\u0435\u0441\u044C
+        \u043E\u0442\u043F\u0440\u0430\u0432\u0438\u0442\u044C\u0441\u044F \u0432\u043E
+        \u0434\u0432\u043E\u0440\u0435\u0446"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 0000000000000000000000
+      Languages_Touch: []
+    - Term: 2_Guard_cardRight
+      TermType: 0
+      Description: 
+      Languages:
+      - Slam the door in their face
+      - "\u0425\u043B\u043E\u043F\u043D\u0443\u0442\u044C \u0434\u0432\u0435\u0440\u044C\u044E
+        \u0443 \u043D\u0438\u0445 \u043F\u0435\u0440\u0435\u0434 \u043D\u043E\u0441\u043E\u043C\n"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 0000000000000000000000
+      Languages_Touch: []
+    - Term: 2_Guard_cardRight_REV
+      TermType: 0
+      Description: 
+      Languages:
+      - Making a face, you slam the door in front of the guards, the guards didn't
+        like it
+      - "\u0421\u043A\u043E\u0440\u0447\u0438\u0432 \u0444\u0438\u0437\u0438\u043E\u043D\u043E\u043C\u0438\u044E,
+        \u0432\u044B \u0445\u043B\u043E\u043F\u0430\u0435\u0442\u0435 \u0434\u0432\u0435\u0440\u044C\u044E
+        \u043F\u0435\u0440\u0435\u0434 \u043D\u043E\u0441\u043E\u043C \u0443 \u0441\u0442\u0440\u0430\u0436\u043D\u0438\u043A\u043E\u0432,
+        \u0441\u0442\u0440\u0430\u0436\u0435 \u044D\u0442\u043E \u043D\u0435 \u043F\u043E\u043D\u0440\u0430\u0432\u0438\u043B\u043E\u0441\u044C"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 0000000000000000000000
+      Languages_Touch: []
+    - Term: 3_GuardSlamDoor_bunner
+      TermType: 0
+      Description: 
+      Languages:
+      - "The guards kicked down the door and now\n You are going to the castle under
+        guard"
+      - "\u0421\u0442\u0440\u0430\u0436\u0430 \u0432\u044B\u0431\u0438\u043B\u0430
+        \u0434\u0432\u0435\u0440\u044C \u0438 \u0442\u0435\u043F\u0435\u0440\u044C\n
+        \u0432\u044B \u0435\u0434\u0435\u0442\u0435 \u0432 \u0437\u0430\u043C\u043E\u043A
+        \u043F\u043E\u0434 \u0441\u0442\u0440\u0430\u0436\u0435\u0439"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 0000000000000000000000
+      Languages_Touch: []
+    - Term: 3_GuardSlamDoor_cardLeft
+      TermType: 0
+      Description: 
+      Languages:
+      - Sit closer to the edge of the cart
+      - "\u0421\u0435\u0441\u0442\u044C \u0431\u043B\u0438\u0436\u0435 \u043A \u043A\u0440\u0430\u044E
+        \u043F\u043E\u0432\u043E\u0437\u043A\u0438"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 0000000000000000000000
+      Languages_Touch: []
+    - Term: 3_GuardSlamDoor_cardLeft_REV
+      TermType: 0
+      Description: 
+      Languages:
+      - You sit closer to the edge of the cart so as not to annoy the guards
+      - "\u0412\u044B \u0441\u0430\u0434\u0438\u0442\u0435\u0441\u044C \u0431\u043B\u0438\u0436\u0435
+        \u043A \u043A\u0440\u0430\u044E \u043F\u043E\u0432\u043E\u0437\u043A\u0438,
+        \u0447\u0442\u043E\u0431\u044B \u043D\u0435 \u0440\u0430\u0437\u0434\u0440\u0430\u0436\u0430\u0442\u044C
+        \u0441\u0442\u0440\u0430\u0436\u0443"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 0000000000000000000000
+      Languages_Touch: []
+    - Term: 3_GuardSlamDoor_cardRight
+      TermType: 0
+      Description: 
+      Languages:
+      - Continue to resist
+      - "\u041F\u0440\u043E\u0434\u043E\u043B\u0436\u0438\u0442\u044C \u0441\u043E\u043F\u0440\u043E\u0442\u0438\u0432\u043B\u044F\u0442\u044C\u0441\u044F"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 0000000000000000000000
+      Languages_Touch: []
+    - Term: 3_GuardSlamDoor_cardRight_REV
+      TermType: 0
+      Description: 
+      Languages:
+      - You push the guards and behave defiantly, for which you get a strong blow
+      - "\u0412\u044B \u0442\u043E\u043B\u043A\u0430\u0435\u0442\u0435 \u0441\u0442\u0440\u0430\u0436\u043D\u0438\u043A\u043E\u0432
+        \u0438 \u0432\u0435\u0434\u0435\u0442\u0435 \u0441\u0435\u0431\u044F \u0432\u044B\u0437\u044B\u0432\u0430\u044E\u0449\u0435,
+        \u0437\u0430 \u0447\u0442\u043E \u043F\u043E\u043B\u0443\u0447\u0430\u0435\u0442\u0435
+        \u0441\u0438\u043B\u044C\u043D\u044B\u0439 \u0443\u0434\u0430\u0440"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 0000000000000000000000
+      Languages_Touch: []
+    - Term: 3_ToCastleHow_bunner
+      TermType: 0
+      Description: 
+      Languages:
+      - How will you get to the castle?
+      - "\u041A\u0430\u043A \u0431\u0443\u0434\u0435\u0442\u0435 \u0434\u043E\u0431\u0438\u0440\u0430\u0442\u044C\u0441\u044F
+        \u0434\u043E \u0437\u0430\u043C\u043A\u0430?"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 0000000000000000000000
+      Languages_Touch: []
+    - Term: 3_ToCastleHow_bunner_cardLeft
+      TermType: 0
+      Description: 
+      Languages:
+      - Go yourself
+      - "\u041E\u0442\u043F\u0440\u0430\u0432\u0438\u0442\u044C\u0441\u044F \u0441\u0430\u043C\u043E\u043C\u0443"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 0000000000000000000000
+      Languages_Touch: []
+    - Term: 3_ToCastleHow_bunner_cardLeft_REV
+      TermType: 0
+      Description: 
+      Languages:
+      - You will get to the palace on your own
+      - "\u0412\u044B \u0434\u043E\u0431\u0435\u0440\u0435\u0442\u0435\u0441\u044C
+        \u0432\u043E \u0434\u0432\u043E\u0440\u0435\u0446 \u0441\u0430\u043C\u043E\u0441\u0442\u043E\u044F\u0442\u0435\u043B\u044C\u043D\u043E"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 0000000000000000000000
+      Languages_Touch: []
+    - Term: 3_ToCastleHow_bunner_cardRight
+      TermType: 0
+      Description: 
+      Languages:
+      - On a wagon with guards
+      - "\u041D\u0430 \u043F\u043E\u0432\u043E\u0437\u043A\u0435 \u0441\u043E \u0441\u0442\u0440\u0430\u0436\u0435\u0439"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 0000000000000000000000
+      Languages_Touch: []
+    - Term: 3_ToCastleHow_bunner_cardRight_REV
+      TermType: 0
+      Description: 
+      Languages:
+      - You get into the carriage and go to the palace
+      - "\u0412\u044B \u0437\u0430\u043B\u0435\u0437\u0430\u0435\u0442\u0435 \u0432
+        \u043F\u043E\u0432\u043E\u0437\u043A\u0443 \u0438 \u0435\u0434\u0435\u0442\u0435
+        \u0432\u043E \u0434\u0432\u043E\u0440\u0435\u0446"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 0000000000000000000000
+      Languages_Touch: []
+    - Term: 4_PovozkaPlaceToSeat_bunner
+      TermType: 0
+      Description: 
+      Languages:
+      - The carriage is quite free, where will you sit?
+      - "\u0412 \u043F\u043E\u0432\u043E\u0437\u043A\u0435 \u0434\u043E\u0432\u043E\u043B\u044C\u043D\u043E
+        \u0441\u0432\u043E\u0431\u043E\u0434\u043D\u043E, \u043A\u0443\u0434\u0430
+        \u0441\u044F\u0434\u0435\u0442\u0435?"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 0000000000000000000000
+      Languages_Touch: []
+    - Term: 4_PovozkaPlaceToSeat_cardLeft
+      TermType: 0
+      Description: 
+      Languages:
+      - Sit at the edge of the cart
+      - "\u0421\u0435\u0441\u0442\u044C \u043A \u043A\u0440\u0430\u044E \u043F\u043E\u0432\u043E\u0437\u043A\u0438"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 0000000000000000000000
+      Languages_Touch: []
+    - Term: 4_PovozkaPlaceToSeat_cardLeft_REV
+      TermType: 0
+      Description: 
+      Languages:
+      - You sit closer to the edge of the cart so as not to annoy the guards
+      - "\u0412\u044B \u0441\u0430\u0434\u0438\u0442\u0435\u0441\u044C \u0431\u043B\u0438\u0436\u0435
+        \u043A \u043A\u0440\u0430\u044E \u043F\u043E\u0432\u043E\u0437\u043A\u0438,
+        \u0447\u0442\u043E\u0431\u044B \u043D\u0435 \u0440\u0430\u0437\u0434\u0440\u0430\u0436\u0430\u0442\u044C
+        \u0441\u0442\u0440\u0430\u0436\u0443"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 0000000000000000000000
+      Languages_Touch: []
+    - Term: 4_PovozkaPlaceToSeat_cardRight
+      TermType: 0
+      Description: 
+      Languages:
+      - Get in deeper
+      - "\u0417\u0430\u043B\u0435\u0437\u0442\u044C \u043F\u043E\u0433\u043B\u0443\u0431\u0436\u0435"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 0000000000000000000000
+      Languages_Touch: []
+    - Term: 4_PovozkaPlaceToSeat_cardRight_REV
+      TermType: 0
+      Description: 
+      Languages:
+      - You climb into the center of the cart, and find a bent nail under your backside
+      - "\u0412\u044B \u0437\u0430\u043B\u0435\u0437\u0430\u0435\u0442\u0435 \u0432
+        \u0446\u0435\u043D\u0442\u0440 \u043F\u043E\u0432\u043E\u0437\u043A\u0438,
+        \u0438 \u043E\u0431\u043D\u0430\u0440\u0443\u0436\u0438\u0432\u0430\u0435\u0442\u0435
+        \u043F\u043E\u0434 \u0441\u0432\u043E\u0438\u043C \u0437\u0430\u0434\u043E\u043C
+        \u0433\u043D\u0443\u0442\u044B\u0439 \u0433\u0432\u043E\u0437\u0434\u044C"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 0000000000000000000000
+      Languages_Touch: []
+    - Term: 4_TiedUp_bunner
+      TermType: 0
+      Description: 
+      Languages:
+      - 'You have been beaten, tied up, and now you
+
+        are considering further
+        actions'
+      - "\u0412\u0430\u0441 \u043F\u043E\u043A\u043E\u043B\u043E\u0442\u0438\u043B\u0438,
+        \u0441\u0432\u044F\u0437\u0430\u043B\u0438, \u0438 \u0442\u0435\u043F\u0435\u0440\u044C
+        \u0432\u044B \n\u043E\u0431\u0434\u0443\u043C\u044B\u0432\u0430\u0435\u0442\u0435
+        \u0434\u0430\u043B\u044C\u043D\u0435\u0439\u0448\u0438\u0435 \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u044F"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 0000000000000000000000
+      Languages_Touch: []
+    - Term: 4_TiedUp_cardLeft
+      TermType: 0
+      Description: 
+      Languages:
+      - Calm down
+      - "\u0423\u0441\u043F\u043E\u043A\u043E\u0438\u0442\u044C\u0441\u044F"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 0000000000000000000000
+      Languages_Touch: []
+    - Term: 4_TiedUp_cardLeft_REV
+      TermType: 0
+      Description: 
+      Languages:
+      - You behaved calmly the rest of the way, and you were taken directly to the
+        castle to the king
+      - "\u041E\u0441\u0442\u0430\u0442\u043E\u043A \u043F\u0443\u0442\u0438 \u0432\u044B
+        \u0432\u0435\u043B\u0438 \u0441\u0435\u0431\u044F \u0441\u043F\u043E\u043A\u043E\u0439\u043D\u043E,
+        \u0438 \u0432\u0430\u0441 \u0434\u043E\u0441\u0442\u0430\u0432\u0438\u043B\u0438
+        \u043F\u0440\u044F\u043C\u043E \u0432 \u0437\u0430\u043C\u043E\u043A \u043A
+        \u0446\u0430\u0440\u044E"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 0000000000000000000000
+      Languages_Touch: []
+    - Term: 4_TiedUp_cardRight
+      TermType: 0
+      Description: 
+      Languages:
+      - Try to untie your hands
+      - "\u041F\u043E\u043F\u044B\u0442\u0430\u0442\u044C\u0441\u044F \u0440\u0430\u0437\u0432\u044F\u0437\u0430\u0442\u044C
+        \u0440\u0443\u043A\u0438"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 0000000000000000000000
+      Languages_Touch: []
+    - Term: 4_TiedUp_cardRight_REV
+      TermType: 0
+      Description: 
+      Languages:
+      - You started to curl as you fell out of the cart on a bump and broke your
+        head
+      - "\u0412\u044B \u043D\u0430\u0447\u0430\u043B\u0438 \u0432\u0438\u0442\u044C\u0441\u044F
+        \u043A\u0430\u043A \u0443\u0436 \u0438 \u043D\u0430 \u043A\u043E\u0447\u043A\u0435
+        \u0432\u044B\u043F\u0430\u043B\u0438 \u0438\u0437 \u043F\u043E\u0432\u043E\u0437\u043A\u0438
+        \u0438 \u0440\u0430\u0437\u0431\u0438\u043B\u0438 \u0433\u043E\u043B\u043E\u0432\u0443"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 0000000000000000000000
+      Languages_Touch: []
+    - Term: 4_WomanGive_bunner
+      TermType: 0
+      Description: 
+      Languages:
+      - You have met a woman, she holds out her hand to you
+      - "\u0412\u0430\u043C \u0432\u0441\u0442\u0440\u0435\u0442\u0438\u043B\u0430\u0441\u044C
+        \u0436\u0435\u043D\u0449\u0438\u043D\u0430, \u043E\u043D\u0430 \u043F\u0440\u043E\u0442\u044F\u0433\u0438\u0432\u0430\u0435\u0442
+        \u0432\u0430\u043C \u0440\u0443\u043A\u0443"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 0000000000000000000000
+      Languages_Touch: []
+    - Term: 4_WomanGive_cardLeft
+      TermType: 0
+      Description: 
+      Languages:
+      - To extend a hand in response
+      - "\u041F\u0440\u043E\u0442\u044F\u043D\u0443\u0442\u044C \u0440\u0443\u043A\u0443
+        \u0432 \u043E\u0442\u0432\u0435\u0442"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 0000000000000000000000
+      Languages_Touch: []
+    - Term: 4_WomanGive_cardLeft_REV
+      TermType: 0
+      Description: 
+      Languages:
+      - The woman has something in her hand
+      - "\u0423 \u0436\u0435\u043D\u0449\u0438\u043D\u044B \u0432 \u0440\u0443\u043A\u0435
+        \u0447\u0442\u043E \u0442\u043E \u0435\u0441\u0442\u044C"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 0000000000000000000000
+      Languages_Touch: []
+    - Term: 4_WomanGive_cardRight
+      TermType: 0
+      Description: 
+      Languages:
+      - Brush her off
+      - "\u041E\u0442\u043C\u0430\u0445\u043D\u0443\u0442\u044C\u0441\u044F \u043E\u0442
+        \u043D\u0435\u0435"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 0000000000000000000000
+      Languages_Touch: []
+    - Term: 4_WomanGive_cardRight_REV
+      TermType: 0
+      Description: 
+      Languages:
+      - You pretend not to notice her
+      - "\u0412\u044B \u0434\u0435\u043B\u0430\u0435\u0442\u0435 \u0432\u0438\u0434
+        \u0447\u0442\u043E \u043D\u0435 \u0437\u0430\u043C\u0435\u0447\u0430\u0435\u0442\u0435
+        \u0435\u0435"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 0000000000000000000000
+      Languages_Touch: []
+    - Term: 5_TakeApple_bunner
+      TermType: 0
+      Description: 
+      Languages:
+      - She gave you a juicy red apple
+      - "\u041E\u043D\u0430 \u0434\u0430\u043B\u0430 \u0432\u0430\u043C \u0441\u043E\u0447\u043D\u043E\u0435
+        \u043A\u0440\u0430\u0441\u043D\u043E\u0435 \u044F\u0431\u043B\u043E\u043A\u043E"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 0000000000000000000000
+      Languages_Touch: []
+    - Term: 5_TakeApple_cardLeft
+      TermType: 0
+      Description: 
+      Languages:
+      - Eat an apple
+      - "\u0421\u044A\u0435\u0441\u0442\u044C \u044F\u0431\u043B\u043E\u043A\u043E"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 0000000000000000000000
+      Languages_Touch: []
+    - Term: 5_TakeApple_cardLeft_REV
+      TermType: 0
+      Description: 
+      Languages:
+      - You eat an apple and it fills you with energy
+      - "\u0412\u044B \u0441\u044A\u0435\u0434\u0430\u0435\u0442\u0435 \u044F\u0431\u043B\u043E\u043A\u043E
+        \u0438 \u043E\u043D\u043E \u043D\u0430\u043F\u043E\u043B\u043D\u044F\u0435\u0442
+        \u0432\u0430\u0441 \u044D\u043D\u0435\u0440\u0433\u0438\u0435\u0439"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 0000000000000000000000
+      Languages_Touch: []
+    - Term: 5_TakeApple_cardRight
+      TermType: 0
+      Description: 
+      Languages:
+      - Put it in your pocket
+      - "\u041F\u043E\u043B\u043E\u0436\u0438\u0442\u044C \u0435\u0433\u043E \u0432
+        \u043A\u0430\u0440\u043C\u0430\u043D"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 0000000000000000000000
+      Languages_Touch: []
+    - Term: 5_TakeApple_cardRight_REV
+      TermType: 0
+      Description: 
+      Languages:
+      - The apple is very beautiful and shiny, but you are not hungry and hide it
+        in your pocket
+      - "\u042F\u0431\u043B\u043E\u043A\u043E \u043E\u0447\u0435\u043D\u044C \u043A\u0440\u0430\u0441\u0438\u0432\u043E\u0435
+        \u0438 \u0431\u043B\u0435\u0441\u0442\u044F\u0449\u0435\u0435, \u043D\u043E
+        \u0432\u044B \u043D\u0435 \u0433\u043E\u043B\u043E\u0434\u043D\u044B \u0438
+        \u043F\u0440\u044F\u0447\u0435\u0442\u0435 \u0435\u0433\u043E \u0432 \u043A\u0430\u0440\u043C\u0430\u043D"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 0000000000000000000000
+      Languages_Touch: []
+    - Term: 5_TakeNAIL_bunner
+      TermType: 0
+      Description: 
+      Languages:
+      - Keep it for yourself or throw it on the ground
+      - "\u041E\u0441\u0442\u0430\u0432\u0438\u0442\u044C \u0441\u0435\u0431\u0435
+        \u0438\u043B\u0438 \u0432\u044B\u043A\u0438\u043D\u0443\u0442\u044C \u043D\u0430
+        \u0437\u0435\u043C\u043B\u044E"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 0000000000000000000000
+      Languages_Touch: []
+    - Term: 5_TakeNAIL_cardLeft
+      TermType: 0
+      Description: 
+      Languages:
+      - Throw away
+      - "\u0412\u044B\u0431\u0440\u043E\u0441\u0438\u0442\u044C"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 0000000000000000000000
+      Languages_Touch: []
+    - Term: 5_TakeNAIL_cardLeft_REV
+      TermType: 0
+      Description: 
+      Languages:
+      - You throw out the nail, nothing happens
+      - "\u0412\u044B \u0432\u044B\u043A\u0438\u0434\u044B\u0432\u0430\u0435\u0442\u0435
+        \u0433\u0432\u043E\u0437\u0434\u044C, \u043D\u0438\u0447\u0435\u0433\u043E
+        \u043D\u0435 \u043F\u0440\u043E\u0438\u0441\u0445\u043E\u0434\u0438\u0442"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 0000000000000000000000
+      Languages_Touch: []
+    - Term: 5_TakeNAIL_cardRight
+      TermType: 0
+      Description: 
+      Languages:
+      - Keep it for yourself
+      - "\u041E\u0441\u0442\u0430\u0432\u0438\u0442\u044C \u0441\u0435\u0431\u0435"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 0000000000000000000000
+      Languages_Touch: []
+    - Term: 5_TakeNAIL_cardRight_REV
+      TermType: 0
+      Description: 
+      Languages:
+      - Obviously you are very economical, you put a nail in your pocket
+      - "\u041E\u0447\u0435\u0432\u0438\u0434\u043D\u043E \u0432\u044B \u043E\u0447\u0435\u043D\u044C
+        \u0445\u043E\u0437\u044F\u0439\u0441\u0442\u0432\u0435\u043D\u043D\u044B\u0439,
+        \u043A\u043B\u0430\u0434\u0435\u0442\u0435 \u0433\u0432\u043E\u0437\u0434\u044C
+        \u0441\u0435\u0431\u0435 \u0432 \u043A\u0430\u0440\u043C\u0430\u043D"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 0000000000000000000000
+      Languages_Touch: []
+    - Term: 6_KingsPlace_bunner
+      TermType: 0
+      Description: 
+      Languages:
+      - 'You were brought to the inconsolable king,
+
+        who bitterly told about
+        that,
+
+        How the dragon kidnapped his princess'
+      - "\u0412\u0430\u0441 \u043F\u0440\u0438\u0432\u0435\u0437\u043B\u0438 \u043A
+        \u0431\u0435\u0437\u0443\u0442\u0435\u0448\u043D\u043E\u043C\u0443 \u043A\u043E\u0440\u043E\u043B\u044E,\n\u043A\u043E\u0442\u043E\u0440\u044B\u0439
+        \u0441 \u0433\u043E\u0440\u0435\u0447\u044C\u044E \u043F\u043E\u0432\u0435\u0434\u0430\u043B
+        \u043E \u0442\u043E\u043C,\n\u043A\u0430\u043A \u0434\u0440\u0430\u043A\u043E\u043D
+        \u043F\u043E\u0445\u0438\u0442\u0438\u043B \u0435\u0433\u043E \u043F\u0440\u0438\u043D\u0446\u0435\u0441\u0441\u0443"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 0000000000000000000000
+      Languages_Touch: []
+    - Term: 6_KingsPlace_cardLeft
+      TermType: 0
+      Description: 
+      Languages:
+      - To ask, what does this have to do with you?
+      - "\u0421\u043F\u0440\u043E\u0441\u0438\u0442\u044C \u043F\u0440\u0438\u0447\u0435\u043C
+        \u0437\u0434\u0435\u0441\u044C \u0432\u044B?"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 0000000000000000000000
+      Languages_Touch: []
+    - Term: 6_KingsPlace_cardLeft_REV
+      TermType: 0
+      Description: 
+      Languages:
+      - The guards look at you with displeasure, but the king sighs and continues
+        his story
+      - "\u0421\u0442\u0440\u0430\u0436\u0430 \u0431\u0440\u043E\u0441\u0430\u0435\u0442
+        \u043D\u0430 \u0432\u0430\u0441 \u043D\u0435\u0434\u043E\u0432\u043E\u043B\u044C\u043D\u044B\u0435
+        \u0432\u0437\u0433\u043B\u044F\u0434\u044B, \u043D\u043E \u043A\u043E\u0440\u043E\u043B\u044C,
+        \u0432\u0437\u0434\u043E\u0445\u043D\u0443\u0432, \u043F\u0440\u043E\u0434\u043E\u043B\u0436\u0430\u0435\u0442
+        \u0441\u0432\u043E\u0439 \u0440\u0430\u0441\u0441\u043A\u0430\u0437"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 0000000000000000000000
+      Languages_Touch: []
+    - Term: 6_KingsPlace_cardRight
+      TermType: 0
+      Description: 
+      Languages:
+      - Continue listening
+      - "\u041F\u0440\u043E\u0434\u043E\u043B\u0436\u0438\u0442\u044C \u0441\u043B\u0443\u0448\u0430\u0442\u044C"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 0000000000000000000000
+      Languages_Touch: []
+    - Term: 6_KingsPlace_cardRight_REV
+      TermType: 0
+      Description: 
+      Languages:
+      - You continue to listen to the king's story without enthusiasm
+      - "\u0412\u044B \u0431\u0435\u0437 \u044D\u043D\u0442\u0443\u0437\u0438\u0430\u0437\u043C\u0430
+        \u043F\u0440\u043E\u0434\u043E\u043B\u0436\u0430\u0435\u0442\u0435 \u0441\u043B\u0443\u0448\u0430\u0442\u044C
+        \u0438\u0441\u0442\u043E\u0440\u0438\u044E \u043A\u043E\u0440\u043E\u043B\u044F"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 0000000000000000000000
+      Languages_Touch: []
+    - Term: 6_KingsPlace2_bunner
+      TermType: 0
+      Description: 
+      Languages:
+      - 'You came to the castle to the inconsolable king,
+
+        who bitterly told
+        about that,
+
+        How the dragon kidnapped his princess'
+      - "\u0412\u044B \u043F\u0440\u0438\u0448\u043B\u0438 \u0432 \u0437\u0430\u043C\u043E\u043A
+        \u043A \u0431\u0435\u0437\u0443\u0442\u0435\u0448\u043D\u043E\u043C\u0443
+        \u043A\u043E\u0440\u043E\u043B\u044E,\n\n\u043A\u043E\u0442\u043E\u0440\u044B\u0439
+        \u0441 \u0433\u043E\u0440\u0435\u0447\u044C\u044E \u043F\u043E\u0432\u0435\u0434\u0430\u043B
+        \u043E \u0442\u043E\u043C,\n\n\u043A\u0430\u043A \u0434\u0440\u0430\u043A\u043E\u043D
+        \u043F\u043E\u0445\u0438\u0442\u0438\u043B \u0435\u0433\u043E \u043F\u0440\u0438\u043D\u0446\u0435\u0441\u0441\u0443"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 0000000000000000000000
+      Languages_Touch: []
+    - Term: 6_KingsPlace2_cardLeft
+      TermType: 0
+      Description: 
+      Languages:
+      - To ask, what does this have to do with you?
+      - "\u0421\u043F\u0440\u043E\u0441\u0438\u0442\u044C \u043F\u0440\u0438\u0447\u0435\u043C
+        \u0437\u0434\u0435\u0441\u044C \u0432\u044B?"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 0000000000000000000000
+      Languages_Touch: []
+    - Term: 6_KingsPlace2_cardLeft_REV
+      TermType: 0
+      Description: 
+      Languages:
+      - The guards look at you with displeasure, but the king sighs and continues
+        his story
+      - "\u0421\u0442\u0440\u0430\u0436\u0430 \u0431\u0440\u043E\u0441\u0430\u0435\u0442
+        \u043D\u0430 \u0432\u0430\u0441 \u043D\u0435\u0434\u043E\u0432\u043E\u043B\u044C\u043D\u044B\u0435
+        \u0432\u0437\u0433\u043B\u044F\u0434\u044B, \u043D\u043E \u043A\u043E\u0440\u043E\u043B\u044C,
+        \u0432\u0437\u0434\u043E\u0445\u043D\u0443\u0432, \u043F\u0440\u043E\u0434\u043E\u043B\u0436\u0430\u0435\u0442
+        \u0441\u0432\u043E\u0439 \u0440\u0430\u0441\u0441\u043A\u0430\u0437"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 0000000000000000000000
+      Languages_Touch: []
+    - Term: 6_KingsPlace2_cardRight
+      TermType: 0
+      Description: 
+      Languages:
+      - Continue listening
+      - "\u041F\u0440\u043E\u0434\u043E\u043B\u0436\u0438\u0442\u044C \u0441\u043B\u0443\u0448\u0430\u0442\u044C"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 0000000000000000000000
+      Languages_Touch: []
+    - Term: 6_KingsPlace2_cardRight_REV
+      TermType: 0
+      Description: 
+      Languages:
+      - You continue to listen to the king's story without enthusiasm
+      - "\u0412\u044B \u0431\u0435\u0437 \u044D\u043D\u0442\u0443\u0437\u0438\u0430\u0437\u043C\u0430
+        \u043F\u0440\u043E\u0434\u043E\u043B\u0436\u0430\u0435\u0442\u0435 \u0441\u043B\u0443\u0448\u0430\u0442\u044C
+        \u0438\u0441\u0442\u043E\u0440\u0438\u044E \u043A\u043E\u0440\u043E\u043B\u044F"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 0000000000000000000000
+      Languages_Touch: []
+    - Term: 7_KingTellStory_bunner
+      TermType: 0
+      Description: 
+      Languages:
+      - 'He sent his best knights,
+
+        But no one has returned and now
+
+        He
+        orders you to save the princess'
+      - "\u041E\u043D \u043F\u043E\u0441\u044B\u043B\u0430\u043B \u0441\u0430\u043C\u044B\u0445
+        \u043B\u0443\u0447\u0448\u0438\u0445 \u0441\u0432\u043E\u0438\u0445 \u0440\u044B\u0446\u0430\u0440\u0435\u0439,\n\n\u043D\u043E
+        \u043D\u0438\u043A\u0442\u043E \u0442\u0430\u043A \u0438 \u043D\u0435 \u0432\u0435\u0440\u043D\u0443\u043B\u0441\u044F
+        \u0438 \u0442\u0435\u043F\u0435\u0440\u044C\n\n\u043E\u043D \u043F\u0440\u0438\u043A\u0430\u0437\u044B\u0432\u0430\u0435\u0442
+        \u0432\u0430\u043C \u0441\u043F\u0430\u0441\u0442\u0438 \u043F\u0440\u0438\u043D\u0446\u0435\u0441\u0441\u0443"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 0000000000000000000000
+      Languages_Touch: []
+    - Term: 7_KingTellStory_cardLeft
+      TermType: 0
+      Description: 
+      Languages:
+      - Refuse
+      - "\u041E\u0442\u043A\u0430\u0437\u0430\u0442\u044C\u0441\u044F"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 0000000000000000000000
+      Languages_Touch: []
+    - Term: 7_KingTellStory_cardLeft_REV
+      TermType: 0
+      Description: 
+      Languages:
+      - You reply that you are not in the mood for exploits
+      - "\u0412\u044B \u043E\u0442\u0432\u0435\u0447\u0430\u0435\u0442\u0435 \u0447\u0442\u043E
+        \u0443 \u0432\u0430\u0441 \u043D\u0435\u0442 \u043D\u0430\u0441\u0442\u0440\u043E\u0435\u043D\u0438\u044F
+        \u0434\u043B\u044F \u043F\u043E\u0434\u0432\u0438\u0433\u043E\u0432"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 0000000000000000000000
+      Languages_Touch: []
+    - Term: 7_KingTellStory_cardRight
+      TermType: 0
+      Description: 
+      Languages:
+      - Agree to save the princess
+      - "\u0421\u043E\u0433\u043B\u0430\u0441\u0438\u0442\u044C\u0441\u044F \u0441\u043F\u0430\u0441\u0442\u0438
+        \u043F\u0440\u0438\u043D\u0446\u0435\u0441\u0441\u0443"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 0000000000000000000000
+      Languages_Touch: []
+    - Term: 7_KingTellStory_cardRight_REV
+      TermType: 0
+      Description: 
+      Languages:
+      - The king is pleased with your compliance, and gives two warriors to help
+      - "\u041A\u043E\u0440\u043E\u043B\u044C \u043E\u0431\u0440\u0430\u0434\u043E\u0432\u0430\u043D
+        \u0432\u0430\u0448\u0435\u0439 \u0441\u0433\u043E\u0432\u043E\u0440\u0447\u0438\u0432\u043E\u0441\u0442\u044C\u044E,
+        \u0438 \u0434\u0430\u0435\u0442 \u0432 \u043F\u043E\u043C\u043E\u0449\u044C
+        \u0434\u0432\u0443\u0445 \u0432\u043E\u0438\u043D\u043E\u0432"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 0000000000000000000000
+      Languages_Touch: []
+    - Term: 7_Listen_bunner
+      TermType: 0
+      Description: 
+      Languages:
+      - 'He sent his best knights,
+
+        but no one came back and now
+
+        he
+        asks you to save the princess'
+      - "\u041E\u043D \u043F\u043E\u0441\u044B\u043B\u0430\u043B \u0441\u0430\u043C\u044B\u0445
+        \u043B\u0443\u0447\u0448\u0438\u0445 \u0441\u0432\u043E\u0438\u0445 \u0440\u044B\u0446\u0430\u0440\u0435\u0439,\n\u043D\u043E
+        \u043D\u0438\u043A\u0442\u043E \u0442\u0430\u043A \u0438 \u043D\u0435 \u0432\u0435\u0440\u043D\u0443\u043B\u0441\u044F
+        \u0438 \u0442\u0435\u043F\u0435\u0440\u044C\n\u043E\u043D \u043F\u0440\u043E\u0441\u0438\u0442
+        \u0432\u0430\u0441 \u0441\u043F\u0430\u0441\u0442\u0438 \u043F\u0440\u0438\u043D\u0446\u0435\u0441\u0441\u0443"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 0000000000000000000000
+      Languages_Touch: []
+    - Term: 7_Listen_cardLeft
+      TermType: 0
+      Description: 
+      Languages:
+      - Refuse
+      - "\u041E\u0442\u043A\u0430\u0437\u0430\u0442\u044C\u0441\u044F"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 0000000000000000000000
+      Languages_Touch: []
+    - Term: 7_Listen_cardLeft_REV
+      TermType: 0
+      Description: 
+      Languages:
+      - You reply that you are not in the mood for exploits
+      - "\u0412\u044B \u043E\u0442\u0432\u0435\u0447\u0430\u0435\u0442\u0435 \u0447\u0442\u043E
+        \u0443 \u0432\u0430\u0441 \u043D\u0435\u0442 \u043D\u0430\u0441\u0442\u0440\u043E\u0435\u043D\u0438\u044F
+        \u0434\u043B\u044F \u043F\u043E\u0434\u0432\u0438\u0433\u043E\u0432"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 0000000000000000000000
+      Languages_Touch: []
+    - Term: 7_Listen_cardRight
+      TermType: 0
+      Description: 
+      Languages:
+      - Agree to save the princess
+      - "\u0421\u043E\u0433\u043B\u0430\u0441\u0438\u0442\u044C\u0441\u044F \u0441\u043F\u0430\u0441\u0442\u0438
+        \u043F\u0440\u0438\u043D\u0446\u0435\u0441\u0441\u0443"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 0000000000000000000000
+      Languages_Touch: []
+    - Term: 7_Listen_cardRight_REV
+      TermType: 0
+      Description: 
+      Languages:
+      - The King is pleased with your compliance and grants you the family sword
+      - "\u041A\u043E\u0440\u043E\u043B\u044C \u043E\u0431\u0440\u0430\u0434\u043E\u0432\u0430\u043D
+        \u0432\u0430\u0448\u0435\u0439 \u0441\u0433\u043E\u0432\u043E\u0440\u0447\u0438\u0432\u043E\u0441\u0442\u044C\u044E
+        \u0438 \u0434\u0430\u0440\u0443\u0435\u0442 \u0432\u0430\u043C \u0444\u0430\u043C\u0438\u043B\u044C\u043D\u044B\u0439
+        \u043C\u0435\u0447"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 0000000000000000000000
+      Languages_Touch: []
+    - Term: 8_GoToJail_bunner
+      TermType: 0
+      Description: 
+      Languages:
+      - You were thrown into a dungeon
+      - "\u0412\u0430\u0441 \u0431\u0440\u043E\u0441\u0438\u043B\u0438 \u0432 \u0442\u0435\u043C\u043D\u0438\u0446\u0443"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 0000000000000000000000
+      Languages_Touch: []
+    - Term: 8_GoToJail_cardLeft
+      TermType: 0
+      Description: 
+      Languages:
+      - Further
+      - "\u0414\u0430\u043B\u0435\u0435"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 0000000000000000000000
+      Languages_Touch: []
+    - Term: 8_GoToJail_cardLeft_REV
+      TermType: 0
+      Description: 
+      Languages:
+      - There will be a separate full-fledged branch, sorry, but it is not available
+        in the demo version
+      - There will be a separate full-fledged branch, sorry, but it is not available
+        in the demo version
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 0000000000000000000000
+      Languages_Touch: []
+    - Term: 8_GoToJail_cardRight
+      TermType: 0
+      Description: 
+      Languages:
+      - Further
+      - "\u0414\u0430\u043B\u0435\u0435"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 0000000000000000000000
+      Languages_Touch: []
+    - Term: 8_GoToJail_cardRight_REV
+      TermType: 0
+      Description: 
+      Languages:
+      - There will be a separate full-fledged branch, sorry, but it is not available
+        in the demo version
+      - There will be a separate full-fledged branch, sorry, but it is not available
+        in the demo version
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 0000000000000000000000
+      Languages_Touch: []
+    - Term: 8_NoSword_bunner
+      TermType: 0
+      Description: 
+      Languages:
+      - The King is counting on you very much
+      - "\u041A\u043E\u0440\u043E\u043B\u044C \u043E\u0447\u0435\u043D\u044C \u0440\u0430\u0441\u0441\u0447\u0438\u0442\u044B\u0432\u0430\u0435\u0442
+        \u043D\u0430 \u0432\u0430\u0441"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 0000000000000000000000
+      Languages_Touch: []
+    - Term: 8_NoSword_cardLeft
+      TermType: 0
+      Description: 
+      Languages:
+      - Set off immediately
+      - "\u041E\u0442\u043F\u0440\u0430\u0432\u0438\u0442\u044C\u0441\u044F \u0432
+        \u043F\u0443\u0442\u044C \u043D\u0435\u0437\u0430\u043C\u0435\u0434\u043B\u0438\u0442\u0435\u043B\u044C\u043D\u043E"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 0000000000000000000000
+      Languages_Touch: []
+    - Term: 8_NoSword_cardLeft_REV
+      TermType: 0
+      Description: 
+      Languages:
+      - You don't need anything else and you're on your way
+      - "\u0412\u0430\u043C \u0431\u043E\u043B\u044C\u0448\u0435 \u043D\u0438\u0447\u0435\u0433\u043E
+        \u043D\u0435 \u043D\u0443\u0436\u043D\u043E \u0438 \u0432\u044B \u043E\u0442\u043F\u0440\u0430\u0432\u043B\u044F\u0435\u0442\u0435\u0441\u044C
+        \u0432 \u043F\u0443\u0442\u044C"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 0000000000000000000000
+      Languages_Touch: []
+    - Term: 8_NoSword_cardRight
+      TermType: 0
+      Description: 
+      Languages:
+      - Run home to get some things
+      - "\u0417\u0430\u0431\u0435\u0436\u0430\u0442\u044C \u0434\u043E\u043C\u043E\u0439
+        \u0437\u0430 \u0432\u0435\u0449\u0438\u0447\u043A\u0430\u043C\u0438"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 0000000000000000000000
+      Languages_Touch: []
+    - Term: 8_NoSword_cardRight_REV
+      TermType: 0
+      Description: 
+      Languages:
+      - You need to go home to get the necessary things
+      - "\u0412\u0430\u043C \u043D\u0443\u0436\u043D\u043E \u0437\u0430\u0439\u0442\u0438
+        \u0434\u043E\u043C\u043E\u0439 \u0437\u0430 \u043D\u0435\u043E\u0431\u0445\u043E\u0434\u0438\u043C\u044B\u043C\u0438
+        \u0432\u0435\u0449\u0430\u043C\u0438"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 0000000000000000000000
+      Languages_Touch: []
+    - Term: 8_Sword_bunner
+      TermType: 0
+      Description: 
+      Languages:
+      - The king offers two of his warriors and horses to help, but you need to go
+        into the courtyard for them, and there is very little time
+      - "\u041A\u043E\u0440\u043E\u043B\u044C \u043F\u0440\u0435\u0434\u043B\u0430\u0433\u0430\u0435\u0442
+        \u0432 \u043F\u043E\u043C\u043E\u0449\u044C \u0434\u0432\u0443\u0445 \u0441\u0432\u043E\u0438\u0445
+        \u0432\u043E\u0438\u043D\u043E\u0432 \u0438 \u043A\u043E\u043D\u0435\u0439,
+        \u043D\u043E \u0437\u0430 \u043D\u0438\u043C\u0438 \u043D\u0443\u0436\u043D\u043E
+        \u0437\u0430\u0439\u0442\u0438 \u0432\u043E \u0434\u0432\u043E\u0440, \u0430
+        \u0432\u0440\u0435\u043C\u0435\u043D\u0438 \u043E\u0447\u0435\u043D\u044C
+        \u043C\u0430\u043B\u043E"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 0000000000000000000000
+      Languages_Touch: []
+    - Term: 8_Sword_cardLeft
+      TermType: 0
+      Description: 
+      Languages:
+      - Go to the yard
+      - "\u0418\u0434\u0442\u0438 \u0432\u043E \u0434\u0432\u043E\u0440"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 0000000000000000000000
+      Languages_Touch: []
+    - Term: 8_Sword_cardLeft_REV
+      TermType: 0
+      Description: 
+      Languages:
+      - Help and horses won't hurt
+      - "\u041F\u043E\u0434\u043C\u043E\u0433\u0430 \u0438 \u043A\u043E\u043D\u0438
+        \u043D\u0435 \u043F\u043E\u043C\u0435\u0448\u0430\u044E\u0442"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 0000000000000000000000
+      Languages_Touch: []
+    - Term: 8_Sword_cardRight
+      TermType: 0
+      Description: 
+      Languages:
+      - Go home to get some things
+      - "\u0417\u0430\u0431\u0435\u0436\u0430\u0442\u044C \u0434\u043E\u043C\u043E\u0439
+        \u0437\u0430 \u0432\u0435\u0449\u0438\u0447\u043A\u0430\u043C\u0438"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 0000000000000000000000
+      Languages_Touch: []
+    - Term: 8_Sword_cardRight_REV
+      TermType: 0
+      Description: 
+      Languages:
+      - You need to go home to get the necessary things
+      - "\u0412\u0430\u043C \u043D\u0443\u0436\u043D\u043E \u0437\u0430\u0439\u0442\u0438
+        \u0434\u043E\u043C\u043E\u0439 \u0437\u0430 \u043D\u0435\u043E\u0431\u0445\u043E\u0434\u0438\u043C\u044B\u043C\u0438
+        \u0432\u0435\u0449\u0430\u043C\u0438"
       - 
       - 
       - 
