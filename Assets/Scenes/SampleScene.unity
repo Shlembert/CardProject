@@ -14090,7 +14090,7 @@ MonoBehaviour:
   posShow: 1.15
   _normalPos: {x: 0, y: 0, z: 0}
   _holdPos: {x: 0, y: 10, z: 0}
-  delay: 1000
+  delay: 300
 --- !u!1 &1405645097
 GameObject:
   m_ObjectHideFlags: 0

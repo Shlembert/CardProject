@@ -14,15 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   portrait: {fileID: 21300000, guid: 9db09ef3dd052384eb9835c5636dc1ad, type: 3}
   bannerSound: {fileID: 0}
-  bannerText: "\u041A\u043E\u0440\u043E\u043B\u044C \u043F\u0440\u0435\u0434\u043B\u0430\u0433\u0430\u0435\u0442
-    \u0432 \u043F\u043E\u043C\u043E\u0449\u044C \u0434\u0432\u0443\u0445 \u0441\u0432\u043E\u0438\u0445
-    \u0432\u043E\u0439\u043D\u043E\u0432 \u0438 \u043A\u043E\u043D\u0435\u0439, \u043D\u043E
-    \u0437\u0430 \u043D\u0438\u043C\u0438 \u043D\u0443\u0436\u043D\u043E \u0437\u0430\u0439\u0442\u0438
-    \u0432\u043E \u0434\u0432\u043E\u0440, \u0430 \u0432\u0440\u0435\u043C\u0435\u043D\u0438
-    \u043E\u0447\u0435\u043D\u044C \u043C\u0430\u043B\u043E"
+  bannerText: 8_Sword_bunner
   checkPoint: 0
   leftCard:
-    messageText: "\u0418\u0434\u0442\u0438 \u0432\u043E \u0434\u0432\u043E\u0440"
+    messageText: 8_Sword_cardLeft
     illustrationSprite: {fileID: 21300000, guid: 3e08e4b691cf7084cb34b5f3001cf22d, type: 3}
     animator: {fileID: 0}
     animationClip: {fileID: 0}
@@ -35,16 +30,14 @@ MonoBehaviour:
     nextSetIfNoItem: {fileID: 0}
     reverseSpriteIfItem: {fileID: 21300000, guid: f7925d3e7d62dc647861cfbd3383a7fe, type: 3}
     reverseAudioClipItem: {fileID: 0}
-    reverseTopTextIfItem: "\u041F\u043E\u0434\u043C\u043E\u0433\u0430 \u0438 \u043A\u043E\u043D\u0438
-      \u043D\u0435 \u043F\u043E\u043C\u0435\u0448\u0430\u044E\u0442"
+    reverseTopTextIfItem: 8_Sword_cardLeft_REV
     changeLifePointsIfItem: 0
     reverseSpriteIfNoItem: {fileID: 0}
     reverseAudioClipNoItem: {fileID: 8300000, guid: 5be5dc475b4e5164dad12de2611d92de, type: 3}
     reverseTopTextIfNoItem: "\u0410\u0431\u0440\u0430\u043A\u0430\u0434\u0430\u0431\u0440\u0430"
     changeLifePointsIfNoItem: 0
   rightCard:
-    messageText: "\u0417\u0430\u0431\u0435\u0436\u0430\u0442\u044C \u0434\u043E\u043C\u043E\u0439
-      \u0437\u0430 \u0432\u0435\u0449\u0438\u0447\u043A\u0430\u043C\u0438"
+    messageText: 8_Sword_cardRight
     illustrationSprite: {fileID: 21300000, guid: 3e8ac5c13dbaea7459c3f20b9d5a749c, type: 3}
     animator: {fileID: 0}
     animationClip: {fileID: 0}
@@ -52,14 +45,12 @@ MonoBehaviour:
     requiredItemSprite: {fileID: 0}
     removeItemSprite: 0
     changeBanner: 0
-    locationSprite: {fileID: 0}
-    nextSetIfItem: {fileID: 0}
+    locationSprite: {fileID: 21300000, guid: 530b8e1dcd8b7f244a22cc77b8bbc5d3, type: 3}
+    nextSetIfItem: {fileID: 11400000, guid: dd41aec0a5ea4a444a6c8e9dd2e2c392, type: 2}
     nextSetIfNoItem: {fileID: 0}
     reverseSpriteIfItem: {fileID: 21300000, guid: ad5320b835ff54940be767cf5dbe2f5d, type: 3}
     reverseAudioClipItem: {fileID: 0}
-    reverseTopTextIfItem: "\u0412\u0430\u043C \u043D\u0443\u0436\u043D\u043E \u0437\u0430\u0439\u0442\u0438
-      \u0434\u043E\u043C\u043E\u0439 \u0437\u0430 \u043D\u0435\u043E\u0431\u0445\u043E\u0434\u0438\u043C\u044B\u043C\u0438
-      \u0432\u0435\u0449\u0430\u043C\u0438"
+    reverseTopTextIfItem: 8_Sword_cardRight_REV
     changeLifePointsIfItem: 0
     reverseSpriteIfNoItem: {fileID: 0}
     reverseAudioClipNoItem: {fileID: 0}
