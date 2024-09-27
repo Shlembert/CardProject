@@ -10,49 +10,49 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c8636afbb060c9543bb985dfc1b704ad, type: 3}
-  m_Name: 10_GUARDS
+  m_Name: 10(5)_NAIL
   m_EditorClassIdentifier: 
   portrait: {fileID: 21300000, guid: 103e48c1276507d4db598e0bc9c93daa, type: 3}
   bannerSound: {fileID: 0}
-  bannerText: 10_GUARDS_bunner
+  bannerText: 10(5)_NAIL_bunner
   checkPoint: 0
   leftCard:
-    messageText: 10_GUARDS_cardLeft
-    illustrationSprite: {fileID: 21300000, guid: 5376d4eba0ab5a544833b108224cbf0f, type: 3}
+    messageText: 10(5)_NAIL_cardLeft
+    illustrationSprite: {fileID: 0}
     animator: {fileID: 0}
     animationClip: {fileID: 0}
-    itemSprite: {fileID: 21300000, guid: 5376d4eba0ab5a544833b108224cbf0f, type: 3}
+    itemSprite: {fileID: 0}
     requiredItemSprite: {fileID: 0}
     removeItemSprite: 0
-    changeBanner: 1
-    locationSprite: {fileID: 21300000, guid: 54d60fd42add04a4db3889acf6c5fde5, type: 3}
+    changeBanner: 0
+    locationSprite: {fileID: 0}
     nextSetIfItem: {fileID: 11400000, guid: e4c3a767476da4a4b8716ddc2ed9a629, type: 2}
     nextSetIfNoItem: {fileID: 0}
-    reverseSpriteIfItem: {fileID: 21300000, guid: 5376d4eba0ab5a544833b108224cbf0f, type: 3}
+    reverseSpriteIfItem: {fileID: 0}
     reverseAudioClipItem: {fileID: 0}
-    reverseTopTextIfItem: 10_GUARDS_cardLeft_REV
+    reverseTopTextIfItem: 10(5)_NAIL_cardLeft_REV
     changeLifePointsIfItem: 0
     reverseSpriteIfNoItem: {fileID: 0}
     reverseAudioClipNoItem: {fileID: 0}
     reverseTopTextIfNoItem: 
     changeLifePointsIfNoItem: 0
   rightCard:
-    messageText: 10_GUARDS_cardRight
-    illustrationSprite: {fileID: 21300000, guid: e32821e2238411547a798ce4bda66d8e, type: 3}
+    messageText: 10(5)_NAIL_cardRight
+    illustrationSprite: {fileID: 0}
     animator: {fileID: 0}
     animationClip: {fileID: 0}
-    itemSprite: {fileID: 21300000, guid: e32821e2238411547a798ce4bda66d8e, type: 3}
-    requiredItemSprite: {fileID: 0}
-    removeItemSprite: 0
-    changeBanner: 1
-    locationSprite: {fileID: 21300000, guid: dabc19750805c6143a0fb000e46b6e38, type: 3}
+    itemSprite: {fileID: 21300000, guid: eed540213e45dc848bed229e90f4319c, type: 3}
+    requiredItemSprite: {fileID: 21300000, guid: 86c0a7cc66357924b90a0828bc7729ad, type: 3}
+    removeItemSprite: 1
+    changeBanner: 0
+    locationSprite: {fileID: 0}
     nextSetIfItem: {fileID: 11400000, guid: ece10ed878334e24199d789722c76b7f, type: 2}
-    nextSetIfNoItem: {fileID: 0}
-    reverseSpriteIfItem: {fileID: 21300000, guid: e32821e2238411547a798ce4bda66d8e, type: 3}
+    nextSetIfNoItem: {fileID: 11400000, guid: 3004fe589ac54114b81f693a1092670f, type: 2}
+    reverseSpriteIfItem: {fileID: 21300000, guid: eed540213e45dc848bed229e90f4319c, type: 3}
     reverseAudioClipItem: {fileID: 0}
-    reverseTopTextIfItem: 10_GUARDS_cardRight_REV
+    reverseTopTextIfItem: 10(5)_NAIL_cardRight_REV
     changeLifePointsIfItem: 0
-    reverseSpriteIfNoItem: {fileID: 0}
+    reverseSpriteIfNoItem: {fileID: 21300000, guid: eed540213e45dc848bed229e90f4319c, type: 3}
     reverseAudioClipNoItem: {fileID: 0}
-    reverseTopTextIfNoItem: 
+    reverseTopTextIfNoItem: 10(5)_NAIL_cardRight_REV
     changeLifePointsIfNoItem: 0
