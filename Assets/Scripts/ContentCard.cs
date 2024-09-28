@@ -69,13 +69,15 @@ public class ContentCard : MonoBehaviour
         CardData cardData = SetSideCard(cardType);
         StopAnim();
         CheckChangeLocation(cardData);
-        CheckGiveItem(cardData);
-        CheckRemove = cardData.removeItemSprite;
+        
+       CheckRemove = cardData.removeItemSprite;
 
         _changeBanner = cardData.changeBanner; // Проверка на смену баннера
 
         if (cardData.requiredItemSprite != null) RequestItem(cardData);// Проверка, требуется ли предмет
         else NotRequestItem(cardData);
+
+        CheckGiveItem(cardData);
     }
 
     private void RequestItem(CardData cardData)
@@ -124,11 +126,6 @@ public class ContentCard : MonoBehaviour
             _giveItem = null;
         }
     }
-    private void CheckChangeLocation(CardData cardData)
-    {
-        if (cardData.locationSprite != null) _location = cardData.locationSprite; // Проверка на смену локации
-        else _location = null;
-    }
 
     private CardData SetSideCard(CardType cardType)
     {
@@ -142,8 +139,22 @@ public class ContentCard : MonoBehaviour
     {
         if (_giveItem)
         {
+
             await inventoryAnimation
                 .MoveItemToInventory(_giveItem, reverseSprite.transform, inventoryController.GetTarget());
+            Debug.Log($" ++++  Add item = {_giveItem}");
+            _giveItem = null;
+        }
+    }
+
+    public async UniTask RemoveItemFromInventory()
+    {
+        if (!CheckRemove) return;
+        if (_removeItem)
+        {
+            inventoryController.RemoveItem(_haveItem);
+            _giveItem = null;
+            await inventoryAnimation.RemoveItemFromInventory(_haveItem);
         }
     }
 
@@ -166,15 +177,10 @@ public class ContentCard : MonoBehaviour
         else await bannerAnimation.HideMessageBanner();
     }
 
-    public async UniTask RemoveItemFromInventory()
+    private void CheckChangeLocation(CardData cardData)
     {
-        if (!CheckRemove) return;
-        if (_removeItem)
-        {
-            inventoryController.RemoveItem(_haveItem);
-            _giveItem = null;
-            await inventoryAnimation.RemoveItemFromInventory(_haveItem);
-        }
+        if (cardData.locationSprite != null) _location = cardData.locationSprite; // Проверка на смену локации
+        else _location = null;
     }
 
     public async UniTask ChangeLocationSprite()

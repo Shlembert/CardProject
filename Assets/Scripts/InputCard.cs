@@ -76,18 +76,14 @@ public class InputCard : MonoBehaviour, IPointerEnterHandler, IPointerExitHandle
     private async void ClickReverse()
     {
         IsClick = true;
+
+        if (gameController.IsGameOver){ gameController.IsGameOver = false; return; }
+
         contentCard.ChangeCountHP();
+        await contentCard.SetItemToInventory();
         await contentCard.RemoveItemFromInventory();
 
-        if (gameController.IsGameOver)
-        {
-            gameController.IsGameOver = false;
-            return;
-        }
-        
-        await contentCard.SetItemToInventory();
         soundController.PlaySoundClip(contentCard.ReverseAudioClip);
-        Debug.Log($"Звук реверса = {contentCard.ReverseAudioClip}");
         await cardAnimation.HoldReverseCard();
        
         await contentCard.HoldBanner();
