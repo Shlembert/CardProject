@@ -57,7 +57,6 @@ public class GameController : MonoBehaviour
     {
         soundController.PlayMenuMusic();
         await ShowHold();
-
         mainMenuPanel.position = Vector3.zero;
         await HideHold();
     }
@@ -68,6 +67,24 @@ public class GameController : MonoBehaviour
         await ShowHold();
 
         mainMenuPanel.position = _positionUp;
+        await HideHold();
+    }
+
+    public async void ShowPause()
+    {
+        soundController.PlayMenuMusic();
+        await ShowHold();
+
+        pausePanel.position = Vector3.zero;
+        await HideHold();
+    }
+
+    public async void HidePause()
+    {
+        soundController.PlayGameMusic();
+        await ShowHold();
+
+        pausePanel.position = _positionUp;
         await HideHold();
     }
 
@@ -111,6 +128,7 @@ public class GameController : MonoBehaviour
     public async void GoToMenu()
     {
         await ShowHold();
+        pausePanel.position = _positionUp;
         deadPanel.position = _positionUp;
         mainMenuPanel.position = Vector3.zero;
         await HideHold();

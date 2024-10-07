@@ -4,6 +4,11 @@ ButtonRestart,,Restart,Рестарт,,,,,,,,,
 ButtonMenu,,To Menu,В Меню,,,,,,,,,
 ButtonBack,,Back,Назад,,,,,,,,,
 ButtonMap,,To Map,На Карту,,,,,,,,,
+ButtonContinue,,Continue,Продолжить,,,,,,,,,
+ButtonSaveLoad,,Save/Load,Сохр/Загр,,,,,,,,,
+MusicTxt,,Music,Музыка,,,,,,,,,
+SoundTxt,,Sound,Звуки,,,,,,,,,
+LangTxt,,Language,Язык,,,,,,,,,
 s1bunner,,Set 1 Bunner,Вы слышите стук в дверь,,,,,,,,,
 s1cardLeft,,Set 1 Card Left,Открыть дверь,,,,,,,,,
 s1cardRight,,Set 1 Card Right,Вылезти в окно,,,,,,,,,
@@ -17,7 +22,8 @@ They demand that you go to the palace","За дверью оказалась к�
 Требуют чтобы вы отправились во дворец",,,,,,,,,
 2_Guard_cardLeft,,Agree to go,Согласиться пойти,,,,,,,,,
 2_Guard_cardLeft_REV,,You agree to go to the palace,Вы соглашаетесь отправиться во дворец,,,,,,,,,
-2_Guard_cardRight,,Slam the door in their face,"Хлопнуть дверью у них перед носом",,,,,,,,,
+2_Guard_cardRight,,Slam the door in their face,"Хлопнуть дверью у них перед носом
+",,,,,,,,,
 2_Guard_cardRight_REV,,"Making a face, you slam the door in front of the guards, the guards didn't like it","Скорчив физиономию, вы хлопаете дверью перед носом у стражников, страже это не понравилось",,,,,,,,,
 3_GuardSlamDoor_bunner,,"The guards kicked down the door and now
  You are going to the castle under guard","Стража выбила дверь и теперь
@@ -79,8 +85,10 @@ How the dragon kidnapped his princess","Вы пришли в замок к бе�
 7_KingTellStory_bunner,,"He sent his best knights,
 But no one has returned and now
 He orders you to save the princess","Он посылал самых лучших своих рыцарей,
-но никто так и не вернулся и теперь
-он приказывает вам спасти принцессу",,,,,,,,,
+
+но никто так и не вернулся и теперь
+
+он приказывает вам спасти принцессу",,,,,,,,,
 7_KingTellStory_cardLeft,,Refuse,Отказаться,,,,,,,,,
 7_KingTellStory_cardLeft_REV,,You reply that you are not in the mood for exploits,Вы отвечаете что у вас нет настроения для подвигов,,,,,,,,,
 7_KingTellStory_cardRight,,Agree to save the princess,Согласиться спасти принцессу,,,,,,,,,
@@ -147,13 +155,13 @@ he asks you to save the princess","Он посылал самых лучших �
 10(5)_NAIL_cardRight_REV,,,Войнам приходится сеть на одну лошадь,,,,,,,,,
 11_Home_bunner,,"You are at home, you will not be able to take much, choose","Вы дома, много взять не получится, выбирайте",,,,,,,,,
 11_Home_cardLeft,,Take the gold,Взять золото,,,,,,,,,
-11_Home_cardLeft_REV,,Finances won't hurt in such a case,Финансы в таком деле не повредят ,,,,,,,,,
+11_Home_cardLeft_REV,,Finances won't hurt in such a case,Финансы в таком деле не повредят,,,,,,,,,
 11_Home_cardRight,,Take the chain mail,Взять кольчугу,,,,,,,,,
 11_Home_cardRight_REV,,"Your old, proven chain mail","Ваша старая, проверенная кольчуга",,,,,,,,,
 12_Foret_bunner,,"You are on your way to the dragon's lair, there is a dense forest ahead","Вы отправляетесь в путь к логову дракона, впереди густой лес",,,,,,,,,
 12_Foret_cardLeft,,Go through the forest,Идти через лес,,,,,,,,,
 12_Foret_cardLeft_REV,,You decide that going through the forest will be faster,Вы решаете что пройти лес насквозь будет быстрее,,,,,,,,,
-12_Foret_cardRight,,Bypass the forest,Обойти лес ,,,,,,,,,
+12_Foret_cardRight,,Bypass the forest,Обойти лес,,,,,,,,,
 12_Foret_cardRight_REV,,It seems to you that it will be safer to go around the forest,Вам кажется что обойти лес будет безопаснее,,,,,,,,,
 ,,,,,,,,,,,,
 ,,,,,,,,,,,,
