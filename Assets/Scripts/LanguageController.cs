@@ -19,9 +19,9 @@ public class LanguageController : MonoBehaviour
             if (button.name == currentLanguage) 
             {
                 button.interactable = false;
-                button.GetComponent<ButtonAnimation>().enabled = false;
-                return;
             }
+
+            button.GetComponent<ButtonAnimation>().enabled = false;
         }
     }
 
@@ -55,6 +55,10 @@ public class LanguageController : MonoBehaviour
                 .SetDelay(currentDelay);
 
             currentDelay += delayInterval; // Увеличиваем задержку для следующей кнопки
+            if (button.enabled && button.name != LocalizationManager.CurrentLanguageCode)
+            {
+                button.GetComponent<ButtonAnimation>().enabled = true;
+            }
         }
     }
 

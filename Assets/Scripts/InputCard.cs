@@ -31,9 +31,11 @@ public class InputCard : MonoBehaviour, IPointerEnterHandler, IPointerExitHandle
 
     public void OnPointerEnter(PointerEventData eventData)
     {
+        if (_transform == null) return;
+
         _transform.DOScale(_transform.localScale * 1.1f, 0.3f);
 
-        if (_animationClip != null && _animator != null && _animatorController != null)
+        if (_animator != null && _animationClip != null && _animatorController != null)
         {
             _animator.runtimeAnimatorController = AnimatorController;
             _animator.enabled = true;
@@ -44,8 +46,11 @@ public class InputCard : MonoBehaviour, IPointerEnterHandler, IPointerExitHandle
 
     public void OnPointerExit(PointerEventData eventData)
     {
+        if (_transform == null) return;
+
         _transform.DOScale(Vector3.one, 0.3f);
-        if (_animationClip != null && _animator != null && _animator.isActiveAndEnabled)
+
+        if (_animator != null && _animationClip != null && _animator.isActiveAndEnabled)
         {
             _animator.Play(_animationClip.name, 0, 0f);
             _animator.speed = 0f;

@@ -14,97 +14,87 @@ public class SoundController : MonoBehaviour
 
     private bool isMusicMuted = false;
     private bool isSoundMuted = false;
+    private float musicVolume;
+    private float soundVolume;
 
     private void Start()
     {
-        // Загружаем настройки звука при старте
         LoadSoundSettings();
 
-        // Назначаем методы для управления громкостью на слайдеры
         musSlider.onValueChanged.AddListener(ChangeMusicVolume);
         soundSlider.onValueChanged.AddListener(ChangeSoundVolume);
 
-        // Устанавливаем диапазоны значений слайдеров
-        musSlider.minValue = musicMinValue;  // Минимум 0
-        musSlider.maxValue = musicMaxValue;  // Максимум 1
-        soundSlider.minValue = soundMinValue; // Минимум 0
-        soundSlider.maxValue = soundMaxValue; // Максимум 1
+        musSlider.minValue = musicMinValue;
+        musSlider.maxValue = musicMaxValue;
+        soundSlider.minValue = soundMinValue;
+        soundSlider.maxValue = soundMaxValue;
     }
 
-    // Метод для загрузки настроек звука
     private void LoadSoundSettings()
     {
-        // Проверяем, есть ли сохраненные настройки
-        bool hasSavedSettings = CheckForSavedSettings(); // Замените на свою логику проверки
+        bool hasSavedSettings = CheckForSavedSettings();
 
         if (hasSavedSettings)
         {
-            // Загрузите сохраненные настройки здесь
-            (float musicVolume, float soundVolume, bool musicMuted, bool soundMuted) = GetSavedSoundSettings(); // Замените на свою логику загрузки
-
-            LoadSoundSettings(musicVolume, soundVolume, musicMuted, soundMuted);
+            (float savedMusicVolume, float savedSoundVolume, bool musicMuted, bool soundMuted) = GetSavedSoundSettings();
+            LoadSoundSettings(savedMusicVolume, savedSoundVolume, musicMuted, soundMuted);
         }
         else
         {
-            // Если сохранений нет, устанавливаем громкость по умолчанию и включаем звук
             LoadSoundSettings(0.3f, 0.3f, false, false);
         }
     }
 
-    // Метод для проверки наличия сохраненных настроек (примерная логика)
-    private bool CheckForSavedSettings()
-    {
-        // Здесь должна быть ваша логика проверки наличия сохраненных настроек
-        return false; // Вернуть true, если есть сохраненные настройки
-    }
+    private bool CheckForSavedSettings() => false; // Примерная логика проверки сохранений
 
-    // Метод для получения сохраненных настроек (примерная логика)
     private (float musicVolume, float soundVolume, bool isMusicMuted, bool isSoundMuted) GetSavedSoundSettings()
     {
-        // Здесь должна быть ваша логика загрузки сохраненных настроек
         return (0.5f, 0.5f, false, false); // Примерные значения
     }
 
-    // Метод изменения громкости музыки по слайдеру
     private void ChangeMusicVolume(float value)
     {
-        musAudioSource.volume = value;
+        musicVolume = value;
+        musAudioSource.volume = isMusicMuted ? 0 : musicVolume;
     }
 
-    // Метод изменения громкости звука по слайдеру с воспроизведением клика
     private void ChangeSoundVolume(float value)
     {
-        sfxAudioSource.volume = value;
-        PlayClick(); // Воспроизведение звука при изменении громкости
+        soundVolume = value;
+        sfxAudioSource.volume = isSoundMuted ? 0 : soundVolume;
+        PlayClick();
     }
 
-    // Метод для включения и отключения музыки
     public void ToggleMusic()
     {
-        isMusicMuted = !isMusicMuted; // Переключаем состояние звука
+        isMusicMuted = !isMusicMuted;
         musAudioSource.mute = isMusicMuted;
-        musImage.sprite = isMusicMuted ? offVolume : onVolume; // Меняем спрайт
+        musAudioSource.volume = isMusicMuted ? 0 : musicVolume;
+        musImage.sprite = isMusicMuted ? offVolume : onVolume;
     }
 
-    // Метод для включения и отключения звуковых эффектов
     public void ToggleSound()
     {
-        isSoundMuted = !isSoundMuted; // Переключаем состояние звука
+        isSoundMuted = !isSoundMuted;
         sfxAudioSource.mute = isSoundMuted;
-        soundImage.sprite = isSoundMuted ? offVolume : onVolume; // Меняем спрайт
+        sfxAudioSource.volume = isSoundMuted ? 0 : soundVolume;
+        soundImage.sprite = isSoundMuted ? offVolume : onVolume;
     }
 
-    // Метод для получения текущих настроек звука
     public (float musicVolume, float soundVolume, bool isMusicMuted, bool isSoundMuted) GetSoundSettings()
     {
-        return (musAudioSource.volume, sfxAudioSource.volume, isMusicMuted, isSoundMuted);
+        return (musicVolume, soundVolume, isMusicMuted, isSoundMuted);
     }
 
-    // Метод для загрузки настроек звука
     public void LoadSoundSettings(float musicVolume, float soundVolume, bool musicMuted, bool soundMuted)
     {
-        musAudioSource.volume = musicVolume;
-        sfxAudioSource.volume = soundVolume;
+        this.musicVolume = musicVolume;
+        this.soundVolume = soundVolume;
+        isMusicMuted = musicMuted;
+        isSoundMuted = soundMuted;
+
+        musAudioSource.volume = musicMuted ? 0 : musicVolume;
+        sfxAudioSource.volume = soundMuted ? 0 : soundVolume;
         musAudioSource.mute = musicMuted;
         sfxAudioSource.mute = soundMuted;
 
@@ -115,19 +105,10 @@ public class SoundController : MonoBehaviour
         soundImage.sprite = soundMuted ? offVolume : onVolume;
     }
 
-    // Воспроизведение звука Flip
-    public void PlayFlip()
-    {
-        sfxAudioSource.PlayOneShot(flipClip);
-    }
+    public void PlayFlip() => sfxAudioSource.PlayOneShot(flipClip);
 
-    // Воспроизведение звука при клике
-    public void PlayClick()
-    {
-        sfxAudioSource.PlayOneShot(tapClip);
-    }
+    public void PlayClick() => sfxAudioSource.PlayOneShot(tapClip);
 
-    // Воспроизведение звука по переданному клипу
     public void PlaySoundClip(AudioClip clip)
     {
         if (clip)
@@ -136,31 +117,14 @@ public class SoundController : MonoBehaviour
         }
     }
 
-    // Воспроизведение звука Reverse Flip
-    public void PlayReverseFlip()
-    {
-        sfxAudioSource.PlayOneShot(reverseClip);
-    }
+    public void PlayReverseFlip() => sfxAudioSource.PlayOneShot(reverseClip);
 
-    // Воспроизведение фоновой музыки для меню
-    public void PlayMenuMusic()
-    {
-        StartCoroutine(FadeToNewMusic(menuMus));
-    }
+    public void PlayMenuMusic() => StartCoroutine(FadeToNewMusic(menuMus));
 
-    // Воспроизведение фоновой музыки для игры
-    public void PlayGameMusic()
-    {
-        StartCoroutine(FadeToNewMusic(gameMus));
-    }
+    public void PlayGameMusic() => StartCoroutine(FadeToNewMusic(gameMus));
 
-    // Воспроизведение фоновой музыки для карты
-    public void PlayMapMusic()
-    {
-        StartCoroutine(FadeToNewMusic(mapMus));
-    }
+    public void PlayMapMusic() => StartCoroutine(FadeToNewMusic(mapMus));
 
-    // Корутин для плавного перехода на новый музыкальный трек
     private IEnumerator FadeToNewMusic(AudioClip newClip)
     {
         if (musAudioSource.isPlaying)
@@ -170,13 +134,14 @@ public class SoundController : MonoBehaviour
         }
 
         musAudioSource.clip = newClip;
+        musAudioSource.volume = 0; // Начинаем с нулевой громкости
         musAudioSource.Play();
 
-        // Плавное увеличение громкости новой музыки
+        // Плавное увеличение громкости новой музыки до значения `musicVolume`
         yield return StartCoroutine(FadeIn());
     }
 
-    // Плавное уменьшение громкости
+
     private IEnumerator FadeOut()
     {
         float startVolume = musAudioSource.volume;
@@ -188,19 +153,21 @@ public class SoundController : MonoBehaviour
         }
 
         musAudioSource.Stop();
-        musAudioSource.volume = startVolume; // Возвращаем громкость
+        musAudioSource.volume = musicVolume; // Возвращаем громкость
     }
 
-    // Плавное увеличение громкости
     private IEnumerator FadeIn()
     {
         musAudioSource.volume = 0f;
-        float targetVolume = musSlider.value; // Используем значение из слайдера
+        float targetVolume = musicVolume;
 
         while (musAudioSource.volume < targetVolume)
         {
             musAudioSource.volume += Time.deltaTime / transitionDuration;
             yield return null;
         }
+
+        // Убедимся, что громкость точно равна `musicVolume`
+        musAudioSource.volume = musicVolume;
     }
 }

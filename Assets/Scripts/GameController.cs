@@ -11,6 +11,7 @@ public class GameController : MonoBehaviour
     [SerializeField] private HPController hPController;
     [SerializeField] private SoundController soundController;
     [SerializeField] private InventoryController inventoryController;
+    [SerializeField] private MapController mapController;
     [SerializeField] private HPController hpController;
     [SerializeField] private float duration, posUp;
 
@@ -133,6 +134,7 @@ public class GameController : MonoBehaviour
         await ShowHold();
         inventoryController.ClearInventory();
         hpController.SetHP(3);
+        mapController.DeactivateCheckPoint(0);
         pausePanel.position = _positionUp;
         deadPanel.position = _positionUp;
         mainMenuPanel.position = Vector3.zero;
