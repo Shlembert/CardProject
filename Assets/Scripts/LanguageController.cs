@@ -1,46 +1,76 @@
+using DG.Tweening;
 using I2.Loc;
-using TMPro;
+using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class LanguageController : MonoBehaviour
 {
-    [SerializeField] private TMP_Dropdown languageDropdown; // Ссылка на Dropdown
+    [SerializeField] private Transform languagePanel;
+    [SerializeField] private float duration, delayInterval;
+    [SerializeField] private List<Button> buttons;
 
     private void Start()
     {
-        // Назначаем метод для обработки изменения значения в Dropdown
-        languageDropdown.onValueChanged.AddListener(OnLanguageChange);
-
-        // Устанавливаем начальный язык (опционально)
-        SetLanguage(languageDropdown.value);
-    }
-
-    private void OnLanguageChange(int index)
-    {
-        // Устанавливаем язык по индексу
-        SetLanguage(index);
-    }
-
-    public void SetLanguage(int index)
-    {
-        string languageCode;
-
-        // Определяем код языка по индексу
-        switch (index)
+        string currentLanguage = LocalizationManager.CurrentLanguageCode;
+        Debug.Log(currentLanguage);
+        foreach (var button in buttons)
         {
-            case 0:
-                languageCode = "ru";
-                break;
-            case 1:
-                languageCode = "en";
-                break;
-           
-            default: // Если ничего не выбрано, то русский по умолчанию
-                languageCode = "ru";
-                break;
+            if (button.name == currentLanguage) 
+            {
+                button.interactable = false;
+                button.GetComponent<ButtonAnimation>().enabled = false;
+                return;
+            }
         }
+    }
 
-        // Устанавливаем язык в LocalizationManager
-        LocalizationManager.CurrentLanguageCode = languageCode;
+    public void ShowPanel()
+    {
+        foreach (var button in buttons) button.transform.localScale = Vector3.zero;
+        languagePanel.position = Vector3.zero;
+        languagePanel.localScale = Vector3.zero;
+        languagePanel.gameObject.SetActive(true);
+        Sequence sequence = DOTween.Sequence();
+        sequence.Append(languagePanel.DOScale(Vector3.one, duration).SetEase(Ease.OutBack));
+        sequence.OnComplete (() => ShowButtons());
+    }
+
+    public void HidePanel()
+    {
+        Sequence sequence = DOTween.Sequence();
+        sequence.Append(languagePanel.DOScale(0, duration).SetEase(Ease.InBack));
+        sequence.OnComplete(() => 
+        languagePanel.gameObject.SetActive(false));
+    }
+
+    private void ShowButtons()
+    {
+        float currentDelay = 0f;
+
+        foreach (Button button in buttons)
+        {
+            button.transform.DOScale(Vector3.one, duration * 0.2f)
+                .SetEase(Ease.OutBack)
+                .SetDelay(currentDelay);
+
+            currentDelay += delayInterval; // Увеличиваем задержку для следующей кнопки
+        }
+    }
+
+
+    public void SetLanguage(Button button)
+    {
+        LocalizationManager.CurrentLanguageCode = button.name;
+        foreach (Button button1 in buttons)
+        {
+            if (button1.enabled)
+            {
+                button1.interactable = true;
+                button1.GetComponent<ButtonAnimation>().enabled = true;
+            }
+        }
+        button.interactable = false;
+        button.GetComponent<ButtonAnimation>().enabled = false;
     }
 }

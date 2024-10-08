@@ -2,6 +2,7 @@ using Cysharp.Threading.Tasks;
 using DG.Tweening;
 using UnityEngine;
 using UnityEngine.UI;
+using static UnityEngine.GraphicsBuffer;
 
 public class GameController : MonoBehaviour
 {
@@ -9,6 +10,8 @@ public class GameController : MonoBehaviour
     [SerializeField] private Image bg;
     [SerializeField] private HPController hPController;
     [SerializeField] private SoundController soundController;
+    [SerializeField] private InventoryController inventoryController;
+    [SerializeField] private HPController hpController;
     [SerializeField] private float duration, posUp;
 
     private Image _imageHold;
@@ -128,6 +131,8 @@ public class GameController : MonoBehaviour
     public async void GoToMenu()
     {
         await ShowHold();
+        inventoryController.ClearInventory();
+        hpController.SetHP(3);
         pausePanel.position = _positionUp;
         deadPanel.position = _positionUp;
         mainMenuPanel.position = Vector3.zero;

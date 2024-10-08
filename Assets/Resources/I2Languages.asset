@@ -32,7 +32,8 @@ MonoBehaviour:
       - 
       - 
       - 
-      Flags: 0000000000000000000000
+      - 
+      Flags: 000000000000000000000000
       Languages_Touch: []
     - Term: ButtonRestart
       TermType: 0
@@ -49,7 +50,8 @@ MonoBehaviour:
       - 
       - 
       - 
-      Flags: 0000000000000000000000
+      - 
+      Flags: 000000000000000000000000
       Languages_Touch: []
     - Term: ButtonMenu
       TermType: 0
@@ -66,7 +68,8 @@ MonoBehaviour:
       - 
       - 
       - 
-      Flags: 0000000000000000000000
+      - 
+      Flags: 000000000000000000000000
       Languages_Touch: []
     - Term: ButtonBack
       TermType: 0
@@ -83,7 +86,8 @@ MonoBehaviour:
       - 
       - 
       - 
-      Flags: 0000000000000000000000
+      - 
+      Flags: 000000000000000000000000
       Languages_Touch: []
     - Term: ButtonMap
       TermType: 0
@@ -100,7 +104,8 @@ MonoBehaviour:
       - 
       - 
       - 
-      Flags: 0000000000000000000000
+      - 
+      Flags: 000000000000000000000000
       Languages_Touch: []
     - Term: ButtonContinue
       TermType: 0
@@ -117,7 +122,8 @@ MonoBehaviour:
       - 
       - 
       - 
-      Flags: 0000000000000000000000
+      - 
+      Flags: 000000000000000000000000
       Languages_Touch: []
     - Term: ButtonSaveLoad
       TermType: 0
@@ -134,7 +140,8 @@ MonoBehaviour:
       - 
       - 
       - 
-      Flags: 0000000000000000000000
+      - 
+      Flags: 000000000000000000000000
       Languages_Touch: []
     - Term: MusicTxt
       TermType: 0
@@ -151,7 +158,8 @@ MonoBehaviour:
       - 
       - 
       - 
-      Flags: 0000000000000000000000
+      - 
+      Flags: 000000000000000000000000
       Languages_Touch: []
     - Term: SoundTxt
       TermType: 0
@@ -168,7 +176,8 @@ MonoBehaviour:
       - 
       - 
       - 
-      Flags: 0000000000000000000000
+      - 
+      Flags: 000000000000000000000000
       Languages_Touch: []
     - Term: LangTxt
       TermType: 0
@@ -185,7 +194,8 @@ MonoBehaviour:
       - 
       - 
       - 
-      Flags: 0000000000000000000000
+      - 
+      Flags: 000000000000000000000000
       Languages_Touch: []
     - Term: s1bunner
       TermType: 0
@@ -203,7 +213,8 @@ MonoBehaviour:
       - 
       - 
       - 
-      Flags: 0000000000000000000000
+      - 
+      Flags: 000000000000000000000000
       Languages_Touch: []
     - Term: s1cardLeft
       TermType: 0
@@ -220,7 +231,8 @@ MonoBehaviour:
       - 
       - 
       - 
-      Flags: 0000000000000000000000
+      - 
+      Flags: 000000000000000000000000
       Languages_Touch: []
     - Term: s1cardRight
       TermType: 0
@@ -237,7 +249,8 @@ MonoBehaviour:
       - 
       - 
       - 
-      Flags: 0000000000000000000000
+      - 
+      Flags: 000000000000000000000000
       Languages_Touch: []
     - Term: s1revL
       TermType: 0
@@ -255,7 +268,8 @@ MonoBehaviour:
       - 
       - 
       - 
-      Flags: 0000000000000000000000
+      - 
+      Flags: 000000000000000000000000
       Languages_Touch: []
     - Term: s1revR
       TermType: 0
@@ -275,7 +289,8 @@ MonoBehaviour:
       - 
       - 
       - 
-      Flags: 0000000000000000000000
+      - 
+      Flags: 000000000000000000000000
       Languages_Touch: []
     - Term: s1revLno
       TermType: 0
@@ -293,7 +308,8 @@ MonoBehaviour:
       - 
       - 
       - 
-      Flags: 0000000000000000000000
+      - 
+      Flags: 000000000000000000000000
       Languages_Touch: []
     - Term: s1revRno
       TermType: 0
@@ -311,7 +327,8 @@ MonoBehaviour:
       - 
       - 
       - 
-      Flags: 0000000000000000000000
+      - 
+      Flags: 000000000000000000000000
       Languages_Touch: []
     - Term: 2_Guard_bunner
       TermType: 0
@@ -334,7 +351,8 @@ MonoBehaviour:
       - 
       - 
       - 
-      Flags: 0000000000000000000000
+      - 
+      Flags: 000000000000000000000000
       Languages_Touch: []
     - Term: 2_Guard_cardLeft
       TermType: 0
@@ -351,7 +369,8 @@ MonoBehaviour:
       - 
       - 
       - 
-      Flags: 0000000000000000000000
+      - 
+      Flags: 000000000000000000000000
       Languages_Touch: []
     - Term: 2_Guard_cardLeft_REV
       TermType: 0
@@ -370,7 +389,8 @@ MonoBehaviour:
       - 
       - 
       - 
-      Flags: 0000000000000000000000
+      - 
+      Flags: 000000000000000000000000
       Languages_Touch: []
     - Term: 2_Guard_cardRight
       TermType: 0
@@ -388,7 +408,8 @@ MonoBehaviour:
       - 
       - 
       - 
-      Flags: 0000000000000000000000
+      - 
+      Flags: 000000000000000000000000
       Languages_Touch: []
     - Term: 2_Guard_cardRight_REV
       TermType: 0
@@ -409,7 +430,8 @@ MonoBehaviour:
       - 
       - 
       - 
-      Flags: 0000000000000000000000
+      - 
+      Flags: 000000000000000000000000
       Languages_Touch: []
     - Term: 3_GuardSlamDoor_bunner
       TermType: 0
@@ -430,7 +452,8 @@ MonoBehaviour:
       - 
       - 
       - 
-      Flags: 0000000000000000000000
+      - 
+      Flags: 000000000000000000000000
       Languages_Touch: []
     - Term: 3_GuardSlamDoor_cardLeft
       TermType: 0
@@ -448,7 +471,8 @@ MonoBehaviour:
       - 
       - 
       - 
-      Flags: 0000000000000000000000
+      - 
+      Flags: 000000000000000000000000
       Languages_Touch: []
     - Term: 3_GuardSlamDoor_cardLeft_REV
       TermType: 0
@@ -468,7 +492,8 @@ MonoBehaviour:
       - 
       - 
       - 
-      Flags: 0000000000000000000000
+      - 
+      Flags: 000000000000000000000000
       Languages_Touch: []
     - Term: 3_GuardSlamDoor_cardRight
       TermType: 0
@@ -485,7 +510,8 @@ MonoBehaviour:
       - 
       - 
       - 
-      Flags: 0000000000000000000000
+      - 
+      Flags: 000000000000000000000000
       Languages_Touch: []
     - Term: 3_GuardSlamDoor_cardRight_REV
       TermType: 0
@@ -505,7 +531,8 @@ MonoBehaviour:
       - 
       - 
       - 
-      Flags: 0000000000000000000000
+      - 
+      Flags: 000000000000000000000000
       Languages_Touch: []
     - Term: 3_ToCastleHow_bunner
       TermType: 0
@@ -523,7 +550,8 @@ MonoBehaviour:
       - 
       - 
       - 
-      Flags: 0000000000000000000000
+      - 
+      Flags: 000000000000000000000000
       Languages_Touch: []
     - Term: 3_ToCastleHow_bunner_cardLeft
       TermType: 0
@@ -540,7 +568,8 @@ MonoBehaviour:
       - 
       - 
       - 
-      Flags: 0000000000000000000000
+      - 
+      Flags: 000000000000000000000000
       Languages_Touch: []
     - Term: 3_ToCastleHow_bunner_cardLeft_REV
       TermType: 0
@@ -558,7 +587,8 @@ MonoBehaviour:
       - 
       - 
       - 
-      Flags: 0000000000000000000000
+      - 
+      Flags: 000000000000000000000000
       Languages_Touch: []
     - Term: 3_ToCastleHow_bunner_cardRight
       TermType: 0
@@ -575,7 +605,8 @@ MonoBehaviour:
       - 
       - 
       - 
-      Flags: 0000000000000000000000
+      - 
+      Flags: 000000000000000000000000
       Languages_Touch: []
     - Term: 3_ToCastleHow_bunner_cardRight_REV
       TermType: 0
@@ -594,7 +625,8 @@ MonoBehaviour:
       - 
       - 
       - 
-      Flags: 0000000000000000000000
+      - 
+      Flags: 000000000000000000000000
       Languages_Touch: []
     - Term: 4_PovozkaPlaceToSeat_bunner
       TermType: 0
@@ -613,7 +645,8 @@ MonoBehaviour:
       - 
       - 
       - 
-      Flags: 0000000000000000000000
+      - 
+      Flags: 000000000000000000000000
       Languages_Touch: []
     - Term: 4_PovozkaPlaceToSeat_cardLeft
       TermType: 0
@@ -630,7 +663,8 @@ MonoBehaviour:
       - 
       - 
       - 
-      Flags: 0000000000000000000000
+      - 
+      Flags: 000000000000000000000000
       Languages_Touch: []
     - Term: 4_PovozkaPlaceToSeat_cardLeft_REV
       TermType: 0
@@ -650,7 +684,8 @@ MonoBehaviour:
       - 
       - 
       - 
-      Flags: 0000000000000000000000
+      - 
+      Flags: 000000000000000000000000
       Languages_Touch: []
     - Term: 4_PovozkaPlaceToSeat_cardRight
       TermType: 0
@@ -667,7 +702,8 @@ MonoBehaviour:
       - 
       - 
       - 
-      Flags: 0000000000000000000000
+      - 
+      Flags: 000000000000000000000000
       Languages_Touch: []
     - Term: 4_PovozkaPlaceToSeat_cardRight_REV
       TermType: 0
@@ -688,7 +724,8 @@ MonoBehaviour:
       - 
       - 
       - 
-      Flags: 0000000000000000000000
+      - 
+      Flags: 000000000000000000000000
       Languages_Touch: []
     - Term: 4_TiedUp_bunner
       TermType: 0
@@ -711,7 +748,8 @@ MonoBehaviour:
       - 
       - 
       - 
-      Flags: 0000000000000000000000
+      - 
+      Flags: 000000000000000000000000
       Languages_Touch: []
     - Term: 4_TiedUp_cardLeft
       TermType: 0
@@ -728,7 +766,8 @@ MonoBehaviour:
       - 
       - 
       - 
-      Flags: 0000000000000000000000
+      - 
+      Flags: 000000000000000000000000
       Languages_Touch: []
     - Term: 4_TiedUp_cardLeft_REV
       TermType: 0
@@ -750,7 +789,8 @@ MonoBehaviour:
       - 
       - 
       - 
-      Flags: 0000000000000000000000
+      - 
+      Flags: 000000000000000000000000
       Languages_Touch: []
     - Term: 4_TiedUp_cardRight
       TermType: 0
@@ -768,7 +808,8 @@ MonoBehaviour:
       - 
       - 
       - 
-      Flags: 0000000000000000000000
+      - 
+      Flags: 000000000000000000000000
       Languages_Touch: []
     - Term: 4_TiedUp_cardRight_REV
       TermType: 0
@@ -789,7 +830,8 @@ MonoBehaviour:
       - 
       - 
       - 
-      Flags: 0000000000000000000000
+      - 
+      Flags: 000000000000000000000000
       Languages_Touch: []
     - Term: 4_WomanGive_bunner
       TermType: 0
@@ -808,7 +850,8 @@ MonoBehaviour:
       - 
       - 
       - 
-      Flags: 0000000000000000000000
+      - 
+      Flags: 000000000000000000000000
       Languages_Touch: []
     - Term: 4_WomanGive_cardLeft
       TermType: 0
@@ -826,7 +869,8 @@ MonoBehaviour:
       - 
       - 
       - 
-      Flags: 0000000000000000000000
+      - 
+      Flags: 000000000000000000000000
       Languages_Touch: []
     - Term: 4_WomanGive_cardLeft_REV
       TermType: 0
@@ -844,7 +888,8 @@ MonoBehaviour:
       - 
       - 
       - 
-      Flags: 0000000000000000000000
+      - 
+      Flags: 000000000000000000000000
       Languages_Touch: []
     - Term: 4_WomanGive_cardRight
       TermType: 0
@@ -862,7 +907,8 @@ MonoBehaviour:
       - 
       - 
       - 
-      Flags: 0000000000000000000000
+      - 
+      Flags: 000000000000000000000000
       Languages_Touch: []
     - Term: 4_WomanGive_cardRight_REV
       TermType: 0
@@ -881,7 +927,8 @@ MonoBehaviour:
       - 
       - 
       - 
-      Flags: 0000000000000000000000
+      - 
+      Flags: 000000000000000000000000
       Languages_Touch: []
     - Term: 5_TakeApple_bunner
       TermType: 0
@@ -899,7 +946,8 @@ MonoBehaviour:
       - 
       - 
       - 
-      Flags: 0000000000000000000000
+      - 
+      Flags: 000000000000000000000000
       Languages_Touch: []
     - Term: 5_TakeApple_cardLeft
       TermType: 0
@@ -916,7 +964,8 @@ MonoBehaviour:
       - 
       - 
       - 
-      Flags: 0000000000000000000000
+      - 
+      Flags: 000000000000000000000000
       Languages_Touch: []
     - Term: 5_TakeApple_cardLeft_REV
       TermType: 0
@@ -935,7 +984,8 @@ MonoBehaviour:
       - 
       - 
       - 
-      Flags: 0000000000000000000000
+      - 
+      Flags: 000000000000000000000000
       Languages_Touch: []
     - Term: 5_TakeApple_cardRight
       TermType: 0
@@ -953,7 +1003,8 @@ MonoBehaviour:
       - 
       - 
       - 
-      Flags: 0000000000000000000000
+      - 
+      Flags: 000000000000000000000000
       Languages_Touch: []
     - Term: 5_TakeApple_cardRight_REV
       TermType: 0
@@ -974,7 +1025,8 @@ MonoBehaviour:
       - 
       - 
       - 
-      Flags: 0000000000000000000000
+      - 
+      Flags: 000000000000000000000000
       Languages_Touch: []
     - Term: 5_TakeNAIL_bunner
       TermType: 0
@@ -993,7 +1045,8 @@ MonoBehaviour:
       - 
       - 
       - 
-      Flags: 0000000000000000000000
+      - 
+      Flags: 000000000000000000000000
       Languages_Touch: []
     - Term: 5_TakeNAIL_cardLeft
       TermType: 0
@@ -1010,7 +1063,8 @@ MonoBehaviour:
       - 
       - 
       - 
-      Flags: 0000000000000000000000
+      - 
+      Flags: 000000000000000000000000
       Languages_Touch: []
     - Term: 5_TakeNAIL_cardLeft_REV
       TermType: 0
@@ -1029,7 +1083,8 @@ MonoBehaviour:
       - 
       - 
       - 
-      Flags: 0000000000000000000000
+      - 
+      Flags: 000000000000000000000000
       Languages_Touch: []
     - Term: 5_TakeNAIL_cardRight
       TermType: 0
@@ -1046,7 +1101,8 @@ MonoBehaviour:
       - 
       - 
       - 
-      Flags: 0000000000000000000000
+      - 
+      Flags: 000000000000000000000000
       Languages_Touch: []
     - Term: 5_TakeNAIL_cardRight_REV
       TermType: 0
@@ -1066,7 +1122,8 @@ MonoBehaviour:
       - 
       - 
       - 
-      Flags: 0000000000000000000000
+      - 
+      Flags: 000000000000000000000000
       Languages_Touch: []
     - Term: 6_KingsPlace_bunner
       TermType: 0
@@ -1092,7 +1149,8 @@ MonoBehaviour:
       - 
       - 
       - 
-      Flags: 0000000000000000000000
+      - 
+      Flags: 000000000000000000000000
       Languages_Touch: []
     - Term: 6_KingsPlace_cardLeft
       TermType: 0
@@ -1110,7 +1168,8 @@ MonoBehaviour:
       - 
       - 
       - 
-      Flags: 0000000000000000000000
+      - 
+      Flags: 000000000000000000000000
       Languages_Touch: []
     - Term: 6_KingsPlace_cardLeft_REV
       TermType: 0
@@ -1132,7 +1191,8 @@ MonoBehaviour:
       - 
       - 
       - 
-      Flags: 0000000000000000000000
+      - 
+      Flags: 000000000000000000000000
       Languages_Touch: []
     - Term: 6_KingsPlace_cardRight
       TermType: 0
@@ -1149,7 +1209,8 @@ MonoBehaviour:
       - 
       - 
       - 
-      Flags: 0000000000000000000000
+      - 
+      Flags: 000000000000000000000000
       Languages_Touch: []
     - Term: 6_KingsPlace_cardRight_REV
       TermType: 0
@@ -1168,7 +1229,8 @@ MonoBehaviour:
       - 
       - 
       - 
-      Flags: 0000000000000000000000
+      - 
+      Flags: 000000000000000000000000
       Languages_Touch: []
     - Term: 6_KingsPlace2_bunner
       TermType: 0
@@ -1195,7 +1257,8 @@ MonoBehaviour:
       - 
       - 
       - 
-      Flags: 0000000000000000000000
+      - 
+      Flags: 000000000000000000000000
       Languages_Touch: []
     - Term: 6_KingsPlace2_cardLeft
       TermType: 0
@@ -1213,7 +1276,8 @@ MonoBehaviour:
       - 
       - 
       - 
-      Flags: 0000000000000000000000
+      - 
+      Flags: 000000000000000000000000
       Languages_Touch: []
     - Term: 6_KingsPlace2_cardLeft_REV
       TermType: 0
@@ -1235,7 +1299,8 @@ MonoBehaviour:
       - 
       - 
       - 
-      Flags: 0000000000000000000000
+      - 
+      Flags: 000000000000000000000000
       Languages_Touch: []
     - Term: 6_KingsPlace2_cardRight
       TermType: 0
@@ -1252,7 +1317,8 @@ MonoBehaviour:
       - 
       - 
       - 
-      Flags: 0000000000000000000000
+      - 
+      Flags: 000000000000000000000000
       Languages_Touch: []
     - Term: 6_KingsPlace2_cardRight_REV
       TermType: 0
@@ -1271,7 +1337,8 @@ MonoBehaviour:
       - 
       - 
       - 
-      Flags: 0000000000000000000000
+      - 
+      Flags: 000000000000000000000000
       Languages_Touch: []
     - Term: 7_KingTellStory_bunner
       TermType: 0
@@ -1297,7 +1364,8 @@ MonoBehaviour:
       - 
       - 
       - 
-      Flags: 0000000000000000000000
+      - 
+      Flags: 000000000000000000000000
       Languages_Touch: []
     - Term: 7_KingTellStory_cardLeft
       TermType: 0
@@ -1314,7 +1382,8 @@ MonoBehaviour:
       - 
       - 
       - 
-      Flags: 0000000000000000000000
+      - 
+      Flags: 000000000000000000000000
       Languages_Touch: []
     - Term: 7_KingTellStory_cardLeft_REV
       TermType: 0
@@ -1333,7 +1402,8 @@ MonoBehaviour:
       - 
       - 
       - 
-      Flags: 0000000000000000000000
+      - 
+      Flags: 000000000000000000000000
       Languages_Touch: []
     - Term: 7_KingTellStory_cardRight
       TermType: 0
@@ -1351,7 +1421,8 @@ MonoBehaviour:
       - 
       - 
       - 
-      Flags: 0000000000000000000000
+      - 
+      Flags: 000000000000000000000000
       Languages_Touch: []
     - Term: 7_KingTellStory_cardRight_REV
       TermType: 0
@@ -1371,7 +1442,8 @@ MonoBehaviour:
       - 
       - 
       - 
-      Flags: 0000000000000000000000
+      - 
+      Flags: 000000000000000000000000
       Languages_Touch: []
     - Term: 7_Listen_bunner
       TermType: 0
@@ -1397,7 +1469,8 @@ MonoBehaviour:
       - 
       - 
       - 
-      Flags: 0000000000000000000000
+      - 
+      Flags: 000000000000000000000000
       Languages_Touch: []
     - Term: 7_Listen_cardLeft
       TermType: 0
@@ -1414,7 +1487,8 @@ MonoBehaviour:
       - 
       - 
       - 
-      Flags: 0000000000000000000000
+      - 
+      Flags: 000000000000000000000000
       Languages_Touch: []
     - Term: 7_Listen_cardLeft_REV
       TermType: 0
@@ -1433,7 +1507,8 @@ MonoBehaviour:
       - 
       - 
       - 
-      Flags: 0000000000000000000000
+      - 
+      Flags: 000000000000000000000000
       Languages_Touch: []
     - Term: 7_Listen_cardRight
       TermType: 0
@@ -1451,7 +1526,8 @@ MonoBehaviour:
       - 
       - 
       - 
-      Flags: 0000000000000000000000
+      - 
+      Flags: 000000000000000000000000
       Languages_Touch: []
     - Term: 7_Listen_cardRight_REV
       TermType: 0
@@ -1471,7 +1547,8 @@ MonoBehaviour:
       - 
       - 
       - 
-      Flags: 0000000000000000000000
+      - 
+      Flags: 000000000000000000000000
       Languages_Touch: []
     - Term: 8_GoToJail_bunner
       TermType: 0
@@ -1488,7 +1565,8 @@ MonoBehaviour:
       - 
       - 
       - 
-      Flags: 0000000000000000000000
+      - 
+      Flags: 000000000000000000000000
       Languages_Touch: []
     - Term: 8_GoToJail_cardLeft
       TermType: 0
@@ -1505,7 +1583,8 @@ MonoBehaviour:
       - 
       - 
       - 
-      Flags: 0000000000000000000000
+      - 
+      Flags: 000000000000000000000000
       Languages_Touch: []
     - Term: 8_GoToJail_cardLeft_REV
       TermType: 0
@@ -1524,7 +1603,8 @@ MonoBehaviour:
       - 
       - 
       - 
-      Flags: 0000000000000000000000
+      - 
+      Flags: 000000000000000000000000
       Languages_Touch: []
     - Term: 8_GoToJail_cardRight
       TermType: 0
@@ -1541,7 +1621,8 @@ MonoBehaviour:
       - 
       - 
       - 
-      Flags: 0000000000000000000000
+      - 
+      Flags: 000000000000000000000000
       Languages_Touch: []
     - Term: 8_GoToJail_cardRight_REV
       TermType: 0
@@ -1560,7 +1641,8 @@ MonoBehaviour:
       - 
       - 
       - 
-      Flags: 0000000000000000000000
+      - 
+      Flags: 000000000000000000000000
       Languages_Touch: []
     - Term: 8_NoSword_bunner
       TermType: 0
@@ -1578,7 +1660,8 @@ MonoBehaviour:
       - 
       - 
       - 
-      Flags: 0000000000000000000000
+      - 
+      Flags: 000000000000000000000000
       Languages_Touch: []
     - Term: 8_NoSword_cardLeft
       TermType: 0
@@ -1596,7 +1679,8 @@ MonoBehaviour:
       - 
       - 
       - 
-      Flags: 0000000000000000000000
+      - 
+      Flags: 000000000000000000000000
       Languages_Touch: []
     - Term: 8_NoSword_cardLeft_REV
       TermType: 0
@@ -1615,7 +1699,8 @@ MonoBehaviour:
       - 
       - 
       - 
-      Flags: 0000000000000000000000
+      - 
+      Flags: 000000000000000000000000
       Languages_Touch: []
     - Term: 8_NoSword_cardRight
       TermType: 0
@@ -1633,7 +1718,8 @@ MonoBehaviour:
       - 
       - 
       - 
-      Flags: 0000000000000000000000
+      - 
+      Flags: 000000000000000000000000
       Languages_Touch: []
     - Term: 8_NoSword_cardRight_REV
       TermType: 0
@@ -1652,7 +1738,8 @@ MonoBehaviour:
       - 
       - 
       - 
-      Flags: 0000000000000000000000
+      - 
+      Flags: 000000000000000000000000
       Languages_Touch: []
     - Term: 8_Sword_bunner
       TermType: 0
@@ -1676,7 +1763,8 @@ MonoBehaviour:
       - 
       - 
       - 
-      Flags: 0000000000000000000000
+      - 
+      Flags: 000000000000000000000000
       Languages_Touch: []
     - Term: 8_Sword_cardLeft
       TermType: 0
@@ -1693,7 +1781,8 @@ MonoBehaviour:
       - 
       - 
       - 
-      Flags: 0000000000000000000000
+      - 
+      Flags: 000000000000000000000000
       Languages_Touch: []
     - Term: 8_Sword_cardLeft_REV
       TermType: 0
@@ -1711,7 +1800,8 @@ MonoBehaviour:
       - 
       - 
       - 
-      Flags: 0000000000000000000000
+      - 
+      Flags: 000000000000000000000000
       Languages_Touch: []
     - Term: 8_Sword_cardRight
       TermType: 0
@@ -1729,7 +1819,8 @@ MonoBehaviour:
       - 
       - 
       - 
-      Flags: 0000000000000000000000
+      - 
+      Flags: 000000000000000000000000
       Languages_Touch: []
     - Term: 8_Sword_cardRight_REV
       TermType: 0
@@ -1748,7 +1839,8 @@ MonoBehaviour:
       - 
       - 
       - 
-      Flags: 0000000000000000000000
+      - 
+      Flags: 000000000000000000000000
       Languages_Touch: []
     - Term: 9_DVOR_bunner
       TermType: 0
@@ -1769,7 +1861,8 @@ MonoBehaviour:
       - 
       - 
       - 
-      Flags: 0000000000000000000000
+      - 
+      Flags: 000000000000000000000000
       Languages_Touch: []
     - Term: 9_DVOR_cardLeft
       TermType: 0
@@ -1786,7 +1879,8 @@ MonoBehaviour:
       - 
       - 
       - 
-      Flags: 0000000000000000000000
+      - 
+      Flags: 000000000000000000000000
       Languages_Touch: []
     - Term: 9_DVOR_cardLeft_REV
       TermType: 0
@@ -1804,7 +1898,8 @@ MonoBehaviour:
       - 
       - 
       - 
-      Flags: 0000000000000000000000
+      - 
+      Flags: 000000000000000000000000
       Languages_Touch: []
     - Term: 9_DVOR_cardRight
       TermType: 0
@@ -1821,7 +1916,8 @@ MonoBehaviour:
       - 
       - 
       - 
-      Flags: 0000000000000000000000
+      - 
+      Flags: 000000000000000000000000
       Languages_Touch: []
     - Term: 9_DVOR_cardRight_REV
       TermType: 0
@@ -1839,7 +1935,8 @@ MonoBehaviour:
       - 
       - 
       - 
-      Flags: 0000000000000000000000
+      - 
+      Flags: 000000000000000000000000
       Languages_Touch: []
     - Term: 10_GUARDS_bunner
       TermType: 0
@@ -1858,7 +1955,8 @@ MonoBehaviour:
       - 
       - 
       - 
-      Flags: 0000000000000000000000
+      - 
+      Flags: 000000000000000000000000
       Languages_Touch: []
     - Term: 10_GUARDS_cardLeft
       TermType: 0
@@ -1876,7 +1974,8 @@ MonoBehaviour:
       - 
       - 
       - 
-      Flags: 0000000000000000000000
+      - 
+      Flags: 000000000000000000000000
       Languages_Touch: []
     - Term: 10_GUARDS_cardLeft_REV
       TermType: 0
@@ -1895,7 +1994,8 @@ MonoBehaviour:
       - 
       - 
       - 
-      Flags: 0000000000000000000000
+      - 
+      Flags: 000000000000000000000000
       Languages_Touch: []
     - Term: 10_GUARDS_cardRight
       TermType: 0
@@ -1915,7 +2015,8 @@ MonoBehaviour:
       - 
       - 
       - 
-      Flags: 0000000000000000000000
+      - 
+      Flags: 000000000000000000000000
       Languages_Touch: []
     - Term: 10_GUARDS_cardRight_REV
       TermType: 0
@@ -1933,7 +2034,8 @@ MonoBehaviour:
       - 
       - 
       - 
-      Flags: 0000000000000000000000
+      - 
+      Flags: 000000000000000000000000
       Languages_Touch: []
     - Term: 10_HORSES_HEALTHY
       TermType: 0
@@ -1951,7 +2053,8 @@ MonoBehaviour:
       - 
       - 
       - 
-      Flags: 0000000000000000000000
+      - 
+      Flags: 000000000000000000000000
       Languages_Touch: []
     - Term: 10_HORSES_HEALTHY_cardLeft
       TermType: 0
@@ -1969,7 +2072,8 @@ MonoBehaviour:
       - 
       - 
       - 
-      Flags: 0000000000000000000000
+      - 
+      Flags: 000000000000000000000000
       Languages_Touch: []
     - Term: 10_HORSES_HEALTHY_cardLeft_REV
       TermType: 0
@@ -1987,7 +2091,8 @@ MonoBehaviour:
       - 
       - 
       - 
-      Flags: 0000000000000000000000
+      - 
+      Flags: 000000000000000000000000
       Languages_Touch: []
     - Term: 10_HORSES_HEALTHY_cardRight
       TermType: 0
@@ -2005,7 +2110,8 @@ MonoBehaviour:
       - 
       - 
       - 
-      Flags: 0000000000000000000000
+      - 
+      Flags: 000000000000000000000000
       Languages_Touch: []
     - Term: 10_HORSES_HEALTHY_cardRight_REV
       TermType: 0
@@ -2023,7 +2129,8 @@ MonoBehaviour:
       - 
       - 
       - 
-      Flags: 0000000000000000000000
+      - 
+      Flags: 000000000000000000000000
       Languages_Touch: []
     - Term: 10_HORSES_SAD_bunner
       TermType: 0
@@ -2044,7 +2151,8 @@ MonoBehaviour:
       - 
       - 
       - 
-      Flags: 0000000000000000000000
+      - 
+      Flags: 000000000000000000000000
       Languages_Touch: []
     - Term: 10_HORSES_SAD_cardLeft
       TermType: 0
@@ -2062,7 +2170,8 @@ MonoBehaviour:
       - 
       - 
       - 
-      Flags: 0000000000000000000000
+      - 
+      Flags: 000000000000000000000000
       Languages_Touch: []
     - Term: 10_HORSES_SAD_cardLeft_REV
       TermType: 0
@@ -2080,7 +2189,8 @@ MonoBehaviour:
       - 
       - 
       - 
-      Flags: 0000000000000000000000
+      - 
+      Flags: 000000000000000000000000
       Languages_Touch: []
     - Term: 10_HORSES_SAD_cardRight
       TermType: 0
@@ -2098,7 +2208,8 @@ MonoBehaviour:
       - 
       - 
       - 
-      Flags: 0000000000000000000000
+      - 
+      Flags: 000000000000000000000000
       Languages_Touch: []
     - Term: 10_HORSES_SAD_cardRight_REV
       TermType: 0
@@ -2116,7 +2227,8 @@ MonoBehaviour:
       - 
       - 
       - 
-      Flags: 0000000000000000000000
+      - 
+      Flags: 000000000000000000000000
       Languages_Touch: []
     - Term: 10(5)_HORSES_HEALTHY_bunner
       TermType: 0
@@ -2137,7 +2249,8 @@ MonoBehaviour:
       - 
       - 
       - 
-      Flags: 0000000000000000000000
+      - 
+      Flags: 000000000000000000000000
       Languages_Touch: []
     - Term: 10(5)_HORSES_HEALTHY_cardLeft
       TermType: 0
@@ -2155,7 +2268,8 @@ MonoBehaviour:
       - 
       - 
       - 
-      Flags: 0000000000000000000000
+      - 
+      Flags: 000000000000000000000000
       Languages_Touch: []
     - Term: 10(5)_HORSES_HEALTHY_cardLeft_REV
       TermType: 0
@@ -2173,7 +2287,8 @@ MonoBehaviour:
       - 
       - 
       - 
-      Flags: 0000000000000000000000
+      - 
+      Flags: 000000000000000000000000
       Languages_Touch: []
     - Term: 10(5)_HORSES_HEALTHY_cardRight
       TermType: 0
@@ -2191,7 +2306,8 @@ MonoBehaviour:
       - 
       - 
       - 
-      Flags: 0000000000000000000000
+      - 
+      Flags: 000000000000000000000000
       Languages_Touch: []
     - Term: 10(5)_HORSES_HEALTHY_cardRight_REV
       TermType: 0
@@ -2213,7 +2329,8 @@ MonoBehaviour:
       - 
       - 
       - 
-      Flags: 0000000000000000000000
+      - 
+      Flags: 000000000000000000000000
       Languages_Touch: []
     - Term: 10(5)_GO_WAY_HOW_bunner
       TermType: 0
@@ -2231,7 +2348,8 @@ MonoBehaviour:
       - 
       - 
       - 
-      Flags: 0000000000000000000000
+      - 
+      Flags: 000000000000000000000000
       Languages_Touch: []
     - Term: 10(5)_GO_WAY_HOW_cardLeft
       TermType: 0
@@ -2249,7 +2367,8 @@ MonoBehaviour:
       - 
       - 
       - 
-      Flags: 0000000000000000000000
+      - 
+      Flags: 000000000000000000000000
       Languages_Touch: []
     - Term: 10(5)_GO_WAY_HOW_cardLeft_REV
       TermType: 0
@@ -2268,7 +2387,8 @@ MonoBehaviour:
       - 
       - 
       - 
-      Flags: 0000000000000000000000
+      - 
+      Flags: 000000000000000000000000
       Languages_Touch: []
     - Term: 10(5)_GO_WAY_HOW_cardLeft_REV_NO
       TermType: 0
@@ -2287,7 +2407,8 @@ MonoBehaviour:
       - 
       - 
       - 
-      Flags: 0000000000000000000000
+      - 
+      Flags: 000000000000000000000000
       Languages_Touch: []
     - Term: 10(5)_GO_WAY_HOW_cardRight
       TermType: 0
@@ -2305,7 +2426,8 @@ MonoBehaviour:
       - 
       - 
       - 
-      Flags: 0000000000000000000000
+      - 
+      Flags: 000000000000000000000000
       Languages_Touch: []
     - Term: 10(5)_GO_WAY_HOW_cardRight_REV
       TermType: 0
@@ -2324,7 +2446,8 @@ MonoBehaviour:
       - 
       - 
       - 
-      Flags: 0000000000000000000000
+      - 
+      Flags: 000000000000000000000000
       Languages_Touch: []
     - Term: 10(5)_NAIL_bunner
       TermType: 0
@@ -2343,7 +2466,8 @@ MonoBehaviour:
       - 
       - 
       - 
-      Flags: 0000000000000000000000
+      - 
+      Flags: 000000000000000000000000
       Languages_Touch: []
     - Term: 10(5)_NAIL_cardLeft
       TermType: 0
@@ -2362,7 +2486,8 @@ MonoBehaviour:
       - 
       - 
       - 
-      Flags: 0000000000000000000000
+      - 
+      Flags: 000000000000000000000000
       Languages_Touch: []
     - Term: 10(5)_NAIL_cardLeft_REV
       TermType: 0
@@ -2382,7 +2507,8 @@ MonoBehaviour:
       - 
       - 
       - 
-      Flags: 0000000000000000000000
+      - 
+      Flags: 000000000000000000000000
       Languages_Touch: []
     - Term: 10(5)_NAIL_cardRight
       TermType: 0
@@ -2402,7 +2528,8 @@ MonoBehaviour:
       - 
       - 
       - 
-      Flags: 0000000000000000000000
+      - 
+      Flags: 000000000000000000000000
       Languages_Touch: []
     - Term: 10(5)_NAIL_cardRight_REV
       TermType: 0
@@ -2420,7 +2547,8 @@ MonoBehaviour:
       - 
       - 
       - 
-      Flags: 0000000000000000000000
+      - 
+      Flags: 000000000000000000000000
       Languages_Touch: []
     - Term: 11_Home_bunner
       TermType: 0
@@ -2438,7 +2566,8 @@ MonoBehaviour:
       - 
       - 
       - 
-      Flags: 0000000000000000000000
+      - 
+      Flags: 000000000000000000000000
       Languages_Touch: []
     - Term: 11_Home_cardLeft
       TermType: 0
@@ -2455,7 +2584,8 @@ MonoBehaviour:
       - 
       - 
       - 
-      Flags: 0000000000000000000000
+      - 
+      Flags: 000000000000000000000000
       Languages_Touch: []
     - Term: 11_Home_cardLeft_REV
       TermType: 0
@@ -2473,7 +2603,8 @@ MonoBehaviour:
       - 
       - 
       - 
-      Flags: 0000000000000000000000
+      - 
+      Flags: 000000000000000000000000
       Languages_Touch: []
     - Term: 11_Home_cardRight
       TermType: 0
@@ -2490,7 +2621,8 @@ MonoBehaviour:
       - 
       - 
       - 
-      Flags: 0000000000000000000000
+      - 
+      Flags: 000000000000000000000000
       Languages_Touch: []
     - Term: 11_Home_cardRight_REV
       TermType: 0
@@ -2508,7 +2640,8 @@ MonoBehaviour:
       - 
       - 
       - 
-      Flags: 0000000000000000000000
+      - 
+      Flags: 000000000000000000000000
       Languages_Touch: []
     - Term: 12_Foret_bunner
       TermType: 0
@@ -2528,7 +2661,8 @@ MonoBehaviour:
       - 
       - 
       - 
-      Flags: 0000000000000000000000
+      - 
+      Flags: 000000000000000000000000
       Languages_Touch: []
     - Term: 12_Foret_cardLeft
       TermType: 0
@@ -2545,7 +2679,8 @@ MonoBehaviour:
       - 
       - 
       - 
-      Flags: 0000000000000000000000
+      - 
+      Flags: 000000000000000000000000
       Languages_Touch: []
     - Term: 12_Foret_cardLeft_REV
       TermType: 0
@@ -2564,7 +2699,8 @@ MonoBehaviour:
       - 
       - 
       - 
-      Flags: 0000000000000000000000
+      - 
+      Flags: 000000000000000000000000
       Languages_Touch: []
     - Term: 12_Foret_cardRight
       TermType: 0
@@ -2581,7 +2717,8 @@ MonoBehaviour:
       - 
       - 
       - 
-      Flags: 0000000000000000000000
+      - 
+      Flags: 000000000000000000000000
       Languages_Touch: []
     - Term: 12_Foret_cardRight_REV
       TermType: 0
@@ -2600,7 +2737,8 @@ MonoBehaviour:
       - 
       - 
       - 
-      Flags: 0000000000000000000000
+      - 
+      Flags: 000000000000000000000000
       Languages_Touch: []
     CaseInsensitiveTerms: 0
     OnMissingTranslation: 1
@@ -2638,6 +2776,9 @@ MonoBehaviour:
       Flags: 0
     - Name: Ukrainian
       Code: uk
+      Flags: 0
+    - Name: Belarusian
+      Code: be
       Flags: 0
     IgnoreDeviceLanguage: 0
     _AllowUnloadingLanguages: 0
