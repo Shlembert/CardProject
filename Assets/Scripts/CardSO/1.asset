@@ -21,7 +21,7 @@ MonoBehaviour:
     illustrationSprite: {fileID: 21300000, guid: 996797e7396e4df4abf8155f90d11a59, type: 3}
     animator: {fileID: 9100000, guid: cb295a52db6a88f408be4c6057f4b0af, type: 2}
     animationClip: {fileID: 7400000, guid: 2b9c976555841bc4f998c01d7338816d, type: 2}
-    itemSprite: {fileID: 21300000, guid: e3a1a84f98903d244a071ace30120566, type: 3}
+    itemSprite: {fileID: 0}
     requiredItemSprite: {fileID: 0}
     removeItemSprite: 0
     changeBanner: 1

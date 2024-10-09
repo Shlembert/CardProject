@@ -8,6 +8,7 @@ using UnityEngine.UI;
 public class InventoryController : MonoBehaviour
 {
     [SerializeField] private InputCard inputCard;
+    [SerializeField] private ContentCard contentCard;
     [SerializeField] private List<Image> inventory, fullBag;
     [SerializeField] private Transform fullBagPanel, target;
 
@@ -157,6 +158,7 @@ public class InventoryController : MonoBehaviour
 
     public bool CheckFullInventory()
     {
+        if(!contentCard.IsGiveItem) { return false; }
         foreach (Image image in inventory)
         {
             if (!image.enabled)

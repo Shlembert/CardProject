@@ -1,6 +1,5 @@
 using Cysharp.Threading.Tasks;
 using I2.Loc;
-using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -24,6 +23,7 @@ public class ContentCard : MonoBehaviour
     private bool _changeBanner;
     private bool _removeItem;
     private bool _checkRemove;
+    private bool _isGiveItem;
 
     public CardSetScriptableObject CardSetScriptableObject
     {
@@ -40,6 +40,7 @@ public class ContentCard : MonoBehaviour
     public bool CheckRemove { get => _checkRemove; set => _checkRemove = value; }
     public AudioClip ReverseAudioClip { get => _reverseAudioClip; set => _reverseAudioClip = value; }
     public AudioClip BannerAudioClip { get => _bannerAudioClip; set => _bannerAudioClip = value; }
+    public bool IsGiveItem { get => _isGiveItem; set => _isGiveItem = value; }
 
     public void SetContent(CardSetScriptableObject cardSetScriptableObject)
     {
@@ -56,7 +57,7 @@ public class ContentCard : MonoBehaviour
         input_R.AnimatorController = cardSetScriptableObject?.rightCard?.animator;
         illustrationSprite_R.sprite = cardSetScriptableObject?.rightCard?.illustrationSprite;
 
-       
+
         bannerLoc.Term = cardSetScriptableObject?.bannerText;
         cardLoc_L.Term = cardSetScriptableObject?.leftCard?.messageText;
         cardLoc_R.Term = cardSetScriptableObject?.rightCard?.messageText;
@@ -69,8 +70,8 @@ public class ContentCard : MonoBehaviour
         CardData cardData = SetSideCard(cardType);
         StopAnim();
         CheckChangeLocation(cardData);
-        
-       CheckRemove = cardData.removeItemSprite;
+
+        CheckRemove = cardData.removeItemSprite;
 
         _changeBanner = cardData.changeBanner; // Проверка на смену баннера
 
@@ -98,7 +99,7 @@ public class ContentCard : MonoBehaviour
             NextCardSetScriptableObject = cardData.nextSetIfNoItem;
             _changeLifeCount = cardData.changeLifePointsIfNoItem;
             reverseLoc.Term = cardData.reverseTopTextIfNoItem;
-            reverseSprite.sprite= cardData.reverseSpriteIfNoItem;
+            reverseSprite.sprite = cardData.reverseSpriteIfNoItem;
             _reverseAudioClip = null;
             _reverseAudioClip = cardData?.reverseAudioClipNoItem;
         }
@@ -109,13 +110,15 @@ public class ContentCard : MonoBehaviour
         NextCardSetScriptableObject = cardData.nextSetIfItem;
         _changeLifeCount = cardData.changeLifePointsIfItem;
         reverseLoc.Term = cardData.reverseTopTextIfItem;
-        reverseSprite.sprite= cardData.reverseSpriteIfItem;
+        reverseSprite.sprite = cardData.reverseSpriteIfItem;
         _reverseAudioClip = null;
         _reverseAudioClip = cardData?.reverseAudioClipItem;
     }
 
     private void CheckGiveItem(CardData cardData)
     {
+        _isGiveItem = cardData.itemSprite;
+
         if (cardData.itemSprite) // Проверка, дается ли предмет
         {
             _giveItem = cardData.itemSprite;

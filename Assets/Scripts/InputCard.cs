@@ -84,6 +84,7 @@ public class InputCard : MonoBehaviour, IPointerEnterHandler, IPointerExitHandle
         IsClick = true;
         bool full = inventoryController.CheckFullInventory();
 
+
         if (gameController.IsGameOver)
         {
             gameController.IsGameOver = false;
@@ -92,7 +93,7 @@ public class InputCard : MonoBehaviour, IPointerEnterHandler, IPointerExitHandle
 
         contentCard.ChangeCountHP();
 
-        if (full) await inventoryController.WaitForBagHide();
+        if (full ) await inventoryController.WaitForBagHide();
         else await contentCard.SetItemToInventory();
 
         ContinueAfterHideBag();
