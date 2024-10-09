@@ -11,6 +11,7 @@ public class InputCard : MonoBehaviour, IPointerEnterHandler, IPointerExitHandle
     [SerializeField] private ContentCard contentCard;
     [SerializeField] private SoundController soundController;
     [SerializeField] private GameController gameController;
+    [SerializeField] private InventoryController inventoryController;
     [SerializeField] private CardType cardType;
     [SerializeField] private Animator _animator;
 
@@ -81,16 +82,28 @@ public class InputCard : MonoBehaviour, IPointerEnterHandler, IPointerExitHandle
     private async void ClickReverse()
     {
         IsClick = true;
+        bool full = inventoryController.CheckFullInventory();
 
-        if (gameController.IsGameOver){ gameController.IsGameOver = false; return; }
+        if (gameController.IsGameOver)
+        {
+            gameController.IsGameOver = false;
+            return;
+        }
 
         contentCard.ChangeCountHP();
-        await contentCard.SetItemToInventory();
-        await contentCard.RemoveItemFromInventory();
 
+        if (full) await inventoryController.WaitForBagHide();
+        else await contentCard.SetItemToInventory();
+
+        ContinueAfterHideBag();
+    }
+
+     public async void ContinueAfterHideBag()
+    {
+        await contentCard.RemoveItemFromInventory();
         soundController.PlaySoundClip(contentCard.ReverseAudioClip);
         await cardAnimation.HoldReverseCard();
-       
+
         await contentCard.HoldBanner();
         await contentCard.ChangeLocationSprite();
         contentCard.SetContent(contentCard.NextCardSetScriptableObject);

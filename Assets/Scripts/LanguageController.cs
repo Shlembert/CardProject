@@ -16,7 +16,7 @@ public class LanguageController : MonoBehaviour
         Debug.Log(currentLanguage);
         foreach (var button in buttons)
         {
-            if (button.name == currentLanguage) 
+            if (button.name == currentLanguage)
             {
                 button.interactable = false;
             }
@@ -33,14 +33,14 @@ public class LanguageController : MonoBehaviour
         languagePanel.gameObject.SetActive(true);
         Sequence sequence = DOTween.Sequence();
         sequence.Append(languagePanel.DOScale(Vector3.one, duration).SetEase(Ease.OutBack));
-        sequence.OnComplete (() => ShowButtons());
+        sequence.OnComplete(() => ShowButtons());
     }
 
     public void HidePanel()
     {
         Sequence sequence = DOTween.Sequence();
         sequence.Append(languagePanel.DOScale(0, duration).SetEase(Ease.InBack));
-        sequence.OnComplete(() => 
+        sequence.OnComplete(() =>
         languagePanel.gameObject.SetActive(false));
     }
 
@@ -48,24 +48,26 @@ public class LanguageController : MonoBehaviour
     {
         float currentDelay = 0f;
 
+        string currentLang = LocalizationManager.CurrentLanguageCode;
+
         foreach (Button button in buttons)
         {
+            bool otherOnButton = button.enabled && button.name != currentLang;
+
             button.transform.DOScale(Vector3.one, duration * 0.2f)
                 .SetEase(Ease.OutBack)
                 .SetDelay(currentDelay);
 
-            currentDelay += delayInterval; // Увеличиваем задержку для следующей кнопки
-            if (button.enabled && button.name != LocalizationManager.CurrentLanguageCode)
-            {
-                button.GetComponent<ButtonAnimation>().enabled = true;
-            }
+            currentDelay += delayInterval;
+           
+            button.GetComponent<ButtonAnimation>().enabled = otherOnButton;
         }
     }
-
 
     public void SetLanguage(Button button)
     {
         LocalizationManager.CurrentLanguageCode = button.name;
+
         foreach (Button button1 in buttons)
         {
             if (button1.enabled)

@@ -18,6 +18,7 @@ public class StartButton : MonoBehaviour, IPointerEnterHandler, IPointerExitHand
     [SerializeField] private CardSetScriptableObject cardSetScriptableObject;
 
     private Transform _transform;
+    private bool _click = false;
 
     private void Start()
     {
@@ -36,6 +37,7 @@ public class StartButton : MonoBehaviour, IPointerEnterHandler, IPointerExitHand
 
     public async void OnPointerDown(PointerEventData eventData)
     {
+        if (_click) return; _click = true;
         soundController.PlayClick();
         _transform.DOScale(Vector3.one, 0.2f);
         contentCard.SetContent(cardSetScriptableObject);
@@ -45,5 +47,6 @@ public class StartButton : MonoBehaviour, IPointerEnterHandler, IPointerExitHand
          gameController.HideMenu();
         await bannerAnimation.ShowBanner();
         await cardAnimation.ShowCards();
+        _click = false;
     }
 }

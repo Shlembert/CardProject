@@ -119,6 +119,7 @@ public class ContentCard : MonoBehaviour
         if (cardData.itemSprite) // Проверка, дается ли предмет
         {
             _giveItem = cardData.itemSprite;
+            inventoryController.GiveSprite = _giveItem;
             Debug.Log($"Present: {_giveItem.name}");
         }
         else
