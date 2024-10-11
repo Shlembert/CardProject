@@ -44,8 +44,9 @@ public class ContentCard : MonoBehaviour
 
     public void SetContent(CardSetScriptableObject cardSetScriptableObject)
     {
+       // if(gameController.IsGameOver) return;
         CardSetScriptableObject = cardSetScriptableObject;
-        //Debug.Log(cardSetScriptableObject.name);
+        Debug.Log(cardSetScriptableObject.name);
         portraitSprite.sprite = cardSetScriptableObject?.portrait;
         BannerAudioClip = null;
         BannerAudioClip = cardSetScriptableObject?.bannerSound;

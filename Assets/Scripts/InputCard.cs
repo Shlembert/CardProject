@@ -66,6 +66,8 @@ public class InputCard : MonoBehaviour, IPointerEnterHandler, IPointerExitHandle
 
     private void ClickCard()
     {
+        if (IsClick) return;
+
         if (_animator) _animator.enabled = false;
 
         if (cardType != CardType.Reverse)
@@ -75,7 +77,6 @@ public class InputCard : MonoBehaviour, IPointerEnterHandler, IPointerExitHandle
         }
         else
         {
-            if (IsClick) return;
             ClickReverse();
         }
     }
@@ -84,13 +85,6 @@ public class InputCard : MonoBehaviour, IPointerEnterHandler, IPointerExitHandle
     {
         IsClick = true;
         bool full = inventoryController.CheckFullInventory();
-
-
-        if (gameController.IsGameOver)
-        {
-            gameController.IsGameOver = false;
-            return;
-        }
 
         contentCard.ChangeCountHP();
 

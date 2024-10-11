@@ -132,17 +132,20 @@ public class GameController : MonoBehaviour
         await UniTask.Yield();
     }
 
+
     public async UniTask ShowDead()
     {
-        _isGameOver = true;
+        Debug.Log("Show Dead");
         await ShowHold();
         deadPanel.position = Vector3.zero;
         await HideHold();
+        await UniTask.Yield();
     }
 
     public async UniTask HideDead()
     {
         _isGameOver = false;
+
         await ShowHold();
         deadPanel.position = _positionUp;
         await HideHold();

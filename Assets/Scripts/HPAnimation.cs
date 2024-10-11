@@ -21,10 +21,8 @@ public class HPAnimation : MonoBehaviour
 
     }
 
-    public async void RemoveLife(Image image) 
+    public  void RemoveLife(Image image) 
     {
-        if (image.name == "heart (0)") await gameController.ShowDead();
-
         Transform transform = image.GetComponent<Transform>();
         _normalColor = image.color;
 

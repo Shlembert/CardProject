@@ -21903,6 +21903,7 @@ MonoBehaviour:
   - {fileID: 732029386}
   - {fileID: 641304057}
   - {fileID: 216751306}
+  gameController: {fileID: 1825275744}
 --- !u!114 &1650742179
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24643,7 +24644,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -10971489, y: 7691714.5}
+  m_AnchoredPosition: {x: -11008379, y: 7717579.5}
   m_SizeDelta: {x: 0, y: 300}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &2018445987
