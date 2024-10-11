@@ -1,9 +1,9 @@
 using Cysharp.Threading.Tasks;
 using DG.Tweening;
 using System.Collections.Generic;
-using UnityEditor.Animations;
 using UnityEngine;
 using UnityEngine.EventSystems;
+
 
 public class InputCard : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IPointerClickHandler
 {
@@ -17,10 +17,11 @@ public class InputCard : MonoBehaviour, IPointerEnterHandler, IPointerExitHandle
 
     private Transform _transform;
     private AnimationClip _animationClip;
-    private AnimatorController _animatorController;
+    private RuntimeAnimatorController _animatorController;
     private bool _isClick = false;
+
     public AnimationClip AnimationClip { get => _animationClip; set => _animationClip = value; }
-    public AnimatorController AnimatorController { get => _animatorController; set => _animatorController = value; }
+    public RuntimeAnimatorController AnimatorController { get => _animatorController; set => _animatorController = value; }
     public bool IsClick { get => _isClick; set => _isClick = value; }
 
     private async void Start()
@@ -93,13 +94,13 @@ public class InputCard : MonoBehaviour, IPointerEnterHandler, IPointerExitHandle
 
         contentCard.ChangeCountHP();
 
-        if (full ) await inventoryController.WaitForBagHide();
+        if (full) await inventoryController.WaitForBagHide();
         else await contentCard.SetItemToInventory();
 
         ContinueAfterHideBag();
     }
 
-     public async void ContinueAfterHideBag()
+    public async void ContinueAfterHideBag()
     {
         await contentCard.RemoveItemFromInventory();
         soundController.PlaySoundClip(contentCard.ReverseAudioClip);

@@ -1,3 +1,4 @@
+#if UNITY_EDITOR
 using UnityEditor;
 using UnityEngine;
 
@@ -79,3 +80,5 @@ public class CardSetScriptableObjectEditor : Editor
         EditorGUILayout.PropertyField(serializedObject.FindProperty($"{cardPropertyPath}.changeLifePointsIfNoItem"), new GUIContent("Изменить очки жизни"));
     }
 }
+
+#endif

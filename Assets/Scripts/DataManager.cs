@@ -126,6 +126,9 @@ public class DataManager : MonoBehaviour
         texture.LoadImage(fileData);
         Sprite screenshotSprite = Sprite.Create(texture, new Rect(0, 0, texture.width, texture.height), Vector2.zero);
 
+        // Удаление файла после создания спрайта
+        File.Delete(filePath);
+
         return screenshotSprite;
     }
 

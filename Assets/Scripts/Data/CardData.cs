@@ -1,13 +1,12 @@
-using UnityEditor.Animations;
 using UnityEngine;
-
 [System.Serializable]
 public class CardData
 {
     // Основная информация для карты
     [TextArea(3, 3)] public string messageText; // Текст сообщения
     public Sprite illustrationSprite; // Иллюстрация для карты
-    public AnimatorController animator; // Аниматор для бухих
+
+    public RuntimeAnimatorController animator; // Аниматор для подмены анимации
     public AnimationClip animationClip; // Анимация для карты
 
     // Информация о предметах

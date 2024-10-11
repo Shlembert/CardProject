@@ -206,5 +206,6 @@ public class GameController : MonoBehaviour
         loadPanel.position = Vector3.zero;
     }
 
+    public void ExitGame()=> Application.Quit();
     public void HideMapButton() => HideMap().Forget();
 }
