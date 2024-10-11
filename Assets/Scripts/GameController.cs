@@ -80,7 +80,6 @@ public class GameController : MonoBehaviour
 
     public async void ShowLoad()
     {
-        
         createNewSaveButton.SetActive(!_isMineMenu);
         await ShowHold();
         pausePanel.position = _positionUp;
@@ -167,6 +166,7 @@ public class GameController : MonoBehaviour
     }
     public async void GoToMenu()
     {
+        _isMineMenu = true;
         await ShowHold();
         inventoryController.ClearInventory();
         hpController.SetHP(3);

@@ -13,13 +13,19 @@ public class DataManager : MonoBehaviour
     [SerializeField] private GameObject prefabSaveButton;
     [SerializeField] private Transform contentParent, dialoguePanel;
     [SerializeField] private TMP_InputField inputField;
-    [SerializeField] private List<Button> buttons;
+    [SerializeField] private TMP_Text textField;
+    [SerializeField] private List<SaveButton> buttons;
+
     private GameObject _currentSaveButton;
     private const string ScreenshotPath = "Assets/SaveData/Screenshots/";
+
+    public List<SaveButton> Buttons { get => buttons; set => buttons = value; }
+
     private void Start()
     {
         inputField.characterLimit = 20;
     }
+
     public void ShowDialogue()
     {
         dialoguePanel.DOScale(Vector3.one, 0.5f).SetEase(Ease.OutBack).OnComplete(() =>
@@ -36,7 +42,7 @@ public class DataManager : MonoBehaviour
 
     private void ButtonOn(bool on)
     {
-        foreach (var button in buttons)
+        foreach (var button in Buttons)
         {
             button.enabled = on;
             button.GetComponent<ButtonAnimation>().enabled = on;
@@ -50,11 +56,13 @@ public class DataManager : MonoBehaviour
 
     public async void CreateSaveButton()
     {
+        NoTextAnimation(inputField.text != "");
+
         if (inputField.text != "")
         {
             GameObject go = Instantiate(prefabSaveButton, contentParent);
             SaveButton saveButton = go.GetComponent<SaveButton>();
-
+            buttons.Add(saveButton);
             saveButton.NameSave.text = inputField.text;
             saveButton.DataTime.text = DateTime.Now.ToString("dd/MM/yyyy HH:mm");
 
@@ -67,11 +75,38 @@ public class DataManager : MonoBehaviour
                 go.SetActive(true);
                 go.transform.DOScale(0, 0.3f).From().SetEase(Ease.OutBack).OnComplete(() =>
                 {
+                    saveButton.IsSelected = false;
                     inputField.text = "";
                 });
             });
         }
         else Debug.Log("¬ведите им€!");
+    }
+
+    private void NoTextAnimation(bool run)
+    {
+        Color color = textField.color;
+
+        if (run)
+        {
+            textField.DOKill();
+            dialoguePanel.DOKill();
+            textField.color = color;
+        }
+        else MoveDialogueFail();
+    }
+
+    private void MoveDialogueFail()
+    {
+        var sequence = DOTween.Sequence();
+        textField.DOColor(new Color(0, 0, 0), 0.2f).SetLoops(4, LoopType.Yoyo);
+        for (int i = 0; i < 3; i++) 
+        {
+            sequence.Append(dialoguePanel.DOMoveX(dialoguePanel.position.x + 0.3f, 0.05f))
+                           .Append(dialoguePanel.DOMoveX(dialoguePanel.position.x, 0.05f))
+                           .Append(dialoguePanel.DOMoveX(dialoguePanel.position.x - 0.3f, 0.05f))
+                           .Append(dialoguePanel.DOMoveX(dialoguePanel.position.x, 0.05f));
+        }
     }
 
     private async UniTask<Sprite> CreateScreenshot()
@@ -98,6 +133,7 @@ public class DataManager : MonoBehaviour
     {
         if (_currentSaveButton != null)
         {
+            buttons.Remove(_currentSaveButton.GetComponent<SaveButton>());
             _currentSaveButton.transform.DOScale(0, 0.3f).SetEase(Ease.InBack).OnComplete(() =>
             {
                 Destroy(_currentSaveButton);

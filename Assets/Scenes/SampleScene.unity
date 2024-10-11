@@ -5567,9 +5567,8 @@ MonoBehaviour:
   contentParent: {fileID: 222562422}
   dialoguePanel: {fileID: 1710856331}
   inputField: {fileID: 315383535}
-  buttons:
-  - {fileID: 694992327}
-  - {fileID: 1648994079}
+  textField: {fileID: 775393222}
+  buttons: []
 --- !u!114 &498187666
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22361,6 +22360,22 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: SelectButton
       objectReference: {fileID: 0}
+    - target: {fileID: 7570163202987884900, guid: 431465e8e80dea544a9c8b2f6116455e, type: 3}
+      propertyPath: dataManager
+      value: 
+      objectReference: {fileID: 496250366}
+    - target: {fileID: 7570163202987884900, guid: 431465e8e80dea544a9c8b2f6116455e, type: 3}
+      propertyPath: selectedColor.b
+      value: 0.5764706
+      objectReference: {fileID: 0}
+    - target: {fileID: 7570163202987884900, guid: 431465e8e80dea544a9c8b2f6116455e, type: 3}
+      propertyPath: selectedColor.g
+      value: 0.9607843
+      objectReference: {fileID: 0}
+    - target: {fileID: 7570163202987884900, guid: 431465e8e80dea544a9c8b2f6116455e, type: 3}
+      propertyPath: selectedColor.r
+      value: 0.8236428
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -24571,7 +24586,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -9987580, y: 7001858}
+  m_AnchoredPosition: {x: -10686909, y: 7492184.5}
   m_SizeDelta: {x: 0, y: 300}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &2018445987
