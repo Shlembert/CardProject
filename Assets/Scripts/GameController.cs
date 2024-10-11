@@ -6,19 +6,21 @@ using static UnityEngine.GraphicsBuffer;
 
 public class GameController : MonoBehaviour
 {
-    [SerializeField] private Transform holdPanel, mapPanel, mainMenuPanel, winPanel, deadPanel, pausePanel, savePanel, loadPanel;
+    [SerializeField] private Transform holdPanel, mapPanel, mainMenuPanel, winPanel, deadPanel, pausePanel, loadPanel;
     [SerializeField] private Image bg;
     [SerializeField] private HPController hPController;
     [SerializeField] private SoundController soundController;
     [SerializeField] private InventoryController inventoryController;
     [SerializeField] private MapController mapController;
     [SerializeField] private HPController hpController;
+    [SerializeField] private GameObject createNewSaveButton;
     [SerializeField] private float duration, posUp;
 
     private Image _imageHold;
     private Color _normalColorHold;
     private Vector3 _positionUp;
     private bool _isGameOver = false;
+    private bool _isMineMenu = true;
 
     public bool IsGameOver { get => _isGameOver; set => _isGameOver = value; }
 
@@ -59,6 +61,7 @@ public class GameController : MonoBehaviour
 
     public async void ShowMenu()
     {
+        _isMineMenu = true;
         soundController.PlayMenuMusic();
         await ShowHold();
         mainMenuPanel.position = Vector3.zero;
@@ -67,6 +70,7 @@ public class GameController : MonoBehaviour
 
     public async void HideMenu()
     {
+        _isMineMenu = false;
         soundController.PlayGameMusic();
         await ShowHold();
 
@@ -74,11 +78,29 @@ public class GameController : MonoBehaviour
         await HideHold();
     }
 
+    public async void ShowLoad()
+    {
+        
+        createNewSaveButton.SetActive(!_isMineMenu);
+        await ShowHold();
+        pausePanel.position = _positionUp;
+        loadPanel.position = Vector3.zero;
+        await HideHold();
+    }
+
+    public async void HideLoad()
+    {
+        await ShowHold();
+
+        loadPanel.position = _positionUp;
+        pausePanel.position = Vector3.zero;
+        await HideHold();
+    }
+
     public async void ShowPause()
     {
         soundController.PlayMenuMusic();
         await ShowHold();
-
         pausePanel.position = Vector3.zero;
         await HideHold();
     }
@@ -87,7 +109,6 @@ public class GameController : MonoBehaviour
     {
         soundController.PlayGameMusic();
         await ShowHold();
-
         pausePanel.position = _positionUp;
         await HideHold();
     }
@@ -128,7 +149,22 @@ public class GameController : MonoBehaviour
         await HideHold();
         await UniTask.Yield();
     }
+    public async UniTask ShowWin()
+    {
+        _isGameOver = true;
+        await ShowHold();
+        winPanel.position = Vector3.zero;
+        await HideHold();
+    }
 
+    public async UniTask HideWin()
+    {
+        _isGameOver = false;
+        await ShowHold();
+        winPanel.position = _positionUp;
+        await HideHold();
+        await UniTask.Yield();
+    }
     public async void GoToMenu()
     {
         await ShowHold();
@@ -136,7 +172,9 @@ public class GameController : MonoBehaviour
         hpController.SetHP(3);
         mapController.DeactivateCheckPoint(0);
         pausePanel.position = _positionUp;
+        loadPanel.position = _positionUp;
         deadPanel.position = _positionUp;
+        winPanel.position = _positionUp;
         mainMenuPanel.position = Vector3.zero;
         await HideHold();
     }
@@ -154,7 +192,18 @@ public class GameController : MonoBehaviour
         await ShowHold();
 
         bg.sprite = sprite;
+     
         await HideHold();
+    }
+
+    public void ClearForScreenshot()
+    {
+        loadPanel.position = _positionUp;
+    }
+
+    public void CompleteScreenshot()
+    {
+        loadPanel.position = Vector3.zero;
     }
 
     public void HideMapButton() => HideMap().Forget();
