@@ -5,7 +5,6 @@ using System.Collections.Generic;
 using System.IO;
 using TMPro;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class DataManager : MonoBehaviour
 {
@@ -17,7 +16,20 @@ public class DataManager : MonoBehaviour
     [SerializeField] private List<SaveButton> buttons;
 
     private GameObject _currentSaveButton;
-    private const string ScreenshotPath = "Assets/SaveData/Screenshots/";
+    private static readonly string ScreenshotPath = Application.dataPath + "/SaveData/Screenshots/";
+
+    private void Awake()
+    {
+        EnsureScreenshotDirectoryExists();
+    }
+
+    private void EnsureScreenshotDirectoryExists()
+    {
+        if (!Directory.Exists(ScreenshotPath))
+        {
+            Directory.CreateDirectory(ScreenshotPath);
+        }
+    }
 
     public List<SaveButton> Buttons { get => buttons; set => buttons = value; }
 
@@ -100,7 +112,7 @@ public class DataManager : MonoBehaviour
     {
         var sequence = DOTween.Sequence();
         textField.DOColor(new Color(0, 0, 0), 0.2f).SetLoops(4, LoopType.Yoyo);
-        for (int i = 0; i < 3; i++) 
+        for (int i = 0; i < 3; i++)
         {
             sequence.Append(dialoguePanel.DOMoveX(dialoguePanel.position.x + 0.3f, 0.05f))
                            .Append(dialoguePanel.DOMoveX(dialoguePanel.position.x, 0.05f))
@@ -111,6 +123,7 @@ public class DataManager : MonoBehaviour
 
     private async UniTask<Sprite> CreateScreenshot()
     {
+        EnsureScreenshotDirectoryExists();
         string filePath = $"{ScreenshotPath}/Screenshot_{DateTime.Now:yyyyMMdd_HHmmss}.png";
         gameController.ClearForScreenshot();
         ScreenCapture.CaptureScreenshot(filePath);
@@ -126,7 +139,7 @@ public class DataManager : MonoBehaviour
         texture.LoadImage(fileData);
         Sprite screenshotSprite = Sprite.Create(texture, new Rect(0, 0, texture.width, texture.height), Vector2.zero);
 
-        // Удаление файла после создания спрайта
+        // Удаляем файл после создания спрайта
         File.Delete(filePath);
 
         return screenshotSprite;
