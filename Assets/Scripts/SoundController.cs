@@ -19,8 +19,6 @@ public class SoundController : MonoBehaviour
 
     private void Start()
     {
-        LoadSoundSettings();
-
         musSlider.onValueChanged.AddListener(ChangeMusicVolume);
         soundSlider.onValueChanged.AddListener(ChangeSoundVolume);
 
@@ -29,23 +27,6 @@ public class SoundController : MonoBehaviour
         soundSlider.minValue = soundMinValue;
         soundSlider.maxValue = soundMaxValue;
     }
-
-    private void LoadSoundSettings()
-    {
-        bool hasSavedSettings = CheckForSavedSettings();
-
-        if (hasSavedSettings)
-        {
-            (float savedMusicVolume, float savedSoundVolume, bool musicMuted, bool soundMuted) = GetSavedSoundSettings();
-            LoadSoundSettings(savedMusicVolume, savedSoundVolume, musicMuted, soundMuted);
-        }
-        else
-        {
-            LoadSoundSettings(0.3f, 0.3f, false, false);
-        }
-    }
-
-    private bool CheckForSavedSettings() => false; // ѕримерна€ логика проверки сохранений
 
     private (float musicVolume, float soundVolume, bool isMusicMuted, bool isSoundMuted) GetSavedSoundSettings()
     {

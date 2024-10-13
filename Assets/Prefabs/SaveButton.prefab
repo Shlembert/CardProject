@@ -89,15 +89,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 684370637441099032}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6d62a8a0854c4404ba5b4e3c15ccffce, type: 3}
+  m_Script: {fileID: 11500000, guid: dad1ef64536b89d4fb1fdae956a46517, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dataManager: {fileID: 0}
   image: {fileID: 6255985745964239947}
-  body: {fileID: 2466988476421218781}
+  body: {fileID: 4770205555920615262}
   nameSave: {fileID: 7796447404095982233}
   dataTime: {fileID: 2597817567090000989}
-  originColor: {r: 0.9921569, g: 0.73333335, b: 0.48235297, a: 1}
-  selectedColor: {r: 0.9622642, g: 0.8810952, b: 0.5764507, a: 1}
+  originColor: {r: 0, g: 0, b: 0, a: 0}
+  selectedColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!114 &6668122080676075394
 MonoBehaviour:
   m_ObjectHideFlags: 0

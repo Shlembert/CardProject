@@ -5536,7 +5536,6 @@ GameObject:
   - component: {fileID: 496250363}
   - component: {fileID: 496250365}
   - component: {fileID: 496250364}
-  - component: {fileID: 496250366}
   m_Layer: 5
   m_Name: LoadPanel
   m_TagString: Untagged
@@ -5566,7 +5565,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 1118}
+  m_AnchoredPosition: {x: 0, y: 1135}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &496250364
@@ -5607,25 +5606,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 496250362}
   m_CullTransparentMesh: 1
---- !u!114 &496250366
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 496250362}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d4d63b85f0019ea45a5c2703de155df1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gameController: {fileID: 1825275744}
-  prefabSaveButton: {fileID: 24647844}
-  contentParent: {fileID: 222562422}
-  dialoguePanel: {fileID: 1710856331}
-  inputField: {fileID: 315383535}
-  textField: {fileID: 775393222}
-  buttons: []
 --- !u!114 &498187666
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7870,8 +7850,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 496250366}
-        m_TargetAssemblyTypeName: DataManager, Assembly-CSharp
+      - m_Target: {fileID: 1420909033}
+        m_TargetAssemblyTypeName: DataSlotsManager, Assembly-CSharp
         m_MethodName: CreateSaveButton
         m_Mode: 1
         m_Arguments:
@@ -8378,6 +8358,18 @@ MonoBehaviour:
       - m_Target: {fileID: 1825275744}
         m_TargetAssemblyTypeName: GameController, Assembly-CSharp
         m_MethodName: GoToMenu
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 791171147}
+        m_TargetAssemblyTypeName: SaveSetting, Assembly-CSharp
+        m_MethodName: Save
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -9038,6 +9030,18 @@ MonoBehaviour:
       - m_Target: {fileID: 1825275744}
         m_TargetAssemblyTypeName: GameController, Assembly-CSharp
         m_MethodName: HidePause
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 791171147}
+        m_TargetAssemblyTypeName: SaveSetting, Assembly-CSharp
+        m_MethodName: Save
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -10223,6 +10227,7 @@ GameObject:
   - component: {fileID: 791171143}
   - component: {fileID: 791171145}
   - component: {fileID: 791171146}
+  - component: {fileID: 791171147}
   m_Layer: 0
   m_Name: SoundController
   m_TagString: Untagged
@@ -10468,6 +10473,19 @@ MonoBehaviour:
   musicMaxValue: 0.3
   soundMinValue: 0
   soundMaxValue: 0.3
+--- !u!114 &791171147
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 791171142}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2a68dd0dcf63eb47913fb7de9e6acd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundController: {fileID: 791171146}
 --- !u!1 &812558612
 GameObject:
   m_ObjectHideFlags: 0
@@ -18393,6 +18411,76 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1416524277}
   m_CullTransparentMesh: 1
+--- !u!1 &1420909031
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1420909034}
+  - component: {fileID: 1420909033}
+  - component: {fileID: 1420909032}
+  m_Layer: 0
+  m_Name: DataManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1420909032
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1420909031}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8982c6d224e1f314eb8952f7c0fd014e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  locationBG: {fileID: 1190085053}
+  hPController: {fileID: 1650742178}
+  mapController: {fileID: 539283691}
+  inventoryController: {fileID: 70427095}
+  contentCard: {fileID: 991657348}
+--- !u!114 &1420909033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1420909031}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4d63b85f0019ea45a5c2703de155df1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameController: {fileID: 1825275744}
+  gameDataManager: {fileID: 1420909032}
+  prefabSaveButton: {fileID: 24647844}
+  contentParent: {fileID: 222562422}
+  dialoguePanel: {fileID: 1710856331}
+  inputField: {fileID: 315383535}
+  textField: {fileID: 2080622586}
+  buttons: []
+--- !u!4 &1420909034
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1420909031}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1431688546
 GameObject:
   m_ObjectHideFlags: 0
@@ -19677,8 +19765,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 496250366}
-        m_TargetAssemblyTypeName: DataManager, Assembly-CSharp
+      - m_Target: {fileID: 1420909033}
+        m_TargetAssemblyTypeName: DataSlotsManager, Assembly-CSharp
         m_MethodName: DestroySaveButton
         m_Mode: 1
         m_Arguments:
@@ -21178,7 +21266,7 @@ GameObject:
   - component: {fileID: 1580052398}
   - component: {fileID: 1580052397}
   m_Layer: 5
-  m_Name: PausePanel
+  m_Name: SettingPanel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -21765,9 +21853,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 496250366}
-        m_TargetAssemblyTypeName: DataManager, Assembly-CSharp
-        m_MethodName: HideDialogue
+      - m_Target: {fileID: 1420909033}
+        m_TargetAssemblyTypeName: DataSlotsManager, Assembly-CSharp
+        m_MethodName: HideDialog
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -22413,18 +22501,42 @@ PrefabInstance:
     - target: {fileID: 6668122080676075394, guid: 431465e8e80dea544a9c8b2f6116455e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 496250366}
+      objectReference: {fileID: 1420909033}
     - target: {fileID: 6668122080676075394, guid: 431465e8e80dea544a9c8b2f6116455e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: SelectButton
       objectReference: {fileID: 0}
+    - target: {fileID: 6668122080676075394, guid: 431465e8e80dea544a9c8b2f6116455e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: DataSlotsManager, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 7570163202987884900, guid: 431465e8e80dea544a9c8b2f6116455e, type: 3}
       propertyPath: dataManager
       value: 
-      objectReference: {fileID: 496250366}
+      objectReference: {fileID: 1420909033}
+    - target: {fileID: 7570163202987884900, guid: 431465e8e80dea544a9c8b2f6116455e, type: 3}
+      propertyPath: originColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7570163202987884900, guid: 431465e8e80dea544a9c8b2f6116455e, type: 3}
+      propertyPath: originColor.b
+      value: 0.4666667
+      objectReference: {fileID: 0}
+    - target: {fileID: 7570163202987884900, guid: 431465e8e80dea544a9c8b2f6116455e, type: 3}
+      propertyPath: originColor.g
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 7570163202987884900, guid: 431465e8e80dea544a9c8b2f6116455e, type: 3}
+      propertyPath: originColor.r
+      value: 0.95294124
+      objectReference: {fileID: 0}
+    - target: {fileID: 7570163202987884900, guid: 431465e8e80dea544a9c8b2f6116455e, type: 3}
+      propertyPath: selectedColor.a
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7570163202987884900, guid: 431465e8e80dea544a9c8b2f6116455e, type: 3}
       propertyPath: selectedColor.b
-      value: 0.5764706
+      value: 0.5776167
       objectReference: {fileID: 0}
     - target: {fileID: 7570163202987884900, guid: 431465e8e80dea544a9c8b2f6116455e, type: 3}
       propertyPath: selectedColor.g
@@ -22432,7 +22544,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7570163202987884900, guid: 431465e8e80dea544a9c8b2f6116455e, type: 3}
       propertyPath: selectedColor.r
-      value: 0.8236428
+      value: 0.5764706
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -24644,7 +24756,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -11008379, y: 7717579.5}
+  m_AnchoredPosition: {x: -11976478, y: 8396341}
   m_SizeDelta: {x: 0, y: 300}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &2018445987
@@ -25580,9 +25692,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 496250366}
-        m_TargetAssemblyTypeName: DataManager, Assembly-CSharp
-        m_MethodName: ShowDialogue
+      - m_Target: {fileID: 1420909033}
+        m_TargetAssemblyTypeName: DataSlotsManager, Assembly-CSharp
+        m_MethodName: ShowDialog
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -26608,3 +26720,4 @@ SceneRoots:
   - {fileID: 1825275745}
   - {fileID: 791171144}
   - {fileID: 1454892307}
+  - {fileID: 1420909034}

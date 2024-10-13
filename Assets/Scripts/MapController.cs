@@ -27,4 +27,22 @@ public class MapController : MonoBehaviour
 
         _currentIndex = index;
     }
+
+    public int GetCountCheckPoints() 
+    { 
+        int count = 0;
+        foreach (GameObject checkPoint in checkPoints)
+        {
+            if (checkPoint.activeInHierarchy) count++;
+        }
+        return count;
+    }
+
+    public void SetCountCheckpoints(int count)
+    {
+        for (int i = 0; i < count; i++)
+        {
+            checkPoints[i].SetActive(true);
+        }
+    }
 }

@@ -13,7 +13,7 @@ public class LanguageController : MonoBehaviour
     private void Start()
     {
         string currentLanguage = LocalizationManager.CurrentLanguageCode;
-        Debug.Log(currentLanguage);
+        Debug.Log($" Current Language: {currentLanguage}");
         foreach (var button in buttons)
         {
             if (button.name == currentLanguage)
