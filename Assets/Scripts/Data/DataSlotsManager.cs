@@ -5,7 +5,6 @@ using System.Collections.Generic;
 using System.IO;
 using TMPro;
 using UnityEngine;
-using UnityEngine.AddressableAssets;
 
 public class DataSlotsManager : MonoBehaviour
 {
@@ -19,6 +18,7 @@ public class DataSlotsManager : MonoBehaviour
 
     private GameObject _currentSaveButton;
     private static readonly string ScreenshotPath = Application.dataPath + "/SaveData/Screenshots/";
+    private static readonly string SaveSlotsFilePath = Application.dataPath + "/SaveData/saveSlots.json";
 
     private void Awake()
     {
@@ -80,17 +80,17 @@ public class DataSlotsManager : MonoBehaviour
             buttons.Add(saveButton);
             saveButton.NameSave.text = inputField.text;
             saveButton.DataTime.text = DateTime.Now.ToString("dd/MM/yyyy HH:mm");
-
+            string path = await CreateScreenshot();
             // Устанавливаем спрайт скриншота в Слот
-            saveButton.Image.sprite = await CreateScreenshot();
+            saveButton.Image.sprite = await LoadScreenShot(path);
 
             SaveButtonData saveButtonData = saveButton.SaveButtonData;
             saveButtonData.DataTime = saveButton.DataTime.text;
             saveButtonData.Name = saveButton.NameSave.text;
-            // TODO
-            saveButtonData.ScreenshotAddress = "сюда добавить адрес спрайта";
+            saveButtonData.ScreenShotAddress = path;
 
-           await gameDataManager.SaveGameProgress(saveButton);
+            await gameDataManager.SaveGameProgress(saveButton);
+
             go.SetActive(false);
             dialoguePanel.DOScale(Vector3.zero, 0.5f).SetEase(Ease.InBack).OnComplete(() =>
             {
@@ -130,38 +130,51 @@ public class DataSlotsManager : MonoBehaviour
                            .Append(dialoguePanel.DOMoveX(dialoguePanel.position.x, 0.05f));
         }
     }
-    private async UniTask<Sprite> CreateScreenshot()
+
+    private async UniTask<string> CreateScreenshot()
     {
         EnsureScreenshotDirectoryExists();
         string filePath = $"{ScreenshotPath}/Screenshot_{DateTime.Now:yyyyMMdd_HHmmss}.png";
+
+        int width = Screen.width / 10;
+        int height = Screen.height / 10;
+        RenderTexture renderTexture = new RenderTexture(width, height, 24);
+        Camera.main.targetTexture = renderTexture;
+
         gameController.ClearForScreenshot();
-        ScreenCapture.CaptureScreenshot(filePath);
-        await UniTask.Delay(1);
+        Camera.main.Render();
         gameController.CompleteScreenshot();
 
-        await UniTask.WaitUntil(() => File.Exists(filePath));
+        RenderTexture.active = renderTexture;
+        Texture2D screenshotTexture = new Texture2D(width, height, TextureFormat.RGB24, false);
+        screenshotTexture.ReadPixels(new Rect(0, 0, width, height), 0, 0);
+        screenshotTexture.Apply();
 
-        byte[] fileData = File.ReadAllBytes(filePath);
+        byte[] fileData = screenshotTexture.EncodeToPNG();
+        await File.WriteAllBytesAsync(filePath, fileData);
+
+        Camera.main.targetTexture = null;
+        RenderTexture.active = null;
+        Destroy(renderTexture);
+        Destroy(screenshotTexture);
+
+        return filePath;
+    }
+
+    public async UniTask<Sprite> LoadScreenShot(string filePath)
+    {
+        if (!File.Exists(filePath))
+        {
+            Debug.LogError($"Файл не найден по пути: {filePath}");
+            return null;
+        }
+
+        byte[] fileData = await File.ReadAllBytesAsync(filePath);
         Texture2D texture = new Texture2D(2, 2);
         texture.LoadImage(fileData);
         Sprite screenshotSprite = Sprite.Create(texture, new Rect(0, 0, texture.width, texture.height), Vector2.zero);
 
-        File.Delete(filePath);
-
         return screenshotSprite;
-    }
-
-    public async UniTask<Sprite> GetSpriteFromAddress(string address)
-    {
-        var handle = Addressables.LoadAssetAsync<Sprite>(address);
-        await handle.Task;
-        return handle.Result;
-    }
-
-    public void DeleteFile(string address)
-    {
-        Addressables.Release(address);
-        // Дополнительная логика для удаления файла, если нужно
     }
 
     public void DestroySaveButton()
@@ -171,18 +184,43 @@ public class DataSlotsManager : MonoBehaviour
             buttons.Remove(_currentSaveButton.GetComponent<SaveButton>());
             _currentSaveButton.transform.DOScale(0, 0.3f).SetEase(Ease.InBack).OnComplete(() =>
             {
+                SaveButtonData saveButtonData = _currentSaveButton.GetComponent<SaveButtonData>();
+                string path = saveButtonData.ScreenShotAddress;
+                DeleteScreenshotBinary(path);
                 Destroy(_currentSaveButton);
                 _currentSaveButton = null;
             });
         }
         else Debug.Log("Не выбрано сохранение!");
     }
+
+    private void DeleteScreenshotBinary(string filePath)
+    {
+        if (File.Exists(filePath))
+        {
+            try
+            {
+                File.Delete(filePath);
+                Debug.Log($"Файл {filePath} успешно удален.");
+            }
+            catch (Exception e)
+            {
+                Debug.LogError($"Ошибка при удалении файла {filePath}: {e.Message}");
+            }
+        }
+        else
+        {
+            Debug.LogWarning($"Файл {filePath} не найден.");
+        }
+    }
 }
+
+
 
 [Serializable]
 public class SaveButtonData
 {
     public string Name;
     public string DataTime;
-    public string ScreenshotAddress; // Изменено на string
+    public string ScreenShotAddress; // Изменено на string
 }
