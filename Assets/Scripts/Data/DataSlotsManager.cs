@@ -35,9 +35,10 @@ public class DataSlotsManager : MonoBehaviour
 
     public List<SaveButton> Buttons { get => buttons; set => buttons = value; }
 
-    private void Start()
+    private async void Start()
     {
         inputField.characterLimit = 20;
+        await LoadSlotsFromJson(); // Загрузка слотов при старте игры
     }
 
     public void ShowDialog()
@@ -95,9 +96,11 @@ public class DataSlotsManager : MonoBehaviour
             dialoguePanel.DOScale(Vector3.zero, 0.5f).SetEase(Ease.InBack).OnComplete(() =>
             {
                 go.SetActive(true);
-                go.transform.DOScale(0, 0.3f).From().SetEase(Ease.OutBack).OnComplete(() =>
+                go.transform.DOScale(0, 0.3f).From().SetEase(Ease.OutBack).OnComplete(async () =>
                 {
                     saveButton.IsSelected = false;
+                    await SaveAllSlotsToJson(); // Сохранение после добавления нового слота
+
                     inputField.text = "";
                 });
             });
@@ -136,8 +139,8 @@ public class DataSlotsManager : MonoBehaviour
         EnsureScreenshotDirectoryExists();
         string filePath = $"{ScreenshotPath}/Screenshot_{DateTime.Now:yyyyMMdd_HHmmss}.png";
 
-        int width = Screen.width / 10;
-        int height = Screen.height / 10;
+        int width = Screen.width / 5;
+        int height = Screen.height / 5;
         RenderTexture renderTexture = new RenderTexture(width, height, 24);
         Camera.main.targetTexture = renderTexture;
 
@@ -150,16 +153,21 @@ public class DataSlotsManager : MonoBehaviour
         screenshotTexture.ReadPixels(new Rect(0, 0, width, height), 0, 0);
         screenshotTexture.Apply();
 
+        // Асинхронно получаем данные текстуры
         byte[] fileData = screenshotTexture.EncodeToPNG();
-        await File.WriteAllBytesAsync(filePath, fileData);
-
         Camera.main.targetTexture = null;
         RenderTexture.active = null;
         Destroy(renderTexture);
         Destroy(screenshotTexture);
 
+        // Записываем файл асинхронно
+        await UniTask.SwitchToThreadPool(); // Переход на пул потоков
+        await File.WriteAllBytesAsync(filePath, fileData);
+        await UniTask.SwitchToMainThread(); // Возврат в основной поток
+
         return filePath;
     }
+
 
     public async UniTask<Sprite> LoadScreenShot(string filePath)
     {
@@ -177,6 +185,61 @@ public class DataSlotsManager : MonoBehaviour
         return screenshotSprite;
     }
 
+    public async UniTask SaveAllSlotsToJson()
+    {
+        List<SaveButtonData> saveSlots = new List<SaveButtonData>();
+
+        foreach (var button in buttons)
+        {
+            SaveButton slotData = button;
+            Debug.Log($"Данные записанные в json: \n Name:{slotData.SaveButtonData.Name} || Data: {slotData.SaveButtonData.DataTime} || Adress img: {slotData.SaveButtonData.ScreenShotAddress}");
+            saveSlots.Add(slotData.SaveButtonData);
+        }
+
+        string json = JsonUtility.ToJson(new SaveButtonDataList(saveSlots), true);
+        await File.WriteAllTextAsync(SaveSlotsFilePath, json);
+
+        Debug.Log("Все слоты успешно сохранены в JSON.");
+    }
+
+    // Метод для загрузки всех слотов из JSON
+    public async UniTask LoadSlotsFromJson()
+    {
+        if (File.Exists(SaveSlotsFilePath))
+        {
+            string json = await File.ReadAllTextAsync(SaveSlotsFilePath);
+            SaveButtonDataList saveSlotsData = JsonUtility.FromJson<SaveButtonDataList>(json);
+
+            foreach (var slotData in saveSlotsData.Slots)
+            {
+                GameObject go = Instantiate(prefabSaveButton, contentParent);
+                SaveButton saveButton = go.GetComponent<SaveButton>();
+                buttons.Add(saveButton);
+
+                saveButton.NameSave.text = slotData.Name;
+                saveButton.DataTime.text = slotData.DataTime;
+                saveButton.SaveButtonData = slotData;
+
+                // Загружаем скриншот асинхронно
+                saveButton.Image.sprite = await LoadScreenShot(slotData.ScreenShotAddress);
+
+                // Устанавливаем слот неактивным, если нужно
+                go.SetActive(false);
+                go.transform.DOScale(0, 0.3f).From().SetEase(Ease.OutBack).OnComplete(() =>
+                {
+                    go.SetActive(true);
+                    saveButton.IsSelected = false;
+                });
+            }
+
+            Debug.Log("Слоты успешно загружены из JSON.");
+        }
+        else
+        {
+            Debug.Log("Файл сохранений не найден.");
+        }
+    }
+
     public void DestroySaveButton()
     {
         if (_currentSaveButton != null)
@@ -184,15 +247,24 @@ public class DataSlotsManager : MonoBehaviour
             buttons.Remove(_currentSaveButton.GetComponent<SaveButton>());
             _currentSaveButton.transform.DOScale(0, 0.3f).SetEase(Ease.InBack).OnComplete(() =>
             {
-                SaveButtonData saveButtonData = _currentSaveButton.GetComponent<SaveButtonData>();
+                // Получаем SaveButton и затем доступ к SaveButtonData
+                SaveButton saveButton = _currentSaveButton.GetComponent<SaveButton>();
+                SaveButtonData saveButtonData = saveButton.SaveButtonData;
+
                 string path = saveButtonData.ScreenShotAddress;
                 DeleteScreenshotBinary(path);
+                // Сохранение после удаления слота
+                SaveAllSlotsToJson().Forget();
                 Destroy(_currentSaveButton);
                 _currentSaveButton = null;
             });
         }
-        else Debug.Log("Не выбрано сохранение!");
+        else
+        {
+            Debug.Log("Не выбрано сохранение!");
+        }
     }
+
 
     private void DeleteScreenshotBinary(string filePath)
     {
@@ -215,7 +287,16 @@ public class DataSlotsManager : MonoBehaviour
     }
 }
 
+[Serializable]
+public class SaveButtonDataList
+{
+    public List<SaveButtonData> Slots;
 
+    public SaveButtonDataList(List<SaveButtonData> slots)
+    {
+        Slots = slots;
+    }
+}
 
 [Serializable]
 public class SaveButtonData
