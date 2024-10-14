@@ -87,6 +87,15 @@ public class GameController : MonoBehaviour
         await HideHold();
     }
 
+    public async void GameLoad()
+    {
+        await ShowHold();
+        loadPanel.position = _positionUp;
+        pausePanel.position = _positionUp;
+        mainMenuPanel.position = _positionUp;
+        await HideHold();
+    }
+
     public async void HideLoad()
     {
         await ShowHold();

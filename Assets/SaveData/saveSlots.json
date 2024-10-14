@@ -1,0 +1,125 @@
+{
+    "Slots": [
+        {
+            "Name": "king",
+            "DataTime": "14.10.2024 12:09",
+            "ScreenShotAddress": "D:/GitHub/CardProject/Assets/SaveData/Screenshots//Screenshot_20241014_120954.png",
+            "GameData": {
+                "Health": 2,
+                "Location": {
+                    "m_AssetGUID": "Assets/Sprites/BG/KinsPlace.png",
+                    "m_SubObjectName": "",
+                    "m_SubObjectType": "",
+                    "m_EditorAssetChanged": false
+                },
+                "Items": [
+                    {
+                        "m_AssetGUID": "Assets/Sprites/Items/sword.png",
+                        "m_SubObjectName": "",
+                        "m_SubObjectType": "",
+                        "m_EditorAssetChanged": false
+                    }
+                ],
+                "CheckpointCount": 2,
+                "CardSet": {
+                    "m_AssetGUID": "Assets/Scripts/CardSO/8/8_Sword.asset",
+                    "m_SubObjectName": "",
+                    "m_SubObjectType": "",
+                    "m_EditorAssetChanged": false
+                }
+            }
+        },
+        {
+            "Name": "horse",
+            "DataTime": "14.10.2024 12:43",
+            "ScreenShotAddress": "D:/GitHub/CardProject/Assets/SaveData/Screenshots//Screenshot_20241014_124321.png",
+            "GameData": {
+                "Health": 2,
+                "Location": {
+                    "m_AssetGUID": "Assets/Sprites/BG/HorsesHome.png",
+                    "m_SubObjectName": "",
+                    "m_SubObjectType": "",
+                    "m_EditorAssetChanged": false
+                },
+                "Items": [
+                    {
+                        "m_AssetGUID": "Assets/Sprites/Items/sword.png",
+                        "m_SubObjectName": "",
+                        "m_SubObjectType": "",
+                        "m_EditorAssetChanged": false
+                    },
+                    {
+                        "m_AssetGUID": "Assets/Sprites/Items/KingGuard_yang_2pers.png",
+                        "m_SubObjectName": "",
+                        "m_SubObjectType": "",
+                        "m_EditorAssetChanged": false
+                    }
+                ],
+                "CheckpointCount": 0,
+                "CardSet": {
+                    "m_AssetGUID": "Assets/Scripts/CardSO/10/10(5)_HORSES_HEALTHY.asset",
+                    "m_SubObjectName": "",
+                    "m_SubObjectType": "",
+                    "m_EditorAssetChanged": false
+                }
+            }
+        },
+        {
+            "Name": "Start",
+            "DataTime": "14.10.2024 12:55",
+            "ScreenShotAddress": "D:/GitHub/CardProject/Assets/SaveData/Screenshots//Screenshot_20241014_125552.png",
+            "GameData": {
+                "Health": 3,
+                "Location": {
+                    "m_AssetGUID": "Assets/Sprites/BG/fon_2.png",
+                    "m_SubObjectName": "",
+                    "m_SubObjectType": "",
+                    "m_EditorAssetChanged": false
+                },
+                "Items": [],
+                "CheckpointCount": 1,
+                "CardSet": {
+                    "m_AssetGUID": "Assets/Scripts/CardSO/1.asset",
+                    "m_SubObjectName": "",
+                    "m_SubObjectType": "",
+                    "m_EditorAssetChanged": false
+                }
+            }
+        },
+        {
+            "Name": "home return",
+            "DataTime": "14.10.2024 12:56",
+            "ScreenShotAddress": "D:/GitHub/CardProject/Assets/SaveData/Screenshots//Screenshot_20241014_125651.png",
+            "GameData": {
+                "Health": 2,
+                "Location": {
+                    "m_AssetGUID": "Assets/Sprites/BG/VillagePath.png",
+                    "m_SubObjectName": "",
+                    "m_SubObjectType": "",
+                    "m_EditorAssetChanged": false
+                },
+                "Items": [
+                    {
+                        "m_AssetGUID": "Assets/Sprites/Items/sword.png",
+                        "m_SubObjectName": "",
+                        "m_SubObjectType": "",
+                        "m_EditorAssetChanged": false
+                    },
+                    {
+                        "m_AssetGUID": "Assets/Sprites/Items/10goldmini.png",
+                        "m_SubObjectName": "",
+                        "m_SubObjectType": "",
+                        "m_EditorAssetChanged": false
+                    }
+                ],
+                "CheckpointCount": 1,
+                "CardSet": {
+                    "m_AssetGUID": "Assets/Scripts/CardSO/12/12_Foret.asset",
+                    "m_SubObjectName": "",
+                    "m_SubObjectType": "",
+                    "m_EditorAssetChanged": false
+                }
+            }
+        }
+    ]
+}

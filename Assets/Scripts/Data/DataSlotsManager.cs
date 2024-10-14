@@ -34,6 +34,7 @@ public class DataSlotsManager : MonoBehaviour
     }
 
     public List<SaveButton> Buttons { get => buttons; set => buttons = value; }
+    public GameObject CurrentSaveButton { get => _currentSaveButton; set => _currentSaveButton = value; }
 
     private async void Start()
     {
@@ -66,7 +67,7 @@ public class DataSlotsManager : MonoBehaviour
 
     public void SelectButton(GameObject saveButton)
     {
-        _currentSaveButton = saveButton;
+        CurrentSaveButton = saveButton;
     }
 
     // Создаем Слот сохранения
@@ -223,10 +224,7 @@ public class DataSlotsManager : MonoBehaviour
                 // Загружаем скриншот асинхронно
                 saveButton.Image.sprite = await LoadScreenShot(slotData.ScreenShotAddress);
                 saveButton.GameData = slotData.GameData;
-                // Здесь можно использовать slotData.GameData по необходимости
-                // Например, загружать данные в игру
-               // gameDataManager.LoadGameData(slotData.GameData); // Напиши метод для загрузки данных
-
+               
                 // Устанавливаем слот неактивным, если нужно
                 go.SetActive(false);
                 go.transform.DOScale(0, 0.3f).From().SetEase(Ease.OutBack).OnComplete(() =>
@@ -247,21 +245,21 @@ public class DataSlotsManager : MonoBehaviour
 
     public void DestroySaveButton()
     {
-        if (_currentSaveButton != null)
+        if (CurrentSaveButton != null)
         {
-            buttons.Remove(_currentSaveButton.GetComponent<SaveButton>());
-            _currentSaveButton.transform.DOScale(0, 0.3f).SetEase(Ease.InBack).OnComplete(() =>
+            buttons.Remove(CurrentSaveButton.GetComponent<SaveButton>());
+            CurrentSaveButton.transform.DOScale(0, 0.3f).SetEase(Ease.InBack).OnComplete(() =>
             {
                 // Получаем SaveButton и затем доступ к SaveButtonData
-                SaveButton saveButton = _currentSaveButton.GetComponent<SaveButton>();
+                SaveButton saveButton = CurrentSaveButton.GetComponent<SaveButton>();
                 SaveButtonData saveButtonData = saveButton.SaveButtonData;
 
                 string path = saveButtonData.ScreenShotAddress;
                 DeleteScreenshotBinary(path);
                 // Сохранение после удаления слота
                 SaveAllSlotsToJson().Forget();
-                Destroy(_currentSaveButton);
-                _currentSaveButton = null;
+                Destroy(CurrentSaveButton);
+                CurrentSaveButton = null;
             });
         }
         else
