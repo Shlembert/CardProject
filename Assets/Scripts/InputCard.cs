@@ -56,6 +56,7 @@ public class InputCard : MonoBehaviour, IPointerEnterHandler, IPointerExitHandle
         {
             _animator.Play(_animationClip.name, 0, 0f);
             _animator.speed = 0f;
+            _animator.enabled = false;
         }
     }
 

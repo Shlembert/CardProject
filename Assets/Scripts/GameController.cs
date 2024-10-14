@@ -20,7 +20,6 @@ public class GameController : MonoBehaviour
     private Color _normalColorHold;
     private Vector3 _positionUp;
     private bool _isGameOver = false;
-    private bool _isMineMenu = true;
 
     public bool IsGameOver { get => _isGameOver; set => _isGameOver = value; }
 
@@ -61,7 +60,6 @@ public class GameController : MonoBehaviour
 
     public async void ShowMenu()
     {
-        _isMineMenu = true;
         soundController.PlayMenuMusic();
         await ShowHold();
         mainMenuPanel.position = Vector3.zero;
@@ -70,7 +68,6 @@ public class GameController : MonoBehaviour
 
     public async void HideMenu()
     {
-        _isMineMenu = false;
         soundController.PlayGameMusic();
         await ShowHold();
 
@@ -80,7 +77,6 @@ public class GameController : MonoBehaviour
 
     public async void ShowLoad()
     {
-        createNewSaveButton.SetActive(!_isMineMenu);
         await ShowHold();
         pausePanel.position = _positionUp;
         loadPanel.position = Vector3.zero;
@@ -99,7 +95,6 @@ public class GameController : MonoBehaviour
     public async void HideLoad()
     {
         await ShowHold();
-
         loadPanel.position = _positionUp;
         pausePanel.position = Vector3.zero;
         await HideHold();
@@ -178,7 +173,6 @@ public class GameController : MonoBehaviour
     }
     public async void GoToMenu()
     {
-        _isMineMenu = true;
         await ShowHold();
         inventoryController.ClearInventory();
         hpController.SetHP(3);

@@ -1,9 +1,9 @@
 {
     "Slots": [
         {
-            "Name": "старт",
-            "DataTime": "14.10.2024 19:44",
-            "ScreenShotAddress": "D:/Git/CardProject/Assets/SaveData/Screenshots//Screenshot_20241014_194412.png",
+            "Name": "Start",
+            "DataTime": "14.10.2024 19:55",
+            "ScreenShotAddress": "D:/Git/CardProject/Assets/SaveData/Screenshots//Screenshot_20241014_195516.png",
             "GameData": {
                 "Health": 3,
                 "Location": {
@@ -23,9 +23,9 @@
             }
         },
         {
-            "Name": "12",
-            "DataTime": "14.10.2024 19:44",
-            "ScreenShotAddress": "D:/Git/CardProject/Assets/SaveData/Screenshots//Screenshot_20241014_194443.png",
+            "Name": "telega",
+            "DataTime": "14.10.2024 19:57",
+            "ScreenShotAddress": "D:/Git/CardProject/Assets/SaveData/Screenshots//Screenshot_20241014_195703.png",
             "GameData": {
                 "Health": 3,
                 "Location": {
