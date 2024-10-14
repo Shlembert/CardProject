@@ -86,11 +86,12 @@ public class DataSlotsManager : MonoBehaviour
             saveButton.Image.sprite = await LoadScreenShot(path);
 
             SaveButtonData saveButtonData = saveButton.SaveButtonData;
+
             saveButtonData.DataTime = saveButton.DataTime.text;
             saveButtonData.Name = saveButton.NameSave.text;
             saveButtonData.ScreenShotAddress = path;
-
             await gameDataManager.SaveGameProgress(saveButton);
+            saveButtonData.GameData = saveButton.GameData;
 
             go.SetActive(false);
             dialoguePanel.DOScale(Vector3.zero, 0.5f).SetEase(Ease.InBack).OnComplete(() =>
@@ -168,7 +169,6 @@ public class DataSlotsManager : MonoBehaviour
         return filePath;
     }
 
-
     public async UniTask<Sprite> LoadScreenShot(string filePath)
     {
         if (!File.Exists(filePath))
@@ -222,6 +222,10 @@ public class DataSlotsManager : MonoBehaviour
 
                 // Загружаем скриншот асинхронно
                 saveButton.Image.sprite = await LoadScreenShot(slotData.ScreenShotAddress);
+                saveButton.GameData = slotData.GameData;
+                // Здесь можно использовать slotData.GameData по необходимости
+                // Например, загружать данные в игру
+               // gameDataManager.LoadGameData(slotData.GameData); // Напиши метод для загрузки данных
 
                 // Устанавливаем слот неактивным, если нужно
                 go.SetActive(false);
@@ -239,6 +243,7 @@ public class DataSlotsManager : MonoBehaviour
             Debug.Log("Файл сохранений не найден.");
         }
     }
+
 
     public void DestroySaveButton()
     {
@@ -291,7 +296,6 @@ public class DataSlotsManager : MonoBehaviour
 public class SaveButtonDataList
 {
     public List<SaveButtonData> Slots;
-
     public SaveButtonDataList(List<SaveButtonData> slots)
     {
         Slots = slots;
@@ -303,5 +307,7 @@ public class SaveButtonData
 {
     public string Name;
     public string DataTime;
-    public string ScreenShotAddress; // Изменено на string
+    public string ScreenShotAddress; 
+    public GameData GameData; 
 }
+
