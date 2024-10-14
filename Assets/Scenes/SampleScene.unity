@@ -5576,7 +5576,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 1135}
+  m_AnchoredPosition: {x: 0, y: 1127}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &496250364
@@ -10942,7 +10942,6 @@ GameObject:
   - component: {fileID: 838087582}
   - component: {fileID: 838087581}
   - component: {fileID: 838087585}
-  - component: {fileID: 838087584}
   m_Layer: 5
   m_Name: LoadButton
   m_TagString: Untagged
@@ -10967,7 +10966,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 542, y: 126}
+  m_AnchoredPosition: {x: 447, y: 126}
   m_SizeDelta: {x: 400, y: 90}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &838087581
@@ -11052,19 +11051,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 838087579}
   m_CullTransparentMesh: 1
---- !u!114 &838087584
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 838087579}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 38134f30408be37489ef689138e8b4cb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _soundController: {fileID: 791171146}
 --- !u!114 &838087585
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11077,16 +11063,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 29b83a89b81a53248b52ac9c5a5fd958, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  contentCard: {fileID: 0}
-  bG: {fileID: 0}
-  loadBg: {fileID: 0}
-  cardAnimation: {fileID: 0}
-  bannerAnimation: {fileID: 0}
-  gameController: {fileID: 0}
-  soundController: {fileID: 0}
-  hpController: {fileID: 0}
-  inventoryController: {fileID: 0}
-  dataSlotsManager: {fileID: 0}
+  contentCard: {fileID: 991657348}
+  bG: {fileID: 1190085053}
+  cardAnimation: {fileID: 991657347}
+  bannerAnimation: {fileID: 1356118122}
+  gameController: {fileID: 1825275744}
+  soundController: {fileID: 791171146}
+  hpController: {fileID: 1650742178}
+  inventoryController: {fileID: 70427095}
+  dataSlotsManager: {fileID: 1420909033}
 --- !u!1 &840670926
 GameObject:
   m_ObjectHideFlags: 0
@@ -21004,7 +20989,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -537, y: 126}
+  m_AnchoredPosition: {x: -448, y: 126}
   m_SizeDelta: {x: 400, y: 90}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1569912286
@@ -24794,7 +24779,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -12529828, y: 8783791}
+  m_AnchoredPosition: {x: -12703211, y: 8905192}
   m_SizeDelta: {x: 0, y: 300}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &2018445987
