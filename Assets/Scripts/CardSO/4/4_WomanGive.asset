@@ -24,7 +24,7 @@ MonoBehaviour:
     itemSprite: {fileID: 0}
     requiredItemSprite: {fileID: 0}
     removeItemSprite: 0
-    changeBanner: 1
+    changeBanner: 0
     locationSprite: {fileID: 0}
     nextSetIfItem: {fileID: 11400000, guid: 39f12e39bba61564b9ca68f94038f5b0, type: 2}
     nextSetIfNoItem: {fileID: 0}

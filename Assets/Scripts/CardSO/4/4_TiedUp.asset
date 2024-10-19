@@ -18,7 +18,7 @@ MonoBehaviour:
   checkPoint: 0
   leftCard:
     messageText: 4_TiedUp_cardLeft
-    illustrationSprite: {fileID: 21300000, guid: 58ac15ee55e98604ab7608ecb2468d83, type: 3}
+    illustrationSprite: {fileID: 21300000, guid: 7bbeff2af48fe3147998f5da95a65108, type: 3}
     animator: {fileID: 0}
     animationClip: {fileID: 0}
     itemSprite: {fileID: 0}
@@ -38,7 +38,7 @@ MonoBehaviour:
     changeLifePointsIfNoItem: 0
   rightCard:
     messageText: 4_TiedUp_cardRight
-    illustrationSprite: {fileID: 21300000, guid: 53c73b0a387b55f46b4877e140728fed, type: 3}
+    illustrationSprite: {fileID: 21300000, guid: debbe2181deacf3438b677af76b92fe7, type: 3}
     animator: {fileID: 0}
     animationClip: {fileID: 0}
     itemSprite: {fileID: 0}
