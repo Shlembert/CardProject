@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8636afbb060c9543bb985dfc1b704ad, type: 3}
+  m_Name: 1Start
+  m_EditorClassIdentifier: 
+  portrait: {fileID: 21300000, guid: b3b886de5155e204aac5c26e2c353047, type: 3}
+  bannerSound: {fileID: 8300000, guid: b6fc2d79a2fe87a489726fa3aabc5080, type: 3}
+  bannerText: s1bunner
+  checkPoint: 1
+  leftCard:
+    messageText: s1cardLeft
+    illustrationSprite: {fileID: 21300000, guid: 996797e7396e4df4abf8155f90d11a59, type: 3}
+    animator: {fileID: 9100000, guid: cb295a52db6a88f408be4c6057f4b0af, type: 2}
+    animationClip: {fileID: 7400000, guid: 2b9c976555841bc4f998c01d7338816d, type: 2}
+    itemSprite: {fileID: 0}
+    requiredItemSprite: {fileID: 0}
+    removeItemSprite: 0
+    changeBanner: 1
+    locationSprite: {fileID: 0}
+    nextSetIfItem: {fileID: 11400000, guid: 87799774be82da940b2525dce31554dd, type: 2}
+    nextSetIfNoItem: {fileID: 0}
+    reverseSpriteIfItem: {fileID: 21300000, guid: b1c9bea6eb27f8e47af79cc89c0ce533, type: 3}
+    reverseAudioClipItem: {fileID: 8300000, guid: 329785b5891de404c8ab6c941efd27a0, type: 3}
+    reverseTopTextIfItem: s1revL
+    changeLifePointsIfItem: 0
+    reverseSpriteIfNoItem: {fileID: 21300000, guid: 2f99548800bb5e54a80f51fbf3e791d2, type: 3}
+    reverseAudioClipNoItem: {fileID: 0}
+    reverseTopTextIfNoItem: 
+    changeLifePointsIfNoItem: 0
+  rightCard:
+    messageText: s1cardRight
+    illustrationSprite: {fileID: 21300000, guid: 84c1d8d25a49cac408fb659930e54ca3, type: 3}
+    animator: {fileID: 9100000, guid: fd611e8c1b44eef4bb9dfd885f542a82, type: 2}
+    animationClip: {fileID: 7400000, guid: 165b1c55473c54e4cbc9dc96affd6674, type: 2}
+    itemSprite: {fileID: 0}
+    requiredItemSprite: {fileID: 0}
+    removeItemSprite: 0
+    changeBanner: 0
+    locationSprite: {fileID: 0}
+    nextSetIfItem: {fileID: 11400000}
+    nextSetIfNoItem: {fileID: 0}
+    reverseSpriteIfItem: {fileID: 21300000, guid: db33c82b37aa68740b8c085e903ab757, type: 3}
+    reverseAudioClipItem: {fileID: 0}
+    reverseTopTextIfItem: s1revR
+    changeLifePointsIfItem: 0
+    reverseSpriteIfNoItem: {fileID: 0}
+    reverseAudioClipNoItem: {fileID: 0}
+    reverseTopTextIfNoItem: 
+    changeLifePointsIfNoItem: 0

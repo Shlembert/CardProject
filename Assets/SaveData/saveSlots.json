@@ -1,0 +1,26 @@
+{
+    "Slots": [
+        {
+            "Name": "wsd",
+            "DataTime": "19.10.2024 04:33",
+            "ScreenShotAddress": "C:/Games_/CardProject/Assets/SaveData/Screenshots//Screenshot_20241019_043327.png",
+            "GameData": {
+                "Health": 3,
+                "Location": {
+                    "m_AssetGUID": "Assets/Sprites/BG/fon_2.png",
+                    "m_SubObjectName": "",
+                    "m_SubObjectType": "",
+                    "m_EditorAssetChanged": false
+                },
+                "Items": [],
+                "CheckpointCount": 1,
+                "CardSet": {
+                    "m_AssetGUID": "Assets/Scripts/CardSO/2/2_Guard.asset",
+                    "m_SubObjectName": "",
+                    "m_SubObjectType": "",
+                    "m_EditorAssetChanged": false
+                }
+            }
+        }
+    ]
+}

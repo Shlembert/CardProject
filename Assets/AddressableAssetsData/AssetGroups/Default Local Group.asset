@@ -1,0 +1,547 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Default Local Group
+  m_EditorClassIdentifier: 
+  m_GroupName: Default Local Group
+  m_Data:
+    m_SerializedData: []
+  m_GUID: aa00794ad01843245b72e51d6fd7784c
+  m_SerializeEntries:
+  - m_GUID: 00144b0161cf1094ebc48d47c2ffc238
+    m_Address: "Assets/Sprites/BG/\u0424\u043E\u043D\u044B_\u0422\u0435\u043C\u043D\u044B\u0439
+      \u041B\u0435\u0441.png"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 05eb8f1c98363574aa83d1c7f024bc52
+    m_Address: Assets/Scripts/CardSO/5/5_TakeNAIL.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 095cb6d50afb6db43a4b352de6557d5e
+    m_Address: Assets/Scripts/CardSO/5.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 127e075295cbbf946895897c9ccf830a
+    m_Address: Assets/Scripts/CardSO/12/12_Forest_Dark_Entr.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 13c903baa8bb08c4786a5830dc4f3717
+    m_Address: Assets/Sprites/BG/FallFromTelega.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 196f5dfe6e6d3fd42b929f791e2c6b1b
+    m_Address: Assets/Sprites/Items/sw.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1e9d348a83103dc4ebc96790a52f3b35
+    m_Address: Assets/Scripts/CardSO/17/17_YoungWatchmen_2.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2194bc2f7ee92b349815abb48f99b843
+    m_Address: Assets/Sprites/Items/HeartPlus.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 258502e5b2d7de542b25943c058e5f92
+    m_Address: Assets/Sprites/Items/chain_mail.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2608c72184e33ab4bbc0e2ad80069b5b
+    m_Address: Assets/Sprites/BG/Village.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2637858919e658544bed7072fedf7ddb
+    m_Address: Assets/Scripts/CardSO/14/14_OldMan_No_Money.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 284df8acc7e0b73439f30e8df01bcde5
+    m_Address: Assets/Scripts/CardSO/3/3_GuardSlamDoor.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2aa0e4075b072304fbe1081df394c6b4
+    m_Address: "Assets/Sprites/BG/\u041E\u0431\u043E\u0447\u0438\u043D\u0430 \u043B\u0435\u0441\u0430.png"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2bdd5d266eecbea4d9417fb538b81c9d
+    m_Address: Assets/Sprites/Items/MinusHeart.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2c676d6df64219f4eb130d46ed316fbd
+    m_Address: Assets/Scripts/CardSO/16/16_Camping_W_OldMan.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2db77a776545a27409f4658092cb0855
+    m_Address: "Assets/Sprites/BG/\u0412\u044B\u0445\u043E\u0434 \u0438\u0437 \u0437\u0430\u043C\u043A\u0430.png"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3004fe589ac54114b81f693a1092670f
+    m_Address: Assets/Scripts/CardSO/1Start.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 30ef5b8bd865ce242909844dd7287430
+    m_Address: Assets/Scripts/CardSO/10/10(5)_GO_WAY_HOW.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 327440780d8087344affcbfe573abf57
+    m_Address: "Assets/Sprites/BG/\u0422\u0435\u043C\u043D\u0438\u0446\u0430.png"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 344c6e03a0f3e634e81942bd7707b7e7
+    m_Address: Assets/Sprites/BG/MainBG.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 36ec482e521a14047ac7e0366c291f1c
+    m_Address: Assets/Scripts/CardSO/8/8_GoToJail.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 38793af509504a243af9c52ac95e3119
+    m_Address: Assets/Scripts/CardSO/18/18_Shalash.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 39f12e39bba61564b9ca68f94038f5b0
+    m_Address: Assets/Scripts/CardSO/5/5_TakeApple.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3b74ea2de7976bf4fb80b964747e1616
+    m_Address: Assets/Sprites/Items/KingGuard_yang.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3c36fadc78b42444aaafefb8784fa02d
+    m_Address: Assets/Scripts/CardSO/18/18_Breakfast_OldMan.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3d0028b64a7695942a5fa11a39ffbbad
+    m_Address: Assets/Sprites/Items/5gold.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3e5bc7c815737a74c8d5c35e0f8eefd4
+    m_Address: Assets/Scripts/CardSO/10/10_GUARDS.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3e8ac5c13dbaea7459c3f20b9d5a749c
+    m_Address: Assets/Sprites/BG/OutOfHouse.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3f6bc0888834b8d4ea7191e418a45aa3
+    m_Address: Assets/Sprites/Items/KingGuard_old.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 42a243cd2bbf85f42a0162ef0fd74609
+    m_Address: Assets/Scripts/CardSO/17/17_YoungWatchmen.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 431465e8e80dea544a9c8b2f6116455e
+    m_Address: Assets/Prefabs/SaveButton.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4aab5191ec1ce3b4b9b02cdda6b269ba
+    m_Address: Assets/Scripts/CardSO/18/18_Breakfast.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4ba2a71bfc05b394d8753fe786351cee
+    m_Address: Assets/Scripts/CardSO/13/13_Obhod_Forest.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4ef24ce1aced5394b829b1a909bc6646
+    m_Address: Assets/Scripts/CardSO/16/16_Camp_Young_War.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 530b8e1dcd8b7f244a22cc77b8bbc5d3
+    m_Address: Assets/Sprites/BG/fon_2.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5376d4eba0ab5a544833b108224cbf0f
+    m_Address: Assets/Sprites/Items/KingGuard_yang_2pers.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 54a96d2a84d52764da59ab2ebcc6baac
+    m_Address: Assets/Scripts/CardSO/14/14_OldMan_We_Have_Money.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 54cd0ceb1d01b844aa86117da86db978
+    m_Address: Assets/Scripts/CardSO/16/16_Torch.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 54d60fd42add04a4db3889acf6c5fde5
+    m_Address: Assets/Sprites/BG/HorsesHome.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 55ce038ddc84b254e886e7a735541e2a
+    m_Address: Assets/Sprites/Items/10goldmini.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 58f23042658130540ab0b31c6f41fe1a
+    m_Address: Assets/Scripts/CardSO/6/6_KingsPlace2.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5991687b9ec07b1479ba22b612b89f8a
+    m_Address: Assets/Scripts/CardSO/2/2_Window.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5998c1d2ef75a0d468bcc09dd2c39c54
+    m_Address: Assets/Scripts/CardSO/18/18_Morning_OldMan.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5b8bb2d823ac7f64cadeed6172e26eb4
+    m_Address: Assets/Scripts/CardSO/3/3_ToCastleHow.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5e6854e0ab3eb2c4a90130cc5df9ebea
+    m_Address: Assets/Scripts/CardSO/12/12_Foret 1.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6230f245383b7a44893c6ecee5966e3a
+    m_Address: Assets/Scripts/CardSO/17/17_Insects.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 68236e48266d8f94f8006bf32b10680c
+    m_Address: Assets/Scripts/CardSO/4/4_TiedUp.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6c69c5706741bac44a2b5b85fd72043b
+    m_Address: Assets/Sprites/Items/1BlackHorse1Gray.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7415ab90aa759044ebc6cba2fb931d35
+    m_Address: Assets/Scripts/CardSO/13/13_Items.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 755de224970dd5d4da679e83d6cfcfae
+    m_Address: "Assets/Sprites/BG/\u0422\u0435\u043C\u043D\u0435\u0435\u0442.png"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 77207c149992a89498ca679d959d7eba
+    m_Address: Assets/Scripts/CardSO/17/17_OldMan_NightCamp.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 77e3b6895ff6f5940b9f84b0d43b8ef2
+    m_Address: Assets/Scripts/CardSO/7/7_KingTellStory.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7ae898c1fdf03094dba9073a4c190ddc
+    m_Address: Assets/Sprites/BG/Forest.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7bf6806235ac6a14491c48678d9a0d10
+    m_Address: "Assets/Sprites/BG/\u041B\u0415\u04212.png"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7c87d21946a7cce429cc8e11488d742b
+    m_Address: Assets/Sprites/Items/Nail.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7e8b41fa8e20e4b449c09a8b36815510
+    m_Address: Assets/Sprites/Items/sword.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7fdf47c16bc92de46a750ae5ecd5c678
+    m_Address: Assets/Scripts/CardSO/15/15_NO_OldMan.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 834e790034b02c24ebc9e11d4a07dc97
+    m_Address: Assets/Sprites/BG/Jail.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 85238a8911380584c8c40590768b33b0
+    m_Address: Assets/Scripts/CardSO/4/4_PovozkaPlaceToSeat.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 86c0a7cc66357924b90a0828bc7729ad
+    m_Address: Assets/Sprites/Items/3BlackHorse.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 87799774be82da940b2525dce31554dd
+    m_Address: Assets/Scripts/CardSO/2/2_Guard.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8cae47ce39b9ba14892a9f8677c4e344
+    m_Address: Assets/Sprites/Items/HeartMinus.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 92980bbab46386e4dba3b7a2db8a784d
+    m_Address: Assets/Scripts/CardSO/4/4_WomanGive.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 92f33e50c6a9dfa41b83835b91648dc1
+    m_Address: Assets/Scripts/CardSO/6/6_KingsPlace.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 96f55af47c107ea45a6ab5ba55cf0565
+    m_Address: Assets/Sprites/Items/Horse.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 97713ca7521477f4dba0d797498b9bd4
+    m_Address: Assets/Scripts/CardSO/4.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9a9641d0b3101a64fbe07f50c561043d
+    m_Address: "Assets/Sprites/Items/3 \u043A\u043E\u043D\u044F.png"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a0d94ada09789824a8d847a1fcd6fbe6
+    m_Address: Assets/Sprites/Items/Rope.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a3c6b8ae8b3b57a498423fa0b598cf64
+    m_Address: Assets/Sprites/Items/3gold.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: aa771bc4b59542f498e56fa72ffe0848
+    m_Address: "Assets/Sprites/BG/\u041F\u0440\u0438\u0432\u0430\u043B \u0432 \u0442\u0435\u043C\u043D\u043E\u043C
+      \u043B\u0435\u0441\u0443.png"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: aad4ab05936f13f4aa0a8ab249ec2fd2
+    m_Address: Assets/Sprites/Items/7gold.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: abbee1f62502fff4abc89216757fc7ef
+    m_Address: Assets/Sprites/BG/VillagePath.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ac9147a2f4c385d4ca8611875967e63e
+    m_Address: Assets/Scripts/CardSO/7/7_Listen.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b443037f3b1abfc4c8fdd1f9fd7e3efe
+    m_Address: Assets/Sprites/Items/StrangeFruit.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ba03ab402c343bf45bde4ff1ec48c639
+    m_Address: "Assets/Sprites/BG/\u0417\u0430\u0441\u0442\u0430\u0432\u043A\u0430_\u0448\u0438\u0440\u043E\u043A\u0430\u044F.png"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c1c42e746793f0745850d8b664a420e1
+    m_Address: "Assets/Sprites/Items/2 \u043B\u043E\u0448\u0430\u0434\u0438.png"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c6f78d8a9ab28ea42aa0588e928071d4
+    m_Address: Assets/Scripts/CardSO/18/18_CrazyHorses.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cf0ae24124d118e4d8d0935f8f8990e5
+    m_Address: Assets/Sprites/BG/CastleGates.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d470f5ea97b393e499428f3b29046f61
+    m_Address: Assets/Scripts/CardSO/17/17_StrangeFruits.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d6fddded13a279946afdcf50eb0e3b07
+    m_Address: "Assets/Sprites/BG/\u041B\u0415\u0421.png"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dabc19750805c6143a0fb000e46b6e38
+    m_Address: Assets/Sprites/BG/KinsPlace.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dcdcb3b1f042ab94ba4e4c478375749f
+    m_Address: Assets/Sprites/Items/2BlackHorse1Gray.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dd41aec0a5ea4a444a6c8e9dd2e2c392
+    m_Address: Assets/Scripts/CardSO/11/11_Home.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e20618d899ce4e24caabac16eeb15051
+    m_Address: Assets/Scripts/CardSO/13/13_Poput.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e32821e2238411547a798ce4bda66d8e
+    m_Address: Assets/Sprites/Items/KingGuard_old_&_yang.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e3a1a84f98903d244a071ace30120566
+    m_Address: Assets/Sprites/Items/chest.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e40860c4774086e4c9d6ed99e3b2d6fc
+    m_Address: Assets/Sprites/BG/YardHorseGuard.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e4c3a767476da4a4b8716ddc2ed9a629
+    m_Address: Assets/Scripts/CardSO/10/10(5)_HORSES_HEALTHY.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e64b0bf3c90906144bce3f9cd16dd9e0
+    m_Address: Assets/Scripts/CardSO/8/8_Sword.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ea32759cae45a094398fba469c18ac09
+    m_Address: Assets/Scripts/CardSO/15/15_W_OldMan.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ec61a7c3fcac62d4eb9d7c78d2e7f557
+    m_Address: Assets/Scripts/CardSO/9/9-1.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ece10ed878334e24199d789722c76b7f
+    m_Address: Assets/Scripts/CardSO/8/8_NoSword.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: eeaff6148388f004796da9358a9ec4f9
+    m_Address: Assets/Scripts/CardSO/17/17_OldMan_Pay.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: eed540213e45dc848bed229e90f4319c
+    m_Address: Assets/Sprites/Items/2BlackHorse.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: efdddba89992b1b4880a2a2220169f83
+    m_Address: Assets/Scripts/CardSO/3.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f5519cf2d0a748041a93c68f088a7708
+    m_Address: Assets/Scripts/CardSO/16/16_Camp_Old_War.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f6ea6492857e55e4f995ea63d0a8ae4e
+    m_Address: Assets/Scripts/CardSO/2/2_Right_Empty.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f7ac6ab6472ba5b4bbb883128ab4d7c0
+    m_Address: Assets/Scripts/CardSO/DemoEnds/DemoEnds.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f7c7edac0ce708f469cc34ca713b07aa
+    m_Address: Assets/Scripts/CardSO/10/10(5)_NAIL.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: faf81b6d8968a654aa4a30ae95168bc5
+    m_Address: Assets/Scripts/CardSO/17/17.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fb555fd3966b6ee408314ab49f6ba688
+    m_Address: Assets/Scripts/CardSO/11/11_Home_NO_G_H.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fd6482f80e9a13a4290f55eb2b889917
+    m_Address: Assets/Scripts/CardSO/17/17_SelfWAtch.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ff94f8646b4d42a46b93c91f08b54f8d
+    m_Address: Assets/Scripts/CardSO/12/12_Foret.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ffa822ab010856d499afab0e98bcc2ad
+    m_Address: Assets/Scripts/CardSO/18/18_Lesavki.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 5e9ff4b37d4e7f3438311297221c9958, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 1a9a393df0563e64ab6d39e6c4f0b95a, type: 2}
+    - {fileID: 11400000, guid: 192377fd963e2054b90dde74dd72acf3, type: 2}
