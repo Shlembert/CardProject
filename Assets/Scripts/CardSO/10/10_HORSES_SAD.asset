@@ -10,15 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c8636afbb060c9543bb985dfc1b704ad, type: 3}
-  m_Name: 6_KingsPlace
+  m_Name: 10_HORSES_SAD
   m_EditorClassIdentifier: 
-  portrait: {fileID: 21300000, guid: ddc083d5e2d8f57429dd85db41dd597f, type: 3}
-  bannerSound: {fileID: 8300000, guid: f28846e54974e094b8e94c9baa47d443, type: 3}
-  bannerText: 6_KingsPlace_bunner
-  checkPoint: 1
+  portrait: {fileID: 21300000, guid: 103e48c1276507d4db598e0bc9c93daa, type: 3}
+  bannerSound: {fileID: 0}
+  bannerText: 10_HORSES_SAD_bunner
+  checkPoint: 0
   leftCard:
-    messageText: 6_KingsPlace_cardLeft
-    illustrationSprite: {fileID: 21300000, guid: 103e48c1276507d4db598e0bc9c93daa, type: 3}
+    messageText: 10_HORSES_SAD_cardLeft
+    illustrationSprite: {fileID: 21300000, guid: 96f55af47c107ea45a6ab5ba55cf0565, type: 3}
     animator: {fileID: 0}
     animationClip: {fileID: 0}
     itemSprite: {fileID: 0}
@@ -26,31 +26,31 @@ MonoBehaviour:
     removeItemSprite: 0
     changeBanner: 1
     locationSprite: {fileID: 0}
-    nextSetIfItem: {fileID: 11400000, guid: 77e3b6895ff6f5940b9f84b0d43b8ef2, type: 2}
+    nextSetIfItem: {fileID: 0}
     nextSetIfNoItem: {fileID: 0}
-    reverseSpriteIfItem: {fileID: 21300000, guid: bf8199089dd2abe4b9ac39fc14dcff65, type: 3}
+    reverseSpriteIfItem: {fileID: 0}
     reverseAudioClipItem: {fileID: 0}
-    reverseTopTextIfItem: 6_KingsPlace_cardLeft_REV
+    reverseTopTextIfItem: 10_HORSES_SAD_cardLeft_REV
     changeLifePointsIfItem: 0
     reverseSpriteIfNoItem: {fileID: 0}
     reverseAudioClipNoItem: {fileID: 0}
     reverseTopTextIfNoItem: 
     changeLifePointsIfNoItem: 0
   rightCard:
-    messageText: 6_KingsPlace_cardRight
-    illustrationSprite: {fileID: 21300000, guid: 4ad1788077fda4a44a8e95fd1aeb6488, type: 3}
-    animator: {fileID: 9100000, guid: da5c36fff1b846a49ab62b20d36ce481, type: 2}
-    animationClip: {fileID: 7400000, guid: 0e4c0fc05db27174dadd7f9828bb1c0a, type: 2}
+    messageText: 10_HORSES_SAD_cardRight
+    illustrationSprite: {fileID: 21300000, guid: 0d38550f1ab6802478d5d50b01b3a758, type: 3}
+    animator: {fileID: 9100000, guid: a70de2b8e03ccd14ba861ac2b247dd17, type: 2}
+    animationClip: {fileID: 7400000, guid: 8dca9e793794260469e273157ac22364, type: 2}
     itemSprite: {fileID: 0}
     requiredItemSprite: {fileID: 0}
     removeItemSprite: 0
     changeBanner: 0
     locationSprite: {fileID: 0}
-    nextSetIfItem: {fileID: 11400000, guid: ac9147a2f4c385d4ca8611875967e63e, type: 2}
+    nextSetIfItem: {fileID: 0}
     nextSetIfNoItem: {fileID: 0}
-    reverseSpriteIfItem: {fileID: 21300000, guid: 78cf91ad5c0f0bc498630862f7a943a3, type: 3}
+    reverseSpriteIfItem: {fileID: 0}
     reverseAudioClipItem: {fileID: 0}
-    reverseTopTextIfItem: 6_KingsPlace_cardRight_REV
+    reverseTopTextIfItem: 10_HORSES_SAD_cardRight_REV
     changeLifePointsIfItem: 0
     reverseSpriteIfNoItem: {fileID: 0}
     reverseAudioClipNoItem: {fileID: 0}

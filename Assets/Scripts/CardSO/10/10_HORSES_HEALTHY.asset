@@ -10,47 +10,47 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c8636afbb060c9543bb985dfc1b704ad, type: 3}
-  m_Name: 4_WomanGive
+  m_Name: 10_HORSES_HEALTHY
   m_EditorClassIdentifier: 
-  portrait: {fileID: 21300000, guid: 134373ec52e7efa40b03b5f33b1b6cae, type: 3}
+  portrait: {fileID: 21300000, guid: 103e48c1276507d4db598e0bc9c93daa, type: 3}
   bannerSound: {fileID: 0}
-  bannerText: 4_WomanGive_bunner
+  bannerText: 10_HORSES_HEALTHY
   checkPoint: 0
   leftCard:
-    messageText: 4_WomanGive_cardLeft
-    illustrationSprite: {fileID: 21300000, guid: a984f1f38bd08444896a7fd4e94e8a0f, type: 3}
+    messageText: 10_HORSES_HEALTHY_cardLeft
+    illustrationSprite: {fileID: 21300000, guid: 86c0a7cc66357924b90a0828bc7729ad, type: 3}
     animator: {fileID: 0}
     animationClip: {fileID: 0}
-    itemSprite: {fileID: 0}
+    itemSprite: {fileID: 21300000, guid: 86c0a7cc66357924b90a0828bc7729ad, type: 3}
     requiredItemSprite: {fileID: 0}
     removeItemSprite: 0
     changeBanner: 1
-    locationSprite: {fileID: 0}
-    nextSetIfItem: {fileID: 11400000, guid: 39f12e39bba61564b9ca68f94038f5b0, type: 2}
+    locationSprite: {fileID: 21300000, guid: dabc19750805c6143a0fb000e46b6e38, type: 3}
+    nextSetIfItem: {fileID: 11400000, guid: ece10ed878334e24199d789722c76b7f, type: 2}
     nextSetIfNoItem: {fileID: 0}
-    reverseSpriteIfItem: {fileID: 21300000, guid: 6e734b6a62002654e9d64b90ad2a1da6, type: 3}
+    reverseSpriteIfItem: {fileID: 21300000, guid: 86c0a7cc66357924b90a0828bc7729ad, type: 3}
     reverseAudioClipItem: {fileID: 0}
-    reverseTopTextIfItem: 4_WomanGive_cardLeft_REV
+    reverseTopTextIfItem: 10_HORSES_HEALTHY_cardLeft_REV
     changeLifePointsIfItem: 0
     reverseSpriteIfNoItem: {fileID: 0}
     reverseAudioClipNoItem: {fileID: 0}
     reverseTopTextIfNoItem: 
     changeLifePointsIfNoItem: 0
   rightCard:
-    messageText: 4_WomanGive_cardRight
-    illustrationSprite: {fileID: 21300000, guid: 618350fd8e7223048aa5151b0674514e, type: 3}
-    animator: {fileID: 9100000, guid: 211d72dc0b84e664b8c4bafcb5c035b5, type: 2}
-    animationClip: {fileID: 7400000, guid: f7d7a9a2ea016a343bd448b922d9686e, type: 2}
-    itemSprite: {fileID: 0}
+    messageText: 10_HORSES_HEALTHY_cardRight
+    illustrationSprite: {fileID: 21300000, guid: dcdcb3b1f042ab94ba4e4c478375749f, type: 3}
+    animator: {fileID: 0}
+    animationClip: {fileID: 0}
+    itemSprite: {fileID: 21300000, guid: dcdcb3b1f042ab94ba4e4c478375749f, type: 3}
     requiredItemSprite: {fileID: 0}
     removeItemSprite: 0
     changeBanner: 1
     locationSprite: {fileID: 21300000, guid: dabc19750805c6143a0fb000e46b6e38, type: 3}
-    nextSetIfItem: {fileID: 11400000, guid: 92f33e50c6a9dfa41b83835b91648dc1, type: 2}
+    nextSetIfItem: {fileID: 11400000, guid: ece10ed878334e24199d789722c76b7f, type: 2}
     nextSetIfNoItem: {fileID: 0}
-    reverseSpriteIfItem: {fileID: 21300000, guid: 618350fd8e7223048aa5151b0674514e, type: 3}
+    reverseSpriteIfItem: {fileID: 21300000, guid: dcdcb3b1f042ab94ba4e4c478375749f, type: 3}
     reverseAudioClipItem: {fileID: 0}
-    reverseTopTextIfItem: 4_WomanGive_cardRight_REV
+    reverseTopTextIfItem: 10_HORSES_HEALTHY_cardRight_REV
     changeLifePointsIfItem: 0
     reverseSpriteIfNoItem: {fileID: 0}
     reverseAudioClipNoItem: {fileID: 0}

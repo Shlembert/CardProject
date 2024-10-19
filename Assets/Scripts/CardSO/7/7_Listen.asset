@@ -18,7 +18,7 @@ MonoBehaviour:
   checkPoint: 0
   leftCard:
     messageText: 7_Listen_cardLeft
-    illustrationSprite: {fileID: 21300000, guid: b0c60248ae029c643820c3f2a4aed17a, type: 3}
+    illustrationSprite: {fileID: 21300000, guid: 592066b2e387cf644a83110937e7441b, type: 3}
     animator: {fileID: 0}
     animationClip: {fileID: 0}
     itemSprite: {fileID: 0}
@@ -28,7 +28,7 @@ MonoBehaviour:
     locationSprite: {fileID: 21300000, guid: 834e790034b02c24ebc9e11d4a07dc97, type: 3}
     nextSetIfItem: {fileID: 11400000, guid: 36ec482e521a14047ac7e0366c291f1c, type: 2}
     nextSetIfNoItem: {fileID: 0}
-    reverseSpriteIfItem: {fileID: 21300000, guid: b0c60248ae029c643820c3f2a4aed17a, type: 3}
+    reverseSpriteIfItem: {fileID: 21300000, guid: 592066b2e387cf644a83110937e7441b, type: 3}
     reverseAudioClipItem: {fileID: 8300000, guid: 6f73de8f1a212c749b7207486f75f04a, type: 3}
     reverseTopTextIfItem: 7_Listen_cardLeft_REV
     changeLifePointsIfItem: 0
@@ -38,7 +38,7 @@ MonoBehaviour:
     changeLifePointsIfNoItem: 0
   rightCard:
     messageText: 7_Listen_cardRight
-    illustrationSprite: {fileID: 21300000, guid: 6be4edfec2b9a654ca2f234f292ecec0, type: 3}
+    illustrationSprite: {fileID: 21300000, guid: 30ef977491a71f24886882d1698c7dd9, type: 3}
     animator: {fileID: 0}
     animationClip: {fileID: 0}
     itemSprite: {fileID: 21300000, guid: 7e8b41fa8e20e4b449c09a8b36815510, type: 3}

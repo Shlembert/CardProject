@@ -25,7 +25,7 @@ MonoBehaviour:
     requiredItemSprite: {fileID: 0}
     removeItemSprite: 0
     changeBanner: 1
-    locationSprite: {fileID: 21300000, guid: 2608c72184e33ab4bbc0e2ad80069b5b, type: 3}
+    locationSprite: {fileID: 21300000, guid: abbee1f62502fff4abc89216757fc7ef, type: 3}
     nextSetIfItem: {fileID: 11400000, guid: 5b8bb2d823ac7f64cadeed6172e26eb4, type: 2}
     nextSetIfNoItem: {fileID: 0}
     reverseSpriteIfItem: {fileID: 21300000, guid: 0d38550f1ab6802478d5d50b01b3a758, type: 3}
@@ -45,7 +45,7 @@ MonoBehaviour:
     requiredItemSprite: {fileID: 0}
     removeItemSprite: 0
     changeBanner: 0
-    locationSprite: {fileID: 21300000, guid: 2608c72184e33ab4bbc0e2ad80069b5b, type: 3}
+    locationSprite: {fileID: 21300000, guid: abbee1f62502fff4abc89216757fc7ef, type: 3}
     nextSetIfItem: {fileID: 11400000, guid: 284df8acc7e0b73439f30e8df01bcde5, type: 2}
     nextSetIfNoItem: {fileID: 0}
     reverseSpriteIfItem: {fileID: 21300000, guid: 8cae47ce39b9ba14892a9f8677c4e344, type: 3}
