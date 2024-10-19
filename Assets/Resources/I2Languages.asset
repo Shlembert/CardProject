@@ -23,16 +23,16 @@ MonoBehaviour:
       Languages:
       - Start
       - "\u0421\u0442\u0430\u0440\u0442"
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
+      - "\u5F00\u59CB"
+      - "\u0421\u0442\u0430\u0440\u0442"
+      - Lancement
+      - Start
+      - Start
+      - "\u30B9\u30BF\u30FC\u30C8"
+      - "\uC2DC\uC791"
+      - Arranque
+      - "\xC7al\u0131\u015Ft\u0131rmak"
+      - "\u0421\u0442\u0430\u0440\u0442"
       Flags: 000000000000000000000000
       Languages_Touch: []
     - Term: ButtonRestart
@@ -41,16 +41,16 @@ MonoBehaviour:
       Languages:
       - Restart
       - "\u0420\u0435\u0441\u0442\u0430\u0440\u0442"
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
+      - "\u91CD\u65B0\u542F\u52A8"
+      - "\u0420\u044D\u0441\u0442\u0430\u0440\u0442"
+      - Reprise
+      - Wiederanlauf
+      - Restart
+      - "\u518D\u8D77\u52D5"
+      - "\uB2E4\uC2DC \uC2DC\uC791"
+      - Recomienzo
+      - "Yeniden ba\u015Flatma"
+      - "\u0420\u0435\u0441\u0442\u0430\u0440\u0442"
       Flags: 000000000000000000000000
       Languages_Touch: []
     - Term: ButtonMenu
@@ -59,8 +59,26 @@ MonoBehaviour:
       Languages:
       - To Menu
       - "\u0412 \u041C\u0435\u043D\u044E"
+      - "\u5728\u83DC\u5355\u4E2D"
+      - "\u0423 \u043C\u0435\u043D\u044E"
+      - Au Menu
+      - "Im Men\xFC"
+      - Nel Menu
+      - "\u30E1\u30CB\u30E5\u30FC\u306E\u4E2D\u3067"
+      - "\uBA54\uB274\uC5D0\uC11C"
+      - "En El Men\xFA"
+      - "Men\xFCde"
+      - "\u0412 \u041C\u0435\u043D\u044E"
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: ButtonContinue
+      TermType: 0
+      Description: 
+      Languages:
+      - Continue
+      - "\u041F\u0440\u043E\u0434\u043E\u043B\u0436\u0438\u0442\u044C"
       - 
-      - 
+      - "\u041F\u0440\u043E\u0434\u043E\u043B\u0436\u0438\u0442\u044C"
       - 
       - 
       - 
@@ -77,16 +95,16 @@ MonoBehaviour:
       Languages:
       - Back
       - "\u041D\u0430\u0437\u0430\u0434"
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
+      - "\u8FD4\u56DE"
+      - "\u041D\u0430\u0437\u0430\u0434"
+      - "En arri\xE8re"
+      - "Zur\xFCck"
+      - Fa
+      - "\u623B\u308B"
+      - "\uB4A4\uB85C"
+      - "Atr\xE1s"
+      - Geri
+      - "\u041D\u0430\u0437\u0430\u0434"
       Flags: 000000000000000000000000
       Languages_Touch: []
     - Term: ButtonMap
@@ -95,52 +113,160 @@ MonoBehaviour:
       Languages:
       - To Map
       - "\u041D\u0430 \u041A\u0430\u0440\u0442\u0443"
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
+      - "\u5230\u5730\u56FE"
+      - "\u041D\u0430 \u041A\u0430\u0440\u0442\u0443"
+      - Sur La Carte
+      - Auf Der Karte
+      - Sulla Mappa
+      - "\u5730\u56F3\u3078"
+      - "\uC9C0\uB3C4\uC5D0"
+      - En El Mapa
+      - Haritaya
+      - "\u041D\u0430 \u041A\u0430\u0440\u0442\u0443"
       Flags: 000000000000000000000000
       Languages_Touch: []
-    - Term: ButtonContinue
+    - Term: ButtonSetting
       TermType: 0
       Description: 
       Languages:
-      - Continue
-      - "\u041F\u0440\u043E\u0434\u043E\u043B\u0436\u0438\u0442\u044C"
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
+      - Setting
+      - "\u041D\u0430\u0441\u0442\u0440\u043E\u0439\u043A\u0438"
+      - "\u8BBE\u7F6E"
+      - "\u041D\u0430\u043B\u0430\u0434\u044B"
+      - "R\xE9glages"
+      - Die Einstellungen
+      - Regolazioni
+      - "\u8A2D\u5B9A"
+      - "\uC124\uC815"
+      - Ajustes
+      - Ayarlar
+      - "\u041D\u0430\u0441\u0442\u0440\u043E\u0439\u043A\u0430"
       Flags: 000000000000000000000000
       Languages_Touch: []
-    - Term: ButtonSaveLoad
+    - Term: ButtonExit
       TermType: 0
       Description: 
       Languages:
-      - Save/Load
-      - "\u0421\u043E\u0445\u0440/\u0417\u0430\u0433\u0440"
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
+      - Exit
+      - "\u0412\u044B\u0445\u043E\u0434"
+      - "\u51FA\u53E3\uFF1B\u51FA\u53E3"
+      - "\u0412\u044B\u0445\u043E\u0434"
+      - Sortie
+      - Ausgang
+      - Uscita
+      - "\u51FA\u53E3"
+      - "\uCD9C\uAD6C"
+      - Salida
+      - "\xC7\u0131k\u0131\u015F"
+      - "\u0412\u0438\u0445\u0456\u0434"
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: ButtonLoad
+      TermType: 0
+      Description: 
+      Languages:
+      - Loading
+      - "\u0417\u0430\u0433\u0440\u0443\u0437\u0438\u0442\u044C"
+      - "\u4E0B\u8F7D"
+      - "\u0417\u0430\u0433\u0440\u0443\u0437\u0456\u0446\u044C"
+      - "T\xE9l\xE9charger"
+      - Hochladen
+      - Caricare
+      - "\u30C0\u30A6\u30F3\u30ED\u30FC\u30C9"
+      - "\uB2E4\uC6B4\uB85C\uB4DC"
+      - Cargar
+      - "\u0130ndir"
+      - "\u0417\u0430\u0432\u0430\u043D\u0442\u0430\u0436\u0438\u0432\u0448\u0438"
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: ButtonDelete
+      TermType: 0
+      Description: 
+      Languages:
+      - Delete
+      - "\u0423\u0434\u0430\u043B\u0438\u0442\u044C"
+      - "\u79FB\u8D70"
+      - "\u0412\u044B\u0434\u0430\u043B\u0456\u0446\u044C"
+      - Supprimer
+      - Entfernen
+      - Rimuovere
+      - "\u524A\u9664"
+      - "\uC81C\uAC70"
+      - Eliminar
+      - "Kald\u0131rmak"
+      - "\u0412\u0438\u0434\u0430\u043B\u0438\u0442\u0438"
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: ButtonCancel
+      TermType: 0
+      Description: 
+      Languages:
+      - Cancel
+      - "\u041E\u0442\u043C\u0435\u043D\u0430"
+      - "\u53D6\u6D88"
+      - "\u0421\u043A\u0430\u0441\u0430\u0432\u0430\u043D\u043D\u0435"
+      - Annulation
+      - Annullierung
+      - Cancellazione
+      - "\u30AD\u30E3\u30F3\u30BB\u30EB"
+      - "\uCDE8\uC18C"
+      - "Cancelaci\xF3n"
+      - "\u0130ptal"
+      - "\u0421\u043A\u0430\u0441\u0443\u0432\u0430\u043D\u043D\u044F"
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: ButtonNewSave
+      TermType: 0
+      Description: 
+      Languages:
+      - New Save
+      - "\u041D\u043E\u0432\u043E\u0435 \u0441\u043E\u0445\u0440\u0430\u043D\u0435\u043D\u0438\u0435"
+      - "\u65B0\u50A8\u84C4"
+      - "\u041D\u043E\u0432\u0430\u044F \u0437\u0430\u0445\u0430\u0432\u0430\u043D\u043A\u0430"
+      - Nouvelle conservation
+      - Neue Speicherung
+      - Nuovo salvataggio
+      - "\u65B0\u3057\u3044\u4FDD\u5B58"
+      - "\uC0C8 \uC800\uC7A5"
+      - Nuevo ahorro
+      - Yeni koruma
+      - "\u041D\u043E\u0432\u0435 \u0437\u0431\u0435\u0440\u0435\u0436\u0435\u043D\u043D\u044F"
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: ButtonSave
+      TermType: 0
+      Description: 
+      Languages:
+      - Save
+      - "\u0421\u043E\u0445\u0440\u0430\u043D\u0438\u0442\u044C"
+      - "\u50A8\u84C4"
+      - "\u0417\u0430\u0445\u0430\u0432\u0430\u0446\u044C"
+      - Enregistrer
+      - Speichern
+      - Mantenere
+      - "\u4FDD\u5B58"
+      - "\uC800\uC7A5"
+      - Guardar
+      - Kaydetmek
+      - "\u0417\u0431\u0435\u0440\u0456\u0433\u0448\u0438"
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: InputText
+      TermType: 0
+      Description: 
+      Languages:
+      - Enter a name
+      - "\u0412\u0432\u0435\u0434\u0438\u0442\u0435 \u0438\u043C\u044F"
+      - "\u8F93\u5165\u540D\u79F0"
+      - "\u0423\u0432\u044F\u0434\u0437\u0456\u0446\u0435 \u0456\u043C\u044F"
+      - Entrez un nom
+      - Geben Sie einen Namen ein
+      - Inserisci un nome
+      - "\u540D\u524D\u3092\u5165\u529B\u3057\u307E\u3059"
+      - "\uC774\uB984 \uC785\uB825"
+      - Introduzca un nombre
+      - "Ad\u0131 girin"
+      - "\u0412\u0432\u0435\u0434\u0456\u0442\u044C \u0456\u043C'\u044F"
       Flags: 000000000000000000000000
       Languages_Touch: []
     - Term: MusicTxt
@@ -149,16 +275,16 @@ MonoBehaviour:
       Languages:
       - Music
       - "\u041C\u0443\u0437\u044B\u043A\u0430"
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
+      - "\u97F3\u4E50"
+      - "\u041C\u0443\u0437\u044B\u043A\u0430"
+      - Musique
+      - Die Musik
+      - Musica
+      - "\u97F3\u697D"
+      - "\uC74C\uC545"
+      - "M\xFAsico"
+      - "M\xFCzik"
+      - "\u041C\u0443\u0437\u0438\u043A\u0430"
       Flags: 000000000000000000000000
       Languages_Touch: []
     - Term: SoundTxt
@@ -167,6 +293,45 @@ MonoBehaviour:
       Languages:
       - Sound
       - "\u0417\u0432\u0443\u043A\u0438"
+      - "\u58F0\u97F3"
+      - "\u0413\u0443\u043A\u0456"
+      - Son
+      - "Ger\xE4usche"
+      - Suoni
+      - "\u97F3"
+      - "\uC18C\uB9AC"
+      - Sonidos
+      - Sesler
+      - "\u0417\u0432\u0443\u043A"
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: LangTxt
+      TermType: 0
+      Description: 
+      Languages:
+      - Language
+      - "\u042F\u0437\u044B\u043A"
+      - "\u8BED\u8A00"
+      - "\u041C\u043E\u0432\u0430"
+      - Langue
+      - Sprache
+      - Lingua
+      - "\u8A00\u8A9E"
+      - "\uC5B8\uC5B4"
+      - Idioma
+      - Dil
+      - "\u041C\u043E\u0432\u0430"
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: DemoEnd_bunner
+      TermType: 0
+      Description: 
+      Languages:
+      - 
+      - "\u041D\u0430 \u044D\u0442\u043E\u043C \u0434\u0435\u043C\u043E \u043A\u043E\u043D\u0447\u0430\u0435\u0442\u0441\u044F,
+        \u0441\u043B\u0435\u0434\u0438\u0442\u0435 \u0437\u0430 \u043D\u043E\u0432\u043E\u0441\u0442\u044F\u043C\u0438
+        \u0432 \u043D\u0430\u0448\u0435\u0439 \u0433\u0440\u0443\u043F\u043F\u0435
+        \u0432 \u0412\u041A"
       - 
       - 
       - 
@@ -179,12 +344,78 @@ MonoBehaviour:
       - 
       Flags: 000000000000000000000000
       Languages_Touch: []
-    - Term: LangTxt
+    - Term: DemoEnd_cardLeft
       TermType: 0
       Description: 
       Languages:
-      - Language
-      - "\u042F\u0437\u044B\u043A"
+      - 
+      - "\u041D\u0430 \u044D\u0442\u043E\u043C \u0434\u0435\u043C\u043E \u043A\u043E\u043D\u0447\u0430\u0435\u0442\u0441\u044F,
+        \u0441\u043B\u0435\u0434\u0438\u0442\u0435 \u0437\u0430 \u043D\u043E\u0432\u043E\u0441\u0442\u044F\u043C\u0438
+        \u0432 \u043D\u0430\u0448\u0435\u0439 \u0433\u0440\u0443\u043F\u043F\u0435
+        \u0432 \u0412\u041A"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: DemoEnd_cardLeft_REV
+      TermType: 0
+      Description: 
+      Languages:
+      - 
+      - "\u041D\u0430 \u044D\u0442\u043E\u043C \u0434\u0435\u043C\u043E \u043A\u043E\u043D\u0447\u0430\u0435\u0442\u0441\u044F,
+        \u0441\u043B\u0435\u0434\u0438\u0442\u0435 \u0437\u0430 \u043D\u043E\u0432\u043E\u0441\u0442\u044F\u043C\u0438
+        \u0432 \u043D\u0430\u0448\u0435\u0439 \u0433\u0440\u0443\u043F\u043F\u0435
+        \u0432 \u0412\u041A"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: DemoEnd_cardRight
+      TermType: 0
+      Description: 
+      Languages:
+      - 
+      - "\u041D\u0430 \u044D\u0442\u043E\u043C \u0434\u0435\u043C\u043E \u043A\u043E\u043D\u0447\u0430\u0435\u0442\u0441\u044F,
+        \u0441\u043B\u0435\u0434\u0438\u0442\u0435 \u0437\u0430 \u043D\u043E\u0432\u043E\u0441\u0442\u044F\u043C\u0438
+        \u0432 \u043D\u0430\u0448\u0435\u0439 \u0433\u0440\u0443\u043F\u043F\u0435
+        \u0432 \u0412\u041A"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: DemoEnd_cardRight_REV
+      TermType: 0
+      Description: 
+      Languages:
+      - 
+      - "\u041D\u0430 \u044D\u0442\u043E\u043C \u0434\u0435\u043C\u043E \u043A\u043E\u043D\u0447\u0430\u0435\u0442\u0441\u044F,
+        \u0441\u043B\u0435\u0434\u0438\u0442\u0435 \u0437\u0430 \u043D\u043E\u0432\u043E\u0441\u0442\u044F\u043C\u0438
+        \u0432 \u043D\u0430\u0448\u0435\u0439 \u0433\u0440\u0443\u043F\u043F\u0435
+        \u0432 \u0412\u041A"
       - 
       - 
       - 
@@ -201,7 +432,7 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - Set 1 Bunner
+      - You hear a knock at the door
       - "\u0412\u044B \u0441\u043B\u044B\u0448\u0438\u0442\u0435 \u0441\u0442\u0443\u043A
         \u0432 \u0434\u0432\u0435\u0440\u044C"
       - 
@@ -220,7 +451,7 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - Set 1 Card Left
+      - Open the door
       - "\u041E\u0442\u043A\u0440\u044B\u0442\u044C \u0434\u0432\u0435\u0440\u044C"
       - 
       - 
@@ -238,58 +469,75 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - Set 1 Card Right
-      - "\u0412\u044B\u043B\u0435\u0437\u0442\u0438 \u0432 \u043E\u043A\u043D\u043E"
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
+      - Climb out the window.
+      - "\u0412\u044B\u043B\u0435\u0437\u0442\u0438 \u0432 \u043E\u043A\u043D\u043E."
+      - "\u4ECE\u7A97\u6237\u51FA\u53BB\u3002"
+      - "\u0412\u044B\u043B\u0430\u0437\u0446\u0456 \u045E \u0430\u043A\u043D\u043E."
+      - "Sortez par la fen\xEAtre."
+      - Raus aus dem Fenster.
+      - Esci dalla finestra.
+      - "\u7A93\u304B\u3089\u51FA\u3066\u884C\u3051"
+      - "\uCC3D \uBC16\uC73C\uB85C \uB098\uAC00"
+      - Salir por la ventana.
+      - "Pencereden d\u0131\u015Far\u0131 \xE7\u0131k."
+      - "\u0412\u0438\u043B\u0456\u0437\u0442\u0438 \u0443 \u0432\u0456\u043A\u043D\u043E."
       Flags: 000000000000000000000000
       Languages_Touch: []
     - Term: s1revL
       TermType: 0
       Description: 
       Languages:
-      - Set 1 Reverse Left
+      - You reluctantly get out of bed.
       - "\u0412\u044B \u043D\u0435\u0445\u043E\u0442\u044F \u0432\u0441\u0442\u0430\u0435\u0442\u0435
-        \u0441 \u043A\u0440\u043E\u0432\u0430\u0442\u0438"
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
+        \u0441 \u043A\u0440\u043E\u0432\u0430\u0442\u0438."
+      - "\u4F60\u4E0D\u60C5\u613F\u5730\u4E0B\u5E8A\u3002"
+      - "\u0412\u044B \u043D\u0435\u0430\u0445\u0432\u043E\u0442\u043D\u0430 \u045E\u0441\u0442\u0430\u0435\u0446\u0435
+        \u0437 \u043B\u043E\u0436\u043A\u0430."
+      - "Vous sortez du lit \xE0 contrec\u0153ur."
+      - Sie stehen widerwillig aus dem Bett auf.
+      - Ti alzi a malincuore dal letto.
+      - "\u3042\u306A\u305F\u306F\u3057\u3076\u3057\u3076\u30D9\u30C3\u30C9\u304B\u3089\u51FA\u307E\u3059\u3002"
+      - "\uB2F9\uC2E0\uC740 \uB9C8\uC9C0 \uBABB\uD574 \uCE68\uB300\uC5D0\uC11C \uC5BB\uC744."
+      - "Te levantas de la cama a rega\xF1adientes."
+      - "\u0130steksizce yataktan kalk\u0131yorsunuz."
+      - "\u0412\u0438 \u0437\u043D\u0435\u0445\u043E\u0442\u044F \u0432\u0441\u0442\u0430\u0454\u0442\u0435
+        \u0437 \u043B\u0456\u0436\u043A\u0430."
       Flags: 000000000000000000000000
       Languages_Touch: []
     - Term: s1revR
       TermType: 0
       Description: 
       Languages:
-      - Set 1 Reverse Right
+      - "The window route is not available in this demo,  \nbut we\u2019re already
+        working on it."
       - "\u0412 \u044D\u0442\u043E\u043C \u0434\u0435\u043C\u043E \u043D\u0435 \u0434\u043E\u0441\u0442\u0443\u043F\u043D\u0430
-        \u0432\u0435\u0442\u043A\u0430 \u0441 \u043E\u043A\u043D\u043E\u043C\n\u041D\u043E
+        \u0432\u0435\u0442\u043A\u0430 \u0441 \u043E\u043A\u043D\u043E\u043C,\n\u041D\u043E
         \u043C\u044B \u0443\u0436\u0435 \u0440\u0430\u0431\u043E\u0442\u0430\u0435\u043C
-        \u043D\u0430\u0434 \u043D\u0435\u0439"
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
+        \u043D\u0430\u0434 \u043D\u0435\u0439."
+      - "\u5E26\u7A97\u53E3\u7684\u5206\u652F\u5728\u6B64\u6F14\u793A\u4E2D\u4E0D\u53EF\u7528,\n\u4F46\u6211\u4EEC\u5DF2\u7ECF\u5728\u52AA\u529B\u3002"
+      - "\u0423 \u0433\u044D\u0442\u044B\u043C \u0434\u044D\u043C\u0430-\u0432\u0435\u0440\u0441\u0456\u0456
+        \u043D\u0435 \u0434\u0430\u0441\u0442\u0443\u043F\u043D\u0430 \u0433\u0430\u043B\u0456\u043D\u0430
+        \u0437 \u0430\u043A\u043D\u043E\u043C, \u0430\u043B\u0435 \u043C\u044B \u045E\u0436\u043E
+        \u043F\u0440\u0430\u0446\u0443\u0435\u043C \u043D\u0430\u0434 \u0451\u0439."
+      - "Aucune branche avec fen\xEAtre n'est disponible dans cette d\xE9mo,\nMais
+        nous y travaillons d\xE9j\xE0."
+      - "Ein Zweig mit einem Fenster ist in dieser Demo nicht verf\xFCgbar,\nAber
+        wir arbeiten bereits daran."
+      - "Nessun ramo con finestra \xE8 disponibile in questa demo,\nMa ci stiamo
+        gi\xE0 lavorando."
+      - "\u3053\u306E\u30C7\u30E2\u3067\u306F\u3001\u30A6\u30A3\u30F3\u30C9\u30A6\u306E\u3042\u308B\u30D6\u30E9\u30F3\u30C1\u306F\u4F7F\u7528\u3067\u304D\u307E\u305B\u3093,\n\u3057\u304B\u3057\u3001\u79C1\u305F\u3061\u306F\u3059\u3067\u306B\u305D\u308C\u306B\u53D6\u308A\u7D44\u3093\u3067\u3044\u307E\u3059\u3002"
+      - "\uC774 \uB370\uBAA8\uC5D0\uC11C\uB294 \uCC3D\uC774 \uC788\uB294 \uC9C0\uC810\uC744
+        \uC0AC\uC6A9\uD560 \uC218 \uC5C6\uC2B5\uB2C8\uB2E4,\n\uADF8\uB7EC\uB098 \uC6B0\uB9AC\uB294
+        \uC774\uBBF8 \uADF8\uAC83\uC5D0 \uB178\uB825\uD558\uACE0 \uC788\uC2B5\uB2C8\uB2E4."
+      - "En esta demo no est\xE1 disponible una rama con una ventana,\nPero ya estamos
+        trabajando en ello."
+      - "Bu demoda pencereli bir \u015Fube mevcut de\u011Fil,\nAma biz zaten \xFCzerinde
+        \xE7al\u0131\u015F\u0131yoruz."
+      - "\u0423 \u0446\u044C\u043E\u043C\u0443 \u0434\u0435\u043C\u043E \u043D\u0435
+        \u0434\u043E\u0441\u0442\u0443\u043F\u043D\u0430 \u0433\u0456\u043B\u043A\u0430
+        \u0437 \u0432\u0456\u043A\u043D\u043E\u043C,\n\u0410\u043B\u0435 \u043C\u0438
+        \u0432\u0436\u0435 \u043F\u0440\u0430\u0446\u044E\u0454\u043C\u043E \u043D\u0430\u0434
+        \u043D\u0435\u044E."
       Flags: 000000000000000000000000
       Languages_Touch: []
     - Term: s1revLno
@@ -342,16 +590,32 @@ MonoBehaviour:
         \u043A\u043E\u0440\u043E\u043B\u0435\u0432\u0441\u043A\u0430\u044F \u0441\u0442\u0440\u0430\u0436\u0430\n\u0422\u0440\u0435\u0431\u0443\u044E\u0442
         \u0447\u0442\u043E\u0431\u044B \u0432\u044B \u043E\u0442\u043F\u0440\u0430\u0432\u0438\u043B\u0438\u0441\u044C
         \u0432\u043E \u0434\u0432\u043E\u0440\u0435\u0446"
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
+      - "\u95E8\u5916\u6709\u5FA1\u524D\u4F8D\u536B\n\u4ED6\u4EEC\u8981\u6C42\u4F60\u53BB\u7687\u5BAB"
+      - "\u0417\u0430 \u0434\u0437\u0432\u044F\u0440\u044B\u043C\u0430 \u0430\u043F\u044B\u043D\u0443\u043B\u0430\u0441\u044F
+        \u043A\u0430\u0440\u043E\u043D\u043D\u0430\u044F \u0432\u0430\u0440\u0442\u0430.
+        \u042F\u043D\u044B \u043F\u0430\u0442\u0440\u0430\u0431\u0443\u044E\u0446\u044C,
+        \u043A\u0430\u0431 \u0432\u044B \u0430\u0434\u043F\u0440\u0430\u0432\u0456\u043B\u0456\u0441\u044F
+        \u045E \u043F\u0430\u043B\u0430\u0446."
+      - "Derri\xE8re la porte se trouvait la garde royale\nExiger que vous alliez
+        au palais"
+      - "Die k\xF6nigliche Wache stand vor der T\xFCr\nSie verlangen, dass Sie in
+        den Palast gehen"
+      - 'Dietro la porta c''era una guardia reale
+
+        Ti chiedono di andare
+        al Palazzo'
+      - "\u30C9\u30A2\u306E\u5916\u306B\u306F\u738B\u5BA4\u306E\u8B66\u5099\u54E1\u304C\u3044\u307E\u3057\u305F\n\u5F7C\u3089\u306F\u3042\u306A\u305F\u304C\u5BAE\u6BBF\u306B\u884C\u304F\u3053\u3068\u3092\u8981\u6C42\u3057\u307E\u3059"
+      - "\uBB38 \uBC16\uC5D0 \uC655\uC2E4 \uACBD\uBE44\uC6D0\uC774 \uC788\uC5C8\uB2E4\n\uADF8\uB4E4\uC740
+        \uB2F9\uC2E0\uC774 \uAD81\uC804\uC5D0 \uAC08 \uAC83\uC744 \uC694\uAD6C"
+      - 'Tras la puerta estaba la guardia real.
+
+        Te piden que vayas al Palacio'
+      - "Kap\u0131n\u0131n d\u0131\u015F\u0131nda kraliyet muhaf\u0131z\u0131 vard\u0131\nSaraya
+        gitmenizi istiyorlar"
+      - "\u0417\u0430 \u0434\u0432\u0435\u0440\u0438\u043C\u0430 \u043E\u043F\u0438\u043D\u0438\u043B\u0430\u0441\u044F
+        \u043A\u043E\u0440\u043E\u043B\u0456\u0432\u0441\u044C\u043A\u0430 \u0432\u0430\u0440\u0442\u0430\n\u0412\u0438\u043C\u0430\u0433\u0430\u044E\u0442\u044C
+        \u0449\u043E\u0431 \u0432\u0438 \u0432\u0438\u0440\u0443\u0448\u0438\u043B\u0438
+        \u0434\u043E \u043F\u0430\u043B\u0430\u0446\u0443"
       Flags: 000000000000000000000000
       Languages_Touch: []
     - Term: 2_Guard_cardLeft
@@ -360,16 +624,16 @@ MonoBehaviour:
       Languages:
       - Agree to go
       - "\u0421\u043E\u0433\u043B\u0430\u0441\u0438\u0442\u044C\u0441\u044F \u043F\u043E\u0439\u0442\u0438"
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
+      - "\u540C\u610F\u53BB"
+      - "\u0421\u0433\u043E\u0434\u0437\u0456\u0446\u0446\u0430 \u043F\u0430\u0439\u0441\u0446\u0456."
+      - Accepter d'aller
+      - Zustimmen zu gehen
+      - Accetta di andare
+      - "\u884C\u304F\u3053\u3068\u306B\u540C\u610F\u3059\u308B"
+      - "\uAC00\uAE30\uB85C \uB3D9\uC758"
+      - Aceptar ir
+      - Gitmeyi kabul etmek
+      - "\u041F\u043E\u0433\u043E\u0434\u0438\u0442\u0438\u0441\u044F \u043F\u0456\u0442\u0438"
       Flags: 000000000000000000000000
       Languages_Touch: []
     - Term: 2_Guard_cardLeft_REV
@@ -380,16 +644,19 @@ MonoBehaviour:
       - "\u0412\u044B \u0441\u043E\u0433\u043B\u0430\u0448\u0430\u0435\u0442\u0435\u0441\u044C
         \u043E\u0442\u043F\u0440\u0430\u0432\u0438\u0442\u044C\u0441\u044F \u0432\u043E
         \u0434\u0432\u043E\u0440\u0435\u0446"
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
+      - "\u4F60\u540C\u610F\u53BB\u7687\u5BAB"
+      - "\u0412\u044B \u0437\u0433\u0430\u0434\u0436\u0430\u0435\u0446\u0435\u0441\u044F
+        \u0430\u0434\u043F\u0440\u0430\u0432\u0456\u0446\u0446\u0430 \u045E \u043F\u0430\u043B\u0430\u0446."
+      - Vous acceptez d'aller au palais
+      - Sie stimmen zu, in den Palast zu gehen
+      - Accetti di andare al Palazzo
+      - "\u3042\u306A\u305F\u306F\u5BAE\u6BBF\u306B\u884C\u304F\u3053\u3068\u306B\u540C\u610F\u3057\u307E\u3059"
+      - "\uB2F9\uC2E0\uC740 \uAD81\uC804\uC5D0 \uAC08 \uAC83\uC5D0 \uB3D9\uC758\uD569\uB2C8\uB2E4"
+      - Usted acepta ir al Palacio
+      - Saraya gitmeyi kabul ediyorsunuz
+      - "\u0412\u0438 \u043F\u043E\u0433\u043E\u0434\u0436\u0443\u0454\u0442\u0435\u0441\u044F
+        \u0432\u0456\u0434\u043F\u0440\u0430\u0432\u0438\u0442\u0438\u0441\u044F
+        \u0434\u043E \u043F\u0430\u043B\u0430\u0446\u0443"
       Flags: 000000000000000000000000
       Languages_Touch: []
     - Term: 2_Guard_cardRight
@@ -398,9 +665,10 @@ MonoBehaviour:
       Languages:
       - Slam the door in their face
       - "\u0425\u043B\u043E\u043F\u043D\u0443\u0442\u044C \u0434\u0432\u0435\u0440\u044C\u044E
-        \u0443 \u043D\u0438\u0445 \u043F\u0435\u0440\u0435\u0434 \u043D\u043E\u0441\u043E\u043C\n"
-      - 
-      - 
+        \u0443 \u043D\u0438\u0445 \u043F\u0435\u0440\u0435\u0434 \u043D\u043E\u0441\u043E\u043C"
+      - "\u628A\u95E8\u7838\u5728\u4ED6\u4EEC\u8138\u4E0A"
+      - "\u0425\u043B\u043E\u043F\u043D\u0443\u0446\u044C \u0434\u0437\u0432\u044F\u0440\u044B\u043C\u0430
+        \u045E \u0456\u0445 \u043F\u0435\u0440\u0430\u0434 \u043D\u043E\u0441\u0430\u043C."
       - 
       - 
       - 
@@ -421,8 +689,11 @@ MonoBehaviour:
         \u0432\u044B \u0445\u043B\u043E\u043F\u0430\u0435\u0442\u0435 \u0434\u0432\u0435\u0440\u044C\u044E
         \u043F\u0435\u0440\u0435\u0434 \u043D\u043E\u0441\u043E\u043C \u0443 \u0441\u0442\u0440\u0430\u0436\u043D\u0438\u043A\u043E\u0432,
         \u0441\u0442\u0440\u0430\u0436\u0435 \u044D\u0442\u043E \u043D\u0435 \u043F\u043E\u043D\u0440\u0430\u0432\u0438\u043B\u043E\u0441\u044C"
-      - 
-      - 
+      - "\u505A\u4E2A\u8138\uFF0C\u4F60\u5728\u8B66\u536B\u9762\u524D\u7830\u5730\u5173\u4E0A\u95E8\uFF0C\u8B66\u536B\u4E0D\u559C\u6B22"
+      - "\u0421\u043A\u0440\u0438\u0432\u0456\u045E\u0448\u044B \u0442\u0432\u0430\u0440,
+        \u0432\u044B \u0445\u043B\u043E\u043F\u0430\u0435\u0446\u0435 \u0434\u0437\u0432\u044F\u0440\u044B\u043C\u0430
+        \u043F\u0435\u0440\u0430\u0434 \u043D\u043E\u0441\u0430\u043C \u0443 \u0432\u0430\u0440\u0442\u0430\u045E\u043D\u0456\u043A\u043E\u045E,
+        \u0456 \u0433\u044D\u0442\u0430 \u0456\u043C \u043D\u0435 \u0441\u043F\u0430\u0434\u0430\u0431\u0430\u043B\u0430\u0441\u044F."
       - 
       - 
       - 
@@ -443,8 +714,11 @@ MonoBehaviour:
         \u0434\u0432\u0435\u0440\u044C \u0438 \u0442\u0435\u043F\u0435\u0440\u044C\n
         \u0432\u044B \u0435\u0434\u0435\u0442\u0435 \u0432 \u0437\u0430\u043C\u043E\u043A
         \u043F\u043E\u0434 \u0441\u0442\u0440\u0430\u0436\u0435\u0439"
-      - 
-      - 
+      - "\u8B66\u536B\u8E22\u4E0B\u4E86\u95E8\uFF0C\u73B0\u5728\n \u4F60\u8981\u53BB\u88AB\u62D8\u7559\u7684\u57CE\u5821"
+      - "\u0412\u0430\u0440\u0442\u0430\u045E\u043D\u0456\u043A\u0456 \u0432\u044B\u0431\u0456\u043B\u0456
+        \u0434\u0437\u0432\u0435\u0440\u044B, \u0456 \u0446\u044F\u043F\u0435\u0440
+        \u0432\u044B \u0435\u0434\u0437\u0435\u0446\u0435 \u045E \u0437\u0430\u043C\u0430\u043A
+        \u043F\u0430\u0434 \u0430\u0445\u043E\u0432\u0430\u0439."
       - 
       - 
       - 
@@ -462,8 +736,9 @@ MonoBehaviour:
       - Sit closer to the edge of the cart
       - "\u0421\u0435\u0441\u0442\u044C \u0431\u043B\u0438\u0436\u0435 \u043A \u043A\u0440\u0430\u044E
         \u043F\u043E\u0432\u043E\u0437\u043A\u0438"
-      - 
-      - 
+      - "\u5750\u5728\u9760\u8FD1\u63A8\u8F66\u8FB9\u7F18\u7684\u5730\u65B9"
+      - "\u0421\u0435\u0441\u0446\u0456 \u0431\u043B\u0456\u0436\u044D\u0439 \u0434\u0430
+        \u043A\u0440\u0430\u044E \u0432\u0430\u0437\u043A\u0456."
       - 
       - 
       - 
@@ -483,8 +758,11 @@ MonoBehaviour:
         \u043A \u043A\u0440\u0430\u044E \u043F\u043E\u0432\u043E\u0437\u043A\u0438,
         \u0447\u0442\u043E\u0431\u044B \u043D\u0435 \u0440\u0430\u0437\u0434\u0440\u0430\u0436\u0430\u0442\u044C
         \u0441\u0442\u0440\u0430\u0436\u0443"
-      - 
-      - 
+      - "\u4F60\u5750\u5728\u9760\u8FD1\u63A8\u8F66\u7684\u8FB9\u7F18\uFF0C\u4EE5\u514D\u60F9\u607C\u8B66\u536B"
+      - "\u0412\u044B \u0441\u0430\u0434\u0437\u0456\u0446\u0435\u0441\u044F \u0431\u043B\u0456\u0436\u044D\u0439
+        \u0434\u0430 \u043A\u0440\u0430\u044E \u0432\u0430\u0437\u043A\u0456, \u043A\u0430\u0431
+        \u043D\u0435 \u0440\u0430\u0437\u0434\u0440\u0430\u0436\u0430\u0446\u044C
+        \u0432\u0430\u0440\u0442\u0430\u045E\u043D\u0456\u043A\u043E\u045E."
       - 
       - 
       - 
@@ -501,8 +779,8 @@ MonoBehaviour:
       Languages:
       - Continue to resist
       - "\u041F\u0440\u043E\u0434\u043E\u043B\u0436\u0438\u0442\u044C \u0441\u043E\u043F\u0440\u043E\u0442\u0438\u0432\u043B\u044F\u0442\u044C\u0441\u044F"
-      - 
-      - 
+      - "\u7EE7\u7EED\u62B5\u6297"
+      - "\u041F\u0440\u0430\u0446\u044F\u0433\u0432\u0430\u0446\u044C \u0441\u0443\u043F\u0440\u0430\u0446\u0456\u045E\u043B\u044F\u0446\u0446\u0430."
       - 
       - 
       - 
@@ -522,8 +800,12 @@ MonoBehaviour:
         \u0438 \u0432\u0435\u0434\u0435\u0442\u0435 \u0441\u0435\u0431\u044F \u0432\u044B\u0437\u044B\u0432\u0430\u044E\u0449\u0435,
         \u0437\u0430 \u0447\u0442\u043E \u043F\u043E\u043B\u0443\u0447\u0430\u0435\u0442\u0435
         \u0441\u0438\u043B\u044C\u043D\u044B\u0439 \u0443\u0434\u0430\u0440"
-      - 
-      - 
+      - "\u4F60\u63A8\u8B66\u536B\u548C\u6311\u8845\u884C\u4E3A\uFF0C\u4F60\u5F97\u5230\u4E00\u4E2A\u5F3A\u6709\u529B\u7684\u6253\u51FB"
+      - "\u0412\u044B \u0448\u0442\u0443\u0440\u0445\u0430\u0435\u0446\u0435 \u0432\u0430\u0440\u0442\u0430\u045E\u043D\u0456\u043A\u043E\u045E
+        \u0456 \u043F\u0430\u0432\u043E\u0434\u0437\u0456\u0446\u0435 \u0441\u044F\u0431\u0435
+        \u0432\u044B\u043A\u043B\u0456\u043A\u0430\u044E\u0447\u0430, \u0437\u0430
+        \u0448\u0442\u043E \u0430\u0442\u0440\u044B\u043C\u043B\u0456\u0432\u0430\u0435\u0446\u0435
+        \u043C\u043E\u0446\u043D\u044B \u045E\u0434\u0430\u0440."
       - 
       - 
       - 
@@ -541,8 +823,9 @@ MonoBehaviour:
       - How will you get to the castle?
       - "\u041A\u0430\u043A \u0431\u0443\u0434\u0435\u0442\u0435 \u0434\u043E\u0431\u0438\u0440\u0430\u0442\u044C\u0441\u044F
         \u0434\u043E \u0437\u0430\u043C\u043A\u0430?"
-      - 
-      - 
+      - "\u4F60\u600E\u4E48\u53BB\u57CE\u5821?"
+      - "\u042F\u043A \u0432\u044B \u0431\u0443\u0434\u0437\u0435\u0446\u0435 \u0434\u0430\u0431\u0456\u0440\u0430\u0446\u0446\u0430
+        \u0434\u0430 \u0437\u0430\u043C\u043A\u0430?"
       - 
       - 
       - 
@@ -559,8 +842,8 @@ MonoBehaviour:
       Languages:
       - Go yourself
       - "\u041E\u0442\u043F\u0440\u0430\u0432\u0438\u0442\u044C\u0441\u044F \u0441\u0430\u043C\u043E\u043C\u0443"
-      - 
-      - 
+      - "\u81EA\u5DF1\u53BB\u5427"
+      - "\u0410\u0434\u043F\u0440\u0430\u0432\u0456\u0446\u0446\u0430 \u0441\u0430\u043C\u043E\u043C\u0443."
       - 
       - 
       - 
@@ -578,8 +861,9 @@ MonoBehaviour:
       - You will get to the palace on your own
       - "\u0412\u044B \u0434\u043E\u0431\u0435\u0440\u0435\u0442\u0435\u0441\u044C
         \u0432\u043E \u0434\u0432\u043E\u0440\u0435\u0446 \u0441\u0430\u043C\u043E\u0441\u0442\u043E\u044F\u0442\u0435\u043B\u044C\u043D\u043E"
-      - 
-      - 
+      - "\u4F60\u81EA\u5DF1\u53BB\u7687\u5BAB"
+      - "\u0412\u044B \u0434\u0430\u0431\u044F\u0440\u044D\u0446\u0435\u0441\u044F
+        \u0434\u0430 \u043F\u0430\u043B\u0430\u0446\u0430 \u0441\u0430\u043C\u0430\u0441\u0442\u043E\u0439\u043D\u0430."
       - 
       - 
       - 
@@ -596,8 +880,8 @@ MonoBehaviour:
       Languages:
       - On a wagon with guards
       - "\u041D\u0430 \u043F\u043E\u0432\u043E\u0437\u043A\u0435 \u0441\u043E \u0441\u0442\u0440\u0430\u0436\u0435\u0439"
-      - 
-      - 
+      - "\u5728\u6709\u8B66\u536B\u7684\u9A6C\u8F66\u4E0A"
+      - "\u041D\u0430 \u0432\u043E\u0437\u0435 \u0437 \u0430\u0445\u043E\u045E\u043D\u0456\u043A\u0430\u043C\u0456."
       - 
       - 
       - 
@@ -616,8 +900,9 @@ MonoBehaviour:
       - "\u0412\u044B \u0437\u0430\u043B\u0435\u0437\u0430\u0435\u0442\u0435 \u0432
         \u043F\u043E\u0432\u043E\u0437\u043A\u0443 \u0438 \u0435\u0434\u0435\u0442\u0435
         \u0432\u043E \u0434\u0432\u043E\u0440\u0435\u0446"
-      - 
-      - 
+      - "\u4F60\u4E0A\u4E86\u9A6C\u8F66\uFF0C\u53BB\u4E86\u5BAB\u6BBF"
+      - "\u0412\u044B \u0437\u0430\u043B\u0430\u0437\u0456\u0446\u0435 \u045E \u0432\u043E\u0437
+        \u0456 \u0435\u0434\u0437\u0435\u0446\u0435 \u045E \u043F\u0430\u043B\u0430\u0446."
       - 
       - 
       - 
@@ -636,8 +921,9 @@ MonoBehaviour:
       - "\u0412 \u043F\u043E\u0432\u043E\u0437\u043A\u0435 \u0434\u043E\u0432\u043E\u043B\u044C\u043D\u043E
         \u0441\u0432\u043E\u0431\u043E\u0434\u043D\u043E, \u043A\u0443\u0434\u0430
         \u0441\u044F\u0434\u0435\u0442\u0435?"
-      - 
-      - 
+      - "\u9A6C\u8F66\u662F\u76F8\u5F53\u81EA\u7531\u7684\uFF0C\u4F60\u4F1A\u5750\u5728\u54EA\u91CC\uFF1F"
+      - "\u0423 \u0432\u043E\u0437\u0435 \u0434\u0430\u0432\u043E\u043B\u0456 \u0432\u043E\u043B\u044C\u043D\u0430,
+        \u043A\u0443\u0434\u044B \u0441\u044F\u0434\u0437\u0435\u0446\u0435?"
       - 
       - 
       - 
@@ -654,8 +940,8 @@ MonoBehaviour:
       Languages:
       - Sit at the edge of the cart
       - "\u0421\u0435\u0441\u0442\u044C \u043A \u043A\u0440\u0430\u044E \u043F\u043E\u0432\u043E\u0437\u043A\u0438"
-      - 
-      - 
+      - "\u5750\u5728\u5927\u8F66\u7684\u8FB9\u7F18"
+      - "\u0421\u0435\u0441\u0446\u0456 \u0434\u0430 \u043A\u0440\u0430\u044E \u043F\u0430\u0432\u043E\u0437\u043A\u0456."
       - 
       - 
       - 
@@ -675,8 +961,11 @@ MonoBehaviour:
         \u043A \u043A\u0440\u0430\u044E \u043F\u043E\u0432\u043E\u0437\u043A\u0438,
         \u0447\u0442\u043E\u0431\u044B \u043D\u0435 \u0440\u0430\u0437\u0434\u0440\u0430\u0436\u0430\u0442\u044C
         \u0441\u0442\u0440\u0430\u0436\u0443"
-      - 
-      - 
+      - "\u4F60\u5750\u5728\u9760\u8FD1\u63A8\u8F66\u7684\u8FB9\u7F18\uFF0C\u4EE5\u514D\u60F9\u607C\u8B66\u536B"
+      - "\u0412\u044B \u0441\u0430\u0434\u0437\u0456\u0446\u0435\u0441\u044F \u0431\u043B\u0456\u0436\u044D\u0439
+        \u0434\u0430 \u043A\u0440\u0430\u044E \u043F\u0430\u0432\u043E\u0437\u043A\u0456,
+        \u043A\u0430\u0431 \u043D\u0435 \u0440\u0430\u0437\u0434\u0440\u0430\u0436\u0430\u0446\u044C
+        \u0432\u0430\u0440\u0442\u0430\u045E."
       - 
       - 
       - 
@@ -693,8 +982,9 @@ MonoBehaviour:
       Languages:
       - Get in deeper
       - "\u0417\u0430\u043B\u0435\u0437\u0442\u044C \u043F\u043E\u0433\u043B\u0443\u0431\u0436\u0435"
-      - 
-      - 
+      - "\u6DF1\u5165\u7814\u7A76"
+      - "\u0412\u044B \u0437\u0430\u043B\u0435\u0437\u0435\u0446\u0435 \u043F\u0430\u0433\u043B\u044B\u0431\u0435\u0439
+        \u0443 \u043F\u0430\u0432\u043E\u0437\u043A\u0443."
       - 
       - 
       - 
@@ -715,8 +1005,11 @@ MonoBehaviour:
         \u0438 \u043E\u0431\u043D\u0430\u0440\u0443\u0436\u0438\u0432\u0430\u0435\u0442\u0435
         \u043F\u043E\u0434 \u0441\u0432\u043E\u0438\u043C \u0437\u0430\u0434\u043E\u043C
         \u0433\u043D\u0443\u0442\u044B\u0439 \u0433\u0432\u043E\u0437\u0434\u044C"
-      - 
-      - 
+      - "\u4F60\u722C\u4E0A\u8D2D\u7269\u8F66\u7684\u4E2D\u5FC3\uFF0C\u5728\u4F60\u7684\u80CC\u9762\u627E\u5230\u4E00\u4E2A\u5F2F\u66F2\u7684\u9489\u5B50"
+      - "\u0412\u044B \u0437\u0430\u043B\u0435\u0437\u0435\u0446\u0435 \u045E \u0446\u044D\u043D\u0442\u0440
+        \u043F\u0430\u0432\u043E\u0437\u043A\u0456 \u0456 \u0432\u044B\u044F\u045E\u043B\u044F\u0435\u0446\u0435
+        \u043F\u0430\u0434 \u0441\u0432\u0430\u0456\u043C \u0437\u0430\u0434\u043E\u043C
+        \u0433\u043D\u0443\u0442\u044B \u0446\u0432\u0456\u043A."
       - 
       - 
       - 
@@ -739,8 +1032,11 @@ MonoBehaviour:
         \u0441\u0432\u044F\u0437\u0430\u043B\u0438, \u0438 \u0442\u0435\u043F\u0435\u0440\u044C
         \u0432\u044B \n\u043E\u0431\u0434\u0443\u043C\u044B\u0432\u0430\u0435\u0442\u0435
         \u0434\u0430\u043B\u044C\u043D\u0435\u0439\u0448\u0438\u0435 \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u044F"
-      - 
-      - 
+      - "\u4F60\u88AB\u6253\u4E86\uFF0C\u88AB\u6346\u4E86\uFF0C\u73B0\u5728\u4F60\n\u6B63\u5728\u8003\u8651\u91C7\u53D6\u8FDB\u4E00\u6B65\u884C\u52A8"
+      - "\u0412\u0430\u0441 \u043F\u0430\u043A\u0430\u043B\u0435\u0447\u044B\u043B\u0456,
+        \u0437\u0432\u044F\u0437\u0430\u043B\u0456, \u0456 \u0446\u044F\u043F\u0435\u0440
+        \u0432\u044B \u0430\u0431\u0434\u0443\u043C\u0432\u0430\u0435\u0446\u0435
+        \u0434\u0430\u043B\u0435\u0439\u0448\u044B\u044F \u0434\u0437\u0435\u044F\u043D\u043D\u0456."
       - 
       - 
       - 
@@ -757,8 +1053,8 @@ MonoBehaviour:
       Languages:
       - Calm down
       - "\u0423\u0441\u043F\u043E\u043A\u043E\u0438\u0442\u044C\u0441\u044F"
-      - 
-      - 
+      - "\u51B7\u9759\u70B9"
+      - "\u0421\u0443\u043F\u0430\u043A\u043E\u0456\u0446\u0446\u0430."
       - 
       - 
       - 
@@ -780,8 +1076,12 @@ MonoBehaviour:
         \u0438 \u0432\u0430\u0441 \u0434\u043E\u0441\u0442\u0430\u0432\u0438\u043B\u0438
         \u043F\u0440\u044F\u043C\u043E \u0432 \u0437\u0430\u043C\u043E\u043A \u043A
         \u0446\u0430\u0440\u044E"
-      - 
-      - 
+      - "\u5269\u4E0B\u7684\u8DEF\u4F60\u8868\u73B0\u5F97\u5F88\u5E73\u9759\uFF0C\u4F60\u88AB\u76F4\u63A5\u5E26\u5230\u57CE\u5821\u53BB\u627E\u56FD\u738B"
+      - "\u0410\u0441\u0442\u0430\u0442\u0430\u043A \u0448\u043B\u044F\u0445\u0443
+        \u0432\u044B \u043F\u0430\u0432\u043E\u0434\u0437\u0456\u043B\u0456 \u0441\u044F\u0431\u0435
+        \u0441\u043F\u0430\u043A\u043E\u0439\u043D\u0430, \u0456 \u0432\u0430\u0441
+        \u0434\u0430\u0441\u0442\u0430\u0432\u0456\u043B\u0456 \u043F\u0440\u0430\u043C\u0430
+        \u045E \u0437\u0430\u043C\u0430\u043A \u0434\u0430 \u0446\u0430\u0440\u0430."
       - 
       - 
       - 
@@ -799,8 +1099,9 @@ MonoBehaviour:
       - Try to untie your hands
       - "\u041F\u043E\u043F\u044B\u0442\u0430\u0442\u044C\u0441\u044F \u0440\u0430\u0437\u0432\u044F\u0437\u0430\u0442\u044C
         \u0440\u0443\u043A\u0438"
-      - 
-      - 
+      - "\u8BD5\u7740\u89E3\u5F00\u4F60\u7684\u624B"
+      - "\u041F\u0430\u0441\u043F\u0440\u0430\u0431\u0430\u0432\u0430\u0446\u044C
+        \u0440\u0430\u0437\u0432\u044F\u0437\u0430\u0446\u044C \u0440\u0443\u043A\u0456."
       - 
       - 
       - 
@@ -821,8 +1122,11 @@ MonoBehaviour:
         \u043A\u0430\u043A \u0443\u0436 \u0438 \u043D\u0430 \u043A\u043E\u0447\u043A\u0435
         \u0432\u044B\u043F\u0430\u043B\u0438 \u0438\u0437 \u043F\u043E\u0432\u043E\u0437\u043A\u0438
         \u0438 \u0440\u0430\u0437\u0431\u0438\u043B\u0438 \u0433\u043E\u043B\u043E\u0432\u0443"
-      - 
-      - 
+      - "\u5F53\u4F60\u4ECE\u8F66\u4E0A\u6454\u4E0B\u6765\u7684\u65F6\u5019\uFF0C\u4F60\u5F00\u59CB\u626D\u4F24\u4E86\u5934"
+      - "\u0412\u044B \u043F\u0430\u0447\u0430\u043B\u0456 \u0437\u0432\u0456\u0446\u0446\u0430,
+        \u044F\u043A \u0432\u0443\u0436, \u0456 \u043D\u0430 \u043A\u043E\u0447\u0446\u044B
+        \u0432\u044B\u043F\u0430\u043B\u0456 \u0437 \u043F\u043E\u0432\u043E\u0437\u043A\u0456,
+        \u0440\u0430\u0437\u0431\u0456\u045E\u0448\u044B \u0433\u0430\u043B\u0430\u0432\u0443."
       - 
       - 
       - 
@@ -841,8 +1145,10 @@ MonoBehaviour:
       - "\u0412\u0430\u043C \u0432\u0441\u0442\u0440\u0435\u0442\u0438\u043B\u0430\u0441\u044C
         \u0436\u0435\u043D\u0449\u0438\u043D\u0430, \u043E\u043D\u0430 \u043F\u0440\u043E\u0442\u044F\u0433\u0438\u0432\u0430\u0435\u0442
         \u0432\u0430\u043C \u0440\u0443\u043A\u0443"
-      - 
-      - 
+      - "\u4F60\u89C1\u8FC7\u4E00\u4E2A\u5973\u4EBA\uFF0C\u5979\u5411\u4F60\u4F38\u51FA\u624B"
+      - "\u0412\u0430\u043C \u0441\u0443\u0441\u0442\u0440\u044D\u043B\u0430\u0441\u044F
+        \u0436\u0430\u043D\u0447\u044B\u043D\u0430, \u044F\u043D\u0430 \u043F\u0440\u0430\u0446\u044F\u0433\u0432\u0430\u0435
+        \u0432\u0430\u043C \u0440\u0443\u043A\u0443."
       - 
       - 
       - 
@@ -860,8 +1166,9 @@ MonoBehaviour:
       - To extend a hand in response
       - "\u041F\u0440\u043E\u0442\u044F\u043D\u0443\u0442\u044C \u0440\u0443\u043A\u0443
         \u0432 \u043E\u0442\u0432\u0435\u0442"
-      - 
-      - 
+      - "\u4F38\u51FA\u4E00\u53EA\u624B\u56DE\u5E94"
+      - "\u041F\u0440\u0430\u0442\u044F\u0433\u043D\u0443\u0446\u044C \u0440\u0443\u043A\u0443
+        \u045E \u0430\u0434\u043A\u0430\u0437."
       - 
       - 
       - 
@@ -879,8 +1186,9 @@ MonoBehaviour:
       - The woman has something in her hand
       - "\u0423 \u0436\u0435\u043D\u0449\u0438\u043D\u044B \u0432 \u0440\u0443\u043A\u0435
         \u0447\u0442\u043E \u0442\u043E \u0435\u0441\u0442\u044C"
-      - 
-      - 
+      - "\u5973\u4EBA\u624B\u91CC\u62FF\u7740\u4E1C\u897F"
+      - "\u0423 \u0436\u0430\u043D\u0447\u044B\u043D\u044B \u045E \u0440\u0443\u0446\u044D
+        \u043D\u0435\u0448\u0442\u0430 \u0451\u0441\u0446\u044C."
       - 
       - 
       - 
@@ -898,8 +1206,9 @@ MonoBehaviour:
       - Brush her off
       - "\u041E\u0442\u043C\u0430\u0445\u043D\u0443\u0442\u044C\u0441\u044F \u043E\u0442
         \u043D\u0435\u0435"
-      - 
-      - 
+      - "\u5237\u6389\u5979"
+      - "\u041E\u0442\u043C\u0430\u0445\u043D\u0443\u0446\u0446\u0430 \u0430\u0434
+        \u044F\u0435."
       - 
       - 
       - 
@@ -918,8 +1227,10 @@ MonoBehaviour:
       - "\u0412\u044B \u0434\u0435\u043B\u0430\u0435\u0442\u0435 \u0432\u0438\u0434
         \u0447\u0442\u043E \u043D\u0435 \u0437\u0430\u043C\u0435\u0447\u0430\u0435\u0442\u0435
         \u0435\u0435"
-      - 
-      - 
+      - "\u4F60\u5047\u88C5\u6CA1\u6CE8\u610F\u5230\u5979"
+      - "\u0412\u044B \u0440\u043E\u0431\u0456\u0446\u0435 \u0432\u044B\u0433\u043B\u044F\u0434,
+        \u0448\u0442\u043E \u043D\u0435 \u0437\u0430\u045E\u0432\u0430\u0436\u0430\u0435\u0446\u0435
+        \u044F\u0435."
       - 
       - 
       - 
@@ -937,8 +1248,9 @@ MonoBehaviour:
       - She gave you a juicy red apple
       - "\u041E\u043D\u0430 \u0434\u0430\u043B\u0430 \u0432\u0430\u043C \u0441\u043E\u0447\u043D\u043E\u0435
         \u043A\u0440\u0430\u0441\u043D\u043E\u0435 \u044F\u0431\u043B\u043E\u043A\u043E"
-      - 
-      - 
+      - "\u5979\u7ED9\u4E86\u4F60\u4E00\u4E2A\u591A\u6C41\u7684\u7EA2\u82F9\u679C"
+      - "\u042F\u043D\u0430 \u0434\u0430\u043B\u0430 \u0432\u0430\u043C \u0441\u043C\u0430\u0447\u043D\u0430\u0435
+        \u0447\u044B\u0440\u0432\u043E\u043D\u0430\u0435 \u044F\u0431\u043B\u044B\u043A."
       - 
       - 
       - 
@@ -955,8 +1267,8 @@ MonoBehaviour:
       Languages:
       - Eat an apple
       - "\u0421\u044A\u0435\u0441\u0442\u044C \u044F\u0431\u043B\u043E\u043A\u043E"
-      - 
-      - 
+      - "\u5403\u4E00\u4E2A\u82F9\u679C"
+      - "\u0417'\u0435\u0441\u0446\u0456 \u044F\u0431\u043B\u044B\u043A"
       - 
       - 
       - 
@@ -975,8 +1287,10 @@ MonoBehaviour:
       - "\u0412\u044B \u0441\u044A\u0435\u0434\u0430\u0435\u0442\u0435 \u044F\u0431\u043B\u043E\u043A\u043E
         \u0438 \u043E\u043D\u043E \u043D\u0430\u043F\u043E\u043B\u043D\u044F\u0435\u0442
         \u0432\u0430\u0441 \u044D\u043D\u0435\u0440\u0433\u0438\u0435\u0439"
-      - 
-      - 
+      - "\u4F60\u5403\u4E86\u4E00\u4E2A\u82F9\u679C\uFF0C\u5B83\u5145\u6EE1\u4E86\u80FD\u91CF"
+      - "\u0412\u044B \u0437'\u044F\u0434\u0430\u0435\u0446\u0435 \u044F\u0431\u043B\u044B\u043A
+        \u0456 \u044F\u043D\u043E \u043D\u0430\u043F\u0430\u045E\u043D\u044F\u0435
+        \u0432\u0430\u0441 \u044D\u043D\u0435\u0440\u0433\u0456\u044F\u0439"
       - 
       - 
       - 
@@ -994,8 +1308,9 @@ MonoBehaviour:
       - Put it in your pocket
       - "\u041F\u043E\u043B\u043E\u0436\u0438\u0442\u044C \u0435\u0433\u043E \u0432
         \u043A\u0430\u0440\u043C\u0430\u043D"
-      - 
-      - 
+      - "\u628A\u5B83\u653E\u5728\u4F60\u7684\u53E3\u888B\u91CC"
+      - "\u041F\u0430\u043A\u043B\u0430\u0441\u0446\u0456 \u044F\u0433\u043E \u045E
+        \u043A\u0456\u0448\u044D\u043D\u044E"
       - 
       - 
       - 
@@ -1016,8 +1331,12 @@ MonoBehaviour:
         \u0438 \u0431\u043B\u0435\u0441\u0442\u044F\u0449\u0435\u0435, \u043D\u043E
         \u0432\u044B \u043D\u0435 \u0433\u043E\u043B\u043E\u0434\u043D\u044B \u0438
         \u043F\u0440\u044F\u0447\u0435\u0442\u0435 \u0435\u0433\u043E \u0432 \u043A\u0430\u0440\u043C\u0430\u043D"
-      - 
-      - 
+      - "\u82F9\u679C\u975E\u5E38\u6F02\u4EAE\uFF0C\u6709\u5149\u6CFD\uFF0C\u4F46\u4F60\u4E0D\u997F\uFF0C\u628A\u5B83\u85CF\u5728\u53E3\u888B\u91CC"
+      - "\u042F\u0431\u043B\u044B\u043A \u0432\u0435\u043B\u044C\u043C\u0456 \u043F\u0440\u044B\u0433\u043E\u0436\u0430\u0435
+        \u0456 \u0431\u043B\u0456\u0441\u043A\u0443\u0447\u0430\u0435, \u0430\u043B\u0435
+        \u0432\u044B \u043D\u0435 \u0433\u0430\u043B\u043E\u0434\u043D\u044B\u044F
+        \u0456 \u0445\u0430\u0432\u0430\u0435\u0446\u0435 \u044F\u0433\u043E \u045E
+        \u043A\u0456\u0448\u044D\u043D\u044E"
       - 
       - 
       - 
@@ -1036,8 +1355,10 @@ MonoBehaviour:
       - "\u041E\u0441\u0442\u0430\u0432\u0438\u0442\u044C \u0441\u0435\u0431\u0435
         \u0438\u043B\u0438 \u0432\u044B\u043A\u0438\u043D\u0443\u0442\u044C \u043D\u0430
         \u0437\u0435\u043C\u043B\u044E"
-      - 
-      - 
+      - "\u81EA\u5DF1\u7559\u7740\u8FD8\u662F\u6254\u5728\u5730\u4E0A"
+      - "\u0417\u0430\u0441\u0442\u0430\u0432\u0456\u0446\u044C \u0441\u0430\u0431\u0435
+        \u0446\u0456 \u0432\u044B\u043A\u0456\u043D\u0443\u0446\u044C \u043D\u0430
+        \u0437\u044F\u043C\u043B\u044E."
       - 
       - 
       - 
@@ -1054,8 +1375,8 @@ MonoBehaviour:
       Languages:
       - Throw away
       - "\u0412\u044B\u0431\u0440\u043E\u0441\u0438\u0442\u044C"
-      - 
-      - 
+      - "\u6254\u6389"
+      - "\u0412\u044B\u043A\u0456\u0434\u0432\u0430\u0446\u044C."
       - 
       - 
       - 
@@ -1074,8 +1395,10 @@ MonoBehaviour:
       - "\u0412\u044B \u0432\u044B\u043A\u0438\u0434\u044B\u0432\u0430\u0435\u0442\u0435
         \u0433\u0432\u043E\u0437\u0434\u044C, \u043D\u0438\u0447\u0435\u0433\u043E
         \u043D\u0435 \u043F\u0440\u043E\u0438\u0441\u0445\u043E\u0434\u0438\u0442"
-      - 
-      - 
+      - "\u4F60\u628A\u9489\u5B50\u6254\u4E86\uFF0C\u4EC0\u4E48\u4E5F\u6CA1\u53D1\u751F"
+      - "\u0412\u044B \u0432\u044B\u043A\u0456\u0434\u0432\u0430\u0435\u0446\u0435
+        \u0433\u0432\u0430\u0437\u0434\u044C, \u043D\u0456\u0447\u043E\u0433\u0430
+        \u043D\u0435 \u0430\u0434\u0431\u044B\u0432\u0430\u0435\u0446\u0446\u0430."
       - 
       - 
       - 
@@ -1092,8 +1415,9 @@ MonoBehaviour:
       Languages:
       - Keep it for yourself
       - "\u041E\u0441\u0442\u0430\u0432\u0438\u0442\u044C \u0441\u0435\u0431\u0435"
-      - 
-      - 
+      - "\u4F60\u81EA\u5DF1\u7559\u7740\u5427"
+      - "\u0412\u044B \u0437\u0430\u0445\u043E\u045E\u0432\u0430\u0435\u0446\u0435
+        \u0433\u0432\u0430\u0437\u0434\u044C \u0443 \u0441\u044F\u0431\u0435."
       - 
       - 
       - 
@@ -1113,8 +1437,11 @@ MonoBehaviour:
         \u0445\u043E\u0437\u044F\u0439\u0441\u0442\u0432\u0435\u043D\u043D\u044B\u0439,
         \u043A\u043B\u0430\u0434\u0435\u0442\u0435 \u0433\u0432\u043E\u0437\u0434\u044C
         \u0441\u0435\u0431\u0435 \u0432 \u043A\u0430\u0440\u043C\u0430\u043D"
-      - 
-      - 
+      - "\u663E\u7136\u4F60\u5F88\u7ECF\u6D4E\uFF0C\u4F60\u5728\u53E3\u888B\u91CC\u653E\u4E86\u4E00\u9897\u9489\u5B50"
+      - "\u0410\u0433\u043B\u044F\u0434\u0437\u0456\u0446\u0435\u0441\u044F, \u0432\u0456\u0434\u0430\u0446\u044C,
+        \u0432\u044B \u0432\u0435\u043B\u044C\u043C\u0456 \u0433\u0430\u0441\u043F\u0430\u0434\u0430\u0440\u043B\u0456\u0432\u044B
+        \u0456 \u043A\u043B\u0430\u0434\u0437\u0435\u0446\u0435 \u0433\u0432\u0430\u0437\u0434\u044C
+        \u0443 \u0441\u0432\u043E\u0439 \u043A\u0456\u0448\u044D\u043D\u044E."
       - 
       - 
       - 
@@ -1140,8 +1467,12 @@ MonoBehaviour:
         \u0441 \u0433\u043E\u0440\u0435\u0447\u044C\u044E \u043F\u043E\u0432\u0435\u0434\u0430\u043B
         \u043E \u0442\u043E\u043C,\n\u043A\u0430\u043A \u0434\u0440\u0430\u043A\u043E\u043D
         \u043F\u043E\u0445\u0438\u0442\u0438\u043B \u0435\u0433\u043E \u043F\u0440\u0438\u043D\u0446\u0435\u0441\u0441\u0443"
-      - 
-      - 
+      - "\u4F60\u88AB\u5E26\u5230\u4F24\u5FC3\u6B32\u7EDD\u7684\u56FD\u738B\u9762\u524D,\n\u8C01\u6068\u6068\u5730\u544A\u8BC9\n\u9F99\u5982\u4F55\u7ED1\u67B6\u4ED6\u7684\u516C\u4E3B"
+      - "\u0412\u0430\u0441 \u043F\u0440\u044B\u0432\u0435\u0437\u043B\u0456 \u0434\u0430
+        \u0431\u0435\u0437\u0443\u0442\u0435\u0448\u043D\u0430\u0433\u0430 \u043A\u0430\u0440\u0430\u043B\u044F,
+        \u044F\u043A\u0456 \u0437 \u0433\u043E\u0440\u0430\u044E \u0440\u0430\u0441\u043F\u0430\u0432\u0451\u045E
+        \u043F\u0440\u0430 \u0442\u043E\u0435, \u044F\u043A \u0434\u0440\u0430\u043A\u043E\u043D
+        \u0441\u0445\u0430\u043F\u0456\u045E \u044F\u0433\u043E \u043F\u0440\u044B\u043D\u0446\u044D\u0441\u0443."
       - 
       - 
       - 
@@ -1159,8 +1490,9 @@ MonoBehaviour:
       - To ask, what does this have to do with you?
       - "\u0421\u043F\u0440\u043E\u0441\u0438\u0442\u044C \u043F\u0440\u0438\u0447\u0435\u043C
         \u0437\u0434\u0435\u0441\u044C \u0432\u044B?"
-      - 
-      - 
+      - "\u8981\u95EE\uFF0C\u8FD9\u8DDF\u4F60\u6709\u4EC0\u4E48\u5173\u7CFB\uFF1F"
+      - "\u0417\u0430\u043F\u044B\u0442\u0430\u0446\u0446\u0430, \u044F\u043A\u043E\u0435
+        \u0434\u0430 \u0432\u0430\u0441 \u0434\u0430\u0447\u044B\u043D\u0435\u043D\u043D\u0435?"
       - 
       - 
       - 
@@ -1177,13 +1509,17 @@ MonoBehaviour:
       Languages:
       - The guards look at you with displeasure, but the king sighs and continues
         his story
-      - "\u0421\u0442\u0440\u0430\u0436\u0430 \u0431\u0440\u043E\u0441\u0430\u0435\u0442
-        \u043D\u0430 \u0432\u0430\u0441 \u043D\u0435\u0434\u043E\u0432\u043E\u043B\u044C\u043D\u044B\u0435
-        \u0432\u0437\u0433\u043B\u044F\u0434\u044B, \u043D\u043E \u043A\u043E\u0440\u043E\u043B\u044C,
-        \u0432\u0437\u0434\u043E\u0445\u043D\u0443\u0432, \u043F\u0440\u043E\u0434\u043E\u043B\u0436\u0430\u0435\u0442
-        \u0441\u0432\u043E\u0439 \u0440\u0430\u0441\u0441\u043A\u0430\u0437"
-      - 
-      - 
+      - "\u042D\u0442\u0430 \u0432\u0435\u0442\u043A\u0430 \u043F\u043E\u043A\u0430
+        \u0447\u0442\u043E \u043D\u0435\u0434\u043E\u0441\u0442\u0443\u043F\u043D\u0430
+        \u0432 \u0414\u0415\u041C\u041E \u0432\u0435\u0440\u0441\u0438\u0438\n\n\u041F\u043E\u0436\u0430\u043B\u0443\u0439\u0441\u0442\u0430
+        \u0432\u044B\u0431\u0435\u0440\u0438\u0442\u0435 \u043F\u0440\u0430\u0432\u0443\u044E
+        \u043A\u0430\u0440\u0442\u0443"
+      - "\u536B\u5175\u4E0D\u60A6\u5730\u770B\u7740\u4F60\uFF0C\u4F46\u56FD\u738B\u53F9\u4E86\u53E3\u6C14\uFF0C\u7EE7\u7EED\u4ED6\u7684\u6545\u4E8B"
+      - "\u0410\u0445\u043E\u0432\u0430 \u043A\u0456\u0434\u0430\u0435 \u043D\u0430
+        \u0432\u0430\u0441 \u043D\u0435\u0437\u0430\u0434\u0430\u0432\u0430\u043B\u044C\u043D\u044F\u044E\u0447\u044B\u044F
+        \u043F\u043E\u0433\u043B\u044F\u0434\u044B, \u0430\u043B\u0435 \u043A\u0430\u0440\u043E\u043B\u044C,
+        \u0443\u0437\u0434\u044B\u0445\u043D\u0443\u045E\u0448\u044B, \u043F\u0440\u0430\u0446\u044F\u0433\u0432\u0430\u0435
+        \u0441\u0432\u043E\u0439 \u0430\u043F\u043E\u0432\u044F\u0434."
       - 
       - 
       - 
@@ -1200,8 +1536,8 @@ MonoBehaviour:
       Languages:
       - Continue listening
       - "\u041F\u0440\u043E\u0434\u043E\u043B\u0436\u0438\u0442\u044C \u0441\u043B\u0443\u0448\u0430\u0442\u044C"
-      - 
-      - 
+      - "\u7EE7\u7EED\u6536\u542C"
+      - "\u041F\u0440\u0430\u0446\u044F\u0433\u043D\u0443\u0446\u044C \u0441\u043B\u0443\u0445\u0430\u0446\u044C"
       - 
       - 
       - 
@@ -1220,8 +1556,10 @@ MonoBehaviour:
       - "\u0412\u044B \u0431\u0435\u0437 \u044D\u043D\u0442\u0443\u0437\u0438\u0430\u0437\u043C\u0430
         \u043F\u0440\u043E\u0434\u043E\u043B\u0436\u0430\u0435\u0442\u0435 \u0441\u043B\u0443\u0448\u0430\u0442\u044C
         \u0438\u0441\u0442\u043E\u0440\u0438\u044E \u043A\u043E\u0440\u043E\u043B\u044F"
-      - 
-      - 
+      - "\u4F60\u7EE7\u7EED\u542C\u56FD\u738B\u7684\u6545\u4E8B\u6CA1\u6709\u70ED\u60C5"
+      - "\u0412\u044B \u0431\u0435\u0437 \u044D\u043D\u0442\u0443\u0437\u0456\u044F\u0437\u043C\u0443
+        \u043F\u0440\u0430\u0446\u044F\u0433\u0432\u0430\u0435\u0446\u0435 \u0441\u043B\u0443\u0445\u0430\u0446\u044C
+        \u0433\u0456\u0441\u0442\u043E\u0440\u044B\u044E \u043A\u0430\u0440\u0430\u043B\u044F"
       - 
       - 
       - 
@@ -1248,8 +1586,13 @@ MonoBehaviour:
         \u0441 \u0433\u043E\u0440\u0435\u0447\u044C\u044E \u043F\u043E\u0432\u0435\u0434\u0430\u043B
         \u043E \u0442\u043E\u043C,\n\u043A\u0430\u043A \u0434\u0440\u0430\u043A\u043E\u043D
         \u043F\u043E\u0445\u0438\u0442\u0438\u043B \u0435\u0433\u043E \u043F\u0440\u0438\u043D\u0446\u0435\u0441\u0441\u0443"
-      - 
-      - 
+      - "\u4F60\u6765\u5230\u57CE\u5821\u7684\u4F24\u5FC3\u6B32\u7EDD\u7684\u56FD\u738B,\n\u8C01\u6068\u6068\u5730\u544A\u8BC9\n\u9F99\u5982\u4F55\u7ED1\u67B6\u4ED6\u7684\u516C\u4E3B"
+      - "\u0412\u044B \u043F\u0440\u044B\u0439\u0448\u043B\u0456 \u045E \u0437\u0430\u043C\u0430\u043A
+        \u0434\u0430 \u043D\u044F\u045E\u0446\u0435\u0448\u043D\u0430\u043C\u0443
+        \u043A\u0430\u0440\u0430\u043B\u044E,\n\u044F\u043A\u0456 \u0437 \u0433\u043E\u0440\u044B\u0447\u0447\u0443
+        \u0440\u0430\u0441\u043F\u0430\u0432\u0451\u045E \u043F\u0440\u0430 \u0442\u043E\u0435,\n\u044F\u043A
+        \u0446\u043C\u043E\u043A \u0432\u044B\u043A\u0440\u0430\u045E \u044F\u0433\u043E
+        \u043F\u0440\u044B\u043D\u0446\u044D\u0441\u0443"
       - 
       - 
       - 
@@ -1267,8 +1610,9 @@ MonoBehaviour:
       - To ask, what does this have to do with you?
       - "\u0421\u043F\u0440\u043E\u0441\u0438\u0442\u044C \u043F\u0440\u0438\u0447\u0435\u043C
         \u0437\u0434\u0435\u0441\u044C \u0432\u044B?"
-      - 
-      - 
+      - "\u8981\u95EE\uFF0C\u8FD9\u8DDF\u4F60\u6709\u4EC0\u4E48\u5173\u7CFB\uFF1F"
+      - "\u0417\u0430\u043F\u044B\u0442\u0430\u0446\u0446\u0430, \u044F\u043A\u043E\u0435
+        \u0434\u0430 \u0432\u0430\u0441 \u0434\u0430\u0447\u044B\u043D\u0435\u043D\u043D\u0435?"
       - 
       - 
       - 
@@ -1290,8 +1634,12 @@ MonoBehaviour:
         \u0432\u0437\u0433\u043B\u044F\u0434\u044B, \u043D\u043E \u043A\u043E\u0440\u043E\u043B\u044C,
         \u0432\u0437\u0434\u043E\u0445\u043D\u0443\u0432, \u043F\u0440\u043E\u0434\u043E\u043B\u0436\u0430\u0435\u0442
         \u0441\u0432\u043E\u0439 \u0440\u0430\u0441\u0441\u043A\u0430\u0437"
-      - 
-      - 
+      - "\u536B\u5175\u4E0D\u60A6\u5730\u770B\u7740\u4F60\uFF0C\u4F46\u56FD\u738B\u53F9\u4E86\u53E3\u6C14\uFF0C\u7EE7\u7EED\u4ED6\u7684\u6545\u4E8B"
+      - "\u0412\u0430\u0440\u0442\u0430 \u043A\u0456\u0434\u0430\u0435 \u043D\u0430
+        \u0432\u0430\u0441 \u043D\u0435\u0437\u0430\u0434\u0430\u0432\u043E\u043B\u0435\u043D\u044B\u044F
+        \u043F\u043E\u0433\u043B\u044F\u0434\u044B, \u0430\u043B\u0435 \u043A\u0430\u0440\u043E\u043B\u044C,
+        \u0443\u0437\u0434\u044B\u0445\u043D\u0443\u045E\u0448\u044B, \u043F\u0440\u0430\u0446\u044F\u0433\u0432\u0430\u0435
+        \u0441\u0432\u043E\u0439 \u0430\u043F\u043E\u0432\u044F\u0434"
       - 
       - 
       - 
@@ -1308,8 +1656,8 @@ MonoBehaviour:
       Languages:
       - Continue listening
       - "\u041F\u0440\u043E\u0434\u043E\u043B\u0436\u0438\u0442\u044C \u0441\u043B\u0443\u0448\u0430\u0442\u044C"
-      - 
-      - 
+      - "\u7EE7\u7EED\u6536\u542C"
+      - "\u041F\u0440\u0430\u0446\u044F\u0433\u043D\u0443\u0446\u044C \u0441\u043B\u0443\u0445\u0430\u0446\u044C"
       - 
       - 
       - 
@@ -1328,8 +1676,10 @@ MonoBehaviour:
       - "\u0412\u044B \u0431\u0435\u0437 \u044D\u043D\u0442\u0443\u0437\u0438\u0430\u0437\u043C\u0430
         \u043F\u0440\u043E\u0434\u043E\u043B\u0436\u0430\u0435\u0442\u0435 \u0441\u043B\u0443\u0448\u0430\u0442\u044C
         \u0438\u0441\u0442\u043E\u0440\u0438\u044E \u043A\u043E\u0440\u043E\u043B\u044F"
-      - 
-      - 
+      - "\u4F60\u7EE7\u7EED\u542C\u56FD\u738B\u7684\u6545\u4E8B\u6CA1\u6709\u70ED\u60C5"
+      - "\u0412\u044B \u0431\u0435\u0437 \u044D\u043D\u0442\u0443\u0437\u0456\u044F\u0437\u043C\u0443
+        \u043F\u0440\u0430\u0446\u044F\u0433\u0432\u0430\u0435\u0446\u0435 \u0441\u043B\u0443\u0445\u0430\u0446\u044C
+        \u0433\u0456\u0441\u0442\u043E\u0440\u044B\u044E \u043A\u0430\u0440\u0430\u043B\u044F"
       - 
       - 
       - 
@@ -1355,8 +1705,13 @@ MonoBehaviour:
         \u043D\u0438\u043A\u0442\u043E \u0442\u0430\u043A \u0438 \u043D\u0435 \u0432\u0435\u0440\u043D\u0443\u043B\u0441\u044F
         \u0438 \u0442\u0435\u043F\u0435\u0440\u044C\n\n\u043E\u043D \u043F\u0440\u0438\u043A\u0430\u0437\u044B\u0432\u0430\u0435\u0442
         \u0432\u0430\u043C \u0441\u043F\u0430\u0441\u0442\u0438 \u043F\u0440\u0438\u043D\u0446\u0435\u0441\u0441\u0443"
-      - 
-      - 
+      - "\u4ED6\u6D3E\u51FA\u4E86\u4ED6\u6700\u597D\u7684\u9A91\u58EB,\n\n\u4F46\u6CA1\u6709\u4EBA\u56DE\u6765\u4E86\uFF0C\u73B0\u5728\n\n\u4ED6\u547D\u4EE4\u4F60\u53BB\u6551\u516C\u4E3B"
+      - "\u0401\u043D \u043F\u0430\u0441\u044B\u043B\u0430\u045E \u0441\u0430\u043C\u044B\u0445
+        \u043B\u0435\u043F\u0448\u044B\u0445 \u0441\u0432\u0430\u0456\u0445 \u0440\u044B\u0446\u0430\u0440\u0430\u045E,\n\n\u0430\u043B\u0435
+        \u043D\u0456\u0445\u0442\u043E \u0442\u0430\u043A \u0456 \u043D\u0435 \u0432\u044F\u0440\u043D\u0443\u045E\u0441\u044F
+        \u0456 \u0446\u044F\u043F\u0435\u0440\n\n\u0451\u043D \u0437\u0430\u0433\u0430\u0434\u0432\u0430\u0435
+        \u0432\u0430\u043C \u0432\u044B\u0440\u0430\u0442\u0430\u0432\u0430\u0446\u044C
+        \u043F\u0440\u044B\u043D\u0446\u044D\u0441\u0443"
       - 
       - 
       - 
@@ -1373,8 +1728,8 @@ MonoBehaviour:
       Languages:
       - Refuse
       - "\u041E\u0442\u043A\u0430\u0437\u0430\u0442\u044C\u0441\u044F"
-      - 
-      - 
+      - "\u62D2\u7EDD"
+      - "\u0410\u0434\u043C\u043E\u0432\u0456\u0446\u0446\u0430"
       - 
       - 
       - 
@@ -1393,8 +1748,10 @@ MonoBehaviour:
       - "\u0412\u044B \u043E\u0442\u0432\u0435\u0447\u0430\u0435\u0442\u0435 \u0447\u0442\u043E
         \u0443 \u0432\u0430\u0441 \u043D\u0435\u0442 \u043D\u0430\u0441\u0442\u0440\u043E\u0435\u043D\u0438\u044F
         \u0434\u043B\u044F \u043F\u043E\u0434\u0432\u0438\u0433\u043E\u0432"
-      - 
-      - 
+      - "\u4F60\u56DE\u7B54\u8BF4\u4F60\u6CA1\u6709\u5FC3\u60C5\u8FDB\u884C\u653B\u51FB"
+      - "\u0412\u044B \u0430\u0434\u043A\u0430\u0437\u0432\u0430\u0435\u0446\u0435
+        \u0448\u0442\u043E \u045E \u0432\u0430\u0441 \u043D\u044F\u043C\u0430 \u043D\u0430\u0441\u0442\u0440\u043E\u044E
+        \u0434\u043B\u044F \u043F\u043E\u0434\u0437\u0432\u0456\u0433\u0430\u045E"
       - 
       - 
       - 
@@ -1412,8 +1769,9 @@ MonoBehaviour:
       - Agree to save the princess
       - "\u0421\u043E\u0433\u043B\u0430\u0441\u0438\u0442\u044C\u0441\u044F \u0441\u043F\u0430\u0441\u0442\u0438
         \u043F\u0440\u0438\u043D\u0446\u0435\u0441\u0441\u0443"
-      - 
-      - 
+      - "\u540C\u610F\u62EF\u6551\u516C\u4E3B"
+      - "\u041F\u0430\u0433\u0430\u0434\u0437\u0456\u0446\u0446\u0430 \u0432\u044B\u0440\u0430\u0442\u0430\u0432\u0430\u0446\u044C
+        \u043F\u0440\u044B\u043D\u0446\u044D\u0441\u0443"
       - 
       - 
       - 
@@ -1433,8 +1791,11 @@ MonoBehaviour:
         \u0432\u0430\u0448\u0435\u0439 \u0441\u0433\u043E\u0432\u043E\u0440\u0447\u0438\u0432\u043E\u0441\u0442\u044C\u044E,
         \u0438 \u0434\u0430\u0435\u0442 \u0432 \u043F\u043E\u043C\u043E\u0449\u044C
         \u0434\u0432\u0443\u0445 \u0432\u043E\u0438\u043D\u043E\u0432"
-      - 
-      - 
+      - "\u56FD\u738B\u5F88\u9AD8\u5174\u4F60\u7684\u9075\u5B88\uFF0C\u5E76\u7ED9\u4E86\u4E24\u4E2A\u6218\u58EB\u6765\u5E2E\u52A9"
+      - "\u041A\u0430\u0440\u043E\u043B\u044C \u0443\u0437\u0440\u0430\u0434\u0430\u0432\u0430\u043D\u044B
+        \u0432\u0430\u0448\u0430\u0439 \u0437\u0433\u0430\u0432\u043E\u0440\u043B\u0456\u0432\u0430\u0441\u0446\u044E,
+        \u0456 \u0434\u0430\u0435 \u045E \u0434\u0430\u043F\u0430\u043C\u043E\u0433\u0443
+        \u0434\u0432\u0443\u0445 \u0432\u043E\u0456\u043D\u0430\u045E"
       - 
       - 
       - 
@@ -1460,8 +1821,13 @@ MonoBehaviour:
         \u043D\u0438\u043A\u0442\u043E \u0442\u0430\u043A \u0438 \u043D\u0435 \u0432\u0435\u0440\u043D\u0443\u043B\u0441\u044F
         \u0438 \u0442\u0435\u043F\u0435\u0440\u044C\n\u043E\u043D \u043F\u0440\u043E\u0441\u0438\u0442
         \u0432\u0430\u0441 \u0441\u043F\u0430\u0441\u0442\u0438 \u043F\u0440\u0438\u043D\u0446\u0435\u0441\u0441\u0443"
-      - 
-      - 
+      - "\u4ED6\u6D3E\u51FA\u4E86\u4ED6\u6700\u597D\u7684\u9A91\u58EB,\n\u4F46\u73B0\u5728\u6CA1\u6709\u4EBA\u56DE\u6765\n\u4ED6\u8981\u4F60\u53BB\u6551\u516C\u4E3B"
+      - "\u0401\u043D \u043F\u0430\u0441\u044B\u043B\u0430\u045E \u0441\u0430\u043C\u044B\u0445
+        \u043B\u0435\u043F\u0448\u044B\u0445 \u0441\u0432\u0430\u0456\u0445 \u0440\u044B\u0446\u0430\u0440\u0430\u045E,\n\u0430\u043B\u0435
+        \u043D\u0456\u0445\u0442\u043E \u0442\u0430\u043A \u0456 \u043D\u0435 \u0432\u044F\u0440\u043D\u0443\u045E\u0441\u044F
+        \u0456 \u0446\u044F\u043F\u0435\u0440\n\u0451\u043D \u043F\u0440\u043E\u0441\u0456\u0446\u044C
+        \u0432\u0430\u0441 \u0432\u044B\u0440\u0430\u0442\u0430\u0432\u0430\u0446\u044C
+        \u043F\u0440\u044B\u043D\u0446\u044D\u0441\u0443"
       - 
       - 
       - 
@@ -1478,8 +1844,8 @@ MonoBehaviour:
       Languages:
       - Refuse
       - "\u041E\u0442\u043A\u0430\u0437\u0430\u0442\u044C\u0441\u044F"
-      - 
-      - 
+      - "\u62D2\u7EDD"
+      - "\u0410\u0434\u043C\u043E\u0432\u0456\u0446\u0446\u0430"
       - 
       - 
       - 
@@ -1498,8 +1864,10 @@ MonoBehaviour:
       - "\u0412\u044B \u043E\u0442\u0432\u0435\u0447\u0430\u0435\u0442\u0435 \u0447\u0442\u043E
         \u0443 \u0432\u0430\u0441 \u043D\u0435\u0442 \u043D\u0430\u0441\u0442\u0440\u043E\u0435\u043D\u0438\u044F
         \u0434\u043B\u044F \u043F\u043E\u0434\u0432\u0438\u0433\u043E\u0432"
-      - 
-      - 
+      - "\u4F60\u56DE\u7B54\u8BF4\u4F60\u6CA1\u6709\u5FC3\u60C5\u8FDB\u884C\u653B\u51FB"
+      - "\u0412\u044B \u0430\u0434\u043A\u0430\u0437\u0432\u0430\u0435\u0446\u0435
+        \u0448\u0442\u043E \u045E \u0432\u0430\u0441 \u043D\u044F\u043C\u0430 \u043D\u0430\u0441\u0442\u0440\u043E\u044E
+        \u0434\u043B\u044F \u043F\u043E\u0434\u0437\u0432\u0456\u0433\u0430\u045E"
       - 
       - 
       - 
@@ -1517,8 +1885,9 @@ MonoBehaviour:
       - Agree to save the princess
       - "\u0421\u043E\u0433\u043B\u0430\u0441\u0438\u0442\u044C\u0441\u044F \u0441\u043F\u0430\u0441\u0442\u0438
         \u043F\u0440\u0438\u043D\u0446\u0435\u0441\u0441\u0443"
-      - 
-      - 
+      - "\u540C\u610F\u62EF\u6551\u516C\u4E3B"
+      - "\u041F\u0430\u0433\u0430\u0434\u0437\u0456\u0446\u0446\u0430 \u0432\u044B\u0440\u0430\u0442\u0430\u0432\u0430\u0446\u044C
+        \u043F\u0440\u044B\u043D\u0446\u044D\u0441\u0443"
       - 
       - 
       - 
@@ -1538,8 +1907,11 @@ MonoBehaviour:
         \u0432\u0430\u0448\u0435\u0439 \u0441\u0433\u043E\u0432\u043E\u0440\u0447\u0438\u0432\u043E\u0441\u0442\u044C\u044E
         \u0438 \u0434\u0430\u0440\u0443\u0435\u0442 \u0432\u0430\u043C \u0444\u0430\u043C\u0438\u043B\u044C\u043D\u044B\u0439
         \u043C\u0435\u0447"
-      - 
-      - 
+      - "\u56FD\u738B\u5BF9\u4F60\u7684\u987A\u4ECE\u611F\u5230\u9AD8\u5174\uFF0C\u5E76\u6388\u4E88\u4F60\u5BB6\u65CF\u7684\u5251"
+      - "\u041A\u0430\u0440\u043E\u043B\u044C \u0443\u0437\u0440\u0430\u0434\u0430\u0432\u0430\u043D\u044B
+        \u0432\u0430\u0448\u0430\u0439 \u0437\u0433\u0430\u0432\u043E\u0440\u043B\u0456\u0432\u0430\u0441\u0446\u044E
+        \u0456 \u0434\u0430\u0440\u0443\u0435 \u0432\u0430\u043C \u0444\u0430\u043C\u0456\u043B\u044C\u043D\u044B
+        \u043C\u0435\u0447"
       - 
       - 
       - 
@@ -1556,8 +1928,8 @@ MonoBehaviour:
       Languages:
       - You were thrown into a dungeon
       - "\u0412\u0430\u0441 \u0431\u0440\u043E\u0441\u0438\u043B\u0438 \u0432 \u0442\u0435\u043C\u043D\u0438\u0446\u0443"
-      - 
-      - 
+      - "\u4F60\u88AB\u6254\u8FDB\u4E86\u5730\u7262"
+      - "\u0412\u0430\u0441 \u043A\u0456\u043D\u0443\u043B\u0456 \u045E \u0432\u044F\u0437\u043D\u0456\u0446\u0443"
       - 
       - 
       - 
@@ -1574,8 +1946,8 @@ MonoBehaviour:
       Languages:
       - Further
       - "\u0414\u0430\u043B\u0435\u0435"
-      - 
-      - 
+      - "\u8FDB\u4E00\u6B65"
+      - "\u0414\u0430\u043B\u0435\u0439"
       - 
       - 
       - 
@@ -1592,10 +1964,16 @@ MonoBehaviour:
       Languages:
       - There will be a separate full-fledged branch, sorry, but it is not available
         in the demo version
-      - There will be a separate full-fledged branch, sorry, but it is not available
-        in the demo version
-      - 
-      - 
+      - "\u0422\u0443\u0442 \u0431\u0443\u0434\u0435\u0442 \u043E\u0442\u0434\u0435\u043B\u044C\u043D\u0430\u044F
+        \u043F\u043E\u043B\u043D\u043E\u0446\u0435\u043D\u043D\u0430\u044F \u0432\u0435\u0442\u043A\u0430,
+        \u0438\u0437\u0432\u0438\u043D\u0438\u0442\u0435, \u043D\u043E \u043E\u043D\u0430
+        \u043D\u0435\u0434\u043E\u0441\u0442\u0443\u043F\u043D\u0430 \u0432 \u0434\u0435\u043C\u043E-\u0432\u0435\u0440\u0441\u0438\u0438"
+      - "\u4F1A\u6709\u4E00\u4E2A\u5355\u72EC\u7684\u5B8C\u6574\u5206\u652F\uFF0C\u5BF9\u4E0D\u8D77\uFF0C\u4F46\u5B83\u5728\u6F14\u793A\u7248\u672C\u4E2D\u4E0D\u53EF\u7528"
+      - "\u0422\u0430\u043C \u0431\u0443\u0434\u0437\u0435 \u0430\u0441\u043E\u0431\u043D\u0430\u044F
+        \u043F\u0430\u045E\u043D\u0430\u0432\u0430\u0440\u0442\u0430\u0441\u043D\u0430\u044F
+        \u0433\u0430\u043B\u0456\u043D\u043A\u0430, \u043F\u0440\u0430\u0431\u0430\u0447\u0446\u0435,
+        \u0430\u043B\u0435 \u044F\u043D\u0430 \u043D\u0435\u0434\u0430\u0441\u0442\u0443\u043F\u043D\u0430\u044F
+        \u045E \u0434\u044D\u043C\u0430-\u0432\u0435\u0440\u0441\u0456\u0456"
       - 
       - 
       - 
@@ -1612,8 +1990,8 @@ MonoBehaviour:
       Languages:
       - Further
       - "\u0414\u0430\u043B\u0435\u0435"
-      - 
-      - 
+      - "\u8FDB\u4E00\u6B65"
+      - "\u0414\u0430\u043B\u0435\u0439"
       - 
       - 
       - 
@@ -1630,10 +2008,16 @@ MonoBehaviour:
       Languages:
       - There will be a separate full-fledged branch, sorry, but it is not available
         in the demo version
-      - There will be a separate full-fledged branch, sorry, but it is not available
-        in the demo version
-      - 
-      - 
+      - "\u0422\u0443\u0442 \u0431\u0443\u0434\u0435\u0442 \u043E\u0442\u0434\u0435\u043B\u044C\u043D\u0430\u044F
+        \u043F\u043E\u043B\u043D\u043E\u0446\u0435\u043D\u043D\u0430\u044F \u0432\u0435\u0442\u043A\u0430,
+        \u0438\u0437\u0432\u0438\u043D\u0438\u0442\u0435, \u043D\u043E \u043E\u043D\u0430
+        \u043D\u0435\u0434\u043E\u0441\u0442\u0443\u043F\u043D\u0430 \u0432 \u0434\u0435\u043C\u043E-\u0432\u0435\u0440\u0441\u0438\u0438"
+      - "\u4F1A\u6709\u4E00\u4E2A\u5355\u72EC\u7684\u5B8C\u6574\u5206\u652F\uFF0C\u5BF9\u4E0D\u8D77\uFF0C\u4F46\u5B83\u5728\u6F14\u793A\u7248\u672C\u4E2D\u4E0D\u53EF\u7528"
+      - "\u0422\u0430\u043C \u0431\u0443\u0434\u0437\u0435 \u0430\u0441\u043E\u0431\u043D\u0430\u044F
+        \u043F\u0430\u045E\u043D\u0430\u0432\u0430\u0440\u0442\u0430\u0441\u043D\u0430\u044F
+        \u0433\u0430\u043B\u0456\u043D\u043A\u0430, \u043F\u0440\u0430\u0431\u0430\u0447\u0446\u0435,
+        \u0430\u043B\u0435 \u044F\u043D\u0430 \u043D\u0435\u0434\u0430\u0441\u0442\u0443\u043F\u043D\u0430\u044F
+        \u045E \u0434\u044D\u043C\u0430-\u0432\u0435\u0440\u0441\u0456\u0456"
       - 
       - 
       - 
@@ -1651,8 +2035,9 @@ MonoBehaviour:
       - The King is counting on you very much
       - "\u041A\u043E\u0440\u043E\u043B\u044C \u043E\u0447\u0435\u043D\u044C \u0440\u0430\u0441\u0441\u0447\u0438\u0442\u044B\u0432\u0430\u0435\u0442
         \u043D\u0430 \u0432\u0430\u0441"
-      - 
-      - 
+      - "\u56FD\u738B\u975E\u5E38\u6307\u671B\u4F60"
+      - "\u041A\u0430\u0440\u043E\u043B\u044C \u0432\u0435\u043B\u044C\u043C\u0456
+        \u0440\u0430\u0437\u043B\u0456\u0447\u0432\u0430\u0435 \u043D\u0430 \u0432\u0430\u0441"
       - 
       - 
       - 
@@ -1670,8 +2055,8 @@ MonoBehaviour:
       - Set off immediately
       - "\u041E\u0442\u043F\u0440\u0430\u0432\u0438\u0442\u044C\u0441\u044F \u0432
         \u043F\u0443\u0442\u044C \u043D\u0435\u0437\u0430\u043C\u0435\u0434\u043B\u0438\u0442\u0435\u043B\u044C\u043D\u043E"
-      - 
-      - 
+      - "\u9A6C\u4E0A\u51FA\u53D1"
+      - "\u0415\u0445\u0430\u0446\u044C \u0430\u0434\u0440\u0430\u0437\u0443"
       - 
       - 
       - 
@@ -1690,8 +2075,10 @@ MonoBehaviour:
       - "\u0412\u0430\u043C \u0431\u043E\u043B\u044C\u0448\u0435 \u043D\u0438\u0447\u0435\u0433\u043E
         \u043D\u0435 \u043D\u0443\u0436\u043D\u043E \u0438 \u0432\u044B \u043E\u0442\u043F\u0440\u0430\u0432\u043B\u044F\u0435\u0442\u0435\u0441\u044C
         \u0432 \u043F\u0443\u0442\u044C"
-      - 
-      - 
+      - "\u4F60\u4E0D\u9700\u8981\u4EFB\u4F55\u4E1C\u897F\uFF0C\u4F60\u5C31\u5728\u8DEF\u4E0A\u4E86\u3002"
+      - "\u0412\u0430\u043C \u0431\u043E\u043B\u044C\u0448 \u043D\u0456\u0447\u043E\u0433\u0430
+        \u043D\u0435 \u0442\u0440\u044D\u0431\u0430 \u0456 \u0432\u044B \u0430\u0434\u043F\u0440\u0430\u045E\u043B\u044F\u0435\u0446\u0435\u0441\u044F
+        \u045E \u0448\u043B\u044F\u0445"
       - 
       - 
       - 
@@ -1709,8 +2096,9 @@ MonoBehaviour:
       - Run home to get some things
       - "\u0417\u0430\u0431\u0435\u0436\u0430\u0442\u044C \u0434\u043E\u043C\u043E\u0439
         \u0437\u0430 \u0432\u0435\u0449\u0438\u0447\u043A\u0430\u043C\u0438"
-      - 
-      - 
+      - "\u8DD1\u56DE\u5BB6\u62FF\u70B9\u4E1C\u897F"
+      - "\u0417\u0430\u0431\u0435\u0433\u0447\u044B \u0434\u0430\u0434\u043E\u043C\u0443
+        \u0437\u0430 \u0448\u0442\u0443\u0447\u043A\u0430\u043C\u0456"
       - 
       - 
       - 
@@ -1729,8 +2117,10 @@ MonoBehaviour:
       - "\u0412\u0430\u043C \u043D\u0443\u0436\u043D\u043E \u0437\u0430\u0439\u0442\u0438
         \u0434\u043E\u043C\u043E\u0439 \u0437\u0430 \u043D\u0435\u043E\u0431\u0445\u043E\u0434\u0438\u043C\u044B\u043C\u0438
         \u0432\u0435\u0449\u0430\u043C\u0438"
-      - 
-      - 
+      - "\u4F60\u9700\u8981\u56DE\u5BB6\u62FF\u5FC5\u8981\u7684\u4E1C\u897F"
+      - "\u0412\u0430\u043C \u0442\u0440\u044D\u0431\u0430 \u0437\u0430\u0439\u0441\u0446\u0456
+        \u0434\u0430\u0434\u043E\u043C\u0443 \u043F\u0430 \u043D\u0435\u0430\u0431\u0445\u043E\u0434\u043D\u044B\u044F
+        \u0440\u044D\u0447\u044B"
       - 
       - 
       - 
@@ -1754,8 +2144,14 @@ MonoBehaviour:
         \u0437\u0430\u0439\u0442\u0438 \u0432\u043E \u0434\u0432\u043E\u0440, \u0430
         \u0432\u0440\u0435\u043C\u0435\u043D\u0438 \u043E\u0447\u0435\u043D\u044C
         \u043C\u0430\u043B\u043E"
-      - 
-      - 
+      - "\u56FD\u738B\u63D0\u4F9B\u4E86\u4ED6\u7684\u4E24\u4E2A\u6218\u58EB\u548C\u9A6C\u5339\u6765\u5E2E\u52A9\uFF0C\u4F46\u662F\u4F60\u9700\u8981\u4E3A\u4ED6\u4EEC\u8FDB\u5165\u9662\u5B50\uFF0C\u800C\u4E14\u65F6\u95F4\u5F88\u5C11"
+      - "\u041A\u0430\u0440\u043E\u043B\u044C \u043F\u0440\u0430\u043F\u0430\u043D\u0443\u0435
+        \u045E \u0434\u0430\u043F\u0430\u043C\u043E\u0433\u0443 \u0434\u0432\u0443\u0445
+        \u0441\u0432\u0430\u0456\u0445 \u0432\u043E\u0456\u043D\u0430\u045E \u0456
+        \u043A\u043E\u043D\u0435\u0439, \u0430\u043B\u0435 \u0437\u0430 \u0456\u043C\u0456
+        \u0442\u0440\u044D\u0431\u0430 \u0437\u0430\u0439\u0441\u0446\u0456 \u045E
+        \u0434\u0432\u043E\u0440, \u0430 \u0447\u0430\u0441\u0443 \u0432\u0435\u043B\u044C\u043C\u0456
+        \u043C\u0430\u043B\u0430"
       - 
       - 
       - 
@@ -1770,10 +2166,15 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - Go to the yard
-      - "\u0418\u0434\u0442\u0438 \u0432\u043E \u0434\u0432\u043E\u0440"
-      - 
-      - 
+      - Head out alone, but first swing by home to grab a few things.
+      - "\u041E\u0442\u043F\u0440\u0430\u0432\u0438\u0442\u044C\u0441\u044F \u0432
+        \u043E\u0434\u0438\u043D\u043E\u0447\u043A\u0443, \u043D\u043E \u0441\u043D\u0430\u0447\u0430\u043B\u0430
+        \u0437\u0430\u0431\u0435\u0436\u0430\u0442\u044C \u0434\u043E\u043C\u043E\u0439
+        \u0437\u0430 \u0432\u0435\u0449\u0438\u0447\u043A\u0430\u043C\u0438."
+      - "\u4E00\u4E2A\u4EBA\u53BB\uFF0C\u4F46\u9996\u5148\u8DD1\u56DE\u5BB6\u62FF\u4E00\u4E9B\u4E1C\u897F\u3002"
+      - "\u0410\u0434\u043F\u0440\u0430\u0432\u0456\u0446\u0446\u0430 \u045E \u0430\u0434\u0437\u0456\u043D\u043E\u0447\u043A\u0443,
+        \u0430\u043B\u0435 \u0441\u043F\u0430\u0447\u0430\u0442\u043A\u0443 \u0437\u0430\u0431\u0435\u0433\u0447\u044B
+        \u0434\u0430\u0434\u043E\u043C\u0443 \u0437\u0430 \u0448\u0442\u0443\u0447\u043A\u0430\u043C\u0456."
       - 
       - 
       - 
@@ -1788,11 +2189,16 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - Help and horses won't hurt
-      - "\u041F\u043E\u0434\u043C\u043E\u0433\u0430 \u0438 \u043A\u043E\u043D\u0438
-        \u043D\u0435 \u043F\u043E\u043C\u0435\u0448\u0430\u044E\u0442"
-      - 
-      - 
+      - You need to go home to gather the necessary items.
+      - "\u042D\u0442\u0430 \u0432\u0435\u0442\u043A\u0430 \u043F\u043E\u043A\u0430
+        \u0447\u0442\u043E \u043D\u0435\u0434\u043E\u0441\u0442\u0443\u043F\u043D\u0430
+        \u0432 \u0414\u0415\u041C\u041E \u0432\u0435\u0440\u0441\u0438\u0438\n\n\u041F\u043E\u0436\u0430\u043B\u0443\u0439\u0441\u0442\u0430
+        \u0432\u044B\u0431\u0435\u0440\u0438\u0442\u0435 \u043F\u0440\u0430\u0432\u0443\u044E
+        \u043A\u0430\u0440\u0442\u0443"
+      - "\u4F60\u9700\u8981\u56DE\u5BB6\u62FF\u5FC5\u8981\u7684\u4E1C\u897F"
+      - "\u0412\u0430\u043C \u0442\u0440\u044D\u0431\u0430 \u0437\u0430\u0439\u0441\u0446\u0456
+        \u0434\u0430\u0434\u043E\u043C\u0443 \u043F\u0430 \u043D\u0435\u0430\u0431\u0445\u043E\u0434\u043D\u044B\u044F
+        \u0440\u044D\u0447\u044B"
       - 
       - 
       - 
@@ -1807,11 +2213,12 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - Go home to get some things
-      - "\u0417\u0430\u0431\u0435\u0436\u0430\u0442\u044C \u0434\u043E\u043C\u043E\u0439
-        \u0437\u0430 \u0432\u0435\u0449\u0438\u0447\u043A\u0430\u043C\u0438"
-      - 
-      - 
+      - Go to the barracks for reinforcements.
+      - "\u0418\u0434\u0442\u0438 \u0432 \u043A\u0430\u0437\u0430\u0440\u043C\u0443
+        \u0437\u0430 \u043F\u043E\u0434\u043C\u043E\u0433\u043E\u0439"
+      - "\u53BB\u5175\u8425\u5BFB\u6C42\u5E2E\u52A9"
+      - "\u0406\u0441\u0446\u0456 \u045E \u043A\u0430\u0437\u0430\u0440\u043C\u0443
+        \u0437\u0430 \u043F\u0430\u0434\u043C\u043E\u0433\u0430\u0439"
       - 
       - 
       - 
@@ -1826,34 +2233,15 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - You need to go home to get the necessary things
-      - "\u0412\u0430\u043C \u043D\u0443\u0436\u043D\u043E \u0437\u0430\u0439\u0442\u0438
-        \u0434\u043E\u043C\u043E\u0439 \u0437\u0430 \u043D\u0435\u043E\u0431\u0445\u043E\u0434\u0438\u043C\u044B\u043C\u0438
-        \u0432\u0435\u0449\u0430\u043C\u0438"
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      Flags: 000000000000000000000000
-      Languages_Touch: []
-    - Term: 9_DVOR_bunner
-      TermType: 0
-      Description: 
-      Languages:
-      - There are several buildings in the courtyard, but you are interested in the
-        stable and barracks
-      - "\u0412\u043E \u0434\u0432\u043E\u0440\u0435 \u043D\u0435\u0441\u043A\u043E\u043B\u044C\u043A\u043E
-        \u0441\u0442\u0440\u043E\u0435\u043D\u0438\u0439, \u043D\u043E \u0432\u0430\u0441
-        \u0438\u043D\u0442\u0435\u0440\u0435\u0441\u0443\u044E\u0442 \u043A\u043E\u043D\u044E\u0448\u043D\u044F
-        \u0438 \u043A\u0430\u0437\u0430\u0440\u043C\u0430"
-      - 
-      - 
+      - On your way to the barracks, you stop by the stable and take some horses.
+      - "\u041F\u043E \u043F\u0443\u0442\u0438 \u0432 \u043A\u0430\u0437\u0430\u0440\u043C\u0443
+        \u0432\u044B \u0437\u0430\u0445\u043E\u0434\u0438\u0442\u0435 \u0432 \u043A\u043E\u043D\u044E\u0448\u043D\u044E
+        \u0438 \u0431\u0435\u0440\u0435\u0442\u0435 \u043A\u043E\u043D\u0435\u0439"
+      - "\u5728\u53BB\u519B\u8425\u7684\u8DEF\u4E0A\uFF0C\u4F60\u8D70\u8FDB\u9A6C\u53A9\uFF0C\u5E26\u4E0A\u9A6C"
+      - "\u041F\u0430 \u0448\u043B\u044F\u0445\u0443 \u045E \u043A\u0430\u0437\u0430\u0440\u043C\u0443
+        \u0432\u044B \u0437\u0430\u0445\u043E\u0434\u0437\u0456\u0446\u0435 \u045E
+        \u0441\u0442\u0430\u0439\u043D\u044E \u0456 \u0431\u0435\u0440\u0430\u0446\u0435
+        \u043A\u043E\u043D\u0435\u0439"
       - 
       - 
       - 
@@ -1864,81 +2252,7 @@ MonoBehaviour:
       - 
       Flags: 000000000000000000000000
       Languages_Touch: []
-    - Term: 9_DVOR_cardLeft
-      TermType: 0
-      Description: 
-      Languages:
-      - Go to the stable
-      - "\u0418\u0434\u0442\u0438 \u0432 \u043A\u043E\u043D\u044E\u0448\u043D\u044E"
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      Flags: 000000000000000000000000
-      Languages_Touch: []
-    - Term: 9_DVOR_cardLeft_REV
-      TermType: 0
-      Description: 
-      Languages:
-      - First, let's look at the horses
-      - "\u0414\u043B\u044F \u043D\u0430\u0447\u0430\u043B\u0430 \u0433\u043B\u044F\u043D\u0435\u043C
-        \u043D\u0430 \u043A\u043E\u043D\u0435\u0439"
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      Flags: 000000000000000000000000
-      Languages_Touch: []
-    - Term: 9_DVOR_cardRight
-      TermType: 0
-      Description: 
-      Languages:
-      - Go to the barracks
-      - "\u0418\u0434\u0442\u0438 \u0432 \u043A\u0430\u0437\u0430\u0440\u043C\u0443"
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      Flags: 000000000000000000000000
-      Languages_Touch: []
-    - Term: 9_DVOR_cardRight_REV
-      TermType: 0
-      Description: 
-      Languages:
-      - First, let's look at the assistants
-      - "\u0421\u043D\u0430\u0447\u0430\u043B\u0430 \u0433\u043B\u044F\u043D\u0435\u043C
-        \u043D\u0430 \u043F\u043E\u0434\u043C\u043E\u0433\u0443"
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      Flags: 000000000000000000000000
-      Languages_Touch: []
-    - Term: 10_GUARDS_bunner
+    - Term: 9_GUARDS_bunner
       TermType: 0
       Description: 
       Languages:
@@ -1946,8 +2260,10 @@ MonoBehaviour:
       - "\u0412\u044B \u0437\u0430\u0445\u043E\u0434\u0438\u0442\u0435 \u0432 \u043A\u0430\u0437\u0430\u0440\u043C\u0443,
         \u043A\u043E\u0433\u043E \u0432\u043E\u0437\u044C\u043C\u0435\u0442\u0435
         \u0441\u0435\u0431\u0435 \u0432 \u043F\u043E\u0434\u043C\u043E\u0433\u0443?"
-      - 
-      - 
+      - "\u4F60\u8FDB\u5175\u8425\uFF0C\u4F60\u4F1A\u5E26\u8C01\u6765\u5E2E\u4F60\uFF1F"
+      - "\u0412\u044B \u0437\u0430\u0445\u043E\u0434\u0437\u0456\u0446\u0435 \u045E
+        \u043A\u0430\u0437\u0430\u0440\u043C\u0443, \u043A\u0430\u0433\u043E \u0432\u043E\u0437\u044C\u043C\u0435\u0446\u0435
+        \u0441\u0430\u0431\u0435 \u045E \u043F\u0430\u0434\u043C\u043E\u0433\u0443?"
       - 
       - 
       - 
@@ -1958,15 +2274,16 @@ MonoBehaviour:
       - 
       Flags: 000000000000000000000000
       Languages_Touch: []
-    - Term: 10_GUARDS_cardLeft
+    - Term: 9_GUARDS_cardLeft
       TermType: 0
       Description: 
       Languages:
       - Two young but strong guys
       - "\u0414\u0432\u0443\u0445 \u043C\u043E\u043B\u043E\u0434\u044B\u0445, \u043D\u043E
         \u043A\u0440\u0435\u043F\u043A\u0438\u0445 \u0440\u0435\u0431\u044F\u0442"
-      - 
-      - 
+      - "\u4E24\u4E2A\u5E74\u8F7B\u4F46\u5F3A\u58EE\u7684\u5BB6\u4F19"
+      - "\u0414\u0432\u0443\u0445 \u043C\u0430\u043B\u0430\u0434\u044B\u0445, \u0430\u043B\u0435
+        \u043C\u043E\u0446\u043D\u044B\u0445 \u0445\u043B\u043E\u043F\u0446\u0430\u045E"
       - 
       - 
       - 
@@ -1977,7 +2294,7 @@ MonoBehaviour:
       - 
       Flags: 000000000000000000000000
       Languages_Touch: []
-    - Term: 10_GUARDS_cardLeft_REV
+    - Term: 9_GUARDS_cardLeft_REV
       TermType: 0
       Description: 
       Languages:
@@ -1985,8 +2302,10 @@ MonoBehaviour:
       - "\u0412\u044B \u0440\u0435\u0448\u0430\u0435\u0442\u0435 \u0447\u0442\u043E
         \u0441\u0438\u043B\u0430 \u043B\u0438\u0448\u043D\u0435\u0439 \u043D\u0435
         \u0431\u0443\u0434\u0435\u0442"
-      - 
-      - 
+      - "\u4F60\u51B3\u5B9A\u6743\u529B\u4E0D\u4F1A\u662F\u591A\u4F59\u7684"
+      - "\u0412\u044B \u0432\u044B\u0440\u0430\u0448\u0430\u0435\u0446\u0435 \u0448\u0442\u043E
+        \u0441\u0456\u043B\u0430 \u043B\u0456\u0448\u043D\u044F\u0439 \u043D\u0435
+        \u0431\u0443\u0434\u0437\u0435"
       - 
       - 
       - 
@@ -1997,7 +2316,7 @@ MonoBehaviour:
       - 
       Flags: 000000000000000000000000
       Languages_Touch: []
-    - Term: 10_GUARDS_cardRight
+    - Term: 9_GUARDS_cardRight
       TermType: 0
       Description: 
       Languages:
@@ -2006,8 +2325,12 @@ MonoBehaviour:
         \u0438 \u043A\u0440\u0435\u043F\u043A\u043E\u0433\u043E, \u0430 \u0432\u0442\u043E\u0440\u043E\u0433\u043E,
         \u0432 \u043B\u0435\u0442\u0430\u0445 \u043D\u043E \u043C\u0443\u0434\u0440\u043E\u0433\u043E
         \u0438 \u043E\u043F\u044B\u0442\u043D\u043E\u0433\u043E \u0432\u043E\u0439\u043D\u0430"
-      - 
-      - 
+      - "\u4E00\u4E2A\u662F\u5E74\u8F7B\u800C\u5F3A\u58EE\u7684\uFF0C\u53E6\u4E00\u4E2A\u662F\u591A\u5E74\u7684\uFF0C\u4F46\u806A\u660E\u800C\u6709\u7ECF\u9A8C\u3002"
+      - "\u0410\u0434\u043D\u0430\u0433\u043E \u043C\u0430\u043B\u0430\u0434\u043E\u0433\u0430
+        \u0456 \u043C\u043E\u0446\u043D\u0430\u0433\u0430, \u0430 \u0434\u0440\u0443\u0433\u043E\u0433\u0430,
+        \u0443 \u0433\u0430\u0434\u0430\u0445 \u0430\u043B\u0435 \u043C\u0443\u0434\u0440\u0430\u0433\u0430
+        \u0456 \u0434\u0430\u0441\u0432\u0435\u0434\u0447\u0430\u043D\u0430\u0433\u0430
+        \u0432\u0430\u0439\u043D\u0430"
       - 
       - 
       - 
@@ -2018,34 +2341,16 @@ MonoBehaviour:
       - 
       Flags: 000000000000000000000000
       Languages_Touch: []
-    - Term: 10_GUARDS_cardRight_REV
+    - Term: 9_GUARDS_cardRight_REV
       TermType: 0
       Description: 
       Languages:
       - You take an old man and a young man to your team
       - "\u0412\u044B \u0431\u0435\u0440\u0435\u0442\u0435 \u0441\u0442\u0430\u0440\u0438\u043A\u0430
         \u0438 \u044E\u043D\u0446\u0430 \u0441\u0435\u0431\u0435 \u0432 \u043A\u043E\u043C\u0430\u043D\u0434\u0443"
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      Flags: 000000000000000000000000
-      Languages_Touch: []
-    - Term: 10_HORSES_HEALTHY
-      TermType: 0
-      Description: 
-      Languages:
-      - There are 2 breeds of horses in the stable, which ones will you take
-      - "\u0412 \u043A\u043E\u043D\u044E\u0448\u043D\u0435 2 \u043F\u043E\u0440\u043E\u0434\u044B
-        \u043A\u043E\u043D\u0435\u0439, \u043A\u0430\u043A\u0438\u0445 \u0432\u043E\u0437\u044C\u043C\u0435\u0442\u0435"
-      - 
-      - 
+      - "\u4F60\u5E26\u4E00\u4E2A\u8001\u4EBA\u548C\u4E00\u4E2A\u5E74\u8F7B\u4EBA\u53BB\u4F60\u7684\u56E2\u961F"
+      - "\u0412\u044B \u0431\u0435\u0440\u0430\u0446\u0435 \u0441\u0442\u0430\u0440\u043E\u0433\u0430
+        \u0456 \u044E\u043D\u0430\u043A\u0430 \u0441\u0430\u0431\u0435 \u045E \u043A\u0430\u043C\u0430\u043D\u0434\u0443"
       - 
       - 
       - 
@@ -2056,310 +2361,17 @@ MonoBehaviour:
       - 
       Flags: 000000000000000000000000
       Languages_Touch: []
-    - Term: 10_HORSES_HEALTHY_cardLeft
-      TermType: 0
-      Description: 
-      Languages:
-      - Take three black horses
-      - "\u0412\u0437\u044F\u0442\u044C \u0442\u0440\u0435\u0445 \u0432\u043E\u0440\u043E\u043D\u044B\u0445
-        \u043A\u043E\u043D\u0435\u0439"
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      Flags: 000000000000000000000000
-      Languages_Touch: []
-    - Term: 10_HORSES_HEALTHY_cardLeft_REV
-      TermType: 0
-      Description: 
-      Languages:
-      - Take three black horses
-      - "\u0412\u0437\u044F\u0442\u044C \u0442\u0440\u0435\u0445 \u0432\u043E\u0440\u043E\u043D\u044B\u0445
-        \u043A\u043E\u043D\u0435\u0439"
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      Flags: 000000000000000000000000
-      Languages_Touch: []
-    - Term: 10_HORSES_HEALTHY_cardRight
-      TermType: 0
-      Description: 
-      Languages:
-      - Take two black horses and one grey horse
-      - "\u0412\u0437\u044F\u0442\u044C \u0434\u0432\u0443\u0445 \u0432\u043E\u0440\u043E\u043D\u044B\u0445
-        \u0438 \u043E\u0434\u043D\u0443 \u0441\u0435\u0440\u0443\u044E \u043B\u043E\u0448\u0430\u0434\u044C"
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      Flags: 000000000000000000000000
-      Languages_Touch: []
-    - Term: 10_HORSES_HEALTHY_cardRight_REV
-      TermType: 0
-      Description: 
-      Languages:
-      - Take two black horses and one grey horse
-      - "\u0412\u0437\u044F\u0442\u044C \u0434\u0432\u0443\u0445 \u0432\u043E\u0440\u043E\u043D\u044B\u0445
-        \u0438 \u043E\u0434\u043D\u0443 \u0441\u0435\u0440\u0443\u044E \u043B\u043E\u0448\u0430\u0434\u044C"
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      Flags: 000000000000000000000000
-      Languages_Touch: []
-    - Term: 10_HORSES_SAD_bunner
-      TermType: 0
-      Description: 
-      Languages:
-      - There are only 3 horses in the stable, 2 beautiful black horses and one old
-        nag
-      - "\u0412 \u043A\u043E\u043D\u044E\u0448\u043D\u0435 \u0432\u0441\u0435\u0433\u043E
-        3 \u043B\u043E\u0448\u0430\u0434\u0438, 2  \u0432\u043E\u0440\u043E\u043D\u044B\u0445
-        \u043A\u0440\u0430\u0441\u0438\u0432\u044B\u0445 \u0438 \u043E\u0434\u043D\u0430
-        \u0441\u0442\u0430\u0440\u0430\u044F \u043A\u043B\u044F\u0447\u0430"
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      Flags: 000000000000000000000000
-      Languages_Touch: []
-    - Term: 10_HORSES_SAD_cardLeft
-      TermType: 0
-      Description: 
-      Languages:
-      - Take three black horses
-      - "\u0412\u0437\u044F\u0442\u044C \u0442\u0440\u0435\u0445 \u0432\u043E\u0440\u043E\u043D\u044B\u0445
-        \u043A\u043E\u043D\u0435\u0439"
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      Flags: 000000000000000000000000
-      Languages_Touch: []
-    - Term: 10_HORSES_SAD_cardLeft_REV
-      TermType: 0
-      Description: 
-      Languages:
-      - Take three black horses
-      - "\u0412\u0437\u044F\u0442\u044C \u0442\u0440\u0435\u0445 \u0432\u043E\u0440\u043E\u043D\u044B\u0445
-        \u043A\u043E\u043D\u0435\u0439"
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      Flags: 000000000000000000000000
-      Languages_Touch: []
-    - Term: 10_HORSES_SAD_cardRight
-      TermType: 0
-      Description: 
-      Languages:
-      - Take two black horses and one grey horse
-      - "\u0412\u0437\u044F\u0442\u044C \u0434\u0432\u0443\u0445 \u0432\u043E\u0440\u043E\u043D\u044B\u0445
-        \u0438 \u043E\u0434\u043D\u0443 \u0441\u0435\u0440\u0443\u044E \u043B\u043E\u0448\u0430\u0434\u044C"
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      Flags: 000000000000000000000000
-      Languages_Touch: []
-    - Term: 10_HORSES_SAD_cardRight_REV
-      TermType: 0
-      Description: 
-      Languages:
-      - Take two black horses and one grey horse
-      - "\u0412\u0437\u044F\u0442\u044C \u0434\u0432\u0443\u0445 \u0432\u043E\u0440\u043E\u043D\u044B\u0445
-        \u0438 \u043E\u0434\u043D\u0443 \u0441\u0435\u0440\u0443\u044E \u043B\u043E\u0448\u0430\u0434\u044C"
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      Flags: 000000000000000000000000
-      Languages_Touch: []
-    - Term: 10(5)_HORSES_HEALTHY_bunner
-      TermType: 0
-      Description: 
-      Languages:
-      - Now let's choose horses, There are 2 breeds of horses in the stable, which
-        you will take
-      - "\u0422\u0435\u043F\u0435\u0440\u044C \u0432\u044B\u0431\u0435\u0440\u0435\u043C
-        \u043B\u043E\u0448\u0430\u0434\u0435\u0439, \u0412 \u043A\u043E\u043D\u044E\u0448\u043D\u0435
-        2 \u043F\u043E\u0440\u043E\u0434\u044B \u043A\u043E\u043D\u0435\u0439, \u043A\u0430\u043A\u0438\u0445
-        \u0432\u043E\u0437\u044C\u043C\u0435\u0442\u0435"
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      Flags: 000000000000000000000000
-      Languages_Touch: []
-    - Term: 10(5)_HORSES_HEALTHY_cardLeft
-      TermType: 0
-      Description: 
-      Languages:
-      - Take three black horses
-      - "\u0412\u0437\u044F\u0442\u044C \u0442\u0440\u0435\u0445 \u0432\u043E\u0440\u043E\u043D\u044B\u0445
-        \u043A\u043E\u043D\u0435\u0439"
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      Flags: 000000000000000000000000
-      Languages_Touch: []
-    - Term: 10(5)_HORSES_HEALTHY_cardLeft_REV
-      TermType: 0
-      Description: 
-      Languages:
-      - You take three black horses
-      - "\u0412\u044B \u0431\u0435\u0440\u0435\u0442\u0435 \u0442\u0440\u043E\u0438\u0445
-        \u0432\u043E\u0440\u043E\u043D\u044B\u0445"
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      Flags: 000000000000000000000000
-      Languages_Touch: []
-    - Term: 10(5)_HORSES_HEALTHY_cardRight
-      TermType: 0
-      Description: 
-      Languages:
-      - Take two black horses and one grey horse
-      - "\u0412\u0437\u044F\u0442\u044C \u0434\u0432\u0443\u0445 \u0432\u043E\u0440\u043E\u043D\u044B\u0445
-        \u0438 \u043E\u0434\u043D\u0443 \u0441\u0435\u0440\u0443\u044E \u043B\u043E\u0448\u0430\u0434\u044C"
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      Flags: 000000000000000000000000
-      Languages_Touch: []
-    - Term: 10(5)_HORSES_HEALTHY_cardRight_REV
-      TermType: 0
-      Description: 
-      Languages:
-      - It is unclear what is guiding you to take 2 black horses and one gray horse
-        for yourself
-      - "\u041D\u0435\u043F\u043E\u043D\u044F\u0442\u043D\u043E \u0447\u0435\u043C
-        \u0440\u0443\u043A\u043E\u0432\u043E\u0434\u0441\u0442\u0432\u0443\u044F\u0441\u044C
-        \u0432\u044B \u0431\u0435\u0440\u0435\u0442\u0435 2 \u0432\u043E\u0440\u043E\u043D\u044B\u0445
-        \u0438 \u043E\u0434\u043D\u0443 \u0441\u0435\u0440\u0443\u044E \u043B\u043E\u0448\u0430\u0434\u044C
-        \u0434\u043B\u044F \u0441\u0435\u0431\u044F"
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      Flags: 000000000000000000000000
-      Languages_Touch: []
-    - Term: 10(5)_GO_WAY_HOW_bunner
+    - Term: 10_GO_WAY_HOW_1_bunner
       TermType: 0
       Description: 
       Languages:
       - Are you ready to go rescue the princess?
       - "\u0412\u044B \u0443\u0436\u0435 \u0433\u043E\u0442\u043E\u0432\u044B \u043E\u0442\u043F\u0440\u0430\u0432\u0438\u0442\u044C\u0441\u044F
         \u0441\u043F\u0430\u0441\u0430\u0442\u044C \u043F\u0440\u0438\u043D\u0446\u0435\u0441\u0441\u0443?"
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      Flags: 000000000000000000000000
-      Languages_Touch: []
-    - Term: 10(5)_GO_WAY_HOW_cardLeft
-      TermType: 0
-      Description: 
-      Languages:
-      - Set off immediately
-      - "\u041E\u0442\u043F\u0440\u0430\u0432\u0438\u0442\u044C\u0441\u044F \u0432
-        \u043F\u0443\u0442\u044C \u043D\u0435\u0437\u0430\u043C\u0435\u0434\u043B\u0438\u0442\u0435\u043B\u044C\u043D\u043E"
-      - 
-      - 
+      - "\u4F60\u51C6\u5907\u597D\u53BB\u6551\u516C\u4E3B\u4E86\u5417\uFF1F"
+      - "\u0412\u044B \u045E\u0436\u043E \u0433\u0430\u0442\u043E\u0432\u044B\u044F
+        \u0430\u0434\u043F\u0440\u0430\u0432\u0456\u0446\u0446\u0430 \u0440\u0430\u0442\u0430\u0432\u0430\u0446\u044C
+        \u043F\u0440\u044B\u043D\u0446\u044D\u0441\u0443?"
       - 
       - 
       - 
@@ -2370,55 +2382,16 @@ MonoBehaviour:
       - 
       Flags: 000000000000000000000000
       Languages_Touch: []
-    - Term: 10(5)_GO_WAY_HOW_cardLeft_REV
+    - Term: 10_GO_WAY_HOW_1_cardLeft
       TermType: 0
       Description: 
       Languages:
-      - You get on your horses and ride to the exit of the city
-      - "\u0412\u044B \u0441\u0430\u0434\u0438\u0442\u0435\u0441\u044C \u043D\u0430
-        \u043B\u043E\u0448\u0430\u0434\u0435\u0439 \u0438 \u0441\u043A\u0430\u0447\u0438\u0442\u0435
-        \u043A \u0432\u044B\u0445\u043E\u0434\u0443 \u0438\u0437 \u0433\u043E\u0440\u043E\u0434\u0430"
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      Flags: 000000000000000000000000
-      Languages_Touch: []
-    - Term: 10(5)_GO_WAY_HOW_cardLeft_REV_NO
-      TermType: 0
-      Description: 
-      Languages:
-      - You get on your horses and ride to the exit of the city
-      - "\u0412\u044B \u0441\u0430\u0434\u0438\u0442\u0435\u0441\u044C \u043D\u0430
-        \u043B\u043E\u0448\u0430\u0434\u0435\u0439 \u0438 \u0441\u043A\u0430\u0447\u0438\u0442\u0435
-        \u043A \u0432\u044B\u0445\u043E\u0434\u0443 \u0438\u0437 \u0433\u043E\u0440\u043E\u0434\u0430"
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      Flags: 000000000000000000000000
-      Languages_Touch: []
-    - Term: 10(5)_GO_WAY_HOW_cardRight
-      TermType: 0
-      Description: 
-      Languages:
-      - Run home to get some things
-      - "\u0417\u0430\u0431\u0435\u0436\u0430\u0442\u044C \u0434\u043E\u043C\u043E\u0439
+      - Stop by home to grab your belongings.
+      - "\u0417\u0430\u0435\u0445\u0430\u0442\u044C \u0434\u043E\u043C\u043E\u0439
         \u0437\u0430 \u0432\u0435\u0449\u0438\u0447\u043A\u0430\u043C\u0438"
-      - 
-      - 
+      - "\u56DE\u5BB6\u62FF\u70B9\u4E1C\u897F"
+      - "\u0417\u0430\u0435\u0445\u0430\u0446\u044C \u0434\u0430\u0434\u043E\u043C\u0443
+        \u043F\u0430 \u0448\u0442\u0443\u0447\u043A\u0456"
       - 
       - 
       - 
@@ -2429,16 +2402,18 @@ MonoBehaviour:
       - 
       Flags: 000000000000000000000000
       Languages_Touch: []
-    - Term: 10(5)_GO_WAY_HOW_cardRight_REV
+    - Term: 10_GO_WAY_HOW_1_cardLeft_REV
       TermType: 0
       Description: 
       Languages:
-      - You need to go home to get the necessary things
-      - "\u0412\u0430\u043C \u043D\u0443\u0436\u043D\u043E \u0437\u0430\u0439\u0442\u0438
+      - You need to stop by home to collect the necessary items.
+      - "\u0412\u0430\u043C  \u043D\u0443\u0436\u043D\u043E \u0437\u0430\u0435\u0445\u0430\u0442\u044C
         \u0434\u043E\u043C\u043E\u0439 \u0437\u0430 \u043D\u0435\u043E\u0431\u0445\u043E\u0434\u0438\u043C\u044B\u043C\u0438
         \u0432\u0435\u0449\u0430\u043C\u0438"
-      - 
-      - 
+      - "\u4F60\u9700\u8981\u56DE\u5BB6\u62FF\u5FC5\u8981\u7684\u4E1C\u897F"
+      - "\u0412\u0430\u043C \u0442\u0440\u044D\u0431\u0430 \u0437\u0430\u0435\u0445\u0430\u0446\u044C
+        \u0434\u0430\u0434\u043E\u043C\u0443 \u043F\u0430 \u043D\u0435\u0430\u0431\u0445\u043E\u0434\u043D\u044B\u044F
+        \u0440\u044D\u0447\u044B"
       - 
       - 
       - 
@@ -2449,16 +2424,81 @@ MonoBehaviour:
       - 
       Flags: 000000000000000000000000
       Languages_Touch: []
-    - Term: 10(5)_NAIL_bunner
+    - Term: 10_GO_WAY_HOW_1_cardRight
       TermType: 0
       Description: 
       Languages:
+      - Set off on your journey without delay.
+      - "\u041E\u0442\u043F\u0440\u0430\u0432\u0438\u0442\u044C\u0441\u044F \u0432
+        \u043F\u0443\u0442\u044C \u043D\u0435\u0437\u0430\u043C\u0435\u0434\u043B\u0438\u0442\u0435\u043B\u044C\u043D\u043E"
+      - "\u9A6C\u4E0A\u51FA\u53D1"
+      - "\u0415\u0445\u0430\u0446\u044C \u0430\u0434\u0440\u0430\u0437\u0443"
       - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: 10_GO_WAY_HOW_1_cardRight_REV
+      TermType: 0
+      Description: 
+      Languages:
+      - You mount the horses and gallop towards the city gates.
+      - "\u0412\u044B \u0441\u0430\u0434\u0438\u0442\u0435\u0441\u044C \u043D\u0430
+        \u043B\u043E\u0448\u0430\u0434\u0435\u0439 \u0438 \u0441\u043A\u0430\u0447\u0438\u0442\u0435
+        \u043A \u0432\u044B\u0445\u043E\u0434\u0443 \u0438\u0437 \u0433\u043E\u0440\u043E\u0434\u0430"
+      - "\u4F60\u4E0A\u9A6C\uFF0C\u9A91\u5230\u57CE\u5E02\u7684\u51FA\u53E3"
+      - "\u0412\u044B \u0441\u044F\u0434\u0430\u0439\u0446\u0435 \u043D\u0430 \u043A\u043E\u043D\u0435\u0439
+        \u0456 \u0441\u043A\u0430\u0447\u044B\u0446\u0435 \u0434\u0430 \u0432\u044B\u0445\u0430\u0434\u0443
+        \u0437 \u0433\u043E\u0440\u0430\u0434\u0430"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: 10_GO_WAY_HOW_1_cardRight_REV_NO
+      TermType: 0
+      Description: 
+      Languages:
+      - You mount the horses and gallop towards the city gates.
+      - "\u0412\u044B \u0441\u0430\u0434\u0438\u0442\u0435\u0441\u044C \u043D\u0430
+        \u043B\u043E\u0448\u0430\u0434\u0435\u0439 \u0438 \u0441\u043A\u0430\u0447\u0438\u0442\u0435
+        \u043A \u0432\u044B\u0445\u043E\u0434\u0443 \u0438\u0437 \u0433\u043E\u0440\u043E\u0434\u0430"
+      - "\u4F60\u4E0A\u9A6C\uFF0C\u9A91\u5230\u57CE\u5E02\u7684\u51FA\u53E3"
+      - "\u0412\u044B \u0441\u044F\u0434\u0430\u0439\u0446\u0435 \u043D\u0430 \u043A\u043E\u043D\u0435\u0439
+        \u0456 \u0441\u043A\u0430\u0447\u044B\u0446\u0435 \u0434\u0430 \u0432\u044B\u0445\u0430\u0434\u0443
+        \u0437 \u0433\u043E\u0440\u0430\u0434\u0430"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: 10_NAIL_1_bunner
+      TermType: 0
+      Description: 
+      Languages:
+      - One of your horses stepped on a bent nail.
       - "\u041E\u0434\u043D\u0430 \u0438\u0437 \u0432\u0430\u0448\u0438\u0445 \u043B\u043E\u0448\u0430\u0434\u0435\u0439
         \u043D\u0430\u0442\u043A\u043D\u0443\u043B\u0430\u0441\u044C \u043D\u0430
-        \u0433\u0432\u043E\u0437\u0434\u044C"
-      - 
-      - 
+        \u0433\u043D\u0443\u0442\u044B\u0439 \u0433\u0432\u043E\u0437\u0434\u044C"
+      - "\u4F60\u7684\u4E00\u5339\u9A6C\u78B0\u5230\u4E00\u4E2A\u5F2F\u66F2\u7684\u9489\u5B50"
+      - "\u0410\u0434\u043D\u0430 \u0437 \u0432\u0430\u0448\u044B\u0445 \u043A\u043E\u043D\u0435\u0439
+        \u043D\u0430\u0442\u044B\u043A\u043D\u0443\u043B\u0430\u0441\u044F \u043D\u0430
+        \u0433\u043D\u0443\u0442\u044B \u0446\u0432\u0456\u043A"
       - 
       - 
       - 
@@ -2469,16 +2509,18 @@ MonoBehaviour:
       - 
       Flags: 000000000000000000000000
       Languages_Touch: []
-    - Term: 10(5)_NAIL_cardLeft
+    - Term: 10_NAIL_1_cardLeft
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Stop by the nearest blacksmith to pull out the nail.
       - "\u0417\u0430\u0435\u0445\u0430\u0442\u044C \u043A \u0431\u043B\u0438\u0436\u0430\u0439\u0448\u0435\u043C\u0443
         \u043A\u0443\u0437\u043D\u0435\u0446\u0443 \u0447\u0442\u043E\u0431\u044B
         \u0432\u044B\u0442\u0430\u0449\u0438\u0442\u044C \u0433\u0432\u043E\u0437\u0434\u044C"
-      - 
-      - 
+      - "\u53BB\u6700\u8FD1\u7684\u94C1\u5320\u62D4\u51FA\u4E00\u4E2A\u9489\u5B50"
+      - "\u0417\u0430\u0435\u0445\u0430\u0446\u044C \u0434\u0430 \u0431\u043B\u0456\u0436\u044D\u0439\u0448\u0430\u0433\u0430
+        \u043A\u0430\u0432\u0430\u043B\u044F \u043A\u0430\u0431 \u0432\u044B\u0446\u044F\u0433\u043D\u0443\u0446\u044C
+        \u0446\u0432\u0456\u043A"
       - 
       - 
       - 
@@ -2489,17 +2531,20 @@ MonoBehaviour:
       - 
       Flags: 000000000000000000000000
       Languages_Touch: []
-    - Term: 10(5)_NAIL_cardLeft_REV
+    - Term: 10_NAIL_1_cardLeft_REV
       TermType: 0
       Description: 
       Languages:
-      - 
+      - There was a long line at the blacksmith's, and you had to wait until evening
       - "\u041A \u043A\u0443\u0437\u043D\u0435\u0446\u0443 \u0431\u044B\u043B\u0430
         \u0431\u043E\u043B\u044C\u0448\u0430\u044F \u043E\u0447\u0435\u0440\u0435\u0434\u044C
         \u043F\u0440\u0438\u0448\u043B\u043E\u0441\u044C \u043F\u043E\u0434\u043E\u0436\u0434\u0430\u0442\u044C
         \u0434\u043E \u0432\u0435\u0447\u0435\u0440\u0430"
-      - 
-      - 
+      - "\u94C1\u5320\u6392\u4E86\u5F88\u957F\u7684\u961F\uFF0C\u6211\u4EEC\u4E0D\u5F97\u4E0D\u7B49\u5230\u665A\u4E0A"
+      - "\u0414\u0430 \u043A\u0430\u0432\u0430\u043B\u044F \u0431\u044B\u043B\u0430
+        \u0432\u044F\u043B\u0456\u043A\u0430\u044F \u0447\u0430\u0440\u0433\u0430
+        \u043F\u0440\u044B\u0439\u0448\u043B\u043E\u0441\u044F \u043F\u0430\u0447\u0430\u043A\u0430\u0446\u044C
+        \u0434\u0430 \u0432\u0435\u0447\u0430\u0440\u0430"
       - 
       - 
       - 
@@ -2510,17 +2555,17 @@ MonoBehaviour:
       - 
       Flags: 000000000000000000000000
       Languages_Touch: []
-    - Term: 10(5)_NAIL_cardRight
+    - Term: 10_NAIL_1_cardRight
       TermType: 0
       Description: 
       Languages:
-      - 
-      - "\u041E\u0441\u0442\u0430\u0432\u0438\u0442\u044C  \u043B\u043E\u0448\u0430\u0434\u044C
+      - Leave the horse at the village stable
+      - "\u041E\u0441\u0442\u0430\u0432\u0438\u0442\u044C \u043B\u043E\u0448\u0430\u0434\u044C
         \u0443 \u0434\u0435\u0440\u0435\u0432\u0435\u043D\u0441\u043A\u043E\u0439
-        \u043A\u043E\u043D\u044E\u0448\u043D\u0438, \u0430 \u043C\u043E\u043B\u043E\u0434\u0435\u0436
-        \u0441\u044F\u0434\u0435\u0442 \u043D\u0430 \u043E\u0434\u043D\u0443 \u043B\u043E\u0448\u0430\u0434\u044C"
-      - 
-      - 
+        \u043A\u043E\u043D\u044E\u0448\u043D\u0438"
+      - "\u628A\u9A6C\u7559\u5728\u6751\u91CC\u7684\u9A6C\u53A9\u91CC\uFF0C\u5E74\u8F7B\u4EBA\u5C31\u4F1A\u9A91\u4E0A\u4E00\u5339\u9A6C"
+      - "\u041F\u0430\u043A\u0456\u043D\u0443\u0446\u044C \u043A\u0430\u043D\u044F
+        \u043B\u044F \u0432\u044F\u0441\u043A\u043E\u0432\u0430\u0439 \u0441\u0442\u0430\u0439\u043D\u0456"
       - 
       - 
       - 
@@ -2531,15 +2576,17 @@ MonoBehaviour:
       - 
       Flags: 000000000000000000000000
       Languages_Touch: []
-    - Term: 10(5)_NAIL_cardRight_REV
+    - Term: 10_NAIL_1_cardRight_REV
       TermType: 0
       Description: 
       Languages:
-      - 
-      - "\u0412\u043E\u0439\u043D\u0430\u043C \u043F\u0440\u0438\u0445\u043E\u0434\u0438\u0442\u0441\u044F
+      - The warriors have to ride on one horse.
+      - "\u0412\u043E\u0438\u043D\u0430\u043C \u043F\u0440\u0438\u0445\u043E\u0434\u0438\u0442\u0441\u044F
         \u0441\u0435\u0442\u044C \u043D\u0430 \u043E\u0434\u043D\u0443 \u043B\u043E\u0448\u0430\u0434\u044C"
-      - 
-      - 
+      - "\u52C7\u58EB\u4E00\u9A6C\u6709\u7F51"
+      - "\u0412\u043E\u0456\u043D\u0430\u043C \u0434\u0430\u0432\u043E\u0434\u0437\u0456\u0446\u0446\u0430
+        \u0441\u0435\u0442\u043A\u0443 \u043D\u0430 \u0430\u0434\u0437\u0456\u043D
+        \u043A\u043E\u043D\u044C"
       - 
       - 
       - 
@@ -2557,8 +2604,10 @@ MonoBehaviour:
       - You are at home, you will not be able to take much, choose
       - "\u0412\u044B \u0434\u043E\u043C\u0430, \u043C\u043D\u043E\u0433\u043E \u0432\u0437\u044F\u0442\u044C
         \u043D\u0435 \u043F\u043E\u043B\u0443\u0447\u0438\u0442\u0441\u044F, \u0432\u044B\u0431\u0438\u0440\u0430\u0439\u0442\u0435"
-      - 
-      - 
+      - "\u4F60\u5728\u5BB6\u91CC\uFF0C\u4F60\u5C06\u65E0\u6CD5\u91C7\u53D6\u592A\u591A\uFF0C\u9009\u62E9"
+      - "\u0412\u044B \u0434\u043E\u043C\u0430, \u0448\u043C\u0430\u0442 \u0443\u0437\u044F\u0446\u044C
+        \u043D\u0435 \u0430\u0442\u0440\u044B\u043C\u0430\u0435\u0446\u0446\u0430,
+        \u0432\u044B\u0431\u0456\u0440\u0430\u0439\u0446\u0435"
       - 
       - 
       - 
@@ -2575,8 +2624,8 @@ MonoBehaviour:
       Languages:
       - Take the gold
       - "\u0412\u0437\u044F\u0442\u044C \u0437\u043E\u043B\u043E\u0442\u043E"
-      - 
-      - 
+      - "\u62FF\u9EC4\u91D1"
+      - "\u040E\u0437\u044F\u0446\u044C \u0437\u043E\u043B\u0430\u0442\u0430"
       - 
       - 
       - 
@@ -2593,9 +2642,10 @@ MonoBehaviour:
       Languages:
       - Finances won't hurt in such a case
       - "\u0424\u0438\u043D\u0430\u043D\u0441\u044B \u0432 \u0442\u0430\u043A\u043E\u043C
-        \u0434\u0435\u043B\u0435 \u043D\u0435 \u043F\u043E\u0432\u0440\u0435\u0434\u044F\u0442"
-      - 
-      - 
+        \u0434\u0435\u043B\u0435 \u043D\u0435 \u043F\u043E\u0432\u0440\u0435\u0434\u044F\u0442 "
+      - "\u5728\u8FD9\u79CD\u60C5\u51B5\u4E0B\uFF0C\u8D22\u653F\u4E0D\u4F1A\u53D7\u5230\u4F24\u5BB3"
+      - "\u0424\u0456\u043D\u0430\u043D\u0441\u044B \u045E \u0442\u0430\u043A\u043E\u0439
+        \u0441\u043F\u0440\u0430\u0432\u0435 \u043D\u0435 \u043F\u0430\u0448\u043A\u043E\u0434\u0437\u044F\u0446\u044C"
       - 
       - 
       - 
@@ -2612,8 +2662,8 @@ MonoBehaviour:
       Languages:
       - Take the chain mail
       - "\u0412\u0437\u044F\u0442\u044C \u043A\u043E\u043B\u044C\u0447\u0443\u0433\u0443"
-      - 
-      - 
+      - "\u62FF\u8FDE\u9501\u90AE\u4EF6"
+      - "\u0423\u0437\u044F\u0446\u044C \u043A\u0430\u043B\u044C\u0447\u0443\u0433\u0443"
       - 
       - 
       - 
@@ -2631,8 +2681,9 @@ MonoBehaviour:
       - Your old, proven chain mail
       - "\u0412\u0430\u0448\u0430 \u0441\u0442\u0430\u0440\u0430\u044F, \u043F\u0440\u043E\u0432\u0435\u0440\u0435\u043D\u043D\u0430\u044F
         \u043A\u043E\u043B\u044C\u0447\u0443\u0433\u0430"
-      - 
-      - 
+      - "\u4F60\u7684\u65E7\u7684\uFF0C\u7ECF\u8FC7\u9A8C\u8BC1\u7684\u8FDE\u9501\u90AE\u4EF6"
+      - "\u0412\u0430\u0448\u0430 \u0441\u0442\u0430\u0440\u0430\u044F, \u043F\u0440\u0430\u0432\u0435\u0440\u0430\u043D\u0430\u044F
+        \u043A\u0430\u043B\u044C\u0447\u0443\u0433\u0430"
       - 
       - 
       - 
@@ -2643,7 +2694,7 @@ MonoBehaviour:
       - 
       Flags: 000000000000000000000000
       Languages_Touch: []
-    - Term: 12_Foret_bunner
+    - Term: 12_Forest_Entrance_bunner
       TermType: 0
       Description: 
       Languages:
@@ -2652,8 +2703,11 @@ MonoBehaviour:
         \u0432 \u043F\u0443\u0442\u044C \u043A \u043B\u043E\u0433\u043E\u0432\u0443
         \u0434\u0440\u0430\u043A\u043E\u043D\u0430, \u0432\u043F\u0435\u0440\u0435\u0434\u0438
         \u0433\u0443\u0441\u0442\u043E\u0439 \u043B\u0435\u0441"
-      - 
-      - 
+      - "\u4F60\u5728\u53BB\u9F99\u5DE2\u7684\u8DEF\u4E0A\uFF0C\u524D\u9762\u6709\u4E00\u7247\u8302\u5BC6\u7684\u68EE\u6797"
+      - "\u0412\u044B \u0430\u0434\u043F\u0440\u0430\u045E\u043B\u044F\u0435\u0446\u0435\u0441\u044F
+        \u045E \u0448\u043B\u044F\u0445 \u0434\u0430 \u043B\u043E\u0433\u0430\u0432\u0430
+        \u0434\u0440\u0430\u043A\u043E\u043D\u0430, \u043D\u0430\u043F\u0435\u0440\u0430\u0434\u0437\u0435
+        \u0433\u0443\u0441\u0442\u044B \u043B\u0435\u0441"
       - 
       - 
       - 
@@ -2664,14 +2718,14 @@ MonoBehaviour:
       - 
       Flags: 000000000000000000000000
       Languages_Touch: []
-    - Term: 12_Foret_cardLeft
+    - Term: 12_Forest_Entrance_cardLeft
       TermType: 0
       Description: 
       Languages:
       - Go through the forest
       - "\u0418\u0434\u0442\u0438 \u0447\u0435\u0440\u0435\u0437 \u043B\u0435\u0441"
-      - 
-      - 
+      - "\u7A7F\u8FC7\u68EE\u6797"
+      - "\u0406\u0441\u0446\u0456 \u043F\u0440\u0430\u0437 \u043B\u0435\u0441"
       - 
       - 
       - 
@@ -2682,7 +2736,7 @@ MonoBehaviour:
       - 
       Flags: 000000000000000000000000
       Languages_Touch: []
-    - Term: 12_Foret_cardLeft_REV
+    - Term: 12_Forest_Entrance_cardLeft_REV
       TermType: 0
       Description: 
       Languages:
@@ -2690,8 +2744,10 @@ MonoBehaviour:
       - "\u0412\u044B \u0440\u0435\u0448\u0430\u0435\u0442\u0435 \u0447\u0442\u043E
         \u043F\u0440\u043E\u0439\u0442\u0438 \u043B\u0435\u0441 \u043D\u0430\u0441\u043A\u0432\u043E\u0437\u044C
         \u0431\u0443\u0434\u0435\u0442 \u0431\u044B\u0441\u0442\u0440\u0435\u0435"
-      - 
-      - 
+      - "\u4F60\u51B3\u5B9A\u7A7F\u8FC7\u68EE\u6797\u4F1A\u66F4\u5FEB"
+      - "\u0412\u044B \u0432\u044B\u0440\u0430\u0448\u0430\u0435\u0446\u0435 \u0448\u0442\u043E
+        \u043F\u0440\u0430\u0439\u0441\u0446\u0456 \u043B\u0435\u0441 \u043D\u0430\u0441\u043A\u0440\u043E\u0437\u044C
+        \u0431\u0443\u0434\u0437\u0435 \u0445\u0443\u0442\u0447\u044D\u0439"
       - 
       - 
       - 
@@ -2702,12 +2758,55 @@ MonoBehaviour:
       - 
       Flags: 000000000000000000000000
       Languages_Touch: []
-    - Term: 12_Foret_cardRight
+    - Term: 12_Forest_Entrance_cardRight
       TermType: 0
       Description: 
       Languages:
       - Bypass the forest
-      - "\u041E\u0431\u043E\u0439\u0442\u0438 \u043B\u0435\u0441"
+      - "\u041E\u0431\u043E\u0439\u0442\u0438 \u043B\u0435\u0441 "
+      - "\u7ED5\u8FC7\u68EE\u6797"
+      - "\u0410\u0431\u044B\u0439\u0441\u0446\u0456 \u043B\u0435\u0441"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: 12_Forest_Entrance_cardRight_REV
+      TermType: 0
+      Description: 
+      Languages:
+      - It seems to you that it will be safer to go around the forest
+      - "\u042D\u0442\u0430 \u0432\u0435\u0442\u043A\u0430 \u043F\u043E\u043A\u0430
+        \u0447\u0442\u043E \u043D\u0435\u0434\u043E\u0441\u0442\u0443\u043F\u043D\u0430
+        \u0432 \u0414\u0415\u041C\u041E \u0432\u0435\u0440\u0441\u0438\u0438\n\n\u041F\u043E\u0436\u0430\u043B\u0443\u0439\u0441\u0442\u0430
+        \u0438\u0434\u0438\u0442\u0435 \u0447\u0435\u0440\u0435\u0437 \u043B\u0435\u0441"
+      - "\u5728\u4F60\u770B\u6765\uFF0C\u7ED5\u7740\u68EE\u6797\u8D70\u4F1A\u66F4\u5B89\u5168"
+      - "\u0412\u0430\u043C \u0437\u0434\u0430\u0435\u0446\u0446\u0430 \u0448\u0442\u043E
+        \u0430\u0431\u044B\u0439\u0441\u0446\u0456 \u043B\u0435\u0441 \u0431\u0443\u0434\u0437\u0435
+        \u0431\u044F\u0441\u043F\u0435\u0447\u043D\u0435\u0439"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: 13_Poput_bunner
+      TermType: 0
+      Description: 
+      Languages:
+      - 
+      - "\u0423 \u0441\u0430\u043C\u043E\u0433\u043E \u043A\u0440\u0430\u044F \u043B\u0435\u0441\u0430,
+        \u043D\u0430 \u043F\u0435\u043D\u044C\u043A\u0435 \u0441\u0438\u0434\u0438\u0442
+        \u0441\u0442\u0430\u0440\u0438\u043A"
       - 
       - 
       - 
@@ -2720,14 +2819,2109 @@ MonoBehaviour:
       - 
       Flags: 000000000000000000000000
       Languages_Touch: []
-    - Term: 12_Foret_cardRight_REV
+    - Term: 13_Poput_cardLeft
       TermType: 0
       Description: 
       Languages:
-      - It seems to you that it will be safer to go around the forest
-      - "\u0412\u0430\u043C \u043A\u0430\u0436\u0435\u0442\u0441\u044F \u0447\u0442\u043E
-        \u043E\u0431\u043E\u0439\u0442\u0438 \u043B\u0435\u0441 \u0431\u0443\u0434\u0435\u0442
-        \u0431\u0435\u0437\u043E\u043F\u0430\u0441\u043D\u0435\u0435"
+      - 
+      - "\u041F\u0440\u043E\u0439\u0442\u0438 \u043C\u0438\u043C\u043E"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: 13_Poput_cardLeft_REV
+      TermType: 0
+      Description: 
+      Languages:
+      - 
+      - "\u0412\u044B \u043D\u0435 \u043E\u0431\u0440\u0430\u0449\u0430\u0435\u0442\u0435
+        \u0432\u043D\u0438\u043C\u0430\u043D\u0438\u044F \u043D\u0430 \u0441\u0442\u0430\u0440\u0438\u043A\u0430"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: 13_Poput_cardRight
+      TermType: 0
+      Description: 
+      Languages:
+      - 
+      - "\u0417\u0430\u0433\u043E\u0432\u043E\u0440\u0438\u0442\u044C \u0441\u043E
+        \u0441\u0442\u0430\u0440\u0438\u043A\u043E\u043C"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: 13_Poput_cardRight_REV
+      TermType: 0
+      Description: 
+      Languages:
+      - 
+      - "\u0421\u0442\u0430\u0440\u0438\u043A  \u0432\u0437\u0431\u043E\u0434\u0440\u0438\u043B\u0441\u044F
+        \u043F\u0440\u0438 \u0432\u0438\u0434\u0435 \u0432\u0430\u0441"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: 13_Poput_cardRight_REV_NO
+      TermType: 0
+      Description: 
+      Languages:
+      - 
+      - "\u0421\u0442\u0430\u0440\u0438\u043A \u043F\u043E\u043D\u044F\u043B \u0447\u0442\u043E
+        \u0432\u044B \u0445\u043E\u0442\u0438\u0442\u0435 \u043F\u0440\u043E\u0439\u0442\u0438
+        \u043B\u0435\u0441 \u043D\u0430\u0441\u043A\u0432\u043E\u0437\u044C"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: 14_OldMan_HaveGold_bunner
+      TermType: 0
+      Description: 
+      Languages:
+      - 
+      - "\u0421\u0442\u0430\u0440\u0438\u043A \u0433\u043E\u0432\u043E\u0440\u0438\u0442
+        \u0447\u0442\u043E \u043B\u0435\u0441, \u0432 \u044D\u0442\u043E \u0432\u0440\u0435\u043C\u044F
+        \u0433\u043E\u0434\u0430 \u043E\u0447\u0435\u043D\u044C \u043E\u043F\u0430\u0441\u0435\u043D
+        \u0438 \u043F\u0440\u0435\u0434\u043B\u0430\u0433\u0430\u0435\u0442 \u043F\u0440\u043E\u0432\u0435\u0441\u0442\u0438
+        \u0432\u0430\u0441, \u043D\u043E \u043D\u0435 \u0431\u0435\u0441\u043F\u043B\u0430\u0442\u043D\u043E
+        \u0430 \u0437\u0430 3 \u0437\u043E\u043B\u043E\u0442\u044B\u0445"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: 14_OldMan_HaveGold_cardLeft
+      TermType: 0
+      Description: 
+      Languages:
+      - 
+      - "\u041E\u0442\u043A\u0430\u0437\u0430\u0442\u044C\u0441\u044F"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: 14_OldMan_HaveGold_cardLeft_REV
+      TermType: 0
+      Description: 
+      Languages:
+      - 
+      - "\u0412\u044B \u0440\u0435\u0448\u0438\u043B\u0438 \u043D\u0435 \u043F\u043B\u0430\u0442\u0438\u0442\u044C
+        \u0441\u0442\u0430\u0440\u0438\u043A\u0443 \u0438 \u043F\u0440\u043E\u0439\u0442\u0438
+        \u043B\u0435\u0441 \u043D\u0430\u0441\u043A\u0432\u043E\u0437\u044C \u0441\u0430\u043C\u043E\u0441\u0442\u043E\u044F\u0442\u0435\u043B\u044C\u043D\u043E"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: 14_OldMan_HaveGold_cardRight
+      TermType: 0
+      Description: 
+      Languages:
+      - 
+      - "\u041F\u0440\u0438\u043D\u044F\u0442\u044C \u043F\u0440\u0435\u0434\u043B\u043E\u0436\u0435\u043D\u0438\u0435"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: 14_OldMan_HaveGold_cardRight_REV
+      TermType: 0
+      Description: 
+      Languages:
+      - 
+      - "\u0412\u044B \u043E\u0431\u0435\u0449\u0430\u0435\u0442\u0435 \u0441\u0442\u0430\u0440\u0438\u043A\u0443
+        \u043E\u043F\u043B\u0430\u0442\u0443 \u043F\u043E\u0441\u043B\u0435 \u0432\u044B\u0445\u043E\u0434\u0430
+        \u0438\u0437 \u043B\u0435\u0441\u0430"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: 14_OldMan_NoGold_bunner
+      TermType: 0
+      Description: 
+      Languages:
+      - 
+      - "\u0421\u0442\u0430\u0440\u0438\u043A \u0433\u043E\u0432\u043E\u0440\u0438\u0442
+        \u0447\u0442\u043E \u043B\u0435\u0441, \u0432 \u044D\u0442\u043E \u0432\u0440\u0435\u043C\u044F
+        \u0433\u043E\u0434\u0430 \u043E\u0447\u0435\u043D\u044C \u043E\u043F\u0430\u0441\u0435\u043D
+        \u0438 \u0440\u0435\u043A\u043E\u043C\u0435\u043D\u0434\u0443\u0435\u0442
+        \u0432\u0430\u043C \u043F\u043E\u0439\u0442\u0438 \u0434\u0440\u0443\u0433\u0438\u043C
+        \u043C\u0430\u0440\u0448\u0440\u0443\u0442\u043E\u043C"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: 14_OldMan_NoGold_cardLeft
+      TermType: 0
+      Description: 
+      Languages:
+      - 
+      - "\u041D\u0435 \u0441\u043B\u0443\u0448\u0430\u0442\u044C \u0441\u0442\u0430\u0440\u0438\u043A\u0430"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: 14_OldMan_NoGoldcardLeft_REV
+      TermType: 0
+      Description: 
+      Languages:
+      - 
+      - "\u0412\u044B \u043D\u0435 \u043E\u0431\u0440\u0430\u0449\u0430\u0435\u0442\u0435
+        \u0432\u043D\u0438\u043C\u0430\u043D\u0438\u044F \u043D\u0430 \u0441\u0442\u0430\u0440\u0438\u043A\u0430,
+        \u0431\u043E\u043B\u0435\u0435 \u0442\u043E\u0433\u043E \u043F\u043E\u0434\u0431\u0430\u0434\u0440\u0438\u0432\u0430\u0435\u0442\u0435
+        \u0441\u0442\u0440\u0430\u0436\u043D\u0438\u043A\u043E\u0432 \u0433\u043E\u0432\u043E\u0440\u044F
+        \u0447\u0442\u043E \u043E\u043D \u0441\u043F\u044F\u0442\u0438\u043B"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: 14_OldMan_NoGold_cardRight
+      TermType: 0
+      Description: 
+      Languages:
+      - 
+      - "\u041E\u0431\u043E\u0439\u0442\u0438 \u043B\u0435\u0441 "
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: 14_OldMan_NoGold_cardRight_REV
+      TermType: 0
+      Description: 
+      Languages:
+      - 
+      - "\u0412 \u0434\u0435\u043C\u043E \u044D\u0442\u0430 \u0432\u0435\u0442\u043A\u0430
+        \u043D\u0435\u0434\u043E\u0441\u0442\u0443\u043F\u043D\u0430 \n\n\u0412\u044B\u0431\u0438\u0440\u0438\u0442\u0435
+        \u043B\u0435\u0432\u0443\u044E \u043A\u0430\u0440\u0442\u0443"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: 15_NO_OldMan_bunner
+      TermType: 0
+      Description: 
+      Languages:
+      - 
+      - "\u0412\u044B \u0434\u043E\u043B\u0433\u043E \u0448\u043B\u0438 \u043F\u043E
+        \u0442\u0440\u043E\u043F\u0435 \u0438 \u0443\u0436\u0435 \u043D\u0430\u0447\u0430\u043B\u043E
+        \u0442\u0435\u043C\u043D\u0435\u0442\u044C"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: 15_NO_OldMan_cardLeft
+      TermType: 0
+      Description: 
+      Languages:
+      - 
+      - "\u0423\u0441\u0442\u0440\u043E\u0438\u0442\u044C \u043F\u0440\u0438\u0432\u0430\u043B"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: 15_NO_OldMan_cardLeft_REV
+      TermType: 0
+      Description: 
+      Languages:
+      - 
+      - "\u0412\u044B \u043A\u043E\u043C\u0430\u043D\u0434\u0443\u0435\u0442\u0435
+        \u0441\u0442\u0440\u0430\u0436\u043D\u0438\u043A\u0430\u043C \u043E\u0442\u0434\u043E\u0445\u043D\u0443\u0442\u044C
+        \u0438 \u0440\u0430\u0437\u0432\u0435\u0441\u0442\u0438 \u043A\u043E\u0441\u0442\u0435\u0440"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: 15_NO_OldMan_cardLeft_REV_NO
+      TermType: 0
+      Description: 
+      Languages:
+      - 
+      - "\u0412\u044B \u043A\u043E\u043C\u0430\u043D\u0434\u0443\u0435\u0442\u0435 
+        \u0441\u0442\u0440\u0430\u0436\u043D\u0438\u043A\u0430\u043C \u043E\u0442\u0434\u043E\u0445\u043D\u0443\u0442\u044C
+        \u0438 \u0440\u0430\u0437\u0432\u0435\u0441\u0442\u0438 \u043A\u043E\u0441\u0442\u0435\u0440"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: 15_NO_OldMan_cardRight
+      TermType: 0
+      Description: 
+      Languages:
+      - 
+      - "\u0414\u0432\u0438\u0433\u0430\u0442\u044C\u0441\u044F \u0434\u0430\u043B\u044C\u0448\u0435"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: 15_NO_OldMan_cardRight_REV
+      TermType: 0
+      Description: 
+      Languages:
+      - 
+      - "\u0412\u044B \u0440\u0435\u0448\u0430\u0435\u0442\u0435 \u0441\u044A\u044D\u043A\u043E\u043D\u043E\u043C\u0438\u0442\u044C
+        \u0432\u0440\u0435\u043C\u044F \u0438 \u0438\u0434\u0442\u0438 \u0431\u0435\u0437
+        \u043E\u0442\u0434\u044B\u0445\u0430"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: 15_W_OldMan_bunner
+      TermType: 0
+      Description: 
+      Languages:
+      - 
+      - "\u0412\u044B \u0441\u043B\u0435\u0434\u0443\u0442\u0435 \u0437\u0430 \u0441\u0442\u0430\u0440\u0438\u043A\u043E\u043C
+        \u0438 \u0432\u043D\u0435\u0437\u0430\u043F\u043D\u043E \u043B\u0435\u0441
+        \u043E\u043A\u0430\u0437\u0432\u0430\u0435\u0442\u0441\u044F \u043D\u0435
+        \u0442\u0430\u043A\u0438\u043C \u0442\u0435\u043C\u043D\u044B\u043C \u0438
+        \u0441\u0442\u0440\u0430\u0448\u043D\u044B\u043C, \u0432\u044B \u0432\u0438\u0434\u0438\u0442\u0435
+        \u043D\u0430 \u0432\u0435\u0442\u043A\u0435 \u043F\u0442\u0438\u0447\u043A\u0443"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: 15_W_OldMan_cardLeft
+      TermType: 0
+      Description: 
+      Languages:
+      - 
+      - "\u041F\u0440\u043E\u0442\u044F\u043D\u0443\u0442\u044C \u043A \u043D\u0435\u0439
+        \u0440\u0443\u043A\u0443"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: 15_W_OldMan_cardLeft_REV
+      TermType: 0
+      Description: 
+      Languages:
+      - 
+      - "\u0412\u043D\u0435\u0437\u0430\u043F\u043D\u043E \u043F\u0442\u0438\u0447\u0430
+        \u043A\u043B\u044E\u0435\u0442 \u0432\u0430\u0441 \u0437\u0430 \u043F\u0430\u043B\u0435\u0446
+        \u0434\u043E \u043A\u0440\u043E\u0432\u0438, \u0430 \u0441\u0442\u0430\u0440\u0438\u043A
+        \u0441\u043C\u0435\u0435\u0442\u0441\u044F \u0438 \u043F\u0440\u0435\u0434\u043B\u0430\u0433\u0430\u0435\u0442
+        \u0432 \u0441\u043B\u0435\u0434\u0443\u044E\u0449\u0438\u0439 \u0440\u0430\u0437
+        \u043F\u043E\u0434\u0441\u0442\u0430\u0432\u0438\u0442\u044C \u0435\u0439
+        \u043D\u043E\u0441"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: 15_W_OldMan_cardRight
+      TermType: 0
+      Description: 
+      Languages:
+      - 
+      - "\u041D\u0435 \u0442\u0440\u043E\u0433\u0430\u0442\u044C \u043B\u0435\u0441\u043D\u044B\u0445
+        \u0441\u0443\u0449\u0435\u0441\u0442\u0432"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: 15_W_OldMan_cardRight_REV
+      TermType: 0
+      Description: 
+      Languages:
+      - 
+      - "\u0412\u0441\u043F\u043E\u043C\u0438\u043D\u0430\u044F \u0441\u043B\u0443\u0445\u0438
+        \u043F\u0440\u043E \u044D\u0442\u043E\u0442 \u043B\u0435\u0441 \u0432\u044B
+        \u043E\u0442\u0434\u0435\u0440\u0433\u0438\u0432\u0430\u0435\u0442\u0435
+        \u0440\u0443\u043A\u0443 \u0438 \u043F\u0440\u043E\u0445\u043E\u0434\u0438\u0442\u0435
+        \u043C\u0438\u043C\u043E"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: 16_Camp_Young_War_bunner
+      TermType: 0
+      Description: 
+      Languages:
+      - 
+      - "\u041D\u0430\u0441\u0442\u0443\u043F\u0430\u0435\u0442 \u043D\u043E\u0447\u044C
+        \u043A\u0442\u043E \u043F\u043E\u0439\u0434\u0435\u0442 \u0432 \u0434\u043E\u0437\u043E\u0440?"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: 16_Camp_Young_War_cardLeft
+      TermType: 0
+      Description: 
+      Languages:
+      - 
+      - "\u041F\u043E\u0439\u0442\u0438 \u0441\u0430\u043C\u043E\u043C\u0443"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: 16_Camp_Young_War_cardLeft_REV
+      TermType: 0
+      Description: 
+      Languages:
+      - 
+      - "\u0412\u044B \u0441 \u043D\u0435\u0434\u043E\u0432\u0435\u0440\u0438\u0435\u043C
+        \u0441\u043C\u043E\u0442\u0440\u0438\u0442\u0435 \u043D\u0430 \u043C\u043E\u043B\u043E\u0434\u043D\u044F\u043A
+        \u0438 \u0440\u0435\u0448\u0430\u0435\u0442\u0435 \u0441\u0430\u043C\u0438
+        \u0437\u0430\u0441\u0442\u0443\u043F\u0438\u0442\u044C \u0432 \u0434\u043E\u0437\u043E\u0440"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: 16_Camp_Young_War_cardRight
+      TermType: 0
+      Description: 
+      Languages:
+      - 
+      - "\u041F\u043E\u0441\u0442\u0430\u0432\u0438\u0442\u044C \u043C\u043E\u043B\u043E\u0434\u044B\u0445
+        \u0441\u0442\u0440\u0430\u0436\u043D\u0438\u043A\u043E\u0432"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: 16_Camp_Young_War_cardRight_REV
+      TermType: 0
+      Description: 
+      Languages:
+      - 
+      - "\u0412\u0430\u043C \u043D\u0443\u0436\u043D\u043E \u0445\u043E\u0440\u043E\u0448\u0435\u043D\u044C\u043A\u043E
+        \u0432\u044B\u0441\u043F\u0430\u0442\u044C\u0441\u044F, \u0430 \u0434\u043E\u0437\u043E\u0440
+        \u043E\u0441\u0442\u0430\u0432\u043B\u044F\u0435\u0442\u0435 \u043D\u0430
+        \u043C\u043E\u043B\u043E\u0434\u0435\u0436"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: 16_Camp_Old_War_bunner
+      TermType: 0
+      Description: 
+      Languages:
+      - 
+      - "\u041D\u0430\u0441\u0442\u0443\u043F\u0430\u0435\u0442 \u043D\u043E\u0447\u044C
+        \u043A\u043E\u0433\u043E \u043F\u043E\u0441\u0442\u0430\u0432\u0438\u0442\u0435
+        \u0432 \u0434\u043E\u0437\u043E\u0440?"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: 16_Camp_Old_War_cardLeft
+      TermType: 0
+      Description: 
+      Languages:
+      - 
+      - "\u041F\u043E\u0441\u0442\u0430\u0432\u0438\u0442\u044C \u0432 \u0434\u043E\u0437\u043E\u0440
+        \u043C\u043E\u043B\u043E\u0434\u043E\u0433\u043E"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: 16_Camp_Old_War_cardLeft_REV
+      TermType: 0
+      Description: 
+      Languages:
+      - 
+      - "\u0412\u044B \u0440\u0435\u0448\u0430\u0435\u0442\u0435 \u0447\u0442\u043E
+        \u0445\u043E\u0440\u043E\u0448\u0435\u0435 \u0437\u0440\u0435\u043D\u0438\u0435
+        \u0432\u0430\u0436\u043D\u0435\u0435 \u043E\u043F\u044B\u0442\u0430"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: 16_Camp_Old_War_cardRight
+      TermType: 0
+      Description: 
+      Languages:
+      - 
+      - "\u041F\u043E\u0441\u0442\u0430\u0432\u0438\u0442\u044C \u0432 \u0434\u043E\u0437\u043E\u0440
+        \u0431\u044B\u0432\u0430\u043B\u043E\u0433\u043E "
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: 16_Camp_Old_War_cardRight_REV
+      TermType: 0
+      Description: 
+      Languages:
+      - 
+      - "\u041E\u043F\u044B\u0442\u043D\u044B\u0439 \u0432\u043E\u0438\u043D \u0437\u043D\u0430\u0435\u0442
+        \u044D\u0442\u0438 \u043C\u0435\u0441\u0442\u0430 \u043A\u0430\u043A \u0441\u0432\u043E\u0438
+        4 \u043F\u0430\u043B\u044C\u0446\u0430"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: 16_Torch_bunner
+      TermType: 0
+      Description: 
+      Languages:
+      - 
+      - "\u0421\u0442\u0430\u043D\u043E\u0432\u0438\u0442\u0441\u044F \u0435\u0449\u0435
+        \u0442\u0435\u043C\u043D\u0435\u0435, \u043C\u043E\u0436\u0435\u0442 \u0441\u0442\u043E\u0438\u0442
+        \u0437\u0430\u0436\u0435\u0447\u044C \u0444\u0430\u043A\u0435\u043B\u044B?"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: 16_Torch_cardLeft
+      TermType: 0
+      Description: 
+      Languages:
+      - 
+      - "\u0417\u0430\u0436\u0435\u0447\u044C \u0444\u0430\u043A\u0435\u043B\u044B"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: 16_Torch_cardLeft_REV
+      TermType: 0
+      Description: 
+      Languages:
+      - 
+      - "\u041F\u0440\u043E\u0445\u043E\u0434\u044F \u043C\u0438\u043C\u043E \u0431\u043E\u043B\u043E\u0442\u0430
+        \u0432\u044B \u0444\u0430\u043A\u0435\u043B\u0430\u043C\u0438 \u043F\u0440\u0438\u0432\u043B\u0435\u043A\u0430\u0435\u0442\u0435
+        \u043D\u0430\u0441\u0435\u043A\u043E\u043C\u044B\u0445 \u0438 \u043E\u043D\u0438
+        \u0441\u0438\u043B\u044C\u043D\u043E \u043F\u043E\u043A\u0443\u0441\u0430\u043B\u0438
+        \u0432\u0430\u0441"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: 16_Torch_cardRight
+      TermType: 0
+      Description: 
+      Languages:
+      - 
+      - "\u0418\u0434\u0442\u0438 \u0432 \u0442\u0435\u043C\u043D\u043E\u0442\u0435"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: 16_Torch_cardRight_REV
+      TermType: 0
+      Description: 
+      Languages:
+      - 
+      - "\u0412\u044B \u0440\u0435\u0448\u0430\u0435\u0442\u0435 \u043D\u0435 \u043F\u0440\u0438\u0432\u043B\u0435\u043A\u0430\u0442\u044C
+        \u0432\u043D\u0438\u043C\u0430\u043D\u0438\u0435 \u0438 \u0434\u0432\u0438\u0433\u0430\u0442\u044C\u0441\u044F
+        \u0432 \u0442\u0435\u043C\u043D\u043E\u0442\u0435"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: 16_Camping_W_OldMan_bunner
+      TermType: 0
+      Description: 
+      Languages:
+      - 
+      - "\u0421\u0442\u0430\u0440\u0438\u043A \u043F\u0440\u0435\u0434\u043B\u0430\u0433\u0430\u0435\u0442
+        \u0443\u0441\u0442\u0440\u043E\u0438\u0442\u044C \u043F\u0440\u0438\u0432\u0430\u043B,
+        \u0433\u043E\u0432\u043E\u0440\u0438\u0442 \u0447\u0442\u043E \u043F\u043E\u043A\u0430
+        \u043E\u043D \u0441 \u0432\u0430\u043C\u0438 \u0432\u044B \u0432 \u0431\u0435\u0437\u043E\u043F\u0430\u0441\u043D\u043E\u0441\u0442\u0438"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: 16_Camping_W_OldMan_cardLeft
+      TermType: 0
+      Description: 
+      Languages:
+      - 
+      - "\u0421\u043A\u043E\u043C\u0430\u043D\u0434\u043E\u0432\u0430\u0442\u044C
+        \u0441\u0442\u0440\u0430\u0436\u0435 \u0440\u0430\u0437\u0431\u0438\u0442\u044C
+        \u043B\u0430\u0433\u0435\u0440\u044C"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: 16_Camping_W_OldMan_cardLeft_REV
+      TermType: 0
+      Description: 
+      Languages:
+      - 
+      - "\u0421\u0442\u0440\u0430\u0436\u0430 \u0440\u0430\u0437\u0431\u0438\u0432\u0430\u0435\u0442
+        \u043B\u0430\u0433\u0435\u0440\u044C"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: 16_Camping_W_OldMan_cardRight
+      TermType: 0
+      Description: 
+      Languages:
+      - 
+      - "\u041D\u0435\u0442 \u0432\u0440\u0435\u043C\u0435\u043D\u0438 \u0436\u0434\u0430\u0442\u044C,
+        \u043D\u0430\u0434\u043E \u0441\u043F\u0430\u0441\u0430\u0442\u044C \u043F\u0440\u0438\u043D\u0446\u0435\u0441\u0441\u0443"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: 16_Camping_W_OldMan_cardRight_REV
+      TermType: 0
+      Description: 
+      Languages:
+      - 
+      - "\u0412\u044B \u043D\u0435 \u043C\u043E\u0436\u0435\u0442\u0435 \u043F\u043E\u0437\u0432\u043E\u043B\u0438\u0442\u044C
+        \u0441\u0435\u0431\u0435 \u0441\u043F\u0430\u0442\u044C \u043F\u043E\u043A\u0430
+        \u0433\u0434\u0435 \u0442\u043E \u0433\u0440\u0443\u0441\u0442\u0438\u0442
+        \u043E\u0434\u043D\u0430 \u043F\u0440\u0438\u043D\u0446\u0435\u0441\u0441\u0430"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: 17_Insects_bunner
+      TermType: 0
+      Description: 
+      Languages:
+      - 
+      - "\u041F\u043E\u043F\u044B\u0442\u0430\u0442\u044C\u0441\u044F \u043E\u0442\u043F\u0443\u0433\u043D\u0443\u0442\u044C
+        \u043D\u0430\u0441\u0435\u043A\u043E\u043C\u044B\u0445 \u0444\u0430\u043A\u0435\u043B\u0430\u043C\u0438
+        \u0438\u043B\u0438 \u043F\u043E\u0442\u0443\u0448\u0438\u0442\u044C \u0438\u0445?"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: 17_Insects_cardLeft
+      TermType: 0
+      Description: 
+      Languages:
+      - 
+      - "\u0420\u0430\u0437\u043C\u0430\u0445\u0438\u0432\u0430\u0442\u044C \u0437\u0430\u0436\u0436\u0435\u043D\u044B\u043C\u0438
+        \u0444\u0430\u043A\u0435\u043B\u0430\u043C\u0438"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: 17_Insects_cardLeft_REV
+      TermType: 0
+      Description: 
+      Languages:
+      - 
+      - "\u0412\u044B \u043D\u0430\u0447\u0430\u043B\u0438 \u043D\u0435\u0438\u0441\u0442\u043E\u0432\u043E
+        \u043C\u0430\u0445\u0430\u0442\u044C \u0444\u0430\u043A\u0435\u043B\u0430\u043C\u0438
+        \u0438 \u0441\u043B\u0443\u0447\u0430\u0439\u043D\u043E \u043F\u043E\u0434\u043F\u043E\u043B\u0438\u043B\u0438
+        \u0432\u0441\u0435\u043C \u043B\u043E\u0448\u0430\u0434\u044F\u043C \u0445\u0432\u043E\u0441\u0442\u044B"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: 17_Insects_cardRight
+      TermType: 0
+      Description: 
+      Languages:
+      - 
+      - "\u041F\u043E\u0433\u0430\u0441\u0438\u0442\u044C \u0444\u0430\u043A\u0435\u043B\u044B"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: 17_Insects_cardRight_REV
+      TermType: 0
+      Description: 
+      Languages:
+      - 
+      - "\u041D\u0430\u0441\u0435\u043A\u043E\u043C\u044B\u0435 \u0443\u0436\u0435
+        \u0437\u043D\u0430\u044E\u0442 \u0433\u0434\u0435 \u0432\u044B \u0438 \u0442\u0435\u043F\u0435\u0440\u044C
+        \u0443 \u0432\u0430\u0441 \u043D\u0435\u0442 \u043E\u0440\u0443\u0436\u0438\u044F
+        \u043F\u0440\u043E\u0442\u0438\u0432 \u043D\u0438\u0445.\n\n\u0412\u0430\u0441
+        \u0437\u0430\u0433\u0440\u044B\u043B\u0438 \u0434\u043E \u0441\u043C\u0435\u0440\u0442\u0438
+        \u043B\u0435\u0441\u043D\u044B\u0435 \u043A\u043E\u043C\u0430\u0440\u044B"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: 17_StrangeFruits_bunner
+      TermType: 0
+      Description: 
+      Languages:
+      - 
+      - "\u041F\u043E \u043F\u0443\u0442\u0438 \u0432\u0430\u043C \u0432\u0441\u0442\u0440\u0435\u0447\u0430\u044E\u0442\u0441\u044F
+        \u043A\u0443\u0441\u0442\u044B \u0441\u043E \u0441\u0442\u0440\u0430\u043D\u043D\u044B\u043C\u0438
+        \u043F\u043B\u043E\u0434\u0430\u043C\u0438, \u0432\u044B\u0433\u043B\u044F\u0434\u044F\u0442
+        \u0430\u043F\u0435\u0442\u0438\u0442\u043D\u043E"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: 17_StrangeFruits_cardLeft
+      TermType: 0
+      Description: 
+      Languages:
+      - 
+      - "\u0421\u044A\u0435\u0441\u0442\u044C \u043E\u0434\u0438\u043D"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: 17_StrangeFruits_cardLeft_REV
+      TermType: 0
+      Description: 
+      Languages:
+      - 
+      - "\u0418\u0437-\u0437\u0430 \u0442\u0435\u043C\u043D\u043E\u0442\u044B \u0432\u044B
+        \u043D\u0435 \u0437\u0430\u043C\u0435\u0442\u0438\u043B\u0438 \u043D\u043E,
+        \u043F\u043B\u043E\u0434 \u0432\u0441\u0435\u043C \u0441\u0432\u043E\u0438\u043C
+        \u0432\u0438\u0434\u043E\u043C \u043A\u0440\u0438\u0447\u0430\u043B \"\u041D\u0435
+        \u0435\u0448\u044C \u043C\u0435\u043D\u044F!\""
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: 17_StrangeFruits_cardRight
+      TermType: 0
+      Description: 
+      Languages:
+      - 
+      - "\u041F\u043E\u043B\u043E\u0436\u0438\u0442\u044C \u0432 \u043A\u0430\u0440\u043C\u0430\u043D
+        \u043F\u0440\u043E \u0437\u0430\u043F\u0430\u0441"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: 17_StrangeFruits_cardRight_REV
+      TermType: 0
+      Description: 
+      Languages:
+      - 
+      - "\u0412\u044B \u0441\u0440\u044B\u0432\u0430\u0435\u0442\u0435 \u0441\u0442\u0440\u0430\u043D\u043D\u044B\u0439
+        \u043F\u043B\u043E\u0434 \u0441 \u0432\u0435\u0442\u043A\u0438 \u0438 \u043A\u043B\u0430\u0434\u0435\u0442\u0435
+        \u0441\u0435\u0431\u0435 \u0432 \u043A\u0430\u0440\u043C\u0430\u043D \"\u0412\u0434\u0440\u0443\u0433
+        \u043F\u0440\u0438\u0433\u043E\u0434\u0438\u0442\u0441\u044F\""
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: 17_YoungWatchmen_bunner
+      TermType: 0
+      Description: 
+      Languages:
+      - 
+      - "\u0421\u0440\u0435\u0434\u0438 \u043D\u043E\u0447\u0438 \u0432\u044B \u043F\u0440\u043E\u0441\u044B\u043F\u0430\u0435\u0442\u0435\u0441\u044C
+        \u043E\u0442 \u0441\u0438\u043B\u044C\u043D\u043E\u0433\u043E \u0445\u0440\u0430\u043F\u0430"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: 17_YoungWatchmen_cardLeft
+      TermType: 0
+      Description: 
+      Languages:
+      - 
+      - "\u041E\u0442\u043A\u0440\u044B\u0442\u044C \u0433\u043B\u0430\u0437\u0430"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: 17_YoungWatchmen_cardLeft_REV
+      TermType: 0
+      Description: 
+      Languages:
+      - 
+      - "\u0412\u044B \u0432\u0438\u0434\u0438\u0442\u0435 \u0441\u043F\u044F\u0449\u0438\u0445
+        \u0441\u0442\u0440\u0430\u0436\u043D\u0438\u043A\u043E\u0432.\n\u0413\u0440\u043E\u043C\u043A\u043E
+        \u043A\u0440\u0438\u0447\u0438\u0442\u0435 \u043D\u0430 \u043D\u0438\u0445
+        \u0438 \u0443 \u0432\u0430\u0441 \u043F\u043E\u0434\u043D\u0438\u043C\u0430\u0435\u0442\u0441\u044F
+        \u0434\u0430\u0432\u043B\u0435\u043D\u0438\u0435"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: 17_YoungWatchmen_cardRight
+      TermType: 0
+      Description: 
+      Languages:
+      - 
+      - "\u0421\u043F\u0430\u0442\u044C \u0434\u0430\u043B\u044C\u0448\u0435"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: 17_YoungWatchmen_cardRight_REV
+      TermType: 0
+      Description: 
+      Languages:
+      - 
+      - "\u0412\u044B \u0441\u0442\u0430\u0440\u0430\u0435\u0442\u0435\u0441\u044C
+        \u0443\u0441\u043D\u0443\u0442\u044C \u0438 \u0443 \u0432\u0430\u0441 \u043F\u043E\u043B\u0443\u0447\u0430\u0435\u0442\u0441\u044F
+        \n\n\u041F\u043E \u0443\u0442\u0440\u0443 \u0432\u044B \u043E\u0431\u043D\u0430\u0440\u0443\u0436\u0438\u043B\u0438
+        \u0441\u043F\u044F\u0449\u0438\u0445 \u0441\u0442\u0440\u0430\u0436\u043D\u0438\u043A\u043E\u0432
+        \u0438 \u043E\u0442\u0441\u0443\u0442\u0441\u0442\u0432\u0438\u0435 \u043B\u043E\u0448\u0430\u0434\u0435\u0439"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: 17_YoungWatchmen_2_bunner
+      TermType: 0
+      Description: 
+      Languages:
+      - 
+      - "\u041F\u043E\u0441\u0440\u0435\u0434\u0438 \u043D\u043E\u0447\u0438 \u0432\u0430\u0441
+        \u0431\u0443\u0434\u0438\u0442 \u043C\u043E\u043B\u043E\u0434\u043E\u0439
+        \u0432\u043E\u0438\u043D, \u0438 \u0440\u0430\u0441\u0441\u043A\u0430\u0437\u044B\u0432\u0430\u0435\u0442
+        \u0447\u0442\u043E \u0441\u043B\u044B\u0448\u0438\u0442 \u0436\u0435\u043D\u0441\u043A\u043E\u0435
+        \u043F\u0435\u043D\u0438\u0435 \u0432 \u043B\u0435\u0441\u0443"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: 17_YoungWatchmen_2_cardLeft
+      TermType: 0
+      Description: 
+      Languages:
+      - 
+      - "\u041F\u0440\u0435\u043B\u043E\u0436\u0438\u0442\u044C \u0435\u043C\u0443
+        \u043F\u043E\u0439\u0442\u0438 \u043F\u043E\u0441\u043C\u043E\u0442\u0440\u0435\u0442\u044C
+        \u043D\u0430 \u043F\u043E\u043B\u044F\u043D\u0435"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: 17_YoungWatchmen_2_cardLeft_REV
+      TermType: 0
+      Description: 
+      Languages:
+      - 
+      - "\u0421\u0442\u0440\u0430\u0436\u043D\u0438\u043A \u0443\u0448\u0435\u043B
+        \u0438 \u0434\u043E\u043B\u0433\u043E \u043D\u0435 \u0432\u043E\u0437\u0432\u0440\u0430\u0449\u0430\u043B\u0441\u044F.\n\n\u041D\u0430
+        \u043F\u043E\u043B\u044F\u043D\u0435 \u043D\u0438\u043A\u043E\u0433\u043E
+        \u043D\u0435 \u043E\u043A\u0430\u0437\u0430\u043B\u043E\u0441\u044C, \u043F\u043E\u0445\u043E\u0436\u0435
+        \u0435\u0433\u043E \u0443\u0442\u0430\u0449\u0438\u043B\u0438 \u041B\u0435\u0441\u0430\u0432\u043A\u0438"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: 17_YoungWatchmen_2_cardRight
+      TermType: 0
+      Description: 
+      Languages:
+      - 
+      - "\u0423\u0431\u0435\u0434\u0438\u0442\u044C \u0435\u0433\u043E \u0447\u0442\u043E
+        \u044D\u0442\u043E \u0435\u043C\u0443 \u043F\u043E\u0447\u0443\u0434\u0438\u043B\u043E\u0441\u044C"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: 17_YoungWatchmen_2_cardRight_REV
+      TermType: 0
+      Description: 
+      Languages:
+      - 
+      - "\u0412\u044B \u0443\u0431\u0435\u0436\u0434\u0430\u0435\u0442\u0435 \u0435\u0433\u043E
+        \u0447\u0442\u043E \u044D\u0442\u043E \u0434\u0438\u043A\u0438\u0435 \u0437\u0432\u0435\u0440\u0438
+        \u0438 \u0432\u0435\u0442\u0435\u0440 \u0432 \u043B\u0438\u0441\u0442\u0432\u0435"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: 17_SelfWAtch_bunner
+      TermType: 0
+      Description: 
+      Languages:
+      - 
+      - "\u041F\u043E\u0441\u0440\u0435\u0434\u0438 \u043D\u043E\u0447\u0438 \u0432\u044B
+        \u0441\u043B\u044B\u0448\u0438\u0442\u0435 \u043C\u0435\u043B\u043E\u0434\u0438\u0447\u043D\u043E\u0435
+        \u0436\u0435\u043D\u0441\u043A\u043E\u0435 \u043F\u0435\u043D\u0438\u0435"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: 17_SelfWAtch_cardLeft
+      TermType: 0
+      Description: 
+      Languages:
+      - 
+      - "\u041F\u0440\u043E\u0432\u0435\u0440\u0438\u0442\u044C \u0447\u0442\u043E
+        \u0442\u0430\u043C \u0442\u0430\u043A\u043E\u0435"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: 17_SelfWAtch_cardLeft_REV
+      TermType: 0
+      Description: 
+      Languages:
+      - 
+      - "\u0412\u044B \u0438\u0434\u0435\u0442\u0435 \u043D\u0430 \u0437\u0432\u0443\u043A
+        \u0438 \u0432\u044B\u0445\u043E\u0434\u0438\u0442\u0435 \u043D\u0430 \u043D\u0435\u0431\u043E\u043B\u044C\u0448\u0443\u044E
+        \u043F\u043E\u043B\u044F\u043D\u0443"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: 17_SelfWAtch_cardRight
+      TermType: 0
+      Description: 
+      Languages:
+      - 
+      - "\u041D\u0435 \u043E\u0431\u0440\u0430\u0449\u0430\u0442\u044C \u0432\u043D\u0438\u043C\u0430\u043D\u0438\u044F"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: 17_SelfWAtch_cardRight_REV
+      TermType: 0
+      Description: 
+      Languages:
+      - 
+      - "\u0412 \u043B\u0435\u0441\u0443 \u043C\u043D\u043E\u0433\u043E \u0432\u0441\u044F\u043A\u0438\u0445
+        \u0434\u0443\u0445\u043E\u0432 \u043A\u043E\u0442\u043E\u0440\u044B\u0435
+        \u043C\u043E\u0433\u0443\u0442 \u043E\u0442\u0432\u043B\u0435\u0447\u044C
+        \u043F\u0443\u0442\u043D\u0438\u043A\u043E\u0432 \u0438 \u0432\u044B \u0440\u0435\u0448\u0430\u0435\u0442\u0435
+        \u043D\u0435 \u043F\u043E\u0434\u0434\u0430\u0432\u0430\u0442\u044C\u0441\u044F"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: 17_OldMan_NightCamp_bunner
+      TermType: 0
+      Description: 
+      Languages:
+      - 
+      - "\u041D\u043E\u0447\u044C \u043F\u0440\u043E\u0448\u043B\u0430 \u0431\u0435\u0437
+        \u043F\u0440\u0438\u043A\u043B\u044E\u0447\u0435\u043D\u0438\u0439, \u0432\u044B
+        \u043E\u0442\u043B\u0438\u0447\u043D\u043E \u0432\u044B\u0441\u043F\u0430\u043B\u0438\u0441\u044C,
+        \u043E\u0441\u0442\u0430\u043B\u043E\u0441\u044C \u043F\u043E\u0437\u0430\u0432\u0442\u0440\u0430\u043A\u0430\u0442\u044C
+        \u0438 \u043C\u043E\u0436\u043D\u043E \u043E\u0442\u043F\u0440\u0430\u0432\u043B\u044F\u0442\u044C\u0441\u044F
+        \u0434\u0430\u043B\u044C\u0448\u0435"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: 17_OldMan_NightCamp_cardLeft
+      TermType: 0
+      Description: 
+      Languages:
+      - 
+      - "\u041F\u0440\u0438\u0433\u043E\u0442\u043E\u0432\u0438\u0442\u044C \u0441\u0430\u043C\u043E\u043C\u0443
+        \u043F\u043E \u0431\u044B\u0441\u0442\u0440\u0435\u043D\u044C\u043A\u043E\u043C\u0443"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: 17_OldMan_NightCamp_cardLeft_REV
+      TermType: 0
+      Description: 
+      Languages:
+      - 
+      - "\u041E\u043A\u0430\u0437\u0430\u043B\u043E\u0441\u044C \u0447\u0442\u043E
+        \u043A\u0443\u043B\u0438\u043D\u0430\u0440 \u0432\u044B \u0442\u0430\u043A
+        \u0441\u0435\u0431\u0435 \u0438 \u0443 \u0432\u0441\u0435\u0445 \u0441\u043B\u0443\u0447\u0438\u043B\u043E\u0441\u044C
+        \u043D\u0435\u0441\u0432\u0430\u0440\u0435\u043D\u0438\u0435 "
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: 17_OldMan_NightCamp_cardRight
+      TermType: 0
+      Description: 
+      Languages:
+      - 
+      - "\u041F\u043E\u0437\u0432\u043E\u043B\u0438\u0442\u044C \u043F\u0440\u0438\u0433\u043E\u0442\u043E\u0432\u0438\u0442\u044C
+        \u0437\u0430\u0432\u0442\u0440\u0430\u043A \u0441\u0442\u0430\u0440\u0438\u043A\u0443"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: 17_OldMan_NightCamp_cardRight_REV
+      TermType: 0
+      Description: 
+      Languages:
+      - 
+      - "\u0417\u0430\u0432\u0442\u0440\u0430\u043A \u0431\u044B\u043B \u043E\u0447\u0435\u043D\u044C
+        \u0432\u043A\u0443\u0441\u043D\u044B\u043C \u0438 \u043F\u0440\u0438\u0434\u0430\u043B
+        \u0432\u0430\u043C \u0441\u0438\u043B \u0438 \u044D\u043D\u0435\u0440\u0433\u0438\u0438"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: 17_OldMan_Pay_bunner
+      TermType: 0
+      Description: 
+      Languages:
+      - 
+      - "\u0412\u044B \u043D\u0435 \u0442\u0435\u0440\u044F\u044F \u0432\u0440\u0435\u043C\u0435\u043D\u0438
+        \u043D\u0430 \u043E\u0442\u0434\u044B\u0445 \u0434\u043E\u0441\u0442\u0438\u0433\u0430\u0435\u0442\u0435
+        \u043A\u0440\u0430\u044F\u044F \u043B\u0435\u0441\u0430\n\n\u041D\u0430\u0441\u0442\u0430\u043B\u043E
+        \u0432\u0440\u0435\u043C\u044F \u0440\u0430\u0441\u043F\u043B\u0430\u0442\u0438\u0442\u044C\u0441\u044F
+        \u0441 \u043F\u0440\u043E\u0432\u043E\u0434\u043D\u0438\u043A\u043E\u043C"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: 17_OldMan_Pay_cardLeft
+      TermType: 0
+      Description: 
+      Languages:
+      - 
+      - "\u0417\u0430\u043F\u043B\u0430\u0442\u0438\u0442\u044C"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: 17_OldMan_Pay_cardLeft_REV
+      TermType: 0
+      Description: 
+      Languages:
+      - 
+      - "\u0412\u044B \u043F\u043B\u0430\u0442\u0438\u0442\u0435 \u043E\u0433\u043E\u0432\u043E\u0440\u0435\u043D\u043D\u0443\u044E
+        \u0441\u0443\u043C\u043C\u0443 "
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: 17_OldMan_Pay_cardRight
+      TermType: 0
+      Description: 
+      Languages:
+      - 
+      - "\u041F\u043E\u0441\u043B\u0430\u0442\u044C \u043A \u0447\u0435\u0440\u0442\u044F\u043C"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: 17_OldMan_Pay_cardRight_REV
+      TermType: 0
+      Description: 
+      Languages:
+      - 
+      - "\u0421\u0442\u0430\u0440\u0438\u043A \u043E\u043A\u0430\u0437\u0430\u043B\u0441\u044F
+        \u043E\u0447\u0435\u043D\u044C \u043D\u0435\u0434\u043E\u0432\u043E\u043B\u0435\u043D
+        \u041F\u0440\u0435\u0432\u0440\u0430\u0442\u0438\u043B \u043E\u0434\u043D\u043E\u0433\u043E
+        \u0438\u0437 \u0441\u0442\u0440\u0430\u0436\u043D\u0438\u043A\u043E\u0432
+        \u0432 \u0434\u0435\u0440\u0435\u0432\u043E \u0438 \u0438\u0437\u0447\u0435\u0437
+        \u043F\u0440\u043E\u043A\u043B\u0438\u043D\u0430\u044F \u0432\u0430\u0441"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: 18_CrazyHorses_bunner
+      TermType: 0
+      Description: 
+      Languages:
+      - 
+      - "\u041A\u043E\u043D\u0438 \u043E\u0431\u0435\u0437\u0443\u043C\u0435\u043B\u0438
+        \u043E\u0442 \u0441\u0442\u0440\u0430\u0445\u0430 \u0438 \u043F\u043E\u0431\u0435\u0436\u0430\u043B\u0438
+        \u0441 \u043E\u0433\u0440\u043E\u043C\u043D\u043E\u0439 \u0441\u043A\u043E\u0440\u043E\u0441\u0442\u044C\u044E,
+        \u0438 \u0432 \u0441\u0447\u0438\u0442\u0430\u043D\u043D\u044B\u0435 \u043C\u0438\u043D\u0443\u0442\u044B
+        \u0432\u044B \u043F\u0440\u043E\u043B\u0435\u0442\u0435\u043B\u0438 \u0434\u043E
+        \u043A\u043E\u043D\u0446\u0430 \u043B\u0435\u0441\u0430"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: 18_CrazyHorses_cardLeft
+      TermType: 0
+      Description: 
+      Languages:
+      - 
+      - "\u0414\u0430\u0442\u044C \u043A\u043E\u043D\u044F\u043C \u043E\u0442\u0434\u043E\u0445\u043D\u0443\u0442\u044C"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: 18_CrazyHorses_cardLeft_REV
+      TermType: 0
+      Description: 
+      Languages:
+      - 
+      - "\u0412\u044B \u0443\u0441\u0442\u0440\u0430\u0438\u0432\u0430\u0435\u0442\u0435
+        \u043F\u0440\u0438\u0432\u0430\u043B \u0434\u043E \u0440\u0430\u0441\u0441\u0432\u0435\u0442\u0430"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: 18_CrazyHorses_cardRight
+      TermType: 0
+      Description: 
+      Languages:
+      - 
+      - "\u0414\u0432\u0438\u0433\u0430\u0442\u044C\u0441\u044F \u0434\u0430\u043B\u044C\u0448\u0435"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: 18_CrazyHorses_cardRight_REV
+      TermType: 0
+      Description: 
+      Languages:
+      - 
+      - "\u041A\u043E\u043D\u0438 \u043F\u0430\u0434\u0430\u044E\u0442 \u0437\u0430\u043C\u0435\u0440\u0442\u0432\u043E
+        \u043E\u0442 \u0441\u0442\u0440\u0435\u0441\u0441\u0430 \u0438 \u043D\u0430\u0433\u0440\u0443\u0437\u043A\u0438,
+        \u0434\u0430\u043B\u0435\u0435 \u0432\u044B \u0438\u0434\u0435\u0442\u0435
+        \u043F\u0435\u0448\u043A\u043E\u043C "
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: 18_Shalash_bunner
+      TermType: 0
+      Description: 
+      Languages:
+      - 
+      - "\u0412\u043F\u0435\u0440\u0435\u0434\u0438 \u043D\u0435\u0434\u043E\u043B\u044C\u0448\u043E\u0439
+        \u0448\u0430\u043B\u0430\u0448, \u043E\u0441\u0442\u0430\u043D\u043E\u0432\u0438\u0442\u044C\u0441\u044F
+        \u043D\u0430 \u043E\u0442\u0434\u044B\u0445? "
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: 18_Shalash_cardLeft
+      TermType: 0
+      Description: 
+      Languages:
+      - 
+      - "\u0414\u0432\u0438\u0433\u0430\u0442\u044C\u0441\u044F \u0434\u0430\u043B\u044C\u0448\u0435"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: 18_Shalash_cardLeft_REV
+      TermType: 0
+      Description: 
+      Languages:
+      - 
+      - "\u041A\u043E\u043D\u0438 \u0443\u0436\u0435 \u0434\u043E\u0432\u043E\u043B\u044C\u043D\u043E
+        \u0443\u0441\u0442\u0430\u043B\u0438,  \u0438 \u0435\u043B\u0435 \u043F\u043B\u0435\u0442\u0443\u0442\u0441\u044F"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: 18_Shalash_cardRight
+      TermType: 0
+      Description: 
+      Languages:
+      - 
+      - "\u041F\u0435\u0440\u0435\u0436\u0434\u0430\u0442\u044C \u0434\u043E \u0440\u0430\u0441\u0441\u0432\u0435\u0442\u0430"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: 18_Shalash_cardRight_REV
+      TermType: 0
+      Description: 
+      Languages:
+      - 
+      - "\u0412\u044B \u043E\u0441\u0442\u0430\u0435\u0442\u0435\u0441\u0442\u044C
+        \u043D\u0430 \u043E\u0442\u0434\u044B\u0445 \u0432 \u0448\u0430\u043B\u0430\u0448\u0435
+        \u0434\u043E \u0440\u0430\u0441\u0441\u0432\u0435\u0442\u0430 "
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: 18_Breakfast_bunner
+      TermType: 0
+      Description: 
+      Languages:
+      - 
+      - "\u041D\u0430\u0441\u0442\u0443\u043F\u0430\u0435\u0442 \u0443\u0442\u0440\u043E,
+        \u043D\u0443\u0436\u043D\u043E \u043F\u043E\u0437\u0430\u0432\u0442\u0440\u0430\u043A\u0430\u0442\u044C
+        \u0438 \u043E\u0442\u043F\u0440\u0430\u0432\u0438\u0442\u044C\u0441\u044F
+        \u0432 \u043F\u0443\u0442\u044C, \u043A\u0442\u043E \u043F\u0440\u0438\u0433\u043E\u0442\u043E\u0432\u0438\u0442
+        \u0437\u0430\u0432\u0442\u0440\u0430\u043A?"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: 18_Breakfast_cardLeft
+      TermType: 0
+      Description: 
+      Languages:
+      - 
+      - "\u041F\u0440\u0438\u0433\u043E\u0442\u043E\u0432\u0438\u0442\u044C \u0441\u0430\u043C\u043E\u043C\u0443
+        \u043F\u043E \u0431\u044B\u0441\u0442\u0440\u0435\u043D\u044C\u043A\u043E\u043C\u0443"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: 18_Breakfast_cardLeft_REV
+      TermType: 0
+      Description: 
+      Languages:
+      - 
+      - "\u041E\u043A\u0430\u0437\u0430\u043B\u043E\u0441\u044C \u0447\u0442\u043E
+        \u043A\u0443\u043B\u0438\u043D\u0430\u0440 \u0432\u044B \u0442\u0430\u043A
+        \u0441\u0435\u0431\u0435 \u0438 \u0443 \u0432\u0441\u0435\u0445 \u0441\u043B\u0443\u0447\u0438\u043B\u043E\u0441\u044C
+        \u043D\u0435\u0441\u0432\u0430\u0440\u0435\u043D\u0438\u0435 "
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: 18_Breakfast_cardRight
+      TermType: 0
+      Description: 
+      Languages:
+      - 
+      - "\u041F\u043E\u0434\u043E\u0436\u0434\u0430\u0442\u044C \u043F\u043E\u043A\u0430
+        \u043E\u0434\u0438\u043D \u0438\u0437 \u0432\u043E\u0439\u043D\u043E\u0432
+        \u043F\u0440\u0438\u0433\u043E\u0442\u043E\u0432\u0438\u0442 \u0437\u0430\u0432\u0442\u0440\u0430\u043A"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: 18_Breakfast_cardRight_REV
+      TermType: 0
+      Description: 
+      Languages:
+      - 
+      - "\u0417\u0430\u0432\u0442\u0440\u0430\u043A \u0431\u044B\u043B \u043E\u0447\u0435\u043D\u044C
+        \u0432\u043A\u0443\u0441\u043D\u044B\u043C \u0438 \u043F\u0440\u0438\u0434\u0430\u043B
+        \u0432\u0430\u043C \u0441\u0438\u043B "
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: 18_Breakfast_OldMan_bunner
+      TermType: 0
+      Description: 
+      Languages:
+      - 
+      - "\u041D\u043E\u0447\u044C \u043F\u0440\u043E\u0448\u043B\u0430 \u0431\u0435\u0437
+        \u043F\u0440\u0438\u043A\u043B\u044E\u0447\u0435\u043D\u0438\u0439, \u0432\u044B
+        \u043E\u0442\u043B\u0438\u0447\u043D\u043E \u0432\u044B\u0441\u043F\u0430\u043B\u0438\u0441\u044C,
+        \u043E\u0441\u0442\u0430\u043B\u043E\u0441\u044C \u043F\u043E\u0437\u0430\u0432\u0442\u0440\u0430\u043A\u0430\u0442\u044C
+        \u0438 \u043C\u043E\u0436\u043D\u043E \u043E\u0442\u043F\u0440\u0430\u0432\u043B\u044F\u0442\u044C\u0441\u044F
+        \u0434\u0430\u043B\u044C\u0448\u0435"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: 18_Breakfast_OldMan_cardLeft
+      TermType: 0
+      Description: 
+      Languages:
+      - 
+      - "\u041F\u0440\u0438\u0433\u043E\u0442\u043E\u0432\u0438\u0442\u044C \u0441\u0430\u043C\u043E\u043C\u0443
+        \u043F\u043E \u0431\u044B\u0441\u0442\u0440\u0435\u043D\u044C\u043A\u043E\u043C\u0443"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: 18_Breakfast_OldMan_cardLeft_REV
+      TermType: 0
+      Description: 
+      Languages:
+      - 
+      - "\u041E\u043A\u0430\u0437\u0430\u043B\u043E\u0441\u044C \u0447\u0442\u043E
+        \u043A\u0443\u043B\u0438\u043D\u0430\u0440 \u0432\u044B \u0442\u0430\u043A
+        \u0441\u0435\u0431\u0435 \u0438 \u0443 \u0432\u0441\u0435\u0445 \u0441\u043B\u0443\u0447\u0438\u043B\u043E\u0441\u044C
+        \u043D\u0435\u0441\u0432\u0430\u0440\u0435\u043D\u0438\u0435 "
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: 18_Breakfast_OldMan_cardRight
+      TermType: 0
+      Description: 
+      Languages:
+      - 
+      - "\u041F\u043E\u0437\u0432\u043E\u043B\u0438\u0442\u044C \u043F\u0440\u0438\u0433\u043E\u0442\u043E\u0432\u0438\u0442\u044C
+        \u0437\u0430\u0432\u0442\u0440\u0430\u043A \u0441\u0442\u0430\u0440\u0438\u043A\u0443"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: 18_Breakfast_OldMan_cardRight_REV
+      TermType: 0
+      Description: 
+      Languages:
+      - 
+      - "\u0417\u0430\u0432\u0442\u0440\u0430\u043A \u0431\u044B\u043B \u043E\u0447\u0435\u043D\u044C
+        \u0432\u043A\u0443\u0441\u043D\u044B\u043C \u0438 \u043F\u0440\u0438\u0434\u0430\u043B
+        \u0432\u0430\u043C \u0441\u0438\u043B \u0438 \u044D\u043D\u0435\u0440\u0433\u0438\u0438"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: 18_Lesavki_bunner
+      TermType: 0
+      Description: 
+      Languages:
+      - 
+      - "\u041D\u0430 \u043F\u043E\u043B\u044F\u043D\u0435 \u0432\u044B \u0432\u0438\u0434\u0438\u0442\u0435
+        \u0436\u0435\u043D\u0441\u043A\u0443\u044E \u0444\u0438\u0433\u0443\u0440\u0443
+        \u0432 \u043F\u043B\u0430\u0442\u044C\u0435"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: 18_Lesavki_cardLeft
+      TermType: 0
+      Description: 
+      Languages:
+      - 
+      - "\u041F\u043E\u0434\u043E\u0439\u0442\u0438 \u043F\u043E\u0431\u043B\u0438\u0436\u0435
+        \u043A \u0434\u0435\u0432\u0443\u0448\u043A\u0435"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: 18_Lesavki_cardLeft_REV
+      TermType: 0
+      Description: 
+      Languages:
+      - 
+      - "\u0414\u0435\u0432\u0443\u0448\u043A\u0430 \u0440\u0430\u0441\u0441\u044B\u043F\u0430\u043B\u0430\u0441\u044C
+        \u043D\u0430 \u043D\u0435\u0441\u043A\u043E\u043B\u044C\u043A\u043E \u043C\u0430\u043B\u0435\u043D\u044C\u043A\u0438\u0445
+        \u043A\u043E\u043B\u043E\u0431\u043E\u0447\u043A\u043E\u0432 \u0438 \u043E\u043D\u0438
+        \u043D\u0430\u043F\u0430\u043B\u0438 \u043D\u0430 \u0432\u0430\u0441, \u044D\u0442\u043E
+        \u043E\u043A\u0430\u0437\u0430\u043B\u0438\u0441\u044C \u043B\u0435\u0441\u043D\u044B\u0435
+        \u0434\u0443\u0445\u0438"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: 18_Lesavki_cardRight
+      TermType: 0
+      Description: 
+      Languages:
+      - 
+      - "\u041D\u0430\u0431\u043B\u044E\u0434\u0430\u0442\u044C \u0438\u0437 \u0434\u0430\u043B\u0435\u043A\u0430"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: 18_Lesavki_cardRight_REV
+      TermType: 0
+      Description: 
+      Languages:
+      - 
+      - "\u0412\u044B \u0442\u0430\u043A \u0438 \u043D\u0435 \u0440\u0435\u0448\u0438\u043B\u0438\u0441\u044C
+        \u043F\u043E\u0434\u043E\u0439\u0442\u0438, \u0434\u0435\u0432\u0443\u0448\u043A\u0430
+        \u0441\u043A\u0440\u044B\u043B\u0430\u0441\u044C \u0432 \u043B\u0435\u0441\u0443"
       - 
       - 
       - 
@@ -2753,6 +4947,9 @@ MonoBehaviour:
     - Name: Chinese (Simplified)
       Code: zh-CN
       Flags: 0
+    - Name: Belarusian
+      Code: be
+      Flags: 0
     - Name: French
       Code: fr
       Flags: 0
@@ -2776,9 +4973,6 @@ MonoBehaviour:
       Flags: 0
     - Name: Ukrainian
       Code: uk
-      Flags: 0
-    - Name: Belarusian
-      Code: be
       Flags: 0
     IgnoreDeviceLanguage: 0
     _AllowUnloadingLanguages: 0
