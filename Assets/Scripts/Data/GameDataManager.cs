@@ -2,7 +2,6 @@ using Cysharp.Threading.Tasks;
 using System;
 using System.Collections.Generic;
 using System.IO;
-using UnityEditor;
 using UnityEngine;
 using UnityEngine.AddressableAssets;
 using UnityEngine.UI;
@@ -23,11 +22,11 @@ public class GameDataManager : MonoBehaviour
         saveSlot.GameData.Health = hPController.GetCurrentHP();
         saveSlot.GameData.CheckpointCount = mapController.GetCountCheckPoints();
 
-        // Получаем AssetReference адрес для фона локации
-        saveSlot.GameData.Location = GetAssetReference(locationBG.sprite);
+        // Используем Addressable AssetReference для локации
+        saveSlot.GameData.Location = locationBG.sprite != null ? new AssetReferenceSprite(locationBG.sprite.name) : null;
 
-        // Получаем AssetReference адрес для CardSet
-        saveSlot.GameData.CardSet = GetAssetReference(contentCard.CardSetScriptableObject);
+        // Используем Addressable AssetReference для CardSet
+        saveSlot.GameData.CardSet = contentCard.CardSetScriptableObject != null ? new AssetReference(contentCard.CardSetScriptableObject.name) : null;
 
         // Получаем список адресов предметов из инвентаря
         saveSlot.GameData.Items = GetAssetReferences(inventoryController.GetInventorySprites());
@@ -38,25 +37,16 @@ public class GameDataManager : MonoBehaviour
         SaveGameProgress(saveSlot.GameData);
     }
 
-    // Метод для получения адреса ресурса по объекту Sprite
-    private AssetReferenceSprite GetAssetReference(Sprite sprite)
-    {
-        return new AssetReferenceSprite(AssetDatabase.GetAssetPath(sprite));
-    }
-
-    // Метод для получения адреса ресурса по ScriptableObject
-    private AssetReference GetAssetReference(ScriptableObject scriptableObject)
-    {
-        return new AssetReference(AssetDatabase.GetAssetPath(scriptableObject));
-    }
-
     // Получаем список AssetReference для предметов инвентаря
     private List<AssetReferenceSprite> GetAssetReferences(List<Sprite> sprites)
     {
         var assetReferences = new List<AssetReferenceSprite>();
         foreach (var sprite in sprites)
         {
-            assetReferences.Add(GetAssetReference(sprite));
+            if (sprite != null)
+            {
+                assetReferences.Add(new AssetReferenceSprite(sprite.name));
+            }
         }
         return assetReferences;
     }
