@@ -7421,7 +7421,7 @@ MonoBehaviour:
   gameController: {fileID: 1825275744}
   soundController: {fileID: 791171146}
   hpController: {fileID: 1650742178}
-  cardSetScriptableObject: {fileID: 11400000, guid: 3004fe589ac54114b81f693a1092670f, type: 2}
+  cardSetScriptableObject: {fileID: 11400000, guid: 8b89e771499f0544da56ded8a4c2541a, type: 2}
 --- !u!114 &672165349
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24961,7 +24961,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -13979605, y: 9798910}
+  m_AnchoredPosition: {x: -13986456, y: 9803707}
   m_SizeDelta: {x: 0, y: 300}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &2018445987

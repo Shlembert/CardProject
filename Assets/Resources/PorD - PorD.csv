@@ -23,11 +23,11 @@ DemoEnd_cardRight,,,"На этом демо кончается, следите �
 DemoEnd_cardRight_REV,,,"На этом демо кончается, следите за новостями в нашей группе в ВК",,,,,,,,,,
 s1bunner,,You hear a knock at the door,Вы слышите стук в дверь,,,,,,,,,,
 s1cardLeft,,Open the door,Открыть дверь,,,,,,,,,,
-s1cardRight,,Climb out the window.,Вылезти в окно.,从窗户出去。,Вылазці ў акно.,Sortez par la fenêtre.,Raus aus dem Fenster.,Esci dalla finestra.,窓から出て行け,창 밖으로 나가,Salir por la ventana.,Pencereden dışarı çık.,Вилізти у вікно.
-s1revL,,You reluctantly get out of bed.,Вы нехотя встаете с кровати.,你不情愿地下床。,Вы неахвотна ўстаеце з ложка.,Vous sortez du lit à contrecœur.,Sie stehen widerwillig aus dem Bett auf.,Ti alzi a malincuore dal letto.,あなたはしぶしぶベッドから出ます。,당신은 마지 못해 침대에서 얻을.,Te levantas de la cama a regañadientes.,İsteksizce yataktan kalkıyorsunuz.,Ви знехотя встаєте з ліжка.
+s1cardRight,,Climb out the window,Вылезти в окно,从窗户出去。,Вылазці ў акно.,Sortez par la fenêtre.,Raus aus dem Fenster.,Esci dalla finestra.,窓から出て行け,창 밖으로 나가,Salir por la ventana.,Pencereden dışarı çık.,Вилізти у вікно.
+s1revL,,You reluctantly get out of bed.,Вы нехотя встаете с кровати,你不情愿地下床。,Вы неахвотна ўстаеце з ложка.,Vous sortez du lit à contrecœur.,Sie stehen widerwillig aus dem Bett auf.,Ti alzi a malincuore dal letto.,あなたはしぶしぶベッドから出ます。,당신은 마지 못해 침대에서 얻을.,Te levantas de la cama a regañadientes.,İsteksizce yataktan kalkıyorsunuz.,Ви знехотя встаєте з ліжка.
 s1revR,,"The window route is not available in this demo,  
-but we’re already working on it.","В этом демо не доступна ветка с окном,
-Но мы уже работаем над ней.","带窗口的分支在此演示中不可用,
+but we’re already working on it","В этом демо не доступна ветка с окном,
+Но мы уже работаем над ней","带窗口的分支在此演示中不可用,
 但我们已经在努力。","У гэтым дэма-версіі не даступна галіна з акном, але мы ўжо працуем над ёй.","Aucune branche avec fenêtre n'est disponible dans cette démo,
 Mais nous y travaillons déjà.","Ein Zweig mit einem Fenster ist in dieser Demo nicht verfügbar,
 Aber wir arbeiten bereits daran.","Nessun ramo con finestra è disponibile in questa demo,

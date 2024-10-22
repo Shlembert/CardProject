@@ -25,7 +25,7 @@ MonoBehaviour:
     requiredItemSprite: {fileID: 0}
     removeItemSprite: 0
     changeBanner: 0
-    locationSprite: {fileID: 21300000, guid: aa771bc4b59542f498e56fa72ffe0848, type: 3}
+    locationSprite: {fileID: 21300000, guid: e677c302e680e2141b9f1211d873aac7, type: 3}
     nextSetIfItem: {fileID: 11400000, guid: 127e075295cbbf946895897c9ccf830a, type: 2}
     nextSetIfNoItem: {fileID: 0}
     reverseSpriteIfItem: {fileID: 21300000, guid: b551375f3856449479d6e5b24e674b92, type: 3}
@@ -46,7 +46,7 @@ MonoBehaviour:
     removeItemSprite: 1
     changeBanner: 0
     locationSprite: {fileID: 21300000, guid: d6fddded13a279946afdcf50eb0e3b07, type: 3}
-    nextSetIfItem: {fileID: 11400000, guid: ff94f8646b4d42a46b93c91f08b54f8d, type: 2}
+    nextSetIfItem: {fileID: 11400000, guid: 26eba1feaf30ed442b390559a9fa03b8, type: 2}
     nextSetIfNoItem: {fileID: 0}
     reverseSpriteIfItem: {fileID: 21300000, guid: 1ade2169cf9d3e44d99742655bbadbbf, type: 3}
     reverseAudioClipItem: {fileID: 0}
