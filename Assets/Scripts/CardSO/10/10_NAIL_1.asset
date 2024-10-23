@@ -41,8 +41,8 @@ MonoBehaviour:
     illustrationSprite: {fileID: 21300000, guid: 1ade2169cf9d3e44d99742655bbadbbf, type: 3}
     animator: {fileID: 0}
     animationClip: {fileID: 0}
-    itemSprite: {fileID: 21300000, guid: eed540213e45dc848bed229e90f4319c, type: 3}
-    requiredItemSprite: {fileID: 21300000, guid: 86c0a7cc66357924b90a0828bc7729ad, type: 3}
+    itemSprite: {fileID: 21300000, guid: c1c42e746793f0745850d8b664a420e1, type: 3}
+    requiredItemSprite: {fileID: 21300000, guid: 9a9641d0b3101a64fbe07f50c561043d, type: 3}
     removeItemSprite: 1
     changeBanner: 0
     locationSprite: {fileID: 21300000, guid: d6fddded13a279946afdcf50eb0e3b07, type: 3}
