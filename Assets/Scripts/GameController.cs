@@ -13,13 +13,14 @@ public class GameController : MonoBehaviour
     [SerializeField] private InventoryController inventoryController;
     [SerializeField] private MapController mapController;
     [SerializeField] private HPController hpController;
-    [SerializeField] private GameObject createNewSaveButton;
+    [SerializeField] private GameObject createNewSaveButton, loadButton;
     [SerializeField] private float duration, posUp;
 
     private Image _imageHold;
     private Color _normalColorHold;
     private Vector3 _positionUp;
     private bool _isGameOver = false;
+    private bool _isMenu = true;
 
     public bool IsGameOver { get => _isGameOver; set => _isGameOver = value; }
 
@@ -60,6 +61,7 @@ public class GameController : MonoBehaviour
 
     public async void ShowMenu()
     {
+        _isMenu = true;
         soundController.PlayMenuMusic();
         await ShowHold();
         mainMenuPanel.position = Vector3.zero;
@@ -68,6 +70,7 @@ public class GameController : MonoBehaviour
 
     public async void HideMenu()
     {
+        _isMenu = false;
         soundController.PlayGameMusic();
         await ShowHold();
 
@@ -96,13 +99,15 @@ public class GameController : MonoBehaviour
     {
         await ShowHold();
         loadPanel.position = _positionUp;
-        pausePanel.position = Vector3.zero;
+        if(!_isMenu) pausePanel.position = Vector3.zero;
+        else pausePanel.position = _positionUp;
         await HideHold();
     }
 
     public async void ShowPause()
     {
         soundController.PlayMenuMusic();
+        loadButton.gameObject.SetActive(!_isMenu);
         await ShowHold();
         pausePanel.position = Vector3.zero;
         await HideHold();
@@ -173,6 +178,7 @@ public class GameController : MonoBehaviour
     }
     public async void GoToMenu()
     {
+        _isMenu = true;
         await ShowHold();
         inventoryController.ClearInventory();
         hpController.SetHP(3);

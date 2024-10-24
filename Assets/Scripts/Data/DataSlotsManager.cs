@@ -5,12 +5,14 @@ using System.Collections.Generic;
 using System.IO;
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class DataSlotsManager : MonoBehaviour
 {
     [SerializeField] private GameController gameController;
     [SerializeField] private GameDataManager gameDataManager;
     [SerializeField] private GameObject prefabSaveButton;
+    [SerializeField] private Button buttonLoad;
     [SerializeField] private Transform contentParent, dialoguePanel;
     [SerializeField] private TMP_InputField inputField;
     [SerializeField] private TMP_Text textField;
@@ -199,7 +201,8 @@ public class DataSlotsManager : MonoBehaviour
 
         string json = JsonUtility.ToJson(new SaveButtonDataList(saveSlots), true);
         await File.WriteAllTextAsync(SaveSlotsFilePath, json);
-
+        buttonLoad.interactable = true;
+        buttonLoad.GetComponent<ButtonAnimation>().enabled = true;
         Debug.Log("Все слоты успешно сохранены в JSON.");
     }
 
@@ -234,10 +237,14 @@ public class DataSlotsManager : MonoBehaviour
                 });
             }
 
+            buttonLoad.interactable = true;
+            buttonLoad.GetComponent<ButtonAnimation>().enabled = true;
+
             Debug.Log("Слоты успешно загружены из JSON.");
         }
         else
         {
+            buttonLoad.interactable = false;
             Debug.Log("Файл сохранений не найден.");
         }
     }

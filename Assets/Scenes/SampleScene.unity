@@ -867,6 +867,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   inputCard: {fileID: 1978738033}
   contentCard: {fileID: 991657348}
+  inventoryAnimation: {fileID: 70427096}
   inventory:
   - {fileID: 315289382}
   - {fileID: 350440114}
@@ -7345,7 +7346,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -210}
+  m_AnchoredPosition: {x: 0, y: -94}
   m_SizeDelta: {x: 300, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &672165344
@@ -16108,7 +16109,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1261092358}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 344445a89b4f74a0e9a0a766903df87e, type: 3}
   m_Name: 
@@ -16160,7 +16161,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\u041F\u0440\u043E\u0434\u043E\u043B\u0436\u0438\u0442\u044C"
+  m_text: "\u0417\u0430\u0433\u0440\u0443\u0437\u0438\u0442\u044C"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ad4a239ab6f37a74eb5e9b9cece70173, type: 2}
   m_sharedMaterial: {fileID: -4643862625607843736, guid: ad4a239ab6f37a74eb5e9b9cece70173, type: 2}
@@ -16187,7 +16188,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 27.35
+  m_fontSize: 35.5
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -18661,6 +18662,7 @@ MonoBehaviour:
   gameController: {fileID: 1825275744}
   gameDataManager: {fileID: 1420909032}
   prefabSaveButton: {fileID: 24647844}
+  buttonLoad: {fileID: 1564460127}
   contentParent: {fileID: 222562422}
   dialoguePanel: {fileID: 1710856331}
   inputField: {fileID: 315383535}
@@ -20997,7 +20999,7 @@ GameObject:
   - component: {fileID: 1564460127}
   - component: {fileID: 1564460126}
   m_Layer: 5
-  m_Name: ContinueButton
+  m_Name: LoadButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -21020,7 +21022,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -100}
+  m_AnchoredPosition: {x: 0, y: -208}
   m_SizeDelta: {x: 300, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1564460126
@@ -21079,7 +21081,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1564460129}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1825275744}
+        m_TargetAssemblyTypeName: GameController, Assembly-CSharp
+        m_MethodName: ShowLoad
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1564460128
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23196,8 +23210,8 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1564460125}
   - {fileID: 672165343}
+  - {fileID: 1564460125}
   - {fileID: 1013119386}
   - {fileID: 448895072}
   - {fileID: 840670927}
@@ -23790,6 +23804,7 @@ MonoBehaviour:
   mapController: {fileID: 539283691}
   hpController: {fileID: 1650742178}
   createNewSaveButton: {fileID: 2079075083}
+  loadButton: {fileID: 590787948}
   duration: 0.5
   posUp: 15
 --- !u!4 &1825275745
@@ -24961,7 +24976,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -14587763, y: 10224736}
+  m_AnchoredPosition: {x: -15046253, y: 10545766}
   m_SizeDelta: {x: 0, y: 300}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &2018445987

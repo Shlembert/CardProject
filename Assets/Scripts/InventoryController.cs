@@ -13,7 +13,6 @@ public class InventoryController : MonoBehaviour
     [SerializeField] private Transform fullBagPanel, target;
 
     private Transform _target, _itemTransform;
-    private CardData _cardData;
     private Sprite _sprite, _giveSprite;
     private Image _image;
 
@@ -28,8 +27,6 @@ public class InventoryController : MonoBehaviour
     // Проверка, есть ли предмет
     public bool CheckHaveItem(CardData cardData)
     {
-        _cardData = cardData;
-
         for (int i = 0; i < inventory.Count; i++)
         {
             if (inventory[i].sprite == cardData.requiredItemSprite)
@@ -158,7 +155,7 @@ public class InventoryController : MonoBehaviour
 
     public bool CheckFullInventory()
     {
-        if(!contentCard.IsGiveItem) { return false; }
+        if (!contentCard.IsGiveItem) { return false; }
         foreach (Image image in inventory)
         {
             if (!image.enabled)
@@ -247,5 +244,5 @@ public class InventoryController : MonoBehaviour
             });
         });
         await taskCompletionSource.Task;
-    }
+    }    
 }

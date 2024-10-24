@@ -1,13 +1,13 @@
 {
     "Slots": [
         {
-            "Name": "Start",
-            "DataTime": "14.10.2024 19:55",
-            "ScreenShotAddress": "D:/Git/CardProject/Assets/SaveData/Screenshots//Screenshot_20241014_195516.png",
+            "Name": "12",
+            "DataTime": "24.10.2024 07:35",
+            "ScreenShotAddress": "D:/GitHub/CardProject/Assets/SaveData/Screenshots//Screenshot_20241024_073511.png",
             "GameData": {
                 "Health": 3,
                 "Location": {
-                    "m_AssetGUID": "Assets/Sprites/BG/fon_2.png",
+                    "m_AssetGUID": "fon_2",
                     "m_SubObjectName": "",
                     "m_SubObjectType": "",
                     "m_EditorAssetChanged": false
@@ -15,29 +15,7 @@
                 "Items": [],
                 "CheckpointCount": 1,
                 "CardSet": {
-                    "m_AssetGUID": "Assets/Scripts/CardSO/1.asset",
-                    "m_SubObjectName": "",
-                    "m_SubObjectType": "",
-                    "m_EditorAssetChanged": false
-                }
-            }
-        },
-        {
-            "Name": "telega",
-            "DataTime": "14.10.2024 19:57",
-            "ScreenShotAddress": "D:/Git/CardProject/Assets/SaveData/Screenshots//Screenshot_20241014_195703.png",
-            "GameData": {
-                "Health": 3,
-                "Location": {
-                    "m_AssetGUID": "Assets/Sprites/BG/VillagePath.png",
-                    "m_SubObjectName": "",
-                    "m_SubObjectType": "",
-                    "m_EditorAssetChanged": false
-                },
-                "Items": [],
-                "CheckpointCount": 1,
-                "CardSet": {
-                    "m_AssetGUID": "Assets/Scripts/CardSO/3/3_ToCastleHow.asset",
+                    "m_AssetGUID": "1Start",
                     "m_SubObjectName": "",
                     "m_SubObjectType": "",
                     "m_EditorAssetChanged": false

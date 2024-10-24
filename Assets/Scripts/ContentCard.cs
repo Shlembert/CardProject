@@ -18,6 +18,7 @@ public class ContentCard : MonoBehaviour
 
     private CardSetScriptableObject _cardSetScriptableObject, _nextCardSetScriptableObject;
     private Sprite _giveItem, _haveItem, _location;
+    private CardData _cardData;
     private AudioClip _reverseAudioClip, _bannerAudioClip;
     private int _changeLifeCount = 0;
     private bool _changeBanner;
@@ -68,18 +69,18 @@ public class ContentCard : MonoBehaviour
 
     public void CheckRequestItem(CardType cardType)
     {
-        CardData cardData = SetSideCard(cardType);
+        _cardData = SetSideCard(cardType);
         StopAnim();
-        CheckChangeLocation(cardData);
+        CheckChangeLocation(_cardData);
 
-        CheckRemove = cardData.removeItemSprite;
+        CheckRemove = _cardData.removeItemSprite;
 
-        _changeBanner = cardData.changeBanner; // Проверка на смену баннера
+        _changeBanner = _cardData.changeBanner; // Проверка на смену баннера
 
-        if (cardData.requiredItemSprite != null) RequestItem(cardData);// Проверка, требуется ли предмет
-        else NotRequestItem(cardData);
+        if (_cardData.requiredItemSprite != null) RequestItem(_cardData);// Проверка, требуется ли предмет
+        else NotRequestItem(_cardData);
 
-        CheckGiveItem(cardData);
+        CheckGiveItem(_cardData);
     }
 
     private void RequestItem(CardData cardData)
@@ -120,9 +121,13 @@ public class ContentCard : MonoBehaviour
     {
         _isGiveItem = cardData.itemSprite;
 
-        if (cardData.itemSprite) // Проверка, дается ли предмет
+        if (_isGiveItem) // Проверка, дается ли предмет
         {
+            Debug.Log($"Провера, требуется предмет? {CheckRemove}");
             _giveItem = cardData.itemSprite;
+
+            if (CheckRemove) return;
+
             inventoryController.GiveSprite = _giveItem;
             Debug.Log($"Present: {_giveItem.name}");
         }
@@ -144,9 +149,8 @@ public class ContentCard : MonoBehaviour
     {
         if (_giveItem)
         {
-
             await inventoryAnimation
-                .MoveItemToInventory(_giveItem, reverseSprite.transform, inventoryController.GetTarget());
+           .MoveItemToInventory(_giveItem, reverseSprite.transform, inventoryController.GetTarget());
             Debug.Log($" ++++  Add item = {_giveItem}");
             _giveItem = null;
         }
