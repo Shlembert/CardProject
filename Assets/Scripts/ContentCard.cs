@@ -14,7 +14,7 @@ public class ContentCard : MonoBehaviour
     [SerializeField] private HPController hpController;
     [SerializeField] private BannerAnimation bannerAnimation;
     [SerializeField] private GameController gameController;
-    [SerializeField] private Animator animL, animR;
+    [SerializeField] private Animator animL, animR, animB;
 
     private CardSetScriptableObject _cardSetScriptableObject, _nextCardSetScriptableObject;
     private Sprite _giveItem, _haveItem, _location;
@@ -49,8 +49,13 @@ public class ContentCard : MonoBehaviour
 
         Debug.Log($" + Load CardSet name: [{cardSetScriptableObject.name}] +");
         portraitSprite.sprite = cardSetScriptableObject?.portrait;
+
+        bannerAnimation.AnimatorController = cardSetScriptableObject?.bannerAnimator;
+        bannerAnimation.AnimationClip = cardSetScriptableObject?.animationClip;
+
         BannerAudioClip = null;
         BannerAudioClip = cardSetScriptableObject?.bannerSound;
+
         input_L.AnimationClip = cardSetScriptableObject?.leftCard?.animationClip;
         input_L.AnimatorController = cardSetScriptableObject?.leftCard?.animator;
         illustrationSprite_L.sprite = cardSetScriptableObject?.leftCard?.illustrationSprite;

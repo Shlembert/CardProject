@@ -6,6 +6,7 @@ public class BannerAnimation : MonoBehaviour
 {
     [SerializeField] private ContentCard contentCard;
     [SerializeField] private SoundController soundController;
+    [SerializeField] private Animator animator;
     [SerializeField] private Transform textPanel, portret;
     [SerializeField] private float posHold, posShow;
     [SerializeField] private Vector3 _normalPos, _holdPos;
@@ -13,6 +14,11 @@ public class BannerAnimation : MonoBehaviour
 
     private float _normalPosX;
     private Color _normalColor;
+    private RuntimeAnimatorController _animatorController;
+    private AnimationClip _animationClip;
+
+    public RuntimeAnimatorController AnimatorController { get => _animatorController; set => _animatorController = value; }
+    public AnimationClip AnimationClip { get => _animationClip; set => _animationClip = value; }
 
     private void Start()
     {
@@ -30,6 +36,7 @@ public class BannerAnimation : MonoBehaviour
 
         portret.DOScale(0, 0.7f).SetEase(Ease.OutBack).From().OnComplete(async () =>
         {
+            PlayAnimation();
             await ShowMessageBanner();
             await UniTask.Delay(delay);
             taskCompletionSource.TrySetResult();  // Завершаем таск
@@ -41,6 +48,7 @@ public class BannerAnimation : MonoBehaviour
     public async UniTask HideBanner()
     {
         var taskCompletionSource = new UniTaskCompletionSource();
+        StopAnimation();
 
         textPanel.DOMoveX(posHold, 0.5f, false).OnComplete(() =>
         {
@@ -53,6 +61,28 @@ public class BannerAnimation : MonoBehaviour
             });
         });
         await taskCompletionSource.Task; // Ожидаем завершения анимации
+    }
+
+    private void PlayAnimation()
+    {
+
+        if (_animatorController != null && _animationClip != null)
+        {
+            animator.runtimeAnimatorController = _animatorController;
+            animator.enabled = true;
+            animator.Play(_animationClip.name);
+            animator.speed = 1f;
+        }
+    }
+
+    private void StopAnimation()
+    {
+        if (animator != null && _animationClip != null && animator.isActiveAndEnabled)
+        {
+            animator.Play(_animationClip.name, 0, 0f);
+            animator.speed = 0f;
+            animator.enabled = false;
+        }
     }
 
     public async UniTask ShowMessageBanner()

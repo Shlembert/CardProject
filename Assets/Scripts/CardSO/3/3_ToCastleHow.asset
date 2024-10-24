@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: 3_ToCastleHow
   m_EditorClassIdentifier: 
   portrait: {fileID: 21300000, guid: 103e48c1276507d4db598e0bc9c93daa, type: 3}
+  bannerAnimator: {fileID: 9100000, guid: 443731da750020044b2c1478522ebd84, type: 2}
+  animationClip: {fileID: 7400000, guid: 3f30bb1b9d4fbfe459f29f1ad7741892, type: 2}
   bannerSound: {fileID: 8300000, guid: 03c86f07a45d03845a86c9907efebc77, type: 3}
   bannerText: 3_ToCastleHow_bunner
   checkPoint: 0

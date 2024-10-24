@@ -867,7 +867,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   inputCard: {fileID: 1978738033}
   contentCard: {fileID: 991657348}
-  inventoryAnimation: {fileID: 70427096}
   inventory:
   - {fileID: 315289382}
   - {fileID: 350440114}
@@ -1940,6 +1939,7 @@ GameObject:
   - component: {fileID: 151893747}
   - component: {fileID: 151893749}
   - component: {fileID: 151893748}
+  - component: {fileID: 151893750}
   m_Layer: 5
   m_Name: Portrait
   m_TagString: Untagged
@@ -1986,7 +1986,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: f7eaca6ec73d07b4ba03ed0e1a4c44ca, type: 3}
+  m_Sprite: {fileID: 0}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2004,6 +2004,27 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 151893746}
   m_CullTransparentMesh: 1
+--- !u!95 &151893750
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 151893746}
+  m_Enabled: 0
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 443731da750020044b2c1478522ebd84, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &152338433
 GameObject:
   m_ObjectHideFlags: 0
@@ -12975,6 +12996,7 @@ MonoBehaviour:
   gameController: {fileID: 1825275744}
   animL: {fileID: 1920511664}
   animR: {fileID: 1280449570}
+  animB: {fileID: 0}
 --- !u!1 &1013119385
 GameObject:
   m_ObjectHideFlags: 0
@@ -17867,6 +17889,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   contentCard: {fileID: 991657348}
   soundController: {fileID: 791171146}
+  animator: {fileID: 151893750}
   textPanel: {fileID: 1341956243}
   portret: {fileID: 1098485150}
   posHold: -7
@@ -24976,7 +24999,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -15046253, y: 10545766}
+  m_AnchoredPosition: {x: -28966446, y: 20318338}
   m_SizeDelta: {x: 0, y: 300}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &2018445987

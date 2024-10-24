@@ -21,6 +21,8 @@ public class CardSetScriptableObjectEditor : Editor
         // Поля для сетов
         EditorGUILayout.LabelField("Информация о сете", _boldStyle);
         EditorGUILayout.PropertyField(serializedObject.FindProperty("portrait"), new GUIContent("Портрет"));
+        EditorGUILayout.PropertyField(serializedObject.FindProperty("bannerAnimator"), new GUIContent("Аниматор портрета"));
+        EditorGUILayout.PropertyField(serializedObject.FindProperty("animationClip"), new GUIContent("Анимация портрета"));
         EditorGUILayout.PropertyField(serializedObject.FindProperty("bannerSound"), new GUIContent("Звук портрета"));
         EditorGUILayout.PropertyField(serializedObject.FindProperty("bannerText"), new GUIContent("Текст баннера"));
 

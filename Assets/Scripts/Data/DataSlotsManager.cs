@@ -25,6 +25,7 @@ public class DataSlotsManager : MonoBehaviour
     private void Awake()
     {
         EnsureScreenshotDirectoryExists();
+        Debug.Log(SaveSlotsFilePath);
     }
 
     private void EnsureScreenshotDirectoryExists()
