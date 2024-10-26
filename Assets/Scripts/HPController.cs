@@ -7,6 +7,7 @@ public class HPController : MonoBehaviour
     [SerializeField] private HPAnimation hPAnimation;
     [SerializeField] private List<Image> hpImages;
     [SerializeField] private GameController gameController;
+    [SerializeField] private StateManager stateManager;
 
     private int _currentHP = 3;
 
@@ -35,6 +36,7 @@ public class HPController : MonoBehaviour
                 else 
                 {
                     Debug.Log("Game Over");
+                   stateManager.State = StateGame.Dead;
                     gameController.IsGameOver = true;
 
                   await  gameController.ShowDead();

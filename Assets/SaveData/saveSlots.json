@@ -1,0 +1,26 @@
+{
+    "Slots": [
+        {
+            "Name": "12",
+            "DataTime": "26.10.2024 19:38",
+            "ScreenShotAddress": "D:/Git/CardProject/Assets/SaveData/Screenshots//Screenshot_20241026_193843.png",
+            "GameData": {
+                "Health": 3,
+                "Location": {
+                    "m_AssetGUID": "fon_2",
+                    "m_SubObjectName": "",
+                    "m_SubObjectType": "",
+                    "m_EditorAssetChanged": false
+                },
+                "Items": [],
+                "CheckpointCount": 1,
+                "CardSet": {
+                    "m_AssetGUID": "1Start",
+                    "m_SubObjectName": "",
+                    "m_SubObjectType": "",
+                    "m_EditorAssetChanged": false
+                }
+            }
+        }
+    ]
+}

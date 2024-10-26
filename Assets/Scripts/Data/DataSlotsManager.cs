@@ -64,7 +64,7 @@ public class DataSlotsManager : MonoBehaviour
         foreach (var button in Buttons)
         {
             button.enabled = on;
-            button.GetComponent<ButtonAnimation>().enabled = on;
+           // button.GetComponent<ButtonAnimation>().enabled = on;
         }
     }
 
@@ -149,9 +149,9 @@ public class DataSlotsManager : MonoBehaviour
         RenderTexture renderTexture = new RenderTexture(width, height, 24);
         Camera.main.targetTexture = renderTexture;
 
-        gameController.ClearForScreenshot();
+        gameController.ClearForScreenShot();
         Camera.main.Render();
-        gameController.CompleteScreenshot();
+        gameController.CompleteScreenShot();
 
         RenderTexture.active = renderTexture;
         Texture2D screenshotTexture = new Texture2D(width, height, TextureFormat.RGB24, false);

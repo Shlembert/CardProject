@@ -2,11 +2,11 @@ using Cysharp.Threading.Tasks;
 using DG.Tweening;
 using UnityEngine;
 using UnityEngine.UI;
-using static UnityEngine.GraphicsBuffer;
 
 public class GameController : MonoBehaviour
 {
     [SerializeField] private Transform holdPanel, mapPanel, mainMenuPanel, winPanel, deadPanel, pausePanel, loadPanel;
+    [SerializeField] private Transform escMenu, escPlay;
     [SerializeField] private Image bg;
     [SerializeField] private HPController hPController;
     [SerializeField] private SoundController soundController;
@@ -99,7 +99,7 @@ public class GameController : MonoBehaviour
     {
         await ShowHold();
         loadPanel.position = _positionUp;
-        if(!_isMenu) pausePanel.position = Vector3.zero;
+        if (!_isMenu) pausePanel.position = Vector3.zero;
         else pausePanel.position = _positionUp;
         await HideHold();
     }
@@ -176,6 +176,7 @@ public class GameController : MonoBehaviour
         await HideHold();
         await UniTask.Yield();
     }
+
     public async void GoToMenu()
     {
         _isMenu = true;
@@ -204,20 +205,40 @@ public class GameController : MonoBehaviour
         await ShowHold();
 
         bg.sprite = sprite;
-     
+
         await HideHold();
     }
 
-    public void ClearForScreenshot()
+    public void ClearForScreenShot()
     {
         loadPanel.position = _positionUp;
     }
 
-    public void CompleteScreenshot()
+    public void CompleteScreenShot()
     {
         loadPanel.position = Vector3.zero;
     }
 
-    public void ExitGame()=> Application.Quit();
+    public void ShowMenuESC()
+    {
+        escMenu.DOScale(Vector3.one, duration).SetEase(Ease.OutBack);
+    }
+
+    public void HideMenuESC()
+    {
+        escMenu.DOScale(Vector3.zero, duration).SetEase(Ease.InBack);
+    }
+
+    public void ShowPlayESC()
+    {
+        escPlay.DOScale(Vector3.one, duration).SetEase(Ease.OutBack);
+    }
+
+    public void HidePlayESC()
+    {
+        escPlay.DOScale(Vector3.zero, duration).SetEase(Ease.InBack);
+    }
+
+    public void ExitGame() => Application.Quit();
     public void HideMapButton() => HideMap().Forget();
 }
