@@ -1,9 +1,10 @@
+using System.Collections.Generic;
 using UnityEngine;
 [System.Serializable]
 public class CardData
 {
     // Основная информация для карты
-    [TextArea(3, 3)] public string messageText; // Текст сообщения
+    public string messageText; // Текст сообщения
     public Sprite illustrationSprite; // Иллюстрация для карты
 
     public RuntimeAnimatorController animator; // Аниматор для подмены анимации
@@ -24,15 +25,19 @@ public class CardData
 
     // Реверс карты (если предмет есть)
     [Header("Реверс карты (если предмет есть)")]
+    public bool isWinIfItem; // Победная клмбинация
+    public List<WinContent> winContentIfItem; // набор победных слайдов
     public Sprite reverseSpriteIfItem; // Спрайт реверса карты (есть предмет)
     public AudioClip reverseAudioClipItem; // Звук клик на реверс (есть предмет)
-    [TextArea(3, 3)] public string reverseTopTextIfItem; // Текст реверса карты
+    public string reverseTopTextIfItem; // Текст реверса карты
     public int changeLifePointsIfItem; // Изменить очки жизни
 
     // Реверс карты (если предмета нет)
     [Header("Реверс карты (если предмета нет)")]
+    public bool isWinIfNoItem; // Победная клмбинация
+    public List<WinContent> winContentIfNoItem; // набор победных слайдов
     public Sprite reverseSpriteIfNoItem; // Спрайт реверса карты (нет предмета)
     public AudioClip reverseAudioClipNoItem; // Звук клик на реверс (нет предмета)
-    [TextArea(3, 3)] public string reverseTopTextIfNoItem; // Текст реверса карты
+    public string reverseTopTextIfNoItem; // Текст реверса карты
     public int changeLifePointsIfNoItem; // Изменить очки жизни
 }

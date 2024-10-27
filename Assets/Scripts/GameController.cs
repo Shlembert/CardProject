@@ -126,7 +126,8 @@ public class GameController : MonoBehaviour
         soundController.PlayMapMusic();
         await ShowHold();
         mapPanel.position = Vector3.zero;
-
+        deadPanel.position = _positionUp;
+        winPanel.position = _positionUp;
         await HideHold();
     }
 

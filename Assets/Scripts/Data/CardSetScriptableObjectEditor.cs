@@ -68,6 +68,8 @@ public class CardSetScriptableObjectEditor : Editor
         EditorGUILayout.Space();
 
         // Реверс карты (если предмет есть)
+        EditorGUILayout.PropertyField(serializedObject.FindProperty($"{cardPropertyPath}.isWinIfItem"), new GUIContent("Победа?"));
+        EditorGUILayout.PropertyField(serializedObject.FindProperty($"{cardPropertyPath}.winContentIfItem"), new GUIContent("Набор слайдов победы"));
         EditorGUILayout.PropertyField(serializedObject.FindProperty($"{cardPropertyPath}.reverseSpriteIfItem"), new GUIContent("Спрайт реверса"));
         EditorGUILayout.PropertyField(serializedObject.FindProperty($"{cardPropertyPath}.reverseAudioClipItem"), new GUIContent("Звук реверса"));
         EditorGUILayout.PropertyField(serializedObject.FindProperty($"{cardPropertyPath}.reverseTopTextIfItem"), new GUIContent("Текст реверса"));
@@ -76,6 +78,8 @@ public class CardSetScriptableObjectEditor : Editor
         EditorGUILayout.Space();
 
         // Реверс карты (если предмета нет)
+        EditorGUILayout.PropertyField(serializedObject.FindProperty($"{cardPropertyPath}.isWinIfNoItem"), new GUIContent("Победа?"));
+        EditorGUILayout.PropertyField(serializedObject.FindProperty($"{cardPropertyPath}.winContentIfNoItem"), new GUIContent("Набор слайдов победы"));
         EditorGUILayout.PropertyField(serializedObject.FindProperty($"{cardPropertyPath}.reverseSpriteIfNoItem"), new GUIContent("Спрайт реверса"));
         EditorGUILayout.PropertyField(serializedObject.FindProperty($"{cardPropertyPath}.reverseAudioClipNoItem"), new GUIContent("Звук реверса"));
         EditorGUILayout.PropertyField(serializedObject.FindProperty($"{cardPropertyPath}.reverseTopTextIfNoItem"), new GUIContent("Текст реверса"));

@@ -14,6 +14,7 @@ public class ContentCard : MonoBehaviour
     [SerializeField] private HPController hpController;
     [SerializeField] private BannerAnimation bannerAnimation;
     [SerializeField] private GameController gameController;
+    [SerializeField] private WinController winController;
     [SerializeField] private Animator animL, animR, animB;
 
     private CardSetScriptableObject _cardSetScriptableObject, _nextCardSetScriptableObject;
@@ -25,6 +26,7 @@ public class ContentCard : MonoBehaviour
     private bool _removeItem;
     private bool _checkRemove;
     private bool _isGiveItem;
+    private bool _isWin;
 
     public CardSetScriptableObject CardSetScriptableObject
     {
@@ -42,6 +44,7 @@ public class ContentCard : MonoBehaviour
     public AudioClip ReverseAudioClip { get => _reverseAudioClip; set => _reverseAudioClip = value; }
     public AudioClip BannerAudioClip { get => _bannerAudioClip; set => _bannerAudioClip = value; }
     public bool IsGiveItem { get => _isGiveItem; set => _isGiveItem = value; }
+    public bool IsWin { get => _isWin; set => _isWin = value; }
 
     public void SetContent(CardSetScriptableObject cardSetScriptableObject)
     {
@@ -93,7 +96,8 @@ public class ContentCard : MonoBehaviour
         if (inventoryController.CheckHaveItem(cardData)) // Есть предмет в инвентаре
         {
             NextCardSetScriptableObject = cardData.nextSetIfItem;
-
+            _isWin = cardData.isWinIfItem;
+            if(_isWin ) winController.SetWinContent(cardData.winContentIfItem);
             _haveItem = cardData.requiredItemSprite;
             _removeItem = cardData.requiredItemSprite;
             reverseLoc.Term = cardData.reverseTopTextIfItem;
@@ -103,7 +107,10 @@ public class ContentCard : MonoBehaviour
         }
         else                                       // Нет предмета
         {
+
             NextCardSetScriptableObject = cardData.nextSetIfNoItem;
+            _isWin = cardData.isWinIfNoItem;
+            if (_isWin) winController.SetWinContent(cardData.winContentIfNoItem);
             _changeLifeCount = cardData.changeLifePointsIfNoItem;
             reverseLoc.Term = cardData.reverseTopTextIfNoItem;
             reverseSprite.sprite = cardData.reverseSpriteIfNoItem;
@@ -115,6 +122,8 @@ public class ContentCard : MonoBehaviour
     private void NotRequestItem(CardData cardData)
     {
         NextCardSetScriptableObject = cardData.nextSetIfItem;
+        _isWin = cardData.isWinIfItem;
+        if (_isWin) winController.SetWinContent(cardData.winContentIfItem);
         _changeLifeCount = cardData.changeLifePointsIfItem;
         reverseLoc.Term = cardData.reverseTopTextIfItem;
         reverseSprite.sprite = cardData.reverseSpriteIfItem;

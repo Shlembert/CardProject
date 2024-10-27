@@ -103,12 +103,20 @@ public class InputCard : MonoBehaviour, IPointerEnterHandler, IPointerExitHandle
 
         await contentCard.HoldBanner();
         await contentCard.ChangeLocationSprite();
-        contentCard.SetContent(contentCard.NextCardSetScriptableObject);
+        if (contentCard.IsWin)
+        {
+            Debug.Log("WIN!");
+            await gameController.ShowWin();
+        }
+        else
+        {
+            contentCard.SetContent(contentCard.NextCardSetScriptableObject);
 
-        await UniTask.Delay(600);
-        await contentCard.ShowBanner();
-        await cardAnimation.ShowCards();
-        IsClick = false;
+            await UniTask.Delay(600);
+            await contentCard.ShowBanner();
+            await cardAnimation.ShowCards();
+            IsClick = false;
+        }
     }
 
     // Метод для проверки позиции курсора и вызова OnPointerEnter при необходимости
