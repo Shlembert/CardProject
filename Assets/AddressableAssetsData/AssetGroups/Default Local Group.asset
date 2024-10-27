@@ -22,13 +22,18 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 003d1931d5ad734488f1eedb3aa39405
+    m_Address: Assets/Scripts/CardSO/5/5_1_StealAppleCatch.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 05eb8f1c98363574aa83d1c7f024bc52
     m_Address: Assets/Scripts/CardSO/5/5_TakeNAIL.asset
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 095cb6d50afb6db43a4b352de6557d5e
-    m_Address: Assets/Scripts/CardSO/5.asset
+  - m_GUID: 0dfb13049c9a6674789c01d10dbc0f87
+    m_Address: Assets/Sprites/Items/NoKornItem.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -87,11 +92,6 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 2aa0e4075b072304fbe1081df394c6b4
-    m_Address: "Assets/Sprites/BG/\u041E\u0431\u043E\u0447\u0438\u043D\u0430 \u043B\u0435\u0441\u0430.png"
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 2bdd5d266eecbea4d9417fb538b81c9d
     m_Address: Assets/Sprites/Items/MinusHeart.png
     m_ReadOnly: 0
@@ -99,11 +99,6 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 2c676d6df64219f4eb130d46ed316fbd
     m_Address: Assets/Scripts/CardSO/16/16_Camping_W_OldMan.asset
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 2db77a776545a27409f4658092cb0855
-    m_Address: "Assets/Sprites/BG/\u0412\u044B\u0445\u043E\u0434 \u0438\u0437 \u0437\u0430\u043C\u043A\u0430.png"
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -257,13 +252,8 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 6c69c5706741bac44a2b5b85fd72043b
-    m_Address: Assets/Sprites/Items/1BlackHorse1Gray.png
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 72b5a7a7c5d60d54698bd3cb8b9325a9
-    m_Address: "Assets/Sprites/BG/\u0412\u044B\u0445\u043E\u0434\u0418\u0437\u0437\u0430\u043C\u043A\u0430.png"
+  - m_GUID: 71faa5f8e1534a2429d980ccdb549617
+    m_Address: Assets/Scripts/CardSO/5/5_1_StealAppleQ.asset
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -287,6 +277,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 75f234c7afda2054994f99f7e955e131
+    m_Address: Assets/Scripts/CardSO/4/4_ToCastleQ.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 77207c149992a89498ca679d959d7eba
     m_Address: Assets/Scripts/CardSO/17/17_OldMan_NightCamp.asset
     m_ReadOnly: 0
@@ -299,6 +294,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 78b6e3f3e0039764b816d6ae9b4ae2f9
     m_Address: Assets/Scripts/CardSO/11/11_Home_w_Horse_w_Guards.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7a7bab3e5c65c82439f9fee0580743d7
+    m_Address: Assets/Scripts/CardSO/5/5_3_AngryWoman.asset
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -337,11 +337,6 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 86c0a7cc66357924b90a0828bc7729ad
-    m_Address: Assets/Sprites/Items/3BlackHorse.png
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 87799774be82da940b2525dce31554dd
     m_Address: Assets/Scripts/CardSO/2/2_Guard.asset
     m_ReadOnly: 0
@@ -367,18 +362,13 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 96f55af47c107ea45a6ab5ba55cf0565
-    m_Address: Assets/Sprites/Items/Horse.png
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 97713ca7521477f4dba0d797498b9bd4
-    m_Address: Assets/Scripts/CardSO/4.asset
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 9a9641d0b3101a64fbe07f50c561043d
     m_Address: "Assets/Sprites/Items/3\u043A\u043E\u043D\u044F.png"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a00032c3e4d3c964fa2e64adc17025a8
+    m_Address: Assets/Scripts/CardSO/5/5_4_BazaarEnd.asset
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -438,18 +428,23 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c22c74f5f943e334aacc3252fbbd0b9f
+    m_Address: Assets/Sprites/BG/BazaarBG.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: c6f78d8a9ab28ea42aa0588e928071d4
     m_Address: Assets/Scripts/CardSO/18/18_CrazyHorses.asset
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: cf0ae24124d118e4d8d0935f8f8990e5
-    m_Address: Assets/Sprites/BG/CastleGates.png
+  - m_GUID: d363f3269da63a649ac49ace9ba52eb1
+    m_Address: Assets/Scripts/CardSO/10/10_GO_WAY_HOW_1.asset
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: d363f3269da63a649ac49ace9ba52eb1
-    m_Address: Assets/Scripts/CardSO/10/10_GO_WAY_HOW_1.asset
+  - m_GUID: d3d8a119bad36224fbf125a81595d63d
+    m_Address: Assets/Sprites/Items/KornItem.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -468,8 +463,8 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: dcdcb3b1f042ab94ba4e4c478375749f
-    m_Address: Assets/Sprites/Items/2BlackHorse1Gray.png
+  - m_GUID: debd061b1d5576946bd0320010ea7125
+    m_Address: Assets/Scripts/CardSO/5/5_BazaarORPlatz.asset
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -503,6 +498,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e6ef0b5954f6f044dbc082a54225770f
+    m_Address: Assets/Scripts/CardSO/5/5_3_FingerEar.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: ea32759cae45a094398fba469c18ac09
     m_Address: Assets/Scripts/CardSO/15/15_W_OldMan.asset
     m_ReadOnly: 0
@@ -520,16 +520,6 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: eeaff6148388f004796da9358a9ec4f9
     m_Address: Assets/Scripts/CardSO/17/17_OldMan_Pay.asset
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: eed540213e45dc848bed229e90f4319c
-    m_Address: Assets/Sprites/Items/2BlackHorse.png
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: efdddba89992b1b4880a2a2220169f83
-    m_Address: Assets/Scripts/CardSO/3.asset
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0

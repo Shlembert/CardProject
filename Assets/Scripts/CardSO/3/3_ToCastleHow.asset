@@ -27,8 +27,8 @@ MonoBehaviour:
     requiredItemSprite: {fileID: 0}
     removeItemSprite: 0
     changeBanner: 1
-    locationSprite: {fileID: 21300000, guid: dabc19750805c6143a0fb000e46b6e38, type: 3}
-    nextSetIfItem: {fileID: 11400000, guid: 92f33e50c6a9dfa41b83835b91648dc1, type: 2}
+    locationSprite: {fileID: 0}
+    nextSetIfItem: {fileID: 11400000, guid: 75f234c7afda2054994f99f7e955e131, type: 2}
     nextSetIfNoItem: {fileID: 0}
     reverseSpriteIfItem: {fileID: 21300000, guid: 0d38550f1ab6802478d5d50b01b3a758, type: 3}
     reverseAudioClipItem: {fileID: 8300000, guid: 5be5dc475b4e5164dad12de2611d92de, type: 3}

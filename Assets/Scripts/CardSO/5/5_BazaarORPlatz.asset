@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8636afbb060c9543bb985dfc1b704ad, type: 3}
+  m_Name: 5_BazaarORPlatz
+  m_EditorClassIdentifier: 
+  portrait: {fileID: 21300000, guid: 103e48c1276507d4db598e0bc9c93daa, type: 3}
+  bannerAnimator: {fileID: 9100000, guid: 443731da750020044b2c1478522ebd84, type: 2}
+  animationClip: {fileID: 7400000, guid: 3f30bb1b9d4fbfe459f29f1ad7741892, type: 2}
+  bannerSound: {fileID: 0}
+  bannerText: 5_BazaarORPlatz_bunner
+  checkPoint: 0
+  leftCard:
+    messageText: 5_BazaarORPlatz_cardLeft
+    illustrationSprite: {fileID: 21300000, guid: 7bbeff2af48fe3147998f5da95a65108, type: 3}
+    animator: {fileID: 0}
+    animationClip: {fileID: 0}
+    itemSprite: {fileID: 0}
+    requiredItemSprite: {fileID: 0}
+    removeItemSprite: 0
+    changeBanner: 1
+    locationSprite: {fileID: 0}
+    nextSetIfItem: {fileID: 11400000}
+    nextSetIfNoItem: {fileID: 0}
+    reverseSpriteIfItem: {fileID: 21300000, guid: b2a8fc7c3fbcea14e9b318c323f9af6c, type: 3}
+    reverseAudioClipItem: {fileID: 0}
+    reverseTopTextIfItem: 5_BazaarORPlatz_cardLeft_REV
+    changeLifePointsIfItem: 0
+    reverseSpriteIfNoItem: {fileID: 0}
+    reverseAudioClipNoItem: {fileID: 0}
+    reverseTopTextIfNoItem: 
+    changeLifePointsIfNoItem: 0
+  rightCard:
+    messageText: 5_BazaarORPlatz_cardRight
+    illustrationSprite: {fileID: 21300000, guid: 8b3282a38ea0e164692234f90e1cff5a, type: 3}
+    animator: {fileID: 0}
+    animationClip: {fileID: 0}
+    itemSprite: {fileID: 0}
+    requiredItemSprite: {fileID: 0}
+    removeItemSprite: 0
+    changeBanner: 1
+    locationSprite: {fileID: 21300000, guid: c22c74f5f943e334aacc3252fbbd0b9f, type: 3}
+    nextSetIfItem: {fileID: 11400000, guid: 71faa5f8e1534a2429d980ccdb549617, type: 2}
+    nextSetIfNoItem: {fileID: 0}
+    reverseSpriteIfItem: {fileID: 21300000, guid: 8b3282a38ea0e164692234f90e1cff5a, type: 3}
+    reverseAudioClipItem: {fileID: 0}
+    reverseTopTextIfItem: 5_BazaarORPlatz_cardRight_REV
+    changeLifePointsIfItem: 0
+    reverseSpriteIfNoItem: {fileID: 0}
+    reverseAudioClipNoItem: {fileID: 0}
+    reverseTopTextIfNoItem: 
+    changeLifePointsIfNoItem: 0

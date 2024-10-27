@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8636afbb060c9543bb985dfc1b704ad, type: 3}
+  m_Name: 4_ToCastleQ
+  m_EditorClassIdentifier: 
+  portrait: {fileID: 21300000, guid: 82b4f8f959c4e314e8912813ad3215b0, type: 3}
+  bannerAnimator: {fileID: 9100000, guid: d3c0949986f451b4c8587f818d74eb25, type: 2}
+  animationClip: {fileID: 7400000, guid: 3917c0f23ee3ae64c967e564905376d2, type: 2}
+  bannerSound: {fileID: 0}
+  bannerText: 4_ToCastleQ_bunner
+  checkPoint: 0
+  leftCard:
+    messageText: 4_ToCastleQ_cardLeft
+    illustrationSprite: {fileID: 21300000, guid: b0c60248ae029c643820c3f2a4aed17a, type: 3}
+    animator: {fileID: 0}
+    animationClip: {fileID: 0}
+    itemSprite: {fileID: 0}
+    requiredItemSprite: {fileID: 0}
+    removeItemSprite: 0
+    changeBanner: 0
+    locationSprite: {fileID: 0}
+    nextSetIfItem: {fileID: 11400000, guid: debd061b1d5576946bd0320010ea7125, type: 2}
+    nextSetIfNoItem: {fileID: 0}
+    reverseSpriteIfItem: {fileID: 21300000, guid: db33c82b37aa68740b8c085e903ab757, type: 3}
+    reverseAudioClipItem: {fileID: 0}
+    reverseTopTextIfItem: 4_ToCastleQ_cardLeft_REV
+    changeLifePointsIfItem: 0
+    reverseSpriteIfNoItem: {fileID: 0}
+    reverseAudioClipNoItem: {fileID: 0}
+    reverseTopTextIfNoItem: 
+    changeLifePointsIfNoItem: 0
+  rightCard:
+    messageText: 4_ToCastleQ_cardRight
+    illustrationSprite: {fileID: 21300000, guid: 6be4edfec2b9a654ca2f234f292ecec0, type: 3}
+    animator: {fileID: 0}
+    animationClip: {fileID: 0}
+    itemSprite: {fileID: 0}
+    requiredItemSprite: {fileID: 0}
+    removeItemSprite: 0
+    changeBanner: 1
+    locationSprite: {fileID: 21300000, guid: 2608c72184e33ab4bbc0e2ad80069b5b, type: 3}
+    nextSetIfItem: {fileID: 11400000, guid: debd061b1d5576946bd0320010ea7125, type: 2}
+    nextSetIfNoItem: {fileID: 0}
+    reverseSpriteIfItem: {fileID: 21300000, guid: 6be4edfec2b9a654ca2f234f292ecec0, type: 3}
+    reverseAudioClipItem: {fileID: 0}
+    reverseTopTextIfItem: 4_ToCastleQ_cardRight_REV
+    changeLifePointsIfItem: 0
+    reverseSpriteIfNoItem: {fileID: 0}
+    reverseAudioClipNoItem: {fileID: 0}
+    reverseTopTextIfNoItem: 
+    changeLifePointsIfNoItem: 0
