@@ -51,10 +51,11 @@ public class ContentCard : MonoBehaviour
         CardSetScriptableObject = cardSetScriptableObject;
 
         Debug.Log($" + Load CardSet name: [{cardSetScriptableObject.name}] +");
-        portraitSprite.sprite = cardSetScriptableObject?.portrait;
 
-        bannerAnimation.AnimatorController = cardSetScriptableObject?.bannerAnimator;
-        bannerAnimation.AnimationClip = cardSetScriptableObject?.animationClip;
+        portraitSprite.sprite = cardSetScriptableObject.portrait;
+
+        bannerAnimation.AnimatorController = cardSetScriptableObject.bannerAnimator;
+        bannerAnimation.AnimationClip = cardSetScriptableObject.animationClip;
 
         BannerAudioClip = null;
         BannerAudioClip = cardSetScriptableObject?.bannerSound;

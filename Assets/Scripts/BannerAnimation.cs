@@ -12,8 +12,6 @@ public class BannerAnimation : MonoBehaviour
     [SerializeField] private Vector3 _normalPos, _holdPos;
     [SerializeField] private int delay;
 
-    private float _normalPosX;
-    private Color _normalColor;
     private RuntimeAnimatorController _animatorController;
     private AnimationClip _animationClip;
 
@@ -33,6 +31,7 @@ public class BannerAnimation : MonoBehaviour
         var taskCompletionSource = new UniTaskCompletionSource();
 
         portret.position = _normalPos;
+        
 
         portret.DOScale(0, 0.7f).SetEase(Ease.OutBack).From().OnComplete(async () =>
         {
@@ -65,7 +64,6 @@ public class BannerAnimation : MonoBehaviour
 
     private void PlayAnimation()
     {
-
         if (_animatorController != null && _animationClip != null)
         {
             animator.runtimeAnimatorController = _animatorController;
@@ -77,7 +75,7 @@ public class BannerAnimation : MonoBehaviour
 
     private void StopAnimation()
     {
-        if (animator != null && _animationClip != null && animator.isActiveAndEnabled)
+        if (animator != null && _animationClip != null)
         {
             animator.Play(_animationClip.name, 0, 0f);
             animator.speed = 0f;
