@@ -102,6 +102,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 320438b2bad26b64b93413388e266025
+    m_Address: Assets/Scripts/CardSO/12/12_Forest_Entrance_ALONE.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 327440780d8087344affcbfe573abf57
     m_Address: "Assets/Sprites/BG/\u0422\u0435\u043C\u043D\u0438\u0446\u0430.png"
     m_ReadOnly: 0
@@ -382,6 +387,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a6200f021d352df4fbc8405014a63c45
+    m_Address: Assets/Scripts/CardSO/13/13_2Roadz.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: aa771bc4b59542f498e56fa72ffe0848
     m_Address: "Assets/Sprites/BG/\u041F\u0440\u0438\u0432\u0430\u043B \u0432 \u0442\u0435\u043C\u043D\u043E\u043C
       \u043B\u0435\u0441\u0443.png"
@@ -460,6 +470,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: dabc19750805c6143a0fb000e46b6e38
     m_Address: Assets/Sprites/BG/KinsPlace.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dda3bc681e3a24240bbe7122c67b10f1
+    m_Address: Assets/Scripts/CardSO/13/13_5_RogueLager.asset
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
