@@ -12,7 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8636afbb060c9543bb985dfc1b704ad, type: 3}
   m_Name: 3_GuardSlamDoor
   m_EditorClassIdentifier: 
-  portrait: {fileID: 21300000, guid: 2841b4cff1a5bd544b4b4265c136d1eb, type: 3}
+  portrait: {fileID: 21300000, guid: 82b4f8f959c4e314e8912813ad3215b0, type: 3}
+  bannerAnimator: {fileID: 9100000, guid: d3c0949986f451b4c8587f818d74eb25, type: 2}
+  animationClip: {fileID: 7400000, guid: 3917c0f23ee3ae64c967e564905376d2, type: 2}
   bannerSound: {fileID: 8300000, guid: 329785b5891de404c8ab6c941efd27a0, type: 3}
   bannerText: 3_GuardSlamDoor_bunner
   checkPoint: 0
@@ -28,10 +30,14 @@ MonoBehaviour:
     locationSprite: {fileID: 0}
     nextSetIfItem: {fileID: 11400000, guid: 92980bbab46386e4dba3b7a2db8a784d, type: 2}
     nextSetIfNoItem: {fileID: 0}
+    isWinIfItem: 0
+    winContentIfItem: []
     reverseSpriteIfItem: {fileID: 21300000, guid: 7f60b426711fdca4ba10cdb8b1f10ad7, type: 3}
     reverseAudioClipItem: {fileID: 0}
     reverseTopTextIfItem: 3_GuardSlamDoor_cardLeft_REV
     changeLifePointsIfItem: 0
+    isWinIfNoItem: 0
+    winContentIfNoItem: []
     reverseSpriteIfNoItem: {fileID: 0}
     reverseAudioClipNoItem: {fileID: 0}
     reverseTopTextIfNoItem: 
@@ -48,10 +54,14 @@ MonoBehaviour:
     locationSprite: {fileID: 0}
     nextSetIfItem: {fileID: 11400000, guid: 68236e48266d8f94f8006bf32b10680c, type: 2}
     nextSetIfNoItem: {fileID: 0}
+    isWinIfItem: 0
+    winContentIfItem: []
     reverseSpriteIfItem: {fileID: 21300000, guid: 8cae47ce39b9ba14892a9f8677c4e344, type: 3}
     reverseAudioClipItem: {fileID: 0}
     reverseTopTextIfItem: 3_GuardSlamDoor_cardRight_REV
     changeLifePointsIfItem: -1
+    isWinIfNoItem: 0
+    winContentIfNoItem: []
     reverseSpriteIfNoItem: {fileID: 0}
     reverseAudioClipNoItem: {fileID: 0}
     reverseTopTextIfNoItem: 

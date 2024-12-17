@@ -26,8 +26,7 @@ s1cardLeft,,Open the door,Открыть дверь,,,,,,,,,,
 s1cardRight,,Climb out the window,Вылезти в окно,从窗户出去。,Вылазці ў акно.,Sortez par la fenêtre.,Raus aus dem Fenster.,Esci dalla finestra.,窓から出て行け,창 밖으로 나가,Salir por la ventana.,Pencereden dışarı çık.,Вилізти у вікно.
 s1revL,,You reluctantly get out of bed.,Вы нехотя встаете с кровати,你不情愿地下床。,Вы неахвотна ўстаеце з ложка.,Vous sortez du lit à contrecœur.,Sie stehen widerwillig aus dem Bett auf.,Ti alzi a malincuore dal letto.,あなたはしぶしぶベッドから出ます。,당신은 마지 못해 침대에서 얻을.,Te levantas de la cama a regañadientes.,İsteksizce yataktan kalkıyorsunuz.,Ви знехотя встаєте з ліжка.
 s1revR,,"The window route is not available in this demo,  
-but we’re already working on it","В этом демо не доступна ветка с окном,
-Но мы уже работаем над ней","带窗口的分支在此演示中不可用,
+but we’re already working on it","Вы выглядываете в окно, и видите что в демо эта ветка сюжета недоступна и возвращяетесь в дом","带窗口的分支在此演示中不可用,
 但我们已经在努力。","У гэтым дэма-версіі не даступна галіна з акном, але мы ўжо працуем над ёй.","Aucune branche avec fenêtre n'est disponible dans cette démo,
 Mais nous y travaillons déjà.","Ein Zweig mit einem Fenster ist in dieser Demo nicht verfügbar,
 Aber wir arbeiten bereits daran.","Nessun ramo con finestra è disponibile in questa demo,
@@ -40,7 +39,7 @@ Ama biz zaten üzerinde çalışıyoruz.","У цьому демо не дост�
 s1revLno,,Set 1 Reverse Left No Item,Пара 1 Реверс Левый Нет предмета,,,,,,,,,,
 s1revRno,,Set 1 Reverse Right No Item,Пара 1 Реверс Правый Нет предмета,,,,,,,,,,
 2_Guard_bunner,,"There were royal guards outside the door
-They demand that you go to the palace","За дверью оказалась королевская стража
+They demand that you go to the palace","За дверью оказалась царская стража
 Требуют чтобы вы отправились во дворец","门外有御前侍卫
 他们要求你去皇宫","За дзвярыма апынулася каронная варта. Яны патрабуюць, каб вы адправіліся ў палац.","Derrière la porte se trouvait la garde royale
 Exiger que vous alliez au palais","Die königliche Wache stand vor der Tür
@@ -75,16 +74,13 @@ Saraya gitmenizi istiyorlar","За дверима опинилася корол�
 4_ToCastleQ_bunner,,,"Вы одеватесть и выходите из дома, а стража провожает вас взглядом",,,,,,,,,,
 4_ToCastleQ_cardLeft,,,А ну его этого царя и его бабу!!!,,,,,,,,,,
 4_ToCastleQ_cardLeft_REV,,,Любопытство заставляет вас узнать что все - таки хочет от вас царь,,,,,,,,,,
-4_ToCastleQ_cardRight,,,Правда отправиться во дворец,,,,,,,,,,
-4_ToCastleQ_cardRight_REV,,,"Схожу узнаю что царь от меня хочет, может награду какую пожалует!",,,,,,,,,,
-5_BazaarORPlatz_bunner,,,Вы выходите со своего двора,,,,,,,,,,
-5_BazaarORPlatz_cardLeft,,,"Эта ветка пока что недоступна в ДЕМО версии
-Пожалуйста выберите правую карту",,,,,,,,,,
-5_BazaarORPlatz_cardLeft_REV,,,"Эта ветка пока что недоступна в ДЕМО версии
-
-Пожалуйста выберите правую карту",,,,,,,,,,
-5_BazaarORPlatz_cardRight,,,Пойти через базар,,,,,,,,,,
-5_BazaarORPlatz_cardRight_REV,,,До базара идти ближе и вы не хотите напрягаться,,,,,,,,,,
+4_ToCastleQ_cardRight,,,Отправиться в замок через базар,,,,,,,,,,
+4_ToCastleQ_cardRight_REV,,,До базара идти ближе и вы не хотите напрягаться,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
 5_1_StealAppleQ_bunner,,,Вы идете по базару и видите на одном из прилавков спелое яблоко,,,,,,,,,,
 5_1_StealAppleQ_cardLeft,,,Пройти мимо,,,,,,,,,,
 5_1_StealAppleQ_cardLeft_REV,,,Вы решаете не испытывать удачу в самом начале путешествия и проходите мимо,,,,,,,,,,
@@ -99,7 +95,7 @@ Saraya gitmenizi istiyorlar","За дверима опинилася корол�
 5_3_FingerEar_cardLeft,,,Начать извиняться,,,,,,,,,,
 5_3_FingerEar_cardLeft_REV,,,"Вы извиняетесь, но это не срабатывает — женщина с размаху надевает вам на голову корзину",,,,,,,,,,
 5_3_FingerEar_cardRight,,,"Выждать момент, и дать деру!!!",,,,,,,,,,
-5_3_FingerEar_cardRight_REV,,,"Вы показывате пальцем в сторону :"" Смотрите там Царь !!!"" и пока все обернулись бежите сломя голову",,,,,,,,,,
+5_3_FingerEar_cardRight_REV,,,"Вы показывате пальцем в сторону :"" Смотрите там Царь!!!"" и пока все обернулись бежите сломя голову",,,,,,,,,,
 5_3_AngryWoman_bunner,,,Вы стоите перед злой женщиной с початком кукурузы в руке,,,,,,,,,,
 5_3_AngryWoman_cardLeft,,,"Выждать момент, и дать деру!!!",,,,,,,,,,
 5_3_AngryWoman_cardLeft_REV,,,"Вы показывате пальцем в сторону :"" Смотрите там Царь"" и пока все обернулись бежите сломя голову",,,,,,,,,,
@@ -148,17 +144,17 @@ How the dragon kidnapped his princess","Вас представили безут
 6_KingsPlace_cardRight_REV,,You continue to listen to the king's story without enthusiasm,Вы без энтузиазма продолжаете слушать историю короля,你继续听国王的故事没有热情,Вы без энтузіязму працягваеце слухаць гісторыю караля,,,,,,,,
 6_KingsPlace2_bunner,,"You came to the castle to the inconsolable king,
 who bitterly told about that,
-How the dragon kidnapped his princess","Вы пришли в замок к безутешному королю,
+How the dragon kidnapped his princess","Вы пришли в замок к безутешному царю,
 который с горечью поведал о том,
-как дракон похитил его принцессу","你来到城堡的伤心欲绝的国王,
+что дракон похитил его принцессу","你来到城堡的伤心欲绝的国王,
 谁恨恨地告诉
 龙如何绑架他的公主","Вы прыйшлі ў замак да няўцешнаму каралю,
 які з горыччу распавёў пра тое,
 як цмок выкраў яго прынцэсу",,,,,,,,
 6_KingsPlace2_cardLeft,,"To ask, what does this have to do with you?",Спросить причем здесь вы?,要问，这跟你有什么关系？,"Запытацца, якое да вас дачыненне?",,,,,,,,
-6_KingsPlace2_cardLeft_REV,,"The guards look at you with displeasure, but the king sighs and continues his story","Стража бросает на вас недовольные взгляды, но король, вздохнув, продолжает свой рассказ",卫兵不悦地看着你，但国王叹了口气，继续他的故事,"Варта кідае на вас незадаволеныя погляды, але кароль, уздыхнуўшы, працягвае свой аповяд",,,,,,,,
+6_KingsPlace2_cardLeft_REV,,"The guards look at you with displeasure, but the king sighs and continues his story","Стража бросает на вас недовольные взгляды, но царь, вздохнув, продолжает свой рассказ",卫兵不悦地看着你，但国王叹了口气，继续他的故事,"Варта кідае на вас незадаволеныя погляды, але кароль, уздыхнуўшы, працягвае свой аповяд",,,,,,,,
 6_KingsPlace2_cardRight,,Continue listening,Продолжить слушать,继续收听,Працягнуць слухаць,,,,,,,,
-6_KingsPlace2_cardRight_REV,,You continue to listen to the king's story without enthusiasm,Вы без энтузиазма продолжаете слушать историю короля,你继续听国王的故事没有热情,Вы без энтузіязму працягваеце слухаць гісторыю караля,,,,,,,,
+6_KingsPlace2_cardRight_REV,,You continue to listen to the king's story without enthusiasm,Вы без энтузиазма продолжаете слушать эту печальную историю,你继续听国王的故事没有热情,Вы без энтузіязму працягваеце слухаць гісторыю караля,,,,,,,,
 7_KingTellStory_bunner,,"He sent his best knights,
 But no one has returned and now
 He orders you to save the princess","Он посылал самых лучших своих рыцарей,
@@ -177,7 +173,7 @@ He orders you to save the princess","Он посылал самых лучших
 7_KingTellStory_cardLeft,,Refuse,Отказаться,拒绝,Адмовіцца,,,,,,,,
 7_KingTellStory_cardLeft_REV,,You reply that you are not in the mood for exploits,Вы отвечаете что у вас нет настроения для подвигов,你回答说你没有心情进行攻击,Вы адказваеце што ў вас няма настрою для подзвігаў,,,,,,,,
 7_KingTellStory_cardRight,,Agree to save the princess,Согласиться спасти принцессу,同意拯救公主,Пагадзіцца выратаваць прынцэсу,,,,,,,,
-7_KingTellStory_cardRight_REV,,"The king is pleased with your compliance, and gives two warriors to help","Король обрадован вашей сговорчивостью, и дает в помощь двух воинов",国王很高兴你的遵守，并给了两个战士来帮助,"Кароль узрадаваны вашай згаворлівасцю, і дае ў дапамогу двух воінаў",,,,,,,,
+7_KingTellStory_cardRight_REV,,"The king is pleased with your compliance, and gives two warriors to help",Царь рад что вы согласились,国王很高兴你的遵守，并给了两个战士来帮助,"Кароль узрадаваны вашай згаворлівасцю, і дае ў дапамогу двух воінаў",,,,,,,,
 7_Listen_bunner,,"He sent his best knights,
 but no one came back and now
 he asks you to save the princess","Он посылал самых лучших своих рыцарей,
@@ -190,18 +186,18 @@ he asks you to save the princess","Он посылал самых лучших �
 7_Listen_cardLeft,,Refuse,Отказаться,拒绝,Адмовіцца,,,,,,,,
 7_Listen_cardLeft_REV,,You reply that you are not in the mood for exploits,Вы отвечаете что у вас нет настроения для подвигов,你回答说你没有心情进行攻击,Вы адказваеце што ў вас няма настрою для подзвігаў,,,,,,,,
 7_Listen_cardRight,,Agree to save the princess,Согласиться спасти принцессу,同意拯救公主,Пагадзіцца выратаваць прынцэсу,,,,,,,,
-7_Listen_cardRight_REV,,The King is pleased with your compliance and grants you the family sword,Король обрадован вашей сговорчивостью и дарует вам фамильный меч,国王对你的顺从感到高兴，并授予你家族的剑,Кароль узрадаваны вашай згаворлівасцю і даруе вам фамільны меч,,,,,,,,
+7_Listen_cardRight_REV,,The King is pleased with your compliance and grants you the family sword,Царь обрадован вашей сговорчивостью и дарует вам фамильный меч,国王对你的顺从感到高兴，并授予你家族的剑,Кароль узрадаваны вашай згаворлівасцю і даруе вам фамільны меч,,,,,,,,
 8_GoToJail_bunner,,You were thrown into a dungeon,Вас бросили в темницу,你被扔进了地牢,Вас кінулі ў вязніцу,,,,,,,,
 8_GoToJail_cardLeft,,Further,Далее,进一步,Далей,,,,,,,,
 8_GoToJail_cardLeft_REV,,"There will be a separate full-fledged branch, sorry, but it is not available in the demo version","Тут будет отдельная полноценная ветка, извините, но она недоступна в демо-версии",会有一个单独的完整分支，对不起，但它在演示版本中不可用,"Там будзе асобная паўнавартасная галінка, прабачце, але яна недаступная ў дэма-версіі",,,,,,,,
 8_GoToJail_cardRight,,Further,Далее,进一步,Далей,,,,,,,,
 8_GoToJail_cardRight_REV,,"There will be a separate full-fledged branch, sorry, but it is not available in the demo version","Тут будет отдельная полноценная ветка, извините, но она недоступна в демо-версии",会有一个单独的完整分支，对不起，但它在演示版本中不可用,"Там будзе асобная паўнавартасная галінка, прабачце, але яна недаступная ў дэма-версіі",,,,,,,,
-8_NoSword_bunner,,The King is counting on you very much,Король очень рассчитывает на вас,国王非常指望你,Кароль вельмі разлічвае на вас,,,,,,,,
+8_NoSword_bunner,,The King is counting on you very much,Царь очень рассчитывает на вас,国王非常指望你,Кароль вельмі разлічвае на вас,,,,,,,,
 8_NoSword_cardLeft,,Set off immediately,Отправиться в путь незамедлительно,马上出发,Ехаць адразу,,,,,,,,
 8_NoSword_cardLeft_REV,,You don't need anything else and you're on your way,Вам больше ничего не нужно и вы отправляетесь в путь,你不需要任何东西，你就在路上了。,Вам больш нічога не трэба і вы адпраўляецеся ў шлях,,,,,,,,
 8_NoSword_cardRight,,Run home to get some things,Забежать домой за вещичками,跑回家拿点东西,Забегчы дадому за штучкамі,,,,,,,,
 8_NoSword_cardRight_REV,,You need to go home to get the necessary things,Вам нужно зайти домой за необходимыми вещами,你需要回家拿必要的东西,Вам трэба зайсці дадому па неабходныя рэчы,,,,,,,,
-8_Sword_bunner,,"The king offers two of his warriors and horses to help, but you need to go into the courtyard for them, and there is very little time","Король предлагает в помощь двух своих воинов и коней, но за ними нужно зайти во двор, а времени очень мало",国王提供了他的两个战士和马匹来帮助，但是你需要为他们进入院子，而且时间很少,"Кароль прапануе ў дапамогу двух сваіх воінаў і коней, але за імі трэба зайсці ў двор, а часу вельмі мала",,,,,,,,
+8_Sword_bunner,,"The king offers two of his warriors and horses to help, but you need to go into the courtyard for them, and there is very little time","Царь предлагает в помощь двух своих воинов и коней, но за ними нужно зайти во двор, а времени очень мало",国王提供了他的两个战士和马匹来帮助，但是你需要为他们进入院子，而且时间很少,"Кароль прапануе ў дапамогу двух сваіх воінаў і коней, але за імі трэба зайсці ў двор, а часу вельмі мала",,,,,,,,
 8_Sword_cardLeft,,"Head out alone, but first swing by home to grab a few things","Отправиться в одиночку, но сначала забежать домой за вещичками",一个人去，但首先跑回家拿一些东西。,"Адправіцца ў адзіночку, але спачатку забегчы дадому за штучкамі.",,,,,,,,
 8_Sword_cardLeft_REV,,You need to go home to gather the necessary items,"Эта ветка пока что недоступна в ДЕМО версии
 

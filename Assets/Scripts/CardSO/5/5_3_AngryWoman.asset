@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8636afbb060c9543bb985dfc1b704ad, type: 3}
   m_Name: 5_3_AngryWoman
   m_EditorClassIdentifier: 
-  portrait: {fileID: 21300000, guid: 103e48c1276507d4db598e0bc9c93daa, type: 3}
-  bannerAnimator: {fileID: 9100000, guid: 443731da750020044b2c1478522ebd84, type: 2}
-  animationClip: {fileID: 7400000, guid: 3f30bb1b9d4fbfe459f29f1ad7741892, type: 2}
+  portrait: {fileID: 21300000, guid: 90fbcf783b38f7f4e892142e447e3ac4, type: 3}
+  bannerAnimator: {fileID: 0}
+  animationClip: {fileID: 0}
   bannerSound: {fileID: 0}
   bannerText: 5_3_AngryWoman_bunner
   checkPoint: 0
@@ -27,13 +27,17 @@ MonoBehaviour:
     requiredItemSprite: {fileID: 0}
     removeItemSprite: 0
     changeBanner: 1
-    locationSprite: {fileID: 21300000, guid: 5605f90f370e93647bfa4e94765b80d6, type: 3}
+    locationSprite: {fileID: 21300000, guid: cfeb68ea52faf9941935375f8de7b366, type: 3}
     nextSetIfItem: {fileID: 11400000, guid: a00032c3e4d3c964fa2e64adc17025a8, type: 2}
     nextSetIfNoItem: {fileID: 0}
+    isWinIfItem: 0
+    winContentIfItem: []
     reverseSpriteIfItem: {fileID: 21300000, guid: 5605f90f370e93647bfa4e94765b80d6, type: 3}
     reverseAudioClipItem: {fileID: 0}
     reverseTopTextIfItem: 5_3_AngryWoman_cardLeft_REV
     changeLifePointsIfItem: 0
+    isWinIfNoItem: 0
+    winContentIfNoItem: []
     reverseSpriteIfNoItem: {fileID: 0}
     reverseAudioClipNoItem: {fileID: 0}
     reverseTopTextIfNoItem: 
@@ -47,13 +51,17 @@ MonoBehaviour:
     requiredItemSprite: {fileID: 21300000, guid: d3d8a119bad36224fbf125a81595d63d, type: 3}
     removeItemSprite: 1
     changeBanner: 1
-    locationSprite: {fileID: 0}
+    locationSprite: {fileID: 21300000, guid: cfeb68ea52faf9941935375f8de7b366, type: 3}
     nextSetIfItem: {fileID: 11400000, guid: a00032c3e4d3c964fa2e64adc17025a8, type: 2}
     nextSetIfNoItem: {fileID: 0}
+    isWinIfItem: 0
+    winContentIfItem: []
     reverseSpriteIfItem: {fileID: 21300000, guid: 0dfb13049c9a6674789c01d10dbc0f87, type: 3}
     reverseAudioClipItem: {fileID: 0}
     reverseTopTextIfItem: 5_3_AngryWoman_cardRight_REV
     changeLifePointsIfItem: 0
+    isWinIfNoItem: 0
+    winContentIfNoItem: []
     reverseSpriteIfNoItem: {fileID: 0}
     reverseAudioClipNoItem: {fileID: 0}
     reverseTopTextIfNoItem: 
