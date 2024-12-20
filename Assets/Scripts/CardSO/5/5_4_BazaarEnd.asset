@@ -27,13 +27,17 @@ MonoBehaviour:
     requiredItemSprite: {fileID: 0}
     removeItemSprite: 0
     changeBanner: 1
-    locationSprite: {fileID: 21300000, guid: dabc19750805c6143a0fb000e46b6e38, type: 3}
+    locationSprite: {fileID: 21300000, guid: 6471b42b56f51404c8c20d82dfc13b0b, type: 3}
     nextSetIfItem: {fileID: 11400000, guid: 92f33e50c6a9dfa41b83835b91648dc1, type: 2}
     nextSetIfNoItem: {fileID: 0}
+    isWinIfItem: 0
+    winContentIfItem: []
     reverseSpriteIfItem: {fileID: 21300000, guid: 651e972b62717bc43ac6c68acca7a2e6, type: 3}
     reverseAudioClipItem: {fileID: 0}
     reverseTopTextIfItem: 5_4_BazaarEnd_cardLeft_REV
     changeLifePointsIfItem: 0
+    isWinIfNoItem: 0
+    winContentIfNoItem: []
     reverseSpriteIfNoItem: {fileID: 0}
     reverseAudioClipNoItem: {fileID: 0}
     reverseTopTextIfNoItem: 
@@ -47,13 +51,17 @@ MonoBehaviour:
     requiredItemSprite: {fileID: 0}
     removeItemSprite: 0
     changeBanner: 1
-    locationSprite: {fileID: 21300000, guid: dabc19750805c6143a0fb000e46b6e38, type: 3}
-    nextSetIfItem: {fileID: 11400000, guid: 92f33e50c6a9dfa41b83835b91648dc1, type: 2}
+    locationSprite: {fileID: 21300000, guid: e40860c4774086e4c9d6ed99e3b2d6fc, type: 3}
+    nextSetIfItem: {fileID: 11400000, guid: ee584dca9c024f948afa3d15c23a1e7f, type: 2}
     nextSetIfNoItem: {fileID: 0}
+    isWinIfItem: 0
+    winContentIfItem: []
     reverseSpriteIfItem: {fileID: 21300000, guid: fbc00fa88948c48439c989147fafc365, type: 3}
     reverseAudioClipItem: {fileID: 0}
     reverseTopTextIfItem: 5_4_BazaarEnd_cardRight_REV
     changeLifePointsIfItem: 0
+    isWinIfNoItem: 0
+    winContentIfNoItem: []
     reverseSpriteIfNoItem: {fileID: 0}
     reverseAudioClipNoItem: {fileID: 0}
     reverseTopTextIfNoItem: 

@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: 14_OldMan_NoGold
   m_EditorClassIdentifier: 
   portrait: {fileID: 21300000, guid: fde4a3f971191b743aee56b7745fc124, type: 3}
+  bannerAnimator: {fileID: 0}
+  animationClip: {fileID: 0}
   bannerSound: {fileID: 0}
   bannerText: 14_OldMan_NoGold_bunner
   checkPoint: 0
@@ -28,17 +30,21 @@ MonoBehaviour:
     locationSprite: {fileID: 21300000, guid: 7bf6806235ac6a14491c48678d9a0d10, type: 3}
     nextSetIfItem: {fileID: 11400000, guid: 7fdf47c16bc92de46a750ae5ecd5c678, type: 2}
     nextSetIfNoItem: {fileID: 0}
+    isWinIfItem: 0
+    winContentIfItem: []
     reverseSpriteIfItem: {fileID: 21300000, guid: 618350fd8e7223048aa5151b0674514e, type: 3}
     reverseAudioClipItem: {fileID: 0}
     reverseTopTextIfItem: 14_OldMan_NoGoldcardLeft_REV
     changeLifePointsIfItem: 0
+    isWinIfNoItem: 0
+    winContentIfNoItem: []
     reverseSpriteIfNoItem: {fileID: 0}
     reverseAudioClipNoItem: {fileID: 0}
     reverseTopTextIfNoItem: 
     changeLifePointsIfNoItem: 0
   rightCard:
     messageText: 14_OldMan_NoGold_cardRight
-    illustrationSprite: {fileID: 21300000, guid: 2aa0e4075b072304fbe1081df394c6b4, type: 3}
+    illustrationSprite: {fileID: 21300000, guid: a45bf487f6a9a694f9a1f1ac2e0f704f, type: 3}
     animator: {fileID: 0}
     animationClip: {fileID: 0}
     itemSprite: {fileID: 0}
@@ -48,10 +54,14 @@ MonoBehaviour:
     locationSprite: {fileID: 0}
     nextSetIfItem: {fileID: 11400000}
     nextSetIfNoItem: {fileID: 0}
+    isWinIfItem: 0
+    winContentIfItem: []
     reverseSpriteIfItem: {fileID: 21300000, guid: db33c82b37aa68740b8c085e903ab757, type: 3}
     reverseAudioClipItem: {fileID: 0}
     reverseTopTextIfItem: 14_OldMan_NoGold_cardRight_REV
     changeLifePointsIfItem: 0
+    isWinIfNoItem: 0
+    winContentIfNoItem: []
     reverseSpriteIfNoItem: {fileID: 0}
     reverseAudioClipNoItem: {fileID: 0}
     reverseTopTextIfNoItem: 

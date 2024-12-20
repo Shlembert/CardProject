@@ -12,33 +12,39 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8636afbb060c9543bb985dfc1b704ad, type: 3}
   m_Name: 14_OldMan_HaveGold
   m_EditorClassIdentifier: 
-  portrait: {fileID: 21300000, guid: 103e48c1276507d4db598e0bc9c93daa, type: 3}
+  portrait: {fileID: 21300000, guid: fde4a3f971191b743aee56b7745fc124, type: 3}
+  bannerAnimator: {fileID: 0}
+  animationClip: {fileID: 0}
   bannerSound: {fileID: 0}
   bannerText: 14_OldMan_HaveGold_bunner
   checkPoint: 0
   leftCard:
     messageText: 14_OldMan_HaveGold_cardLeft
-    illustrationSprite: {fileID: 21300000, guid: 592066b2e387cf644a83110937e7441b, type: 3}
+    illustrationSprite: {fileID: 21300000, guid: b0c60248ae029c643820c3f2a4aed17a, type: 3}
     animator: {fileID: 0}
     animationClip: {fileID: 0}
     itemSprite: {fileID: 0}
     requiredItemSprite: {fileID: 0}
     removeItemSprite: 0
     changeBanner: 1
-    locationSprite: {fileID: 0}
+    locationSprite: {fileID: 21300000, guid: c40a7060c793be44ab859909a8793ac0, type: 3}
     nextSetIfItem: {fileID: 11400000, guid: 7fdf47c16bc92de46a750ae5ecd5c678, type: 2}
     nextSetIfNoItem: {fileID: 0}
-    reverseSpriteIfItem: {fileID: 21300000, guid: cbb23233a878d1048a1701817f09affa, type: 3}
+    isWinIfItem: 0
+    winContentIfItem: []
+    reverseSpriteIfItem: {fileID: 21300000, guid: ee4a17ccec00d6a4b9168320f8e269bd, type: 3}
     reverseAudioClipItem: {fileID: 0}
     reverseTopTextIfItem: 14_OldMan_HaveGold_cardLeft_REV
     changeLifePointsIfItem: 0
+    isWinIfNoItem: 0
+    winContentIfNoItem: []
     reverseSpriteIfNoItem: {fileID: 0}
     reverseAudioClipNoItem: {fileID: 0}
     reverseTopTextIfNoItem: 
     changeLifePointsIfNoItem: 0
   rightCard:
     messageText: 14_OldMan_HaveGold_cardRight
-    illustrationSprite: {fileID: 21300000, guid: 1c6867d4a507b984a985f4787178457e, type: 3}
+    illustrationSprite: {fileID: 21300000, guid: 6be4edfec2b9a654ca2f234f292ecec0, type: 3}
     animator: {fileID: 0}
     animationClip: {fileID: 0}
     itemSprite: {fileID: 0}
@@ -48,10 +54,14 @@ MonoBehaviour:
     locationSprite: {fileID: 0}
     nextSetIfItem: {fileID: 11400000, guid: ea32759cae45a094398fba469c18ac09, type: 2}
     nextSetIfNoItem: {fileID: 0}
+    isWinIfItem: 0
+    winContentIfItem: []
     reverseSpriteIfItem: {fileID: 21300000, guid: 64fa085236f80fd4188d8dc3bb16dbde, type: 3}
     reverseAudioClipItem: {fileID: 0}
     reverseTopTextIfItem: 14_OldMan_HaveGold_cardRight_REV
     changeLifePointsIfItem: 0
+    isWinIfNoItem: 0
+    winContentIfNoItem: []
     reverseSpriteIfNoItem: {fileID: 0}
     reverseAudioClipNoItem: {fileID: 0}
     reverseTopTextIfNoItem: 

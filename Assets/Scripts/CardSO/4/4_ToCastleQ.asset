@@ -27,12 +27,12 @@ MonoBehaviour:
     requiredItemSprite: {fileID: 0}
     removeItemSprite: 0
     changeBanner: 0
-    locationSprite: {fileID: 0}
-    nextSetIfItem: {fileID: 11400000, guid: debd061b1d5576946bd0320010ea7125, type: 2}
+    locationSprite: {fileID: 21300000, guid: b3b508e6bb0e5ac44b70fa291fa441e7, type: 3}
+    nextSetIfItem: {fileID: 11400000, guid: 71faa5f8e1534a2429d980ccdb549617, type: 2}
     nextSetIfNoItem: {fileID: 0}
     isWinIfItem: 0
     winContentIfItem: []
-    reverseSpriteIfItem: {fileID: 21300000, guid: db33c82b37aa68740b8c085e903ab757, type: 3}
+    reverseSpriteIfItem: {fileID: 21300000, guid: 8b3282a38ea0e164692234f90e1cff5a, type: 3}
     reverseAudioClipItem: {fileID: 0}
     reverseTopTextIfItem: 4_ToCastleQ_cardLeft_REV
     changeLifePointsIfItem: 0
@@ -51,7 +51,7 @@ MonoBehaviour:
     requiredItemSprite: {fileID: 0}
     removeItemSprite: 0
     changeBanner: 1
-    locationSprite: {fileID: 21300000, guid: e936d181f1f4637429b8d3c7a71226df, type: 3}
+    locationSprite: {fileID: 21300000, guid: b3b508e6bb0e5ac44b70fa291fa441e7, type: 3}
     nextSetIfItem: {fileID: 11400000, guid: 71faa5f8e1534a2429d980ccdb549617, type: 2}
     nextSetIfNoItem: {fileID: 0}
     isWinIfItem: 0

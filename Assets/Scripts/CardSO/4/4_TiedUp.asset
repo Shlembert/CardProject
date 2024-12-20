@@ -27,12 +27,12 @@ MonoBehaviour:
     requiredItemSprite: {fileID: 0}
     removeItemSprite: 0
     changeBanner: 1
-    locationSprite: {fileID: 21300000, guid: dabc19750805c6143a0fb000e46b6e38, type: 3}
+    locationSprite: {fileID: 21300000, guid: 6471b42b56f51404c8c20d82dfc13b0b, type: 3}
     nextSetIfItem: {fileID: 11400000, guid: 92f33e50c6a9dfa41b83835b91648dc1, type: 2}
     nextSetIfNoItem: {fileID: 0}
     isWinIfItem: 0
     winContentIfItem: []
-    reverseSpriteIfItem: {fileID: 21300000, guid: 4d2250ec993441c47bcb200f94c014af, type: 3}
+    reverseSpriteIfItem: {fileID: 21300000, guid: fa2a18584a3c49e4ab09c031b919ff19, type: 3}
     reverseAudioClipItem: {fileID: 0}
     reverseTopTextIfItem: 4_TiedUp_cardLeft_REV
     changeLifePointsIfItem: 0

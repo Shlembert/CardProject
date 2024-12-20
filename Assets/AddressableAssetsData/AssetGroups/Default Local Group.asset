@@ -187,6 +187,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4e956a2390c066c47a0a06d1d3a52397
+    m_Address: Assets/Sprites/BG/Bazzzarzzaaar_blur.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 4ef24ce1aced5394b829b1a909bc6646
     m_Address: Assets/Scripts/CardSO/16/16_Camp_Young_War.asset
     m_ReadOnly: 0
@@ -252,8 +257,18 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6471b42b56f51404c8c20d82dfc13b0b
+    m_Address: Assets/Sprites/BG/KingHall.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 68236e48266d8f94f8006bf32b10680c
     m_Address: Assets/Scripts/CardSO/4/4_TiedUp.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 707c135420fff1c41ad274f4ddbeeda4
+    m_Address: Assets/Sprites/BG/MainRoomHero.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -398,6 +413,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: aaa4749af8a99ed4292083a6893e36f2
+    m_Address: Assets/Sprites/BG/Bazzzarzzaaar.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: aad4ab05936f13f4aa0a8ab249ec2fd2
     m_Address: Assets/Sprites/Items/7gold.png
     m_ReadOnly: 0
@@ -410,6 +430,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: ac9147a2f4c385d4ca8611875967e63e
     m_Address: Assets/Scripts/CardSO/7/7_Listen.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b3b508e6bb0e5ac44b70fa291fa441e7
+    m_Address: Assets/Sprites/BG/Bazr.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -428,6 +453,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bfda25037043650409951ac81830f4eb
+    m_Address: Assets/Sprites/BG/VillageHouse.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: c1b778416f38b644a9ec5521dd77d014
     m_Address: Assets/Sprites/BG/CastleGate.png
     m_ReadOnly: 0
@@ -443,8 +473,23 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c40a7060c793be44ab859909a8793ac0
+    m_Address: "Assets/Sprites/BG/\u041D\u0435\u043C\u043D\u043E\u0433\u043E_\u0422\u0435\u043C\u043D\u044B\u0439\u041B\u0435\u0441.png"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: c6f78d8a9ab28ea42aa0588e928071d4
     m_Address: Assets/Scripts/CardSO/18/18_CrazyHorses.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cd0482e2c33407f409bda4cceddf7040
+    m_Address: Assets/Sprites/BG/Kazarm.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cfeb68ea52faf9941935375f8de7b366
+    m_Address: Assets/Sprites/BG/CastleGate.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -518,6 +563,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e936d181f1f4637429b8d3c7a71226df
+    m_Address: Assets/Sprites/BG/bazz2.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: ea32759cae45a094398fba469c18ac09
     m_Address: Assets/Scripts/CardSO/15/15_W_OldMan.asset
     m_ReadOnly: 0
@@ -530,6 +580,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: ece10ed878334e24199d789722c76b7f
     m_Address: Assets/Scripts/CardSO/8/8_NoSword.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ee584dca9c024f948afa3d15c23a1e7f
+    m_Address: Assets/Scripts/CardSO/6/6_in_Castle.asset
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
