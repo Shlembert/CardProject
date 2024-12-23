@@ -47,16 +47,6 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 13c903baa8bb08c4786a5830dc4f3717
-    m_Address: Assets/Sprites/BG/FallFromTelega.png
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 196f5dfe6e6d3fd42b929f791e2c6b1b
-    m_Address: Assets/Sprites/Items/sw.png
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 1e9d348a83103dc4ebc96790a52f3b35
     m_Address: Assets/Scripts/CardSO/17/17_YoungWatchmen_2.asset
     m_ReadOnly: 0
@@ -147,11 +137,6 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 3e8ac5c13dbaea7459c3f20b9d5a749c
-    m_Address: Assets/Sprites/BG/OutOfHouse.png
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 3f6bc0888834b8d4ea7191e418a45aa3
     m_Address: Assets/Sprites/Items/KingGuard_old.png
     m_ReadOnly: 0
@@ -187,18 +172,8 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 4e956a2390c066c47a0a06d1d3a52397
-    m_Address: Assets/Sprites/BG/Bazzzarzzaaar_blur.jpg
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 4ef24ce1aced5394b829b1a909bc6646
     m_Address: Assets/Scripts/CardSO/16/16_Camp_Young_War.asset
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 530b8e1dcd8b7f244a22cc77b8bbc5d3
-    m_Address: Assets/Sprites/BG/fon_2.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -413,11 +388,6 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: aaa4749af8a99ed4292083a6893e36f2
-    m_Address: Assets/Sprites/BG/Bazzzarzzaaar.jpg
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: aad4ab05936f13f4aa0a8ab249ec2fd2
     m_Address: Assets/Sprites/Items/7gold.png
     m_ReadOnly: 0
@@ -455,11 +425,6 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: bfda25037043650409951ac81830f4eb
     m_Address: Assets/Sprites/BG/VillageHouse.png
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: c1b778416f38b644a9ec5521dd77d014
-    m_Address: Assets/Sprites/BG/CastleGate.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -513,11 +478,6 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: dabc19750805c6143a0fb000e46b6e38
-    m_Address: Assets/Sprites/BG/KinsPlace.png
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: dda3bc681e3a24240bbe7122c67b10f1
     m_Address: Assets/Scripts/CardSO/13/13_5_RogueLager.asset
     m_ReadOnly: 0
@@ -538,11 +498,6 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: e3a1a84f98903d244a071ace30120566
-    m_Address: Assets/Sprites/Items/chest.png
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: e40860c4774086e4c9d6ed99e3b2d6fc
     m_Address: Assets/Sprites/BG/YardHorseGuard.png
     m_ReadOnly: 0
@@ -560,11 +515,6 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: e6ef0b5954f6f044dbc082a54225770f
     m_Address: Assets/Scripts/CardSO/5/5_3_FingerEar.asset
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: e936d181f1f4637429b8d3c7a71226df
-    m_Address: Assets/Sprites/BG/bazz2.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0

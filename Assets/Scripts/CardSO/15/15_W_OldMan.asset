@@ -13,12 +13,14 @@ MonoBehaviour:
   m_Name: 15_W_OldMan
   m_EditorClassIdentifier: 
   portrait: {fileID: 21300000, guid: fde4a3f971191b743aee56b7745fc124, type: 3}
+  bannerAnimator: {fileID: 0}
+  animationClip: {fileID: 0}
   bannerSound: {fileID: 0}
   bannerText: 15_W_OldMan_bunner
   checkPoint: 0
   leftCard:
     messageText: 15_W_OldMan_cardLeft
-    illustrationSprite: {fileID: 21300000, guid: b7b7fbcbefbfb3a44b86fa6b2f83aa81, type: 3}
+    illustrationSprite: {fileID: 21300000, guid: ff908b6e1e30b3348865af0fca8b1635, type: 3}
     animator: {fileID: 0}
     animationClip: {fileID: 0}
     itemSprite: {fileID: 0}
@@ -28,17 +30,21 @@ MonoBehaviour:
     locationSprite: {fileID: 0}
     nextSetIfItem: {fileID: 11400000, guid: 2c676d6df64219f4eb130d46ed316fbd, type: 2}
     nextSetIfNoItem: {fileID: 0}
+    isWinIfItem: 0
+    winContentIfItem: []
     reverseSpriteIfItem: {fileID: 21300000, guid: 8cae47ce39b9ba14892a9f8677c4e344, type: 3}
     reverseAudioClipItem: {fileID: 0}
     reverseTopTextIfItem: 15_W_OldMan_cardLeft_REV
     changeLifePointsIfItem: -1
+    isWinIfNoItem: 0
+    winContentIfNoItem: []
     reverseSpriteIfNoItem: {fileID: 0}
     reverseAudioClipNoItem: {fileID: 0}
     reverseTopTextIfNoItem: 
     changeLifePointsIfNoItem: 0
   rightCard:
     messageText: 15_W_OldMan_cardRight
-    illustrationSprite: {fileID: 21300000, guid: 383b71ca279dcd3499b137293e40f13c, type: 3}
+    illustrationSprite: {fileID: 21300000, guid: fd8632570807b4b42b2c0bad7b195458, type: 3}
     animator: {fileID: 0}
     animationClip: {fileID: 0}
     itemSprite: {fileID: 0}
@@ -48,10 +54,14 @@ MonoBehaviour:
     locationSprite: {fileID: 0}
     nextSetIfItem: {fileID: 11400000, guid: 2c676d6df64219f4eb130d46ed316fbd, type: 2}
     nextSetIfNoItem: {fileID: 0}
-    reverseSpriteIfItem: {fileID: 21300000, guid: 383b71ca279dcd3499b137293e40f13c, type: 3}
+    isWinIfItem: 0
+    winContentIfItem: []
+    reverseSpriteIfItem: {fileID: 21300000, guid: 0d38550f1ab6802478d5d50b01b3a758, type: 3}
     reverseAudioClipItem: {fileID: 0}
     reverseTopTextIfItem: 15_W_OldMan_cardRight_REV
     changeLifePointsIfItem: 0
+    isWinIfNoItem: 0
+    winContentIfNoItem: []
     reverseSpriteIfNoItem: {fileID: 0}
     reverseAudioClipNoItem: {fileID: 0}
     reverseTopTextIfNoItem: 

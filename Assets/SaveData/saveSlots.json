@@ -1,0 +1,26 @@
+{
+    "Slots": [
+        {
+            "Name": "21312",
+            "DataTime": "23.12.2024 14:22",
+            "ScreenShotAddress": "C:/Games_/CardProject/Assets/SaveData/Screenshots//Screenshot_20241223_142247.png",
+            "GameData": {
+                "Health": 3,
+                "Location": {
+                    "m_AssetGUID": "MainRoomHero",
+                    "m_SubObjectName": "",
+                    "m_SubObjectType": "",
+                    "m_EditorAssetChanged": false
+                },
+                "Items": [],
+                "CheckpointCount": 1,
+                "CardSet": {
+                    "m_AssetGUID": "2_Guard",
+                    "m_SubObjectName": "",
+                    "m_SubObjectType": "",
+                    "m_EditorAssetChanged": false
+                }
+            }
+        }
+    ]
+}
