@@ -11,6 +11,8 @@ public class HPController : MonoBehaviour
 
     private int _currentHP = 3;
 
+    public int CurrentHP { get => _currentHP; set => _currentHP = value; }
+
     public async void ChangeCountHP(int count)
     {
         int currentHp = 0;
@@ -32,7 +34,7 @@ public class HPController : MonoBehaviour
             for (int i = currentHp - 1; i >= newHp; i--)
             {
                 hPAnimation.RemoveLife(hpImages[i]);
-                if (_currentHP >= 2) _currentHP--;
+                if (CurrentHP >= 2) CurrentHP--;
                 else 
                 {
                     Debug.Log("Game Over");
@@ -68,7 +70,7 @@ public class HPController : MonoBehaviour
             for (int i = currentHp - 1; i >= targetHp; i--)
             {
                 hPAnimation.RemoveLife(hpImages[i]);
-                _currentHP--;
+                CurrentHP--;
             }
             
         }
@@ -78,7 +80,7 @@ public class HPController : MonoBehaviour
             for (int i = currentHp; i < targetHp; i++)
             {
                 hPAnimation.AddLife(hpImages[i]);
-                _currentHP++;
+                CurrentHP++;
             }
         }
     }

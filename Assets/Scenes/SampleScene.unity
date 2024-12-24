@@ -14588,6 +14588,7 @@ MonoBehaviour:
   reverseLoc: {fileID: 784295107}
   cardLoc_L: {fileID: 419604375}
   cardLoc_R: {fileID: 303987763}
+  startSet: {fileID: 11400000, guid: 8b89e771499f0544da56ded8a4c2541a, type: 2}
   inventoryController: {fileID: 70427095}
   input_L: {fileID: 933853917}
   input_R: {fileID: 2129594374}
@@ -20031,6 +20032,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   contentCard: {fileID: 991657348}
   soundController: {fileID: 791171146}
+  portrait: {fileID: 151893748}
   animator: {fileID: 151893750}
   textPanel: {fileID: 1341956243}
   portret: {fileID: 1098485150}
@@ -27763,7 +27765,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -46601624, y: 32688548}
+  m_AnchoredPosition: {x: -46834470, y: 32851718}
   m_SizeDelta: {x: 0, y: 300}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &2018445987

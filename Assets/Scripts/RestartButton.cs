@@ -1,3 +1,4 @@
+using Cysharp.Threading.Tasks;
 using DG.Tweening;
 using UnityEngine;
 using UnityEngine.EventSystems;
@@ -14,6 +15,7 @@ public class RestartButton : MonoBehaviour, IPointerEnterHandler, IPointerExitHa
     [SerializeField] private SoundController soundController;
     [SerializeField] private HPController hpController;
     [SerializeField] private InventoryController inventoryController;
+    [SerializeField] private MapController mapController;
 
     [Space]
     [SerializeField] private CardSetScriptableObject cardSetScriptableObject;
@@ -41,11 +43,16 @@ public class RestartButton : MonoBehaviour, IPointerEnterHandler, IPointerExitHa
         hpController.ChangeCountHP(3);
         inventoryController.ClearInventory();
         _transform.DOScale(Vector3.one, 0.2f);
-        contentCard.SetContent(cardSetScriptableObject);
+        
         cardAnimation.HideCard();
         bG.sprite = loadBg;
+        hpController.CurrentHP = 3;
+
+        mapController.DeactivateCheckPoint(1);
+        cardAnimation.HideCard();
         await bannerAnimation.HideBanner();
         await gameController.HideDead();
+        contentCard.SetContent(cardSetScriptableObject);
         await bannerAnimation.ShowBanner();
         await cardAnimation.ShowCards();
     }

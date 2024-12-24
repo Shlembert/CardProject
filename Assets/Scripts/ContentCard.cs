@@ -7,6 +7,7 @@ public class ContentCard : MonoBehaviour
 {
     [SerializeField] private Image portraitSprite, illustrationSprite_L, illustrationSprite_R, reverseSprite, locationSprite;
     [SerializeField] private Localize bannerLoc, reverseLoc, cardLoc_L, cardLoc_R;
+    [SerializeField] private CardSetScriptableObject startSet;
     [SerializeField] private InventoryController inventoryController;
     [SerializeField] private InputCard input_L, input_R;
     [SerializeField] private MapController mapController;
@@ -48,14 +49,24 @@ public class ContentCard : MonoBehaviour
 
     public void SetContent(CardSetScriptableObject cardSetScriptableObject)
     {
-        CardSetScriptableObject = cardSetScriptableObject;
+        if (cardSetScriptableObject == null) cardSetScriptableObject = startSet;
 
+        CardSetScriptableObject = cardSetScriptableObject;
         Debug.Log($" + Load CardSet name: [{cardSetScriptableObject.name}] +");
 
         portraitSprite.sprite = cardSetScriptableObject.portrait;
 
-        bannerAnimation.AnimatorController = cardSetScriptableObject.bannerAnimator;
-        bannerAnimation.AnimationClip = cardSetScriptableObject.animationClip;
+        if (cardSetScriptableObject.bannerAnimator && cardSetScriptableObject.animationClip)
+        {
+            bannerAnimation.AnimatorController = cardSetScriptableObject.bannerAnimator;
+            bannerAnimation.AnimationClip = cardSetScriptableObject.animationClip;
+
+            Debug.Log("Have Banner Animation");
+        }
+        else
+        {
+            Debug.Log("No Banner Animation");
+        }
 
         BannerAudioClip = null;
         BannerAudioClip = cardSetScriptableObject?.bannerSound;
@@ -98,7 +109,7 @@ public class ContentCard : MonoBehaviour
         {
             NextCardSetScriptableObject = cardData.nextSetIfItem;
             _isWin = cardData.isWinIfItem;
-            if(_isWin ) winController.SetWinContent(cardData.winContentIfItem);
+            if (_isWin) winController.SetWinContent(cardData.winContentIfItem);
             _haveItem = cardData.requiredItemSprite;
             _removeItem = cardData.requiredItemSprite;
             reverseLoc.Term = cardData.reverseTopTextIfItem;

@@ -1,11 +1,13 @@
 using Cysharp.Threading.Tasks;
 using DG.Tweening;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class BannerAnimation : MonoBehaviour
 {
     [SerializeField] private ContentCard contentCard;
     [SerializeField] private SoundController soundController;
+    [SerializeField] private Image portrait;
     [SerializeField] private Animator animator;
     [SerializeField] private Transform textPanel, portret;
     [SerializeField] private float posHold, posShow;
@@ -31,11 +33,10 @@ public class BannerAnimation : MonoBehaviour
         var taskCompletionSource = new UniTaskCompletionSource();
 
         portret.position = _normalPos;
-        
 
         portret.DOScale(0, 0.7f).SetEase(Ease.OutBack).From().OnComplete(async () =>
         {
-            PlayAnimation();
+           if(contentCard.CardSetScriptableObject.bannerAnimator !=null) PlayAnimation();
             await ShowMessageBanner();
             await UniTask.Delay(delay);
             taskCompletionSource.TrySetResult();  // Завершаем таск
@@ -73,7 +74,7 @@ public class BannerAnimation : MonoBehaviour
         }
     }
 
-    private void StopAnimation()
+    public void StopAnimation()
     {
         if (animator != null && _animationClip != null)
         {
