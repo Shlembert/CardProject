@@ -1,7 +1,7 @@
 using DG.Tweening;
+using I2.Loc;
 using System;
 using System.Collections.Generic;
-using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -11,7 +11,7 @@ public class WinController : MonoBehaviour
     [SerializeField] private GameController gameController;
     [SerializeField] private GameObject nextButton, previousButton;
     [SerializeField] private Image bG, nextBG, previousBG;
-    [SerializeField] private TMP_Text message_Text, nextMessage_Text, previousMessage_Text;
+    [SerializeField] private Localize message_key, nextMessage_key, previousMessage_key;
 
     private Vector3 _nextPosition, _previousPosition;
     private List<WinContent> _contentList;
@@ -33,7 +33,7 @@ public class WinController : MonoBehaviour
     {
         CheckViewButtons();
         bG.sprite = _contentList[_currentIndex].Sprite;
-        message_Text.text = _contentList[_currentIndex].Message;
+        message_key.Term = _contentList[_currentIndex].Message;
     }
 
     private void SetNextContent()
@@ -41,7 +41,7 @@ public class WinController : MonoBehaviour
         if(_currentIndex >= _contentList.Count -1) return;
 
         nextBG.sprite = _contentList[_currentIndex + 1].Sprite;
-        nextMessage_Text.text = _contentList[_currentIndex + 1].Message;
+        nextMessage_key.Term = _contentList[_currentIndex + 1].Message;
     }
 
     private void SetPreviousContent()
@@ -49,7 +49,7 @@ public class WinController : MonoBehaviour
         if(_currentIndex == 0) return;
 
         previousBG.sprite = _contentList[_currentIndex - 1].Sprite; ;
-        previousMessage_Text.text = _contentList[_currentIndex - 1].Message;
+        previousMessage_key.Term = _contentList[_currentIndex - 1].Message;
     }
 
     private void CheckViewButtons()

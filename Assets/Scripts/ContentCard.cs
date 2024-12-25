@@ -60,12 +60,6 @@ public class ContentCard : MonoBehaviour
         {
             bannerAnimation.AnimatorController = cardSetScriptableObject.bannerAnimator;
             bannerAnimation.AnimationClip = cardSetScriptableObject.animationClip;
-
-            Debug.Log("Have Banner Animation");
-        }
-        else
-        {
-            Debug.Log("No Banner Animation");
         }
 
         BannerAudioClip = null;
