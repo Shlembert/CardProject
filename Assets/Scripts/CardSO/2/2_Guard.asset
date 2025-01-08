@@ -17,7 +17,7 @@ MonoBehaviour:
   animationClip: {fileID: 7400000, guid: 3917c0f23ee3ae64c967e564905376d2, type: 2}
   bannerSound: {fileID: 8300000, guid: d5ad60657589ed44fa2312b6361c24e9, type: 3}
   bannerText: 2_Guard_bunner
-  checkPoint: 0
+  checkPoint: 1
   leftCard:
     messageText: 2_Guard_cardLeft
     illustrationSprite: {fileID: 21300000, guid: 0d38550f1ab6802478d5d50b01b3a758, type: 3}

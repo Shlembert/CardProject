@@ -48,7 +48,7 @@ MonoBehaviour:
     animator: {fileID: 0}
     animationClip: {fileID: 0}
     itemSprite: {fileID: 0}
-    requiredItemSprite: {fileID: 21300000, guid: 7c87d21946a7cce429cc8e11488d742b, type: 3}
+    requiredItemSprite: {fileID: 21300000, guid: 5517ac6f8f20c1440bcb354a7835d8fc, type: 3}
     removeItemSprite: 0
     changeBanner: 1
     locationSprite: {fileID: 21300000, guid: d6fddded13a279946afdcf50eb0e3b07, type: 3}

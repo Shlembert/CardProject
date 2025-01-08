@@ -11688,7 +11688,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: -4784325660963204449, guid: c3cf10b2e1955e947a78776b201e85cc, type: 2}
-  m_audioClip: {fileID: 8300000, guid: 6ac06e74ac653514787dd6c932c33451, type: 3}
+  m_audioClip: {fileID: 8300000, guid: bf967d5ab79798d49bc1a35fb5e1d848, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.4
   m_Pitch: 1
@@ -11905,10 +11905,10 @@ MonoBehaviour:
   soundImage: {fileID: 635900387}
   onVolume: {fileID: 21300000, guid: a1c5428be2a29944ca3f5d5d9322057d, type: 3}
   offVolume: {fileID: 21300000, guid: e53ee697cfdacaf4ab377d2c3aae9289, type: 3}
-  gameMus: {fileID: 8300000, guid: 8ca9b5669510ab646bfcad58a32ee85d, type: 3}
+  gameMus: {fileID: 8300000, guid: 2e17369f41b507e43971cd6122360eb0, type: 3}
   mapMus: {fileID: 8300000, guid: 36f059927c4ce5a43a930b57dd08ede0, type: 3}
-  menuMus: {fileID: 8300000, guid: 6ac06e74ac653514787dd6c932c33451, type: 3}
-  flipClip: {fileID: 8300000, guid: 46641e12a05dde743910d232ca3fc4c3, type: 3}
+  menuMus: {fileID: 8300000, guid: bf967d5ab79798d49bc1a35fb5e1d848, type: 3}
+  flipClip: {fileID: 8300000, guid: b2fb727878ef28045b15ff4f830ff452, type: 3}
   reverseClip: {fileID: 8300000, guid: e8f893cf3a0b9b14cbe96a7898f9b814, type: 3}
   tapClip: {fileID: 8300000, guid: 39aaab802645bf548865723195f3ea2e, type: 3}
   transitionDuration: 0.2
@@ -28277,7 +28277,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -47748440, y: 33492188}
+  m_AnchoredPosition: {x: -48433256, y: 33969820}
   m_SizeDelta: {x: 0, y: 300}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &2018445987

@@ -33,7 +33,7 @@ MonoBehaviour:
     isWinIfItem: 0
     winContentIfItem: []
     reverseSpriteIfItem: {fileID: 21300000, guid: b1c9bea6eb27f8e47af79cc89c0ce533, type: 3}
-    reverseAudioClipItem: {fileID: 8300000, guid: 329785b5891de404c8ab6c941efd27a0, type: 3}
+    reverseAudioClipItem: {fileID: 8300000, guid: 5ba6cfdb194b87b44985593081dd5b4c, type: 3}
     reverseTopTextIfItem: s1revL
     changeLifePointsIfItem: 0
     isWinIfNoItem: 0
@@ -54,7 +54,7 @@ MonoBehaviour:
     locationSprite: {fileID: 21300000, guid: 707c135420fff1c41ad274f4ddbeeda4, type: 3}
     nextSetIfItem: {fileID: 11400000}
     nextSetIfNoItem: {fileID: 0}
-    isWinIfItem: 1
+    isWinIfItem: 0
     winContentIfItem:
     - Sprite: {fileID: 21300000, guid: bfda25037043650409951ac81830f4eb, type: 3}
       Message: WinMessageKey_00
@@ -64,7 +64,7 @@ MonoBehaviour:
       Message: WinMessageKey_02
     - Sprite: {fileID: 21300000, guid: c1b778416f38b644a9ec5521dd77d014, type: 3}
       Message: WinMessageKey_03
-    reverseSpriteIfItem: {fileID: 21300000, guid: c31059fbdab7793469d194c0a2f1ab95, type: 3}
+    reverseSpriteIfItem: {fileID: 21300000, guid: 5949c823807cbcb4c8c3e2f3476654bf, type: 3}
     reverseAudioClipItem: {fileID: 0}
     reverseTopTextIfItem: s1revR
     changeLifePointsIfItem: 0
