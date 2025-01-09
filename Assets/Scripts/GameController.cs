@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class GameController : MonoBehaviour
 {
-    [SerializeField] private Transform holdPanel, mapPanel, mainMenuPanel, winPanel, deadPanel, pausePanel, loadPanel;
+    [SerializeField] private Transform holdPanel, mapPanel, mainMenuPanel, winPanel, deadPanel, pausePanel, loadPanel, creditsPanel;
     [SerializeField] private Transform escMenu, escPlay;
     [SerializeField] private Image bg;
     [SerializeField] private HPController hPController;
@@ -161,6 +161,7 @@ public class GameController : MonoBehaviour
         await HideHold();
         await UniTask.Yield();
     }
+
     public async UniTask ShowWin()
     {
         _isGameOver = true;
@@ -178,6 +179,23 @@ public class GameController : MonoBehaviour
         await UniTask.Yield();
     }
 
+    public async void ShowCredits()
+    {
+        _isGameOver = true;
+        await ShowHold();
+        creditsPanel.position = Vector3.zero;
+        await HideHold();
+    }
+
+    public async UniTask HideCredits()
+    {
+        _isGameOver = false;
+        await ShowHold();
+        creditsPanel.position = _positionUp;
+        await HideHold();
+        await UniTask.Yield();
+    }
+
     public async void GoToMenu()
     {
         _isMenu = true;
@@ -189,6 +207,7 @@ public class GameController : MonoBehaviour
         loadPanel.position = _positionUp;
         deadPanel.position = _positionUp;
         winPanel.position = _positionUp;
+        creditsPanel.position = _positionUp;
         mainMenuPanel.position = Vector3.zero;
         await HideHold();
     }

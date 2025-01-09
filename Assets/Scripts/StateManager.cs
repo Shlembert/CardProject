@@ -22,5 +22,6 @@ public enum StateGame
     LanguageMenu = 11,
     LanguagePlay = 12,
     DialogToMenu = 13,
-    DialogEsc = 14
+    DialogEsc = 14,
+    Credits = 15
 }

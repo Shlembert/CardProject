@@ -95,6 +95,10 @@ public class ESCManager : MonoBehaviour
                 gameController.HideMenuESC();
                 stateManager.State = StateGame.Menu;
                 break;
+            case StateGame.Credits:
+                gameController.HideCredits().Forget();
+                stateManager.State = StateGame.Menu;
+                break;
             default:
                 break;
         }
