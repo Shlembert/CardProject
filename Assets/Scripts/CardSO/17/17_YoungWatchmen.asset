@@ -27,7 +27,7 @@ MonoBehaviour:
     requiredItemSprite: {fileID: 0}
     removeItemSprite: 0
     changeBanner: 1
-    locationSprite: {fileID: 0}
+    locationSprite: {fileID: 21300000, guid: 5f61605eb126d744fb65b55296652407, type: 3}
     nextSetIfItem: {fileID: 11400000, guid: 4aab5191ec1ce3b4b9b02cdda6b269ba, type: 2}
     nextSetIfNoItem: {fileID: 0}
     isWinIfItem: 0
@@ -51,7 +51,7 @@ MonoBehaviour:
     requiredItemSprite: {fileID: 21300000, guid: 9a9641d0b3101a64fbe07f50c561043d, type: 3}
     removeItemSprite: 1
     changeBanner: 0
-    locationSprite: {fileID: 0}
+    locationSprite: {fileID: 21300000, guid: 5f61605eb126d744fb65b55296652407, type: 3}
     nextSetIfItem: {fileID: 11400000, guid: 4aab5191ec1ce3b4b9b02cdda6b269ba, type: 2}
     nextSetIfNoItem: {fileID: 0}
     isWinIfItem: 0

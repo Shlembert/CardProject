@@ -227,6 +227,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5f61605eb126d744fb65b55296652407
+    m_Address: "Assets/Sprites/BG/\u041F\u0440\u0438\u0432\u0430\u043B_\u0432_\u043B\u0435\u0441\u0443_\u0434\u043E\u0433\u043E\u0440\u0430\u0435\u0442_\u043A\u043E\u0441\u0442\u0435\u0440_\u0440\u0430\u0441\u0441\u0432\u0435\u0442.png"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 6230f245383b7a44893c6ecee5966e3a
     m_Address: Assets/Scripts/CardSO/17/17_Insects.asset
     m_ReadOnly: 0
@@ -354,6 +359,12 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 92f33e50c6a9dfa41b83835b91648dc1
     m_Address: Assets/Scripts/CardSO/6/6_KingsPlace.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 990cfe713c4035f449ef44d7d06e8227
+    m_Address: "Assets/Sprites/BG/\u041F\u0440\u0438\u0432\u0430\u043B \u0432 \u043B\u0435\u0441\u0443
+      \u0431\u0435\u0437 \u043A\u043E\u0441\u0442\u0440\u0430.png"
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -515,6 +526,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: e6ef0b5954f6f044dbc082a54225770f
     m_Address: Assets/Scripts/CardSO/5/5_3_FingerEar.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e87ec36c77d37554494b16dc474d054b
+    m_Address: "Assets/Sprites/BG/\u041F\u0440\u0438\u0432\u0430\u043B_\u0432_\u043B\u0435\u0441\u0443_\u0434\u043E\u0433\u043E\u0440\u0430\u0435\u0442_\u043A\u043E\u0441\u0442\u0435\u0440_\u043F\u0435\u0440\u0435\u0434_\u0440\u0430\u0441\u0441\u0432\u0435\u0442\u043E\u043C.png"
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
