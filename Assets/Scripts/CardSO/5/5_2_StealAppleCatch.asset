@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8636afbb060c9543bb985dfc1b704ad, type: 3}
   m_Name: 5_2_StealAppleCatch
   m_EditorClassIdentifier: 
-  portrait: {fileID: 21300000, guid: 90fbcf783b38f7f4e892142e447e3ac4, type: 3}
-  bannerAnimator: {fileID: 0}
-  animationClip: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 2ba3ec3d7fdd66e4a95d1aa55584efe9, type: 3}
+  bannerAnimator: {fileID: 9100000, guid: 8b43e4acb901ba44bba24843fc7e7f66, type: 2}
+  animationClip: {fileID: 7400000, guid: 9f79f7c3fb92663498e91db9109d752f, type: 2}
   bannerSound: {fileID: 0}
   bannerText: 5_2_StealAppleCatch_bunner
   checkPoint: 0

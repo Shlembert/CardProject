@@ -42,18 +42,23 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 11320a16a3406cc43bf83644f28fb5a7
+    m_Address: "Assets/Sprites/BG/\u041F\u043E\u043B\u044F\u043D\u0430\u0414\u0415\u0432\u0443\u0448\u043A\u0430\u041D\u043E\u0447\u044C.png"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 127e075295cbbf946895897c9ccf830a
     m_Address: Assets/Scripts/CardSO/12/12_Forest_Dark_Entr.asset
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 1e9d348a83103dc4ebc96790a52f3b35
-    m_Address: Assets/Scripts/CardSO/17/17_YoungWatchmen_2.asset
+  - m_GUID: 1c7bc24263b38ae418b3c94ba04ef1fc
+    m_Address: "Assets/Sprites/BG/\u041B\u0435\u0441\u0421\u043E\u0432\u0441\u0435\u043C\u0421\u0442\u0435\u043C\u043D\u0435\u043B\u043E.png"
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 2194bc2f7ee92b349815abb48f99b843
-    m_Address: Assets/Sprites/Items/HeartPlus.png
+  - m_GUID: 1e9d348a83103dc4ebc96790a52f3b35
+    m_Address: Assets/Scripts/CardSO/17/17_YoungWatchmen_2.asset
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -94,11 +99,6 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 320438b2bad26b64b93413388e266025
     m_Address: Assets/Scripts/CardSO/12/12_Forest_Entrance_ALONE.asset
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 327440780d8087344affcbfe573abf57
-    m_Address: "Assets/Sprites/BG/\u0422\u0435\u043C\u043D\u0438\u0446\u0430.png"
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -197,6 +197,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5517ac6f8f20c1440bcb354a7835d8fc
+    m_Address: Assets/Sprites/Items/bentNail.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 55ce038ddc84b254e886e7a735541e2a
     m_Address: Assets/Sprites/Items/10goldmini.png
     m_ReadOnly: 0
@@ -242,6 +247,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6650ad2f58d09fc48a6befc39c5bead0
+    m_Address: Assets/Sprites/Items/kingSword.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 68236e48266d8f94f8006bf32b10680c
     m_Address: Assets/Scripts/CardSO/4/4_TiedUp.asset
     m_ReadOnly: 0
@@ -269,11 +279,6 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 7415ab90aa759044ebc6cba2fb931d35
     m_Address: Assets/Scripts/CardSO/13/13_Items.asset
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 755de224970dd5d4da679e83d6cfcfae
-    m_Address: "Assets/Sprites/BG/\u0422\u0435\u043C\u043D\u0435\u0435\u0442.png"
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -312,16 +317,6 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 7c87d21946a7cce429cc8e11488d742b
-    m_Address: Assets/Sprites/Items/Nail.png
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 7e8b41fa8e20e4b449c09a8b36815510
-    m_Address: Assets/Sprites/Items/sword.png
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 7fdf47c16bc92de46a750ae5ecd5c678
     m_Address: Assets/Scripts/CardSO/15/15_NO_OldMan.asset
     m_ReadOnly: 0
@@ -344,11 +339,6 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 8b89e771499f0544da56ded8a4c2541a
     m_Address: Assets/Scripts/CardSO/1Start.asset
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 8cae47ce39b9ba14892a9f8677c4e344
-    m_Address: Assets/Sprites/Items/HeartMinus.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -556,6 +546,12 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: eeaff6148388f004796da9358a9ec4f9
     m_Address: Assets/Scripts/CardSO/17/17_OldMan_Pay.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f0a9942ce11aa734c99d81a6f7533a12
+    m_Address: "Assets/Sprites/BG/\u041E\u0431\u043E\u0447\u0438\u043D\u0430\u041B\u0435\u0441\u0430
+      \u2014 \u043A\u043E\u043F\u0438\u044F.png"
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
