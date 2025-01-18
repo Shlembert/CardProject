@@ -1820,7 +1820,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &112191141
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1865,7 +1865,7 @@ Animator:
   m_GameObject: {fileID: 112191140}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: f600af1c09498974f8c06ca1d8a7fae4, type: 2}
+  m_Controller: {fileID: 9100000, guid: d85ad0ad988a11c4a8e850eb57aa1b07, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -4682,7 +4682,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1.6, y: 311.8}
+  m_AnchoredPosition: {x: -0.5, y: 283.2}
   m_SizeDelta: {x: 110, y: 110}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &315289382
@@ -5046,7 +5046,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1.6, y: 156}
+  m_AnchoredPosition: {x: 1.6, y: 140.92}
   m_SizeDelta: {x: 110, y: 110}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &350440114
@@ -8364,8 +8364,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -41, y: -239.83}
-  m_SizeDelta: {x: 164.11, y: 779.19}
+  m_AnchoredPosition: {x: -41, y: -220}
+  m_SizeDelta: {x: 168, y: 732}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &607471569
 MonoBehaviour:
@@ -8387,7 +8387,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: d303c38d9860d1c488f6b5032088d19b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 1a7deefad180a0242a04ed00d22b0252, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -9315,7 +9315,7 @@ MonoBehaviour:
   gameController: {fileID: 1825275744}
   soundController: {fileID: 791171146}
   hpController: {fileID: 1650742178}
-  cardSetScriptableObject: {fileID: 11400000, guid: fd6482f80e9a13a4290f55eb2b889917, type: 2}
+  cardSetScriptableObject: {fileID: 11400000, guid: 8b89e771499f0544da56ded8a4c2541a, type: 2}
 --- !u!114 &672165349
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9881,7 +9881,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -153.41}
+  m_AnchoredPosition: {x: 0, y: -142.5}
   m_SizeDelta: {x: 110, y: 110}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &697563971
@@ -13715,7 +13715,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -309.8}
+  m_AnchoredPosition: {x: 0, y: -284.5}
   m_SizeDelta: {x: 110, y: 110}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &864262152
@@ -18661,7 +18661,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 1.1}
+  m_AnchoredPosition: {x: 0, y: -0.9}
   m_SizeDelta: {x: 110, y: 110}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1208812890
@@ -30448,7 +30448,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -73757720, y: 51620204}
+  m_AnchoredPosition: {x: -75259880, y: 52667164}
   m_SizeDelta: {x: 0, y: 300}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &2018445987

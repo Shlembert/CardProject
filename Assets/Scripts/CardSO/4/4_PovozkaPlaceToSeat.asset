@@ -50,7 +50,7 @@ MonoBehaviour:
     itemSprite: {fileID: 0}
     requiredItemSprite: {fileID: 0}
     removeItemSprite: 0
-    changeBanner: 0
+    changeBanner: 1
     locationSprite: {fileID: 0}
     nextSetIfItem: {fileID: 11400000, guid: 05eb8f1c98363574aa83d1c7f024bc52, type: 2}
     nextSetIfNoItem: {fileID: 0}

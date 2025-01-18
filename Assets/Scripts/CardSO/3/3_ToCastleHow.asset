@@ -56,7 +56,7 @@ MonoBehaviour:
     nextSetIfNoItem: {fileID: 0}
     isWinIfItem: 0
     winContentIfItem: []
-    reverseSpriteIfItem: {fileID: 21300000, guid: 7f60b426711fdca4ba10cdb8b1f10ad7, type: 3}
+    reverseSpriteIfItem: {fileID: 21300000, guid: 46cf271afa7ce114caa6e2d8893b16ca, type: 3}
     reverseAudioClipItem: {fileID: 0}
     reverseTopTextIfItem: 3_ToCastleHow_bunner_cardRight_REV
     changeLifePointsIfItem: 0

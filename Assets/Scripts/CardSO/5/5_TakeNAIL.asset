@@ -12,15 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8636afbb060c9543bb985dfc1b704ad, type: 3}
   m_Name: 5_TakeNAIL
   m_EditorClassIdentifier: 
-  portrait: {fileID: 21300000, guid: 103e48c1276507d4db598e0bc9c93daa, type: 3}
-  bannerAnimator: {fileID: 9100000, guid: 443731da750020044b2c1478522ebd84, type: 2}
-  animationClip: {fileID: 7400000, guid: 3f30bb1b9d4fbfe459f29f1ad7741892, type: 2}
+  portrait: {fileID: 21300000, guid: bd963025cf2e67645b8b4f1484419671, type: 3}
+  bannerAnimator: {fileID: 0}
+  animationClip: {fileID: 0}
   bannerSound: {fileID: 0}
   bannerText: 5_TakeNAIL_bunner
   checkPoint: 0
   leftCard:
     messageText: 5_TakeNAIL_cardLeft
-    illustrationSprite: {fileID: 21300000, guid: ff908b6e1e30b3348865af0fca8b1635, type: 3}
+    illustrationSprite: {fileID: 21300000, guid: 5df3568b786e99848a8300fd7da2990e, type: 3}
     animator: {fileID: 0}
     animationClip: {fileID: 0}
     itemSprite: {fileID: 0}
@@ -32,7 +32,7 @@ MonoBehaviour:
     nextSetIfNoItem: {fileID: 0}
     isWinIfItem: 0
     winContentIfItem: []
-    reverseSpriteIfItem: {fileID: 21300000, guid: b2a8fc7c3fbcea14e9b318c323f9af6c, type: 3}
+    reverseSpriteIfItem: {fileID: 21300000, guid: 980f6e51f8de3f74484532a838ff54e0, type: 3}
     reverseAudioClipItem: {fileID: 0}
     reverseTopTextIfItem: 5_TakeNAIL_cardLeft_REV
     changeLifePointsIfItem: 0

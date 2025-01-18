@@ -32,7 +32,7 @@ MonoBehaviour:
     nextSetIfNoItem: {fileID: 0}
     isWinIfItem: 0
     winContentIfItem: []
-    reverseSpriteIfItem: {fileID: 21300000, guid: 6e734b6a62002654e9d64b90ad2a1da6, type: 3}
+    reverseSpriteIfItem: {fileID: 21300000, guid: 52eaccb0d17c8e14f9713b6a4d903c2b, type: 3}
     reverseAudioClipItem: {fileID: 0}
     reverseTopTextIfItem: 4_WomanGive_cardLeft_REV
     changeLifePointsIfItem: 0
@@ -44,9 +44,9 @@ MonoBehaviour:
     changeLifePointsIfNoItem: 0
   rightCard:
     messageText: 4_WomanGive_cardRight
-    illustrationSprite: {fileID: 21300000, guid: 618350fd8e7223048aa5151b0674514e, type: 3}
-    animator: {fileID: 9100000, guid: 211d72dc0b84e664b8c4bafcb5c035b5, type: 2}
-    animationClip: {fileID: 7400000, guid: f7d7a9a2ea016a343bd448b922d9686e, type: 2}
+    illustrationSprite: {fileID: 21300000, guid: e6c9e0255ecbf294ea570234a15d5b82, type: 3}
+    animator: {fileID: 0}
+    animationClip: {fileID: 0}
     itemSprite: {fileID: 0}
     requiredItemSprite: {fileID: 0}
     removeItemSprite: 0
@@ -56,7 +56,7 @@ MonoBehaviour:
     nextSetIfNoItem: {fileID: 0}
     isWinIfItem: 0
     winContentIfItem: []
-    reverseSpriteIfItem: {fileID: 21300000, guid: 618350fd8e7223048aa5151b0674514e, type: 3}
+    reverseSpriteIfItem: {fileID: 21300000, guid: e6c9e0255ecbf294ea570234a15d5b82, type: 3}
     reverseAudioClipItem: {fileID: 0}
     reverseTopTextIfItem: 4_WomanGive_cardRight_REV
     changeLifePointsIfItem: 0
