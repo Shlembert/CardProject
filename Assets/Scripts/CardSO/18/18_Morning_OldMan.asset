@@ -16,10 +16,10 @@ MonoBehaviour:
   bannerAnimator: {fileID: 0}
   animationClip: {fileID: 0}
   bannerSound: {fileID: 0}
-  bannerText: 18_Shalash_bunner
+  bannerText: 18_Morning_OldMan_bunner
   checkPoint: 0
   leftCard:
-    messageText: 18_Shalash_cardLeft
+    messageText: 18_Morning_OldMan_cardLeft
     illustrationSprite: {fileID: 21300000, guid: 651e972b62717bc43ac6c68acca7a2e6, type: 3}
     animator: {fileID: 0}
     animationClip: {fileID: 0}
@@ -38,7 +38,7 @@ MonoBehaviour:
       Message: WinAddToWishlist_toAll
     reverseSpriteIfItem: {fileID: 21300000, guid: ed8ace026b0de18409c2b29317b3e88f, type: 3}
     reverseAudioClipItem: {fileID: 0}
-    reverseTopTextIfItem: 18_Shalash_cardLeft_REV
+    reverseTopTextIfItem: 17_YoungWatchmen_2_win_1
     changeLifePointsIfItem: 0
     isWinIfNoItem: 0
     winContentIfNoItem: []
@@ -47,7 +47,7 @@ MonoBehaviour:
     reverseTopTextIfNoItem: 
     changeLifePointsIfNoItem: 0
   rightCard:
-    messageText: 18_Shalash_cardRight
+    messageText: 18_Morning_OldMan_cardRight
     illustrationSprite: {fileID: 21300000, guid: 3688b8a1b0949854884006b4410b9c19, type: 3}
     animator: {fileID: 0}
     animationClip: {fileID: 0}
@@ -66,7 +66,7 @@ MonoBehaviour:
       Message: WinAddToWishlist_toAll
     reverseSpriteIfItem: {fileID: 21300000, guid: 3688b8a1b0949854884006b4410b9c19, type: 3}
     reverseAudioClipItem: {fileID: 0}
-    reverseTopTextIfItem: 18_Shalash_cardRight_REV
+    reverseTopTextIfItem: 18_Morning_OldMan_cardRight_REV
     changeLifePointsIfItem: 0
     isWinIfNoItem: 0
     winContentIfNoItem: []

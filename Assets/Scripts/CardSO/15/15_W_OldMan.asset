@@ -20,9 +20,9 @@ MonoBehaviour:
   checkPoint: 0
   leftCard:
     messageText: 15_W_OldMan_cardLeft
-    illustrationSprite: {fileID: 21300000, guid: ff908b6e1e30b3348865af0fca8b1635, type: 3}
-    animator: {fileID: 0}
-    animationClip: {fileID: 0}
+    illustrationSprite: {fileID: 21300000, guid: fed9f89cf90fa584aa401d976e0505fc, type: 3}
+    animator: {fileID: 9100000, guid: b9296f8ce75cf7344b3f6c6dd6ffbd33, type: 2}
+    animationClip: {fileID: 7400000, guid: dd5f79114f569064bab7ebd3da13c68e, type: 2}
     itemSprite: {fileID: 0}
     requiredItemSprite: {fileID: 0}
     removeItemSprite: 0

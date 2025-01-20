@@ -1865,7 +1865,7 @@ Animator:
   m_GameObject: {fileID: 112191140}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: d85ad0ad988a11c4a8e850eb57aa1b07, type: 2}
+  m_Controller: {fileID: 0}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -9315,7 +9315,7 @@ MonoBehaviour:
   gameController: {fileID: 1825275744}
   soundController: {fileID: 791171146}
   hpController: {fileID: 1650742178}
-  cardSetScriptableObject: {fileID: 11400000, guid: 8b89e771499f0544da56ded8a4c2541a, type: 2}
+  cardSetScriptableObject: {fileID: 11400000, guid: d470f5ea97b393e499428f3b29046f61, type: 2}
 --- !u!114 &672165349
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30448,7 +30448,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -75504870, y: 52837916}
+  m_AnchoredPosition: {x: -80312310, y: 56188556}
   m_SizeDelta: {x: 0, y: 300}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &2018445987

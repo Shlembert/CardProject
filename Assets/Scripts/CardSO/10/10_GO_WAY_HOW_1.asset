@@ -32,7 +32,7 @@ MonoBehaviour:
     nextSetIfNoItem: {fileID: 0}
     isWinIfItem: 0
     winContentIfItem: []
-    reverseSpriteIfItem: {fileID: 21300000, guid: 0435bd882f63244488a751bd28309c9c, type: 3}
+    reverseSpriteIfItem: {fileID: 21300000, guid: 0a5f30e7392ec2044ad9be7996ee06e1, type: 3}
     reverseAudioClipItem: {fileID: 0}
     reverseTopTextIfItem: 10_GO_WAY_HOW_1_cardLeft_REV
     changeLifePointsIfItem: 0
@@ -51,18 +51,18 @@ MonoBehaviour:
     requiredItemSprite: {fileID: 21300000, guid: 5517ac6f8f20c1440bcb354a7835d8fc, type: 3}
     removeItemSprite: 0
     changeBanner: 1
-    locationSprite: {fileID: 21300000, guid: d6fddded13a279946afdcf50eb0e3b07, type: 3}
+    locationSprite: {fileID: 21300000, guid: c40a7060c793be44ab859909a8793ac0, type: 3}
     nextSetIfItem: {fileID: 11400000, guid: 26eba1feaf30ed442b390559a9fa03b8, type: 2}
     nextSetIfNoItem: {fileID: 11400000, guid: 72fdfe391bd70cb43a777a698d9a350b, type: 2}
     isWinIfItem: 0
     winContentIfItem: []
-    reverseSpriteIfItem: {fileID: 21300000, guid: 8035b6efaf50318498eb37841767c805, type: 3}
+    reverseSpriteIfItem: {fileID: 21300000, guid: 76f4c762f8d5a79458b5249c60ec8686, type: 3}
     reverseAudioClipItem: {fileID: 0}
     reverseTopTextIfItem: 10_GO_WAY_HOW_1_cardRight_REV
     changeLifePointsIfItem: 0
     isWinIfNoItem: 0
     winContentIfNoItem: []
-    reverseSpriteIfNoItem: {fileID: 21300000, guid: 8035b6efaf50318498eb37841767c805, type: 3}
+    reverseSpriteIfNoItem: {fileID: 21300000, guid: 76f4c762f8d5a79458b5249c60ec8686, type: 3}
     reverseAudioClipNoItem: {fileID: 0}
     reverseTopTextIfNoItem: 10_GO_WAY_HOW_1_cardRight_REV_NO
     changeLifePointsIfNoItem: 0

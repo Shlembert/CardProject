@@ -20,7 +20,7 @@ MonoBehaviour:
   checkPoint: 0
   leftCard:
     messageText: 8_GoToJail_cardLeft
-    illustrationSprite: {fileID: 21300000, guid: 6ad9fbfb83d634645a3603f523c36d6a, type: 3}
+    illustrationSprite: {fileID: 21300000, guid: 834e790034b02c24ebc9e11d4a07dc97, type: 3}
     animator: {fileID: 0}
     animationClip: {fileID: 0}
     itemSprite: {fileID: 0}
