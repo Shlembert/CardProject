@@ -20,9 +20,9 @@ MonoBehaviour:
   checkPoint: 0
   leftCard:
     messageText: 17_StrangeFruits_cardLeft
-    illustrationSprite: {fileID: 21300000, guid: b443037f3b1abfc4c8fdd1f9fd7e3efe, type: 3}
-    animator: {fileID: 0}
-    animationClip: {fileID: 0}
+    illustrationSprite: {fileID: 21300000, guid: d5a64fd00ecda174a8efe0f90f6fdf1c, type: 3}
+    animator: {fileID: 9100000, guid: 4e20ea2f2dcee994398851a4a417882e, type: 2}
+    animationClip: {fileID: 7400000, guid: 3f4d247909b2b89439a75711dccfb1ce, type: 2}
     itemSprite: {fileID: 0}
     requiredItemSprite: {fileID: 0}
     removeItemSprite: 0

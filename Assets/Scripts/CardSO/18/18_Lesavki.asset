@@ -20,7 +20,7 @@ MonoBehaviour:
   checkPoint: 0
   leftCard:
     messageText: 18_Lesavki_cardLeft
-    illustrationSprite: {fileID: 21300000, guid: 651e972b62717bc43ac6c68acca7a2e6, type: 3}
+    illustrationSprite: {fileID: 21300000, guid: e62cbea81296ad5418c90a55bada284a, type: 3}
     animator: {fileID: 0}
     animationClip: {fileID: 0}
     itemSprite: {fileID: 0}
@@ -32,9 +32,9 @@ MonoBehaviour:
     nextSetIfNoItem: {fileID: 0}
     isWinIfItem: 1
     winContentIfItem:
-    - Sprite: {fileID: 21300000, guid: 00144b0161cf1094ebc48d47c2ffc238, type: 3}
+    - Sprite: {fileID: 21300000, guid: c5ba98a259a655449911c157791ac119, type: 3}
       Message: 18_Lesavki_win_1
-    - Sprite: {fileID: 21300000, guid: 00144b0161cf1094ebc48d47c2ffc238, type: 3}
+    - Sprite: {fileID: 21300000, guid: c5ba98a259a655449911c157791ac119, type: 3}
       Message: WinAddToWishlist_toAll
     reverseSpriteIfItem: {fileID: 21300000, guid: 8cae47ce39b9ba14892a9f8677c4e344, type: 3}
     reverseAudioClipItem: {fileID: 0}
@@ -48,7 +48,7 @@ MonoBehaviour:
     changeLifePointsIfNoItem: 0
   rightCard:
     messageText: 18_Lesavki_cardRight
-    illustrationSprite: {fileID: 21300000, guid: 3688b8a1b0949854884006b4410b9c19, type: 3}
+    illustrationSprite: {fileID: 21300000, guid: 9c9fea03a91cae04a89deb800210db47, type: 3}
     animator: {fileID: 0}
     animationClip: {fileID: 0}
     itemSprite: {fileID: 0}
@@ -60,11 +60,11 @@ MonoBehaviour:
     nextSetIfNoItem: {fileID: 0}
     isWinIfItem: 1
     winContentIfItem:
-    - Sprite: {fileID: 21300000, guid: 00144b0161cf1094ebc48d47c2ffc238, type: 3}
+    - Sprite: {fileID: 21300000, guid: 00a64c89db1db7d4db9057fe427dd4c8, type: 3}
       Message: 18_Lesavki_win_2
-    - Sprite: {fileID: 21300000, guid: 00144b0161cf1094ebc48d47c2ffc238, type: 3}
+    - Sprite: {fileID: 21300000, guid: 00a64c89db1db7d4db9057fe427dd4c8, type: 3}
       Message: WinAddToWishlist_toAll
-    reverseSpriteIfItem: {fileID: 21300000, guid: 3688b8a1b0949854884006b4410b9c19, type: 3}
+    reverseSpriteIfItem: {fileID: 21300000, guid: 93e9550674049ac43a1ae60b426b3f8a, type: 3}
     reverseAudioClipItem: {fileID: 0}
     reverseTopTextIfItem: 18_Lesavki_cardRight_REV
     changeLifePointsIfItem: 0

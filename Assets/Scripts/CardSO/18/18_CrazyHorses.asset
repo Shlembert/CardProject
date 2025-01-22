@@ -20,7 +20,7 @@ MonoBehaviour:
   checkPoint: 0
   leftCard:
     messageText: 18_CrazyHorses_cardLeft
-    illustrationSprite: {fileID: 21300000, guid: 956d9977a8c09d648a207cd7bb9b00e7, type: 3}
+    illustrationSprite: {fileID: 21300000, guid: 476d758cd216083419f536b63e7bebd5, type: 3}
     animator: {fileID: 0}
     animationClip: {fileID: 0}
     itemSprite: {fileID: 0}
@@ -32,11 +32,11 @@ MonoBehaviour:
     nextSetIfNoItem: {fileID: 0}
     isWinIfItem: 1
     winContentIfItem:
-    - Sprite: {fileID: 21300000, guid: 00144b0161cf1094ebc48d47c2ffc238, type: 3}
+    - Sprite: {fileID: 21300000, guid: f7cc7da663419b844b2961016b89467c, type: 3}
       Message: 18_CrazyHorses_win_1
-    - Sprite: {fileID: 21300000, guid: 00144b0161cf1094ebc48d47c2ffc238, type: 3}
+    - Sprite: {fileID: 21300000, guid: f7cc7da663419b844b2961016b89467c, type: 3}
       Message: WinAddToWishlist_toAll
-    reverseSpriteIfItem: {fileID: 21300000, guid: afdfbe6bb59dab84fabfcec4f8e822b3, type: 3}
+    reverseSpriteIfItem: {fileID: 21300000, guid: 7580e7d494cebaa4eb0ed9317d3a20a7, type: 3}
     reverseAudioClipItem: {fileID: 0}
     reverseTopTextIfItem: 18_CrazyHorses_cardLeft_REV
     changeLifePointsIfItem: 0
@@ -48,7 +48,7 @@ MonoBehaviour:
     changeLifePointsIfNoItem: 0
   rightCard:
     messageText: 18_CrazyHorses_cardRight
-    illustrationSprite: {fileID: 21300000, guid: 466c9d179bd80204299b821cd7edfbe2, type: 3}
+    illustrationSprite: {fileID: 21300000, guid: 817280c17b5cbef458af529e680e5f61, type: 3}
     animator: {fileID: 0}
     animationClip: {fileID: 0}
     itemSprite: {fileID: 0}
@@ -60,11 +60,11 @@ MonoBehaviour:
     nextSetIfNoItem: {fileID: 0}
     isWinIfItem: 1
     winContentIfItem:
-    - Sprite: {fileID: 21300000, guid: 00144b0161cf1094ebc48d47c2ffc238, type: 3}
+    - Sprite: {fileID: 21300000, guid: 6ae74f89e5006914ca5e67fb16c9b582, type: 3}
       Message: 18_CrazyHorses_win_2
-    - Sprite: {fileID: 21300000, guid: 00144b0161cf1094ebc48d47c2ffc238, type: 3}
+    - Sprite: {fileID: 21300000, guid: 6ae74f89e5006914ca5e67fb16c9b582, type: 3}
       Message: WinAddToWishlist_toAll
-    reverseSpriteIfItem: {fileID: 21300000, guid: ed8ace026b0de18409c2b29317b3e88f, type: 3}
+    reverseSpriteIfItem: {fileID: 21300000, guid: 0df8ff05e402190458aca0c34c9be914, type: 3}
     reverseAudioClipItem: {fileID: 0}
     reverseTopTextIfItem: 18_CrazyHorses_cardRight_REV
     changeLifePointsIfItem: 0

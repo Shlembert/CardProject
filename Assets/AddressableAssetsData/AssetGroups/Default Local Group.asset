@@ -454,6 +454,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cf05b3622f13d194ba37063adeb20374
+    m_Address: Assets/Sprites/BG4WINS/Ramsey.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: cfeb68ea52faf9941935375f8de7b366
     m_Address: Assets/Sprites/BG/CastleGate.png
     m_ReadOnly: 0

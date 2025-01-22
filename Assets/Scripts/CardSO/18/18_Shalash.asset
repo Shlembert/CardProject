@@ -20,7 +20,7 @@ MonoBehaviour:
   checkPoint: 0
   leftCard:
     messageText: 18_Shalash_cardLeft
-    illustrationSprite: {fileID: 21300000, guid: 651e972b62717bc43ac6c68acca7a2e6, type: 3}
+    illustrationSprite: {fileID: 21300000, guid: 3d34c08b91156fc49b6fa5fa714e656c, type: 3}
     animator: {fileID: 0}
     animationClip: {fileID: 0}
     itemSprite: {fileID: 0}
@@ -32,11 +32,11 @@ MonoBehaviour:
     nextSetIfNoItem: {fileID: 0}
     isWinIfItem: 1
     winContentIfItem:
-    - Sprite: {fileID: 21300000, guid: 00144b0161cf1094ebc48d47c2ffc238, type: 3}
+    - Sprite: {fileID: 21300000, guid: c555ea478d6eac3499f1d9eb2871b842, type: 3}
       Message: 18_Morning_OldMan_win_1
-    - Sprite: {fileID: 21300000, guid: 00144b0161cf1094ebc48d47c2ffc238, type: 3}
+    - Sprite: {fileID: 21300000, guid: c555ea478d6eac3499f1d9eb2871b842, type: 3}
       Message: WinAddToWishlist_toAll
-    reverseSpriteIfItem: {fileID: 21300000, guid: ed8ace026b0de18409c2b29317b3e88f, type: 3}
+    reverseSpriteIfItem: {fileID: 21300000, guid: 282756473d8c9474e91e8fafa8a776a4, type: 3}
     reverseAudioClipItem: {fileID: 0}
     reverseTopTextIfItem: 18_Shalash_cardLeft_REV
     changeLifePointsIfItem: 0
@@ -48,7 +48,7 @@ MonoBehaviour:
     changeLifePointsIfNoItem: 0
   rightCard:
     messageText: 18_Shalash_cardRight
-    illustrationSprite: {fileID: 21300000, guid: 3688b8a1b0949854884006b4410b9c19, type: 3}
+    illustrationSprite: {fileID: 21300000, guid: 03bcb53c05dd61440b2590277ea40aa0, type: 3}
     animator: {fileID: 0}
     animationClip: {fileID: 0}
     itemSprite: {fileID: 0}
@@ -60,11 +60,11 @@ MonoBehaviour:
     nextSetIfNoItem: {fileID: 0}
     isWinIfItem: 1
     winContentIfItem:
-    - Sprite: {fileID: 21300000, guid: 00144b0161cf1094ebc48d47c2ffc238, type: 3}
+    - Sprite: {fileID: 21300000, guid: e4c8367392ccb2049af70a4445e057d8, type: 3}
       Message: 17_YoungWatchmen_2_win_1
-    - Sprite: {fileID: 21300000, guid: 00144b0161cf1094ebc48d47c2ffc238, type: 3}
+    - Sprite: {fileID: 21300000, guid: e4c8367392ccb2049af70a4445e057d8, type: 3}
       Message: WinAddToWishlist_toAll
-    reverseSpriteIfItem: {fileID: 21300000, guid: 3688b8a1b0949854884006b4410b9c19, type: 3}
+    reverseSpriteIfItem: {fileID: 21300000, guid: 220161a46420388498177c847003269d, type: 3}
     reverseAudioClipItem: {fileID: 0}
     reverseTopTextIfItem: 18_Shalash_cardRight_REV
     changeLifePointsIfItem: 0
