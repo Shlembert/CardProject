@@ -24,7 +24,6 @@ public class GameDataManager : MonoBehaviour
 
         // Используем Addressable AssetReference для локации
         saveSlot.GameData.Location = locationBG.sprite != null ? new AssetReferenceSprite(locationBG.sprite.name) : null;
-
         // Используем Addressable AssetReference для CardSet
         saveSlot.GameData.CardSet = contentCard.CardSetScriptableObject != null ? new AssetReference(contentCard.CardSetScriptableObject.name) : null;
 

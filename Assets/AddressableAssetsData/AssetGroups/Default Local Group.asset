@@ -18,17 +18,17 @@ MonoBehaviour:
   m_GUID: aa00794ad01843245b72e51d6fd7784c
   m_SerializeEntries:
   - m_GUID: 00144b0161cf1094ebc48d47c2ffc238
-    m_Address: "Assets/Sprites/BG/\u0424\u043E\u043D\u044B_\u0422\u0435\u043C\u043D\u044B\u0439\u041B\u0435\u0441.png"
+    m_Address: "\u0424\u043E\u043D\u044B_\u0422\u0435\u043C\u043D\u044B\u0439\u041B\u0435\u0441"
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 003d1931d5ad734488f1eedb3aa39405
-    m_Address: Assets/Scripts/CardSO/5/5_1_StealAppleCatch.asset
+    m_Address: 5_1_StealAppleCatch
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 05eb8f1c98363574aa83d1c7f024bc52
-    m_Address: Assets/Scripts/CardSO/5/5_TakeNAIL.asset
+    m_Address: 5_TakeNAIL
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -83,7 +83,7 @@ MonoBehaviour:
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 284df8acc7e0b73439f30e8df01bcde5
-    m_Address: Assets/Scripts/CardSO/3/3_GuardSlamDoor.asset
+    m_Address: 3_GuardSlamDoor
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -108,7 +108,7 @@ MonoBehaviour:
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 36ec482e521a14047ac7e0366c291f1c
-    m_Address: Assets/Scripts/CardSO/8/8_GoToJail.asset
+    m_Address: 8_GoToJail
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -118,7 +118,7 @@ MonoBehaviour:
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 39f12e39bba61564b9ca68f94038f5b0
-    m_Address: Assets/Scripts/CardSO/5/5_TakeApple.asset
+    m_Address: 5_TakeApple
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -208,12 +208,12 @@ MonoBehaviour:
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 58f23042658130540ab0b31c6f41fe1a
-    m_Address: Assets/Scripts/CardSO/6/6_KingsPlace2.asset
+    m_Address: 6_KingsPlace2
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 5991687b9ec07b1479ba22b612b89f8a
-    m_Address: Assets/Scripts/CardSO/2/2_Window.asset
+    m_Address: /2_Window
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -223,7 +223,7 @@ MonoBehaviour:
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 5b8bb2d823ac7f64cadeed6172e26eb4
-    m_Address: Assets/Scripts/CardSO/3/3_ToCastleHow.asset
+    m_Address: 3_ToCastleHow
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -253,27 +253,27 @@ MonoBehaviour:
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 68236e48266d8f94f8006bf32b10680c
-    m_Address: Assets/Scripts/CardSO/4/4_TiedUp.asset
+    m_Address: 4_TiedUp
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 707c135420fff1c41ad274f4ddbeeda4
-    m_Address: Assets/Sprites/BG/MainRoomHero.png
+    m_Address: MainRoomHero
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 71faa5f8e1534a2429d980ccdb549617
-    m_Address: Assets/Scripts/CardSO/5/5_1_StealAppleQ.asset
+    m_Address: 5_1_StealAppleQ
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 72fdfe391bd70cb43a777a698d9a350b
-    m_Address: Assets/Scripts/CardSO/10/10_NAIL_1.asset
+    m_Address: 10_NAIL_1
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 73c9d61a567dabd4a83b8ad7c416d1de
-    m_Address: Assets/Scripts/CardSO/9/9_GUARDS.asset
+    m_Address: 9_GUARDS
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -283,7 +283,7 @@ MonoBehaviour:
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 75f234c7afda2054994f99f7e955e131
-    m_Address: Assets/Scripts/CardSO/4/4_ToCastleQ.asset
+    m_Address: 4_ToCastleQ
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -293,17 +293,17 @@ MonoBehaviour:
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 77e3b6895ff6f5940b9f84b0d43b8ef2
-    m_Address: Assets/Scripts/CardSO/7/7_KingTellStory.asset
+    m_Address: 7_KingTellStory
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 78b6e3f3e0039764b816d6ae9b4ae2f9
-    m_Address: Assets/Scripts/CardSO/11/11_Home_w_Horse_w_Guards.asset
+    m_Address: 11_Home_w_Horse_w_Guards
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 7a7bab3e5c65c82439f9fee0580743d7
-    m_Address: Assets/Scripts/CardSO/5/5_3_AngryWoman.asset
+    m_Address: 5_3_AngryWoman
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -328,27 +328,28 @@ MonoBehaviour:
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 85238a8911380584c8c40590768b33b0
-    m_Address: Assets/Scripts/CardSO/4/4_PovozkaPlaceToSeat.asset
+    m_Address: 4_PovozkaPlaceToSeat
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 87799774be82da940b2525dce31554dd
-    m_Address: Assets/Scripts/CardSO/2/2_Guard.asset
+    m_Address: 2_Guard
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 8b89e771499f0544da56ded8a4c2541a
-    m_Address: Assets/Scripts/CardSO/1Start.asset
+    m_Address: 1Start
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - default
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 92980bbab46386e4dba3b7a2db8a784d
-    m_Address: Assets/Scripts/CardSO/4/4_WomanGive.asset
+    m_Address: 4_WomanGive
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 92f33e50c6a9dfa41b83835b91648dc1
-    m_Address: Assets/Scripts/CardSO/6/6_KingsPlace.asset
+    m_Address: /6_KingsPlace
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -364,7 +365,7 @@ MonoBehaviour:
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: a00032c3e4d3c964fa2e64adc17025a8
-    m_Address: Assets/Scripts/CardSO/5/5_4_BazaarEnd.asset
+    m_Address: 5_4_BazaarEnd
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -400,7 +401,7 @@ MonoBehaviour:
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: ac9147a2f4c385d4ca8611875967e63e
-    m_Address: Assets/Scripts/CardSO/7/7_Listen.asset
+    m_Address: 7_Listen
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -420,7 +421,7 @@ MonoBehaviour:
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: be6b478ce069ede4f813e36fb0b5dc40
-    m_Address: Assets/Scripts/CardSO/10/10_HORSES_2B_1SAD.asset
+    m_Address: 10_HORSES_2B_1SAD
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -440,7 +441,7 @@ MonoBehaviour:
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: c40a7060c793be44ab859909a8793ac0
-    m_Address: "Assets/Sprites/BG/\u041D\u0435\u043C\u043D\u043E\u0433\u043E_\u0422\u0435\u043C\u043D\u044B\u0439\u041B\u0435\u0441.png"
+    m_Address: "\u041D\u0435\u043C\u043D\u043E\u0433\u043E_\u0422\u0435\u043C\u043D\u044B\u0439\u041B\u0435\u0441"
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -465,7 +466,7 @@ MonoBehaviour:
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: d363f3269da63a649ac49ace9ba52eb1
-    m_Address: Assets/Scripts/CardSO/10/10_GO_WAY_HOW_1.asset
+    m_Address: 10_GO_WAY_HOW_1
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -490,7 +491,7 @@ MonoBehaviour:
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: debd061b1d5576946bd0320010ea7125
-    m_Address: Assets/Scripts/CardSO/5/5_BazaarORPlatz.asset
+    m_Address: 5_BazaarORPlatz
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -510,7 +511,7 @@ MonoBehaviour:
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: e64b0bf3c90906144bce3f9cd16dd9e0
-    m_Address: Assets/Scripts/CardSO/8/8_Sword.asset
+    m_Address: 8_Sword
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -520,7 +521,7 @@ MonoBehaviour:
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: e6ef0b5954f6f044dbc082a54225770f
-    m_Address: Assets/Scripts/CardSO/5/5_3_FingerEar.asset
+    m_Address: 5_3_FingerEar
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -535,17 +536,17 @@ MonoBehaviour:
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: ec61a7c3fcac62d4eb9d7c78d2e7f557
-    m_Address: Assets/Scripts/CardSO/9/9-1.asset
+    m_Address: 9-1
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: ece10ed878334e24199d789722c76b7f
-    m_Address: Assets/Scripts/CardSO/8/8_NoSword.asset
+    m_Address: 8_NoSword
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: ee584dca9c024f948afa3d15c23a1e7f
-    m_Address: Assets/Scripts/CardSO/6/6_in_Castle.asset
+    m_Address: 6_in_Castle
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -566,7 +567,7 @@ MonoBehaviour:
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: f6ea6492857e55e4f995ea63d0a8ae4e
-    m_Address: Assets/Scripts/CardSO/2/2_Right_Empty.asset
+    m_Address: /2_Right_Empty
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -581,7 +582,12 @@ MonoBehaviour:
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: fb555fd3966b6ee408314ab49f6ba688
-    m_Address: Assets/Scripts/CardSO/11/11_Home_NO_G_H.asset
+    m_Address: 11_Home_NO_G_H
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fba577c078b361f44bab5ae342b92477
+    m_Address: 7_DeadEnd
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
