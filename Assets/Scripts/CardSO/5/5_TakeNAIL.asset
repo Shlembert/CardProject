@@ -20,9 +20,9 @@ MonoBehaviour:
   checkPoint: 0
   leftCard:
     messageText: 5_TakeNAIL_cardLeft
-    illustrationSprite: {fileID: 21300000, guid: 5df3568b786e99848a8300fd7da2990e, type: 3}
-    animator: {fileID: 0}
-    animationClip: {fileID: 0}
+    illustrationSprite: {fileID: 21300000, guid: d4facbad13a4d514fac74e6595ab7507, type: 3}
+    animator: {fileID: 9100000, guid: f02fceccd893b444ba6e2b8baa23cf92, type: 2}
+    animationClip: {fileID: 7400000, guid: f03bd3373428b734384e62b49a259483, type: 2}
     itemSprite: {fileID: 0}
     requiredItemSprite: {fileID: 0}
     removeItemSprite: 0

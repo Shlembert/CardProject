@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8636afbb060c9543bb985dfc1b704ad, type: 3}
   m_Name: 7_DeadEnd
   m_EditorClassIdentifier: 
-  portrait: {fileID: 21300000, guid: ddc083d5e2d8f57429dd85db41dd597f, type: 3}
+  portrait: {fileID: 21300000, guid: 103e48c1276507d4db598e0bc9c93daa, type: 3}
   bannerAnimator: {fileID: 0}
   animationClip: {fileID: 0}
   bannerSound: {fileID: 0}
@@ -33,7 +33,7 @@ MonoBehaviour:
     isWinIfItem: 0
     winContentIfItem: []
     reverseSpriteIfItem: {fileID: 21300000, guid: b0c60248ae029c643820c3f2a4aed17a, type: 3}
-    reverseAudioClipItem: {fileID: 8300000, guid: 6f73de8f1a212c749b7207486f75f04a, type: 3}
+    reverseAudioClipItem: {fileID: 0}
     reverseTopTextIfItem: 7_DeadEnd_cardLeft_REV
     changeLifePointsIfItem: 0
     isWinIfNoItem: 0
@@ -44,17 +44,17 @@ MonoBehaviour:
     changeLifePointsIfNoItem: 0
   rightCard:
     messageText: 7_DeadEnd_cardRight
-    illustrationSprite: {fileID: 21300000, guid: 6be4edfec2b9a654ca2f234f292ecec0, type: 3}
-    animator: {fileID: 0}
-    animationClip: {fileID: 0}
+    illustrationSprite: {fileID: 21300000, guid: 4ad1788077fda4a44a8e95fd1aeb6488, type: 3}
+    animator: {fileID: 9100000, guid: da5c36fff1b846a49ab62b20d36ce481, type: 2}
+    animationClip: {fileID: 7400000, guid: 0e4c0fc05db27174dadd7f9828bb1c0a, type: 2}
     itemSprite: {fileID: 0}
     requiredItemSprite: {fileID: 0}
     removeItemSprite: 0
     changeBanner: 1
-    locationSprite: {fileID: 0}
-    nextSetIfItem: {fileID: 11400000, guid: e64b0bf3c90906144bce3f9cd16dd9e0, type: 2}
+    locationSprite: {fileID: 21300000, guid: 58f338167f704824b91a444162d32a33, type: 3}
+    nextSetIfItem: {fileID: 11400000, guid: 446a6cde43ff49147af3e1b63df4ecd8, type: 2}
     nextSetIfNoItem: {fileID: 0}
-    isWinIfItem: 1
+    isWinIfItem: 0
     winContentIfItem:
     - Sprite: {fileID: 21300000, guid: 00144b0161cf1094ebc48d47c2ffc238, type: 3}
       Message: "\u0410 \u0447\u0442\u043E \u043D\u0430\u0448\u0435\u043B \u043D\u0430\u0448
@@ -66,7 +66,7 @@ MonoBehaviour:
         \u0432 \u0412\u0438\u0448\u043B\u0438\u0441\u0442 \u043D\u0430 \u0421\u0442\u0438\u043C\u0435,
         \u0434\u043B\u044F \u043D\u0430\u0441 \u044D\u0442\u043E \u043E\u0447\u0435\u043D\u044C
         \u0432\u0430\u0436\u043D\u043E!!!"
-    reverseSpriteIfItem: {fileID: 21300000, guid: 7e8b41fa8e20e4b449c09a8b36815510, type: 3}
+    reverseSpriteIfItem: {fileID: 21300000, guid: 324d7590277cce545b817a0e0339b576, type: 3}
     reverseAudioClipItem: {fileID: 0}
     reverseTopTextIfItem: 7_DeadEnd_cardRight_REV
     changeLifePointsIfItem: 0

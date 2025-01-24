@@ -18,12 +18,17 @@ MonoBehaviour:
   m_GUID: aa00794ad01843245b72e51d6fd7784c
   m_SerializeEntries:
   - m_GUID: 00144b0161cf1094ebc48d47c2ffc238
-    m_Address: "\u0424\u043E\u043D\u044B_\u0422\u0435\u043C\u043D\u044B\u0439\u041B\u0435\u0441"
+    m_Address: MainBG
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 003d1931d5ad734488f1eedb3aa39405
     m_Address: 5_1_StealAppleCatch
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 05b46834716edf74c9312fa1777ab84b
+    m_Address: AltarRoomCastle
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -33,52 +38,52 @@ MonoBehaviour:
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 0dfb13049c9a6674789c01d10dbc0f87
-    m_Address: Assets/Sprites/Items/NoKornItem.png
+    m_Address: NoKornItem
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 10845694dccfda04d8b50f9633cdb8a9
-    m_Address: "Assets/Sprites/BG/\u041F\u0440\u0438\u0432\u0430\u043B\u0412\u0442\u0435\u043C\u043D\u043E\u043C\u041B\u0435\u0441\u0443.png"
+    m_Address: ForestHalW_Fire
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 11320a16a3406cc43bf83644f28fb5a7
-    m_Address: "Assets/Sprites/BG/\u041F\u043E\u043B\u044F\u043D\u0430\u0414\u0415\u0432\u0443\u0448\u043A\u0430\u041D\u043E\u0447\u044C.png"
+    m_Address: ForestGirlNight
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 127e075295cbbf946895897c9ccf830a
-    m_Address: Assets/Scripts/CardSO/12/12_Forest_Dark_Entr.asset
+    m_Address: 12_Forest_Dark_Entr
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 1c7bc24263b38ae418b3c94ba04ef1fc
-    m_Address: "Assets/Sprites/BG/\u041B\u0435\u0441\u0421\u043E\u0432\u0441\u0435\u043C\u0421\u0442\u0435\u043C\u043D\u0435\u043B\u043E.png"
+    m_Address: "Forest\u0421ompletelyDark"
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 1e9d348a83103dc4ebc96790a52f3b35
-    m_Address: Assets/Scripts/CardSO/17/17_YoungWatchmen_2.asset
+    m_Address: 17_YoungWatchmen_2
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 258502e5b2d7de542b25943c058e5f92
-    m_Address: Assets/Sprites/Items/chain_mail.png
+    m_Address: chain_mail
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 2608c72184e33ab4bbc0e2ad80069b5b
-    m_Address: Assets/Sprites/BG/Village.png
+    m_Address: Village
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 2637858919e658544bed7072fedf7ddb
-    m_Address: Assets/Scripts/CardSO/14/14_OldMan_NoGold.asset
+    m_Address: 14_OldMan_NoGold
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 26eba1feaf30ed442b390559a9fa03b8
-    m_Address: Assets/Scripts/CardSO/12/12_Forest_Entrance.asset
+    m_Address: 12_Forest_Entrance
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -88,22 +93,22 @@ MonoBehaviour:
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 2bdd5d266eecbea4d9417fb538b81c9d
-    m_Address: Assets/Sprites/Items/MinusHeart.png
+    m_Address: MinusHeart
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 2c676d6df64219f4eb130d46ed316fbd
-    m_Address: Assets/Scripts/CardSO/16/16_Camping_W_OldMan.asset
+    m_Address: 16_Camping_W_OldMan
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 31ec6ce90cbf17444a0d704e33513b58
+    m_Address: KingGuard_mid
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 320438b2bad26b64b93413388e266025
-    m_Address: Assets/Scripts/CardSO/12/12_Forest_Entrance_ALONE.asset
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 344c6e03a0f3e634e81942bd7707b7e7
-    m_Address: Assets/Sprites/BG/MainBG.png
+    m_Address: 12_Forest_Entrance_ALONE
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -113,7 +118,7 @@ MonoBehaviour:
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 38793af509504a243af9c52ac95e3119
-    m_Address: Assets/Scripts/CardSO/18/18_Shalash.asset
+    m_Address: 18_Shalash
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -123,32 +128,32 @@ MonoBehaviour:
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 3b74ea2de7976bf4fb80b964747e1616
-    m_Address: Assets/Sprites/Items/KingGuard_yang.png
+    m_Address: KingGuard_yang
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 3c36fadc78b42444aaafefb8784fa02d
-    m_Address: Assets/Scripts/CardSO/18/18_Breakfast_OldMan.asset
+    m_Address: 18_Breakfast_OldMan
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 3d0028b64a7695942a5fa11a39ffbbad
-    m_Address: Assets/Sprites/Items/5gold.png
+    m_Address: 5gold
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 3f6bc0888834b8d4ea7191e418a45aa3
-    m_Address: Assets/Sprites/Items/KingGuard_old.png
+    m_Address: KingGuard_old
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 42a243cd2bbf85f42a0162ef0fd74609
-    m_Address: Assets/Scripts/CardSO/17/17_YoungWatchmen.asset
+    m_Address: 17_YoungWatchmen
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 430a2eedccf4abe46b9ab99bb6e679e5
-    m_Address: "Assets/Sprites/BG/\u041E\u0431\u043E\u0447\u0438\u043D\u0430\u041B\u0435\u0441\u0430.png"
+    m_Address: ForestRoadside
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -157,53 +162,63 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 446a6cde43ff49147af3e1b63df4ecd8
+    m_Address: 7_1_DeadEnd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 45679513fcb06b347a3687d64c8a03d6
-    m_Address: "Assets/Sprites/BG/\u041E\u0427\u0415\u041D\u042C\u0435\u043C\u043D\u044B\u0439\u041B\u0435\u0441.png"
+    m_Address: "Forest\u0421ompletelyDark2"
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 4aab5191ec1ce3b4b9b02cdda6b269ba
-    m_Address: Assets/Scripts/CardSO/18/18_Breakfast.asset
+    m_Address: 18_Breakfast
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 4ba2a71bfc05b394d8753fe786351cee
-    m_Address: Assets/Scripts/CardSO/13/13_Obhod_Forest.asset
+    m_Address: 13_Obhod_Forest
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 4ef24ce1aced5394b829b1a909bc6646
-    m_Address: Assets/Scripts/CardSO/16/16_Camp_Young_War.asset
+    m_Address: 16_Camp_Young_War
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 500aa9fdb54e29d44b9c88ed7ec110cf
+    m_Address: 7_2_DeadEnd
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 5376d4eba0ab5a544833b108224cbf0f
-    m_Address: Assets/Sprites/Items/KingGuard_yang_2pers.png
+    m_Address: KingGuard_yang_2pers
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 54a96d2a84d52764da59ab2ebcc6baac
-    m_Address: Assets/Scripts/CardSO/14/14_OldMan_HaveGold.asset
+    m_Address: 14_OldMan_HaveGold
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 54cd0ceb1d01b844aa86117da86db978
-    m_Address: Assets/Scripts/CardSO/16/16_Torch.asset
+    m_Address: 16_Torch
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 54d60fd42add04a4db3889acf6c5fde5
-    m_Address: Assets/Sprites/BG/HorsesHome.png
+    m_Address: HorsesHome
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 5517ac6f8f20c1440bcb354a7835d8fc
-    m_Address: Assets/Sprites/Items/bentNail.png
+    m_Address: bentNail
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 55ce038ddc84b254e886e7a735541e2a
-    m_Address: Assets/Sprites/Items/10goldmini.png
+    m_Address: 10goldmini
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -212,13 +227,18 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 58f338167f704824b91a444162d32a33
+    m_Address: DeadEndCastle
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 5991687b9ec07b1479ba22b612b89f8a
-    m_Address: /2_Window
+    m_Address: 2_Window
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 5998c1d2ef75a0d468bcc09dd2c39c54
-    m_Address: Assets/Scripts/CardSO/18/18_Morning_OldMan.asset
+    m_Address: 18_Morning_OldMan
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -228,27 +248,32 @@ MonoBehaviour:
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 5eb32a191eaf01a4c938649b144991e9
-    m_Address: Assets/Scripts/CardSO/12/12_Forest 1.asset
+    m_Address: 12_Forest_1
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 5f61605eb126d744fb65b55296652407
-    m_Address: "Assets/Sprites/BG/\u041F\u0440\u0438\u0432\u0430\u043B_\u0432_\u043B\u0435\u0441\u0443_\u0434\u043E\u0433\u043E\u0440\u0430\u0435\u0442_\u043A\u043E\u0441\u0442\u0435\u0440_\u0440\u0430\u0441\u0441\u0432\u0435\u0442.png"
+    m_Address: ForestHalW_FireDawn
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 6230f245383b7a44893c6ecee5966e3a
-    m_Address: Assets/Scripts/CardSO/17/17_Insects.asset
+    m_Address: 17_Insects
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 643d2b01fdc859c40bc16b7f2b3938d8
+    m_Address: 7_3_DeadEnd
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 6471b42b56f51404c8c20d82dfc13b0b
-    m_Address: Assets/Sprites/BG/KingHall.png
+    m_Address: KingHall
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 6650ad2f58d09fc48a6befc39c5bead0
-    m_Address: Assets/Sprites/Items/kingSword.png
+    m_Address: kingSword
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -278,7 +303,7 @@ MonoBehaviour:
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 7415ab90aa759044ebc6cba2fb931d35
-    m_Address: Assets/Scripts/CardSO/13/13_Items.asset
+    m_Address: 13_Items
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -288,7 +313,7 @@ MonoBehaviour:
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 77207c149992a89498ca679d959d7eba
-    m_Address: Assets/Scripts/CardSO/17/17_OldMan_NightCamp.asset
+    m_Address: 17_OldMan_NightCamp
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -308,22 +333,17 @@ MonoBehaviour:
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 7ae898c1fdf03094dba9073a4c190ddc
-    m_Address: Assets/Sprites/BG/Forest.png
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 7bf6806235ac6a14491c48678d9a0d10
-    m_Address: "Assets/Sprites/BG/\u041B\u0415\u04212.png"
+    m_Address: Forest
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 7fdf47c16bc92de46a750ae5ecd5c678
-    m_Address: Assets/Scripts/CardSO/15/15_NO_OldMan.asset
+    m_Address: 15_NO_OldMan
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 834e790034b02c24ebc9e11d4a07dc97
-    m_Address: Assets/Sprites/BG/Jail.png
+    m_Address: Jail
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -349,18 +369,22 @@ MonoBehaviour:
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 92f33e50c6a9dfa41b83835b91648dc1
-    m_Address: /6_KingsPlace
+    m_Address: 6_KingsPlace
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 990cfe713c4035f449ef44d7d06e8227
-    m_Address: "Assets/Sprites/BG/\u041F\u0440\u0438\u0432\u0430\u043B \u0432 \u043B\u0435\u0441\u0443
-      \u0431\u0435\u0437 \u043A\u043E\u0441\u0442\u0440\u0430.png"
+    m_Address: ForestHalWoFire
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 9a9641d0b3101a64fbe07f50c561043d
-    m_Address: "Assets/Sprites/Items/3\u043A\u043E\u043D\u044F.png"
+    m_Address: 3Horses
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9f0f51697aa9569478ae654655cef90a
+    m_Address: 17_YW_2_HORSE
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -370,33 +394,22 @@ MonoBehaviour:
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: a0d94ada09789824a8d847a1fcd6fbe6
-    m_Address: Assets/Sprites/Items/Rope.png
+    m_Address: Rope
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: a3c6b8ae8b3b57a498423fa0b598cf64
-    m_Address: Assets/Sprites/Items/3gold.png
+    m_Address: 3gold
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: a6200f021d352df4fbc8405014a63c45
-    m_Address: Assets/Scripts/CardSO/13/13_2Roadz.asset
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: aa771bc4b59542f498e56fa72ffe0848
-    m_Address: "Assets/Sprites/BG/\u041F\u0440\u0438\u0432\u0430\u043B \u0432 \u0442\u0435\u043C\u043D\u043E\u043C
-      \u043B\u0435\u0441\u0443.png"
+    m_Address: 13_2Roadz
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: aad4ab05936f13f4aa0a8ab249ec2fd2
-    m_Address: Assets/Sprites/Items/7gold.png
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: abbee1f62502fff4abc89216757fc7ef
-    m_Address: Assets/Sprites/BG/VillagePath.png
+    m_Address: 7gold
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -406,17 +419,17 @@ MonoBehaviour:
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: b3b508e6bb0e5ac44b70fa291fa441e7
-    m_Address: Assets/Sprites/BG/Bazr.png
+    m_Address: Bazr
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: b443037f3b1abfc4c8fdd1f9fd7e3efe
-    m_Address: Assets/Sprites/Items/StrangeFruit.png
+    m_Address: StrangeFruit
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: ba03ab402c343bf45bde4ff1ec48c639
-    m_Address: "Assets/Sprites/BG/\u0417\u0430\u0441\u0442\u0430\u0432\u043A\u0430_\u0448\u0438\u0440\u043E\u043A\u0430\u044F.png"
+    m_Address: Wide
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -426,42 +439,37 @@ MonoBehaviour:
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: bfda25037043650409951ac81830f4eb
-    m_Address: Assets/Sprites/BG/VillageHouse.png
+    m_Address: VillageHouse
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c04180c1cc0ff8e47aa230a1827bb734
+    m_Address: InCastleWalls
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: c1c42e746793f0745850d8b664a420e1
-    m_Address: "Assets/Sprites/Items/2\u043B\u043E\u0448\u0430\u0434\u0438.png"
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: c22c74f5f943e334aacc3252fbbd0b9f
-    m_Address: Assets/Sprites/BG/BazaarBG.png
+    m_Address: 2Horses
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: c40a7060c793be44ab859909a8793ac0
-    m_Address: "\u041D\u0435\u043C\u043D\u043E\u0433\u043E_\u0422\u0435\u043C\u043D\u044B\u0439\u041B\u0435\u0441"
+    m_Address: ForestSimpleDark
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: c6f78d8a9ab28ea42aa0588e928071d4
-    m_Address: Assets/Scripts/CardSO/18/18_CrazyHorses.asset
+    m_Address: 18_CrazyHorses
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: cd0482e2c33407f409bda4cceddf7040
-    m_Address: Assets/Sprites/BG/Kazarm.png
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: cf05b3622f13d194ba37063adeb20374
-    m_Address: Assets/Sprites/BG4WINS/Ramsey.png
+    m_Address: Kazarm
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: cfeb68ea52faf9941935375f8de7b366
-    m_Address: Assets/Sprites/BG/CastleGate.png
+    m_Address: CastleGate
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -471,22 +479,17 @@ MonoBehaviour:
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: d3d8a119bad36224fbf125a81595d63d
-    m_Address: Assets/Sprites/Items/KornItem.png
+    m_Address: KornItem
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: d470f5ea97b393e499428f3b29046f61
-    m_Address: Assets/Scripts/CardSO/17/17_StrangeFruits.asset
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: d6fddded13a279946afdcf50eb0e3b07
-    m_Address: "Assets/Sprites/BG/\u041B\u0415\u0421.png"
+    m_Address: 17_StrangeFruits
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: dda3bc681e3a24240bbe7122c67b10f1
-    m_Address: Assets/Scripts/CardSO/13/13_5_RogueLager.asset
+    m_Address: 13_5_RogueLager
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -496,27 +499,22 @@ MonoBehaviour:
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: e20618d899ce4e24caabac16eeb15051
-    m_Address: Assets/Scripts/CardSO/13/13_Poput.asset
+    m_Address: 13_Poput
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: e32821e2238411547a798ce4bda66d8e
-    m_Address: Assets/Sprites/Items/KingGuard_old_&_yang.png
+    m_Address: KingGuard_old_&_yang
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: e40860c4774086e4c9d6ed99e3b2d6fc
-    m_Address: Assets/Sprites/BG/YardHorseGuard.png
+    m_Address: YardHorseGuard
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: e64b0bf3c90906144bce3f9cd16dd9e0
     m_Address: 8_Sword
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: e677c302e680e2141b9f1211d873aac7
-    m_Address: "Assets/Sprites/BG/\u0422\u0415\u041C\u041D\u042B\u0419\u041B\u0415\u04212.png"
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -526,12 +524,12 @@ MonoBehaviour:
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: e87ec36c77d37554494b16dc474d054b
-    m_Address: "Assets/Sprites/BG/\u041F\u0440\u0438\u0432\u0430\u043B_\u0432_\u043B\u0435\u0441\u0443_\u0434\u043E\u0433\u043E\u0440\u0430\u0435\u0442_\u043A\u043E\u0441\u0442\u0435\u0440_\u043F\u0435\u0440\u0435\u0434_\u0440\u0430\u0441\u0441\u0432\u0435\u0442\u043E\u043C.png"
+    m_Address: ForestHalW_FireBeforeDawn
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: ea32759cae45a094398fba469c18ac09
-    m_Address: Assets/Scripts/CardSO/15/15_W_OldMan.asset
+    m_Address: 15_W_OldMan
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -551,33 +549,42 @@ MonoBehaviour:
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: eeaff6148388f004796da9358a9ec4f9
-    m_Address: Assets/Scripts/CardSO/17/17_OldMan_Pay.asset
+    m_Address: 17_OldMan_Pay
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: f0a9942ce11aa734c99d81a6f7533a12
-    m_Address: "Assets/Sprites/BG/\u041E\u0431\u043E\u0447\u0438\u043D\u0430\u041B\u0435\u0441\u0430
-      \u2014 \u043A\u043E\u043F\u0438\u044F.png"
+  - m_GUID: f3f8b74d060340c4bbb001c0cf4797db
+    m_Address: ApplePlus
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: f5519cf2d0a748041a93c68f088a7708
-    m_Address: Assets/Scripts/CardSO/16/16_Camp_Old_War.asset
+    m_Address: 16_Camp_Old_War
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: f6ea6492857e55e4f995ea63d0a8ae4e
-    m_Address: /2_Right_Empty
+    m_Address: 2_Right_Empty
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f7a96c5190807c4418abf81640fea54b
+    m_Address: DeadEndLight
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: f7ac6ab6472ba5b4bbb883128ab4d7c0
-    m_Address: Assets/Scripts/CardSO/DemoEnds/DemoEnd.asset
+    m_Address: DemoEnd
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: faf81b6d8968a654aa4a30ae95168bc5
-    m_Address: Assets/Scripts/CardSO/17/17.asset
+    m_Address: 17
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fb01f945b09d07547b43a49371531617
+    m_Address: DeadEndWall
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -592,12 +599,17 @@ MonoBehaviour:
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: fd6482f80e9a13a4290f55eb2b889917
-    m_Address: Assets/Scripts/CardSO/17/17_SelfWAtch.asset
+    m_Address: 17_SelfWAtch
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fef015f630ec80949843cdc55fc893af
+    m_Address: ForestSettings
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: ffa822ab010856d499afab0e98bcc2ad
-    m_Address: Assets/Scripts/CardSO/18/18_Lesavki.asset
+    m_Address: 18_Lesavki
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
