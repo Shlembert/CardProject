@@ -327,7 +327,8 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Be sure to add the game to the Vishlist on Steam, this is very important
+        for us!!!
       - "\u041E\u0431\u044F\u0437\u0430\u0442\u0435\u043B\u044C\u043D\u043E \u0434\u043E\u0431\u0430\u0432\u044C\u0442\u0435
         \u0438\u0433\u0440\u0443 \u0432 \u0412\u0438\u0448\u043B\u0438\u0441\u0442
         \u043D\u0430 \u0421\u0442\u0438\u043C\u0435, \u0434\u043B\u044F \u043D\u0430\u0441
@@ -490,7 +491,7 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - Climb out the window
+      - Look out the window
       - "\u0412\u044B\u0433\u043B\u044F\u043D\u0443\u0442\u044C \u0432 \u043E\u043A\u043D\u043E"
       - "\u4ECE\u7A97\u6237\u51FA\u53BB\u3002"
       - "\u0412\u044B\u043B\u0430\u0437\u0446\u0456 \u045E \u0430\u043A\u043D\u043E."
@@ -508,7 +509,7 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - You reluctantly get out of bed.
+      - You reluctantly get out of bed
       - "\u0412\u044B \u043D\u0435\u0445\u043E\u0442\u044F \u0432\u0441\u0442\u0430\u0435\u0442\u0435
         \u0441 \u043A\u0440\u043E\u0432\u0430\u0442\u0438"
       - "\u4F60\u4E0D\u60C5\u613F\u5730\u4E0B\u5E8A\u3002"
@@ -535,7 +536,7 @@ MonoBehaviour:
         \u0432 \u043E\u043A\u043D\u043E, \u0438 \u0432\u0438\u0434\u0438\u0442\u0435
         \u0447\u0442\u043E \u0432 \u0434\u0435\u043C\u043E \u044D\u0442\u0430 \u0432\u0435\u0442\u043A\u0430
         \u0441\u044E\u0436\u0435\u0442\u0430 \u043D\u0435\u0434\u043E\u0441\u0442\u0443\u043F\u043D\u0430
-        \u0438 \u0432\u043E\u0437\u0432\u0440\u0430\u0449\u044F\u0435\u0442\u0435\u0441\u044C
+        \u0438 \u0432\u043E\u0437\u0432\u0440\u0430\u0449\u0430\u0435\u0442\u0435\u0441\u044C
         \u0432 \u0434\u043E\u043C"
       - "\u5E26\u7A97\u53E3\u7684\u5206\u652F\u5728\u6B64\u6F14\u793A\u4E2D\u4E0D\u53EF\u7528,\n\u4F46\u6211\u4EEC\u5DF2\u7ECF\u5728\u52AA\u529B\u3002"
       - "\u0423 \u0433\u044D\u0442\u044B\u043C \u0434\u044D\u043C\u0430-\u0432\u0435\u0440\u0441\u0456\u0456
@@ -605,10 +606,8 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 'There were royal guards outside the door
-
-        They demand that you go
-        to the palace'
+      - You look out the window, and you see that this branch of the story is not
+        available in the demo, and you return to the house
       - "\u0417\u0430 \u0434\u0432\u0435\u0440\u044C\u044E \u043E\u043A\u0430\u0437\u0430\u043B\u0430\u0441\u044C
         \u0446\u0430\u0440\u0441\u043A\u0430\u044F \u0441\u0442\u0440\u0430\u0436\u0430\n\u0422\u0440\u0435\u0431\u0443\u044E\u0442
         \u0447\u0442\u043E\u0431\u044B \u0432\u044B \u043E\u0442\u043F\u0440\u0430\u0432\u0438\u043B\u0438\u0441\u044C
@@ -663,7 +662,7 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - You agree to go to the palace
+      - You agree to go to the castle
       - "\u0412\u044B \u0441\u043E\u0433\u043B\u0430\u0448\u0430\u0435\u0442\u0435\u0441\u044C
         \u043E\u0442\u043F\u0440\u0430\u0432\u0438\u0442\u044C\u0441\u044F \u0432\u043E
         \u0434\u0432\u043E\u0440\u0435\u0446"
@@ -1050,8 +1049,8 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
-      - "\u0412\u044B \u043E\u0434\u0435\u0432\u0430\u0442\u0435\u0441\u0442\u044C
+      - You get dressed and leave the house, and the guards watch you go.
+      - "\u0412\u044B \u043E\u0434\u0435\u0432\u0430\u0435\u0442\u0435\u0441\u044C
         \u0438 \u0432\u044B\u0445\u043E\u0434\u0438\u0442\u0435 \u0438\u0437 \u0434\u043E\u043C\u0430,
         \u0430 \u0441\u0442\u0440\u0430\u0436\u0430 \u043F\u0440\u043E\u0432\u043E\u0436\u0430\u0435\u0442
         \u0432\u0430\u0441 \u0432\u0437\u0433\u043B\u044F\u0434\u043E\u043C"
@@ -1071,7 +1070,7 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - To hell with that king and his lady!
       - "\u0410 \u043D\u0443 \u0435\u0433\u043E \u044D\u0442\u043E\u0433\u043E \u0446\u0430\u0440\u044F
         \u0438 \u0435\u0433\u043E \u0431\u0430\u0431\u0443!!!"
       - 
@@ -1090,7 +1089,8 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Curiosity makes you find out what the king wants from you, and you walk through
+        the bazaar.
       - "\u041B\u044E\u0431\u043E\u043F\u044B\u0442\u0441\u0442\u0432\u043E \u0437\u0430\u0441\u0442\u0430\u0432\u043B\u044F\u0435\u0442
         \u0432\u0430\u0441 \u0443\u0437\u043D\u0430\u0442\u044C \u0447\u0442\u043E
         \u0432\u0441\u0435 - \u0442\u0430\u043A\u0438 \u0445\u043E\u0447\u0435\u0442
@@ -1112,7 +1112,7 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Go to the castle through the bazaar
       - "\u041E\u0442\u043F\u0440\u0430\u0432\u0438\u0442\u044C\u0441\u044F \u0432
         \u0437\u0430\u043C\u043E\u043A \u0447\u0435\u0440\u0435\u0437 \u0431\u0430\u0437\u0430\u0440"
       - 
@@ -1131,10 +1131,12 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - It's not far to the bazaar and you don't want to strain yourself going around
+        it
       - "\u0414\u043E \u0431\u0430\u0437\u0430\u0440\u0430 \u0438\u0434\u0442\u0438
-        \u0431\u043B\u0438\u0436\u0435 \u0438 \u0432\u044B \u043D\u0435 \u0445\u043E\u0442\u0438\u0442\u0435
-        \u043D\u0430\u043F\u0440\u044F\u0433\u0430\u0442\u044C\u0441\u044F"
+        \u043D\u0435\u0434\u0430\u043B\u0435\u043A\u043E \u0438 \u0432\u044B \u043D\u0435
+        \u0445\u043E\u0442\u0438\u0442\u0435 \u043D\u0430\u043F\u0440\u044F\u0433\u0430\u0442\u044C\u0441\u044F
+        \u043E\u0431\u0445\u043E\u0434\u044F \u0435\u0433\u043E"
       - 
       - 
       - 
@@ -1330,7 +1332,7 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - Brush her off
+      - Don't pay attention
       - "\u041D\u0435 \u043E\u0431\u0440\u0430\u0449\u0430\u0442\u044C \u0432\u043D\u0438\u043C\u0430\u043D\u0438\u044F"
       - "\u5237\u6389\u5979"
       - "\u041E\u0442\u043C\u0430\u0445\u043D\u0443\u0446\u0446\u0430 \u0430\u0434
@@ -1349,7 +1351,7 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - You pretend not to notice her
+      - You're pretending not to notice her
       - "\u0412\u044B \u0434\u0435\u043B\u0430\u0435\u0442\u0435 \u0432\u0438\u0434
         \u0447\u0442\u043E \u043D\u0435 \u0437\u0430\u043C\u0435\u0447\u0430\u0435\u0442\u0435
         \u0435\u0435"
@@ -1371,7 +1373,7 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - You walk through the bazaar and see a ripe apple on one of the stalls
       - "\u0412\u044B \u0438\u0434\u0435\u0442\u0435 \u043F\u043E \u0431\u0430\u0437\u0430\u0440\u0443
         \u0438 \u0432\u0438\u0434\u0438\u0442\u0435 \u043D\u0430 \u043E\u0434\u043D\u043E\u043C
         \u0438\u0437 \u043F\u0440\u0438\u043B\u0430\u0432\u043A\u043E\u0432 \u0441\u043F\u0435\u043B\u043E\u0435
@@ -1392,7 +1394,7 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Pass by
       - "\u041F\u0440\u043E\u0439\u0442\u0438 \u043C\u0438\u043C\u043E"
       - 
       - 
@@ -1410,7 +1412,8 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - You decide not to try your luck at the very beginning of the journey and
+        pass by
       - "\u0412\u044B \u0440\u0435\u0448\u0430\u0435\u0442\u0435 \u043D\u0435 \u0438\u0441\u043F\u044B\u0442\u044B\u0432\u0430\u0442\u044C
         \u0443\u0434\u0430\u0447\u0443 \u0432 \u0441\u0430\u043C\u043E\u043C \u043D\u0430\u0447\u0430\u043B\u0435
         \u043F\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u044F \u0438
@@ -1431,7 +1434,7 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Steal an apple
       - "\u0421\u0442\u0430\u0449\u0438\u0442\u044C \u044F\u0431\u043B\u043E\u043A\u043E"
       - 
       - 
@@ -1449,7 +1452,7 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - The salesman notices you and hits you on the arm with a stick
       - "\u0412\u0430\u0441 \u0437\u0430\u043C\u0435\u0447\u0430\u0435\u0442 \u043F\u0440\u043E\u0434\u0430\u0432\u0435\u0446
         \u0438 \u0431\u044C\u0435\u0442 \u043F\u0430\u043B\u043A\u043E\u0439 \u043F\u043E
         \u0440\u0443\u043A\u0435"
@@ -1469,7 +1472,8 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Shamefully pulling your hand away from the counter, you accidentally push
+        a woman with a basket and all the products fly away
       - "\u0421 \u043F\u043E\u0437\u043E\u0440\u043E\u043C \u043E\u0434\u0435\u0440\u0433\u0438\u0432\u0430\u044F
         \u0440\u0443\u043A\u0443 \u043E\u0442 \u043F\u0440\u0438\u043B\u0430\u0432\u043A\u0430,
         \u0432\u044B \u0441\u043B\u0443\u0447\u0430\u0439\u043D\u043E \u0442\u043E\u043B\u043A\u0430\u0435\u0442\u0435
@@ -1492,7 +1496,7 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Try to catch all the food in the air
       - "\u041F\u043E\u043F\u044B\u0442\u0430\u0442\u044C\u0441\u044F \u043F\u043E\u0439\u043C\u0430\u0442\u044C
         \u0432\u0441\u0435 \u043F\u0440\u043E\u0434\u0443\u043A\u0442\u044B \u0432
         \u0432\u043E\u0437\u0434\u0443\u0445\u0435"
@@ -1512,7 +1516,8 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - You make sudden movements with your hands in the air and accidentally hit
+        a passerby's ear with your finger
       - "\u0412\u044B \u0434\u0435\u043B\u0430\u0435\u0442\u0435 \u0440\u0435\u0437\u043A\u0438\u0435
         \u0434\u0432\u0438\u0436\u0435\u043D\u0438\u044F \u0440\u0443\u043A\u0430\u043C\u0438
         \u0432 \u0432\u043E\u0437\u0434\u0443\u0445\u0435 \u0438 \u0441\u043B\u0443\u0447\u0430\u0439\u043D\u043E
@@ -1534,7 +1539,7 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Try to grab something and put it in your pocket
       - "\u041F\u043E\u043F\u044B\u0442\u0430\u0442\u044C\u0441\u044F \u0443\u0445\u0432\u0430\u0442\u0438\u0442\u044C
         \u0445\u043E\u0442\u044C \u0447\u0442\u043E-\u0442\u043E \u0438 \u0441\u043F\u0440\u044F\u0442\u0430\u0442\u044C
         \u0441\u0435\u0431\u0435 \u0432 \u043A\u0430\u0440\u043C\u0430\u043D"
@@ -1554,7 +1559,7 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - You manage to grab an ear of corn
       - "\u0412\u0430\u043C \u0443\u0434\u0430\u0435\u0442\u0441\u044F \u0443\u0445\u0432\u0430\u0442\u0438\u0442\u044C
         \u043F\u043E\u0447\u0430\u0442\u043E\u043A \u043A\u0443\u043A\u0443\u0440\u0443\u0437\u044B"
       - 
@@ -1573,7 +1578,7 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - The woman is unhappy with the situation, and the man looks at you sternly
       - "\u0416\u0435\u043D\u0449\u0438\u043D\u0430 \u043D\u0435\u0434\u043E\u0432\u043E\u043B\u044C\u043D\u0430
         \u0441\u0438\u0442\u0443\u0430\u0446\u0438\u0435\u0439 \u0434\u0430 \u0435\u0449\u0435
         \u0438 \u043C\u0443\u0436\u0438\u043A \u0441\u0443\u0440\u043E\u0432\u043E
@@ -1594,7 +1599,7 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Start apologizing
       - "\u041D\u0430\u0447\u0430\u0442\u044C \u0438\u0437\u0432\u0438\u043D\u044F\u0442\u044C\u0441\u044F"
       - 
       - 
@@ -1612,10 +1617,11 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - You apologize, but it doesn't work - the woman hits you over the head with
+        a basket
       - "\u0412\u044B \u0438\u0437\u0432\u0438\u043D\u044F\u0435\u0442\u0435\u0441\u044C,
         \u043D\u043E \u044D\u0442\u043E \u043D\u0435 \u0441\u0440\u0430\u0431\u0430\u0442\u044B\u0432\u0430\u0435\u0442
-        \u2014 \u0436\u0435\u043D\u0449\u0438\u043D\u0430 \u0441 \u0440\u0430\u0437\u043C\u0430\u0445\u0443
+        - \u0436\u0435\u043D\u0449\u0438\u043D\u0430 \u0441 \u0440\u0430\u0437\u043C\u0430\u0445\u0443
         \u043D\u0430\u0434\u0435\u0432\u0430\u0435\u0442 \u0432\u0430\u043C \u043D\u0430
         \u0433\u043E\u043B\u043E\u0432\u0443 \u043A\u043E\u0440\u0437\u0438\u043D\u0443"
       - 
@@ -1634,7 +1640,7 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Wait for the moment, and run!!!
       - "\u0412\u044B\u0436\u0434\u0430\u0442\u044C \u043C\u043E\u043C\u0435\u043D\u0442,
         \u0438 \u0434\u0430\u0442\u044C \u0434\u0435\u0440\u0443!!!"
       - 
@@ -1653,8 +1659,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
-      - "\u0412\u044B \u043F\u043E\u043A\u0430\u0437\u044B\u0432\u0430\u0442\u0435
+      - 'You point your finger to the side : " Look there''s a King!!!" And before
+        everyone turns around, run headlong.'
+      - "\u0412\u044B \u043F\u043E\u043A\u0430\u0437\u044B\u0432\u0430\u0435\u0442\u0435
         \u043F\u0430\u043B\u044C\u0446\u0435\u043C \u0432 \u0441\u0442\u043E\u0440\u043E\u043D\u0443
         :\" \u0421\u043C\u043E\u0442\u0440\u0438\u0442\u0435 \u0442\u0430\u043C \u0426\u0430\u0440\u044C!!!\"
         \u0438 \u043F\u043E\u043A\u0430 \u0432\u0441\u0435 \u043E\u0431\u0435\u0440\u043D\u0443\u043B\u0438\u0441\u044C
@@ -1675,9 +1682,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - You are standing in front of an evil woman, with an ear of corn in your hand
       - "\u0412\u044B \u0441\u0442\u043E\u0438\u0442\u0435 \u043F\u0435\u0440\u0435\u0434
-        \u0437\u043B\u043E\u0439 \u0436\u0435\u043D\u0449\u0438\u043D\u043E\u0439
+        \u0437\u043B\u043E\u0439 \u0436\u0435\u043D\u0449\u0438\u043D\u043E\u0439,
         \u0441 \u043F\u043E\u0447\u0430\u0442\u043A\u043E\u043C \u043A\u0443\u043A\u0443\u0440\u0443\u0437\u044B
         \u0432 \u0440\u0443\u043A\u0435"
       - 
@@ -1696,7 +1703,7 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Wait for the moment, and run!!!
       - "\u0412\u044B\u0436\u0434\u0430\u0442\u044C \u043C\u043E\u043C\u0435\u043D\u0442,
         \u0438 \u0434\u0430\u0442\u044C \u0434\u0435\u0440\u0443!!!"
       - 
@@ -1715,8 +1722,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
-      - "\u0412\u044B \u043F\u043E\u043A\u0430\u0437\u044B\u0432\u0430\u0442\u0435
+      - 'You point your finger to the side : " Look there''s a King!!!" And before
+        everyone turns around, run headlong.'
+      - "\u0412\u044B \u043F\u043E\u043A\u0430\u0437\u044B\u0432\u0430\u0435\u0442\u0435
         \u043F\u0430\u043B\u044C\u0446\u0435\u043C \u0432 \u0441\u0442\u043E\u0440\u043E\u043D\u0443
         :\" \u0421\u043C\u043E\u0442\u0440\u0438\u0442\u0435 \u0442\u0430\u043C \u0426\u0430\u0440\u044C\"
         \u0438 \u043F\u043E\u043A\u0430 \u0432\u0441\u0435 \u043E\u0431\u0435\u0440\u043D\u0443\u043B\u0438\u0441\u044C
@@ -1737,7 +1745,7 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Apologize, hand over the corn and leave
       - "\u0418\u0437\u0432\u0438\u043D\u0438\u0442\u044C\u0441\u044F, \u043E\u0442\u0434\u0430\u0442\u044C
         \u043A\u0443\u043A\u0443\u0440\u0443\u0437\u0443 \u0438 \u0443\u0439\u0442\u0438 "
       - 
@@ -1756,8 +1764,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
-      - "\u0412\u044B \u043E\u0442\u0434\u0430\u0435\u0442\u0435  \u043A\u0443\u043A\u0443\u0440\u0443\u0437\u043D\u044B\u0439
+      - You give an ear of corn to an angry woman, smile, and walk away as if nothing
+        had happened.
+      - "\u0412\u044B \u043E\u0442\u0434\u0430\u0435\u0442\u0435 \u043A\u0443\u043A\u0443\u0440\u0443\u0437\u043D\u044B\u0439
         \u043F\u043E\u0447\u0430\u0442\u043E\u043A \u0437\u043B\u043E\u0439 \u0436\u0435\u043D\u0449\u0438\u043D\u0435,
         \u0443\u043B\u044B\u0431\u0430\u0435\u0442\u0435\u0441\u044C \u0438 \u0443\u0445\u043E\u0434\u0438\u0442\u0435
         \u043A\u0430\u043A \u043D\u0438 \u0432 \u0447\u0435\u043C \u043D\u0435 \u0431\u044B\u0432\u0430\u043B\u043E "
@@ -1777,7 +1786,7 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - You leave the bazaar and walk along the road to the royal palace
       - "\u0412\u044B \u043F\u043E\u043A\u0438\u0434\u0430\u0435\u0442\u0435 \u0431\u0430\u0437\u0430\u0440
         \u0438 \u0438\u0434\u0435\u0442\u0435 \u043F\u043E \u0434\u043E\u0440\u043E\u0433\u0435
         \u043A \u0446\u0430\u0440\u0441\u043A\u043E\u043C\u0443 \u0434\u0432\u043E\u0440\u0446\u0443"
@@ -1797,7 +1806,7 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Tell the guards that you are going on the orders of the King
       - "\u0421\u043A\u0430\u0437\u0430\u0442\u044C \u0441\u0442\u0440\u0430\u0436\u0435
         \u0447\u0442\u043E \u0432\u044B \u0438\u0434\u0435\u0442\u0435 \u043F\u043E
         \u043F\u0440\u0438\u043A\u0430\u0437\u0443 \u0426\u0430\u0440\u044F"
@@ -1817,8 +1826,8 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
-      - "\u0421\u0442\u0440\u0430\u0436\u043D\u0438\u043A\u0438 \u043F\u0435\u0440\u0435\u0433\u043B\u044F\u0434\u0432\u0430\u044E\u0442\u0441\u044F
+      - The guards look at each other, sigh, and show you where to go next.
+      - "\u0421\u0442\u0440\u0430\u0436\u043D\u0438\u043A\u0438 \u043F\u0435\u0440\u0435\u0433\u043B\u044F\u0434\u044B\u0432\u0430\u044E\u0442\u0441\u044F
         \u043C\u0435\u0436\u0434\u0443 \u0441\u043E\u0431\u043E\u0439, \u0432\u0437\u0434\u044B\u0445\u0430\u044E\u0442
         \u0438 \u043F\u043E\u043A\u0430\u0437\u044B\u0432\u0430\u044E\u0442 \u043A\u0443\u0434\u0430
         \u0432\u0430\u043C \u043D\u0443\u0436\u043D\u043E \u0438\u0434\u0442\u0438
@@ -1839,7 +1848,7 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Silently walk past the guards into the palace
       - "\u041C\u043E\u043B\u0447\u0430 \u043F\u0440\u043E\u0439\u0442\u0438 \u043C\u0438\u043C\u043E
         \u0441\u0442\u0440\u0430\u0436\u0438 \u0432\u043E \u0434\u0432\u043E\u0440\u0435\u0446"
       - 
@@ -1858,7 +1867,8 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - You walk past the guards, they calmly let you pass, as if someone had warned
+        them about your arrival
       - "\u0412\u044B \u043F\u0440\u043E\u0445\u043E\u0434\u0438\u0442\u0435 \u043C\u0438\u043C\u043E
         \u0441\u0442\u0440\u0430\u0436\u0438, \u043E\u043D\u0438 \u0441\u043F\u043E\u043A\u043E\u0439\u043D\u043E
         \u0432\u0430\u0441 \u043F\u0440\u043E\u043F\u0443\u0441\u043A\u0430\u044E\u0442,
@@ -1881,7 +1891,7 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - She gave you a juicy red apple
+      - The apple is juicy and red, and it looks like it's very fresh
       - "\u042F\u0431\u043B\u043E\u043A\u043E \u0441\u043E\u0447\u043D\u043E\u0435
         \u043A\u0440\u0430\u0441\u043D\u043E\u0435, \u043E\u0447\u0435\u043D\u044C
         \u043F\u043E\u0445\u043E\u0436\u0435 \u0447\u0442\u043E \u043E\u043D\u043E
@@ -2247,7 +2257,7 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - To ask, what does this have to do with you?
+      - Ask how it concerns you?
       - "\u0421\u043F\u0440\u043E\u0441\u0438\u0442\u044C \u043F\u0440\u0438\u0447\u0435\u043C
         \u0437\u0434\u0435\u0441\u044C \u0432\u044B?"
       - "\u8981\u95EE\uFF0C\u8FD9\u8DDF\u4F60\u6709\u4EC0\u4E48\u5173\u7CFB\uFF1F"
@@ -2267,10 +2277,10 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - The guards look at you with displeasure, but the king sighs and continues
-        his story
-      - "\u041D\u043E \u0433\u043B\u044F\u043D\u0443\u0432 \u043D\u0430 \u0441\u0443\u0440\u043E\u0432\u0443\u044E
-        \u0441\u0442\u0440\u0430\u0436\u0443 \u0432\u044B \u0440\u0435\u0448\u0438\u043B\u0438
+      - But after looking at the stern guards, you decided to keep quiet and continue
+        listening
+      - "\u041D\u043E, \u0433\u043B\u044F\u043D\u0443\u0432 \u043D\u0430 \u0441\u0443\u0440\u043E\u0432\u0443\u044E
+        \u0441\u0442\u0440\u0430\u0436\u0443, \u0432\u044B \u0440\u0435\u0448\u0438\u043B\u0438
         \u043F\u043E\u043C\u043E\u043B\u0447\u0430\u0442\u044C \u0438 \u043F\u0440\u043E\u0434\u043E\u043B\u0436\u0438\u0442\u044C
         \u0441\u043B\u0443\u0448\u0430\u0442\u044C"
       - "\u536B\u5175\u4E0D\u60A6\u5730\u770B\u7740\u4F60\uFF0C\u4F46\u56FD\u738B\u53F9\u4E86\u53E3\u6C14\uFF0C\u7EE7\u7EED\u4ED6\u7684\u6545\u4E8B"
@@ -2366,7 +2376,7 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - To ask, what does this have to do with you?
+      - Ask how it concerns you?
       - "\u0421\u043F\u0440\u043E\u0441\u0438\u0442\u044C \u043F\u0440\u0438\u0447\u0435\u043C
         \u0437\u0434\u0435\u0441\u044C \u0432\u044B?"
       - "\u8981\u95EE\uFF0C\u8FD9\u8DDF\u4F60\u6709\u4EC0\u4E48\u5173\u7CFB\uFF1F"
@@ -3382,7 +3392,7 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - Go to the barracks for reinforcements.
+      - Go to the barracks for reinforcements
       - "\u0418\u0434\u0442\u0438 \u0432 \u043A\u0430\u0437\u0430\u0440\u043C\u0443
         \u0437\u0430 \u043F\u043E\u0434\u043C\u043E\u0433\u043E\u0439"
       - "\u53BB\u5175\u8425\u5BFB\u6C42\u5E2E\u52A9"
@@ -3489,7 +3499,7 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - One is young and strong, and the other, in years, but wise and experienced.
+      - One is young and strong, and the other, in years, but wise and experienced
       - "\u041E\u0434\u043D\u043E\u0433\u043E \u043C\u043E\u043B\u043E\u0434\u043E\u0433\u043E
         \u0438 \u043A\u0440\u0435\u043F\u043A\u043E\u0433\u043E, \u0430 \u0432\u0442\u043E\u0440\u043E\u0433\u043E,
         \u0432 \u043B\u0435\u0442\u0430\u0445 \u043D\u043E \u043C\u0443\u0434\u0440\u043E\u0433\u043E
@@ -3555,7 +3565,7 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - Stop by home to grab your belongings.
+      - Stop by home to grab your belongings
       - "\u0417\u0430\u0435\u0445\u0430\u0442\u044C \u0434\u043E\u043C\u043E\u0439
         \u0437\u0430 \u0432\u0435\u0449\u0438\u0447\u043A\u0430\u043C\u0438"
       - "\u56DE\u5BB6\u62FF\u70B9\u4E1C\u897F"
@@ -3575,7 +3585,7 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - You need to stop by home to collect the necessary items.
+      - You need to stop by home to collect the necessary items
       - "\u0412\u0430\u043C  \u043D\u0443\u0436\u043D\u043E \u0437\u0430\u0435\u0445\u0430\u0442\u044C
         \u0434\u043E\u043C\u043E\u0439 \u0437\u0430 \u043D\u0435\u043E\u0431\u0445\u043E\u0434\u0438\u043C\u044B\u043C\u0438
         \u0432\u0435\u0449\u0430\u043C\u0438"
@@ -3616,7 +3626,7 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - You mount the horses and gallop towards the city gates.
+      - You mount the horses and gallop towards the city gates
       - "\u0412\u044B \u0441\u0430\u0434\u0438\u0442\u0435\u0441\u044C \u043D\u0430
         \u043B\u043E\u0448\u0430\u0434\u0435\u0439 \u0438 \u0441\u043A\u0430\u0447\u0438\u0442\u0435
         \u043A \u0432\u044B\u0445\u043E\u0434\u0443 \u0438\u0437 \u0433\u043E\u0440\u043E\u0434\u0430"
@@ -3638,7 +3648,7 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - You mount the horses and gallop towards the city gates.
+      - You mount the horses and gallop towards the city gates
       - "\u0412\u044B \u0441\u0430\u0434\u0438\u0442\u0435\u0441\u044C \u043D\u0430
         \u043B\u043E\u0448\u0430\u0434\u0435\u0439 \u0438 \u0441\u043A\u0430\u0447\u0438\u0442\u0435
         \u043A \u0432\u044B\u0445\u043E\u0434\u0443 \u0438\u0437 \u0433\u043E\u0440\u043E\u0434\u0430"
@@ -3660,7 +3670,7 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - One of your horses stepped on a bent nail.
+      - One of your horses stepped on a bent nail
       - "\u041E\u0434\u043D\u0430 \u0438\u0437 \u0432\u0430\u0448\u0438\u0445 \u043B\u043E\u0448\u0430\u0434\u0435\u0439
         \u043D\u0430\u0442\u043A\u043D\u0443\u043B\u0430\u0441\u044C \u043D\u0430
         \u0433\u043D\u0443\u0442\u044B\u0439 \u0433\u0432\u043E\u0437\u0434\u044C"
@@ -3682,7 +3692,7 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - Stop by the nearest blacksmith to pull out the nail.
+      - Stop by the nearest blacksmith to pull out the nail
       - "\u0417\u0430\u0435\u0445\u0430\u0442\u044C \u043A \u0431\u043B\u0438\u0436\u0430\u0439\u0448\u0435\u043C\u0443
         \u043A\u0443\u0437\u043D\u0435\u0446\u0443 \u0447\u0442\u043E\u0431\u044B
         \u0432\u044B\u0442\u0430\u0449\u0438\u0442\u044C \u0433\u0432\u043E\u0437\u0434\u044C"
@@ -3749,7 +3759,7 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - The warriors have to ride on one horse.
+      - The warriors have to ride on one horse
       - "\u0412\u043E\u0438\u043D\u0430\u043C \u043F\u0440\u0438\u0445\u043E\u0434\u0438\u0442\u0441\u044F
         \u0441\u0435\u0442\u044C \u043D\u0430 \u043E\u0434\u043D\u0443 \u043B\u043E\u0448\u0430\u0434\u044C"
       - "\u52C7\u58EB\u4E00\u9A6C\u6709\u7F51"
@@ -4047,7 +4057,7 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - It seems to you that it will be safer to go around the forest
+      - 
       - "\u042D\u0442\u0430 \u0432\u0435\u0442\u043A\u0430 \u043F\u043E\u043A\u0430
         \u0447\u0442\u043E \u043D\u0435\u0434\u043E\u0441\u0442\u0443\u043F\u043D\u0430
         \u0432 \u0414\u0415\u041C\u041E \u0432\u0435\u0440\u0441\u0438\u0438\n\n\u041F\u043E\u0436\u0430\u043B\u0443\u0439\u0441\u0442\u0430
@@ -4168,7 +4178,8 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - It's very dark, but you're on your way to the dragon's lair anyway, there's
+        a dark, dense forest ahead
       - "\u0421\u0438\u043B\u044C\u043D\u043E \u0441\u0442\u0435\u043C\u043D\u0435\u043B\u043E
         \u043D\u043E \u0432\u044B \u0432\u0441\u0435 \u0440\u0430\u0432\u043D\u043E
         \u0432\u044B \u043E\u0442\u043F\u0440\u0430\u0432\u043B\u044F\u0435\u0442\u0435\u0441\u044C
@@ -4192,7 +4203,7 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Go through the forest
       - "\u0418\u0434\u0442\u0438 \u0447\u0435\u0440\u0435\u0437 \u043B\u0435\u0441"
       - 
       - 
@@ -4210,7 +4221,7 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - You decide that going through the forest will be faster
       - "\u0412\u044B \u0440\u0435\u0448\u0430\u0435\u0442\u0435 \u0447\u0442\u043E
         \u043F\u0440\u043E\u0439\u0442\u0438 \u043B\u0435\u0441 \u043D\u0430\u0441\u043A\u0432\u043E\u0437\u044C
         \u0431\u0443\u0434\u0435\u0442 \u0431\u044B\u0441\u0442\u0440\u0435\u0435"
@@ -4230,7 +4241,7 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Bypass the forest
       - "\u041E\u0431\u043E\u0439\u0442\u0438 \u043B\u0435\u0441 "
       - 
       - 
@@ -4248,7 +4259,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - You look in the direction of bypassing the forest, but suddenly a voice in
+        your head tells you that the author did not have time to finish this chapter,
+        and you still walk through the forest
       - "\u0412\u044B \u0441\u043C\u043E\u0442\u0440\u0438\u0442\u0435 \u0432 \u0441\u0442\u043E\u0440\u043E\u043D\u0443
         \u043E\u0431\u0445\u043E\u0434\u0430 \u043B\u0435\u0441\u0430, \u043D\u043E
         \u0432\u0434\u0440\u0443\u0433 \u0433\u043E\u043B\u043E\u0441 \u0432 \u0433\u043E\u043B\u043E\u0432\u0435
@@ -4374,7 +4387,7 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - At the very edge of the forest, an old man is sitting on a stump
       - "\u0423 \u0441\u0430\u043C\u043E\u0433\u043E \u043A\u0440\u0430\u044F \u043B\u0435\u0441\u0430,
         \u043D\u0430 \u043F\u0435\u043D\u044C\u043A\u0435 \u0441\u0438\u0434\u0438\u0442
         \u0441\u0442\u0430\u0440\u0438\u043A"
@@ -4394,7 +4407,7 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Pass by
       - "\u041F\u0440\u043E\u0439\u0442\u0438 \u043C\u0438\u043C\u043E"
       - 
       - 
@@ -4412,7 +4425,7 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - You don't pay attention to the old man
       - "\u0412\u044B \u043D\u0435 \u043E\u0431\u0440\u0430\u0449\u0430\u0435\u0442\u0435
         \u0432\u043D\u0438\u043C\u0430\u043D\u0438\u044F \u043D\u0430 \u0441\u0442\u0430\u0440\u0438\u043A\u0430"
       - 
@@ -4431,7 +4444,7 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Talk to the old man
       - "\u0417\u0430\u0433\u043E\u0432\u043E\u0440\u0438\u0442\u044C \u0441\u043E
         \u0441\u0442\u0430\u0440\u0438\u043A\u043E\u043C"
       - 
@@ -4450,7 +4463,7 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - The old man cheered up at the sight of you
       - "\u0421\u0442\u0430\u0440\u0438\u043A  \u0432\u0437\u0431\u043E\u0434\u0440\u0438\u043B\u0441\u044F
         \u043F\u0440\u0438 \u0432\u0438\u0434\u0435 \u0432\u0430\u0441"
       - 
@@ -4469,7 +4482,7 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - The old man understood that you want to go through the forest
       - "\u0421\u0442\u0430\u0440\u0438\u043A \u043F\u043E\u043D\u044F\u043B \u0447\u0442\u043E
         \u0432\u044B \u0445\u043E\u0442\u0438\u0442\u0435 \u043F\u0440\u043E\u0439\u0442\u0438
         \u043B\u0435\u0441 \u043D\u0430\u0441\u043A\u0432\u043E\u0437\u044C"
@@ -4592,7 +4605,8 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - The old man says that the forest is very dangerous at this time of year and
+        offers to guide you, but not for free, but for 3 gold
       - "\u0421\u0442\u0430\u0440\u0438\u043A \u0433\u043E\u0432\u043E\u0440\u0438\u0442
         \u0447\u0442\u043E \u043B\u0435\u0441, \u0432 \u044D\u0442\u043E \u0432\u0440\u0435\u043C\u044F
         \u0433\u043E\u0434\u0430 \u043E\u0447\u0435\u043D\u044C \u043E\u043F\u0430\u0441\u0435\u043D
@@ -4615,7 +4629,7 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Refuse
       - "\u041E\u0442\u043A\u0430\u0437\u0430\u0442\u044C\u0441\u044F"
       - 
       - 
@@ -4633,7 +4647,7 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - You decided not to pay the old man and go through the forest on your own
       - "\u0412\u044B \u0440\u0435\u0448\u0438\u043B\u0438 \u043D\u0435 \u043F\u043B\u0430\u0442\u0438\u0442\u044C
         \u0441\u0442\u0430\u0440\u0438\u043A\u0443 \u0438 \u043F\u0440\u043E\u0439\u0442\u0438
         \u043B\u0435\u0441 \u043D\u0430\u0441\u043A\u0432\u043E\u0437\u044C \u0441\u0430\u043C\u043E\u0441\u0442\u043E\u044F\u0442\u0435\u043B\u044C\u043D\u043E"
@@ -4653,7 +4667,7 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Accept the offer
       - "\u041F\u0440\u0438\u043D\u044F\u0442\u044C \u043F\u0440\u0435\u0434\u043B\u043E\u0436\u0435\u043D\u0438\u0435"
       - 
       - 
@@ -4671,7 +4685,7 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - You promise the old man payment after leaving the forest
       - "\u0412\u044B \u043E\u0431\u0435\u0449\u0430\u0435\u0442\u0435 \u0441\u0442\u0430\u0440\u0438\u043A\u0443
         \u043E\u043F\u043B\u0430\u0442\u0443 \u043F\u043E\u0441\u043B\u0435 \u0432\u044B\u0445\u043E\u0434\u0430
         \u0438\u0437 \u043B\u0435\u0441\u0430"
@@ -4691,7 +4705,8 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - The old man says that the forest is very dangerous at this time of the year
+        and recommends that you take a different route
       - "\u0421\u0442\u0430\u0440\u0438\u043A \u0433\u043E\u0432\u043E\u0440\u0438\u0442
         \u0447\u0442\u043E \u043B\u0435\u0441, \u0432 \u044D\u0442\u043E \u0432\u0440\u0435\u043C\u044F
         \u0433\u043E\u0434\u0430 \u043E\u0447\u0435\u043D\u044C \u043E\u043F\u0430\u0441\u0435\u043D
@@ -4714,7 +4729,7 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Don't listen to the old man
       - "\u041D\u0435 \u0441\u043B\u0443\u0448\u0430\u0442\u044C \u0441\u0442\u0430\u0440\u0438\u043A\u0430"
       - 
       - 
@@ -4732,7 +4747,8 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - You don't pay attention to the old man, moreover, you encourage the guards
+        by saying that he is crazy
       - "\u0412\u044B \u043D\u0435 \u043E\u0431\u0440\u0430\u0449\u0430\u0435\u0442\u0435
         \u0432\u043D\u0438\u043C\u0430\u043D\u0438\u044F \u043D\u0430 \u0441\u0442\u0430\u0440\u0438\u043A\u0430,
         \u0431\u043E\u043B\u0435\u0435 \u0442\u043E\u0433\u043E \u043F\u043E\u0434\u0431\u0430\u0434\u0440\u0438\u0432\u0430\u0435\u0442\u0435
@@ -4754,7 +4770,7 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Bypass the forest
       - "\u041E\u0431\u043E\u0439\u0442\u0438 \u043B\u0435\u0441 "
       - 
       - 
@@ -4772,9 +4788,12 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - 'This branch is not available in the demo
+
+
+        Select the left card'
       - "\u0412 \u0434\u0435\u043C\u043E \u044D\u0442\u0430 \u0432\u0435\u0442\u043A\u0430
-        \u043D\u0435\u0434\u043E\u0441\u0442\u0443\u043F\u043D\u0430 \n\n\u0412\u044B\u0431\u0438\u0440\u0438\u0442\u0435
+        \u043D\u0435\u0434\u043E\u0441\u0442\u0443\u043F\u043D\u0430 \n\n\u0412\u044B\u0431\u0435\u0440\u0438\u0442\u0435
         \u043B\u0435\u0432\u0443\u044E \u043A\u0430\u0440\u0442\u0443"
       - 
       - 
@@ -4792,7 +4811,8 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - You've been walking along the trail for a long time, and it's already getting
+        dark
       - "\u0412\u044B \u0434\u043E\u043B\u0433\u043E \u0448\u043B\u0438 \u043F\u043E
         \u0442\u0440\u043E\u043F\u0435, \u0438 \u0443\u0436\u0435 \u043D\u0430\u0447\u0430\u043B\u043E
         \u0442\u0435\u043C\u043D\u0435\u0442\u044C"
@@ -4812,7 +4832,7 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Set up camp
       - "\u0423\u0441\u0442\u0440\u043E\u0438\u0442\u044C \u043F\u0440\u0438\u0432\u0430\u043B"
       - 
       - 
@@ -4830,7 +4850,7 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - You command the guards to build a fire and rest
       - "\u0412\u044B \u043A\u043E\u043C\u0430\u043D\u0434\u0443\u0435\u0442\u0435
         \u0441\u0442\u0440\u0430\u0436\u043D\u0438\u043A\u0430\u043C \u0440\u0430\u0437\u0432\u0435\u0441\u0442\u0438
         \u043A\u043E\u0441\u0442\u0435\u0440 \u0438 \u043E\u0442\u0434\u043E\u0445\u043D\u0443\u0442\u044C"
@@ -4850,7 +4870,7 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - You command the guards to build a fire and rest
       - "\u0412\u044B \u043A\u043E\u043C\u0430\u043D\u0434\u0443\u0435\u0442\u0435
         \u0441\u0442\u0440\u0430\u0436\u043D\u0438\u043A\u0430\u043C \u0440\u0430\u0437\u0432\u0435\u0441\u0442\u0438
         \u043A\u043E\u0441\u0442\u0435\u0440 \u0438 \u043E\u0442\u0434\u043E\u0445\u043D\u0443\u0442\u044C"
@@ -4870,7 +4890,7 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Moving on
       - "\u0414\u0432\u0438\u0433\u0430\u0442\u044C\u0441\u044F \u0434\u0430\u043B\u044C\u0448\u0435"
       - 
       - 
@@ -4888,8 +4908,8 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
-      - "\u0412\u044B \u0440\u0435\u0448\u0430\u0435\u0442\u0435 \u0441\u044A\u044D\u043A\u043E\u043D\u043E\u043C\u0438\u0442\u044C
+      - You decide to save time and move without rest
+      - "\u0412\u044B \u0440\u0435\u0448\u0430\u0435\u0442\u0435 \u0441\u044D\u043A\u043E\u043D\u043E\u043C\u0438\u0442\u044C
         \u0432\u0440\u0435\u043C\u044F \u0438 \u0438\u0434\u0442\u0438 \u0431\u0435\u0437
         \u043E\u0442\u0434\u044B\u0445\u0430"
       - 
@@ -4908,12 +4928,13 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
-      - "\u0412\u044B \u0441\u043B\u0435\u0434\u0443\u0442\u0435 \u0437\u0430 \u0441\u0442\u0430\u0440\u0438\u043A\u043E\u043C
-        \u0438 \u0432\u043D\u0435\u0437\u0430\u043F\u043D\u043E \u043B\u0435\u0441
-        \u043E\u043A\u0430\u0437\u044B\u0432\u0430\u0435\u0442\u0441\u044F \u043D\u0435
-        \u0442\u0430\u043A\u0438\u043C \u0442\u0435\u043C\u043D\u044B\u043C \u0438
-        \u0441\u0442\u0440\u0430\u0448\u043D\u044B\u043C, \u0432\u044B \u0432\u0438\u0434\u0438\u0442\u0435
+      - You follow the old man and suddenly the forest is not so dark and scary,
+        you see a bird on a branch
+      - "\u0412\u044B \u0441\u043B\u0435\u0434\u0443\u0435\u0442\u0435 \u0437\u0430
+        \u0441\u0442\u0430\u0440\u0438\u043A\u043E\u043C \u0438 \u0432\u043D\u0435\u0437\u0430\u043F\u043D\u043E
+        \u043B\u0435\u0441 \u043E\u043A\u0430\u0437\u044B\u0432\u0430\u0435\u0442\u0441\u044F
+        \u043D\u0435 \u0442\u0430\u043A\u0438\u043C \u0442\u0435\u043C\u043D\u044B\u043C
+        \u0438 \u0441\u0442\u0440\u0430\u0448\u043D\u044B\u043C, \u0432\u044B \u0432\u0438\u0434\u0438\u0442\u0435
         \u043D\u0430 \u0432\u0435\u0442\u043A\u0435 \u043F\u0442\u0438\u0447\u043A\u0443"
       - 
       - 
@@ -4931,7 +4952,7 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - To touch her
       - "\u041F\u0440\u043E\u0442\u044F\u043D\u0443\u0442\u044C \u043A \u043D\u0435\u0439
         \u0440\u0443\u043A\u0443"
       - 
@@ -4950,8 +4971,11 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
-      - "\u0412\u043D\u0435\u0437\u0430\u043F\u043D\u043E \u043F\u0442\u0438\u0447\u0430
+      - 'Suddenly, a bird pecks your finger, drawing blood!!!
+
+        Old man advises
+        you to stick your nose in there'
+      - "\u0412\u043D\u0435\u0437\u0430\u043F\u043D\u043E \u043F\u0442\u0438\u0446\u0430
         \u043A\u043B\u044E\u0435\u0442 \u0432\u0430\u0441 \u0437\u0430 \u043F\u0430\u043B\u0435\u0446
         \u0434\u043E \u043A\u0440\u043E\u0432\u0438!!!\n\n\u0421\u0442\u0430\u0440\u0438\u043A
         \u0441\u043C\u0435\u044F\u0441\u044C \u0441\u043E\u0432\u0435\u0442\u0443\u0435\u0442
@@ -4974,7 +4998,7 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Do not touch the forest creatures
       - "\u041D\u0435 \u0442\u0440\u043E\u0433\u0430\u0442\u044C \u043B\u0435\u0441\u043D\u044B\u0445
         \u0441\u0443\u0449\u0435\u0441\u0442\u0432"
       - 
@@ -4993,7 +5017,8 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Remembering the rumors about this forest, you pull your hand away and walk
+        past
       - "\u0412\u0441\u043F\u043E\u043C\u0438\u043D\u0430\u044F \u0441\u043B\u0443\u0445\u0438
         \u043F\u0440\u043E \u044D\u0442\u043E\u0442 \u043B\u0435\u0441 \u0432\u044B
         \u043E\u0442\u0434\u0435\u0440\u0433\u0438\u0432\u0430\u0435\u0442\u0435
@@ -5015,7 +5040,7 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - The night is coming, who will go on patrol?
       - "\u041D\u0430\u0441\u0442\u0443\u043F\u0430\u0435\u0442 \u043D\u043E\u0447\u044C
         \u043A\u0442\u043E \u043F\u043E\u0439\u0434\u0435\u0442 \u0432 \u0434\u043E\u0437\u043E\u0440?"
       - 
@@ -5034,7 +5059,7 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Go by myself
       - "\u041F\u043E\u0439\u0442\u0438 \u0441\u0430\u043C\u043E\u043C\u0443"
       - 
       - 
@@ -5052,7 +5077,7 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - You look at the youngsters with disbelief and decide to join the patrol yourself
       - "\u0412\u044B \u0441 \u043D\u0435\u0434\u043E\u0432\u0435\u0440\u0438\u0435\u043C
         \u0441\u043C\u043E\u0442\u0440\u0438\u0442\u0435 \u043D\u0430 \u043C\u043E\u043B\u043E\u0434\u043D\u044F\u043A
         \u0438 \u0440\u0435\u0448\u0430\u0435\u0442\u0435 \u0441\u0430\u043C\u0438
@@ -5073,7 +5098,7 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - To put young guards
       - "\u041F\u043E\u0441\u0442\u0430\u0432\u0438\u0442\u044C \u043C\u043E\u043B\u043E\u0434\u044B\u0445
         \u0441\u0442\u0440\u0430\u0436\u043D\u0438\u043A\u043E\u0432"
       - 
@@ -5092,11 +5117,12 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - You need to get a good night's sleep, and you leave the watch to the young
+        people.
       - "\u0412\u0430\u043C \u043D\u0443\u0436\u043D\u043E \u0445\u043E\u0440\u043E\u0448\u0435\u043D\u044C\u043A\u043E
         \u0432\u044B\u0441\u043F\u0430\u0442\u044C\u0441\u044F, \u0430 \u0434\u043E\u0437\u043E\u0440
         \u043E\u0441\u0442\u0430\u0432\u043B\u044F\u0435\u0442\u0435 \u043D\u0430
-        \u043C\u043E\u043B\u043E\u0434\u0435\u0436"
+        \u043C\u043E\u043B\u043E\u0434\u0435\u0436\u044C"
       - 
       - 
       - 
@@ -5113,7 +5139,7 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Night is coming, who will you put on watch?
       - "\u041D\u0430\u0441\u0442\u0443\u043F\u0430\u0435\u0442 \u043D\u043E\u0447\u044C
         \u043A\u043E\u0433\u043E \u043F\u043E\u0441\u0442\u0430\u0432\u0438\u0442\u0435
         \u0432 \u0434\u043E\u0437\u043E\u0440?"
@@ -5133,9 +5159,10 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Whether the old man can handle the patrol, you will find out in the next
+        version of the game. But you can try other story lines
       - "\u0421\u043F\u0440\u0430\u0432\u0438\u0442\u0441\u044F \u043B\u0438 \u0441\u0442\u0430\u0440\u0438\u043A
-        \u0441 \u0434\u043E\u0437\u043E\u0440\u043E\u043C \u0432\u044B \u0443\u0437\u043D\u0430\u0435\u0442\u0435
+        \u0441 \u0434\u043E\u0437\u043E\u0440\u043E\u043C, \u0432\u044B \u0443\u0437\u043D\u0430\u0435\u0442\u0435
         \u0432 \u0441\u043B\u0435\u0434\u0443\u044E\u0449\u0435\u0439 \u0432\u0435\u0440\u0441\u0438\u0438
         \u0438\u0433\u0440\u044B. \u041D\u043E \u0432\u044B \u043C\u043E\u0436\u0435\u0442\u0435
         \u043F\u043E\u043F\u0440\u043E\u0431\u043E\u0432\u0430\u0442\u044C \u0434\u0440\u0443\u0433\u0438\u0435
@@ -5156,7 +5183,7 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Put a young man on patrol
       - "\u041F\u043E\u0441\u0442\u0430\u0432\u0438\u0442\u044C \u0432 \u0434\u043E\u0437\u043E\u0440
         \u043C\u043E\u043B\u043E\u0434\u043E\u0433\u043E"
       - 
@@ -5175,7 +5202,7 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - You decide that good eyesight is more important than experience
       - "\u0412\u044B \u0440\u0435\u0448\u0430\u0435\u0442\u0435 \u0447\u0442\u043E
         \u0445\u043E\u0440\u043E\u0448\u0435\u0435 \u0437\u0440\u0435\u043D\u0438\u0435
         \u0432\u0430\u0436\u043D\u0435\u0435 \u043E\u043F\u044B\u0442\u0430"
@@ -5195,7 +5222,7 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Put a seasoned man on patrol
       - "\u041F\u043E\u0441\u0442\u0430\u0432\u0438\u0442\u044C \u0432 \u0434\u043E\u0437\u043E\u0440
         \u0431\u044B\u0432\u0430\u043B\u043E\u0433\u043E "
       - 
@@ -5214,7 +5241,7 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - An experienced warrior knows these places like his 4 fingers
       - "\u041E\u043F\u044B\u0442\u043D\u044B\u0439 \u0432\u043E\u0438\u043D \u0437\u043D\u0430\u0435\u0442
         \u044D\u0442\u0438 \u043C\u0435\u0441\u0442\u0430 \u043A\u0430\u043A \u0441\u0432\u043E\u0438
         4 \u043F\u0430\u043B\u044C\u0446\u0430"
@@ -5234,7 +5261,7 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - It's getting even darker, maybe we should light torches?
       - "\u0421\u0442\u0430\u043D\u043E\u0432\u0438\u0442\u0441\u044F \u0435\u0449\u0435
         \u0442\u0435\u043C\u043D\u0435\u0435, \u043C\u043E\u0436\u0435\u0442 \u0441\u0442\u043E\u0438\u0442
         \u0437\u0430\u0436\u0435\u0447\u044C \u0444\u0430\u043A\u0435\u043B\u044B?"
@@ -5254,7 +5281,7 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Light the torches
       - "\u0417\u0430\u0436\u0435\u0447\u044C \u0444\u0430\u043A\u0435\u043B\u044B"
       - 
       - 
@@ -5272,12 +5299,13 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
-      - "\u041F\u0440\u043E\u0445\u043E\u0434\u044F \u043C\u0438\u043C\u043E \u0431\u043E\u043B\u043E\u0442\u0430
-        \u0432\u044B \u0444\u0430\u043A\u0435\u043B\u0430\u043C\u0438 \u043F\u0440\u0438\u0432\u043B\u0435\u043A\u0430\u0435\u0442\u0435
-        \u043D\u0430\u0441\u0435\u043A\u043E\u043C\u044B\u0445 \u0438 \u043E\u043D\u0438
-        \u0441\u0438\u043B\u044C\u043D\u043E \u043F\u043E\u043A\u0443\u0441\u0430\u043B\u0438
-        \u0432\u0430\u0441"
+      - Passing by the swamp, you attract insects with torches and they bite you
+        badly
+      - "\u041F\u0440\u043E\u0445\u043E\u0434\u044F \u043C\u0438\u043C\u043E \u0431\u043E\u043B\u043E\u0442\u0430,
+        \u0432\u044B \u043F\u0440\u0438\u0432\u043B\u0435\u043A\u0430\u0435\u0442\u0435
+        \u0444\u0430\u043A\u0435\u043B\u0430\u043C\u0438 \u043D\u0430\u0441\u0435\u043A\u043E\u043C\u044B\u0445,
+        \u0438 \u043E\u043D\u0438 \u0441\u0438\u043B\u044C\u043D\u043E \u0432\u0430\u0441
+        \u043F\u043E\u043A\u0443\u0441\u0430\u043B\u0438"
       - 
       - 
       - 
@@ -5294,7 +5322,7 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Walking in the dark
       - "\u0418\u0434\u0442\u0438 \u0432 \u0442\u0435\u043C\u043D\u043E\u0442\u0435"
       - 
       - 
@@ -5312,7 +5340,7 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - You decide not to attract attention and move in the dark
       - "\u0412\u044B \u0440\u0435\u0448\u0430\u0435\u0442\u0435 \u043D\u0435 \u043F\u0440\u0438\u0432\u043B\u0435\u043A\u0430\u0442\u044C
         \u0432\u043D\u0438\u043C\u0430\u043D\u0438\u0435 \u0438 \u0434\u0432\u0438\u0433\u0430\u0442\u044C\u0441\u044F
         \u0432 \u0442\u0435\u043C\u043D\u043E\u0442\u0435"
@@ -5332,7 +5360,8 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - The old man offers to make a stop, says that as long as he is with you, you
+        are safe
       - "\u0421\u0442\u0430\u0440\u0438\u043A \u043F\u0440\u0435\u0434\u043B\u0430\u0433\u0430\u0435\u0442
         \u0443\u0441\u0442\u0440\u043E\u0438\u0442\u044C \u043F\u0440\u0438\u0432\u0430\u043B,
         \u0433\u043E\u0432\u043E\u0440\u0438\u0442 \u0447\u0442\u043E \u043F\u043E\u043A\u0430
@@ -5353,7 +5382,7 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Order the guards to set up camp
       - "\u0421\u043A\u043E\u043C\u0430\u043D\u0434\u043E\u0432\u0430\u0442\u044C
         \u0441\u0442\u0440\u0430\u0436\u0435 \u0440\u0430\u0437\u0431\u0438\u0442\u044C
         \u043B\u0430\u0433\u0435\u0440\u044C"
@@ -5373,7 +5402,7 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - The guards are setting up camp
       - "\u0421\u0442\u0440\u0430\u0436\u0430 \u0440\u0430\u0437\u0431\u0438\u0432\u0430\u0435\u0442
         \u043B\u0430\u0433\u0435\u0440\u044C"
       - 
@@ -5392,7 +5421,7 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - There's no time to wait, we have to save the princess
       - "\u041D\u0435\u0442 \u0432\u0440\u0435\u043C\u0435\u043D\u0438 \u0436\u0434\u0430\u0442\u044C,
         \u043D\u0430\u0434\u043E \u0441\u043F\u0430\u0441\u0430\u0442\u044C \u043F\u0440\u0438\u043D\u0446\u0435\u0441\u0441\u0443"
       - 
@@ -5411,7 +5440,7 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - You can't afford to sleep while a princess is sad somewhere
       - "\u0412\u044B \u043D\u0435 \u043C\u043E\u0436\u0435\u0442\u0435 \u043F\u043E\u0437\u0432\u043E\u043B\u0438\u0442\u044C
         \u0441\u0435\u0431\u0435 \u0441\u043F\u0430\u0442\u044C \u043F\u043E\u043A\u0430
         \u0433\u0434\u0435 \u0442\u043E \u0433\u0440\u0443\u0441\u0442\u0438\u0442
@@ -5432,7 +5461,7 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Should I try to scare away the insects with torches or put them out?
       - "\u041F\u043E\u043F\u044B\u0442\u0430\u0442\u044C\u0441\u044F \u043E\u0442\u043F\u0443\u0433\u043D\u0443\u0442\u044C
         \u043D\u0430\u0441\u0435\u043A\u043E\u043C\u044B\u0445 \u0444\u0430\u043A\u0435\u043B\u0430\u043C\u0438
         \u0438\u043B\u0438 \u043F\u043E\u0442\u0443\u0448\u0438\u0442\u044C \u0438\u0445?"
@@ -5452,8 +5481,8 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
-      - "\u0420\u0430\u0437\u043C\u0430\u0445\u0438\u0432\u0430\u0442\u044C \u0437\u0430\u0436\u0436\u0435\u043D\u044B\u043C\u0438
+      - Swat away insects with burning torches
+      - "\u0420\u0430\u0437\u043C\u0430\u0445\u0438\u0432\u0430\u0442\u044C \u0437\u0430\u0436\u0436\u0435\u043D\u043D\u044B\u043C\u0438
         \u0444\u0430\u043A\u0435\u043B\u0430\u043C\u0438"
       - 
       - 
@@ -5471,10 +5500,11 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - You started waving torches furiously and accidentally singed all the horses'
+        tails.
       - "\u0412\u044B \u043D\u0430\u0447\u0430\u043B\u0438 \u043D\u0435\u0438\u0441\u0442\u043E\u0432\u043E
         \u043C\u0430\u0445\u0430\u0442\u044C \u0444\u0430\u043A\u0435\u043B\u0430\u043C\u0438
-        \u0438 \u0441\u043B\u0443\u0447\u0430\u0439\u043D\u043E \u043F\u043E\u0434\u043F\u043E\u043B\u0438\u043B\u0438
+        \u0438 \u0441\u043B\u0443\u0447\u0430\u0439\u043D\u043E \u043F\u043E\u0434\u043F\u0430\u043B\u0438\u043B\u0438
         \u0432\u0441\u0435\u043C \u043B\u043E\u0448\u0430\u0434\u044F\u043C \u0445\u0432\u043E\u0441\u0442\u044B"
       - 
       - 
@@ -5492,7 +5522,7 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Extinguish the torches
       - "\u041F\u043E\u0433\u0430\u0441\u0438\u0442\u044C \u0444\u0430\u043A\u0435\u043B\u044B"
       - 
       - 
@@ -5510,12 +5540,16 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - 'The insects already know where you are and now you have no weapons against
+        them
+
+
+        Have you been bitten to death by forest mosquitoes'
       - "\u041D\u0430\u0441\u0435\u043A\u043E\u043C\u044B\u0435 \u0443\u0436\u0435
         \u0437\u043D\u0430\u044E\u0442 \u0433\u0434\u0435 \u0432\u044B \u0438 \u0442\u0435\u043F\u0435\u0440\u044C
         \u0443 \u0432\u0430\u0441 \u043D\u0435\u0442 \u043E\u0440\u0443\u0436\u0438\u044F
         \u043F\u0440\u043E\u0442\u0438\u0432 \u043D\u0438\u0445\n\n\u0412\u0430\u0441
-        \u0437\u0430\u0433\u0440\u044B\u043B\u0438 \u0434\u043E \u0441\u043C\u0435\u0440\u0442\u0438
+        \u0437\u0430\u0433\u0440\u044B\u0437\u043B\u0438 \u0434\u043E \u0441\u043C\u0435\u0440\u0442\u0438
         \u043B\u0435\u0441\u043D\u044B\u0435 \u043A\u043E\u043C\u0430\u0440\u044B"
       - 
       - 
@@ -5533,11 +5567,11 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Along the way, you encounter bushes with strange fruits that look appetizing
       - "\u041F\u043E \u043F\u0443\u0442\u0438 \u0432\u0430\u043C \u0432\u0441\u0442\u0440\u0435\u0447\u0430\u044E\u0442\u0441\u044F
         \u043A\u0443\u0441\u0442\u044B \u0441\u043E \u0441\u0442\u0440\u0430\u043D\u043D\u044B\u043C\u0438
         \u043F\u043B\u043E\u0434\u0430\u043C\u0438, \u0432\u044B\u0433\u043B\u044F\u0434\u044F\u0442
-        \u0430\u043F\u0435\u0442\u0438\u0442\u043D\u043E"
+        \u0430\u043F\u043F\u0435\u0442\u0438\u0442\u043D\u043E"
       - 
       - 
       - 
@@ -5554,7 +5588,7 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Eat one
       - "\u0421\u044A\u0435\u0441\u0442\u044C \u043E\u0434\u0438\u043D"
       - 
       - 
@@ -5572,7 +5606,8 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Because of the darkness, you didn't notice, but the fruit screamed "Don't
+        eat me!"
       - "\u0418\u0437-\u0437\u0430 \u0442\u0435\u043C\u043D\u043E\u0442\u044B \u0432\u044B
         \u043D\u0435 \u0437\u0430\u043C\u0435\u0442\u0438\u043B\u0438 \u043D\u043E,
         \u043F\u043B\u043E\u0434 \u0432\u0441\u0435\u043C \u0441\u0432\u043E\u0438\u043C
@@ -5594,7 +5629,7 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Put it in your pocket as a reserve
       - "\u041F\u043E\u043B\u043E\u0436\u0438\u0442\u044C \u0432 \u043A\u0430\u0440\u043C\u0430\u043D
         \u043F\u0440\u043E \u0437\u0430\u043F\u0430\u0441"
       - 
@@ -5613,7 +5648,8 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - You pluck a strange fruit from a branch and put it in your pocket, "It might
+        come in handy"
       - "\u0412\u044B \u0441\u0440\u044B\u0432\u0430\u0435\u0442\u0435 \u0441\u0442\u0440\u0430\u043D\u043D\u044B\u0439
         \u043F\u043B\u043E\u0434 \u0441 \u0432\u0435\u0442\u043A\u0438 \u0438 \u043A\u043B\u0430\u0434\u0435\u0442\u0435
         \u0441\u0435\u0431\u0435 \u0432 \u043A\u0430\u0440\u043C\u0430\u043D \"\u0412\u0434\u0440\u0443\u0433
@@ -5634,7 +5670,7 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - In the middle of the night you wake up from heavy snoring
       - "\u0421\u0440\u0435\u0434\u0438 \u043D\u043E\u0447\u0438 \u0432\u044B \u043F\u0440\u043E\u0441\u044B\u043F\u0430\u0435\u0442\u0435\u0441\u044C
         \u043E\u0442 \u0441\u0438\u043B\u044C\u043D\u043E\u0433\u043E \u0445\u0440\u0430\u043F\u0430"
       - 
@@ -5653,7 +5689,7 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Open your eyes
       - "\u041E\u0442\u043A\u0440\u044B\u0442\u044C \u0433\u043B\u0430\u0437\u0430"
       - 
       - 
@@ -5671,11 +5707,12 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - "Do you see the guards sleeping                                                                                              
+        \nShout loudly at them and your blood pressure rises"
       - "\u0412\u044B \u0432\u0438\u0434\u0438\u0442\u0435 \u0441\u043F\u044F\u0449\u0438\u0445
-        \u0441\u0442\u0440\u0430\u0436\u043D\u0438\u043A\u043E\u0432.\n\u0413\u0440\u043E\u043C\u043A\u043E
-        \u043A\u0440\u0438\u0447\u0438\u0442\u0435 \u043D\u0430 \u043D\u0438\u0445
-        \u0438 \u0443 \u0432\u0430\u0441 \u043F\u043E\u0434\u043D\u0438\u043C\u0430\u0435\u0442\u0441\u044F
+        \u0441\u0442\u0440\u0430\u0436\u043D\u0438\u043A\u043E\u0432                                                                                              
+        \n\u0413\u0440\u043E\u043C\u043A\u043E \u043A\u0440\u0438\u0447\u0438\u0442\u0435
+        \u043D\u0430 \u043D\u0438\u0445 \u0438 \u0443 \u0432\u0430\u0441 \u043F\u043E\u0434\u043D\u0438\u043C\u0430\u0435\u0442\u0441\u044F
         \u0434\u0430\u0432\u043B\u0435\u043D\u0438\u0435"
       - 
       - 
@@ -5693,7 +5730,7 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Sleep on
       - "\u0421\u043F\u0430\u0442\u044C \u0434\u0430\u043B\u044C\u0448\u0435"
       - 
       - 
@@ -5711,10 +5748,11 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - "You try to fall asleep and you succeed \n\nIn the morning, you found the
+        guards sleeping and the horses missing"
       - "\u0412\u044B \u0441\u0442\u0430\u0440\u0430\u0435\u0442\u0435\u0441\u044C
         \u0443\u0441\u043D\u0443\u0442\u044C \u0438 \u0443 \u0432\u0430\u0441 \u043F\u043E\u043B\u0443\u0447\u0430\u0435\u0442\u0441\u044F
-        \n\n\u041F\u043E \u0443\u0442\u0440\u0443 \u0432\u044B \u043E\u0431\u043D\u0430\u0440\u0443\u0436\u0438\u043B\u0438
+        \n\n\u041F\u043E\u0443\u0442\u0440\u0443 \u0432\u044B \u043E\u0431\u043D\u0430\u0440\u0443\u0436\u0438\u043B\u0438
         \u0441\u043F\u044F\u0449\u0438\u0445 \u0441\u0442\u0440\u0430\u0436\u043D\u0438\u043A\u043E\u0432
         \u0438 \u043E\u0442\u0441\u0443\u0442\u0441\u0442\u0432\u0438\u0435 \u043B\u043E\u0448\u0430\u0434\u0435\u0439"
       - 
@@ -5733,7 +5771,8 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - In the middle of the night, a young warrior wakes you up and tells you that
+        he hears a woman singing in the forest
       - "\u041F\u043E\u0441\u0440\u0435\u0434\u0438 \u043D\u043E\u0447\u0438 \u0432\u0430\u0441
         \u0440\u0430\u0437\u0431\u0443\u0434\u0438\u043B \u043C\u043E\u043B\u043E\u0434\u043E\u0439
         \u0432\u043E\u0438\u043D, \u0438 \u0440\u0430\u0441\u0441\u043A\u0430\u0437\u044B\u0432\u0430\u0435\u0442
@@ -5755,7 +5794,8 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - You will learn about further adventures from the full version of the game.
+        But you can try other story lines
       - "\u041E \u0434\u0430\u043B\u044C\u043D\u0435\u0439\u0448\u0438\u0445 \u043F\u0440\u0438\u043A\u043B\u044E\u0447\u0435\u043D\u0438\u044F\u0445
         \u0432\u044B \u0443\u0437\u043D\u0430\u0435\u0442\u0435 \u0438\u0437 \u043F\u043E\u043B\u043D\u043E\u0439
         \u0432\u0435\u0440\u0441\u0438\u0438 \u0438\u0433\u0440\u044B. \u041D\u043E
@@ -5778,7 +5818,8 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - And whether the young warrior believed you or not, you will find out from
+        the full version of the game. But you can try other story lines
       - "\u0410 \u043F\u043E\u0432\u0435\u0440\u0438\u043B \u043B\u0438 \u0432\u0430\u043C
         \u043C\u043E\u043B\u043E\u0434\u043E\u0439 \u0432\u043E\u0438\u043D \u0438\u043B\u0438
         \u043D\u0435\u0442 \u0432\u044B \u0443\u0437\u043D\u0430\u0435\u0442\u0435
@@ -5802,7 +5843,7 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Invite him to go look at the clearing
       - "\u041F\u0440\u0435\u0434\u043B\u043E\u0436\u0438\u0442\u044C \u0435\u043C\u0443
         \u043F\u043E\u0439\u0442\u0438 \u043F\u043E\u0441\u043C\u043E\u0442\u0440\u0435\u0442\u044C
         \u043D\u0430 \u043F\u043E\u043B\u044F\u043D\u0435"
@@ -5822,7 +5863,11 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - 'The guard left and did not return for a long time
+
+
+        There''s no
+        one in the clearing, it looks like he was dragged away by forest spirits'
       - "\u0421\u0442\u0440\u0430\u0436\u043D\u0438\u043A \u0443\u0448\u0435\u043B
         \u0438 \u0434\u043E\u043B\u0433\u043E \u043D\u0435 \u0432\u043E\u0437\u0432\u0440\u0430\u0449\u0430\u043B\u0441\u044F\n\n\u041D\u0430
         \u043F\u043E\u043B\u044F\u043D\u0435 \u043D\u0438\u043A\u043E\u0433\u043E,
@@ -5844,7 +5889,7 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Convince him that he imagined it
       - "\u0423\u0431\u0435\u0434\u0438\u0442\u044C \u0435\u0433\u043E \u0432 \u0442\u043E\u043C,
         \u0447\u0442\u043E \u044D\u0442\u043E \u0435\u043C\u0443 \u043F\u043E\u0447\u0443\u0434\u0438\u043B\u043E\u0441\u044C"
       - 
@@ -5863,7 +5908,7 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - You convince the guard that these are wild animals and the wind in the leaves
       - "\u0412\u044B \u0443\u0431\u0435\u0436\u0434\u0430\u0435\u0442\u0435 \u0441\u0442\u0440\u0430\u0436\u043D\u0438\u043A\u0430
         \u0447\u0442\u043E \u044D\u0442\u043E \u0434\u0438\u043A\u0438\u0435 \u0437\u0432\u0435\u0440\u0438
         \u0438 \u0432\u0435\u0442\u0435\u0440 \u0432 \u043B\u0438\u0441\u0442\u0432\u0435"
@@ -5883,7 +5928,7 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - In the middle of the night, you hear melodious female singing
       - "\u041F\u043E\u0441\u0440\u0435\u0434\u0438 \u043D\u043E\u0447\u0438 \u0432\u044B
         \u0441\u043B\u044B\u0448\u0438\u0442\u0435 \u043C\u0435\u043B\u043E\u0434\u0438\u0447\u043D\u043E\u0435
         \u0436\u0435\u043D\u0441\u043A\u043E\u0435 \u043F\u0435\u043D\u0438\u0435"
@@ -5903,7 +5948,7 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Check out what's in there
       - "\u041F\u0440\u043E\u0432\u0435\u0440\u0438\u0442\u044C \u0447\u0442\u043E
         \u0442\u0430\u043C \u0442\u0430\u043A\u043E\u0435"
       - 
@@ -5922,7 +5967,7 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - You follow the sound and come out into a small clearing
       - "\u0412\u044B \u0438\u0434\u0435\u0442\u0435 \u043D\u0430 \u0437\u0432\u0443\u043A
         \u0438 \u0432\u044B\u0445\u043E\u0434\u0438\u0442\u0435 \u043D\u0430 \u043D\u0435\u0431\u043E\u043B\u044C\u0448\u0443\u044E
         \u043F\u043E\u043B\u044F\u043D\u0443"
@@ -5942,7 +5987,7 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Don't pay attention
       - "\u041D\u0435 \u043E\u0431\u0440\u0430\u0449\u0430\u0442\u044C \u0432\u043D\u0438\u043C\u0430\u043D\u0438\u044F"
       - 
       - 
@@ -5960,11 +6005,12 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - There are a lot of spirits in the forest that can distract travelers, and
+        you decide not to give in
       - "\u0412 \u043B\u0435\u0441\u0443 \u043C\u043D\u043E\u0433\u043E \u0432\u0441\u044F\u043A\u0438\u0445
-        \u0434\u0443\u0445\u043E\u0432 \u043A\u043E\u0442\u043E\u0440\u044B\u0435
+        \u0434\u0443\u0445\u043E\u0432, \u043A\u043E\u0442\u043E\u0440\u044B\u0435
         \u043C\u043E\u0433\u0443\u0442 \u043E\u0442\u0432\u043B\u0435\u0447\u044C
-        \u043F\u0443\u0442\u043D\u0438\u043A\u043E\u0432 \u0438 \u0432\u044B \u0440\u0435\u0448\u0430\u0435\u0442\u0435
+        \u043F\u0443\u0442\u043D\u0438\u043A\u043E\u0432, \u0438 \u0432\u044B \u0440\u0435\u0448\u0430\u0435\u0442\u0435
         \u043D\u0435 \u043F\u043E\u0434\u0434\u0430\u0432\u0430\u0442\u044C\u0441\u044F"
       - 
       - 
@@ -5982,7 +6028,8 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - The night was uneventful, you slept well, it remains to have breakfast and
+        you can move on
       - "\u041D\u043E\u0447\u044C \u043F\u0440\u043E\u0448\u043B\u0430 \u0431\u0435\u0437
         \u043F\u0440\u0438\u043A\u043B\u044E\u0447\u0435\u043D\u0438\u0439, \u0432\u044B
         \u043E\u0442\u043B\u0438\u0447\u043D\u043E \u0432\u044B\u0441\u043F\u0430\u043B\u0438\u0441\u044C,
@@ -6005,7 +6052,7 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Prepare breakfast on your own
       - "\u041F\u0440\u0438\u0433\u043E\u0442\u043E\u0432\u0438\u0442\u044C \u0441\u0430\u043C\u043E\u043C\u0443
         \u043F\u043E \u0431\u044B\u0441\u0442\u0440\u0435\u043D\u044C\u043A\u043E\u043C\u0443"
       - 
@@ -6024,7 +6071,7 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - It turned out that you're not much of a cook, and everyone has indigestion
       - "\u041E\u043A\u0430\u0437\u0430\u043B\u043E\u0441\u044C \u0447\u0442\u043E
         \u043A\u0443\u043B\u0438\u043D\u0430\u0440 \u0432\u044B \u0442\u0430\u043A
         \u0441\u0435\u0431\u0435 \u0438 \u0443 \u0432\u0441\u0435\u0445 \u0441\u043B\u0443\u0447\u0438\u043B\u043E\u0441\u044C
@@ -6045,7 +6092,7 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Let the old man cook breakfast
       - "\u041F\u043E\u0437\u0432\u043E\u043B\u0438\u0442\u044C \u043F\u0440\u0438\u0433\u043E\u0442\u043E\u0432\u0438\u0442\u044C
         \u0437\u0430\u0432\u0442\u0440\u0430\u043A \u0441\u0442\u0430\u0440\u0438\u043A\u0443"
       - 
@@ -6064,7 +6111,7 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - The breakfast was very tasty and gave you strength and energy
       - "\u0417\u0430\u0432\u0442\u0440\u0430\u043A \u0431\u044B\u043B \u043E\u0447\u0435\u043D\u044C
         \u0432\u043A\u0443\u0441\u043D\u044B\u043C \u0438 \u043F\u0440\u0438\u0434\u0430\u043B
         \u0432\u0430\u043C \u0441\u0438\u043B \u0438 \u044D\u043D\u0435\u0440\u0433\u0438\u0438"
@@ -6084,10 +6131,14 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - 'You don''t waste time resting until you reach the edge of the forest
+
+
+        It''s
+        time to pay off the guide'
       - "\u0412\u044B \u043D\u0435 \u0442\u0435\u0440\u044F\u044F \u0432\u0440\u0435\u043C\u0435\u043D\u0438
         \u043D\u0430 \u043E\u0442\u0434\u044B\u0445 \u0434\u043E\u0441\u0442\u0438\u0433\u0430\u0435\u0442\u0435
-        \u043A\u0440\u0430\u044F\u044F \u043B\u0435\u0441\u0430\n\n\u041D\u0430\u0441\u0442\u0430\u043B\u043E
+        \u043A\u0440\u0430\u044F \u043B\u0435\u0441\u0430\n\n\u041D\u0430\u0441\u0442\u0430\u043B\u043E
         \u0432\u0440\u0435\u043C\u044F \u0440\u0430\u0441\u043F\u043B\u0430\u0442\u0438\u0442\u044C\u0441\u044F
         \u0441 \u043F\u0440\u043E\u0432\u043E\u0434\u043D\u0438\u043A\u043E\u043C"
       - 
@@ -6106,7 +6157,7 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Pay
       - "\u0417\u0430\u043F\u043B\u0430\u0442\u0438\u0442\u044C"
       - 
       - 
@@ -6124,7 +6175,7 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - You pay the agreed amount
       - "\u0412\u044B \u043F\u043B\u0430\u0442\u0438\u0442\u0435 \u043E\u0433\u043E\u0432\u043E\u0440\u0435\u043D\u043D\u0443\u044E
         \u0441\u0443\u043C\u043C\u0443 "
       - 
@@ -6143,7 +6194,7 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Tell him to go to hell
       - "\u041F\u043E\u0441\u043B\u0430\u0442\u044C \u043A \u0447\u0435\u0440\u0442\u044F\u043C"
       - 
       - 
@@ -6161,12 +6212,13 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - The old man was very displeased and turned one of the guards into a tree
+        and disappeared cursing you
       - "\u0421\u0442\u0430\u0440\u0438\u043A \u043E\u043A\u0430\u0437\u0430\u043B\u0441\u044F
-        \u043E\u0447\u0435\u043D\u044C \u043D\u0435\u0434\u043E\u0432\u043E\u043B\u0435\u043D
-        \u041F\u0440\u0435\u0432\u0440\u0430\u0442\u0438\u043B \u043E\u0434\u043D\u043E\u0433\u043E
+        \u043E\u0447\u0435\u043D\u044C \u043D\u0435\u0434\u043E\u0432\u043E\u043B\u0435\u043D,
+        \u043F\u0440\u0435\u0432\u0440\u0430\u0442\u0438\u043B \u043E\u0434\u043D\u043E\u0433\u043E
         \u0438\u0437 \u0441\u0442\u0440\u0430\u0436\u043D\u0438\u043A\u043E\u0432
-        \u0432 \u0434\u0435\u0440\u0435\u0432\u043E \u0438 \u0438\u0437\u0447\u0435\u0437
+        \u0432 \u0434\u0435\u0440\u0435\u0432\u043E \u0438 \u0438\u0441\u0447\u0435\u0437,
         \u043F\u0440\u043E\u043A\u043B\u0438\u043D\u0430\u044F \u0432\u0430\u0441"
       - 
       - 
@@ -6184,7 +6236,8 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - The horses went mad with fear and ran at great speed, and in a matter of
+        minutes you flew to the end of the forest.
       - "\u041A\u043E\u043D\u0438 \u043E\u0431\u0435\u0437\u0443\u043C\u0435\u043B\u0438
         \u043E\u0442 \u0441\u0442\u0440\u0430\u0445\u0430 \u0438 \u043F\u043E\u0431\u0435\u0436\u0430\u043B\u0438
         \u0441 \u043E\u0433\u0440\u043E\u043C\u043D\u043E\u0439 \u0441\u043A\u043E\u0440\u043E\u0441\u0442\u044C\u044E,
@@ -6207,7 +6260,8 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - But you will learn about how the horses rested from the full version of the
+        game. But you can try other story lines
       - "\u0410 \u0432\u043E\u0442 \u043E \u0442\u043E\u043C \u043A\u0430\u043A \u043E\u0442\u0434\u043E\u0445\u043D\u0443\u043B\u0438
         \u043A\u043E\u043D\u0438 \u0432\u044B \u0443\u0437\u043D\u0430\u0435\u0442\u0435
         \u0438\u0437 \u043F\u043E\u043B\u043D\u043E\u0439 \u0432\u0435\u0440\u0441\u0438\u0438
@@ -6230,7 +6284,8 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - You will learn about how hard the journey was on your own two feet from the
+        full version of the game. But you can try other story lines
       - "\u041E \u0442\u043E\u043C \u043A\u0430\u043A \u0442\u044F\u0436\u0435\u043B
         \u0431\u044B\u043B \u043F\u0443\u0442\u044C \u043D\u0430 \u0441\u0432\u043E\u0438\u0445
         \u0434\u0432\u043E\u0438\u0445 \u0432\u044B \u0443\u0437\u043D\u0430\u0435\u0442\u0435
@@ -6254,7 +6309,7 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Let the horses rest
       - "\u0414\u0430\u0442\u044C \u043A\u043E\u043D\u044F\u043C \u043E\u0442\u0434\u043E\u0445\u043D\u0443\u0442\u044C"
       - 
       - 
@@ -6272,7 +6327,7 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - You're camping until dawn
       - "\u0412\u044B \u0443\u0441\u0442\u0440\u0430\u0438\u0432\u0430\u0435\u0442\u0435
         \u043F\u0440\u0438\u0432\u0430\u043B \u0434\u043E \u0440\u0430\u0441\u0441\u0432\u0435\u0442\u0430"
       - 
@@ -6291,7 +6346,7 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Moving on
       - "\u0414\u0432\u0438\u0433\u0430\u0442\u044C\u0441\u044F \u0434\u0430\u043B\u044C\u0448\u0435"
       - 
       - 
@@ -6309,7 +6364,7 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Horses drop dead from stress and exertion, then you walk
       - "\u041A\u043E\u043D\u0438 \u043F\u0430\u0434\u0430\u044E\u0442 \u0437\u0430\u043C\u0435\u0440\u0442\u0432\u043E
         \u043E\u0442 \u0441\u0442\u0440\u0435\u0441\u0441\u0430 \u0438 \u043D\u0430\u0433\u0440\u0443\u0437\u043A\u0438,
         \u0434\u0430\u043B\u0435\u0435 \u0432\u044B \u0438\u0434\u0435\u0442\u0435
@@ -6330,7 +6385,7 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Is there a small hut ahead, should we stop for a rest?
       - "\u0412\u043F\u0435\u0440\u0435\u0434\u0438 \u043D\u0435\u0431\u043E\u043B\u044C\u0448\u043E\u0439
         \u0448\u0430\u043B\u0430\u0448, \u043E\u0441\u0442\u0430\u043D\u043E\u0432\u0438\u0442\u044C\u0441\u044F
         \u043D\u0430 \u043E\u0442\u0434\u044B\u0445? "
@@ -6350,7 +6405,7 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Moving on
       - "\u0414\u0432\u0438\u0433\u0430\u0442\u044C\u0441\u044F \u0434\u0430\u043B\u044C\u0448\u0435"
       - 
       - 
@@ -6368,7 +6423,8 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - The horses are already pretty tired, and they can barely drag themselves
+        along
       - "\u041A\u043E\u043D\u0438 \u0443\u0436\u0435 \u0434\u043E\u0432\u043E\u043B\u044C\u043D\u043E
         \u0441\u0438\u043B\u044C\u043D\u043E \u0443\u0441\u0442\u0430\u043B\u0438,
         \u0438 \u0435\u043B\u0435 \u043F\u043B\u0435\u0442\u0443\u0442\u0441\u044F"
@@ -6388,7 +6444,7 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Wait until dawn
       - "\u041F\u0435\u0440\u0435\u0436\u0434\u0430\u0442\u044C \u0434\u043E \u0440\u0430\u0441\u0441\u0432\u0435\u0442\u0430"
       - 
       - 
@@ -6406,9 +6462,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
-      - "\u0412\u044B \u043E\u0441\u0442\u0430\u0435\u0442\u0435\u0441\u0442\u044C
-        \u043D\u0430 \u043E\u0442\u0434\u044B\u0445 \u0432 \u0448\u0430\u043B\u0430\u0448\u0435
+      - You stay to rest in the hut until dawn
+      - "\u0412\u044B \u043E\u0441\u0442\u0430\u0435\u0442\u0435\u0441\u044C \u043D\u0430
+        \u043E\u0442\u0434\u044B\u0445 \u0432 \u0448\u0430\u043B\u0430\u0448\u0435
         \u0434\u043E \u0440\u0430\u0441\u0441\u0432\u0435\u0442\u0430 "
       - 
       - 
@@ -6449,7 +6505,8 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - But you will find out whether our hero will learn how to cook in the full
+        version of the game. But you can try other story lines.
       - "\u0410 \u0432\u043E\u0442 \u043D\u0430\u0443\u0447\u0438\u0442\u0441\u044F
         \u043B\u0438 \u043D\u0430\u0448 \u0433\u0435\u0440\u043E\u0439 \u0433\u043E\u0442\u043E\u0432\u0438\u0442\u044C
         \u0432\u044B \u0443\u0437\u043D\u0430\u0435\u0442\u0435 \u0432 \u043F\u043E\u043B\u043D\u043E\u0439
@@ -6473,7 +6530,7 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Prepare breakfast on your own
       - "\u041F\u0440\u0438\u0433\u043E\u0442\u043E\u0432\u0438\u0442\u044C \u0441\u0430\u043C\u043E\u043C\u0443
         \u043F\u043E \u0431\u044B\u0441\u0442\u0440\u0435\u043D\u044C\u043A\u043E\u043C\u0443"
       - 
@@ -6492,7 +6549,7 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - It turned out that you're not much of a cook, and everyone has indigestion
       - "\u041E\u043A\u0430\u0437\u0430\u043B\u043E\u0441\u044C \u0447\u0442\u043E
         \u043A\u0443\u043B\u0438\u043D\u0430\u0440 \u0432\u044B \u0442\u0430\u043A
         \u0441\u0435\u0431\u0435 \u0438 \u0443 \u0432\u0441\u0435\u0445 \u0441\u043B\u0443\u0447\u0438\u043B\u043E\u0441\u044C
@@ -6513,7 +6570,7 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Wait for one of the warriors to cook breakfast
       - "\u041F\u043E\u0434\u043E\u0436\u0434\u0430\u0442\u044C \u043F\u043E\u043A\u0430
         \u043E\u0434\u0438\u043D \u0438\u0437 \u0432\u043E\u0439\u043D\u043E\u0432
         \u043F\u0440\u0438\u0433\u043E\u0442\u043E\u0432\u0438\u0442 \u0437\u0430\u0432\u0442\u0440\u0430\u043A"
@@ -6533,7 +6590,7 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - The breakfast was very tasty and gave you strength
       - "\u0417\u0430\u0432\u0442\u0440\u0430\u043A \u0431\u044B\u043B \u043E\u0447\u0435\u043D\u044C
         \u0432\u043A\u0443\u0441\u043D\u044B\u043C \u0438 \u043F\u0440\u0438\u0434\u0430\u043B
         \u0432\u0430\u043C \u0441\u0438\u043B "
@@ -6553,7 +6610,8 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - The night was uneventful, you slept well, it remains to have breakfast and
+        you can move on
       - "\u041D\u043E\u0447\u044C \u043F\u0440\u043E\u0448\u043B\u0430 \u0431\u0435\u0437
         \u043F\u0440\u0438\u043A\u043B\u044E\u0447\u0435\u043D\u0438\u0439, \u0432\u044B
         \u043E\u0442\u043B\u0438\u0447\u043D\u043E \u0432\u044B\u0441\u043F\u0430\u043B\u0438\u0441\u044C,
@@ -6576,7 +6634,8 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - But you will find out how the horses underwent the processing in the full
+        version of the game! But you can try other story lines
       - "\u0410 \u0432\u043E\u0442 \u043A\u0430\u043A \u043F\u0435\u0440\u0435\u043D\u0435\u0441\u043B\u0438
         \u043A\u043E\u043D\u0438 \u043F\u0435\u0440\u0435\u0440\u0430\u0431\u043E\u0442\u043A\u0443
         \u0432\u044B \u0443\u0437\u043D\u0430\u0435\u0442\u0435 \u0432 \u043F\u043E\u043B\u043D\u043E\u0439
@@ -6600,7 +6659,8 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - At dawn, two paths open further, to the left - through swamps and marshes,
+        to the right - a small village
       - "\u0421 \u0440\u0430\u0441\u0441\u0432\u0435\u0442\u043E\u043C \u043E\u0442\u043A\u0440\u044B\u0432\u0430\u044E\u0442\u0441\u044F
         \u0434\u0432\u0430 \u043F\u0443\u0442\u0438 \u0434\u0430\u043B\u0435\u0435,
         \u043D\u0430\u043B\u0435\u0432\u043E - \u0447\u0435\u0440\u0435\u0437 \u0442\u043E\u043F\u0438
@@ -6622,7 +6682,7 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Through the marshes
       - "\u0427\u0435\u0440\u0435\u0437 \u0442\u043E\u043F\u0438"
       - 
       - 
@@ -6640,7 +6700,7 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Through the marshes
       - "\u0427\u0435\u0440\u0435\u0437 \u0442\u043E\u043F\u0438"
       - 
       - 
@@ -6658,7 +6718,7 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Through the village
       - "\u0427\u0435\u0440\u0435\u0437 \u043F\u043E\u0441\u0435\u043B\u043E\u043A"
       - 
       - 
@@ -6676,7 +6736,7 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Through the village
       - "\u0427\u0435\u0440\u0435\u0437 \u043F\u043E\u0441\u0435\u043B\u043E\u043A"
       - 
       - 
@@ -6694,11 +6754,15 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - You will find out which way our heroes will go next from the full version
+        of the game    But you can try other story lines
       - "\u041A\u0430\u043A\u0438\u043C \u043F\u0443\u0442\u0435\u043C \u043F\u043E\u0439\u0434\u0443\u0442
         \u0434\u0430\u043B\u044C\u0448\u0435 \u043D\u0430\u0448\u0438 \u0433\u0435\u0440\u043E\u0438
         \u0432\u044B \u0443\u0437\u043D\u0430\u0435\u0442\u0435 \u0438\u0437 \u043F\u043E\u043B\u043D\u043E\u0439
-        \u0432\u0435\u0440\u0441\u0438\u0438 \u0438\u0433\u0440\u044B"
+        \u0432\u0435\u0440\u0441\u0438\u0438 \u0438\u0433\u0440\u044B                            
+        \u041D\u043E \u0432\u044B \u043C\u043E\u0436\u0435\u0442\u0435 \u043F\u043E\u043F\u0440\u043E\u0431\u043E\u0432\u0430\u0442\u044C
+        \u0434\u0440\u0443\u0433\u0438\u0435 \u0441\u044E\u0436\u0435\u0442\u043D\u044B\u0435
+        \u0432\u0435\u0442\u043A\u0438"
       - 
       - 
       - 
@@ -6715,7 +6779,7 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Prepare breakfast on your own
       - "\u041F\u0440\u0438\u0433\u043E\u0442\u043E\u0432\u0438\u0442\u044C \u0441\u0430\u043C\u043E\u043C\u0443
         \u043F\u043E \u0431\u044B\u0441\u0442\u0440\u0435\u043D\u044C\u043A\u043E\u043C\u0443"
       - 
@@ -6734,7 +6798,7 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - It turned out that you're not much of a cook, and everyone has indigestion
       - "\u041E\u043A\u0430\u0437\u0430\u043B\u043E\u0441\u044C \u0447\u0442\u043E
         \u043A\u0443\u043B\u0438\u043D\u0430\u0440 \u0432\u044B \u0442\u0430\u043A
         \u0441\u0435\u0431\u0435 \u0438 \u0443 \u0432\u0441\u0435\u0445 \u0441\u043B\u0443\u0447\u0438\u043B\u043E\u0441\u044C
@@ -6755,7 +6819,7 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Let the old man cook breakfast
       - "\u041F\u043E\u0437\u0432\u043E\u043B\u0438\u0442\u044C \u043F\u0440\u0438\u0433\u043E\u0442\u043E\u0432\u0438\u0442\u044C
         \u0437\u0430\u0432\u0442\u0440\u0430\u043A \u0441\u0442\u0430\u0440\u0438\u043A\u0443"
       - 
@@ -6774,7 +6838,7 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - The breakfast was very tasty and gave you strength and energy
       - "\u0417\u0430\u0432\u0442\u0440\u0430\u043A \u0431\u044B\u043B \u043E\u0447\u0435\u043D\u044C
         \u0432\u043A\u0443\u0441\u043D\u044B\u043C \u0438 \u043F\u0440\u0438\u0434\u0430\u043B
         \u0432\u0430\u043C \u0441\u0438\u043B \u0438 \u044D\u043D\u0435\u0440\u0433\u0438\u0438"
@@ -6794,7 +6858,7 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - In the clearing you see a female figure in a dress
       - "\u041D\u0430 \u043F\u043E\u043B\u044F\u043D\u0435 \u0432\u044B \u0432\u0438\u0434\u0438\u0442\u0435
         \u0436\u0435\u043D\u0441\u043A\u0443\u044E \u0444\u0438\u0433\u0443\u0440\u0443
         \u0432 \u043F\u043B\u0430\u0442\u044C\u0435"
@@ -6814,7 +6878,8 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - It was really painful, but you will learn about the further adventures of
+        our hero in the full version. But you can try other story lines
       - "\u042D\u0442\u043E \u0431\u044B\u043B\u043E \u0438 \u0432 \u043F\u0440\u0430\u0432\u0434\u0443
         \u0431\u043E\u043B\u044C\u043D\u043E, \u0430 \u043F\u0440\u043E \u0434\u0430\u043B\u044C\u043D\u0435\u0439\u0448\u0438\u0435
         \u043F\u0440\u0438\u043A\u043B\u044E\u0447\u0435\u043D\u0438\u044F \u043D\u0430\u0448\u0435\u0433\u043E
@@ -6839,7 +6904,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Well, whether the hero had the guts to go after her or he just returned to
+        the camp, you will find out in the full version of the game. But you can
+        try other story lines
       - "\u041D\u0443 \u0430 \u0445\u0432\u0430\u0442\u0438\u043B\u043E \u043B\u0438
         \u0434\u0443\u0445\u0430 \u0443 \u0433\u0435\u0440\u043E\u044F \u043F\u043E\u0439\u0442\u0438
         \u0437\u0430 \u043D\u0435\u0439 \u0438\u043B\u0438 \u043E\u043D \u043F\u0440\u043E\u0441\u0442\u043E
@@ -6865,7 +6932,7 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Get closer to the girl
       - "\u041F\u043E\u0434\u043E\u0439\u0442\u0438 \u043F\u043E\u0431\u043B\u0438\u0436\u0435
         \u043A \u0434\u0435\u0432\u0443\u0448\u043A\u0435"
       - 
@@ -6884,7 +6951,8 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - The girl crumbled into several small balls and they attacked you, they turned
+        out to be forest spirits
       - "\u0414\u0435\u0432\u0443\u0448\u043A\u0430 \u0440\u0430\u0441\u0441\u044B\u043F\u0430\u043B\u0430\u0441\u044C
         \u043D\u0430 \u043D\u0435\u0441\u043A\u043E\u043B\u044C\u043A\u043E \u043C\u0430\u043B\u0435\u043D\u044C\u043A\u0438\u0445
         \u043A\u043E\u043B\u043E\u0431\u043E\u0447\u043A\u043E\u0432 \u0438 \u043E\u043D\u0438
@@ -6907,8 +6975,8 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
-      - "\u041D\u0430\u0431\u043B\u044E\u0434\u0430\u0442\u044C \u0438\u0437 \u0434\u0430\u043B\u0435\u043A\u0430"
+      - Watching her from afar
+      - "\u041D\u0430\u0431\u043B\u044E\u0434\u0430\u0442\u044C \u0438\u0437\u0434\u0430\u043B\u0435\u043A\u0430"
       - 
       - 
       - 
@@ -6925,7 +6993,7 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - You still did not dare to approach, the girl disappeared into the forest
       - "\u0412\u044B \u0442\u0430\u043A \u0438 \u043D\u0435 \u0440\u0435\u0448\u0438\u043B\u0438\u0441\u044C
         \u043F\u043E\u0434\u043E\u0439\u0442\u0438, \u0434\u0435\u0432\u0443\u0448\u043A\u0430
         \u0441\u043A\u0440\u044B\u043B\u0430\u0441\u044C \u0432 \u043B\u0435\u0441\u0443"
