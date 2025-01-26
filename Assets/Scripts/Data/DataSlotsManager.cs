@@ -47,10 +47,12 @@ public class DataSlotsManager : MonoBehaviour
 
     public void ShowDialog()
     {
-        dialoguePanel.DOScale(Vector3.one, 0.5f).SetEase(Ease.OutBack).OnComplete(() =>
-        {
-            ButtonOn(true);
-        });
+        //dialoguePanel.DOScale(Vector3.one, 0.5f).SetEase(Ease.OutBack).OnComplete(() =>
+        //{
+        //    ButtonOn(true);
+        //});
+
+        CreateSaveButton();
     }
 
     public void HideDialog()
@@ -76,14 +78,14 @@ public class DataSlotsManager : MonoBehaviour
     // Создаем Слот сохранения
     public async void CreateSaveButton()
     {
-        NoTextAnimation(inputField.text != "");
+        //NoTextAnimation(inputField.text != "");
 
-        if (inputField.text != "")
-        {
+        //if (inputField.text != "")
+        //{
             GameObject go = Instantiate(prefabSaveButton, contentParent);
             SaveButton saveButton = go.GetComponent<SaveButton>();
             buttons.Add(saveButton);
-            saveButton.NameSave.text = inputField.text;
+            saveButton.NameSave.text = DateTime.Now.ToString("dd/MM/yyyy HH:mm");
             saveButton.DataTime.text = DateTime.Now.ToString("dd/MM/yyyy HH:mm");
             string path = await CreateScreenshot();
             // Устанавливаем спрайт скриншота в Слот
@@ -109,8 +111,8 @@ public class DataSlotsManager : MonoBehaviour
                     inputField.text = "";
                 });
             });
-        }
-        else Debug.Log("Введите имя!");
+        //}
+        //else Debug.Log("Введите имя!");
     }
 
     private void NoTextAnimation(bool run)

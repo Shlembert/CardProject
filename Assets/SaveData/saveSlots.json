@@ -1,0 +1,26 @@
+{
+    "Slots": [
+        {
+            "Name": "26.01.2025 20:35",
+            "DataTime": "26.01.2025 20:35",
+            "ScreenShotAddress": "D:/Git/CardProject/Assets/SaveData/Screenshots//Screenshot_20250126_203531.png",
+            "GameData": {
+                "Health": 3,
+                "Location": {
+                    "m_AssetGUID": "VillageHouse",
+                    "m_SubObjectName": "",
+                    "m_SubObjectType": "",
+                    "m_EditorAssetChanged": false
+                },
+                "Items": [],
+                "CheckpointCount": 3,
+                "CardSet": {
+                    "m_AssetGUID": "4_ToCastleQ",
+                    "m_SubObjectName": "",
+                    "m_SubObjectType": "",
+                    "m_EditorAssetChanged": false
+                }
+            }
+        }
+    ]
+}
