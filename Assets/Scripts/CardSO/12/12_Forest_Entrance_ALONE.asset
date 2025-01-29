@@ -17,7 +17,7 @@ MonoBehaviour:
   animationClip: {fileID: 7400000, guid: 3f30bb1b9d4fbfe459f29f1ad7741892, type: 2}
   bannerSound: {fileID: 0}
   bannerText: 12_Forest_Entrance_ALONE_bunner
-  checkPoint: 1
+  checkPoint: 0
   leftCard:
     messageText: 12_Forest_Entrance_ALONE_cardLeft
     illustrationSprite: {fileID: 21300000, guid: d6fddded13a279946afdcf50eb0e3b07, type: 3}

@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8636afbb060c9543bb985dfc1b704ad, type: 3}
+  m_Name: 5_1_TraderCallPolice
+  m_EditorClassIdentifier: 
+  portrait: {fileID: 21300000, guid: 103e48c1276507d4db598e0bc9c93daa, type: 3}
+  bannerAnimator: {fileID: 9100000, guid: 443731da750020044b2c1478522ebd84, type: 2}
+  animationClip: {fileID: 7400000, guid: 3f30bb1b9d4fbfe459f29f1ad7741892, type: 2}
+  bannerSound: {fileID: 0}
+  bannerText: 5_1_TraderCallPolice_bunner
+  checkPoint: 0
+  leftCard:
+    messageText: 5_1_TraderCallPolice_cardLeft
+    illustrationSprite: {fileID: 0}
+    animator: {fileID: 0}
+    animationClip: {fileID: 0}
+    itemSprite: {fileID: 0}
+    requiredItemSprite: {fileID: 0}
+    removeItemSprite: 0
+    changeBanner: 1
+    locationSprite: {fileID: 0}
+    nextSetIfItem: {fileID: 11400000, guid: fd73487140d5dc446af458b889e54904, type: 2}
+    nextSetIfNoItem: {fileID: 0}
+    isWinIfItem: 0
+    winContentIfItem: []
+    reverseSpriteIfItem: {fileID: 21300000, guid: b2a8fc7c3fbcea14e9b318c323f9af6c, type: 3}
+    reverseAudioClipItem: {fileID: 0}
+    reverseTopTextIfItem: 5_1_TraderCallPolice_cardLeft_REV
+    changeLifePointsIfItem: 0
+    isWinIfNoItem: 0
+    winContentIfNoItem: []
+    reverseSpriteIfNoItem: {fileID: 0}
+    reverseAudioClipNoItem: {fileID: 0}
+    reverseTopTextIfNoItem: 
+    changeLifePointsIfNoItem: 0
+  rightCard:
+    messageText: 5_1_TraderCallPolice_cardRight
+    illustrationSprite: {fileID: 0}
+    animator: {fileID: 0}
+    animationClip: {fileID: 0}
+    itemSprite: {fileID: 0}
+    requiredItemSprite: {fileID: 0}
+    removeItemSprite: 0
+    changeBanner: 1
+    locationSprite: {fileID: 21300000, guid: 564fbb7a13661564eb2465969da24588, type: 3}
+    nextSetIfItem: {fileID: 11400000, guid: e844af5d03e7a3f4bb245830e289c504, type: 2}
+    nextSetIfNoItem: {fileID: 0}
+    isWinIfItem: 0
+    winContentIfItem: []
+    reverseSpriteIfItem: {fileID: 0}
+    reverseAudioClipItem: {fileID: 0}
+    reverseTopTextIfItem: 5_1_TraderCallPolice_cardRight_REV
+    changeLifePointsIfItem: 0
+    isWinIfNoItem: 0
+    winContentIfNoItem: []
+    reverseSpriteIfNoItem: {fileID: 0}
+    reverseAudioClipNoItem: {fileID: 0}
+    reverseTopTextIfNoItem: 
+    changeLifePointsIfNoItem: 0

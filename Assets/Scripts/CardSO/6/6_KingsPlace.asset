@@ -17,7 +17,7 @@ MonoBehaviour:
   animationClip: {fileID: 0}
   bannerSound: {fileID: 8300000, guid: f28846e54974e094b8e94c9baa47d443, type: 3}
   bannerText: 6_KingsPlace_bunner
-  checkPoint: 1
+  checkPoint: 0
   leftCard:
     messageText: 6_KingsPlace_cardLeft
     illustrationSprite: {fileID: 21300000, guid: fbc11e0f1c87de148bb28c957b2b50e6, type: 3}

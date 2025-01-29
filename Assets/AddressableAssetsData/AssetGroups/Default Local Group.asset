@@ -52,6 +52,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1197b20940e0f5946a560ca5aaddde07
+    m_Address: 5_1_GuardsGone
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 127e075295cbbf946895897c9ccf830a
     m_Address: 12_Forest_Dark_Entr
     m_ReadOnly: 0
@@ -172,6 +177,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 48b4fac664dc8fe41a1e63f728a85d6e
+    m_Address: 5_InnkeeperTalk
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 4aab5191ec1ce3b4b9b02cdda6b269ba
     m_Address: 18_Breakfast
     m_ReadOnly: 0
@@ -243,7 +253,7 @@ MonoBehaviour:
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 5b8bb2d823ac7f64cadeed6172e26eb4
-    m_Address: 3_ToCastleHow
+    m_Address: 2_KingGuardOnDoor
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -254,6 +264,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 5f61605eb126d744fb65b55296652407
     m_Address: ForestHalW_FireDawn
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 62025905fae674749a2d84268f4f6c78
+    m_Address: 4_SpyOnGuardsSafe
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -308,7 +323,7 @@ MonoBehaviour:
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 75f234c7afda2054994f99f7e955e131
-    m_Address: 4_ToCastleQ
+    m_Address: 3_GuardsGoBazar
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -373,6 +388,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 94dcf72a3acea864dbf6a502485e6c74
+    m_Address: 4_Traktir
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 990cfe713c4035f449ef44d7d06e8227
     m_Address: ForestHalWoFire
     m_ReadOnly: 0
@@ -405,6 +425,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: a6200f021d352df4fbc8405014a63c45
     m_Address: 13_2Roadz
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a64ca44ae06b9d84087d7c618bf10924
+    m_Address: 5_1_TraderCallPolice
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -468,6 +493,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cf7b3bd8da0d4c343b8ffef6275ad69b
+    m_Address: 3_KudaGo
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: cfeb68ea52faf9941935375f8de7b366
     m_Address: CastleGate
     m_ReadOnly: 0
@@ -498,6 +528,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dfdcd9375906de948ae694f6ed544958
+    m_Address: DemoEnd 1
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: e20618d899ce4e24caabac16eeb15051
     m_Address: 13_Poput
     m_ReadOnly: 0
@@ -520,6 +555,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: e6ef0b5954f6f044dbc082a54225770f
     m_Address: 5_3_FingerEar
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e844af5d03e7a3f4bb245830e289c504
+    m_Address: 5_2_RunawayGuardsHarbor
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -600,6 +640,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: fd6482f80e9a13a4290f55eb2b889917
     m_Address: 17_SelfWAtch
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fd73487140d5dc446af458b889e54904
+    m_Address: 5_2_GuardsTellStory
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0

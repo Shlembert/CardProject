@@ -17,7 +17,7 @@ MonoBehaviour:
   animationClip: {fileID: 7400000, guid: 3917c0f23ee3ae64c967e564905376d2, type: 2}
   bannerSound: {fileID: 8300000, guid: d5ad60657589ed44fa2312b6361c24e9, type: 3}
   bannerText: 2_Guard_bunner
-  checkPoint: 1
+  checkPoint: 0
   leftCard:
     messageText: 2_Guard_cardLeft
     illustrationSprite: {fileID: 21300000, guid: 85c8613156568094a900907bfc584b4c, type: 3}
@@ -27,8 +27,8 @@ MonoBehaviour:
     requiredItemSprite: {fileID: 0}
     removeItemSprite: 0
     changeBanner: 1
-    locationSprite: {fileID: 0}
-    nextSetIfItem: {fileID: 11400000, guid: 5b8bb2d823ac7f64cadeed6172e26eb4, type: 2}
+    locationSprite: {fileID: 21300000, guid: bfda25037043650409951ac81830f4eb, type: 3}
+    nextSetIfItem: {fileID: 11400000, guid: 85238a8911380584c8c40590768b33b0, type: 2}
     nextSetIfNoItem: {fileID: 0}
     isWinIfItem: 0
     winContentIfItem: []

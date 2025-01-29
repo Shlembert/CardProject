@@ -17,7 +17,7 @@ MonoBehaviour:
   animationClip: {fileID: 0}
   bannerSound: {fileID: 0}
   bannerText: 4_WomanGive_bunner
-  checkPoint: 1
+  checkPoint: 0
   leftCard:
     messageText: 4_WomanGive_cardLeft
     illustrationSprite: {fileID: 21300000, guid: fed9f89cf90fa584aa401d976e0505fc, type: 3}

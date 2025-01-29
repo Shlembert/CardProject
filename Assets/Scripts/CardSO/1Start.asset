@@ -51,8 +51,8 @@ MonoBehaviour:
     requiredItemSprite: {fileID: 0}
     removeItemSprite: 0
     changeBanner: 1
-    locationSprite: {fileID: 21300000, guid: 707c135420fff1c41ad274f4ddbeeda4, type: 3}
-    nextSetIfItem: {fileID: 11400000}
+    locationSprite: {fileID: 21300000, guid: bfda25037043650409951ac81830f4eb, type: 3}
+    nextSetIfItem: {fileID: 11400000, guid: 5b8bb2d823ac7f64cadeed6172e26eb4, type: 2}
     nextSetIfNoItem: {fileID: 0}
     isWinIfItem: 0
     winContentIfItem:
@@ -64,7 +64,7 @@ MonoBehaviour:
       Message: WinMessageKey_02
     - Sprite: {fileID: 21300000, guid: c1b778416f38b644a9ec5521dd77d014, type: 3}
       Message: WinMessageKey_03
-    reverseSpriteIfItem: {fileID: 21300000, guid: 5949c823807cbcb4c8c3e2f3476654bf, type: 3}
+    reverseSpriteIfItem: {fileID: 21300000, guid: 84c1d8d25a49cac408fb659930e54ca3, type: 3}
     reverseAudioClipItem: {fileID: 0}
     reverseTopTextIfItem: s1revR
     changeLifePointsIfItem: 0
