@@ -28,7 +28,7 @@ MonoBehaviour:
     removeItemSprite: 0
     changeBanner: 1
     locationSprite: {fileID: 21300000, guid: bfda25037043650409951ac81830f4eb, type: 3}
-    nextSetIfItem: {fileID: 11400000, guid: cf7b3bd8da0d4c343b8ffef6275ad69b, type: 2}
+    nextSetIfItem: {fileID: 11400000, guid: 94dcf72a3acea864dbf6a502485e6c74, type: 2}
     nextSetIfNoItem: {fileID: 0}
     isWinIfItem: 0
     winContentIfItem: []
@@ -44,19 +44,19 @@ MonoBehaviour:
     changeLifePointsIfNoItem: 0
   rightCard:
     messageText: 2_KingGuardOnDoor_cardRight
-    illustrationSprite: {fileID: 21300000, guid: 7f60b426711fdca4ba10cdb8b1f10ad7, type: 3}
-    animator: {fileID: 9100000, guid: d85ad0ad988a11c4a8e850eb57aa1b07, type: 2}
-    animationClip: {fileID: 7400000, guid: 8e135c3064ecd984cb80643bcfb658bd, type: 2}
+    illustrationSprite: {fileID: 21300000, guid: 0d38550f1ab6802478d5d50b01b3a758, type: 3}
+    animator: {fileID: 9100000, guid: a70de2b8e03ccd14ba861ac2b247dd17, type: 2}
+    animationClip: {fileID: 7400000, guid: 8dca9e793794260469e273157ac22364, type: 2}
     itemSprite: {fileID: 0}
     requiredItemSprite: {fileID: 0}
     removeItemSprite: 0
     changeBanner: 0
     locationSprite: {fileID: 21300000, guid: b3b508e6bb0e5ac44b70fa291fa441e7, type: 3}
-    nextSetIfItem: {fileID: 11400000, guid: 75f234c7afda2054994f99f7e955e131, type: 2}
+    nextSetIfItem: {fileID: 11400000, guid: 0714b668cf794cd48bfb7dd05eddafa5, type: 2}
     nextSetIfNoItem: {fileID: 0}
     isWinIfItem: 0
     winContentIfItem: []
-    reverseSpriteIfItem: {fileID: 21300000, guid: 46cf271afa7ce114caa6e2d8893b16ca, type: 3}
+    reverseSpriteIfItem: {fileID: 21300000, guid: 969d8117c6b781f41a57965c21cd933b, type: 3}
     reverseAudioClipItem: {fileID: 0}
     reverseTopTextIfItem: 2_KingGuardOnDoor_cardRight_REV
     changeLifePointsIfItem: 0

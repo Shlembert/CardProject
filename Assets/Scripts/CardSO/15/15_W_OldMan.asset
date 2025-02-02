@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8636afbb060c9543bb985dfc1b704ad, type: 3}
   m_Name: 15_W_OldMan
   m_EditorClassIdentifier: 
-  portrait: {fileID: 21300000, guid: fde4a3f971191b743aee56b7745fc124, type: 3}
-  bannerAnimator: {fileID: 0}
-  animationClip: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 86dda6d5ecb16c94586bb2a013d38fd5, type: 3}
+  bannerAnimator: {fileID: 9100000, guid: 9201a51335f5616478d18351f116664b, type: 2}
+  animationClip: {fileID: 7400000, guid: f11c207a07141af4ca2076d2f9d6d653, type: 2}
   bannerSound: {fileID: 0}
   bannerText: 15_W_OldMan_bunner
   checkPoint: 0
@@ -50,7 +50,7 @@ MonoBehaviour:
     itemSprite: {fileID: 0}
     requiredItemSprite: {fileID: 0}
     removeItemSprite: 0
-    changeBanner: 0
+    changeBanner: 1
     locationSprite: {fileID: 21300000, guid: 990cfe713c4035f449ef44d7d06e8227, type: 3}
     nextSetIfItem: {fileID: 11400000, guid: 2c676d6df64219f4eb130d46ed316fbd, type: 2}
     nextSetIfNoItem: {fileID: 0}

@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8636afbb060c9543bb985dfc1b704ad, type: 3}
   m_Name: 8_Sword
   m_EditorClassIdentifier: 
-  portrait: {fileID: 21300000, guid: 9f3a5cc9da3e36b46b9fa68aa36344ee, type: 3}
-  bannerAnimator: {fileID: 0}
-  animationClip: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 8c478f25c4fa36d45863f592caa75185, type: 3}
+  bannerAnimator: {fileID: 9100000, guid: e3082d1b7128fe045a991f938e070ca0, type: 2}
+  animationClip: {fileID: 7400000, guid: 883612b3ba251254a9299a87891b49fe, type: 2}
   bannerSound: {fileID: 0}
   bannerText: 8_Sword_bunner
   checkPoint: 0

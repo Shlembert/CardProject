@@ -10,32 +10,32 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c8636afbb060c9543bb985dfc1b704ad, type: 3}
-  m_Name: 3_GuardsGoBazar
+  m_Name: 3_StealAppleQ
   m_EditorClassIdentifier: 
-  portrait: {fileID: 21300000, guid: 197dd67124b07df43a9a84d23debca95, type: 3}
+  portrait: {fileID: 21300000, guid: 103e48c1276507d4db598e0bc9c93daa, type: 3}
   bannerAnimator: {fileID: 9100000, guid: 443731da750020044b2c1478522ebd84, type: 2}
   animationClip: {fileID: 7400000, guid: 3f30bb1b9d4fbfe459f29f1ad7741892, type: 2}
   bannerSound: {fileID: 0}
-  bannerText: 3_GuardsGoBazar_bunner
+  bannerText: 3_StealAppleQ_bunner
   checkPoint: 0
   leftCard:
-    messageText: 3_GuardsGoBazar_cardLeft
-    illustrationSprite: {fileID: 0}
-    animator: {fileID: 0}
-    animationClip: {fileID: 0}
+    messageText: 3_StealAppleQ_cardLeft
+    illustrationSprite: {fileID: 21300000, guid: fed9f89cf90fa584aa401d976e0505fc, type: 3}
+    animator: {fileID: 9100000, guid: b9296f8ce75cf7344b3f6c6dd6ffbd33, type: 2}
+    animationClip: {fileID: 7400000, guid: dd5f79114f569064bab7ebd3da13c68e, type: 2}
     itemSprite: {fileID: 0}
     requiredItemSprite: {fileID: 0}
     removeItemSprite: 0
-    changeBanner: 0
-    locationSprite: {fileID: 21300000, guid: b3b508e6bb0e5ac44b70fa291fa441e7, type: 3}
-    nextSetIfItem: {fileID: 11400000, guid: 71faa5f8e1534a2429d980ccdb549617, type: 2}
+    changeBanner: 1
+    locationSprite: {fileID: 0}
+    nextSetIfItem: {fileID: 11400000, guid: 003d1931d5ad734488f1eedb3aa39405, type: 2}
     nextSetIfNoItem: {fileID: 0}
     isWinIfItem: 0
     winContentIfItem: []
-    reverseSpriteIfItem: {fileID: 21300000, guid: 8b3282a38ea0e164692234f90e1cff5a, type: 3}
+    reverseSpriteIfItem: {fileID: 21300000, guid: 8cae47ce39b9ba14892a9f8677c4e344, type: 3}
     reverseAudioClipItem: {fileID: 0}
-    reverseTopTextIfItem: 3_GuardsGoBazar_cardLeft_REV
-    changeLifePointsIfItem: 0
+    reverseTopTextIfItem: 3_StealAppleQ_cardLeft_REV
+    changeLifePointsIfItem: -1
     isWinIfNoItem: 0
     winContentIfNoItem: []
     reverseSpriteIfNoItem: {fileID: 0}
@@ -43,22 +43,22 @@ MonoBehaviour:
     reverseTopTextIfNoItem: 
     changeLifePointsIfNoItem: 0
   rightCard:
-    messageText: 3_GuardsGoBazar_cardRight
-    illustrationSprite: {fileID: 0}
-    animator: {fileID: 0}
-    animationClip: {fileID: 0}
+    messageText: 3_StealAppleQ_cardRight
+    illustrationSprite: {fileID: 21300000, guid: 0d38550f1ab6802478d5d50b01b3a758, type: 3}
+    animator: {fileID: 9100000, guid: a70de2b8e03ccd14ba861ac2b247dd17, type: 2}
+    animationClip: {fileID: 7400000, guid: 8dca9e793794260469e273157ac22364, type: 2}
     itemSprite: {fileID: 0}
     requiredItemSprite: {fileID: 0}
     removeItemSprite: 0
-    changeBanner: 0
-    locationSprite: {fileID: 21300000, guid: b3b508e6bb0e5ac44b70fa291fa441e7, type: 3}
+    changeBanner: 1
+    locationSprite: {fileID: 0}
     nextSetIfItem: {fileID: 11400000, guid: 62025905fae674749a2d84268f4f6c78, type: 2}
     nextSetIfNoItem: {fileID: 0}
     isWinIfItem: 0
     winContentIfItem: []
     reverseSpriteIfItem: {fileID: 0}
     reverseAudioClipItem: {fileID: 0}
-    reverseTopTextIfItem: 3_GuardsGoBazar_cardRight_REV
+    reverseTopTextIfItem: 3_StealAppleQ_cardRight_REV
     changeLifePointsIfItem: 0
     isWinIfNoItem: 0
     winContentIfNoItem: []

@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c8636afbb060c9543bb985dfc1b704ad, type: 3}
-  m_Name: 4_WomanGive
+  m_Name: 4_OldWomanGiveApple
   m_EditorClassIdentifier: 
-  portrait: {fileID: 21300000, guid: 1e43d964fee456c42aa0caf1e34260cd, type: 3}
-  bannerAnimator: {fileID: 0}
-  animationClip: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 26296715dd7f14641bd39874bce72f45, type: 3}
+  bannerAnimator: {fileID: 9100000, guid: d4b6ced14c51bcf44950d1fc3dd898a0, type: 2}
+  animationClip: {fileID: 7400000, guid: 1fe53ab936cc32f448eb0b3e09fe6028, type: 2}
   bannerSound: {fileID: 0}
   bannerText: 4_WomanGive_bunner
   checkPoint: 0

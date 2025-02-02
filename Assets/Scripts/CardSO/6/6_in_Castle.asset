@@ -20,15 +20,15 @@ MonoBehaviour:
   checkPoint: 0
   leftCard:
     messageText: 6_in_Castle_cardLeft
-    illustrationSprite: {fileID: 21300000, guid: 103e48c1276507d4db598e0bc9c93daa, type: 3}
-    animator: {fileID: 9100000, guid: 443731da750020044b2c1478522ebd84, type: 2}
-    animationClip: {fileID: 7400000, guid: 3f30bb1b9d4fbfe459f29f1ad7741892, type: 2}
+    illustrationSprite: {fileID: 21300000, guid: 42141b331d0f8a84b97ad2f589ec3926, type: 3}
+    animator: {fileID: 0}
+    animationClip: {fileID: 0}
     itemSprite: {fileID: 0}
     requiredItemSprite: {fileID: 0}
     removeItemSprite: 0
     changeBanner: 1
-    locationSprite: {fileID: 0}
-    nextSetIfItem: {fileID: 11400000, guid: 77e3b6895ff6f5940b9f84b0d43b8ef2, type: 2}
+    locationSprite: {fileID: 21300000, guid: 834e790034b02c24ebc9e11d4a07dc97, type: 3}
+    nextSetIfItem: {fileID: 11400000, guid: 36ec482e521a14047ac7e0366c291f1c, type: 2}
     nextSetIfNoItem: {fileID: 0}
     isWinIfItem: 0
     winContentIfItem:

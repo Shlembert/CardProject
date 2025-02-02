@@ -37,6 +37,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0714b668cf794cd48bfb7dd05eddafa5
+    m_Address: 3_StealAppleQ
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 0dfb13049c9a6674789c01d10dbc0f87
     m_Address: NoKornItem
     m_ReadOnly: 0
@@ -94,11 +99,6 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 284df8acc7e0b73439f30e8df01bcde5
     m_Address: 3_GuardSlamDoor
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 2bdd5d266eecbea4d9417fb538b81c9d
-    m_Address: MinusHeart
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -302,8 +302,8 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 71faa5f8e1534a2429d980ccdb549617
-    m_Address: 5_1_StealAppleQ
+  - m_GUID: 7114f04f91f9fe5469af99c31cad7a90
+    m_Address: Bless
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -319,11 +319,6 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 7415ab90aa759044ebc6cba2fb931d35
     m_Address: 13_Items
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 75f234c7afda2054994f99f7e955e131
-    m_Address: 3_GuardsGoBazar
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -379,7 +374,7 @@ MonoBehaviour:
     - default
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 92980bbab46386e4dba3b7a2db8a784d
-    m_Address: 4_WomanGive
+    m_Address: 4_OldWomanGiveApple
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -493,11 +488,6 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: cf7b3bd8da0d4c343b8ffef6275ad69b
-    m_Address: 3_KudaGo
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: cfeb68ea52faf9941935375f8de7b366
     m_Address: CastleGate
     m_ReadOnly: 0
@@ -540,6 +530,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: e32821e2238411547a798ce4bda66d8e
     m_Address: KingGuard_old_&_yang
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e3b5a8178011df249b991e74becccdc6
+    m_Address: PlatokInv
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -645,6 +640,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: fd73487140d5dc446af458b889e54904
     m_Address: 5_2_GuardsTellStory
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fe6e627d60629c74ca6e21736aa08788
+    m_Address: 4_SneakOnGuards
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0

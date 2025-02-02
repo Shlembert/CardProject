@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8636afbb060c9543bb985dfc1b704ad, type: 3}
   m_Name: 6_KingsPlace
   m_EditorClassIdentifier: 
-  portrait: {fileID: 21300000, guid: aad6211d322438e478d9e33f4f6b09ae, type: 3}
-  bannerAnimator: {fileID: 0}
-  animationClip: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 1d6760ebe13ac11469cd97f6f3dc2a57, type: 3}
+  bannerAnimator: {fileID: 9100000, guid: 245642ce0637bff41bc10eb3ea525361, type: 2}
+  animationClip: {fileID: 7400000, guid: 9198a263b0c03be4e82bc309b41519d2, type: 2}
   bannerSound: {fileID: 8300000, guid: f28846e54974e094b8e94c9baa47d443, type: 3}
   bannerText: 6_KingsPlace_bunner
   checkPoint: 0
