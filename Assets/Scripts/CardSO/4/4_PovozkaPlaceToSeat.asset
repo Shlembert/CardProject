@@ -17,7 +17,7 @@ MonoBehaviour:
   animationClip: {fileID: 7400000, guid: 3f30bb1b9d4fbfe459f29f1ad7741892, type: 2}
   bannerSound: {fileID: 0}
   bannerText: 4_PovozkaPlaceToSeat_bunner
-  checkPoint: 0
+  checkPoint: 1
   leftCard:
     messageText: 4_PovozkaPlaceToSeat_cardLeft
     illustrationSprite: {fileID: 21300000, guid: 7f60b426711fdca4ba10cdb8b1f10ad7, type: 3}

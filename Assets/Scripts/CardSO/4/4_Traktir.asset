@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8636afbb060c9543bb985dfc1b704ad, type: 3}
   m_Name: 4_Traktir
   m_EditorClassIdentifier: 
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 2e894f43b89f6dc4393c3d3692c983a6, type: 3}
   bannerAnimator: {fileID: 0}
   animationClip: {fileID: 0}
   bannerSound: {fileID: 0}
@@ -44,9 +44,9 @@ MonoBehaviour:
     changeLifePointsIfNoItem: 0
   rightCard:
     messageText: 4_Traktir_cardRight
-    illustrationSprite: {fileID: 0}
-    animator: {fileID: 0}
-    animationClip: {fileID: 0}
+    illustrationSprite: {fileID: 21300000, guid: 0d38550f1ab6802478d5d50b01b3a758, type: 3}
+    animator: {fileID: 9100000, guid: a70de2b8e03ccd14ba861ac2b247dd17, type: 2}
+    animationClip: {fileID: 7400000, guid: 8dca9e793794260469e273157ac22364, type: 2}
     itemSprite: {fileID: 0}
     requiredItemSprite: {fileID: 0}
     removeItemSprite: 0

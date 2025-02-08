@@ -17,12 +17,12 @@ MonoBehaviour:
   animationClip: {fileID: 0}
   bannerSound: {fileID: 0}
   bannerText: 10_GO_WAY_HOW_1_bunner
-  checkPoint: 0
+  checkPoint: 1
   leftCard:
     messageText: 10_GO_WAY_HOW_1_cardLeft
-    illustrationSprite: {fileID: 21300000, guid: 0435bd882f63244488a751bd28309c9c, type: 3}
-    animator: {fileID: 0}
-    animationClip: {fileID: 0}
+    illustrationSprite: {fileID: 21300000, guid: c03dd164143b23b49a867b96bbc40f29, type: 3}
+    animator: {fileID: 9100000, guid: bdf1b1e94f4a19043a39e578e7ee8c13, type: 2}
+    animationClip: {fileID: 7400000, guid: a4ac8095c1d8ea74894aac42e60d425a, type: 2}
     itemSprite: {fileID: 0}
     requiredItemSprite: {fileID: 0}
     removeItemSprite: 0

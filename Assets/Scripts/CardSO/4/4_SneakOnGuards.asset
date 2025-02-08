@@ -26,8 +26,8 @@ MonoBehaviour:
     itemSprite: {fileID: 0}
     requiredItemSprite: {fileID: 0}
     removeItemSprite: 0
-    changeBanner: 0
-    locationSprite: {fileID: 0}
+    changeBanner: 1
+    locationSprite: {fileID: 21300000, guid: fb01f945b09d07547b43a49371531617, type: 3}
     nextSetIfItem: {fileID: 11400000, guid: ee584dca9c024f948afa3d15c23a1e7f, type: 2}
     nextSetIfNoItem: {fileID: 0}
     isWinIfItem: 0

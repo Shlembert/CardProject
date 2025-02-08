@@ -27,6 +27,16 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 00a64c89db1db7d4db9057fe427dd4c8
+    m_Address: EmptyLawn
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 058082fc97d0cb04d8de9765e7e953be
+    m_Address: 6_GuardsSeekinU2
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 05b46834716edf74c9312fa1777ab84b
     m_Address: AltarRoomCastle
     m_ReadOnly: 0
@@ -67,6 +77,16 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 144966e99a3c3a14b86467fe08f359a1
+    m_Address: SaltMeat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1493d42ea14beec4db45079c36b5dc9c
+    m_Address: OLDWar
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 1c7bc24263b38ae418b3c94ba04ef1fc
     m_Address: "Forest\u0421ompletelyDark"
     m_ReadOnly: 0
@@ -104,6 +124,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 2c676d6df64219f4eb130d46ed316fbd
     m_Address: 16_Camping_W_OldMan
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 30e352670be991240b1214de2bc51ac5
+    m_Address: 5_1_RunHarbor
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -172,6 +197,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 447202d4efc32c642be4d1847ed1b1cc
+    m_Address: 6_GuardsSeekinU
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 45679513fcb06b347a3687d64c8a03d6
     m_Address: "Forest\u0421ompletelyDark2"
     m_ReadOnly: 0
@@ -232,6 +262,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 564fbb7a13661564eb2465969da24588
+    m_Address: Harbor
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 58f23042658130540ab0b31c6f41fe1a
     m_Address: 6_KingsPlace2
     m_ReadOnly: 0
@@ -249,6 +284,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 5998c1d2ef75a0d468bcc09dd2c39c54
     m_Address: 18_Morning_OldMan
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 59d2d4bb5a7f50447a0136b14aa353a9
+    m_Address: Traktir
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -294,6 +334,21 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 68236e48266d8f94f8006bf32b10680c
     m_Address: 4_TiedUp
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6ae74f89e5006914ca5e67fb16c9b582
+    m_Address: WoHorses
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6dab975664b734845ba90ed79351f160
+    m_Address: DeadFish
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 70428bea14f053e4caff68dca670894f
+    m_Address: 6_1_BoatCheck
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -349,6 +404,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 7fdf47c16bc92de46a750ae5ecd5c678
     m_Address: 15_NO_OldMan
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8153d05e4a79d104d9cddedd0f7d6791
+    m_Address: SailorUniform
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -453,6 +513,16 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bd58e1126ba93f942840c15a62589daa
+    m_Address: 6_1_GreenCheese
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: be5e25c3da839c9488a9bd2bd76029ea
+    m_Address: 6_1_BoatCrush
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: be6b478ce069ede4f813e36fb0b5dc40
     m_Address: 10_HORSES_2B_1SAD
     m_ReadOnly: 0
@@ -478,6 +548,16 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c555ea478d6eac3499f1d9eb2871b842
+    m_Address: HorsesWorkHard
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c5ba98a259a655449911c157791ac119
+    m_Address: CratchHand
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: c6f78d8a9ab28ea42aa0588e928071d4
     m_Address: 18_CrazyHorses
     m_ReadOnly: 0
@@ -485,6 +565,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: cd0482e2c33407f409bda4cceddf7040
     m_Address: Kazarm
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cf05b3622f13d194ba37063adeb20374
+    m_Address: Ramsey
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -540,6 +625,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: e40860c4774086e4c9d6ed99e3b2d6fc
     m_Address: YardHorseGuard
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e4c8367392ccb2049af70a4445e057d8
+    m_Address: GoForward
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -613,8 +703,13 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f7cc7da663419b844b2961016b89467c
+    m_Address: HorsesRest
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: faf81b6d8968a654aa4a30ae95168bc5
-    m_Address: 17
+    m_Address: 17X
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0

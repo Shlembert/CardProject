@@ -10,31 +10,31 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c8636afbb060c9543bb985dfc1b704ad, type: 3}
-  m_Name: 4_SpyOnGuardsSafe
+  m_Name: 6_GuardsSeekinU2
   m_EditorClassIdentifier: 
-  portrait: {fileID: 21300000, guid: 103e48c1276507d4db598e0bc9c93daa, type: 3}
+  portrait: {fileID: 21300000, guid: 197dd67124b07df43a9a84d23debca95, type: 3}
   bannerAnimator: {fileID: 9100000, guid: 443731da750020044b2c1478522ebd84, type: 2}
   animationClip: {fileID: 7400000, guid: 3f30bb1b9d4fbfe459f29f1ad7741892, type: 2}
   bannerSound: {fileID: 0}
-  bannerText: 4_SpyOnGuardsSafe_bunner
+  bannerText: 6_GuardsSeekinU2_bunner
   checkPoint: 0
   leftCard:
-    messageText: 4_SpyOnGuardsSafe_cardLeft
-    illustrationSprite: {fileID: 21300000, guid: 0b0c1132bbe52ec47ae4150861e05f97, type: 3}
+    messageText: 6_GuardsSeekinU2_cardLeft
+    illustrationSprite: {fileID: 21300000, guid: 344f85ed6d881c340ac62b45065f59cf, type: 3}
     animator: {fileID: 0}
     animationClip: {fileID: 0}
-    itemSprite: {fileID: 21300000, guid: e3b5a8178011df249b991e74becccdc6, type: 3}
+    itemSprite: {fileID: 21300000, guid: 6dab975664b734845ba90ed79351f160, type: 3}
     requiredItemSprite: {fileID: 0}
     removeItemSprite: 0
-    changeBanner: 0
-    locationSprite: {fileID: 0}
-    nextSetIfItem: {fileID: 11400000, guid: fe6e627d60629c74ca6e21736aa08788, type: 2}
+    changeBanner: 1
+    locationSprite: {fileID: 21300000, guid: 834e790034b02c24ebc9e11d4a07dc97, type: 3}
+    nextSetIfItem: {fileID: 11400000, guid: 36ec482e521a14047ac7e0366c291f1c, type: 2}
     nextSetIfNoItem: {fileID: 0}
     isWinIfItem: 0
     winContentIfItem: []
-    reverseSpriteIfItem: {fileID: 21300000, guid: 23c7efe0095ecf24ba3b668c75e709c4, type: 3}
+    reverseSpriteIfItem: {fileID: 21300000, guid: 6dab975664b734845ba90ed79351f160, type: 3}
     reverseAudioClipItem: {fileID: 0}
-    reverseTopTextIfItem: 4_SpyOnGuardsSafe_cardLeft_REV
+    reverseTopTextIfItem: 6_GuardsSeekinU2_cardLeft_REV
     changeLifePointsIfItem: 0
     isWinIfNoItem: 0
     winContentIfNoItem: []
@@ -43,22 +43,22 @@ MonoBehaviour:
     reverseTopTextIfNoItem: 
     changeLifePointsIfNoItem: 0
   rightCard:
-    messageText: 4_SpyOnGuardsSafe_cardRight
-    illustrationSprite: {fileID: 21300000, guid: c2aade7a07f3b704b80169c42ed9fe94, type: 3}
-    animator: {fileID: 9100000, guid: 20f911e13bfbdfc46827c89aea61e1a9, type: 2}
-    animationClip: {fileID: 7400000, guid: 7d90cf10767b0714a988c839a8e8c142, type: 2}
+    messageText: 6_GuardsSeekinU2_cardRight
+    illustrationSprite: {fileID: 21300000, guid: 0bfc16e48ad22c24597d10cb44380fa2, type: 3}
+    animator: {fileID: 0}
+    animationClip: {fileID: 0}
     itemSprite: {fileID: 0}
     requiredItemSprite: {fileID: 0}
     removeItemSprite: 0
     changeBanner: 1
-    locationSprite: {fileID: 0}
-    nextSetIfItem: {fileID: 11400000, guid: a64ca44ae06b9d84087d7c618bf10924, type: 2}
+    locationSprite: {fileID: 21300000, guid: c40a7060c793be44ab859909a8793ac0, type: 3}
+    nextSetIfItem: {fileID: 11400000, guid: a6200f021d352df4fbc8405014a63c45, type: 2}
     nextSetIfNoItem: {fileID: 0}
     isWinIfItem: 0
     winContentIfItem: []
-    reverseSpriteIfItem: {fileID: 21300000, guid: 8d6a2d0138261ba438b75de9769b7b34, type: 3}
+    reverseSpriteIfItem: {fileID: 21300000, guid: b836e62f218263b4e957a59ae8f14d68, type: 3}
     reverseAudioClipItem: {fileID: 0}
-    reverseTopTextIfItem: 4_SpyOnGuardsSafe_cardRight_REV
+    reverseTopTextIfItem: 6_GuardsSeekinU2_cardRight_REV
     changeLifePointsIfItem: 0
     isWinIfNoItem: 0
     winContentIfNoItem: []
