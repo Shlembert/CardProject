@@ -1,6 +1,6 @@
+using Cysharp.Threading.Tasks;
 using DG.Tweening;
 using System.Collections.Generic;
-using System.Threading.Tasks;
 using UnityEngine;
 using UnityEngine.AddressableAssets;
 using UnityEngine.EventSystems;
@@ -64,7 +64,7 @@ public class LoadButton : MonoBehaviour, IPointerEnterHandler, IPointerExitHandl
         inventoryController.LoadInventorySprites(items);
     }
 
-    public async Task<CardSetScriptableObject> LoadCardSetAsync(GameData gameData)
+    public async UniTask<CardSetScriptableObject> LoadCardSetAsync(GameData gameData)
     {
         // Предположим, что в gameData есть свойство CardSet, которое является AssetReference
         var handle = gameData.CardSet.LoadAssetAsync<CardSetScriptableObject>();
@@ -83,7 +83,7 @@ public class LoadButton : MonoBehaviour, IPointerEnterHandler, IPointerExitHandl
         }
     }
 
-    public async Task<Sprite> LoadLocationSpriteAsync(GameData gameData)
+    public async UniTask<Sprite> LoadLocationSpriteAsync(GameData gameData)
     {
         // Предположим, что в gameData есть свойство Location, которое является AssetReferenceSprite
         var handle = gameData.Location.LoadAssetAsync<Sprite>();
