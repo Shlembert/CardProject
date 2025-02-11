@@ -58,7 +58,7 @@ public class LoadButton : MonoBehaviour, IPointerEnterHandler, IPointerExitHandl
             {
                 Debug.LogError($"Не удалось загрузить спрайт по адресу: {itemAddress}");
             }
-            Addressables.Release(handle);
+           // Addressables.Release(handle);
         }
         // Теперь передаем загруженные спрайты в контроллер инвентаря
         inventoryController.LoadInventorySprites(items);
@@ -73,7 +73,7 @@ public class LoadButton : MonoBehaviour, IPointerEnterHandler, IPointerExitHandl
         if (handle.Status == AsyncOperationStatus.Succeeded)
         {
             CardSetScriptableObject cardSet = handle.Result;
-            Addressables.Release(handle);
+           // Addressables.Release(handle);
             return cardSet; // Возвращаем загруженный ScriptableObject
         }
         else
@@ -92,7 +92,7 @@ public class LoadButton : MonoBehaviour, IPointerEnterHandler, IPointerExitHandl
         if (handle.Status == AsyncOperationStatus.Succeeded)
         {
             Sprite sprite = handle.Result;
-            Addressables.Release(handle);
+           // Addressables.Release(handle);
             return sprite; // Возвращаем загруженный спрайт
         }
         else
@@ -130,9 +130,10 @@ public class LoadButton : MonoBehaviour, IPointerEnterHandler, IPointerExitHandl
             bG.sprite = await LoadLocationSpriteAsync(gameData);
 
             gameController.GameLoad();
-            _isClick = false;
+
             await bannerAnimation.ShowBanner();
             await cardAnimation.ShowCards();
         }
+        _isClick = false;
     }
 }
