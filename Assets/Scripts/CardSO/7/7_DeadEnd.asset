@@ -27,7 +27,7 @@ MonoBehaviour:
     requiredItemSprite: {fileID: 0}
     removeItemSprite: 0
     changeBanner: 1
-    locationSprite: {fileID: 0}
+    locationSprite: {fileID: 21300000, guid: 58f338167f704824b91a444162d32a33, type: 3}
     nextSetIfItem: {fileID: 11400000, guid: 446a6cde43ff49147af3e1b63df4ecd8, type: 2}
     nextSetIfNoItem: {fileID: 0}
     isWinIfItem: 0
@@ -44,9 +44,9 @@ MonoBehaviour:
     changeLifePointsIfNoItem: 0
   rightCard:
     messageText: 7_DeadEnd_cardRight
-    illustrationSprite: {fileID: 21300000, guid: 7576f519592876349b028aff0d9823d2, type: 3}
-    animator: {fileID: 9100000, guid: f600af1c09498974f8c06ca1d8a7fae4, type: 2}
-    animationClip: {fileID: 7400000, guid: 34725ddacd0992442b64dcca9de9b4b0, type: 2}
+    illustrationSprite: {fileID: 21300000, guid: be6c13e0464568b46bd567767026a2d7, type: 3}
+    animator: {fileID: 9100000, guid: c4f1b35d135a5054da744af557b758f0, type: 2}
+    animationClip: {fileID: 7400000, guid: 1138f9b2c2d79d946a02fc55e225fadc, type: 2}
     itemSprite: {fileID: 0}
     requiredItemSprite: {fileID: 0}
     removeItemSprite: 0

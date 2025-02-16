@@ -177,6 +177,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3fc72c302b77cb447b77d8cc5cf139ba
+    m_Address: DeadEdnTwoWays
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 42a243cd2bbf85f42a0162ef0fd74609
     m_Address: 17_YoungWatchmen
     m_ReadOnly: 0
@@ -208,7 +213,7 @@ MonoBehaviour:
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 48b4fac664dc8fe41a1e63f728a85d6e
-    m_Address: 5_InnkeeperTalk
+    m_Address: 5_Go4Princess
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -620,11 +625,6 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: e3b5a8178011df249b991e74becccdc6
     m_Address: PlatokInv
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: e40860c4774086e4c9d6ed99e3b2d6fc
-    m_Address: YardHorseGuard
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0

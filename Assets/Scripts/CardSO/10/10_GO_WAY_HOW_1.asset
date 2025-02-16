@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8636afbb060c9543bb985dfc1b704ad, type: 3}
   m_Name: 10_GO_WAY_HOW_1
   m_EditorClassIdentifier: 
-  portrait: {fileID: 21300000, guid: 103e48c1276507d4db598e0bc9c93daa, type: 3}
-  bannerAnimator: {fileID: 0}
-  animationClip: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 197dd67124b07df43a9a84d23debca95, type: 3}
+  bannerAnimator: {fileID: 9100000, guid: 443731da750020044b2c1478522ebd84, type: 2}
+  animationClip: {fileID: 7400000, guid: 3f30bb1b9d4fbfe459f29f1ad7741892, type: 2}
   bannerSound: {fileID: 0}
   bannerText: 10_GO_WAY_HOW_1_bunner
   checkPoint: 1
@@ -51,7 +51,7 @@ MonoBehaviour:
     requiredItemSprite: {fileID: 21300000, guid: 5517ac6f8f20c1440bcb354a7835d8fc, type: 3}
     removeItemSprite: 0
     changeBanner: 1
-    locationSprite: {fileID: 21300000, guid: c40a7060c793be44ab859909a8793ac0, type: 3}
+    locationSprite: {fileID: 21300000, guid: bfda25037043650409951ac81830f4eb, type: 3}
     nextSetIfItem: {fileID: 11400000, guid: 26eba1feaf30ed442b390559a9fa03b8, type: 2}
     nextSetIfNoItem: {fileID: 11400000, guid: 72fdfe391bd70cb43a777a698d9a350b, type: 2}
     isWinIfItem: 0

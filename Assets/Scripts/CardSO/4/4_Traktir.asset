@@ -20,19 +20,19 @@ MonoBehaviour:
   checkPoint: 0
   leftCard:
     messageText: 4_Traktir_cardLeft
-    illustrationSprite: {fileID: 21300000, guid: b64856a9d5a38b74ca30413b34ecaa05, type: 3}
-    animator: {fileID: 9100000, guid: f600af1c09498974f8c06ca1d8a7fae4, type: 2}
-    animationClip: {fileID: 7400000, guid: 34725ddacd0992442b64dcca9de9b4b0, type: 2}
+    illustrationSprite: {fileID: 21300000, guid: 162285300da328a42857955a1ae90d94, type: 3}
+    animator: {fileID: 0}
+    animationClip: {fileID: 0}
     itemSprite: {fileID: 0}
     requiredItemSprite: {fileID: 0}
     removeItemSprite: 0
-    changeBanner: 0
+    changeBanner: 1
     locationSprite: {fileID: 0}
     nextSetIfItem: {fileID: 11400000, guid: 48b4fac664dc8fe41a1e63f728a85d6e, type: 2}
     nextSetIfNoItem: {fileID: 0}
     isWinIfItem: 0
     winContentIfItem: []
-    reverseSpriteIfItem: {fileID: 0}
+    reverseSpriteIfItem: {fileID: 21300000, guid: f9af4b098af50e042a863c5b4ee2415f, type: 3}
     reverseAudioClipItem: {fileID: 0}
     reverseTopTextIfItem: 4_Traktir_cardLeft_REV
     changeLifePointsIfItem: 0
@@ -51,12 +51,12 @@ MonoBehaviour:
     requiredItemSprite: {fileID: 0}
     removeItemSprite: 0
     changeBanner: 1
-    locationSprite: {fileID: 0}
-    nextSetIfItem: {fileID: 11400000, guid: 92f33e50c6a9dfa41b83835b91648dc1, type: 2}
+    locationSprite: {fileID: 21300000, guid: 430a2eedccf4abe46b9ab99bb6e679e5, type: 3}
+    nextSetIfItem: {fileID: 11400000, guid: a6200f021d352df4fbc8405014a63c45, type: 2}
     nextSetIfNoItem: {fileID: 0}
     isWinIfItem: 0
     winContentIfItem: []
-    reverseSpriteIfItem: {fileID: 0}
+    reverseSpriteIfItem: {fileID: 21300000, guid: 184f121fd3272854c94c227f17979429, type: 3}
     reverseAudioClipItem: {fileID: 0}
     reverseTopTextIfItem: 4_Traktir_cardRight_REV
     changeLifePointsIfItem: 0

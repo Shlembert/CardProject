@@ -32,7 +32,7 @@ MonoBehaviour:
     nextSetIfNoItem: {fileID: 0}
     isWinIfItem: 0
     winContentIfItem: []
-    reverseSpriteIfItem: {fileID: 21300000, guid: 0df8ff05e402190458aca0c34c9be914, type: 3}
+    reverseSpriteIfItem: {fileID: 21300000, guid: 2a9b19aef1f8db340b26171f6070cfb6, type: 3}
     reverseAudioClipItem: {fileID: 8300000, guid: 5be5dc475b4e5164dad12de2611d92de, type: 3}
     reverseTopTextIfItem: 2_KingGuardOnDoor_cardLeft_REV
     changeLifePointsIfItem: 0
@@ -44,9 +44,9 @@ MonoBehaviour:
     changeLifePointsIfNoItem: 0
   rightCard:
     messageText: 2_KingGuardOnDoor_cardRight
-    illustrationSprite: {fileID: 21300000, guid: 0d38550f1ab6802478d5d50b01b3a758, type: 3}
-    animator: {fileID: 9100000, guid: a70de2b8e03ccd14ba861ac2b247dd17, type: 2}
-    animationClip: {fileID: 7400000, guid: 8dca9e793794260469e273157ac22364, type: 2}
+    illustrationSprite: {fileID: 21300000, guid: c2aade7a07f3b704b80169c42ed9fe94, type: 3}
+    animator: {fileID: 9100000, guid: 20f911e13bfbdfc46827c89aea61e1a9, type: 2}
+    animationClip: {fileID: 7400000, guid: 7d90cf10767b0714a988c839a8e8c142, type: 2}
     itemSprite: {fileID: 0}
     requiredItemSprite: {fileID: 0}
     removeItemSprite: 0

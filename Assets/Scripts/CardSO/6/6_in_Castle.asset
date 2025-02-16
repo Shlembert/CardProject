@@ -54,14 +54,14 @@ MonoBehaviour:
     changeLifePointsIfNoItem: 0
   rightCard:
     messageText: 6_in_Castle_cardRight
-    illustrationSprite: {fileID: 21300000, guid: 0b0c1132bbe52ec47ae4150861e05f97, type: 3}
-    animator: {fileID: 0}
-    animationClip: {fileID: 0}
+    illustrationSprite: {fileID: 21300000, guid: 7ba94df903b714144a1acb03344782b7, type: 3}
+    animator: {fileID: 9100000, guid: 3e9a83a18367e084da8b29e9b0055e1e, type: 2}
+    animationClip: {fileID: 7400000, guid: 2fc9d3da6df107a4e9f99b7a6ff0934b, type: 2}
     itemSprite: {fileID: 0}
     requiredItemSprite: {fileID: 0}
     removeItemSprite: 0
     changeBanner: 0
-    locationSprite: {fileID: 21300000, guid: fb01f945b09d07547b43a49371531617, type: 3}
+    locationSprite: {fileID: 0}
     nextSetIfItem: {fileID: 11400000, guid: fba577c078b361f44bab5ae342b92477, type: 2}
     nextSetIfNoItem: {fileID: 0}
     isWinIfItem: 0

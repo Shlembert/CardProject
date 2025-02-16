@@ -20,9 +20,9 @@ MonoBehaviour:
   checkPoint: 0
   leftCard:
     messageText: 17_OldMan_NightCamp_cardLeft
-    illustrationSprite: {fileID: 21300000, guid: 3dd4b02427b580e49ad1aa75fcfe213d, type: 3}
-    animator: {fileID: 0}
-    animationClip: {fileID: 0}
+    illustrationSprite: {fileID: 21300000, guid: 97b8a77591003bc469e5ac1107574046, type: 3}
+    animator: {fileID: 9100000, guid: 7a4932bd4fe1ed8418ee1ed98dd833b4, type: 2}
+    animationClip: {fileID: 7400000, guid: a163239493ea9b5468a386562fc00942, type: 2}
     itemSprite: {fileID: 0}
     requiredItemSprite: {fileID: 0}
     removeItemSprite: 0
@@ -36,7 +36,7 @@ MonoBehaviour:
       Message: 18_Breakfast_win_1
     - Sprite: {fileID: 21300000, guid: cf05b3622f13d194ba37063adeb20374, type: 3}
       Message: WinAddToWishlist_toAll
-    reverseSpriteIfItem: {fileID: 21300000, guid: cf05b3622f13d194ba37063adeb20374, type: 3}
+    reverseSpriteIfItem: {fileID: 21300000, guid: 8cae47ce39b9ba14892a9f8677c4e344, type: 3}
     reverseAudioClipItem: {fileID: 0}
     reverseTopTextIfItem: 17_OldMan_NightCamp_cardLeft_REV
     changeLifePointsIfItem: -1
@@ -48,9 +48,9 @@ MonoBehaviour:
     changeLifePointsIfNoItem: 0
   rightCard:
     messageText: 17_OldMan_NightCamp_cardRight
-    illustrationSprite: {fileID: 21300000, guid: fde4a3f971191b743aee56b7745fc124, type: 3}
-    animator: {fileID: 0}
-    animationClip: {fileID: 0}
+    illustrationSprite: {fileID: 21300000, guid: b633573cd0621d445a3574a12ee7e975, type: 3}
+    animator: {fileID: 9100000, guid: 9d19527a2dd65e14f90fce8e138cfad6, type: 2}
+    animationClip: {fileID: 7400000, guid: 32049859fc4fd8f4892dc4d4294a5bcb, type: 2}
     itemSprite: {fileID: 0}
     requiredItemSprite: {fileID: 0}
     removeItemSprite: 0

@@ -20,9 +20,9 @@ MonoBehaviour:
   checkPoint: 0
   leftCard:
     messageText: 18_Lesavki_cardLeft
-    illustrationSprite: {fileID: 21300000, guid: e62cbea81296ad5418c90a55bada284a, type: 3}
-    animator: {fileID: 0}
-    animationClip: {fileID: 0}
+    illustrationSprite: {fileID: 21300000, guid: 0d38550f1ab6802478d5d50b01b3a758, type: 3}
+    animator: {fileID: 9100000, guid: a70de2b8e03ccd14ba861ac2b247dd17, type: 2}
+    animationClip: {fileID: 7400000, guid: 8dca9e793794260469e273157ac22364, type: 2}
     itemSprite: {fileID: 0}
     requiredItemSprite: {fileID: 0}
     removeItemSprite: 0
@@ -48,7 +48,7 @@ MonoBehaviour:
     changeLifePointsIfNoItem: 0
   rightCard:
     messageText: 18_Lesavki_cardRight
-    illustrationSprite: {fileID: 21300000, guid: 9c9fea03a91cae04a89deb800210db47, type: 3}
+    illustrationSprite: {fileID: 21300000, guid: 258bec19280508d459d65a7aab3fa43c, type: 3}
     animator: {fileID: 0}
     animationClip: {fileID: 0}
     itemSprite: {fileID: 0}
