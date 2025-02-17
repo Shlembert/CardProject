@@ -3,6 +3,7 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "NewCardSet", menuName = "Card Game/Card Set")]
 public class CardSetScriptableObject : ScriptableObject
 {
+    public Sprite location; // Локация для сета
     public Sprite portrait; // Портрет для сета
     public RuntimeAnimatorController bannerAnimator; // Аниматор баннера
     public AnimationClip animationClip; // Анимация для баннера

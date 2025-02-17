@@ -458,7 +458,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   contentCard: {fileID: 991657348}
-  bG: {fileID: 1190085053}
   cardAnimation: {fileID: 991657347}
   soundController: {fileID: 791171146}
   bannerAnimation: {fileID: 1356118122}
@@ -2919,7 +2918,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   contentCard: {fileID: 991657348}
-  bG: {fileID: 1190085053}
   cardAnimation: {fileID: 991657347}
   soundController: {fileID: 791171146}
   bannerAnimation: {fileID: 1356118122}
@@ -3451,7 +3449,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   contentCard: {fileID: 991657348}
-  bG: {fileID: 1190085053}
   cardAnimation: {fileID: 991657347}
   soundController: {fileID: 791171146}
   bannerAnimation: {fileID: 1356118122}
@@ -3967,7 +3964,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   contentCard: {fileID: 991657348}
-  bG: {fileID: 1190085053}
   cardAnimation: {fileID: 991657347}
   soundController: {fileID: 791171146}
   bannerAnimation: {fileID: 1356118122}
@@ -6870,7 +6866,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   contentCard: {fileID: 991657348}
-  bG: {fileID: 1190085053}
   cardAnimation: {fileID: 991657347}
   soundController: {fileID: 791171146}
   bannerAnimation: {fileID: 1356118122}
@@ -7079,7 +7074,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   contentCard: {fileID: 991657348}
-  bG: {fileID: 1190085053}
   cardAnimation: {fileID: 991657347}
   soundController: {fileID: 791171146}
   bannerAnimation: {fileID: 1356118122}
@@ -10890,7 +10884,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   contentCard: {fileID: 991657348}
-  bG: {fileID: 1190085053}
   cardAnimation: {fileID: 991657347}
   soundController: {fileID: 791171146}
   bannerAnimation: {fileID: 1356118122}
@@ -13349,7 +13342,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   contentCard: {fileID: 991657348}
-  bG: {fileID: 1190085053}
   cardAnimation: {fileID: 991657347}
   bannerAnimation: {fileID: 1356118122}
   gameController: {fileID: 1825275744}
@@ -15772,7 +15764,7 @@ MonoBehaviour:
   illustrationSprite_L: {fileID: 1920511661}
   illustrationSprite_R: {fileID: 1280449568}
   reverseSprite: {fileID: 1272916503}
-  locationSprite: {fileID: 1190085053}
+  locationImage: {fileID: 1190085053}
   bannerLoc: {fileID: 176872748}
   reverseLoc: {fileID: 784295107}
   cardLoc_L: {fileID: 419604375}
@@ -20358,7 +20350,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   contentCard: {fileID: 991657348}
-  bG: {fileID: 1190085053}
   cardAnimation: {fileID: 991657347}
   soundController: {fileID: 791171146}
   bannerAnimation: {fileID: 1356118122}
@@ -23264,7 +23255,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   contentCard: {fileID: 991657348}
-  bG: {fileID: 1190085053}
   cardAnimation: {fileID: 991657347}
   soundController: {fileID: 791171146}
   bannerAnimation: {fileID: 1356118122}
@@ -23808,7 +23798,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   contentCard: {fileID: 991657348}
-  bG: {fileID: 1190085053}
   cardAnimation: {fileID: 991657347}
   soundController: {fileID: 791171146}
   bannerAnimation: {fileID: 1356118122}
@@ -24138,7 +24127,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   contentCard: {fileID: 991657348}
-  bG: {fileID: 1190085053}
   cardAnimation: {fileID: 991657347}
   soundController: {fileID: 791171146}
   bannerAnimation: {fileID: 1356118122}
@@ -25354,7 +25342,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   contentCard: {fileID: 991657348}
-  bG: {fileID: 1190085053}
   cardAnimation: {fileID: 991657347}
   soundController: {fileID: 791171146}
   bannerAnimation: {fileID: 1356118122}
@@ -26393,7 +26380,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   contentCard: {fileID: 991657348}
-  bG: {fileID: 1190085053}
   cardAnimation: {fileID: 991657347}
   soundController: {fileID: 791171146}
   bannerAnimation: {fileID: 1356118122}
@@ -27070,7 +27056,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   contentCard: {fileID: 991657348}
-  bG: {fileID: 1190085053}
   cardAnimation: {fileID: 991657347}
   soundController: {fileID: 791171146}
   bannerAnimation: {fileID: 1356118122}
@@ -27256,7 +27241,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   contentCard: {fileID: 991657348}
-  bG: {fileID: 1190085053}
   cardAnimation: {fileID: 991657347}
   soundController: {fileID: 791171146}
   bannerAnimation: {fileID: 1356118122}
@@ -29037,7 +29021,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   contentCard: {fileID: 991657348}
-  bG: {fileID: 1190085053}
   cardAnimation: {fileID: 991657347}
   soundController: {fileID: 791171146}
   bannerAnimation: {fileID: 1356118122}
@@ -29184,7 +29167,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   inventoryController: {fileID: 70427095}
   hpController: {fileID: 1650742178}
-  locationImage: {fileID: 1190085053}
 --- !u!114 &1825275748
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29258,7 +29240,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   contentCard: {fileID: 991657348}
-  bG: {fileID: 1190085053}
   cardAnimation: {fileID: 991657347}
   soundController: {fileID: 791171146}
   bannerAnimation: {fileID: 1356118122}
@@ -29859,7 +29840,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   contentCard: {fileID: 991657348}
-  bG: {fileID: 1190085053}
   cardAnimation: {fileID: 991657347}
   soundController: {fileID: 791171146}
   bannerAnimation: {fileID: 1356118122}
@@ -30664,7 +30644,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -123348010, y: 86183140}
+  m_AnchoredPosition: {x: -123786776, y: 86488940}
   m_SizeDelta: {x: 0, y: 300}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &2018445987
@@ -32053,7 +32033,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   contentCard: {fileID: 991657348}
-  bG: {fileID: 1190085053}
   cardAnimation: {fileID: 991657347}
   soundController: {fileID: 791171146}
   bannerAnimation: {fileID: 1356118122}
@@ -32753,7 +32732,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   contentCard: {fileID: 991657348}
-  bG: {fileID: 1190085053}
   cardAnimation: {fileID: 991657347}
   soundController: {fileID: 791171146}
   bannerAnimation: {fileID: 1356118122}

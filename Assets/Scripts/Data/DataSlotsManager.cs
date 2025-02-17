@@ -47,11 +47,6 @@ public class DataSlotsManager : MonoBehaviour
 
     public void ShowDialog()
     {
-        //dialoguePanel.DOScale(Vector3.one, 0.5f).SetEase(Ease.OutBack).OnComplete(() =>
-        //{
-        //    ButtonOn(true);
-        //});
-
         CreateSaveButton();
     }
 
@@ -66,7 +61,6 @@ public class DataSlotsManager : MonoBehaviour
         foreach (var button in Buttons)
         {
             button.enabled = on;
-           // button.GetComponent<ButtonAnimation>().enabled = on;
         }
     }
 
@@ -78,41 +72,32 @@ public class DataSlotsManager : MonoBehaviour
     // Создаем Слот сохранения
     public async void CreateSaveButton()
     {
-        //NoTextAnimation(inputField.text != "");
+        GameObject go = Instantiate(prefabSaveButton, contentParent);
+        SaveButton saveButton = go.GetComponent<SaveButton>();
+        buttons.Add(saveButton);
+        saveButton.NameSave.text = DateTime.Now.ToString("dd/MM/yyyy HH:mm");
+        string path = await CreateScreenshot();
 
-        //if (inputField.text != "")
-        //{
-            GameObject go = Instantiate(prefabSaveButton, contentParent);
-            SaveButton saveButton = go.GetComponent<SaveButton>();
-            buttons.Add(saveButton);
-            saveButton.NameSave.text = DateTime.Now.ToString("dd/MM/yyyy HH:mm");
-            saveButton.DataTime.text = DateTime.Now.ToString("dd/MM/yyyy HH:mm");
-            string path = await CreateScreenshot();
-            // Устанавливаем спрайт скриншота в Слот
-            saveButton.Image.sprite = await LoadScreenShot(path);
+        SaveButtonData saveButtonData = saveButton.SaveButtonData;
 
-            SaveButtonData saveButtonData = saveButton.SaveButtonData;
+        //saveButtonData.DataTime = saveButton.DataTime.text;
+        saveButtonData.Name = saveButton.NameSave.text;
+        saveButtonData.ScreenShotAddress = path;
+        await gameDataManager.SaveGameProgress(saveButton);
+        saveButtonData.GameData = saveButton.GameData;
 
-            saveButtonData.DataTime = saveButton.DataTime.text;
-            saveButtonData.Name = saveButton.NameSave.text;
-            saveButtonData.ScreenShotAddress = path;
-            await gameDataManager.SaveGameProgress(saveButton);
-            saveButtonData.GameData = saveButton.GameData;
-
-            go.SetActive(false);
-            dialoguePanel.DOScale(Vector3.zero, 0.5f).SetEase(Ease.InBack).OnComplete(() =>
+        go.SetActive(false);
+        dialoguePanel.DOScale(Vector3.zero, 0.5f).SetEase(Ease.InBack).OnComplete(() =>
+        {
+            go.SetActive(true);
+            go.transform.DOScale(0, 0.3f).From().SetEase(Ease.OutBack).OnComplete(async () =>
             {
-                go.SetActive(true);
-                go.transform.DOScale(0, 0.3f).From().SetEase(Ease.OutBack).OnComplete(async () =>
-                {
-                    saveButton.IsSelected = false;
-                    await SaveAllSlotsToJson(); // Сохранение после добавления нового слота
+                saveButton.IsSelected = false;
+                await SaveAllSlotsToJson(); // Сохранение после добавления нового слота
 
-                    inputField.text = "";
-                });
+                inputField.text = "";
             });
-        //}
-        //else Debug.Log("Введите имя!");
+        });
     }
 
     private void NoTextAnimation(bool run)
@@ -198,7 +183,7 @@ public class DataSlotsManager : MonoBehaviour
         foreach (var button in buttons)
         {
             SaveButton slotData = button;
-            Debug.Log($"Данные записанные в json: \n Name:{slotData.SaveButtonData.Name} || Data: {slotData.SaveButtonData.DataTime} || Adress img: {slotData.SaveButtonData.ScreenShotAddress}");
+            Debug.Log($"Данные записанные в json: \n Name:{slotData.SaveButtonData.Name} || Adress img: {slotData.SaveButtonData.ScreenShotAddress}");
             saveSlots.Add(slotData.SaveButtonData);
         }
 
@@ -224,13 +209,13 @@ public class DataSlotsManager : MonoBehaviour
                 buttons.Add(saveButton);
 
                 saveButton.NameSave.text = slotData.Name;
-                saveButton.DataTime.text = slotData.DataTime;
+               //saveButton.DataTime.text = slotData.DataTime;
                 saveButton.SaveButtonData = slotData;
 
                 // Загружаем скриншот асинхронно
                 saveButton.Image.sprite = await LoadScreenShot(slotData.ScreenShotAddress);
                 saveButton.GameData = slotData.GameData;
-               
+
                 // Устанавливаем слот неактивным, если нужно
                 go.SetActive(false);
                 go.transform.DOScale(0, 0.3f).From().SetEase(Ease.OutBack).OnComplete(() =>
@@ -314,8 +299,8 @@ public class SaveButtonDataList
 public class SaveButtonData
 {
     public string Name;
-    public string DataTime;
-    public string ScreenShotAddress; 
-    public GameData GameData; 
+   // public string DataTime;
+    public string ScreenShotAddress;
+    public GameData GameData;
 }
 

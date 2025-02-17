@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class MapButton : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IPointerDownHandler
 {
     [SerializeField] private ContentCard contentCard;
-    [SerializeField] private Image bG;
+    //[SerializeField] private Image bG;
     [SerializeField] private CardAnimation cardAnimation;
     [SerializeField] private SoundController soundController;
     [SerializeField] private BannerAnimation bannerAnimation;
@@ -22,7 +22,7 @@ public class MapButton : MonoBehaviour, IPointerEnterHandler, IPointerExitHandle
     {
         _transform = transform;
         _checkPoint = GetComponent<CheckPoint>();
-        _checkPoint.Location = bG.sprite;
+        //_checkPoint.Location = bG.sprite;
         _checkPoint.HpCount = hpController.GetCurrentHP();
         _checkPoint.CardSetScriptableObject = contentCard.CardSetScriptableObject;
         _checkPoint.Items.Clear();
@@ -45,7 +45,7 @@ public class MapButton : MonoBehaviour, IPointerEnterHandler, IPointerExitHandle
         _transform.DOScale(Vector3.one, 0.2f);
         contentCard.SetContent(_checkPoint.CardSetScriptableObject);
         cardAnimation.HideCard();
-        bG.sprite = _checkPoint.Location;
+        //bG.sprite = _checkPoint.Location;
         hpController.SetHP(_checkPoint.HpCount);
         inventoryController.LoadInventorySprites(_checkPoint.Items);
         mapController.DeactivateCheckPoint(_checkPoint.Index +1);

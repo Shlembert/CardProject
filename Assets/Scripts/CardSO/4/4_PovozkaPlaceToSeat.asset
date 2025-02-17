@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8636afbb060c9543bb985dfc1b704ad, type: 3}
   m_Name: 4_PovozkaPlaceToSeat
   m_EditorClassIdentifier: 
+  location: {fileID: 21300000, guid: f7cc7da663419b844b2961016b89467c, type: 3}
   portrait: {fileID: 21300000, guid: 103e48c1276507d4db598e0bc9c93daa, type: 3}
   bannerAnimator: {fileID: 9100000, guid: 443731da750020044b2c1478522ebd84, type: 2}
   animationClip: {fileID: 7400000, guid: 3f30bb1b9d4fbfe459f29f1ad7741892, type: 2}
@@ -27,7 +28,6 @@ MonoBehaviour:
     requiredItemSprite: {fileID: 0}
     removeItemSprite: 0
     changeBanner: 1
-    locationSprite: {fileID: 0}
     nextSetIfItem: {fileID: 11400000, guid: 92980bbab46386e4dba3b7a2db8a784d, type: 2}
     nextSetIfNoItem: {fileID: 0}
     isWinIfItem: 0
@@ -51,7 +51,6 @@ MonoBehaviour:
     requiredItemSprite: {fileID: 0}
     removeItemSprite: 0
     changeBanner: 1
-    locationSprite: {fileID: 0}
     nextSetIfItem: {fileID: 11400000, guid: 05eb8f1c98363574aa83d1c7f024bc52, type: 2}
     nextSetIfNoItem: {fileID: 0}
     isWinIfItem: 0
