@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class ContentCard : MonoBehaviour
 {
-    [SerializeField] private Image portraitSprite, illustrationSprite_L, illustrationSprite_R, reverseSprite, locationImage;
+    [SerializeField] private Image portraitSprite, illustrationSprite_L, illustrationSprite_R, reverseSprite, locationSprite;
     [SerializeField] private Localize bannerLoc, reverseLoc, cardLoc_L, cardLoc_R;
     [SerializeField] private CardSetScriptableObject startSet;
     [SerializeField] private InventoryController inventoryController;
@@ -19,7 +19,7 @@ public class ContentCard : MonoBehaviour
     [SerializeField] private Animator animL, animR, animB;
 
     private CardSetScriptableObject _cardSetScriptableObject, _nextCardSetScriptableObject;
-    private Sprite _giveItem, _haveItem, _currentLocation, _newLocation;
+    private Sprite _giveItem, _haveItem, _location;
     private CardData _cardData;
     private AudioClip _reverseAudioClip, _bannerAudioClip;
     private int _changeLifeCount = 0;
@@ -54,19 +54,6 @@ public class ContentCard : MonoBehaviour
         CardSetScriptableObject = cardSetScriptableObject;
         Debug.Log($" + Load CardSet name: [{cardSetScriptableObject.name}] +");
 
-        _currentLocation = locationImage.sprite;
-
-        if (cardSetScriptableObject.location != null)
-        {
-           _newLocation = cardSetScriptableObject.location;
-            locationImage.sprite = _newLocation;
-        }
-        else 
-        {
-            Debug.LogError($"Не указан спрайт локации в сете: [{cardSetScriptableObject.name}] ");
-        } 
-
-
         portraitSprite.sprite = cardSetScriptableObject.portrait;
 
         if (cardSetScriptableObject.bannerAnimator && cardSetScriptableObject.animationClip)
@@ -98,6 +85,7 @@ public class ContentCard : MonoBehaviour
     {
         _cardData = SetSideCard(cardType);
         StopAnim();
+        CheckChangeLocation(_cardData);
 
         CheckRemove = _cardData.removeItemSprite;
 
@@ -218,11 +206,16 @@ public class ContentCard : MonoBehaviour
         else await bannerAnimation.HideMessageBanner();
     }
 
+    private void CheckChangeLocation(CardData cardData)
+    {
+        if (cardData.locationSprite != null) _location = cardData.locationSprite; // Проверка на смену локации
+        else _location = null;
+    }
+
     public async UniTask ChangeLocationSprite()
     {
-        if (_currentLocation == _newLocation) return;
-        
-        await gameController.ChangeBG(_newLocation);
+        if (_location == null) return;
+        await gameController.ChangeBG(_location);
     }
 
     private void StopAnim()

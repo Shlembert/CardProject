@@ -20,7 +20,6 @@ public class CardSetScriptableObjectEditor : Editor
 
         // Поля для сетов
         EditorGUILayout.LabelField("Информация о сете", _boldStyle);
-        EditorGUILayout.PropertyField(serializedObject.FindProperty("location"), new GUIContent("Локация"));
         EditorGUILayout.PropertyField(serializedObject.FindProperty("portrait"), new GUIContent("Портрет"));
         EditorGUILayout.PropertyField(serializedObject.FindProperty("bannerAnimator"), new GUIContent("Аниматор портрета"));
         EditorGUILayout.PropertyField(serializedObject.FindProperty("animationClip"), new GUIContent("Анимация портрета"));
@@ -51,6 +50,7 @@ public class CardSetScriptableObjectEditor : Editor
     {
         // Основные поля
         EditorGUILayout.PropertyField(serializedObject.FindProperty($"{cardPropertyPath}.messageText"), new GUIContent("Текст сообщения"));
+        EditorGUILayout.PropertyField(serializedObject.FindProperty($"{cardPropertyPath}.illustrationSprite"), new GUIContent("Иллюстрация"));
         EditorGUILayout.PropertyField(serializedObject.FindProperty($"{cardPropertyPath}.animationClip"), new GUIContent("Анимация"));
         EditorGUILayout.PropertyField(serializedObject.FindProperty($"{cardPropertyPath}.animator"), new GUIContent("Контроллер"));
         EditorGUILayout.PropertyField(serializedObject.FindProperty($"{cardPropertyPath}.itemSprite"), new GUIContent("Спрайт предмета награды"));
@@ -59,6 +59,7 @@ public class CardSetScriptableObjectEditor : Editor
 
         // Поля для изменения баннера и локации
         EditorGUILayout.PropertyField(serializedObject.FindProperty($"{cardPropertyPath}.changeBanner"), new GUIContent("Сменить баннер"));
+        EditorGUILayout.PropertyField(serializedObject.FindProperty($"{cardPropertyPath}.locationSprite"), new GUIContent("Сменить локацию (спрайт)"));
        
 
         EditorGUILayout.PropertyField(serializedObject.FindProperty($"{cardPropertyPath}.nextSetIfItem"), new GUIContent("Следующий набор (есть предмет)"));

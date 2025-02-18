@@ -1,0 +1,55 @@
+{
+    "Slots": [
+        {
+            "Name": "11.02.2025 08:41",
+            "DataTime": "11.02.2025 08:41",
+            "ScreenShotAddress": "D:/GitHub/CardProject/Assets/SaveData/Screenshots//Screenshot_20250211_084129.png",
+            "GameData": {
+                "Health": 3,
+                "Location": {
+                    "m_AssetGUID": "MainRoomHero",
+                    "m_SubObjectName": "",
+                    "m_SubObjectType": "",
+                    "m_EditorAssetChanged": false
+                },
+                "Items": [],
+                "CheckpointCount": 1,
+                "CardSet": {
+                    "m_AssetGUID": "1Start",
+                    "m_SubObjectName": "",
+                    "m_SubObjectType": "",
+                    "m_EditorAssetChanged": false
+                }
+            }
+        },
+        {
+            "Name": "11.02.2025 08:42",
+            "DataTime": "11.02.2025 08:42",
+            "ScreenShotAddress": "D:/GitHub/CardProject/Assets/SaveData/Screenshots//Screenshot_20250211_084229.png",
+            "GameData": {
+                "Health": 2,
+                "Location": {
+                    "m_AssetGUID": "CastleGate",
+                    "m_SubObjectName": "",
+                    "m_SubObjectType": "",
+                    "m_EditorAssetChanged": false
+                },
+                "Items": [
+                    {
+                        "m_AssetGUID": "KornItem",
+                        "m_SubObjectName": "",
+                        "m_SubObjectType": "",
+                        "m_EditorAssetChanged": false
+                    }
+                ],
+                "CheckpointCount": 1,
+                "CardSet": {
+                    "m_AssetGUID": "5_4_BazaarEnd",
+                    "m_SubObjectName": "",
+                    "m_SubObjectType": "",
+                    "m_EditorAssetChanged": false
+                }
+            }
+        }
+    ]
+}

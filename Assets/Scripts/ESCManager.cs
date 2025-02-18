@@ -22,7 +22,7 @@ public class ESCManager : MonoBehaviour
         }
         else stateManager.State = (StateGame)index;
         
-        //Debug.Log($"Set State Button: {stateManager.State}");
+        Debug.Log($"Set State Button: {stateManager.State}");
     }
 
     private void Update()

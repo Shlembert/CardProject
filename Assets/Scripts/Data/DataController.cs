@@ -1,11 +1,12 @@
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class DataController : MonoBehaviour
 {
     [SerializeField] private InventoryController inventoryController;
     [SerializeField] private HPController hpController;
-    //[SerializeField] private Image locationImage;
+    [SerializeField] private Image locationImage;
 
     public void SaveData(string saveName)
     {
@@ -14,7 +15,7 @@ public class DataController : MonoBehaviour
             HPCount = hpController.GetCurrentHP(),
             IndexCheckPoint = 1, // Здесь нужно указать реальный индекс чекпоинта
             Items = GetInventorySpritesPaths(),
-            //Location = locationImage.sprite != null ? locationImage.sprite.name : null,
+            Location = locationImage.sprite != null ? locationImage.sprite.name : null,
             ScreenShot = TakeScreenshot()
         };
 
@@ -35,7 +36,8 @@ public class DataController : MonoBehaviour
         {
             hpController.ChangeCountHP(data.HPCount);
             inventoryController.LoadInventorySprites(LoadSpritesFromPaths(data.Items));
-            //locationImage.sprite = Data.LoadSprite(data.Location);
+            locationImage.sprite = Data.LoadSprite(data.Location);
+            // Также можно загрузить дату и имя сохранения, если это требуется
         }
     }
 

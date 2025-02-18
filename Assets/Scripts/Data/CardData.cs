@@ -17,6 +17,7 @@ public class CardData
 
     // Изменения в баннере и локации
     public bool changeBanner; // Флаг для изменения баннера
+    public Sprite locationSprite; // Спрайт для изменения фона (локации)
 
     // Следующий набор карт
     public CardSetScriptableObject nextSetIfItem; // Следующий набор, если предмет есть

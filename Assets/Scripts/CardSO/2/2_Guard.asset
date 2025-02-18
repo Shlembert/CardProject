@@ -12,7 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8636afbb060c9543bb985dfc1b704ad, type: 3}
   m_Name: 2_Guard
   m_EditorClassIdentifier: 
-  location: {fileID: 21300000, guid: 707c135420fff1c41ad274f4ddbeeda4, type: 3}
   portrait: {fileID: 21300000, guid: 8f099e857295c9846a082bba93206c35, type: 3}
   bannerAnimator: {fileID: 9100000, guid: d3c0949986f451b4c8587f818d74eb25, type: 2}
   animationClip: {fileID: 7400000, guid: 3917c0f23ee3ae64c967e564905376d2, type: 2}
@@ -28,6 +27,7 @@ MonoBehaviour:
     requiredItemSprite: {fileID: 0}
     removeItemSprite: 0
     changeBanner: 1
+    locationSprite: {fileID: 21300000, guid: bfda25037043650409951ac81830f4eb, type: 3}
     nextSetIfItem: {fileID: 11400000, guid: 85238a8911380584c8c40590768b33b0, type: 2}
     nextSetIfNoItem: {fileID: 0}
     isWinIfItem: 0
@@ -51,6 +51,7 @@ MonoBehaviour:
     requiredItemSprite: {fileID: 0}
     removeItemSprite: 0
     changeBanner: 0
+    locationSprite: {fileID: 21300000, guid: bfda25037043650409951ac81830f4eb, type: 3}
     nextSetIfItem: {fileID: 11400000, guid: 284df8acc7e0b73439f30e8df01bcde5, type: 2}
     nextSetIfNoItem: {fileID: 0}
     isWinIfItem: 0
