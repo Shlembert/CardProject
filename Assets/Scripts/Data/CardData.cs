@@ -17,7 +17,6 @@ public class CardData
 
     // Изменения в баннере и локации
     public bool changeBanner; // Флаг для изменения баннера
-    public Sprite locationSprite; // Спрайт для изменения фона (локации)
 
     // Следующий набор карт
     public CardSetScriptableObject nextSetIfItem; // Следующий набор, если предмет есть
@@ -27,6 +26,7 @@ public class CardData
     [Header("Реверс карты (если предмет есть)")]
     public bool isWinIfItem; // Победная клмбинация
     public List<WinContent> winContentIfItem; // набор победных слайдов
+    public Sprite locationSpriteIfItem; // Спрайт для изменения фона (локации) есть предмет
     public Sprite reverseSpriteIfItem; // Спрайт реверса карты (есть предмет)
     public AudioClip reverseAudioClipItem; // Звук клик на реверс (есть предмет)
     public string reverseTopTextIfItem; // Текст реверса карты
@@ -36,6 +36,7 @@ public class CardData
     [Header("Реверс карты (если предмета нет)")]
     public bool isWinIfNoItem; // Победная клмбинация
     public List<WinContent> winContentIfNoItem; // набор победных слайдов
+    public Sprite locationSpriteNoItem; // Спрайт для изменения фона (локации) нет предмета
     public Sprite reverseSpriteIfNoItem; // Спрайт реверса карты (нет предмета)
     public AudioClip reverseAudioClipNoItem; // Звук клик на реверс (нет предмета)
     public string reverseTopTextIfNoItem; // Текст реверса карты

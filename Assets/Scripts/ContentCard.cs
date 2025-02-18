@@ -85,7 +85,6 @@ public class ContentCard : MonoBehaviour
     {
         _cardData = SetSideCard(cardType);
         StopAnim();
-        CheckChangeLocation(_cardData);
 
         CheckRemove = _cardData.removeItemSprite;
 
@@ -108,6 +107,8 @@ public class ContentCard : MonoBehaviour
             _removeItem = cardData.requiredItemSprite;
             reverseLoc.Term = cardData.reverseTopTextIfItem;
             reverseSprite.sprite = cardData.reverseSpriteIfItem;
+            _location = cardData.locationSpriteIfItem;
+
             _reverseAudioClip = null;
             _reverseAudioClip = cardData?.reverseAudioClipItem;
         }
@@ -120,6 +121,7 @@ public class ContentCard : MonoBehaviour
             _changeLifeCount = cardData.changeLifePointsIfNoItem;
             reverseLoc.Term = cardData.reverseTopTextIfNoItem;
             reverseSprite.sprite = cardData.reverseSpriteIfNoItem;
+            _location = cardData.locationSpriteNoItem;
             _reverseAudioClip = null;
             _reverseAudioClip = cardData?.reverseAudioClipNoItem;
         }
@@ -133,6 +135,7 @@ public class ContentCard : MonoBehaviour
         _changeLifeCount = cardData.changeLifePointsIfItem;
         reverseLoc.Term = cardData.reverseTopTextIfItem;
         reverseSprite.sprite = cardData.reverseSpriteIfItem;
+        _location = cardData.locationSpriteIfItem;
         _reverseAudioClip = null;
         _reverseAudioClip = cardData?.reverseAudioClipItem;
     }
@@ -204,12 +207,6 @@ public class ContentCard : MonoBehaviour
     {
         if (_changeBanner) await bannerAnimation.HideBanner();
         else await bannerAnimation.HideMessageBanner();
-    }
-
-    private void CheckChangeLocation(CardData cardData)
-    {
-        if (cardData.locationSprite != null) _location = cardData.locationSprite; // Проверка на смену локации
-        else _location = null;
     }
 
     public async UniTask ChangeLocationSprite()

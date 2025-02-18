@@ -57,10 +57,8 @@ public class CardSetScriptableObjectEditor : Editor
         EditorGUILayout.PropertyField(serializedObject.FindProperty($"{cardPropertyPath}.requiredItemSprite"), new GUIContent("Спрайт требуемого предмета"));
         EditorGUILayout.PropertyField(serializedObject.FindProperty($"{cardPropertyPath}.removeItemSprite"), new GUIContent("Удалить спрайт при использовании"));
 
-        // Поля для изменения баннера и локации
+        // Поля для изменения баннера и локации locationSpriteNoItem
         EditorGUILayout.PropertyField(serializedObject.FindProperty($"{cardPropertyPath}.changeBanner"), new GUIContent("Сменить баннер"));
-        EditorGUILayout.PropertyField(serializedObject.FindProperty($"{cardPropertyPath}.locationSprite"), new GUIContent("Сменить локацию (спрайт)"));
-       
 
         EditorGUILayout.PropertyField(serializedObject.FindProperty($"{cardPropertyPath}.nextSetIfItem"), new GUIContent("Следующий набор (есть предмет)"));
         EditorGUILayout.PropertyField(serializedObject.FindProperty($"{cardPropertyPath}.nextSetIfNoItem"), new GUIContent("Следующий набор (нет предмета)"));
@@ -74,6 +72,8 @@ public class CardSetScriptableObjectEditor : Editor
         EditorGUILayout.PropertyField(serializedObject.FindProperty($"{cardPropertyPath}.reverseAudioClipItem"), new GUIContent("Звук реверса"));
         EditorGUILayout.PropertyField(serializedObject.FindProperty($"{cardPropertyPath}.reverseTopTextIfItem"), new GUIContent("Текст реверса"));
         EditorGUILayout.PropertyField(serializedObject.FindProperty($"{cardPropertyPath}.changeLifePointsIfItem"), new GUIContent("Изменить очки жизни"));
+        EditorGUILayout.PropertyField(serializedObject.FindProperty($"{cardPropertyPath}.locationSpriteIfItem"), new GUIContent("Сменить локацию (спрайт) Есть предмет"));
+
 
         EditorGUILayout.Space();
 
@@ -84,6 +84,7 @@ public class CardSetScriptableObjectEditor : Editor
         EditorGUILayout.PropertyField(serializedObject.FindProperty($"{cardPropertyPath}.reverseAudioClipNoItem"), new GUIContent("Звук реверса"));
         EditorGUILayout.PropertyField(serializedObject.FindProperty($"{cardPropertyPath}.reverseTopTextIfNoItem"), new GUIContent("Текст реверса"));
         EditorGUILayout.PropertyField(serializedObject.FindProperty($"{cardPropertyPath}.changeLifePointsIfNoItem"), new GUIContent("Изменить очки жизни"));
+        EditorGUILayout.PropertyField(serializedObject.FindProperty($"{cardPropertyPath}.locationSpriteNoItem"), new GUIContent("Сменить локацию (спрайт) Нет предмета"));
     }
 }
 
