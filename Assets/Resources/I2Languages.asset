@@ -341,11 +341,103 @@ MonoBehaviour:
       - "\u041C\u043E\u0432\u0430"
       Flags: 000000000000000000000000
       Languages_Touch: []
+    - Term: GoMenuTitle
+      TermType: 0
+      Description: 
+      Languages:
+      - EXIT TO MENU
+      - "\u0412\u042B\u0425\u041E\u0414 \u0412 \u041C\u0415\u041D\u042E"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: GoMenuWorn
+      TermType: 0
+      Description: 
+      Languages:
+      - The progress of the game will be lost!
+      - "\u041F\u0440\u043E\u0433\u0440\u0435\u0441\u0441 \u0438\u0433\u0440\u044B
+        \u0431\u0443\u0434\u0435\u0442 \u043F\u043E\u0442\u0435\u0440\u044F\u043D!"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: ButtonYes
+      TermType: 0
+      Description: 
+      Languages:
+      - Yes
+      - "\u0414\u0430"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: ButtonNo
+      TermType: 0
+      Description: 
+      Languages:
+      - No
+      - "\u041D\u0435\u0442"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: AskExitGame
+      TermType: 0
+      Description: 
+      Languages:
+      - "Do you want to \nto close the game?"
+      - "\u0412\u044B \u0445\u043E\u0442\u0438\u0442\u0435 \n\u0437\u0430\u043A\u0440\u044B\u0442\u044C
+        \u0438\u0433\u0440\u0443?"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000000000
+      Languages_Touch: []
     - Term: WinAddToWishlist_toAll
       TermType: 0
       Description: 
       Languages:
-      - Be sure to add the game to the Vishlist on Steam, this is very important
+      - Be sure to add the game to the Wishlist on Steam, this is very important
         for us!!!
       - "\u041E\u0431\u044F\u0437\u0430\u0442\u0435\u043B\u044C\u043D\u043E \u0434\u043E\u0431\u0430\u0432\u044C\u0442\u0435
         \u0438\u0433\u0440\u0443 \u0432 \u0412\u0438\u0448\u043B\u0438\u0441\u0442
@@ -1283,8 +1375,8 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - You don't want to become just another nameless hero lost in the dragon's
-        fiery maw. It's time to flee across the border through the forest
+      - You don't want to perish in the fiery jaws of the dragon. It's time to flee
+        across the border through the forest
       - "\u0412\u044B \u043D\u0435 \u0445\u043E\u0442\u0438\u0442\u0435 \u0441\u0442\u0430\u0442\u044C
         \u0435\u0449\u0451 \u043E\u0434\u043D\u0438\u043C \u0431\u0435\u0437\u044B\u043C\u044F\u043D\u043D\u044B\u043C
         \u0433\u0435\u0440\u043E\u0435\u043C \u0441\u0433\u0438\u043D\u0443\u0432\u0448\u0435\u043C
@@ -2221,8 +2313,8 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - Well, how were you supposed to know the crayfish would attack you? You jump
-        out of the barrel screaming. The guards catch you and throw you in the prison
+      - The crayfish are using their claws. You jump out of the barrel screaming.
+        The guards catch you and throw you in prison
       - "\u041D\u0443 \u043E\u0442\u043A\u0443\u0434\u0430 \u0432\u0430\u043C \u0431\u044B\u043B\u043E
         \u0437\u043D\u0430\u0442\u044C \u0447\u0442\u043E \u0440\u0430\u043A\u0438
         \u043C\u043E\u0433\u0443\u0442 \u043D\u0430\u043F\u0430\u0442\u044C \u043D\u0430
@@ -3367,12 +3459,8 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 'You were introduced to the inconsolable king,
-
-        who bitterly recounted
-        the story
-
-        that a dragon had kidnapped the princess'
+      - You were introduced to the inconsolable king, who bitterly recounted the
+        story that a dragon had kidnapped the princess
       - "\u0412\u0430\u0441 \u043F\u0440\u0435\u0434\u0441\u0442\u0430\u0432\u0438\u043B\u0438
         \u0431\u0435\u0437\u0443\u0442\u0435\u0448\u043D\u043E\u043C\u0443 \u0446\u0430\u0440\u044E,\n\u043A\u043E\u0442\u043E\u0440\u044B\u0439
         \u0441 \u0433\u043E\u0440\u0435\u0447\u044C\u044E \u043F\u043E\u0432\u0435\u0434\u0430\u043B
@@ -3484,12 +3572,8 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 'You came to the castle to the inconsolable king,
-
-        who bitterly told
-        about that,
-
-        How the dragon kidnapped his princess'
+      - You came to the castle to the inconsolable king, who bitterly told about
+        that, How the dragon kidnapped his princess
       - "\u0412\u044B \u043F\u0440\u0438\u0448\u043B\u0438 \u0432 \u0437\u0430\u043C\u043E\u043A
         \u043A \u0431\u0435\u0437\u0443\u0442\u0435\u0448\u043D\u043E\u043C\u0443
         \u0446\u0430\u0440\u044E,\n\u043A\u043E\u0442\u043E\u0440\u044B\u0439 \u0441
@@ -3690,13 +3774,8 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - "\u0422\u044B \u043F\u0440\u043E\u0431\u0438\u0440\u0430\u0435\u0448\u044C\u0441\u044F
-        \u0441\u043A\u0432\u043E\u0437\u044C \u043A\u0443\u0441\u0442\u044B \u0438
-        \u043F\u0440\u044F\u0447\u0435\u0448\u044C\u0441\u044F \u0441\u0440\u0435\u0434\u0438
-        \u0434\u0435\u0440\u0435\u0432\u044C\u0435\u0432. \u041E\u0445\u0440\u0430\u043D\u043D\u0438\u043A\u0438
-        \u0442\u0435\u0431\u044F \u043D\u0435 \u043D\u0430\u0445\u043E\u0434\u044F\u0442,
-        \u0438 \u0442\u044B \u0431\u0435\u0436\u0438\u0448\u044C \u0434\u043E\u043C\u043E\u0439
-        \u0447\u0435\u0440\u0435\u0437 \u043B\u0435\u0441"
+      - You sneak through the bushes and hide among the trees. The guards don't find
+        you and you run home through the forest
       - "\u0412\u044B \u043F\u043E\u043B\u0437\u043A\u043E\u043C \u043F\u0440\u043E\u0431\u0438\u0440\u0430\u0435\u0442\u0435\u0441\u044C
         \u0432 \u043A\u0443\u0441\u0442\u044B \u0438 \u043F\u0440\u044F\u0447\u0435\u0442\u0435\u0441\u044C
         \u0441\u0440\u0435\u0434\u0438 \u0434\u0435\u0440\u0435\u0432\u044C\u0435\u0432.
@@ -4878,8 +4957,8 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - The king offers two of his warriors and horses to help, but you need to go
-        into the courtyard for them, and there is very little time
+      - The king offers his two warriors and horses to help, but you have to go into
+        the courtyard to get them
       - "\u0426\u0430\u0440\u044C \u043F\u0440\u0435\u0434\u043B\u0430\u0433\u0430\u0435\u0442
         \u0432 \u043F\u043E\u043C\u043E\u0449\u044C \u0434\u0432\u0443\u0445 \u0441\u0432\u043E\u0438\u0445
         \u0432\u043E\u0438\u043D\u043E\u0432 \u0438 \u043A\u043E\u043D\u0435\u0439,
@@ -4974,7 +5053,7 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - On your way to the barracks, you stop by the stable and take some horses.
+      - On your way to the barracks, you stop by the stable and take some horses
       - "\u041F\u043E \u043F\u0443\u0442\u0438 \u0432 \u043A\u0430\u0437\u0430\u0440\u043C\u0443
         \u0432\u044B \u0437\u0430\u0445\u043E\u0434\u0438\u0442\u0435 \u0432 \u043A\u043E\u043D\u044E\u0448\u043D\u044E
         \u0438 \u0431\u0435\u0440\u0435\u0442\u0435 \u043A\u043E\u043D\u0435\u0439"
@@ -5440,7 +5519,7 @@ MonoBehaviour:
       Description: 
       Languages:
       - You decided to set off on your own two feet, so you won't be able to take
-        anything heavy.
+        anything heavy
       - "\u0412\u044B \u0440\u0435\u0448\u0438\u043B\u0438 \u043E\u0442\u043F\u0440\u0430\u0432\u0438\u0442\u044C\u0441\u044F
         \u0432 \u043F\u0443\u0442\u044C \u043D\u0430 \u0441\u0432\u043E\u0438\u0445
         \u0434\u0432\u043E\u0438\u0445, \u043F\u043E\u0442\u043E\u043C\u0443 \u043D\u0438\u0447\u0435\u0433\u043E
@@ -5684,7 +5763,7 @@ MonoBehaviour:
       Description: 
       Languages:
       - You're not intimidated by the dark woods (a little intimidated in general,
-        but you don't give the appearance of being intimidated)
+        but you don't give the appearance)
       - "\u0412\u0430\u0441 \u043D\u0435 \u043F\u0443\u0433\u0430\u0435\u0442 \u0442\u0435\u043C\u043D\u044B\u0439
         \u043B\u0435\u0441                               (\u0432\u043E\u043E\u0431\u0449\u0435
         \u043D\u0435\u043C\u043D\u043E\u0433\u043E \u043F\u0443\u0433\u0430\u0435\u0442,
@@ -8833,9 +8912,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - Valentine Timinsky - Design
+      - Valentine Timinsky - Game design \ Scenario
       - "\u0412\u0430\u043B\u0435\u043D\u0442\u0438\u043D \u0422\u0438\u043C\u0438\u043D\u0441\u043A\u0438\u0439
-        - \u0414\u0438\u0437\u0430\u0439\u043D"
+        - \u0413\u0435\u0439\u043C\u0434\u0438\u0437\u0430\u0439\u043D \\ \u0421\u0446\u0435\u043D\u0430\u0440\u0438\u0439"
       - 
       - 
       - 
