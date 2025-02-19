@@ -27,17 +27,18 @@ MonoBehaviour:
     requiredItemSprite: {fileID: 0}
     removeItemSprite: 0
     changeBanner: 1
-    locationSprite: {fileID: 21300000, guid: 990cfe713c4035f449ef44d7d06e8227, type: 3}
     nextSetIfItem: {fileID: 11400000, guid: 7fdf47c16bc92de46a750ae5ecd5c678, type: 2}
     nextSetIfNoItem: {fileID: 0}
     isWinIfItem: 0
     winContentIfItem: []
+    locationSpriteIfItem: {fileID: 21300000, guid: c40a7060c793be44ab859909a8793ac0, type: 3}
     reverseSpriteIfItem: {fileID: 21300000, guid: c2aade7a07f3b704b80169c42ed9fe94, type: 3}
     reverseAudioClipItem: {fileID: 0}
     reverseTopTextIfItem: 13_Poput_cardLeft_REV
     changeLifePointsIfItem: 0
     isWinIfNoItem: 0
     winContentIfNoItem: []
+    locationSpriteNoItem: {fileID: 0}
     reverseSpriteIfNoItem: {fileID: 0}
     reverseAudioClipNoItem: {fileID: 0}
     reverseTopTextIfNoItem: 
@@ -51,17 +52,18 @@ MonoBehaviour:
     requiredItemSprite: {fileID: 21300000, guid: 55ce038ddc84b254e886e7a735541e2a, type: 3}
     removeItemSprite: 0
     changeBanner: 0
-    locationSprite: {fileID: 0}
     nextSetIfItem: {fileID: 11400000, guid: 54a96d2a84d52764da59ab2ebcc6baac, type: 2}
     nextSetIfNoItem: {fileID: 11400000, guid: 2637858919e658544bed7072fedf7ddb, type: 2}
     isWinIfItem: 0
     winContentIfItem: []
+    locationSpriteIfItem: {fileID: 0}
     reverseSpriteIfItem: {fileID: 21300000, guid: 6ea95eea1640c3947b44ee7d3b92c39b, type: 3}
     reverseAudioClipItem: {fileID: 0}
     reverseTopTextIfItem: 13_Poput_cardRight_REV
     changeLifePointsIfItem: 0
     isWinIfNoItem: 0
     winContentIfNoItem: []
+    locationSpriteNoItem: {fileID: 0}
     reverseSpriteIfNoItem: {fileID: 21300000, guid: ee4a17ccec00d6a4b9168320f8e269bd, type: 3}
     reverseAudioClipNoItem: {fileID: 0}
     reverseTopTextIfNoItem: 13_Poput_cardRight_REV_NO

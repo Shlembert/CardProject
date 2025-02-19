@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8636afbb060c9543bb985dfc1b704ad, type: 3}
   m_Name: 17_Insects
   m_EditorClassIdentifier: 
-  portrait: {fileID: 21300000, guid: 103e48c1276507d4db598e0bc9c93daa, type: 3}
-  bannerAnimator: {fileID: 0}
-  animationClip: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 197dd67124b07df43a9a84d23debca95, type: 3}
+  bannerAnimator: {fileID: 9100000, guid: 443731da750020044b2c1478522ebd84, type: 2}
+  animationClip: {fileID: 7400000, guid: 3f30bb1b9d4fbfe459f29f1ad7741892, type: 2}
   bannerSound: {fileID: 0}
   bannerText: 17_Insects_bunner
   checkPoint: 0
@@ -24,24 +24,25 @@ MonoBehaviour:
     animator: {fileID: 0}
     animationClip: {fileID: 0}
     itemSprite: {fileID: 0}
-    requiredItemSprite: {fileID: 0}
+    requiredItemSprite: {fileID: 21300000, guid: c1c42e746793f0745850d8b664a420e1, type: 3}
     removeItemSprite: 0
     changeBanner: 0
-    locationSprite: {fileID: 0}
     nextSetIfItem: {fileID: 11400000, guid: c6f78d8a9ab28ea42aa0588e928071d4, type: 2}
-    nextSetIfNoItem: {fileID: 0}
+    nextSetIfNoItem: {fileID: 11400000, guid: c234e0cbf234bc54facea55ca1613883, type: 2}
     isWinIfItem: 0
     winContentIfItem: []
+    locationSpriteIfItem: {fileID: 0}
     reverseSpriteIfItem: {fileID: 21300000, guid: 8cae47ce39b9ba14892a9f8677c4e344, type: 3}
     reverseAudioClipItem: {fileID: 0}
     reverseTopTextIfItem: 17_Insects_cardLeft_REV
     changeLifePointsIfItem: -1
     isWinIfNoItem: 0
     winContentIfNoItem: []
-    reverseSpriteIfNoItem: {fileID: 0}
+    locationSpriteNoItem: {fileID: 0}
+    reverseSpriteIfNoItem: {fileID: 21300000, guid: 8cae47ce39b9ba14892a9f8677c4e344, type: 3}
     reverseAudioClipNoItem: {fileID: 0}
-    reverseTopTextIfNoItem: 
-    changeLifePointsIfNoItem: 0
+    reverseTopTextIfNoItem: 17_Insects_cardLeft_REV
+    changeLifePointsIfNoItem: -1
   rightCard:
     messageText: 17_Insects_cardRight
     illustrationSprite: {fileID: 21300000, guid: c91342ef01701444896796475efce0a2, type: 3}
@@ -51,17 +52,18 @@ MonoBehaviour:
     requiredItemSprite: {fileID: 0}
     removeItemSprite: 0
     changeBanner: 0
-    locationSprite: {fileID: 0}
     nextSetIfItem: {fileID: 11400000, guid: 5eb32a191eaf01a4c938649b144991e9, type: 2}
     nextSetIfNoItem: {fileID: 0}
     isWinIfItem: 0
     winContentIfItem: []
+    locationSpriteIfItem: {fileID: 0}
     reverseSpriteIfItem: {fileID: 21300000, guid: ba9ad84a5185caf48b5bd22691850d81, type: 3}
     reverseAudioClipItem: {fileID: 0}
     reverseTopTextIfItem: 17_Insects_cardRight_REV
     changeLifePointsIfItem: -5
     isWinIfNoItem: 0
     winContentIfNoItem: []
+    locationSpriteNoItem: {fileID: 0}
     reverseSpriteIfNoItem: {fileID: 0}
     reverseAudioClipNoItem: {fileID: 0}
     reverseTopTextIfNoItem: 

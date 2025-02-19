@@ -20,24 +20,25 @@ MonoBehaviour:
   checkPoint: 0
   leftCard:
     messageText: 8_Sword_cardLeft
-    illustrationSprite: {fileID: 21300000, guid: 0435bd882f63244488a751bd28309c9c, type: 3}
-    animator: {fileID: 0}
-    animationClip: {fileID: 0}
+    illustrationSprite: {fileID: 21300000, guid: c03dd164143b23b49a867b96bbc40f29, type: 3}
+    animator: {fileID: 9100000, guid: bdf1b1e94f4a19043a39e578e7ee8c13, type: 2}
+    animationClip: {fileID: 7400000, guid: a4ac8095c1d8ea74894aac42e60d425a, type: 2}
     itemSprite: {fileID: 0}
     requiredItemSprite: {fileID: 0}
     removeItemSprite: 0
     changeBanner: 1
-    locationSprite: {fileID: 0}
     nextSetIfItem: {fileID: 11400000}
     nextSetIfNoItem: {fileID: 0}
     isWinIfItem: 0
     winContentIfItem: []
+    locationSpriteIfItem: {fileID: 0}
     reverseSpriteIfItem: {fileID: 21300000, guid: 5949c823807cbcb4c8c3e2f3476654bf, type: 3}
     reverseAudioClipItem: {fileID: 0}
     reverseTopTextIfItem: 8_Sword_cardLeft_REV
     changeLifePointsIfItem: 0
     isWinIfNoItem: 0
     winContentIfNoItem: []
+    locationSpriteNoItem: {fileID: 0}
     reverseSpriteIfNoItem: {fileID: 0}
     reverseAudioClipNoItem: {fileID: 8300000, guid: 5be5dc475b4e5164dad12de2611d92de, type: 3}
     reverseTopTextIfNoItem: 
@@ -51,17 +52,18 @@ MonoBehaviour:
     requiredItemSprite: {fileID: 0}
     removeItemSprite: 0
     changeBanner: 1
-    locationSprite: {fileID: 21300000, guid: cd0482e2c33407f409bda4cceddf7040, type: 3}
     nextSetIfItem: {fileID: 11400000, guid: 73c9d61a567dabd4a83b8ad7c416d1de, type: 2}
     nextSetIfNoItem: {fileID: 0}
     isWinIfItem: 0
     winContentIfItem: []
+    locationSpriteIfItem: {fileID: 21300000, guid: cd0482e2c33407f409bda4cceddf7040, type: 3}
     reverseSpriteIfItem: {fileID: 21300000, guid: 895ca97d066b1e447ad53f82252b2239, type: 3}
     reverseAudioClipItem: {fileID: 0}
     reverseTopTextIfItem: 8_Sword_cardRight_REV
     changeLifePointsIfItem: 0
     isWinIfNoItem: 0
     winContentIfNoItem: []
+    locationSpriteNoItem: {fileID: 0}
     reverseSpriteIfNoItem: {fileID: 0}
     reverseAudioClipNoItem: {fileID: 0}
     reverseTopTextIfNoItem: 

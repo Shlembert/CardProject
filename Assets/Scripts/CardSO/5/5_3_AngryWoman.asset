@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8636afbb060c9543bb985dfc1b704ad, type: 3}
   m_Name: 5_3_AngryWoman
   m_EditorClassIdentifier: 
-  portrait: {fileID: 21300000, guid: 90fbcf783b38f7f4e892142e447e3ac4, type: 3}
-  bannerAnimator: {fileID: 0}
-  animationClip: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 2ba3ec3d7fdd66e4a95d1aa55584efe9, type: 3}
+  bannerAnimator: {fileID: 9100000, guid: 8b43e4acb901ba44bba24843fc7e7f66, type: 2}
+  animationClip: {fileID: 7400000, guid: 9f79f7c3fb92663498e91db9109d752f, type: 2}
   bannerSound: {fileID: 0}
   bannerText: 5_3_AngryWoman_bunner
   checkPoint: 0
@@ -27,41 +27,43 @@ MonoBehaviour:
     requiredItemSprite: {fileID: 0}
     removeItemSprite: 0
     changeBanner: 1
-    locationSprite: {fileID: 21300000, guid: cfeb68ea52faf9941935375f8de7b366, type: 3}
     nextSetIfItem: {fileID: 11400000, guid: a00032c3e4d3c964fa2e64adc17025a8, type: 2}
     nextSetIfNoItem: {fileID: 0}
     isWinIfItem: 0
     winContentIfItem: []
-    reverseSpriteIfItem: {fileID: 21300000, guid: 5605f90f370e93647bfa4e94765b80d6, type: 3}
+    locationSpriteIfItem: {fileID: 21300000, guid: cfeb68ea52faf9941935375f8de7b366, type: 3}
+    reverseSpriteIfItem: {fileID: 21300000, guid: 61edc66ea33ab6344b21b25f62ee4ffe, type: 3}
     reverseAudioClipItem: {fileID: 0}
     reverseTopTextIfItem: 5_3_AngryWoman_cardLeft_REV
     changeLifePointsIfItem: 0
     isWinIfNoItem: 0
     winContentIfNoItem: []
+    locationSpriteNoItem: {fileID: 0}
     reverseSpriteIfNoItem: {fileID: 0}
     reverseAudioClipNoItem: {fileID: 0}
     reverseTopTextIfNoItem: 
     changeLifePointsIfNoItem: 0
   rightCard:
     messageText: 5_3_AngryWoman_cardRight
-    illustrationSprite: {fileID: 21300000, guid: 3efe5662c8e0eb84f8a241a42115c450, type: 3}
+    illustrationSprite: {fileID: 21300000, guid: 8b903dacafa23a84390144f737388504, type: 3}
     animator: {fileID: 0}
     animationClip: {fileID: 0}
     itemSprite: {fileID: 0}
     requiredItemSprite: {fileID: 21300000, guid: d3d8a119bad36224fbf125a81595d63d, type: 3}
     removeItemSprite: 1
     changeBanner: 1
-    locationSprite: {fileID: 21300000, guid: cfeb68ea52faf9941935375f8de7b366, type: 3}
     nextSetIfItem: {fileID: 11400000, guid: a00032c3e4d3c964fa2e64adc17025a8, type: 2}
     nextSetIfNoItem: {fileID: 0}
     isWinIfItem: 0
     winContentIfItem: []
+    locationSpriteIfItem: {fileID: 21300000, guid: cfeb68ea52faf9941935375f8de7b366, type: 3}
     reverseSpriteIfItem: {fileID: 21300000, guid: 0dfb13049c9a6674789c01d10dbc0f87, type: 3}
     reverseAudioClipItem: {fileID: 0}
     reverseTopTextIfItem: 5_3_AngryWoman_cardRight_REV
     changeLifePointsIfItem: 0
     isWinIfNoItem: 0
     winContentIfNoItem: []
+    locationSpriteNoItem: {fileID: 0}
     reverseSpriteIfNoItem: {fileID: 0}
     reverseAudioClipNoItem: {fileID: 0}
     reverseTopTextIfNoItem: 

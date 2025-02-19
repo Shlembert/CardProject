@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8636afbb060c9543bb985dfc1b704ad, type: 3}
   m_Name: 4_TiedUp
   m_EditorClassIdentifier: 
-  portrait: {fileID: 21300000, guid: 82b4f8f959c4e314e8912813ad3215b0, type: 3}
-  bannerAnimator: {fileID: 9100000, guid: d3c0949986f451b4c8587f818d74eb25, type: 2}
-  animationClip: {fileID: 7400000, guid: 3917c0f23ee3ae64c967e564905376d2, type: 2}
+  portrait: {fileID: 21300000, guid: 197dd67124b07df43a9a84d23debca95, type: 3}
+  bannerAnimator: {fileID: 9100000, guid: 443731da750020044b2c1478522ebd84, type: 2}
+  animationClip: {fileID: 7400000, guid: 3f30bb1b9d4fbfe459f29f1ad7741892, type: 2}
   bannerSound: {fileID: 0}
   bannerText: 4_TiedUp_bunner
   checkPoint: 0
@@ -27,18 +27,19 @@ MonoBehaviour:
     requiredItemSprite: {fileID: 0}
     removeItemSprite: 0
     changeBanner: 1
-    locationSprite: {fileID: 21300000, guid: 6471b42b56f51404c8c20d82dfc13b0b, type: 3}
     nextSetIfItem: {fileID: 11400000, guid: 92f33e50c6a9dfa41b83835b91648dc1, type: 2}
     nextSetIfNoItem: {fileID: 0}
     isWinIfItem: 0
     winContentIfItem: []
+    locationSpriteIfItem: {fileID: 21300000, guid: 6471b42b56f51404c8c20d82dfc13b0b, type: 3}
     reverseSpriteIfItem: {fileID: 21300000, guid: fa2a18584a3c49e4ab09c031b919ff19, type: 3}
     reverseAudioClipItem: {fileID: 0}
     reverseTopTextIfItem: 4_TiedUp_cardLeft_REV
     changeLifePointsIfItem: 0
     isWinIfNoItem: 0
     winContentIfNoItem: []
-    reverseSpriteIfNoItem: {fileID: 21300000, guid: 4d2250ec993441c47bcb200f94c014af, type: 3}
+    locationSpriteNoItem: {fileID: 0}
+    reverseSpriteIfNoItem: {fileID: 0}
     reverseAudioClipNoItem: {fileID: 0}
     reverseTopTextIfNoItem: 
     changeLifePointsIfNoItem: 0
@@ -51,17 +52,18 @@ MonoBehaviour:
     requiredItemSprite: {fileID: 0}
     removeItemSprite: 0
     changeBanner: 0
-    locationSprite: {fileID: 0}
     nextSetIfItem: {fileID: 0}
     nextSetIfNoItem: {fileID: 0}
     isWinIfItem: 0
     winContentIfItem: []
-    reverseSpriteIfItem: {fileID: 21300000, guid: 17f57bb7555bbb6449346242eb0d76ff, type: 3}
+    locationSpriteIfItem: {fileID: 21300000, guid: fd887baf6ae92dd43b86b89feaf8211e, type: 3}
+    reverseSpriteIfItem: {fileID: 21300000, guid: 1e7b5a04f0cab0249bff0ec5917e785f, type: 3}
     reverseAudioClipItem: {fileID: 0}
     reverseTopTextIfItem: 4_TiedUp_cardRight_REV
-    changeLifePointsIfItem: -1
+    changeLifePointsIfItem: -5
     isWinIfNoItem: 0
     winContentIfNoItem: []
+    locationSpriteNoItem: {fileID: 0}
     reverseSpriteIfNoItem: {fileID: 0}
     reverseAudioClipNoItem: {fileID: 0}
     reverseTopTextIfNoItem: 

@@ -44,9 +44,9 @@ MonoBehaviour:
     changeLifePointsIfNoItem: 0
   rightCard:
     messageText: 5_2_StealAppleCatch_cardRight
-    illustrationSprite: {fileID: 21300000, guid: 318a2c54f7915e448ad20675f8796b33, type: 3}
-    animator: {fileID: 0}
-    animationClip: {fileID: 0}
+    illustrationSprite: {fileID: 21300000, guid: b17ca451068e2824d81833adcf1286ef, type: 3}
+    animator: {fileID: 9100000, guid: 25d7d791f42157d45a17109679bf9794, type: 2}
+    animationClip: {fileID: 7400000, guid: c2c81b7fe98d18f459b94fedc157c46d, type: 2}
     itemSprite: {fileID: 21300000, guid: d3d8a119bad36224fbf125a81595d63d, type: 3}
     requiredItemSprite: {fileID: 0}
     removeItemSprite: 0

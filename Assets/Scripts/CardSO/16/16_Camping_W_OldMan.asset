@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8636afbb060c9543bb985dfc1b704ad, type: 3}
   m_Name: 16_Camping_W_OldMan
   m_EditorClassIdentifier: 
-  portrait: {fileID: 21300000, guid: fde4a3f971191b743aee56b7745fc124, type: 3}
-  bannerAnimator: {fileID: 0}
-  animationClip: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 86dda6d5ecb16c94586bb2a013d38fd5, type: 3}
+  bannerAnimator: {fileID: 9100000, guid: 9201a51335f5616478d18351f116664b, type: 2}
+  animationClip: {fileID: 7400000, guid: f11c207a07141af4ca2076d2f9d6d653, type: 2}
   bannerSound: {fileID: 0}
   bannerText: 16_Camping_W_OldMan_bunner
   checkPoint: 0
@@ -27,17 +27,18 @@ MonoBehaviour:
     requiredItemSprite: {fileID: 0}
     removeItemSprite: 0
     changeBanner: 1
-    locationSprite: {fileID: 21300000, guid: 10845694dccfda04d8b50f9633cdb8a9, type: 3}
     nextSetIfItem: {fileID: 11400000, guid: 77207c149992a89498ca679d959d7eba, type: 2}
     nextSetIfNoItem: {fileID: 0}
     isWinIfItem: 0
     winContentIfItem: []
+    locationSpriteIfItem: {fileID: 21300000, guid: 10845694dccfda04d8b50f9633cdb8a9, type: 3}
     reverseSpriteIfItem: {fileID: 21300000, guid: 28ab82be52ea53545b4031587a5ec3bf, type: 3}
     reverseAudioClipItem: {fileID: 0}
     reverseTopTextIfItem: 16_Camping_W_OldMan_cardLeft_REV
     changeLifePointsIfItem: 0
     isWinIfNoItem: 0
     winContentIfNoItem: []
+    locationSpriteNoItem: {fileID: 0}
     reverseSpriteIfNoItem: {fileID: 0}
     reverseAudioClipNoItem: {fileID: 0}
     reverseTopTextIfNoItem: 
@@ -51,17 +52,18 @@ MonoBehaviour:
     requiredItemSprite: {fileID: 0}
     removeItemSprite: 0
     changeBanner: 0
-    locationSprite: {fileID: 0}
     nextSetIfItem: {fileID: 11400000, guid: eeaff6148388f004796da9358a9ec4f9, type: 2}
     nextSetIfNoItem: {fileID: 0}
     isWinIfItem: 0
     winContentIfItem: []
-    reverseSpriteIfItem: {fileID: 21300000, guid: 8035b6efaf50318498eb37841767c805, type: 3}
+    locationSpriteIfItem: {fileID: 0}
+    reverseSpriteIfItem: {fileID: 21300000, guid: 320f10237104cd644ab43df0aa9259e3, type: 3}
     reverseAudioClipItem: {fileID: 0}
     reverseTopTextIfItem: 16_Camping_W_OldMan_cardRight_REV
     changeLifePointsIfItem: 0
     isWinIfNoItem: 0
     winContentIfNoItem: []
+    locationSpriteNoItem: {fileID: 0}
     reverseSpriteIfNoItem: {fileID: 0}
     reverseAudioClipNoItem: {fileID: 0}
     reverseTopTextIfNoItem: 

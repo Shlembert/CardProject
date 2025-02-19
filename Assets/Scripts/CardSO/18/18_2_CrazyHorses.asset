@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8636afbb060c9543bb985dfc1b704ad, type: 3}
+  m_Name: 18_2_CrazyHorses
+  m_EditorClassIdentifier: 
+  portrait: {fileID: 21300000, guid: 197dd67124b07df43a9a84d23debca95, type: 3}
+  bannerAnimator: {fileID: 9100000, guid: 443731da750020044b2c1478522ebd84, type: 2}
+  animationClip: {fileID: 7400000, guid: 3f30bb1b9d4fbfe459f29f1ad7741892, type: 2}
+  bannerSound: {fileID: 0}
+  bannerText: 18_CrazyHorses_bunner
+  checkPoint: 0
+  leftCard:
+    messageText: 18_CrazyHorses_cardLeft
+    illustrationSprite: {fileID: 21300000, guid: 1ade2169cf9d3e44d99742655bbadbbf, type: 3}
+    animator: {fileID: 0}
+    animationClip: {fileID: 0}
+    itemSprite: {fileID: 0}
+    requiredItemSprite: {fileID: 0}
+    removeItemSprite: 0
+    changeBanner: 0
+    nextSetIfItem: {fileID: 11400000, guid: f7ac6ab6472ba5b4bbb883128ab4d7c0, type: 2}
+    nextSetIfNoItem: {fileID: 0}
+    isWinIfItem: 1
+    winContentIfItem:
+    - Sprite: {fileID: 21300000, guid: f7cc7da663419b844b2961016b89467c, type: 3}
+      Message: 18_CrazyHorses_win_1
+    - Sprite: {fileID: 21300000, guid: f7cc7da663419b844b2961016b89467c, type: 3}
+      Message: WinAddToWishlist_toAll
+    locationSpriteIfItem: {fileID: 0}
+    reverseSpriteIfItem: {fileID: 21300000, guid: 7580e7d494cebaa4eb0ed9317d3a20a7, type: 3}
+    reverseAudioClipItem: {fileID: 0}
+    reverseTopTextIfItem: 18_CrazyHorses_cardLeft_REV
+    changeLifePointsIfItem: 0
+    isWinIfNoItem: 0
+    winContentIfNoItem: []
+    locationSpriteNoItem: {fileID: 0}
+    reverseSpriteIfNoItem: {fileID: 0}
+    reverseAudioClipNoItem: {fileID: 0}
+    reverseTopTextIfNoItem: 
+    changeLifePointsIfNoItem: 0
+  rightCard:
+    messageText: 18_CrazyHorses_cardRight
+    illustrationSprite: {fileID: 21300000, guid: 2cd7957f40035db44b1e49008df9b66f, type: 3}
+    animator: {fileID: 9100000, guid: 6685171af68d6064ea2d4d18650fbbf0, type: 2}
+    animationClip: {fileID: 7400000, guid: decfa8e848cbc4945923dd619bb34302, type: 2}
+    itemSprite: {fileID: 0}
+    requiredItemSprite: {fileID: 21300000, guid: c1c42e746793f0745850d8b664a420e1, type: 3}
+    removeItemSprite: 1
+    changeBanner: 0
+    nextSetIfItem: {fileID: 11400000, guid: f7ac6ab6472ba5b4bbb883128ab4d7c0, type: 2}
+    nextSetIfNoItem: {fileID: 0}
+    isWinIfItem: 1
+    winContentIfItem:
+    - Sprite: {fileID: 21300000, guid: 6ae74f89e5006914ca5e67fb16c9b582, type: 3}
+      Message: 18_CrazyHorses_win_2
+    - Sprite: {fileID: 21300000, guid: 6ae74f89e5006914ca5e67fb16c9b582, type: 3}
+      Message: WinAddToWishlist_toAll
+    locationSpriteIfItem: {fileID: 0}
+    reverseSpriteIfItem: {fileID: 21300000, guid: 0df8ff05e402190458aca0c34c9be914, type: 3}
+    reverseAudioClipItem: {fileID: 0}
+    reverseTopTextIfItem: 18_CrazyHorses_cardRight_REV
+    changeLifePointsIfItem: 0
+    isWinIfNoItem: 0
+    winContentIfNoItem: []
+    locationSpriteNoItem: {fileID: 0}
+    reverseSpriteIfNoItem: {fileID: 0}
+    reverseAudioClipNoItem: {fileID: 0}
+    reverseTopTextIfNoItem: 
+    changeLifePointsIfNoItem: 0

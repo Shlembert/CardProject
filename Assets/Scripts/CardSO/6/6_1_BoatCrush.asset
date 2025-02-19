@@ -20,48 +20,50 @@ MonoBehaviour:
   checkPoint: 0
   leftCard:
     messageText: 6_1_BoatCrush_cardLeft
-    illustrationSprite: {fileID: 0}
+    illustrationSprite: {fileID: 21300000, guid: 062d88730d7f259479f77897824f05bf, type: 3}
     animator: {fileID: 0}
     animationClip: {fileID: 0}
     itemSprite: {fileID: 0}
     requiredItemSprite: {fileID: 0}
     removeItemSprite: 0
     changeBanner: 1
-    locationSprite: {fileID: 21300000, guid: 59d2d4bb5a7f50447a0136b14aa353a9, type: 3}
-    nextSetIfItem: {fileID: 11400000, guid: 94dcf72a3acea864dbf6a502485e6c74, type: 2}
+    nextSetIfItem: {fileID: 11400000, guid: 0dae89fba06463e48bca0638b4b23742, type: 2}
     nextSetIfNoItem: {fileID: 0}
     isWinIfItem: 0
     winContentIfItem: []
+    locationSpriteIfItem: {fileID: 21300000, guid: 59d2d4bb5a7f50447a0136b14aa353a9, type: 3}
     reverseSpriteIfItem: {fileID: 21300000, guid: 2cf64012fc927db48aaa578e3ba4e58b, type: 3}
     reverseAudioClipItem: {fileID: 0}
     reverseTopTextIfItem: 6_1_BoatCrush_cardLeft_REV
     changeLifePointsIfItem: 0
     isWinIfNoItem: 0
     winContentIfNoItem: []
+    locationSpriteNoItem: {fileID: 0}
     reverseSpriteIfNoItem: {fileID: 0}
     reverseAudioClipNoItem: {fileID: 0}
     reverseTopTextIfNoItem: 
     changeLifePointsIfNoItem: 0
   rightCard:
     messageText: 6_1_BoatCrush_cardRight
-    illustrationSprite: {fileID: 0}
+    illustrationSprite: {fileID: 21300000, guid: 1537168e95372b64fb25f5db34a35941, type: 3}
     animator: {fileID: 0}
     animationClip: {fileID: 0}
     itemSprite: {fileID: 0}
     requiredItemSprite: {fileID: 0}
     removeItemSprite: 0
-    changeBanner: 0
-    locationSprite: {fileID: 0}
-    nextSetIfItem: {fileID: 11400000, guid: a6200f021d352df4fbc8405014a63c45, type: 2}
+    changeBanner: 1
+    nextSetIfItem: {fileID: 11400000, guid: fb555fd3966b6ee408314ab49f6ba688, type: 2}
     nextSetIfNoItem: {fileID: 0}
     isWinIfItem: 0
     winContentIfItem: []
-    reverseSpriteIfItem: {fileID: 0}
+    locationSpriteIfItem: {fileID: 21300000, guid: 707c135420fff1c41ad274f4ddbeeda4, type: 3}
+    reverseSpriteIfItem: {fileID: 21300000, guid: f64aa1806abfc044b87f33c7950715a1, type: 3}
     reverseAudioClipItem: {fileID: 0}
     reverseTopTextIfItem: 6_1_BoatCrush_cardRight_REV
     changeLifePointsIfItem: 0
     isWinIfNoItem: 0
     winContentIfNoItem: []
+    locationSpriteNoItem: {fileID: 0}
     reverseSpriteIfNoItem: {fileID: 0}
     reverseAudioClipNoItem: {fileID: 0}
     reverseTopTextIfNoItem: 
