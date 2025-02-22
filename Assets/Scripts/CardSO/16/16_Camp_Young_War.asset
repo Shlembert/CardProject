@@ -64,7 +64,7 @@ MonoBehaviour:
     isWinIfNoItem: 0
     winContentIfNoItem: []
     locationSpriteNoItem: {fileID: 0}
-    reverseSpriteIfNoItem: {fileID: 21300000, guid: 77a965dd91c95ee4487707e120de2033, type: 3}
+    reverseSpriteIfNoItem: {fileID: 21300000, guid: 37fdc1bc39cc2eb479b32bf6cc8c8a1d, type: 3}
     reverseAudioClipNoItem: {fileID: 0}
     reverseTopTextIfNoItem: 16_Camp_Young_War_cardRight_REV
     changeLifePointsIfNoItem: 0
