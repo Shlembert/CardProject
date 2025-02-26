@@ -287,11 +287,6 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 5991687b9ec07b1479ba22b612b89f8a
-    m_Address: 2_Window
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 5998c1d2ef75a0d468bcc09dd2c39c54
     m_Address: 18_Morning_OldMan
     m_ReadOnly: 0
@@ -695,11 +690,6 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: f5519cf2d0a748041a93c68f088a7708
     m_Address: 16_Camp_Old_War
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: f6ea6492857e55e4f995ea63d0a8ae4e
-    m_Address: 2_Right_Empty
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0

@@ -36,7 +36,7 @@ MonoBehaviour:
     - Sprite: {fileID: 21300000, guid: f7cc7da663419b844b2961016b89467c, type: 3}
       Message: WinAddToWishlist_toAll
     locationSpriteIfItem: {fileID: 0}
-    reverseSpriteIfItem: {fileID: 21300000, guid: 7580e7d494cebaa4eb0ed9317d3a20a7, type: 3}
+    reverseSpriteIfItem: {fileID: 21300000, guid: 9630fd6b9dd7da649b19b5cba2f7605c, type: 3}
     reverseAudioClipItem: {fileID: 0}
     reverseTopTextIfItem: 18_CrazyHorses_cardLeft_REV
     changeLifePointsIfItem: 0
@@ -65,7 +65,7 @@ MonoBehaviour:
     - Sprite: {fileID: 21300000, guid: 6ae74f89e5006914ca5e67fb16c9b582, type: 3}
       Message: WinAddToWishlist_toAll
     locationSpriteIfItem: {fileID: 0}
-    reverseSpriteIfItem: {fileID: 21300000, guid: 0df8ff05e402190458aca0c34c9be914, type: 3}
+    reverseSpriteIfItem: {fileID: 21300000, guid: 8c13063fd19e47e4ab5fbfbc3eb6bcc3, type: 3}
     reverseAudioClipItem: {fileID: 0}
     reverseTopTextIfItem: 18_CrazyHorses_cardRight_REV
     changeLifePointsIfItem: 0

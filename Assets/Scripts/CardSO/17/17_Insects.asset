@@ -60,7 +60,7 @@ MonoBehaviour:
     reverseSpriteIfItem: {fileID: 21300000, guid: ba9ad84a5185caf48b5bd22691850d81, type: 3}
     reverseAudioClipItem: {fileID: 0}
     reverseTopTextIfItem: 17_Insects_cardRight_REV
-    changeLifePointsIfItem: -5
+    changeLifePointsIfItem: -4
     isWinIfNoItem: 0
     winContentIfNoItem: []
     locationSpriteNoItem: {fileID: 0}
