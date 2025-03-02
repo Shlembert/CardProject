@@ -38,9 +38,9 @@ public class DurationController : MonoBehaviour
     private void SetNoneDuration()
     {
         iconSpeed.sprite = iconNone;
-        bannerAnimation.Delay = 0;
-        bannerAnimation.TextDuration = 0;
-        bannerAnimation.AvatarDuration = 0;
+        //bannerAnimation.Delay = 0;
+        //bannerAnimation.TextDuration = 0;
+        //bannerAnimation.AvatarDuration = 0;
         cardAnimation.Duration = 0;
         cardAnimation.CurrentDuration = 0;
         gameController.Duration = 0;
@@ -50,9 +50,9 @@ public class DurationController : MonoBehaviour
     private void SetNormalDuration()
     {
         iconSpeed.sprite = iconNormal;
-        bannerAnimation.Delay = _bannerDelay;
-        bannerAnimation.AvatarDuration = _durationAvatar;
-        bannerAnimation.TextDuration = _durationBannerPanel;
+        //bannerAnimation.Delay = _bannerDelay;
+        //bannerAnimation.AvatarDuration = _durationAvatar;
+        //bannerAnimation.TextDuration = _durationBannerPanel;
         cardAnimation.Duration = _durationCard;
         cardAnimation.CurrentDuration = _durationCurrentCard;
         gameController.Duration = _durationGameController;
@@ -62,9 +62,9 @@ public class DurationController : MonoBehaviour
     private void SetFastDuration()
     {
         iconSpeed.sprite = iconFast;
-        bannerAnimation.Delay /= 2;
-        bannerAnimation.TextDuration *= 0.5f;
-        bannerAnimation.AvatarDuration *= 0.5f;
+        //bannerAnimation.Delay /= 2;
+        //bannerAnimation.TextDuration *= 0.5f;
+        //bannerAnimation.AvatarDuration *= 0.5f;
         cardAnimation.Duration *= 0.5f;
         cardAnimation.CurrentDuration *= 0.5f;
         gameController.Duration *= 0.5f;
