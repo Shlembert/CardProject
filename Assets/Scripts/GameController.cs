@@ -23,6 +23,7 @@ public class GameController : MonoBehaviour
     private bool _isMenu = true;
 
     public bool IsGameOver { get => _isGameOver; set => _isGameOver = value; }
+    public float Duration { get => duration; set => duration = value; }
 
     private void Start()
     {
@@ -37,7 +38,7 @@ public class GameController : MonoBehaviour
         var taskCompletionSource = new UniTaskCompletionSource();
         holdPanel.position = Vector3.zero;
 
-        _imageHold.DOFade(0, duration).From().OnComplete(() =>
+        _imageHold.DOFade(0, Duration).From().OnComplete(() =>
         {
             taskCompletionSource.TrySetResult();
         });
@@ -49,7 +50,7 @@ public class GameController : MonoBehaviour
     {
         var taskCompletionSource = new UniTaskCompletionSource();
 
-        _imageHold.DOFade(0, duration).OnComplete(() =>
+        _imageHold.DOFade(0, Duration).OnComplete(() =>
         {
             holdPanel.position = _positionUp;
             _imageHold.color = _normalColorHold;
@@ -241,22 +242,22 @@ public class GameController : MonoBehaviour
 
     public void ShowMenuESC()
     {
-        escMenu.DOScale(Vector3.one, duration).SetEase(Ease.OutBack);
+        escMenu.DOScale(Vector3.one, Duration).SetEase(Ease.OutBack);
     }
 
     public void HideMenuESC()
     {
-        escMenu.DOScale(Vector3.zero, duration).SetEase(Ease.InBack);
+        escMenu.DOScale(Vector3.zero, Duration).SetEase(Ease.InBack);
     }
 
     public void ShowPlayESC()
     {
-        escPlay.DOScale(Vector3.one, duration).SetEase(Ease.OutBack);
+        escPlay.DOScale(Vector3.one, Duration).SetEase(Ease.OutBack);
     }
 
     public void HidePlayESC()
     {
-        escPlay.DOScale(Vector3.zero, duration).SetEase(Ease.InBack);
+        escPlay.DOScale(Vector3.zero, Duration).SetEase(Ease.InBack);
     }
 
     public void ExitGame() => Application.Quit();

@@ -12,6 +12,8 @@ public class InventoryAnimation : MonoBehaviour
     private Image _image;
     private Color _color;
 
+    public float Duration { get => duration; set => duration = value; }
+
     private void Start()
     {
         _inventoryController = GetComponent<InventoryController>();
@@ -28,9 +30,9 @@ public class InventoryAnimation : MonoBehaviour
 
         var taskCompletionSource = new UniTaskCompletionSource();
 
-        courier.DOMove(end.position, duration, false).SetEase(Ease.InBack, 0.6f).OnComplete(() =>
+        courier.DOMove(end.position, Duration, false).SetEase(Ease.InBack, 0.6f).OnComplete(() =>
         {
-            bag.DOScale(bag.localScale * 1.1f, 0.2f).From().OnComplete(() =>
+            bag.DOScale(bag.localScale * 1.1f, Duration * 0.3f).From().OnComplete(() =>
             {
                 _image.enabled = false;
                 _inventoryController.AddedItem(sprite);
@@ -50,8 +52,8 @@ public class InventoryAnimation : MonoBehaviour
         _image.sprite = sprite;
         _image.enabled = true;
 
-        courier.DOScale(courier.localScale * 2, 0.5f);
-        _image.DOFade(0, 0.5f).OnComplete(() =>
+        courier.DOScale(courier.localScale * 2, Duration * 0.15f);
+        _image.DOFade(0, Duration * 0.15f).OnComplete(() =>
         {
             {
                 _image.enabled = false;

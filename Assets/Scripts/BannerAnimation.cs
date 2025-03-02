@@ -16,16 +16,28 @@ public class BannerAnimation : MonoBehaviour
 
     private RuntimeAnimatorController _animatorController;
     private AnimationClip _animationClip;
+    private float _avatarDuration, _textDuration;
 
     public RuntimeAnimatorController AnimatorController { get => _animatorController; set => _animatorController = value; }
     public AnimationClip AnimationClip { get => _animationClip; set => _animationClip = value; }
 
+    public float AvatarDuration { get => _avatarDuration; set => _avatarDuration = value; }
+    public float TextDuration { get => _textDuration; set => _textDuration = value; }
+    public int Delay { get => delay; set => delay = value; }
+
     private void Start()
     {
+        SetDuration();
         _normalPos = portret.position;
         portret.position = _holdPos;
         Vector3 startPos = new Vector3(posHold, textPanel.transform.position.y, textPanel.position.z);
         textPanel.position = startPos;
+    }
+
+    private void SetDuration()
+    {
+        _avatarDuration = 0.7f;
+        _textDuration = 0.5f;
     }
 
     public async UniTask ShowBanner()
@@ -34,11 +46,11 @@ public class BannerAnimation : MonoBehaviour
 
         portret.position = _normalPos;
 
-        portret.DOScale(0, 0.7f).SetEase(Ease.OutBack).From().OnComplete(async () =>
+        portret.DOScale(0, _avatarDuration).SetEase(Ease.OutBack).From().OnComplete(async () =>
         {
            if(contentCard.CardSetScriptableObject.bannerAnimator !=null) PlayAnimation();
             await ShowMessageBanner();
-            await UniTask.Delay(delay);
+            await UniTask.Delay(Delay);
             taskCompletionSource.TrySetResult();  // Завершаем таск
         });
 
@@ -50,9 +62,9 @@ public class BannerAnimation : MonoBehaviour
         var taskCompletionSource = new UniTaskCompletionSource();
         StopAnimation();
 
-        textPanel.DOMoveX(posHold, 0.5f, false).OnComplete(() =>
+        textPanel.DOMoveX(posHold, _textDuration, false).OnComplete(() =>
         {
-            portret.DOScale(0, 0.7f).SetEase(Ease.InBack).OnComplete(() =>
+            portret.DOScale(0, _avatarDuration).SetEase(Ease.InBack).OnComplete(() =>
             {
                 portret.position = _holdPos;
                 portret.localScale = Vector3.one;
@@ -88,7 +100,7 @@ public class BannerAnimation : MonoBehaviour
     {
         var taskCompletionSource = new UniTaskCompletionSource();
         soundController.PlaySoundClip(contentCard.BannerAudioClip);
-        textPanel.DOMoveX(posShow, 0.5f, false).OnComplete(() =>
+        textPanel.DOMoveX(posShow, _textDuration, false).OnComplete(() =>
         {
 
             taskCompletionSource.TrySetResult(); // Завершаем таск
@@ -100,7 +112,7 @@ public class BannerAnimation : MonoBehaviour
     {
         var taskCompletionSource = new UniTaskCompletionSource();
 
-        textPanel.DOMoveX(posHold, 0.5f, false).OnComplete(() =>
+        textPanel.DOMoveX(posHold, _textDuration, false).OnComplete(() =>
         {
             taskCompletionSource.TrySetResult(); // Завершаем таск
         });

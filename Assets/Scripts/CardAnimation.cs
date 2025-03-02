@@ -7,10 +7,13 @@ public class CardAnimation : MonoBehaviour
     [SerializeField] private Transform leftCard, rightCard, reverseCard;
     [SerializeField] private GameController gameController;
     [SerializeField] private SoundController soundController;
-    [SerializeField] private float duration;
+    [SerializeField] private float duration, currentDuration;
 
     private Vector3 _normalPosLeft, _normalPosRight, _normalPosReverse;
     private InputCard _inputCard_L, _inputCard_R, _inputCard_Rev;
+
+    public float Duration { get => duration; set => duration = value; }
+    public float CurrentDuration { get => currentDuration; set => currentDuration = value; }
 
     private void Awake()
     {
@@ -43,10 +46,10 @@ public class CardAnimation : MonoBehaviour
 
         InputCardActivate(false);
         soundController.PlayFlip();
-        leftCard.DOMove(_normalPosLeft, duration, false).SetEase(Ease.OutBack);
-        rightCard.DOMove(_normalPosRight, duration, false).SetEase(Ease.OutBack);
-        leftCard.DOScale(0, duration).From();
-        rightCard.DOScale(0, duration).From().OnComplete(() =>
+        leftCard.DOMove(_normalPosLeft, Duration, false).SetEase(Ease.OutBack);
+        rightCard.DOMove(_normalPosRight, Duration, false).SetEase(Ease.OutBack);
+        leftCard.DOScale(0, Duration).From();
+        rightCard.DOScale(0, Duration).From().OnComplete(() =>
         {
             InputCardActivate(true);
 
@@ -87,20 +90,20 @@ public class CardAnimation : MonoBehaviour
 
         InputCardActivate(false);
         soundController.PlayFlip();
-        holdCard.DOMove(_normalPosReverse, duration, false).SetEase(Ease.InBack);
-        holdCard.DOScale(0.001f, duration);
-        currentCard.DOScale(Vector3.one, 0.4f).OnComplete(() => 
+        holdCard.DOMove(_normalPosReverse, Duration, false).SetEase(Ease.InBack);
+        holdCard.DOScale(0.001f, Duration);
+        currentCard.DOScale(Vector3.one, CurrentDuration).OnComplete(() => 
         {
-            currentCard.DOMoveX(0, duration, false).SetEase(Ease.InOutBack).OnComplete(() =>
+            currentCard.DOMoveX(0, Duration, false).SetEase(Ease.InOutBack).OnComplete(() =>
             {
-                currentCard.DOScaleX(0.001f, 0.4f).OnComplete(() =>
+                currentCard.DOScaleX(0.001f, CurrentDuration).OnComplete(() =>
                 {
                     reverseCard.localScale = Vector3.one;
                     reverseCard.position = currentCard.position;
                     _inputCard_Rev.IsClick = false;
                     soundController.PlayReverseFlip();
 
-                    reverseCard.DOScaleX(0.001f, 0.4f).From().OnComplete(() =>
+                    reverseCard.DOScaleX(0.001f, CurrentDuration).From().OnComplete(() =>
                     {
                         _inputCard_Rev.CheckCursorPosition();
                         holdCard.localScale = Vector3.one;
@@ -117,7 +120,7 @@ public class CardAnimation : MonoBehaviour
     {
         InputCardActivate(false);
         var taskCompletionSource = new UniTaskCompletionSource();
-        reverseCard.DOMove(_normalPosReverse, duration, false).SetEase(Ease.InBack).OnComplete(() =>
+        reverseCard.DOMove(_normalPosReverse, Duration, false).SetEase(Ease.InBack).OnComplete(() =>
         {
             taskCompletionSource.TrySetResult(); // Завершаем таск
         });
