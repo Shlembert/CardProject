@@ -36,8 +36,8 @@ public class BannerAnimation : MonoBehaviour
 
     private void SetDuration()
     {
-        _avatarDuration = 0.7f;
-        _textDuration = 0.5f;
+        _avatarDuration = 0.3f;
+        _textDuration = 0.2f;
     }
 
     public async UniTask ShowBanner()

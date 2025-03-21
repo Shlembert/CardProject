@@ -37,7 +37,13 @@ MonoBehaviour:
     reverseTopTextIfItem: 2_Guard_cardLeft_REV
     changeLifePointsIfItem: 0
     isWinIfNoItem: 0
-    winContentIfNoItem: []
+    winContentIfNoItem:
+    - Sprite: {fileID: 0}
+      Message: 
+    - Sprite: {fileID: 0}
+      Message: 
+    - Sprite: {fileID: 0}
+      Message: 
     locationSpriteNoItem: {fileID: 0}
     reverseSpriteIfNoItem: {fileID: 0}
     reverseAudioClipNoItem: {fileID: 0}

@@ -27,21 +27,22 @@ MonoBehaviour:
     requiredItemSprite: {fileID: 0}
     removeItemSprite: 0
     changeBanner: 1
-    locationSprite: {fileID: 0}
     nextSetIfItem: {fileID: 11400000, guid: f7ac6ab6472ba5b4bbb883128ab4d7c0, type: 2}
     nextSetIfNoItem: {fileID: 0}
-    isWinIfItem: 1
+    isWinIfItem: 0
     winContentIfItem:
     - Sprite: {fileID: 21300000, guid: cf05b3622f13d194ba37063adeb20374, type: 3}
       Message: 18_Breakfast_win_1
     - Sprite: {fileID: 21300000, guid: cf05b3622f13d194ba37063adeb20374, type: 3}
       Message: WinAddToWishlist_toAll
+    locationSpriteIfItem: {fileID: 0}
     reverseSpriteIfItem: {fileID: 21300000, guid: 8cae47ce39b9ba14892a9f8677c4e344, type: 3}
     reverseAudioClipItem: {fileID: 0}
     reverseTopTextIfItem: 18_Breakfast_cardLeft_REV
     changeLifePointsIfItem: -1
     isWinIfNoItem: 0
     winContentIfNoItem: []
+    locationSpriteNoItem: {fileID: 0}
     reverseSpriteIfNoItem: {fileID: 0}
     reverseAudioClipNoItem: {fileID: 0}
     reverseTopTextIfNoItem: 
@@ -55,21 +56,22 @@ MonoBehaviour:
     requiredItemSprite: {fileID: 0}
     removeItemSprite: 0
     changeBanner: 0
-    locationSprite: {fileID: 0}
     nextSetIfItem: {fileID: 11400000, guid: f7ac6ab6472ba5b4bbb883128ab4d7c0, type: 2}
     nextSetIfNoItem: {fileID: 0}
-    isWinIfItem: 1
+    isWinIfItem: 0
     winContentIfItem:
     - Sprite: {fileID: 21300000, guid: e4c8367392ccb2049af70a4445e057d8, type: 3}
       Message: 17_YoungWatchmen_2_win_1
     - Sprite: {fileID: 21300000, guid: e4c8367392ccb2049af70a4445e057d8, type: 3}
       Message: WinAddToWishlist_toAll
+    locationSpriteIfItem: {fileID: 0}
     reverseSpriteIfItem: {fileID: 21300000, guid: 2194bc2f7ee92b349815abb48f99b843, type: 3}
     reverseAudioClipItem: {fileID: 0}
     reverseTopTextIfItem: 18_Breakfast_cardRight_REV
     changeLifePointsIfItem: 1
     isWinIfNoItem: 0
     winContentIfNoItem: []
+    locationSpriteNoItem: {fileID: 0}
     reverseSpriteIfNoItem: {fileID: 0}
     reverseAudioClipNoItem: {fileID: 0}
     reverseTopTextIfNoItem: 

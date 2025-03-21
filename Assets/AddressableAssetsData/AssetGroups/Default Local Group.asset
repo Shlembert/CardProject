@@ -87,6 +87,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 14a7893e51beaf14c95c21208e183aa3
+    m_Address: 6_WagonStop
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 1c7bc24263b38ae418b3c94ba04ef1fc
     m_Address: "Forest\u0421ompletelyDark"
     m_ReadOnly: 0
@@ -112,6 +117,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 26773e6948ef2ab419b3a8047b3862c4
+    m_Address: BolotoEnter
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 26eba1feaf30ed442b390559a9fa03b8
     m_Address: 12_Forest_Entrance
     m_ReadOnly: 0
@@ -119,6 +129,16 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 284df8acc7e0b73439f30e8df01bcde5
     m_Address: 3_GuardSlamDoor
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2a12c8ef5602fe5488c533c102086d7d
+    m_Address: 4_TraktirTales
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2b27691edcdff7a45a0dacb3ee003a88
+    m_Address: 7_RiverWashFace
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -142,8 +162,18 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 35f425a6374a62049a881a7f347d85bd
+    m_Address: 19_bolot_DirtyWater
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 36ec482e521a14047ac7e0366c291f1c
     m_Address: 8_GoToJail
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 36f7aab3a39908c4da87b57d684bfc75
+    m_Address: 19_bolot_ChickenHouse
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -247,6 +277,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 510de7f9521b95a4591210ad2b28eca5
+    m_Address: 7_4a_StrongFigter
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 5376d4eba0ab5a544833b108224cbf0f
     m_Address: KingGuard_yang_2pers
     m_ReadOnly: 0
@@ -312,6 +347,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5fd05ae75f27b614f867548a158a55c5
+    m_Address: 7_2_StrongFigter
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 62025905fae674749a2d84268f4f6c78
     m_Address: 4_SpyOnGuards
     m_ReadOnly: 0
@@ -322,8 +362,18 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 63ea786b9ec5b454bbd471431057fd42
+    m_Address: 7_3_StrongFigter
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 643d2b01fdc859c40bc16b7f2b3938d8
     m_Address: 7_3_DeadEnd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 645ea81797de9ff42906357adb275073
+    m_Address: BolotoBridge
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -372,6 +422,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 72ca73bf9afe59b42aeef7fdf8b004e8
+    m_Address: 19_bolota
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 72fdfe391bd70cb43a777a698d9a350b
     m_Address: 10_NAIL_1
     m_ReadOnly: 0
@@ -407,6 +462,16 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7afa829c3ecc8e44597f6ed63913d5a2
+    m_Address: 4_RoadToTraktir
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7cd79f73e50d01d489176f4ac7f51d88
+    m_Address: 19_bolot_bridge
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 7fdf47c16bc92de46a750ae5ecd5c678
     m_Address: 15_NO_OldMan
     m_ReadOnly: 0
@@ -414,6 +479,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 8153d05e4a79d104d9cddedd0f7d6791
     m_Address: SailorUniform
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 81d88047b0f054542966ca2ece1978ca
+    m_Address: 4_2_TraktirTales
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -438,6 +508,11 @@ MonoBehaviour:
     m_SerializedLabels:
     - default
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8b9720ad49bc2d340851cfa70e597117
+    m_Address: 19_ChickenHouseEnter
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 92980bbab46386e4dba3b7a2db8a784d
     m_Address: 4_OldWomanGiveApple
     m_ReadOnly: 0
@@ -453,6 +528,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 98c89f143e8b094419287231c4810f49
+    m_Address: 7_Guard_in_Water
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 990cfe713c4035f449ef44d7d06e8227
     m_Address: ForestHalWoFire
     m_ReadOnly: 0
@@ -460,6 +540,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 9a9641d0b3101a64fbe07f50c561043d
     m_Address: 3Horses
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9b6d46e00f1e5ef43b12586b08e33b2e
+    m_Address: 7_5_StrongFigter
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -485,6 +570,21 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: a64ca44ae06b9d84087d7c618bf10924
     m_Address: 5_1_TraderCallPolice
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a808282df68d4054ca6a02cfe7e21b1c
+    m_Address: VillageHouseBlur
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a8dc5a01eea614647b173e457be28930
+    m_Address: 19_bolot_fall_bridge
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: aa1df1994b4999d4d9102c26075c5382
+    m_Address: 7_WagonBroke
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -598,6 +698,16 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d8abbf01a1cb4ea44b19bb769f1cb1c5
+    m_Address: 17_OldMan_OldWar_Pay
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: db4e7a2d00787834bac2584722c5a333
+    m_Address: StoneTreasure
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: dda3bc681e3a24240bbe7122c67b10f1
     m_Address: 13_5_RogueLager
     m_ReadOnly: 0
@@ -668,6 +778,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: edf919355e65f0249afa5c76f49d52cc
+    m_Address: 7_1_StrongFigter
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: ee584dca9c024f948afa3d15c23a1e7f
     m_Address: 6_in_Castle
     m_ReadOnly: 0
@@ -700,6 +815,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: f7cc7da663419b844b2961016b89467c
     m_Address: HorsesRest
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fa1804bf06f1383438bf7c8ec3c5296d
+    m_Address: "\u0421hickenHouseDark"
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0

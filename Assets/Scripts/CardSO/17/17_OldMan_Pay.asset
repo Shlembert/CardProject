@@ -48,15 +48,15 @@ MonoBehaviour:
     illustrationSprite: {fileID: 21300000, guid: ae17f90630edeba4395cf82fd7a6ace7, type: 3}
     animator: {fileID: 9100000, guid: 3fbb24bd8e8979b4191438a91033b961, type: 2}
     animationClip: {fileID: 7400000, guid: c4e4dd12bf1841d49b45adc838e04ea7, type: 2}
-    itemSprite: {fileID: 0}
-    requiredItemSprite: {fileID: 0}
-    removeItemSprite: 0
+    itemSprite: {fileID: 21300000, guid: 3b74ea2de7976bf4fb80b964747e1616, type: 3}
+    requiredItemSprite: {fileID: 21300000, guid: 5376d4eba0ab5a544833b108224cbf0f, type: 3}
+    removeItemSprite: 1
     changeBanner: 1
     nextSetIfItem: {fileID: 11400000, guid: 5998c1d2ef75a0d468bcc09dd2c39c54, type: 2}
     nextSetIfNoItem: {fileID: 0}
     isWinIfItem: 0
     winContentIfItem: []
-    locationSpriteIfItem: {fileID: 21300000, guid: 5f61605eb126d744fb65b55296652407, type: 3}
+    locationSpriteIfItem: {fileID: 0}
     reverseSpriteIfItem: {fileID: 21300000, guid: e24870a127c2d9440bdf5ba67c21f505, type: 3}
     reverseAudioClipItem: {fileID: 0}
     reverseTopTextIfItem: 17_OldMan_Pay_cardRight_REV

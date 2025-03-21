@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8636afbb060c9543bb985dfc1b704ad, type: 3}
+  m_Name: 17_OldMan_OldWar_Pay
+  m_EditorClassIdentifier: 
+  portrait: {fileID: 21300000, guid: 86dda6d5ecb16c94586bb2a013d38fd5, type: 3}
+  bannerAnimator: {fileID: 9100000, guid: 9201a51335f5616478d18351f116664b, type: 2}
+  animationClip: {fileID: 7400000, guid: f11c207a07141af4ca2076d2f9d6d653, type: 2}
+  bannerSound: {fileID: 0}
+  bannerText: 17_OldMan_Pay_bunner
+  checkPoint: 0
+  leftCard:
+    messageText: 17_OldMan_Pay_cardLeft
+    illustrationSprite: {fileID: 21300000, guid: 7dac7dd3a7a559746b73806ac73395b4, type: 3}
+    animator: {fileID: 0}
+    animationClip: {fileID: 0}
+    itemSprite: {fileID: 21300000, guid: a3c6b8ae8b3b57a498423fa0b598cf64, type: 3}
+    requiredItemSprite: {fileID: 21300000, guid: 55ce038ddc84b254e886e7a735541e2a, type: 3}
+    removeItemSprite: 1
+    changeBanner: 1
+    nextSetIfItem: {fileID: 11400000, guid: 5998c1d2ef75a0d468bcc09dd2c39c54, type: 2}
+    nextSetIfNoItem: {fileID: 0}
+    isWinIfItem: 0
+    winContentIfItem: []
+    locationSpriteIfItem: {fileID: 21300000, guid: 5f61605eb126d744fb65b55296652407, type: 3}
+    reverseSpriteIfItem: {fileID: 21300000, guid: 86e91588045407e42bca2240f8c29e58, type: 3}
+    reverseAudioClipItem: {fileID: 0}
+    reverseTopTextIfItem: 17_OldMan_Pay_cardLeft_REV
+    changeLifePointsIfItem: 0
+    isWinIfNoItem: 0
+    winContentIfNoItem: []
+    locationSpriteNoItem: {fileID: 0}
+    reverseSpriteIfNoItem: {fileID: 0}
+    reverseAudioClipNoItem: {fileID: 0}
+    reverseTopTextIfNoItem: 
+    changeLifePointsIfNoItem: 0
+  rightCard:
+    messageText: 17_OldMan_Pay_cardRight
+    illustrationSprite: {fileID: 21300000, guid: ae17f90630edeba4395cf82fd7a6ace7, type: 3}
+    animator: {fileID: 9100000, guid: 3fbb24bd8e8979b4191438a91033b961, type: 2}
+    animationClip: {fileID: 7400000, guid: c4e4dd12bf1841d49b45adc838e04ea7, type: 2}
+    itemSprite: {fileID: 21300000, guid: 3f6bc0888834b8d4ea7191e418a45aa3, type: 3}
+    requiredItemSprite: {fileID: 21300000, guid: e32821e2238411547a798ce4bda66d8e, type: 3}
+    removeItemSprite: 1
+    changeBanner: 1
+    nextSetIfItem: {fileID: 11400000, guid: 5998c1d2ef75a0d468bcc09dd2c39c54, type: 2}
+    nextSetIfNoItem: {fileID: 0}
+    isWinIfItem: 0
+    winContentIfItem: []
+    locationSpriteIfItem: {fileID: 0}
+    reverseSpriteIfItem: {fileID: 21300000, guid: e24870a127c2d9440bdf5ba67c21f505, type: 3}
+    reverseAudioClipItem: {fileID: 0}
+    reverseTopTextIfItem: 17_OldMan_Pay_cardRight_REV
+    changeLifePointsIfItem: 0
+    isWinIfNoItem: 0
+    winContentIfNoItem: []
+    locationSpriteNoItem: {fileID: 0}
+    reverseSpriteIfNoItem: {fileID: 0}
+    reverseAudioClipNoItem: {fileID: 0}
+    reverseTopTextIfNoItem: 
+    changeLifePointsIfNoItem: 0

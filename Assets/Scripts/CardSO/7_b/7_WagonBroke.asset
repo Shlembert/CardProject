@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8636afbb060c9543bb985dfc1b704ad, type: 3}
+  m_Name: 7_WagonBroke
+  m_EditorClassIdentifier: 
+  portrait: {fileID: 21300000, guid: 103e48c1276507d4db598e0bc9c93daa, type: 3}
+  bannerAnimator: {fileID: 0}
+  animationClip: {fileID: 0}
+  bannerSound: {fileID: 0}
+  bannerText: 7_WagonBroke_bunner
+  checkPoint: 0
+  leftCard:
+    messageText: 7_WagonBroke_cardLeft
+    illustrationSprite: {fileID: 21300000, guid: 0ed0fd53c108c0847ab8085bcc1dbd5b, type: 3}
+    animator: {fileID: 9100000, guid: 034714368ee4ff34082e16ec274c0f72, type: 2}
+    animationClip: {fileID: 7400000, guid: 66cf6fc0234544c4b9fa5196e5836ee4, type: 2}
+    itemSprite: {fileID: 0}
+    requiredItemSprite: {fileID: 0}
+    removeItemSprite: 0
+    changeBanner: 1
+    nextSetIfItem: {fileID: 11400000, guid: 0714b668cf794cd48bfb7dd05eddafa5, type: 2}
+    nextSetIfNoItem: {fileID: 0}
+    isWinIfItem: 0
+    winContentIfItem: []
+    locationSpriteIfItem: {fileID: 21300000, guid: b3b508e6bb0e5ac44b70fa291fa441e7, type: 3}
+    reverseSpriteIfItem: {fileID: 21300000, guid: 8cae47ce39b9ba14892a9f8677c4e344, type: 3}
+    reverseAudioClipItem: {fileID: 0}
+    reverseTopTextIfItem: 7_WagonBroke_cardLeft_REV
+    changeLifePointsIfItem: -1
+    isWinIfNoItem: 0
+    winContentIfNoItem: []
+    locationSpriteNoItem: {fileID: 0}
+    reverseSpriteIfNoItem: {fileID: 0}
+    reverseAudioClipNoItem: {fileID: 0}
+    reverseTopTextIfNoItem: "\u0430\u0431\u0440\u0430\u043A\u0430\u0434\u0430\u0440\u0431\u0430"
+    changeLifePointsIfNoItem: 0
+  rightCard:
+    messageText: 7_WagonBroke_cardRight
+    illustrationSprite: {fileID: 21300000, guid: 9609ebf79a5de9e42a745b00e34504c8, type: 3}
+    animator: {fileID: 9100000, guid: b4e1ededc39ee00478c43eb2ef42438d, type: 2}
+    animationClip: {fileID: 7400000, guid: 0544b4a5731fd934b82c38825523a737, type: 2}
+    itemSprite: {fileID: 0}
+    requiredItemSprite: {fileID: 0}
+    removeItemSprite: 0
+    changeBanner: 1
+    nextSetIfItem: {fileID: 11400000, guid: 0714b668cf794cd48bfb7dd05eddafa5, type: 2}
+    nextSetIfNoItem: {fileID: 0}
+    isWinIfItem: 0
+    winContentIfItem:
+    - Sprite: {fileID: 21300000, guid: 00144b0161cf1094ebc48d47c2ffc238, type: 3}
+      Message: "\u0410 \u0447\u0442\u043E \u043D\u0430\u0448\u0435\u043B \u043D\u0430\u0448
+        \u0433\u0435\u0440\u043E\u0439 \u043C\u044B \u0443\u0437\u043D\u0430\u0435\u043C
+        \u0432 \u0441\u043B\u0435\u0434\u0443\u044E\u0449\u0435\u0439 \u0432\u0435\u0440\u0441\u0438\u0438"
+    - Sprite: {fileID: 21300000, guid: 00144b0161cf1094ebc48d47c2ffc238, type: 3}
+      Message: "\u041E\u0431\u044F\u0437\u0430\u0442\u0435\u043B\u044C\u043D\u043E
+        \u0434\u043E\u0431\u0430\u0432\u044C\u0442\u0435 \u0438\u0433\u0440\u0443
+        \u0432 \u0412\u0438\u0448\u043B\u0438\u0441\u0442 \u043D\u0430 \u0421\u0442\u0438\u043C\u0435,
+        \u0434\u043B\u044F \u043D\u0430\u0441 \u044D\u0442\u043E \u043E\u0447\u0435\u043D\u044C
+        \u0432\u0430\u0436\u043D\u043E!!!"
+    locationSpriteIfItem: {fileID: 21300000, guid: b3b508e6bb0e5ac44b70fa291fa441e7, type: 3}
+    reverseSpriteIfItem: {fileID: 21300000, guid: 969d8117c6b781f41a57965c21cd933b, type: 3}
+    reverseAudioClipItem: {fileID: 0}
+    reverseTopTextIfItem: 7_WagonBroke_cardRight_REV
+    changeLifePointsIfItem: 0
+    isWinIfNoItem: 0
+    winContentIfNoItem: []
+    locationSpriteNoItem: {fileID: 0}
+    reverseSpriteIfNoItem: {fileID: 0}
+    reverseAudioClipNoItem: {fileID: 0}
+    reverseTopTextIfNoItem: "\u0430\u0431\u0440\u0430\u043A\u0430\u0434\u0430\u0440\u0431\u0430"
+    changeLifePointsIfNoItem: 0
