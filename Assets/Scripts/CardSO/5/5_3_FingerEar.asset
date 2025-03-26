@@ -12,30 +12,30 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8636afbb060c9543bb985dfc1b704ad, type: 3}
   m_Name: 5_3_FingerEar
   m_EditorClassIdentifier: 
-  portrait: {fileID: 21300000, guid: 2ba3ec3d7fdd66e4a95d1aa55584efe9, type: 3}
-  bannerAnimator: {fileID: 9100000, guid: 8b43e4acb901ba44bba24843fc7e7f66, type: 2}
-  animationClip: {fileID: 7400000, guid: 9f79f7c3fb92663498e91db9109d752f, type: 2}
+  portrait: {fileID: 21300000, guid: 0d278fbe78f6bdd4183a6aa76a33fc78, type: 3}
+  bannerAnimator: {fileID: 9100000, guid: 9f81c704503567e4d8b1995625d9e2e4, type: 2}
+  animationClip: {fileID: 7400000, guid: 27af68daae27bbc4b94fc7629b2d27af, type: 2}
   bannerSound: {fileID: 0}
   bannerText: 5_3_FingerEar_bunner
   checkPoint: 0
   leftCard:
     messageText: 5_3_FingerEar_cardLeft
-    illustrationSprite: {fileID: 21300000, guid: 2619613814854d74ab4b5c73916921ff, type: 3}
-    animator: {fileID: 9100000, guid: c9dbc6265ba006c459bddb7b3be3d317, type: 2}
-    animationClip: {fileID: 7400000, guid: 82b29702cfd802c4da2dc20f47aa4580, type: 2}
+    illustrationSprite: {fileID: 21300000, guid: be6c13e0464568b46bd567767026a2d7, type: 3}
+    animator: {fileID: 9100000, guid: c4f1b35d135a5054da744af557b758f0, type: 2}
+    animationClip: {fileID: 7400000, guid: 1138f9b2c2d79d946a02fc55e225fadc, type: 2}
     itemSprite: {fileID: 0}
     requiredItemSprite: {fileID: 0}
     removeItemSprite: 0
     changeBanner: 1
-    nextSetIfItem: {fileID: 11400000, guid: a00032c3e4d3c964fa2e64adc17025a8, type: 2}
+    nextSetIfItem: {fileID: 11400000, guid: 7a7bab3e5c65c82439f9fee0580743d7, type: 2}
     nextSetIfNoItem: {fileID: 0}
     isWinIfItem: 0
     winContentIfItem: []
-    locationSpriteIfItem: {fileID: 21300000, guid: cfeb68ea52faf9941935375f8de7b366, type: 3}
-    reverseSpriteIfItem: {fileID: 21300000, guid: 8cae47ce39b9ba14892a9f8677c4e344, type: 3}
+    locationSpriteIfItem: {fileID: 0}
+    reverseSpriteIfItem: {fileID: 21300000, guid: 72f1ae6dd3694f74f902190161dc3e75, type: 3}
     reverseAudioClipItem: {fileID: 0}
     reverseTopTextIfItem: 5_3_FingerEar_cardLeft_REV
-    changeLifePointsIfItem: -1
+    changeLifePointsIfItem: 0
     isWinIfNoItem: 0
     winContentIfNoItem: []
     locationSpriteNoItem: {fileID: 0}
@@ -52,15 +52,15 @@ MonoBehaviour:
     requiredItemSprite: {fileID: 0}
     removeItemSprite: 0
     changeBanner: 1
-    nextSetIfItem: {fileID: 11400000, guid: a00032c3e4d3c964fa2e64adc17025a8, type: 2}
+    nextSetIfItem: {fileID: 11400000, guid: 7a7bab3e5c65c82439f9fee0580743d7, type: 2}
     nextSetIfNoItem: {fileID: 0}
     isWinIfItem: 0
     winContentIfItem: []
-    locationSpriteIfItem: {fileID: 21300000, guid: cfeb68ea52faf9941935375f8de7b366, type: 3}
-    reverseSpriteIfItem: {fileID: 21300000, guid: 0bfc16e48ad22c24597d10cb44380fa2, type: 3}
+    locationSpriteIfItem: {fileID: 0}
+    reverseSpriteIfItem: {fileID: 21300000, guid: 8cae47ce39b9ba14892a9f8677c4e344, type: 3}
     reverseAudioClipItem: {fileID: 0}
     reverseTopTextIfItem: 5_3_FingerEar_cardRight_REV
-    changeLifePointsIfItem: 0
+    changeLifePointsIfItem: -1
     isWinIfNoItem: 0
     winContentIfNoItem: []
     locationSpriteNoItem: {fileID: 0}

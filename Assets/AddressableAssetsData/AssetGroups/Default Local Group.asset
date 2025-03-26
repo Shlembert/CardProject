@@ -92,13 +92,33 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 15569d469a1e49942981da553910a13b
+    m_Address: RiverVillage
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 1c7bc24263b38ae418b3c94ba04ef1fc
     m_Address: "Forest\u0421ompletelyDark"
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1e1a36b46c63cf74383ef9812ecd3b7c
+    m_Address: 7_5b_StrongFigter
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 1e9d348a83103dc4ebc96790a52f3b35
     m_Address: 17_YoungWatchmen_2
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 20e07ad3ec52777469832805e3bf44a6
+    m_Address: 6_to_Castle_how
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 221c1c4a6c50b61458883df1a3939734
+    m_Address: 4_Taunt_3
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -132,6 +152,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2989e638e5917f141aa33fe88ca82253
+    m_Address: 4_Taunt
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 2a12c8ef5602fe5488c533c102086d7d
     m_Address: 4_TraktirTales
     m_ReadOnly: 0
@@ -152,6 +177,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 30e4316db0299644288417a1c691c4c7
+    m_Address: 4_Taunt_2
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 31ec6ce90cbf17444a0d704e33513b58
     m_Address: KingGuard_mid
     m_ReadOnly: 0
@@ -159,6 +189,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 320438b2bad26b64b93413388e266025
     m_Address: 12_Forest_Entrance_ALONE
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 34c0160c2fe7aa9469288db3855866aa
+    m_Address: 7_2b_StrongFigter
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -209,6 +244,16 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 3f6bc0888834b8d4ea7191e418a45aa3
     m_Address: KingGuard_old
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3f7160e99863fef49902e510df44e5e2
+    m_Address: 4_Capable
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3f919677cd59d3443832861c513e96d1
+    m_Address: 7_2B_drunkStory
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -348,7 +393,12 @@ MonoBehaviour:
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 5fd05ae75f27b614f867548a158a55c5
-    m_Address: 7_2_StrongFigter
+    m_Address: 7_2a_StrongFigter
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 60b4b513da8afd94db8e87304c9b1cf9
+    m_Address: 4_Reward
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -362,8 +412,18 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6264f9759467bb54ca4c5808dea7714e
+    m_Address: 7_4c_StrongFigter
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 63b8d26a9c1b9cb4eb99539924bd2f3b
+    m_Address: 5_3_BoyCatchU
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 63ea786b9ec5b454bbd471431057fd42
-    m_Address: 7_3_StrongFigter
+    m_Address: 7_3a_StrongFigter
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -392,6 +452,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6a13c9143e9111e469df4c1169efef18
+    m_Address: 7_4_test
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 6ae74f89e5006914ca5e67fb16c9b582
     m_Address: WoHorses
     m_ReadOnly: 0
@@ -404,6 +469,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 6dab975664b734845ba90ed79351f160
     m_Address: DeadFish
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6e8bb71200d47e845acc778421bdefb3
+    m_Address: 7_3C_drunkStory
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -487,6 +557,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 82ecb4c63ffb9d94fa946f4d94ee32a4
+    m_Address: 7_3B_drunkStory
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 834e790034b02c24ebc9e11d4a07dc97
     m_Address: Jail
     m_ReadOnly: 0
@@ -543,6 +618,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9aff173861edb354ba9cac2215ad305a
+    m_Address: 7_AfterCombat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 9b6d46e00f1e5ef43b12586b08e33b2e
     m_Address: 7_5_StrongFigter
     m_ReadOnly: 0
@@ -565,6 +645,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: a3c6b8ae8b3b57a498423fa0b598cf64
     m_Address: 3gold
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a4a88145327d24141a44d6d6122b6631
+    m_Address: 7_2A_drunkStory
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -598,6 +683,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b325cd16f70cb614ca137cb751d4b1f4
+    m_Address: 4_InnKeeperStillTalk
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: b3b508e6bb0e5ac44b70fa291fa441e7
     m_Address: Bazr
     m_ReadOnly: 0
@@ -608,8 +698,18 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b57f104f8681eac40930a6d38be944f4
+    m_Address: 7_1_drunkStory
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: ba03ab402c343bf45bde4ff1ec48c639
     m_Address: Wide
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bab9370b611009a4e866b2070eb832b4
+    m_Address: 4_MensAgree
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -633,8 +733,18 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bf9e19079f0a42346a9e6e66872b2ae2
+    m_Address: 4_Doubts
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: bfda25037043650409951ac81830f4eb
     m_Address: VillageHouse
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c18e414ce2c7daa47b12034389325b14
+    m_Address: TraktirBlur
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -665,6 +775,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: c6f78d8a9ab28ea42aa0588e928071d4
     m_Address: 18_2_CrazyHorses
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c9c8342b5ceced44da8deabd5c9bdafa
+    m_Address: 7_3b_StrongFigter
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -773,6 +888,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ec8bd7b4abf890744856dc31b95dd6af
+    m_Address: 7_4d_StrongFigter
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: ece10ed878334e24199d789722c76b7f
     m_Address: 8_NoSword
     m_ReadOnly: 0
@@ -808,6 +928,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f7746d2efe9a701459e430d1d56f2520
+    m_Address: 7_GoWhere
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: f7ac6ab6472ba5b4bbb883128ab4d7c0
     m_Address: DemoEnd
     m_ReadOnly: 0
@@ -840,6 +965,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: fba577c078b361f44bab5ae342b92477
     m_Address: 7_DeadEnd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fcefedf3a0926a44ebd8d25371458dad
+    m_Address: 6_Castle_Gate
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0

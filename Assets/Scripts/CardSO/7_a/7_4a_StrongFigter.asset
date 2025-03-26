@@ -12,23 +12,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8636afbb060c9543bb985dfc1b704ad, type: 3}
   m_Name: 7_4a_StrongFigter
   m_EditorClassIdentifier: 
-  portrait: {fileID: 21300000, guid: 103e48c1276507d4db598e0bc9c93daa, type: 3}
-  bannerAnimator: {fileID: 0}
-  animationClip: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 197dd67124b07df43a9a84d23debca95, type: 3}
+  bannerAnimator: {fileID: 9100000, guid: 443731da750020044b2c1478522ebd84, type: 2}
+  animationClip: {fileID: 7400000, guid: 3f30bb1b9d4fbfe459f29f1ad7741892, type: 2}
   bannerSound: {fileID: 0}
   bannerText: 7_4a_StrongFigter_bunner
   checkPoint: 0
   leftCard:
     messageText: 7_4a_StrongFigter_cardLeft
-    illustrationSprite: {fileID: 21300000, guid: 67a3e61c0eba3fd419a4d1df12ab19aa, type: 3}
-    animator: {fileID: 9100000, guid: 30363666fb5d0fd4aaead09c592d2633, type: 2}
-    animationClip: {fileID: 7400000, guid: 0c3af284b1bf56a40aa5919fedf2fd68, type: 2}
+    illustrationSprite: {fileID: 21300000, guid: 9fc1c3f76e43f814a9b4b544133f8ed0, type: 3}
+    animator: {fileID: 9100000, guid: ad45f86425dd4314cbfac146b5526a84, type: 2}
+    animationClip: {fileID: 7400000, guid: c3103df58126c5540977b9343879b9ed, type: 2}
     itemSprite: {fileID: 0}
-    requiredItemSprite: {fileID: 21300000, guid: f3f8b74d060340c4bbb001c0cf4797db, type: 3}
+    requiredItemSprite: {fileID: 0}
     removeItemSprite: 0
-    changeBanner: 1
+    changeBanner: 0
     nextSetIfItem: {fileID: 11400000, guid: 9b6d46e00f1e5ef43b12586b08e33b2e, type: 2}
-    nextSetIfNoItem: {fileID: 11400000, guid: 9b6d46e00f1e5ef43b12586b08e33b2e, type: 2}
+    nextSetIfNoItem: {fileID: 0}
     isWinIfItem: 0
     winContentIfItem: []
     locationSpriteIfItem: {fileID: 0}
@@ -39,10 +39,10 @@ MonoBehaviour:
     isWinIfNoItem: 0
     winContentIfNoItem: []
     locationSpriteNoItem: {fileID: 0}
-    reverseSpriteIfNoItem: {fileID: 0}
+    reverseSpriteIfNoItem: {fileID: 21300000, guid: 2194bc2f7ee92b349815abb48f99b843, type: 3}
     reverseAudioClipNoItem: {fileID: 0}
     reverseTopTextIfNoItem: 7_4a_StrongFigter_cardLeft_REV_NO
-    changeLifePointsIfNoItem: 0
+    changeLifePointsIfNoItem: 1
   rightCard:
     messageText: 7_4a_StrongFigter_cardRight
     illustrationSprite: {fileID: 21300000, guid: ae17f90630edeba4395cf82fd7a6ace7, type: 3}
@@ -51,21 +51,11 @@ MonoBehaviour:
     itemSprite: {fileID: 0}
     requiredItemSprite: {fileID: 0}
     removeItemSprite: 0
-    changeBanner: 1
+    changeBanner: 0
     nextSetIfItem: {fileID: 11400000, guid: 9b6d46e00f1e5ef43b12586b08e33b2e, type: 2}
     nextSetIfNoItem: {fileID: 0}
     isWinIfItem: 0
-    winContentIfItem:
-    - Sprite: {fileID: 21300000, guid: 00144b0161cf1094ebc48d47c2ffc238, type: 3}
-      Message: "\u0410 \u0447\u0442\u043E \u043D\u0430\u0448\u0435\u043B \u043D\u0430\u0448
-        \u0433\u0435\u0440\u043E\u0439 \u043C\u044B \u0443\u0437\u043D\u0430\u0435\u043C
-        \u0432 \u0441\u043B\u0435\u0434\u0443\u044E\u0449\u0435\u0439 \u0432\u0435\u0440\u0441\u0438\u0438"
-    - Sprite: {fileID: 21300000, guid: 00144b0161cf1094ebc48d47c2ffc238, type: 3}
-      Message: "\u041E\u0431\u044F\u0437\u0430\u0442\u0435\u043B\u044C\u043D\u043E
-        \u0434\u043E\u0431\u0430\u0432\u044C\u0442\u0435 \u0438\u0433\u0440\u0443
-        \u0432 \u0412\u0438\u0448\u043B\u0438\u0441\u0442 \u043D\u0430 \u0421\u0442\u0438\u043C\u0435,
-        \u0434\u043B\u044F \u043D\u0430\u0441 \u044D\u0442\u043E \u043E\u0447\u0435\u043D\u044C
-        \u0432\u0430\u0436\u043D\u043E!!!"
+    winContentIfItem: []
     locationSpriteIfItem: {fileID: 0}
     reverseSpriteIfItem: {fileID: 21300000, guid: 8cae47ce39b9ba14892a9f8677c4e344, type: 3}
     reverseAudioClipItem: {fileID: 0}

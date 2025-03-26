@@ -20,9 +20,9 @@ MonoBehaviour:
   checkPoint: 0
   leftCard:
     messageText: 12_Forest_Entrance_cardLeft
-    illustrationSprite: {fileID: 21300000, guid: ee4a17ccec00d6a4b9168320f8e269bd, type: 3}
-    animator: {fileID: 0}
-    animationClip: {fileID: 0}
+    illustrationSprite: {fileID: 21300000, guid: 72d0076261d2e0e4989357ab904e7b63, type: 3}
+    animator: {fileID: 9100000, guid: 86f18b7fc0d408b4a8552d2eea28d47b, type: 2}
+    animationClip: {fileID: 7400000, guid: ec22b3feb08981b47b55854abc12dbff, type: 2}
     itemSprite: {fileID: 0}
     requiredItemSprite: {fileID: 0}
     removeItemSprite: 0
@@ -45,9 +45,9 @@ MonoBehaviour:
     changeLifePointsIfNoItem: 0
   rightCard:
     messageText: 12_Forest_Entrance_cardRight
-    illustrationSprite: {fileID: 21300000, guid: 7d48d941124353c4c88e33a86d3a455b, type: 3}
-    animator: {fileID: 0}
-    animationClip: {fileID: 0}
+    illustrationSprite: {fileID: 21300000, guid: 88c94409b9adb4a469966c3650de477e, type: 3}
+    animator: {fileID: 9100000, guid: 0c2debeb09adccf43bb85efd58fa99ae, type: 2}
+    animationClip: {fileID: 7400000, guid: b3b650c8d6964ae46909fe86efd56195, type: 2}
     itemSprite: {fileID: 0}
     requiredItemSprite: {fileID: 0}
     removeItemSprite: 0

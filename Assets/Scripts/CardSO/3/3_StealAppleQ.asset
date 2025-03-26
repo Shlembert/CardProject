@@ -20,9 +20,34 @@ MonoBehaviour:
   checkPoint: 0
   leftCard:
     messageText: 3_StealAppleQ_cardLeft
+    illustrationSprite: {fileID: 21300000, guid: aa8411d78a9c7644da232d4b938c68ec, type: 3}
+    animator: {fileID: 9100000, guid: a2ec5a0c1702f8e4a995de777d743672, type: 2}
+    animationClip: {fileID: 7400000, guid: 3fc77121ea7e7574c9069aab0bdef3bb, type: 2}
+    itemSprite: {fileID: 0}
+    requiredItemSprite: {fileID: 0}
+    removeItemSprite: 0
+    changeBanner: 1
+    nextSetIfItem: {fileID: 11400000, guid: 003d1931d5ad734488f1eedb3aa39405, type: 2}
+    nextSetIfNoItem: {fileID: 0}
+    isWinIfItem: 0
+    winContentIfItem: []
+    locationSpriteIfItem: {fileID: 0}
+    reverseSpriteIfItem: {fileID: 21300000, guid: 8cae47ce39b9ba14892a9f8677c4e344, type: 3}
+    reverseAudioClipItem: {fileID: 0}
+    reverseTopTextIfItem: 3_StealAppleQ_cardLeft_REV
+    changeLifePointsIfItem: -1
+    isWinIfNoItem: 0
+    winContentIfNoItem: []
+    locationSpriteNoItem: {fileID: 0}
+    reverseSpriteIfNoItem: {fileID: 0}
+    reverseAudioClipNoItem: {fileID: 0}
+    reverseTopTextIfNoItem: 
+    changeLifePointsIfNoItem: 0
+  rightCard:
+    messageText: 3_StealAppleQ_cardRight
     illustrationSprite: {fileID: 21300000, guid: fed9f89cf90fa584aa401d976e0505fc, type: 3}
-    animator: {fileID: 9100000, guid: b9296f8ce75cf7344b3f6c6dd6ffbd33, type: 2}
-    animationClip: {fileID: 7400000, guid: dd5f79114f569064bab7ebd3da13c68e, type: 2}
+    animator: {fileID: 9100000, guid: 44231a1fbf51cee4faf7044eacb0d975, type: 2}
+    animationClip: {fileID: 7400000, guid: b0a545f7ed99d8245a779bb583cb7b68, type: 2}
     itemSprite: {fileID: 0}
     requiredItemSprite: {fileID: 0}
     removeItemSprite: 0
@@ -33,31 +58,6 @@ MonoBehaviour:
     winContentIfItem: []
     locationSpriteIfItem: {fileID: 0}
     reverseSpriteIfItem: {fileID: 21300000, guid: 66accba137586d64590217e1149d8269, type: 3}
-    reverseAudioClipItem: {fileID: 0}
-    reverseTopTextIfItem: 3_StealAppleQ_cardLeft_REV
-    changeLifePointsIfItem: 0
-    isWinIfNoItem: 0
-    winContentIfNoItem: []
-    locationSpriteNoItem: {fileID: 0}
-    reverseSpriteIfNoItem: {fileID: 0}
-    reverseAudioClipNoItem: {fileID: 0}
-    reverseTopTextIfNoItem: 
-    changeLifePointsIfNoItem: 0
-  rightCard:
-    messageText: 3_StealAppleQ_cardRight
-    illustrationSprite: {fileID: 21300000, guid: 9609ebf79a5de9e42a745b00e34504c8, type: 3}
-    animator: {fileID: 9100000, guid: b4e1ededc39ee00478c43eb2ef42438d, type: 2}
-    animationClip: {fileID: 7400000, guid: 0544b4a5731fd934b82c38825523a737, type: 2}
-    itemSprite: {fileID: 0}
-    requiredItemSprite: {fileID: 0}
-    removeItemSprite: 0
-    changeBanner: 1
-    nextSetIfItem: {fileID: 11400000, guid: 62025905fae674749a2d84268f4f6c78, type: 2}
-    nextSetIfNoItem: {fileID: 0}
-    isWinIfItem: 0
-    winContentIfItem: []
-    locationSpriteIfItem: {fileID: 0}
-    reverseSpriteIfItem: {fileID: 21300000, guid: b17b58397391a834ea1727716cce76c8, type: 3}
     reverseAudioClipItem: {fileID: 0}
     reverseTopTextIfItem: 3_StealAppleQ_cardRight_REV
     changeLifePointsIfItem: 0

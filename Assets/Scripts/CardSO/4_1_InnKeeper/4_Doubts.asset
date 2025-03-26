@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8636afbb060c9543bb985dfc1b704ad, type: 3}
+  m_Name: 4_Doubts
+  m_EditorClassIdentifier: 
+  portrait: {fileID: 21300000, guid: 197dd67124b07df43a9a84d23debca95, type: 3}
+  bannerAnimator: {fileID: 9100000, guid: 443731da750020044b2c1478522ebd84, type: 2}
+  animationClip: {fileID: 7400000, guid: 3f30bb1b9d4fbfe459f29f1ad7741892, type: 2}
+  bannerSound: {fileID: 0}
+  bannerText: 4_Doubts_bunner
+  checkPoint: 0
+  leftCard:
+    messageText: 4_Doubts_cardLeft
+    illustrationSprite: {fileID: 21300000, guid: 66539443e6d7dc74a92dc0d10ff5e0d5, type: 3}
+    animator: {fileID: 9100000, guid: 71c4f39f91f393b489e7f3b503bbe2aa, type: 2}
+    animationClip: {fileID: 7400000, guid: 5feca7e2b76274e498c98fa79386f96e, type: 2}
+    itemSprite: {fileID: 0}
+    requiredItemSprite: {fileID: 0}
+    removeItemSprite: 0
+    changeBanner: 1
+    nextSetIfItem: {fileID: 11400000, guid: 9aff173861edb354ba9cac2215ad305a, type: 2}
+    nextSetIfNoItem: {fileID: 0}
+    isWinIfItem: 0
+    winContentIfItem: []
+    locationSpriteIfItem: {fileID: 0}
+    reverseSpriteIfItem: {fileID: 21300000, guid: f9af4b098af50e042a863c5b4ee2415f, type: 3}
+    reverseAudioClipItem: {fileID: 0}
+    reverseTopTextIfItem: 4_Doubts_cardLeft_REV
+    changeLifePointsIfItem: 0
+    isWinIfNoItem: 0
+    winContentIfNoItem: []
+    locationSpriteNoItem: {fileID: 0}
+    reverseSpriteIfNoItem: {fileID: 0}
+    reverseAudioClipNoItem: {fileID: 0}
+    reverseTopTextIfNoItem: 
+    changeLifePointsIfNoItem: 0
+  rightCard:
+    messageText: 4_Doubts_cardRight
+    illustrationSprite: {fileID: 21300000, guid: ae17f90630edeba4395cf82fd7a6ace7, type: 3}
+    animator: {fileID: 9100000, guid: 3fbb24bd8e8979b4191438a91033b961, type: 2}
+    animationClip: {fileID: 7400000, guid: c4e4dd12bf1841d49b45adc838e04ea7, type: 2}
+    itemSprite: {fileID: 0}
+    requiredItemSprite: {fileID: 0}
+    removeItemSprite: 0
+    changeBanner: 1
+    nextSetIfItem: {fileID: 11400000, guid: bab9370b611009a4e866b2070eb832b4, type: 2}
+    nextSetIfNoItem: {fileID: 0}
+    isWinIfItem: 0
+    winContentIfItem: []
+    locationSpriteIfItem: {fileID: 0}
+    reverseSpriteIfItem: {fileID: 21300000, guid: 0d1bc0b45dd4c52429e7c03ad8400d50, type: 3}
+    reverseAudioClipItem: {fileID: 0}
+    reverseTopTextIfItem: 4_Doubts_cardRight_REV
+    changeLifePointsIfItem: 0
+    isWinIfNoItem: 0
+    winContentIfNoItem: []
+    locationSpriteNoItem: {fileID: 0}
+    reverseSpriteIfNoItem: {fileID: 0}
+    reverseAudioClipNoItem: {fileID: 0}
+    reverseTopTextIfNoItem: 
+    changeLifePointsIfNoItem: 0

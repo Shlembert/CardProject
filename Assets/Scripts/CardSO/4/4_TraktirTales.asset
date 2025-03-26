@@ -20,9 +20,9 @@ MonoBehaviour:
   checkPoint: 0
   leftCard:
     messageText: 4_TraktirTales_cardLeft
-    illustrationSprite: {fileID: 21300000, guid: 162285300da328a42857955a1ae90d94, type: 3}
-    animator: {fileID: 0}
-    animationClip: {fileID: 0}
+    illustrationSprite: {fileID: 21300000, guid: 148be241800cd054ea72c0b444aa419f, type: 3}
+    animator: {fileID: 9100000, guid: 92c5b9d52a80cae499342ad36565380d, type: 2}
+    animationClip: {fileID: 7400000, guid: dc0b284b22ba7d443ba302dbc037ee7b, type: 2}
     itemSprite: {fileID: 0}
     requiredItemSprite: {fileID: 0}
     removeItemSprite: 0
@@ -32,7 +32,7 @@ MonoBehaviour:
     isWinIfItem: 0
     winContentIfItem: []
     locationSpriteIfItem: {fileID: 0}
-    reverseSpriteIfItem: {fileID: 21300000, guid: f9af4b098af50e042a863c5b4ee2415f, type: 3}
+    reverseSpriteIfItem: {fileID: 21300000, guid: 2cf64012fc927db48aaa578e3ba4e58b, type: 3}
     reverseAudioClipItem: {fileID: 0}
     reverseTopTextIfItem: 4_TraktirTales_cardLeft_REV
     changeLifePointsIfItem: 0
@@ -45,19 +45,19 @@ MonoBehaviour:
     changeLifePointsIfNoItem: 0
   rightCard:
     messageText: 4_TraktirTales_cardRight
-    illustrationSprite: {fileID: 21300000, guid: 0af81a4718a4d7f489924926e136426a, type: 3}
-    animator: {fileID: 9100000, guid: 078ed73d416e50849bcc143c42d3a6cb, type: 2}
-    animationClip: {fileID: 7400000, guid: 974a6e657acc53249af1b95e6ea71426, type: 2}
+    illustrationSprite: {fileID: 21300000, guid: 4ad1788077fda4a44a8e95fd1aeb6488, type: 3}
+    animator: {fileID: 9100000, guid: da5c36fff1b846a49ab62b20d36ce481, type: 2}
+    animationClip: {fileID: 7400000, guid: 0e4c0fc05db27174dadd7f9828bb1c0a, type: 2}
     itemSprite: {fileID: 0}
     requiredItemSprite: {fileID: 0}
     removeItemSprite: 0
     changeBanner: 1
-    nextSetIfItem: {fileID: 11400000, guid: fb555fd3966b6ee408314ab49f6ba688, type: 2}
+    nextSetIfItem: {fileID: 11400000, guid: 81d88047b0f054542966ca2ece1978ca, type: 2}
     nextSetIfNoItem: {fileID: 0}
     isWinIfItem: 0
     winContentIfItem: []
-    locationSpriteIfItem: {fileID: 21300000, guid: 707c135420fff1c41ad274f4ddbeeda4, type: 3}
-    reverseSpriteIfItem: {fileID: 21300000, guid: 184f121fd3272854c94c227f17979429, type: 3}
+    locationSpriteIfItem: {fileID: 0}
+    reverseSpriteIfItem: {fileID: 21300000, guid: af75bd469d35ec14197fb14951b9b7d3, type: 3}
     reverseAudioClipItem: {fileID: 0}
     reverseTopTextIfItem: 4_TraktirTales_cardRight_REV
     changeLifePointsIfItem: 0

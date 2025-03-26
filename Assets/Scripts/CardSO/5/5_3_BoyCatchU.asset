@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8636afbb060c9543bb985dfc1b704ad, type: 3}
+  m_Name: 5_3_BoyCatchU
+  m_EditorClassIdentifier: 
+  portrait: {fileID: 21300000, guid: 197dd67124b07df43a9a84d23debca95, type: 3}
+  bannerAnimator: {fileID: 9100000, guid: 443731da750020044b2c1478522ebd84, type: 2}
+  animationClip: {fileID: 7400000, guid: 3f30bb1b9d4fbfe459f29f1ad7741892, type: 2}
+  bannerSound: {fileID: 0}
+  bannerText: 5_3_BoyCatchU_bunner
+  checkPoint: 0
+  leftCard:
+    messageText: 5_3_BoyCatchU_cardLeft
+    illustrationSprite: {fileID: 21300000, guid: 67a3e61c0eba3fd419a4d1df12ab19aa, type: 3}
+    animator: {fileID: 9100000, guid: 30363666fb5d0fd4aaead09c592d2633, type: 2}
+    animationClip: {fileID: 7400000, guid: 0c3af284b1bf56a40aa5919fedf2fd68, type: 2}
+    itemSprite: {fileID: 0}
+    requiredItemSprite: {fileID: 21300000, guid: d3d8a119bad36224fbf125a81595d63d, type: 3}
+    removeItemSprite: 1
+    changeBanner: 1
+    nextSetIfItem: {fileID: 11400000, guid: 7a7bab3e5c65c82439f9fee0580743d7, type: 2}
+    nextSetIfNoItem: {fileID: 0}
+    isWinIfItem: 0
+    winContentIfItem: []
+    locationSpriteIfItem: {fileID: 0}
+    reverseSpriteIfItem: {fileID: 21300000, guid: 0dfb13049c9a6674789c01d10dbc0f87, type: 3}
+    reverseAudioClipItem: {fileID: 0}
+    reverseTopTextIfItem: 5_3_BoyCatchU_cardLeft_REV
+    changeLifePointsIfItem: 0
+    isWinIfNoItem: 0
+    winContentIfNoItem: []
+    locationSpriteNoItem: {fileID: 0}
+    reverseSpriteIfNoItem: {fileID: 0}
+    reverseAudioClipNoItem: {fileID: 0}
+    reverseTopTextIfNoItem: 
+    changeLifePointsIfNoItem: 0
+  rightCard:
+    messageText: 5_3_BoyCatchU_cardRight
+    illustrationSprite: {fileID: 21300000, guid: ae17f90630edeba4395cf82fd7a6ace7, type: 3}
+    animator: {fileID: 9100000, guid: 3fbb24bd8e8979b4191438a91033b961, type: 2}
+    animationClip: {fileID: 7400000, guid: c4e4dd12bf1841d49b45adc838e04ea7, type: 2}
+    itemSprite: {fileID: 0}
+    requiredItemSprite: {fileID: 0}
+    removeItemSprite: 0
+    changeBanner: 1
+    nextSetIfItem: {fileID: 11400000, guid: 7a7bab3e5c65c82439f9fee0580743d7, type: 2}
+    nextSetIfNoItem: {fileID: 0}
+    isWinIfItem: 0
+    winContentIfItem: []
+    locationSpriteIfItem: {fileID: 0}
+    reverseSpriteIfItem: {fileID: 21300000, guid: e8fdc9a667d902b4da86c76937b05549, type: 3}
+    reverseAudioClipItem: {fileID: 0}
+    reverseTopTextIfItem: 5_3_BoyCatchU_cardRight_REV
+    changeLifePointsIfItem: 0
+    isWinIfNoItem: 0
+    winContentIfNoItem: []
+    locationSpriteNoItem: {fileID: 0}
+    reverseSpriteIfNoItem: {fileID: 0}
+    reverseAudioClipNoItem: {fileID: 0}
+    reverseTopTextIfNoItem: 
+    changeLifePointsIfNoItem: 0

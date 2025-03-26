@@ -26,18 +26,19 @@ MonoBehaviour:
     itemSprite: {fileID: 0}
     requiredItemSprite: {fileID: 0}
     removeItemSprite: 0
-    changeBanner: 0
-    locationSprite: {fileID: 0}
+    changeBanner: 1
     nextSetIfItem: {fileID: 11400000, guid: e6ef0b5954f6f044dbc082a54225770f, type: 2}
     nextSetIfNoItem: {fileID: 0}
     isWinIfItem: 0
     winContentIfItem: []
+    locationSpriteIfItem: {fileID: 0}
     reverseSpriteIfItem: {fileID: 21300000, guid: c68476811dc42554f8ed48c5343ba57b, type: 3}
     reverseAudioClipItem: {fileID: 0}
     reverseTopTextIfItem: 5_2_StealAppleCatch_cardLeft_REV
     changeLifePointsIfItem: 0
     isWinIfNoItem: 0
     winContentIfNoItem: []
+    locationSpriteNoItem: {fileID: 0}
     reverseSpriteIfNoItem: {fileID: 0}
     reverseAudioClipNoItem: {fileID: 0}
     reverseTopTextIfNoItem: 
@@ -50,18 +51,19 @@ MonoBehaviour:
     itemSprite: {fileID: 21300000, guid: d3d8a119bad36224fbf125a81595d63d, type: 3}
     requiredItemSprite: {fileID: 0}
     removeItemSprite: 0
-    changeBanner: 0
-    locationSprite: {fileID: 0}
-    nextSetIfItem: {fileID: 11400000, guid: 7a7bab3e5c65c82439f9fee0580743d7, type: 2}
+    changeBanner: 1
+    nextSetIfItem: {fileID: 11400000, guid: 63b8d26a9c1b9cb4eb99539924bd2f3b, type: 2}
     nextSetIfNoItem: {fileID: 0}
     isWinIfItem: 0
     winContentIfItem: []
+    locationSpriteIfItem: {fileID: 0}
     reverseSpriteIfItem: {fileID: 21300000, guid: 3efe5662c8e0eb84f8a241a42115c450, type: 3}
     reverseAudioClipItem: {fileID: 0}
     reverseTopTextIfItem: 5_2_StealAppleCatch_cardRight_REV
     changeLifePointsIfItem: 0
     isWinIfNoItem: 0
     winContentIfNoItem: []
+    locationSpriteNoItem: {fileID: 0}
     reverseSpriteIfNoItem: {fileID: 0}
     reverseAudioClipNoItem: {fileID: 0}
     reverseTopTextIfNoItem: 

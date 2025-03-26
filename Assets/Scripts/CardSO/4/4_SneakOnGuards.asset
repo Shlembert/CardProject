@@ -20,19 +20,19 @@ MonoBehaviour:
   checkPoint: 0
   leftCard:
     messageText: 4_SneakOnGuards_cardLeft
-    illustrationSprite: {fileID: 21300000, guid: 0d38550f1ab6802478d5d50b01b3a758, type: 3}
-    animator: {fileID: 9100000, guid: a70de2b8e03ccd14ba861ac2b247dd17, type: 2}
-    animationClip: {fileID: 7400000, guid: 8dca9e793794260469e273157ac22364, type: 2}
+    illustrationSprite: {fileID: 21300000, guid: 4ad1788077fda4a44a8e95fd1aeb6488, type: 3}
+    animator: {fileID: 9100000, guid: da5c36fff1b846a49ab62b20d36ce481, type: 2}
+    animationClip: {fileID: 7400000, guid: 0e4c0fc05db27174dadd7f9828bb1c0a, type: 2}
     itemSprite: {fileID: 0}
     requiredItemSprite: {fileID: 0}
     removeItemSprite: 0
     changeBanner: 1
-    nextSetIfItem: {fileID: 11400000, guid: ee584dca9c024f948afa3d15c23a1e7f, type: 2}
+    nextSetIfItem: {fileID: 11400000, guid: 20e07ad3ec52777469832805e3bf44a6, type: 2}
     nextSetIfNoItem: {fileID: 0}
     isWinIfItem: 0
     winContentIfItem: []
-    locationSpriteIfItem: {fileID: 21300000, guid: fb01f945b09d07547b43a49371531617, type: 3}
-    reverseSpriteIfItem: {fileID: 21300000, guid: 10ed81f74a9ca71469951e7a745001d2, type: 3}
+    locationSpriteIfItem: {fileID: 0}
+    reverseSpriteIfItem: {fileID: 21300000, guid: b17b58397391a834ea1727716cce76c8, type: 3}
     reverseAudioClipItem: {fileID: 0}
     reverseTopTextIfItem: 4_SneakOnGuards_cardLeft_REV
     changeLifePointsIfItem: 0
@@ -45,19 +45,19 @@ MonoBehaviour:
     changeLifePointsIfNoItem: 0
   rightCard:
     messageText: 4_SneakOnGuards_cardRight
-    illustrationSprite: {fileID: 21300000, guid: 021643d2d126af34181a9687db279112, type: 3}
-    animator: {fileID: 0}
-    animationClip: {fileID: 0}
+    illustrationSprite: {fileID: 21300000, guid: dbadaca5cca0b1e4b861ddb3d6e2f0c6, type: 3}
+    animator: {fileID: 9100000, guid: 8dadbac0156e5264f8cec6a609268c53, type: 2}
+    animationClip: {fileID: 7400000, guid: da167e45fba1b6c4aa968c73be197605, type: 2}
     itemSprite: {fileID: 0}
-    requiredItemSprite: {fileID: 21300000, guid: e3b5a8178011df249b991e74becccdc6, type: 3}
-    removeItemSprite: 1
+    requiredItemSprite: {fileID: 0}
+    removeItemSprite: 0
     changeBanner: 1
-    nextSetIfItem: {fileID: 11400000, guid: 92f33e50c6a9dfa41b83835b91648dc1, type: 2}
+    nextSetIfItem: {fileID: 11400000, guid: 20e07ad3ec52777469832805e3bf44a6, type: 2}
     nextSetIfNoItem: {fileID: 0}
     isWinIfItem: 0
     winContentIfItem: []
-    locationSpriteIfItem: {fileID: 21300000, guid: 6471b42b56f51404c8c20d82dfc13b0b, type: 3}
-    reverseSpriteIfItem: {fileID: 21300000, guid: f9af4b098af50e042a863c5b4ee2415f, type: 3}
+    locationSpriteIfItem: {fileID: 0}
+    reverseSpriteIfItem: {fileID: 21300000, guid: 32a8e6d4c547a6743a4d561ae9bd02cf, type: 3}
     reverseAudioClipItem: {fileID: 0}
     reverseTopTextIfItem: 4_SneakOnGuards_cardRight_REV
     changeLifePointsIfItem: 0

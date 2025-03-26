@@ -52,7 +52,7 @@ MonoBehaviour:
     requiredItemSprite: {fileID: 0}
     removeItemSprite: 0
     changeBanner: 1
-    nextSetIfItem: {fileID: 11400000, guid: a64ca44ae06b9d84087d7c618bf10924, type: 2}
+    nextSetIfItem: {fileID: 11400000, guid: fe6e627d60629c74ca6e21736aa08788, type: 2}
     nextSetIfNoItem: {fileID: 0}
     isWinIfItem: 0
     winContentIfItem: []

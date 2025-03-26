@@ -20,9 +20,9 @@ MonoBehaviour:
   checkPoint: 0
   leftCard:
     messageText: 5_1_RunHarbor_cardLeft
-    illustrationSprite: {fileID: 21300000, guid: 344f85ed6d881c340ac62b45065f59cf, type: 3}
-    animator: {fileID: 0}
-    animationClip: {fileID: 0}
+    illustrationSprite: {fileID: 21300000, guid: a3740b8954b479c4bb7d909e4d7712e1, type: 3}
+    animator: {fileID: 9100000, guid: f09c3617b037491429f3fe8f288ebdcc, type: 2}
+    animationClip: {fileID: 7400000, guid: d256c0980ef1ef542ad4f6920ca5bd04, type: 2}
     itemSprite: {fileID: 0}
     requiredItemSprite: {fileID: 0}
     removeItemSprite: 0
@@ -35,7 +35,7 @@ MonoBehaviour:
     reverseSpriteIfItem: {fileID: 21300000, guid: 8cae47ce39b9ba14892a9f8677c4e344, type: 3}
     reverseAudioClipItem: {fileID: 0}
     reverseTopTextIfItem: 5_1_RunHarbor_cardLeft_REV
-    changeLifePointsIfItem: 0
+    changeLifePointsIfItem: -1
     isWinIfNoItem: 0
     winContentIfNoItem: []
     locationSpriteNoItem: {fileID: 0}
@@ -45,9 +45,9 @@ MonoBehaviour:
     changeLifePointsIfNoItem: 0
   rightCard:
     messageText: 5_1_RunHarbor_cardRight
-    illustrationSprite: {fileID: 21300000, guid: 0af81a4718a4d7f489924926e136426a, type: 3}
-    animator: {fileID: 9100000, guid: 078ed73d416e50849bcc143c42d3a6cb, type: 2}
-    animationClip: {fileID: 7400000, guid: 974a6e657acc53249af1b95e6ea71426, type: 2}
+    illustrationSprite: {fileID: 21300000, guid: 06547fa020560ec4da79b88a8bb92e63, type: 3}
+    animator: {fileID: 9100000, guid: 456c736c9dac65e43880663f08c9f9ce, type: 2}
+    animationClip: {fileID: 7400000, guid: 62e5df6b6baa88242b8b5f9a146a5fd8, type: 2}
     itemSprite: {fileID: 21300000, guid: 8153d05e4a79d104d9cddedd0f7d6791, type: 3}
     requiredItemSprite: {fileID: 0}
     removeItemSprite: 0

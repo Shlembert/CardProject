@@ -23,7 +23,7 @@ MonoBehaviour:
     illustrationSprite: {fileID: 21300000, guid: 7dac7dd3a7a559746b73806ac73395b4, type: 3}
     animator: {fileID: 0}
     animationClip: {fileID: 0}
-    itemSprite: {fileID: 21300000, guid: a3c6b8ae8b3b57a498423fa0b598cf64, type: 3}
+    itemSprite: {fileID: 21300000, guid: aad4ab05936f13f4aa0a8ab249ec2fd2, type: 3}
     requiredItemSprite: {fileID: 21300000, guid: 55ce038ddc84b254e886e7a735541e2a, type: 3}
     removeItemSprite: 1
     changeBanner: 1
@@ -31,7 +31,7 @@ MonoBehaviour:
     nextSetIfNoItem: {fileID: 0}
     isWinIfItem: 0
     winContentIfItem: []
-    locationSpriteIfItem: {fileID: 21300000, guid: 5f61605eb126d744fb65b55296652407, type: 3}
+    locationSpriteIfItem: {fileID: 0}
     reverseSpriteIfItem: {fileID: 21300000, guid: 86e91588045407e42bca2240f8c29e58, type: 3}
     reverseAudioClipItem: {fileID: 0}
     reverseTopTextIfItem: 17_OldMan_Pay_cardLeft_REV

@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8636afbb060c9543bb985dfc1b704ad, type: 3}
+  m_Name: 7_AfterCombat
+  m_EditorClassIdentifier: 
+  portrait: {fileID: 21300000, guid: 197dd67124b07df43a9a84d23debca95, type: 3}
+  bannerAnimator: {fileID: 9100000, guid: 443731da750020044b2c1478522ebd84, type: 2}
+  animationClip: {fileID: 7400000, guid: 3f30bb1b9d4fbfe459f29f1ad7741892, type: 2}
+  bannerSound: {fileID: 0}
+  bannerText: 7_AfterCombat_bunner
+  checkPoint: 0
+  leftCard:
+    messageText: 7_AfterCombat_cardLeft
+    illustrationSprite: {fileID: 21300000, guid: e3b432057d3cca84681bd36eea8819de, type: 3}
+    animator: {fileID: 9100000, guid: 92c5b9d52a80cae499342ad36565380d, type: 2}
+    animationClip: {fileID: 7400000, guid: dc0b284b22ba7d443ba302dbc037ee7b, type: 2}
+    itemSprite: {fileID: 0}
+    requiredItemSprite: {fileID: 0}
+    removeItemSprite: 0
+    changeBanner: 1
+    nextSetIfItem: {fileID: 11400000, guid: b57f104f8681eac40930a6d38be944f4, type: 2}
+    nextSetIfNoItem: {fileID: 0}
+    isWinIfItem: 0
+    winContentIfItem: []
+    locationSpriteIfItem: {fileID: 21300000, guid: c18e414ce2c7daa47b12034389325b14, type: 3}
+    reverseSpriteIfItem: {fileID: 21300000, guid: e3b432057d3cca84681bd36eea8819de, type: 3}
+    reverseAudioClipItem: {fileID: 0}
+    reverseTopTextIfItem: 7_AfterCombat_cardLeft_REV
+    changeLifePointsIfItem: 0
+    isWinIfNoItem: 0
+    winContentIfNoItem: []
+    locationSpriteNoItem: {fileID: 0}
+    reverseSpriteIfNoItem: {fileID: 0}
+    reverseAudioClipNoItem: {fileID: 0}
+    reverseTopTextIfNoItem: 
+    changeLifePointsIfNoItem: 0
+  rightCard:
+    messageText: 7_AfterCombat_cardRight
+    illustrationSprite: {fileID: 21300000, guid: e3b432057d3cca84681bd36eea8819de, type: 3}
+    animator: {fileID: 9100000, guid: 92c5b9d52a80cae499342ad36565380d, type: 2}
+    animationClip: {fileID: 7400000, guid: dc0b284b22ba7d443ba302dbc037ee7b, type: 2}
+    itemSprite: {fileID: 0}
+    requiredItemSprite: {fileID: 0}
+    removeItemSprite: 0
+    changeBanner: 1
+    nextSetIfItem: {fileID: 11400000, guid: b57f104f8681eac40930a6d38be944f4, type: 2}
+    nextSetIfNoItem: {fileID: 0}
+    isWinIfItem: 0
+    winContentIfItem: []
+    locationSpriteIfItem: {fileID: 21300000, guid: c18e414ce2c7daa47b12034389325b14, type: 3}
+    reverseSpriteIfItem: {fileID: 21300000, guid: e3b432057d3cca84681bd36eea8819de, type: 3}
+    reverseAudioClipItem: {fileID: 0}
+    reverseTopTextIfItem: 7_AfterCombat_cardRight_REV
+    changeLifePointsIfItem: 0
+    isWinIfNoItem: 0
+    winContentIfNoItem: []
+    locationSpriteNoItem: {fileID: 0}
+    reverseSpriteIfNoItem: {fileID: 0}
+    reverseAudioClipNoItem: {fileID: 0}
+    reverseTopTextIfNoItem: 
+    changeLifePointsIfNoItem: 0

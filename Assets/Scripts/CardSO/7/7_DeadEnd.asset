@@ -45,9 +45,9 @@ MonoBehaviour:
     changeLifePointsIfNoItem: 0
   rightCard:
     messageText: 7_DeadEnd_cardRight
-    illustrationSprite: {fileID: 21300000, guid: be6c13e0464568b46bd567767026a2d7, type: 3}
-    animator: {fileID: 9100000, guid: c4f1b35d135a5054da744af557b758f0, type: 2}
-    animationClip: {fileID: 7400000, guid: 1138f9b2c2d79d946a02fc55e225fadc, type: 2}
+    illustrationSprite: {fileID: 21300000, guid: 01dad63cb1e2f4c4d83be3d7a1857e7b, type: 3}
+    animator: {fileID: 9100000, guid: 67277f510ef7c894bb80d082deb93157, type: 2}
+    animationClip: {fileID: 7400000, guid: 164ceb72a36342547912e7e0039629f3, type: 2}
     itemSprite: {fileID: 0}
     requiredItemSprite: {fileID: 0}
     removeItemSprite: 0
