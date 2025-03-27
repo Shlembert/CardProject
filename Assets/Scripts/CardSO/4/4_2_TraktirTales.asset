@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8636afbb060c9543bb985dfc1b704ad, type: 3}
   m_Name: 4_2_TraktirTales
   m_EditorClassIdentifier: 
-  portrait: {fileID: 21300000, guid: 27accc1fceaf45b40a7f626312f968d3, type: 3}
-  bannerAnimator: {fileID: 9100000, guid: bdf0fe02bd635f849b13cc687da54a51, type: 2}
-  animationClip: {fileID: 7400000, guid: 0625e06b7ebe00c469eeabf6c14fd152, type: 2}
+  portrait: {fileID: 21300000, guid: 464fabfda0cb1de40a7b0c902936c2ec, type: 3}
+  bannerAnimator: {fileID: 0}
+  animationClip: {fileID: 0}
   bannerSound: {fileID: 0}
   bannerText: 4_2_TraktirTales_bunner
   checkPoint: 0

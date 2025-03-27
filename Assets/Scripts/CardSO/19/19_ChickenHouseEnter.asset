@@ -20,14 +20,14 @@ MonoBehaviour:
   checkPoint: 0
   leftCard:
     messageText: 19_ChickenHouseEnter_cardLeft
-    illustrationSprite: {fileID: 21300000, guid: e8e38c8d5d5e8254a94f1bed69912197, type: 3}
-    animator: {fileID: 0}
-    animationClip: {fileID: 0}
+    illustrationSprite: {fileID: 21300000, guid: 59fd1eb3588a73a4f9105f13ea78aa1c, type: 3}
+    animator: {fileID: 9100000, guid: 99fc7c4bfc0cc0d4e96110f4f030b75c, type: 2}
+    animationClip: {fileID: 7400000, guid: 73b484647275f7c41a1552cee64f8cce, type: 2}
     itemSprite: {fileID: 0}
     requiredItemSprite: {fileID: 0}
     removeItemSprite: 0
     changeBanner: 1
-    nextSetIfItem: {fileID: 0}
+    nextSetIfItem: {fileID: 11400000, guid: 4139de11eeb79dc449f51043df869ab9, type: 2}
     nextSetIfNoItem: {fileID: 0}
     isWinIfItem: 0
     winContentIfItem:
@@ -49,14 +49,14 @@ MonoBehaviour:
     changeLifePointsIfNoItem: 0
   rightCard:
     messageText: 19_ChickenHouseEnter_cardRight
-    illustrationSprite: {fileID: 21300000, guid: 42141b331d0f8a84b97ad2f589ec3926, type: 3}
+    illustrationSprite: {fileID: 21300000, guid: 3b74ea2de7976bf4fb80b964747e1616, type: 3}
     animator: {fileID: 0}
     animationClip: {fileID: 0}
     itemSprite: {fileID: 0}
     requiredItemSprite: {fileID: 0}
     removeItemSprite: 0
     changeBanner: 1
-    nextSetIfItem: {fileID: 0}
+    nextSetIfItem: {fileID: 11400000, guid: 4139de11eeb79dc449f51043df869ab9, type: 2}
     nextSetIfNoItem: {fileID: 0}
     isWinIfItem: 0
     winContentIfItem:
@@ -65,7 +65,7 @@ MonoBehaviour:
     - Sprite: {fileID: 21300000, guid: e4c8367392ccb2049af70a4445e057d8, type: 3}
       Message: WinAddToWishlist_toAll
     locationSpriteIfItem: {fileID: 0}
-    reverseSpriteIfItem: {fileID: 21300000, guid: 42141b331d0f8a84b97ad2f589ec3926, type: 3}
+    reverseSpriteIfItem: {fileID: 21300000, guid: 5605f90f370e93647bfa4e94765b80d6, type: 3}
     reverseAudioClipItem: {fileID: 0}
     reverseTopTextIfItem: 19_ChickenHouseEnter_cardRight_REV
     changeLifePointsIfItem: 0

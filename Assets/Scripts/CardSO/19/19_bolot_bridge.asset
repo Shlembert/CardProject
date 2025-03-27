@@ -20,9 +20,9 @@ MonoBehaviour:
   checkPoint: 0
   leftCard:
     messageText: 19_bolot_bridge_cardLeft
-    illustrationSprite: {fileID: 21300000, guid: e8e38c8d5d5e8254a94f1bed69912197, type: 3}
-    animator: {fileID: 0}
-    animationClip: {fileID: 0}
+    illustrationSprite: {fileID: 21300000, guid: 59fd1eb3588a73a4f9105f13ea78aa1c, type: 3}
+    animator: {fileID: 9100000, guid: 99fc7c4bfc0cc0d4e96110f4f030b75c, type: 2}
+    animationClip: {fileID: 7400000, guid: 73b484647275f7c41a1552cee64f8cce, type: 2}
     itemSprite: {fileID: 0}
     requiredItemSprite: {fileID: 0}
     removeItemSprite: 0
@@ -36,7 +36,7 @@ MonoBehaviour:
     - Sprite: {fileID: 21300000, guid: e4c8367392ccb2049af70a4445e057d8, type: 3}
       Message: WinAddToWishlist_toAll
     locationSpriteIfItem: {fileID: 0}
-    reverseSpriteIfItem: {fileID: 21300000, guid: 915053cf774be73468f9a5700ae4dcb4, type: 3}
+    reverseSpriteIfItem: {fileID: 21300000, guid: e27e7be38f73bf548b59f94d4190e244, type: 3}
     reverseAudioClipItem: {fileID: 0}
     reverseTopTextIfItem: 19_bolot_bridge_cardLeft_REV
     changeLifePointsIfItem: 0
@@ -49,14 +49,14 @@ MonoBehaviour:
     changeLifePointsIfNoItem: 0
   rightCard:
     messageText: 19_bolot_bridge_cardRight
-    illustrationSprite: {fileID: 21300000, guid: cab025520090aa541be30ede5df2771c, type: 3}
-    animator: {fileID: 0}
-    animationClip: {fileID: 0}
+    illustrationSprite: {fileID: 21300000, guid: 06547fa020560ec4da79b88a8bb92e63, type: 3}
+    animator: {fileID: 9100000, guid: 456c736c9dac65e43880663f08c9f9ce, type: 2}
+    animationClip: {fileID: 7400000, guid: 62e5df6b6baa88242b8b5f9a146a5fd8, type: 2}
     itemSprite: {fileID: 0}
     requiredItemSprite: {fileID: 0}
     removeItemSprite: 0
     changeBanner: 1
-    nextSetIfItem: {fileID: 11400000, guid: f7ac6ab6472ba5b4bbb883128ab4d7c0, type: 2}
+    nextSetIfItem: {fileID: 11400000, guid: 34840601c1a179749891396243b0e737, type: 2}
     nextSetIfNoItem: {fileID: 0}
     isWinIfItem: 0
     winContentIfItem:
@@ -65,7 +65,7 @@ MonoBehaviour:
     - Sprite: {fileID: 21300000, guid: e4c8367392ccb2049af70a4445e057d8, type: 3}
       Message: WinAddToWishlist_toAll
     locationSpriteIfItem: {fileID: 0}
-    reverseSpriteIfItem: {fileID: 21300000, guid: 49e242707fa1a1b4180e96f5ea53c8df, type: 3}
+    reverseSpriteIfItem: {fileID: 21300000, guid: a53077e88f0187b4c85ad7a1de28e00e, type: 3}
     reverseAudioClipItem: {fileID: 0}
     reverseTopTextIfItem: 19_bolot_bridge_cardRight_REV
     changeLifePointsIfItem: 0

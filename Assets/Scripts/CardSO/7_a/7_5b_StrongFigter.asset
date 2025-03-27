@@ -20,9 +20,9 @@ MonoBehaviour:
   checkPoint: 0
   leftCard:
     messageText: 7_5_StrongFigter_cardLeft
-    illustrationSprite: {fileID: 21300000, guid: 67a3e61c0eba3fd419a4d1df12ab19aa, type: 3}
-    animator: {fileID: 9100000, guid: 30363666fb5d0fd4aaead09c592d2633, type: 2}
-    animationClip: {fileID: 7400000, guid: 0c3af284b1bf56a40aa5919fedf2fd68, type: 2}
+    illustrationSprite: {fileID: 21300000, guid: bf0f3f774eb371245b703d57d7426307, type: 3}
+    animator: {fileID: 9100000, guid: 863f692cd243da8459226ec497cb776a, type: 2}
+    animationClip: {fileID: 7400000, guid: 5c1b7337a1121e94499f04312bcd6c2c, type: 2}
     itemSprite: {fileID: 0}
     requiredItemSprite: {fileID: 0}
     removeItemSprite: 0

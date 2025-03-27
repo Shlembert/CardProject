@@ -32,7 +32,7 @@ MonoBehaviour:
     isWinIfItem: 0
     winContentIfItem: []
     locationSpriteIfItem: {fileID: 21300000, guid: 59d2d4bb5a7f50447a0136b14aa353a9, type: 3}
-    reverseSpriteIfItem: {fileID: 21300000, guid: e24870a127c2d9440bdf5ba67c21f505, type: 3}
+    reverseSpriteIfItem: {fileID: 21300000, guid: b22c134e99d09c94dad40cb04f544996, type: 3}
     reverseAudioClipItem: {fileID: 0}
     reverseTopTextIfItem: 7_Guard_in_Water_cardLeft_REV
     changeLifePointsIfItem: 0

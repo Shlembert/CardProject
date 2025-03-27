@@ -45,9 +45,9 @@ MonoBehaviour:
     changeLifePointsIfNoItem: 0
   rightCard:
     messageText: 10_GO_WAY_HOW_1_cardRight
-    illustrationSprite: {fileID: 21300000, guid: 8035b6efaf50318498eb37841767c805, type: 3}
-    animator: {fileID: 0}
-    animationClip: {fileID: 0}
+    illustrationSprite: {fileID: 21300000, guid: 13c880625782fb2428a33ad1738be5ac, type: 3}
+    animator: {fileID: 9100000, guid: e89e94b098cb61348929ce0f1ed95634, type: 2}
+    animationClip: {fileID: 7400000, guid: d19e330ce3468eb47b65d9c7cf58b2d3, type: 2}
     itemSprite: {fileID: 0}
     requiredItemSprite: {fileID: 21300000, guid: 5517ac6f8f20c1440bcb354a7835d8fc, type: 3}
     removeItemSprite: 0

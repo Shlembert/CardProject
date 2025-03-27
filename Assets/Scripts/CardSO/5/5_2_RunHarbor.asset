@@ -56,7 +56,7 @@ MonoBehaviour:
     nextSetIfNoItem: {fileID: 0}
     isWinIfItem: 0
     winContentIfItem: []
-    locationSpriteIfItem: {fileID: 0}
+    locationSpriteIfItem: {fileID: 21300000, guid: f02efe303bdfaeb498786461a63466ee, type: 3}
     reverseSpriteIfItem: {fileID: 21300000, guid: efc367c1eb9964d4192217c1d343e3a4, type: 3}
     reverseAudioClipItem: {fileID: 0}
     reverseTopTextIfItem: 5_2_RunHarbor_cardRight_REV
