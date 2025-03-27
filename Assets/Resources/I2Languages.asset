@@ -1002,10 +1002,10 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Get in the wagon
       - "\u0421\u0435\u0441\u0442\u044C \u0432 \u043F\u043E\u0432\u043E\u0437\u043A\u0443"
-      - 
-      - 
+      - Subir al carro
+      - "\u4E0A\u9A6C\u8F66"
       - "\u0421\u0435\u0441\u0446\u0456 \u0431\u043B\u0456\u0436\u044D\u0439 \u0434\u0430
         \u043A\u0440\u0430\u044E \u0432\u0430\u0437\u043A\u0456."
       - 
@@ -1021,11 +1021,11 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - You decide to stop resisting
+      - You choose to stop resisting
       - "\u0412\u044B \u0440\u0435\u0448\u0430\u0435\u0442\u0435 \u043F\u0440\u0435\u043A\u0440\u0430\u0442\u0438\u0442\u044C
         \u0441\u043E\u043F\u0440\u043E\u0442\u0438\u0432\u043B\u0435\u043D\u0438\u0435"
       - Decides dejar de resistirte
-      - 
+      - "\u4F60\u51B3\u5B9A\u653E\u5F03\u62B5\u6297\u3002"
       - "\u0412\u044B \u0441\u0430\u0434\u0437\u0456\u0446\u0435\u0441\u044F \u0431\u043B\u0456\u0436\u044D\u0439
         \u0434\u0430 \u043A\u0440\u0430\u044E \u0432\u0430\u0437\u043A\u0456, \u043A\u0430\u0431
         \u043D\u0435 \u0440\u0430\u0437\u0434\u0440\u0430\u0436\u0430\u0446\u044C
@@ -1046,7 +1046,7 @@ MonoBehaviour:
       - Continue to resist
       - "\u041F\u0440\u043E\u0434\u043E\u043B\u0436\u0438\u0442\u044C \u0441\u043E\u043F\u0440\u043E\u0442\u0438\u0432\u043B\u044F\u0442\u044C\u0441\u044F"
       - Seguir resistiendo
-      - 
+      - "\u7EE7\u7EED\u62B5\u6297\u3002"
       - "\u041F\u0440\u0430\u0446\u044F\u0433\u0432\u0430\u0446\u044C \u0441\u0443\u043F\u0440\u0430\u0446\u0456\u045E\u043B\u044F\u0446\u0446\u0430."
       - 
       - 
@@ -1087,7 +1087,8 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - "As you move through the market, eyeing the guards, you notice a stall with
+        unusually ripe produce \u2014 your hand twitches to grab somethin"
       - "\u0412\u044B \u0438\u0434\u0451\u0442\u0435 \u043F\u043E \u0431\u0430\u0437\u0430\u0440\u0443,
         \u043F\u043E\u0433\u043B\u044F\u0434\u044B\u0432\u0430\u044F \u043D\u0430
         \u0441\u0442\u0440\u0430\u0436\u0443, \u0438 \u0432\u0434\u0440\u0443\u0433
@@ -1096,8 +1097,10 @@ MonoBehaviour:
         \u0444\u0440\u0443\u043A\u0442\u0430\u043C\u0438 \u0438 \u043E\u0432\u043E\u0449\u0430\u043C\u0438
         - \u0440\u0443\u043A\u0430 \u0442\u0430\u043A \u0438 \u0442\u044F\u043D\u0435\u0442\u0441\u044F
         \u0441\u0442\u0430\u0449\u0438\u0442\u044C"
-      - 
-      - 
+      - "Mientras avanzas por el mercado, vigilando a los guardias, descubres un
+        puesto con frutas anormalmente maduras \u2014 sientes el impulso de coger
+        algo"
+      - "\u4F60\u5728\u96C6\u5E02\u4E2D\u7A7F\u884C\uFF0C\u63D0\u9632\u7740\u5B88\u536B\uFF0C\u7A81\u7136\u53D1\u73B0\u4E00\u4E2A\u679C\u852C\u5F02\u5E38\u65B0\u9C9C\u7684\u644A\u4F4D\u2014\u2014\u624B\u4E0D\u81EA\u89C9\u5730\u60F3\u987A\u70B9\u4E1C\u897F\u3002"
       - 
       - 
       - 
@@ -1112,10 +1115,10 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Steal from under the merchant's nose
       - "\u0421\u0442\u0430\u0449\u0438\u0442\u044C \u0438\u0437-\u043F\u043E\u0434
         \u043D\u043E\u0441\u0430 \u0443 \u043F\u0440\u043E\u0434\u0430\u0432\u0446\u0430 "
-      - 
+      - Robar bajo las narices del vendedor
       - 
       - 
       - 
@@ -1131,11 +1134,11 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - The merchant spots you and cracks your head with a stick
       - "\u0412\u0430\u0441 \u0437\u0430\u043C\u0435\u0447\u0430\u0435\u0442 \u043F\u0440\u043E\u0434\u0430\u0432\u0435\u0446
         \u0438 \u0431\u044C\u0435\u0442 \u043F\u0430\u043B\u043A\u043E\u0439 \u043F\u043E
         \u0433\u043E\u043B\u043E\u0432\u0435"
-      - 
+      - El vendedor te ve y te golpea la cabeza con un palo
       - 
       - 
       - 
@@ -1151,10 +1154,10 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Steal from the nearest stall
       - "\u0421\u0442\u0430\u0449\u0438\u0442\u044C \u0441 \u0431\u043B\u0438\u0436\u043D\u0435\u0433\u043E
         \u043A \u0432\u0430\u043C \u043F\u0440\u0438\u043B\u0430\u0432\u043A\u0430"
-      - 
+      - "Robar del puesto m\xE1s cercano"
       - 
       - 
       - 
@@ -1170,12 +1173,12 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - The merchant notices, but you dodge his stick in time
       - "\u041F\u0440\u043E\u0434\u0430\u0432\u0435\u0446 \u0437\u0430\u043C\u0435\u0447\u0430\u0435\u0442,
         \u043D\u043E \u0432\u044B \u0443\u0441\u043F\u0435\u0432\u0430\u0435\u0442\u0435
         \u0443\u0432\u0435\u0440\u043D\u0443\u0442\u044C\u0441\u044F \u043E\u0442
         \u0435\u0433\u043E \u043F\u0430\u043B\u043A\u0438"
-      - 
+      - El vendedor se da cuenta, pero esquivas su palo a tiempo
       - 
       - 
       - 
@@ -1299,14 +1302,15 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Fate brings you to a tavern on your path, leaving you no choice but to enter
       - "\u041F\u043E \u0432\u043E\u043B\u0435 \u0441\u0443\u0434\u044C\u0431\u044B
         \u043D\u0430 \u0432\u0430\u0448\u0435\u043C \u043F\u0443\u0442\u0438 \u0432\u0441\u0442\u0440\u0435\u0447\u0430\u0435\u0442\u0441\u044F
         \u0442\u0440\u0430\u043A\u0442\u0438\u0440, \u0438 \u0443 \u0432\u0430\u0441
         \u043D\u0435 \u043E\u0441\u0442\u0430\u0451\u0442\u0441\u044F \u0432\u044B\u0431\u043E\u0440\u0430,
         \u043A\u0440\u043E\u043C\u0435 \u043A\u0430\u043A \u0432\u043E\u0439\u0442\u0438
         \u0432\u043D\u0443\u0442\u0440\u044C"
-      - 
+      - "El destino pone una taberna en tu camino, dej\xE1ndote sin m\xE1s opci\xF3n
+        que entrar"
       - 
       - 
       - 
@@ -1322,11 +1326,11 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Ask the innkeeper for the latest news and drink some ale
       - "\u0423\u0437\u043D\u0430\u0442\u044C \u0443 \u0442\u0440\u0430\u043A\u0442\u0438\u0440\u0449\u0438\u043A\u0430
         \u043F\u043E\u0441\u043B\u0435\u0434\u043D\u0438\u0435 \u043D\u043E\u0432\u043E\u0441\u0442\u0438
         \u0438 \u0432\u044B\u043F\u0438\u0442\u044C \u044D\u043B\u044F"
-      - 
+      - "Preguntar al tabernero por las \xFAltimas noticias y beber cerveza"
       - 
       - 
       - 
@@ -1342,11 +1346,11 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - He's glad to see you, offers you a seat, and shows a leaflet
       - "\u041E\u043D \u0440\u0430\u0434 \u0432\u0430\u0441 \u0432\u0438\u0434\u0435\u0442\u044C,
         \u043F\u0440\u0435\u0434\u043B\u0430\u0433\u0430\u0435\u0442 \u043F\u0440\u0438\u0441\u0435\u0441\u0442\u044C
         \u0438 \u043F\u043E\u043A\u0430\u0437\u044B\u0432\u0430\u0435\u0442 \u043B\u0438\u0441\u0442\u043E\u0432\u043A\u0443"
-      - 
+      - Se alegra de verte, te ofrece asiento y muestra un folleto
       - 
       - 
       - 
@@ -1362,10 +1366,10 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Grab some ale and join the lads at the table
       - "\u0412\u0437\u044F\u0442\u044C \u044D\u043B\u044F \u0438 \u043F\u0440\u0438\u0441\u0435\u0441\u0442\u044C
         \u0437\u0430 \u0441\u0442\u043E\u043B\u0438\u043A \u043A \u043C\u0443\u0436\u0438\u043A\u0430\u043C"
-      - 
+      - Coger cerveza y sentarse con los hombres en la mesa
       - 
       - 
       - 
@@ -1381,12 +1385,14 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - You sit at the table, recognizing some faces and seeing others for the first
+        time
       - "\u0412\u044B \u0441\u0430\u0434\u0438\u0442\u0435\u0441\u044C \u0437\u0430
         \u0441\u0442\u043E\u043B, \u043A\u043E\u0433\u043E-\u0442\u043E \u0432\u044B
         \u0437\u043D\u0430\u0435\u0442\u0435, \u043A\u043E\u0433\u043E - \u0442\u043E
         \u0432\u0438\u0434\u0438\u0442\u0435 \u0432\u043F\u0435\u0440\u0432\u044B\u0435"
-      - 
+      - Te sientas a la mesa, reconociendo algunos rostros y viendo otros por primera
+        vez
       - 
       - 
       - 
@@ -1402,13 +1408,15 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - The leaflet shows a girl's portrait with the caption 'Missing Princess' and
+        a reward offer
       - "\u041D\u0430 \u043B\u0438\u0441\u0442\u043E\u0432\u043A\u0435 \u0438\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435
         \u0434\u0435\u0432\u0443\u0448\u043A\u0438 \u0438 \u043D\u0430\u0434\u043F\u0438\u0441\u044C
         - \u043F\u0440\u043E\u043F\u0430\u043B\u0430 \u043F\u0440\u0438\u043D\u0446\u0435\u0441\u0441\u0430,
         \u0430 \u0442\u0430\u043A\u0436\u0435 \u043E\u0431\u0435\u0449\u0430\u043D\u0438\u0435
         \u0432\u043E\u0437\u043D\u0430\u0433\u0440\u0430\u0436\u0434\u0435\u043D\u0438\u044F "
-      - 
+      - El folleto muestra el retrato de una joven con la leyenda 'Princesa Desaparecida'
+        y una recompensa ofrecida
       - 
       - 
       - 
@@ -1424,9 +1432,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - How did she disappear?
       - "\u041A\u0430\u043A \u043E\u043D\u0430 \u043F\u0440\u043E\u043F\u0430\u043B\u0430?"
-      - 
+      - "\xBFC\xF3mo desapareci\xF3?"
       - 
       - 
       - 
@@ -1442,11 +1450,13 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - 'The innkeeper said rumors claim a dragon kidnapped her
+
+'
       - "\u0422\u0440\u0430\u043A\u0442\u0438\u0440\u0449\u0438\u043A \u0441\u043A\u0430\u0437\u0430\u043B
         \u0447\u0442\u043E \u043F\u043E \u0441\u043B\u0443\u0445\u0430\u043C \u0435\u0435
         \u043F\u043E\u0445\u0438\u0442\u0438\u043B \u0434\u0440\u0430\u043A\u043E\u043D"
-      - 
+      - "El tabernero dijo que los rumores culpan a un drag\xF3n de su secuestro"
       - 
       - 
       - 
@@ -1462,10 +1472,10 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Has anyone tried to find her yet?
       - "\u041A\u0442\u043E-\u0442\u043E \u0443\u0436\u0435 \u043F\u044B\u0442\u0430\u043B\u0441\u044F
         \u0435\u0435 \u043E\u0442\u044B\u0441\u043A\u0430\u0442\u044C? "
-      - 
+      - "\xBFAlguien ya ha intentado encontrarla?"
       - 
       - 
       - 
@@ -1481,12 +1491,14 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Three brave souls went after her... none returned. So either they're dead,
+        or damn close to succeeding...
       - "\u0422\u0440\u043E\u0435 \u0441\u043C\u0435\u043B\u044C\u0447\u0430\u043A\u043E\u0432
         \u0443\u0448\u043B\u0438 \u0438 \u043D\u0435 \u0432\u0435\u0440\u043D\u0443\u043B\u0438\u0441\u044C.
         \u0417\u043D\u0430\u0447\u0438\u0442, \u043B\u0438\u0431\u043E \u043F\u043E\u0433\u0438\u0431\u043B\u0438,
         \u043B\u0438\u0431\u043E \u043F\u043E\u0447\u0442\u0438 \u0443 \u0446\u0435\u043B\u0438\u2026"
-      - 
+      - "Tres valientes partieron tras ella... y ninguno regres\xF3. O est\xE1n muertos,
+        o a punto de lograrlo..."
       - 
       - 
       - 
@@ -1530,14 +1542,16 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Rumors say the king is searching the land for someone capable. A reward is
+        promised... and perhaps something more
       - "\u0413\u043E\u0432\u043E\u0440\u044F\u0442, \u0446\u0430\u0440\u044C \u043F\u043E
         \u0432\u0441\u0435\u043C\u0443 \u043A\u0440\u0430\u044E \u0438\u0449\u0435\u0442
         \u043A\u043E\u0433\u043E-\u0442\u043E \u0442\u043E\u043B\u043A\u043E\u0432\u043E\u0433\u043E.
         \u041E\u0431\u0435\u0449\u0430\u043D\u0430 \u043D\u0430\u0433\u0440\u0430\u0434\u0430,
         \u0438 \u0432\u043E\u0437\u043C\u043E\u0436\u043D\u043E \u0435\u0449\u0435
         \u043A\u043E\u0435 - \u0447\u0442\u043E..."
-      - 
+      - "Se dice que el rey busca a alguien competente por todo el reino. Hay una
+        recompensa... y quiz\xE1s algo m\xE1s"
       - 
       - 
       - 
@@ -1553,9 +1567,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Shrug
       - "\u041F\u043E\u0436\u0430\u0442\u044C \u043F\u043B\u0435\u0447\u0430\u043C\u0438 "
-      - 
+      - Encogerse de hombros
       - 
       - 
       - 
@@ -1571,12 +1585,12 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Is the reward truly worth risking your life for?
       - "\u041D\u0435\u0443\u0436\u0435\u043B\u0438 \u043D\u0430\u0433\u0440\u0430\u0434\u0430
         \u0442\u0430\u043A\u0430\u044F \u0431\u043E\u043B\u044C\u0448\u0430\u044F
         \u0447\u0442\u043E \u0437\u0430 \u043D\u0435\u0435 \u0441\u0442\u043E\u0438\u0442
         \u0440\u0438\u0441\u043A\u043D\u0443\u0442\u044C \u0436\u0438\u0437\u043D\u044C\u044E?"
-      - 
+      - "\xBFDe verdad la recompensa vale tanto como para arriesgar la vida?"
       - 
       - 
       - 
@@ -1592,10 +1606,10 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Capable - what's that supposed to mean?
       - "\u0422\u043E\u043B\u043A\u043E\u0432\u044B\u0439 - \u044D\u0442\u043E \u0435\u0449\u0451
         \u043A\u0442\u043E?"
-      - 
+      - "Competente - \xBFy eso qu\xE9 significa?"
       - 
       - 
       - 
@@ -1611,11 +1625,13 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - 'The innkeeper laughs: ''All the ''capable ones'' are already in the dragon''s
+        belly!'
       - "\u0422\u0440\u0430\u043A\u0442\u0438\u0440\u0449\u0438\u043A \u0441\u043C\u0435\u044F\u0441\u044C
         -  \u0412\u0441\u0435 \"\u0442\u043E\u043B\u043A\u043E\u0432\u044B\u0435\"
         - \u0443\u0436\u0435 \u0432 \u043F\u0430\u0441\u0442\u0438 \u0443 \u0434\u0440\u0430\u043A\u043E\u043D\u0430"
-      - 
+      - "El tabernero r\xEDe - Todos los 'competentes' ya est\xE1n en la panza del
+        drag\xF3n"
       - 
       - 
       - 
@@ -1631,13 +1647,15 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - "The innkeeper nods: \u2018Rumors say a chest of gold, honors... and the
+        princess herself - if you can handle her"
       - "\u0422\u0440\u0430\u043A\u0442\u0438\u0440\u0449\u0438\u043A \u043A\u0438\u0432\u0430\u0435\u0442
         - \u0413\u043E\u0432\u043E\u0440\u044F\u0442, \u0441\u0443\u043D\u0434\u0443\u043A
         \u0437\u043E\u043B\u043E\u0442\u0430, \u043F\u043E\u0447\u0435\u0442, \u0434\u0430
         \u0438 \u043F\u0440\u0438\u043D\u0446\u0435\u0441\u0441\u0430 - \u0435\u0441\u043B\u0438
         \u0432\u044B \u0441 \u043D\u0435\u0439 \u0441\u043B\u0430\u0434\u0438\u0442\u0435"
-      - 
+      - "El tabernero asiente: \u2018Dicen que un cofre de oro, honores... y la princesa
+        misma - si logras manejarla"
       - 
       - 
       - 
@@ -1653,10 +1671,10 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - So... is the princess at least pretty?
       - "\u0410 \u0447\u0442\u043E, \u043F\u0440\u0438\u043D\u0446\u0435\u0441\u0441\u0430
         - \u0442\u043E \u043A\u0440\u0430\u0441\u0438\u0432\u0430\u044F?"
-      - 
+      - "Oye... \xBFla princesa es guapa al menos?"
       - 
       - 
       - 
@@ -1672,12 +1690,14 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Oh she's fair enough, but fiery-tempered. Nearly had a man hanged for singing
+        off-key
       - "\u041A\u043E\u043D\u0435\u0447\u043D\u043E, \u043D\u043E \u0441 \u0445\u0430\u0440\u0430\u043A\u0442\u0435\u0440\u043E\u043C.
         \u041E\u0434\u043D\u043E\u0433\u043E \u0447\u0443\u0442\u044C \u043D\u0435
         \u043A\u0430\u0437\u043D\u0438\u043B\u0430 \u0437\u0430 \u043F\u043B\u043E\u0445\u0443\u044E
         \u043F\u0435\u0441\u043D\u044E"
-      - 
+      - "Bonita s\xED, pero de car\xE1cter. Casi manda a ejecutar a uno por cantar
+        mal"
       - 
       - 
       - 
@@ -1693,11 +1713,11 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Got any useful intel about this dragon?
       - "\u0410 \u043C\u043E\u0436\u0435\u0442 \u0437\u043D\u0430\u0435\u0448\u044C,
         \u0447\u0442\u043E \u043F\u043E\u043B\u0435\u0437\u043D\u043E\u0435 \u043F\u0440\u043E
         \u044D\u0442\u043E\u0433\u043E \u0434\u0440\u0430\u043A\u043E\u043D\u0430?"
-      - 
+      - "\xBFSabes algo \xFAtil sobre ese drag\xF3n?"
       - 
       - 
       - 
@@ -1713,14 +1733,16 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - "The innkeeper slides you a book page - Read this if you\u2019re fool enough
+        to go. It\u2019s about that dragon"
       - "\u0422\u0440\u0430\u043A\u0442\u0438\u0440\u0449\u0438\u043A \u043F\u0440\u043E\u0442\u044F\u0433\u0438\u0432\u0430\u0435\u0442
         \u0432\u0430\u043C \u0441\u0442\u0440\u0430\u043D\u0438\u0446\u0443 \u0438\u0437
         \u043A\u043D\u0438\u0433\u0438 - \u0432\u043E\u0442 \u043F\u043E\u0447\u0438\u0442\u0430\u0439
         \u0435\u0441\u043B\u0438 \u0440\u0435\u0448\u0438\u0448\u044C\u0441\u044F
         \u0438\u0434\u0442\u0438, \u0442\u0443\u0442 \u043F\u0440\u043E \u0442\u043E\u0433\u043E
         \u0434\u0440\u0430\u043A\u043E\u043D\u0430 \u043D\u0430\u043F\u0438\u0441\u0430\u043D\u043E"
-      - 
+      - "El tabernero te pasa una p\xE1gina del libro -Lee esto si te atreves a ir.
+        Habla de ese drag\xF3n"
       - 
       - 
       - 
@@ -1736,12 +1758,13 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - The lads are swapping tall tales. You listen in and join the talk
       - "\u041C\u0443\u0436\u0438\u043A\u0438 \u0442\u0440\u0430\u0432\u044F\u0442
         \u0431\u0430\u0439\u043A\u0438 \u0432\u044B \u0441\u043B\u0443\u0448\u0430\u0435\u0442\u0435
         \u0438 \u043F\u043E\u0434\u043A\u043B\u044E\u0447\u0430\u0435\u0442\u0435\u0441\u044C
         \u043A \u0431\u0435\u0441\u0435\u0434\u0435"
-      - 
+      - "Los hombres est\xE1n contando historias exageradas. Escuchas y te unes a
+        la conversaci\xF3n"
       - 
       - 
       - 
@@ -1757,12 +1780,12 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Keep swapping tall tales while grabbing another ale
       - "\u041F\u0440\u043E\u0434\u043E\u043B\u0436\u0438\u0442\u044C \u0442\u0440\u0430\u0432\u0438\u0442\u044C
         \u0431\u0430\u0439\u043A\u0438 \u0432\u0437\u044F\u0432 \u0435\u0449\u0435
         \u043E\u0434\u043D\u0443 \u043A\u0440\u0443\u0436\u0435\u0447\u043A\u0443
         \u044D\u043B\u044F"
-      - 
+      - Seguir contando historias exageradas mientras tomas otra cerveza
       - 
       - 
       - 
@@ -1778,11 +1801,11 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - "Talk flows merrier when the mug isn\u2019t empty"
       - "\u0411\u0435\u0441\u0435\u0434\u0430 \u0438\u0434\u0435\u0442 \u0432\u0435\u0441\u0435\u043B\u0435\u0435,
         \u043A\u043E\u0433\u0434\u0430 \u0432 \u043A\u0440\u0443\u0436\u043A\u0435
         \u0447\u0442\u043E-\u0442\u043E \u043F\u043B\u0435\u0449\u0435\u0442\u0441\u044F"
-      - 
+      - "La conversaci\xF3n es m\xE1s animada cuando la jarra no est\xE1 vac\xEDa"
       - 
       - 
       - 
@@ -1798,10 +1821,10 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Listen carefully to what they're saying
       - "\u0412\u043D\u0438\u043C\u0430\u0442\u0435\u043B\u044C\u043D\u043E \u0441\u043B\u0443\u0448\u0430\u0442\u044C
         \u0447\u0442\u043E \u0433\u043E\u0432\u043E\u0440\u044F\u0442"
-      - 
+      - "Escuchar con atenci\xF3n lo que dicen"
       - 
       - 
       - 
@@ -1817,13 +1840,13 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - They say the fistfighting champion may be slow, but misses nothing
       - "\u0413\u043E\u0432\u043E\u0440\u044F\u0442, \u0447\u0442\u043E \u0447\u0435\u043C\u043F\u0438\u043E\u043D
         \u043F\u043E \u043A\u0443\u043B\u0430\u0447\u043D\u044B\u043C \u0431\u043E\u044F\u043C,
         \u043D\u0435\u0441\u043C\u043E\u0442\u0440\u044F \u043D\u0430 \u0441\u0432\u043E\u044E
         \u043C\u0435\u0434\u043B\u0438\u0442\u0435\u043B\u044C\u043D\u043E\u0441\u0442\u044C,
         \u043E\u0447\u0435\u043D\u044C \u0432\u043D\u0438\u043C\u0430\u0442\u0435\u043B\u0435\u043D"
-      - 
+      - "Cuentan que el campe\xF3n de peleas a pu\xF1os, aunque lento, es muy observador"
       - 
       - 
       - 
@@ -1839,11 +1862,11 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - One of them stands up and demands you back up your talk
       - "\u041E\u0434\u0438\u043D \u0438\u0437 \u043D\u0438\u0445 \u0432\u0441\u0442\u0430\u0451\u0442,
         \u0438 \u043F\u0440\u0435\u0434\u043B\u0430\u0433\u0430\u0435\u0442 \u043E\u0442\u0432\u0435\u0442\u0438\u0442\u044C
         \u0437\u0430 \u0441\u0432\u043E\u0438 \u0441\u043B\u043E\u0432\u0430"
-      - 
+      - Uno de ellos se levanta y exige que respaldes tus palabras
       - 
       - 
       - 
@@ -1859,10 +1882,10 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Stand up and accept the challenge
       - "\u0412\u0441\u0442\u0430\u0442\u044C \u0438 \u043F\u0440\u0438\u043D\u044F\u0442\u044C
         \u0432\u044B\u0437\u043E\u0432"
-      - 
+      - "Levantarse y aceptar el desaf\xEDo"
       - 
       - 
       - 
@@ -1878,14 +1901,16 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Your opponent proves surprisingly quick - you take a gut punch and lose the
+        will to fight on
       - "\u041F\u0440\u043E\u0442\u0438\u0432\u043D\u0438\u043A \u043E\u043A\u0430\u0437\u0430\u043B\u0441\u044F
         \u0434\u043E\u0432\u043E\u043B\u044C\u043D\u043E \u0431\u044B\u0441\u0442\u0440,
         \u0438 \u0432\u044B \u043F\u0440\u043E\u043F\u0443\u0441\u043A\u0430\u0435\u0442\u0435
         \u0443\u0434\u0430\u0440 \u0432 \u0436\u0438\u0432\u043E\u0442 \u0438 \u0431\u043E\u043B\u044C\u0448\u0435
         \u0432\u0430\u043C \u043D\u0435 \u0445\u043E\u0447\u0435\u0442\u0441\u044F
         \u043F\u0440\u043E\u0434\u043E\u043B\u0436\u0430\u0442\u044C"
-      - 
+      - "Tu oponente es m\xE1s r\xE1pido de lo esperado - recibes un pu\xF1etazo
+        en el est\xF3mago y pierdes las ganas de continuar"
       - 
       - 
       - 
@@ -1901,11 +1926,11 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Boast you can take him without even getting up
       - "\u0421\u043A\u0430\u0437\u0430\u0442\u044C, \u0447\u0442\u043E \u0443\u0434\u0435\u043B\u0430\u0435\u0442\u0435
         \u0435\u0433\u043E \u043D\u0435 \u0432\u0441\u0442\u0430\u0432\u0430\u044F
         \u0441\u043E \u0441\u0442\u0443\u043B\u0430"
-      - 
+      - "Fanfarronear que puedes con \xE9l sin levantarte"
       - 
       - 
       - 
@@ -1921,13 +1946,15 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - You hurl the iron mug straight at the troublemaker's head - he drops like
+        a sack, and the lads roar with laughter
       - "\u0412\u044B \u043C\u0435\u0442\u043A\u043E \u0448\u0432\u044B\u0440\u044F\u0435\u0442\u0435
         \u0436\u0435\u043B\u0435\u0437\u043D\u0443\u044E \u043A\u0440\u0443\u0436\u043A\u0443
         \u0432 \u0433\u043E\u043B\u043E\u0432\u0443 \u0434\u0435\u0431\u043E\u0448\u0438\u0440\u0443,
         \u043E\u043D \u043F\u0430\u0434\u0430\u0435\u0442, \u043C\u0443\u0436\u0438\u043A\u0438
         \u0441\u043C\u0435\u044E\u0442\u0441\u044F"
-      - 
+      - Lanzas la jarra de hierro directo a la cabeza del alborotador - se desploma,
+        y los hombres estallan en risas
       - 
       - 
       - 
@@ -1943,13 +1970,15 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - "You eye the remaining \u2018brave souls\u2019 - and feel a sudden itch to
+        mess with them"
       - "\u0412\u044B \u0441\u043C\u043E\u0442\u0440\u0438\u0442\u0435 \u043D\u0430
         \u043E\u0441\u0442\u0430\u043B\u044C\u043D\u044B\u0445 \"\u0441\u043C\u0435\u043B\u044C\u0447\u0430\u043A\u043E\u0432\"
         \u0438 \u0443 \u0432\u0430\u0441 \u0432\u043E\u0437\u043D\u0438\u043A\u0430\u0435\u0442
         \u0441\u0438\u043B\u044C\u043D\u043E\u0435 \u0436\u0435\u043B\u0430\u043D\u0438\u0435
         \u0438\u0445 \u043F\u043E\u0434\u0434\u0435\u0442\u044C"
-      - 
+      - "Miras a los dem\xE1s \u2018valientes\u2019 - y sientes un fuerte impulso
+        de burlarte de ellos"
       - 
       - 
       - 
@@ -1965,10 +1994,10 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Don't hold back
       - "\u041D\u0435 \u0441\u0434\u0435\u0440\u0436\u0438\u0432\u0430\u0442\u044C
         \u0441\u0435\u0431\u044F"
-      - 
+      - No contenerse
       - 
       - 
       - 
@@ -1984,12 +2013,12 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - "You throw a biting remark at the \u2018brave ones\u2019 around the table"
       - "\u0412\u044B \u043E\u0442\u043F\u0443\u0441\u043A\u0430\u0435\u0442\u0435
         \u043A\u043E\u043B\u043A\u043E\u0441\u0442\u044C \u0432 \u0441\u0442\u043E\u0440\u043E\u043D\u0443
         \"\u0441\u043C\u0435\u043B\u044C\u0447\u0430\u043A\u043E\u0432\" \u0437\u0430
         \u0441\u0442\u043E\u043B\u043E\u043C"
-      - 
+      - "Lanzas una iron\xEDa hacia los \u2018valientes\u2019 de la mesa"
       - 
       - 
       - 
@@ -2005,9 +2034,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - To say nothing
       - "\u041D\u0435 \u0433\u043E\u0432\u043E\u0440\u0438\u0442\u044C \u043D\u0438\u0447\u0435\u0433\u043E"
-      - 
+      - No decir nada
       - 
       - 
       - 
@@ -2023,11 +2052,11 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - This day has already been full of worries
       - "\u0421\u0435\u0433\u043E\u0434\u043D\u044F\u0448\u043D\u0438\u0439 \u0434\u0435\u043D\u044C
         \u0438 \u0442\u0430\u043A \u0431\u044B\u043B \u043F\u043E\u043B\u043E\u043D
         \u0431\u0435\u0441\u043F\u043E\u043A\u043E\u0439\u0441\u0442\u0432\u0430"
-      - 
+      - "Este d\xEDa ya ha estado lleno de preocupaciones"
       - 
       - 
       - 
@@ -2043,7 +2072,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - "You don\u2019t have time to reply - laughter erupts from a nearby table.
+        One of the men raises his tankard: \xABSo what, you\u2019re the clever one
+        now?"
       - "\u0412\u044B \u043D\u0435 \u0443\u0441\u043F\u0435\u0432\u0430\u0435\u0442\u0435
         \u043E\u0442\u0432\u0435\u0442\u0438\u0442\u044C - \u0441 \u0441\u043E\u0441\u0435\u0434\u043D\u0435\u0433\u043E
         \u0441\u0442\u043E\u043B\u0430 \u0440\u0430\u0437\u0434\u0430\u0451\u0442\u0441\u044F
@@ -2051,7 +2082,9 @@ MonoBehaviour:
         \u043F\u043E\u0434\u043D\u0438\u043C\u0430\u0435\u0442 \u043A\u0440\u0443\u0436\u043A\u0443
         - \u0422\u0430\u043A \u0437\u043D\u0430\u0447\u0438\u0442, \u0442\u044B \u0442\u0435\u043F\u0435\u0440\u044C
         \u0441\u0430\u043C\u044B\u0439 \u0442\u043E\u043B\u043A\u043E\u0432\u044B\u0439?"
-      - 
+      - "No tienes tiempo de responder \u2014 una carcajada estalla en la mesa de
+        al lado. Uno de los tipos alza su jarro: \xAB\xBFAs\xED que ahora eres el
+        listo?"
       - 
       - 
       - 
@@ -2067,9 +2100,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Wind them up
       - "\u041F\u043E\u0434\u043A\u043E\u043B\u043E\u0442\u044C \u0438\u0445 "
-      - 
+      - Provocarlos
       - 
       - 
       - 
@@ -2085,12 +2118,12 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - If you're the best, no wonder the dragon's still alive
       - "\u0415\u0441\u043B\u0438 \u0432\u044B - \u043B\u0443\u0447\u0448\u0438\u0435,
         \u0442\u043E \u043D\u0435 \u0443\u0434\u0438\u0432\u0438\u0442\u0435\u043B\u044C\u043D\u043E,
         \u0447\u0442\u043E \u0434\u0440\u0430\u043A\u043E\u043D \u0434\u043E \u0441\u0438\u0445
         \u043F\u043E\u0440 \u0436\u0438\u0432"
-      - 
+      - "Si sois los mejores, no me extra\xF1a que el drag\xF3n siga vivo"
       - 
       - 
       - 
@@ -2106,9 +2139,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Ignore them
       - "\u041D\u0435 \u043E\u0431\u0440\u0430\u0449\u0430\u0442\u044C \u0432\u043D\u0438\u043C\u0430\u043D\u0438\u044F"
-      - 
+      - Ignorarlos
       - 
       - 
       - 
@@ -2124,11 +2157,11 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - This day has already been full of worries
       - "\u0421\u0435\u0433\u043E\u0434\u043D\u044F\u0448\u043D\u0438\u0439 \u0434\u0435\u043D\u044C
         \u0438 \u0442\u0430\u043A \u0431\u044B\u043B \u043F\u043E\u043B\u043E\u043D
         \u0431\u0435\u0441\u043F\u043E\u043A\u043E\u0439\u0441\u0442\u0432\u0430"
-      - 
+      - "Este d\xEDa ya ha estado lleno de preocupaciones"
       - 
       - 
       - 
@@ -2144,10 +2177,10 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - You continue the conversation with the innkeeper
       - "\u0412\u044B \u043F\u0440\u043E\u0434\u043E\u043B\u0436\u0430\u0435\u0442\u0435
         \u0440\u0430\u0437\u0433\u043E\u0432\u043E\u0440 \u0441 \u0442\u0440\u0430\u043A\u0442\u0438\u0440\u0449\u0438\u043A\u043E\u043C"
-      - 
+      - "Contin\xFAas la conversaci\xF3n con el tabernero"
       - 
       - 
       - 
@@ -2163,9 +2196,10 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
-      - "\u041A\u0442\u043E \u043C\u043E\u0433 \u0435\u0435 \u0443\u043A\u0440\u0430\u0441\u0442\u044C?"
-      - 
+      - Who would dare steal the princess?
+      - "\u041A\u0442\u043E \u043C\u043E\u0433 \u0443\u043A\u0440\u0430\u0441\u0442\u044C
+        \u043F\u0440\u0438\u043D\u0446\u0435\u0441\u0441\u0443?"
+      - "\xBFQui\xE9n se atrever\xEDa a secuestrar a la princesa?"
       - 
       - 
       - 
@@ -2181,12 +2215,14 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - The innkeeper muttered that rumors whisper of the Green Dragon stealing her
+        away
       - "\u0422\u0440\u0430\u043A\u0442\u0438\u0440\u0449\u0438\u043A \u0441\u043A\u0430\u0437\u0430\u043B,
         \u0447\u0442\u043E \u043F\u043E \u0441\u043B\u0443\u0445\u0430\u043C \u0435\u0435
         \u043F\u043E\u0445\u0438\u0442\u0438\u043B \u0437\u0435\u043B\u0435\u043D\u044B\u0439
         \u0434\u0440\u0430\u043A\u043E\u043D"
-      - 
+      - "El tabernero susurr\xF3 que los rumores culpan al Drag\xF3n Verde de su
+        secuestro"
       - 
       - 
       - 
@@ -2202,9 +2238,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - How long ago did this happen?
       - "\u041A\u0430\u043A \u0434\u0430\u0432\u043D\u043E \u044D\u0442\u043E \u0441\u043B\u0443\u0447\u0438\u043B\u043E\u0441\u044C?"
-      - 
+      - "\xBFHace cu\xE1nto ocurri\xF3 esto?"
       - 
       - 
       - 
@@ -2220,7 +2256,8 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - "The innkeeper laughs - Aye, the dragon snatched her \u2018bout three weeks
+        ago - while you were snorin\u2019 cozy by the oven!"
       - "\u0422\u0440\u0430\u043A\u0442\u0438\u0440\u0449\u0438\u043A \u0441\u043C\u0435\u0435\u0442\u0441\u044F
         \u0438 \u0433\u043E\u0432\u043E\u0440\u0438\u0442 - \u0412\u0440\u043E\u0434\u0435
         \u043A\u0430\u043A \u0434\u0440\u0430\u043A\u043E\u043D \u0437\u0430\u0431\u0440\u0430\u043B
@@ -2228,7 +2265,8 @@ MonoBehaviour:
         \u043D\u0430\u0437\u0430\u0434, \u0432\u0441\u0435 \u0442\u043E \u0432\u0440\u0435\u043C\u044F
         \u043F\u043E\u043A\u0430 \u0442\u044B \u0441\u043B\u0430\u0434\u043A\u043E
         \u0441\u043F\u0430\u043B \u043D\u0430 \u043F\u0435\u0447\u0438"
-      - 
+      - "El tabernero r\xEDe - \xA1Dicen que el drag\xF3n se la llev\xF3 hace tres
+        semanas\u2026 justo cuando roncabas junto al horno!"
       - 
       - 
       - 
@@ -2244,14 +2282,16 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Seems a risky business - a dragon, and a long road to boot. Fancy your luck
+        in a fight with the beast?
       - "\u0414\u0435\u043B\u043E, \u043A\u0430\u0436\u0435\u0442\u0441\u044F, \u0434\u043E\u0432\u043E\u043B\u044C\u043D\u043E
         \u043E\u043F\u0430\u0441\u043D\u044B\u043C, \u0434\u0440\u0430\u043A\u043E\u043D,
         \u0434\u0430 \u0435\u0449\u0435 \u0438 \u043F\u0443\u0442\u044C \u043B\u0435\u0436\u0438\u0442
         \u043D\u0435 \u0431\u043B\u0438\u0437\u043A\u0438\u0439, \u043F\u043E\u043F\u044B\u0442\u0430\u0435\u0442\u0435
         \u0441\u0447\u0430\u0441\u0442\u044C\u0435 \u0432 \u0431\u043E\u044E \u0441
         \u0434\u0440\u0430\u043A\u043E\u043D\u043E\u043C?"
-      - 
+      - "Pinta peligroso: un drag\xF3n, y adem\xE1s un camino largo. \xBFTe atrever\xE1s
+        a enfrentarlo?"
       - 
       - 
       - 
@@ -2267,9 +2307,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Why the hell not?!
       - "\u0410 \u043F\u043E\u0447\u0435\u043C\u0443 \u0431\u044B \u0438 \u043D\u0435\u0442!"
-      - 
+      - "\xA1Y por qu\xE9 no!"
       - 
       - 
       - 
@@ -2285,14 +2325,16 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - "You rise and bellow to the crowd -I\u2019ll bring back that princess \u2014
+        and the reward\u2019s MINE!"
       - "\u0412\u044B \u0432\u0441\u0442\u0430\u0435\u0442\u0435 \u0438 \u0433\u0440\u043E\u043C\u043A\u043E
-        \u0437\u0430\u044F\u0432\u043B\u0435\u0442\u0435 \u0432\u0441\u0435\u043C
-        \u0447\u0442\u043E \u0432\u044B \u043E\u0441\u0432\u043E\u0431\u043E\u0434\u0438\u0442\u0435
+        \u0437\u0430\u044F\u0432\u043B\u044F\u0435\u0442\u0435 \u0432\u0441\u0435\u043C
+        \u0447\u0442\u043E \u043E\u0441\u0432\u043E\u0431\u043E\u0434\u0438\u0442\u0435
         \u043F\u0440\u0438\u043D\u0446\u0435\u0441\u0441\u0443, \u043D\u0443 \u0438
         \u043A\u043E\u043D\u0435\u0447\u043D\u043E \u0436\u0435 \u0437\u0430\u0431\u0435\u0440\u0435\u0442\u0435
-        \u0432\u043E\u0437\u043D\u0430\u0433\u0440\u0430\u0436\u0434\u043D\u0438\u0435"
-      - 
+        \u0432\u043E\u0437\u043D\u0430\u0433\u0440\u0430\u0436\u0434\u0435\u043D\u0438\u0435"
+      - "Te pones en pie y ruges- \xA1Rescatar\xE9 a la princesa\u2026 y el oro ser\xE1
+        MI-O!"
       - 
       - 
       - 
@@ -2308,10 +2350,10 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - You're not exactly itching to get involved in this mess
       - "\u0412\u0430\u043C \u0447\u0442\u043E-\u0442\u043E \u043D\u0435 \u0445\u043E\u0447\u0435\u0442\u0441\u044F
         \u0432 \u044D\u0442\u043E\u043C \u0443\u0447\u0430\u0441\u0442\u0432\u043E\u0432\u0430\u0442\u044C"
-      - 
+      - "No te muertes por meterte en este l\xEDo"
       - 
       - 
       - 
@@ -2327,13 +2369,15 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - "You weren\u2019t exactly the royal family\u2019s darling - and becoming
+        dragon barbecue is a hard pass"
       - "\u0412\u044B \u043D\u0435 \u0431\u044B\u043B\u0438 \u0441\u0438\u043B\u044C\u043D\u043E
         \u0431\u043B\u0438\u0437\u043A\u0438 \u0441 \u0446\u0430\u0440\u0441\u043A\u0438\u043C
         \u0440\u043E\u0434\u043E\u043C, \u0434\u0430 \u0438 \u043F\u043E\u0434\u0436\u0430\u0440\u0438\u0442\u044C\u0441\u044F
         \u0432 \u043F\u0430\u0441\u0442\u0438 \u0434\u0440\u0430\u043A\u043E\u043D\u0430
         \u043D\u0435 \u043B\u0443\u0447\u0448\u0430\u044F \u043F\u0435\u0440\u0441\u043F\u0435\u043A\u0442\u0438\u0432\u0430"
-      - 
+      - "No eras precisamente el favorito de la corte... y acabar como banquete de
+        drag\xF3n no pinta bien"
       - 
       - 
       - 
@@ -2349,13 +2393,15 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - The crowd nods in grim agreement - then one patron sidles up to you, clutching
+        what looks like... a bone
       - "\u0412\u0441\u0435 \u043F\u043E\u043D\u0438\u043C\u0430\u044E\u0449\u0435
         \u043A\u0438\u0432\u0430\u044E\u0442, \u0430 \u043E\u0434\u0438\u043D \u0438\u0437
         \u043F\u043E\u0441\u0435\u0442\u0438\u0442\u0435\u043B\u0435\u0439, \u043F\u043E\u0434\u0445\u043E\u0434\u0438\u0442
         \u043A \u0432\u0430\u043C \u0438 \u0447\u0442\u043E-\u0442\u043E \u043F\u043E\u0445\u043E\u0436\u0435\u0435
         \u043D\u0430 \u043A\u043E\u0441\u0442\u044C"
-      - 
+      - Todos asienten, compungidos... hasta que un parroquiano se acerca, sosteniendo
+        algo que parece un hueso
       - 
       - 
       - 
@@ -2371,9 +2417,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Examine it closely
       - "\u0412\u043D\u0438\u043C\u0430\u0442\u0435\u043B\u044C\u043D\u043E \u043E\u0441\u043C\u043E\u0442\u0440\u0435\u0442\u044C"
-      - 
+      - "Exam\xEDnalo con detenimiento"
       - 
       - 
       - 
@@ -2389,14 +2435,16 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - The stranger urges you to take it if you dare the swamps - A charm against
+        Baba Yaga
       - "\u041D\u0435\u0437\u043D\u0430\u043A\u043E\u043C\u0435\u0446, \u0441\u043E\u0432\u0435\u0442\u0443\u0435\u0442
         \u0432\u0437\u044F\u0442\u044C \u0435\u0435 \u0441 \u0441\u043E\u0431\u043E\u0439
         \u0435\u0441\u043B\u0438 \u0432\u044B \u0440\u0435\u0448\u0438\u0442\u044C
         \u043F\u043E\u0439\u0442\u0438 \u0447\u0435\u0440\u0435\u0437 \u0442\u043E\u043F\u0438,
         \u0432 \u043A\u0430\u0447\u0435\u0441\u0442\u0432\u0435 \u043E\u0431\u0435\u0440\u0435\u0433\u0430
         \u043E\u0442 \u0411\u0430\u0431\u044B - \u042F\u0433\u0438"
-      - 
+      - "El forastero susurra - Ll\xE9valo si cruzas los pantanos... o Baba Yaga
+        te har\xE1 su cena"
       - 
       - 
       - 
@@ -2412,10 +2460,10 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Never accept gifts from strangers
       - "\u041D\u0435 \u043F\u0440\u0438\u043D\u0438\u043C\u0430\u0442\u044C \u0434\u0430\u0440\u043E\u0432
         \u043E\u0442 \u043D\u0435\u0437\u043D\u0430\u043A\u043E\u043C\u0446\u0435\u0432"
-      - 
+      - "No aceptes regalos de extra\xF1os"
       - 
       - 
       - 
@@ -2431,12 +2479,12 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Refuse the gift with a scoff - Got a whole damn collection of these at home
       - "\u041E\u0442\u043A\u0430\u0437\u0430\u0442\u044C\u0441\u044F \u043E\u0442
         \u043F\u043E\u0434\u0430\u0440\u043A\u0430, \u0441\u043A\u0430\u0437\u0430\u0432,
         \u0447\u0442\u043E \u0443 \u0432\u0430\u0441 \u0442\u0430\u043A\u0438\u0445
         \u0438 \u0443 \u0441\u0430\u043C\u043E\u0433\u043E \u043F\u043E\u043B\u043D\u043E"
-      - 
+      - "Rechazar el regalo con un gesto - Tengo un mont\xF3n igual en casa, \xBFsabes?"
       - 
       - 
       - 
@@ -2452,13 +2500,15 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - "The conversation flows... until a jest about the king chokes the room into
+        silence. You don\u2019t grasp why \u2014 but the air now tastes of tension"
       - "\u0412\u044B \u043F\u0440\u043E\u0434\u043E\u043B\u0436\u0430\u0435\u0442\u0435
         \u043E\u0431\u0449\u0435\u043D\u0438\u0435, \u043A\u0442\u043E-\u0442\u043E
         \u043F\u043E\u0448\u0443\u0442\u0438\u043B \u043F\u0440\u043E \u043A\u043E\u0440\u043E\u043B\u044F,
         \u0438 \u0432\u0441\u0435 \u0437\u0430\u043C\u043E\u043B\u043A\u043B\u0438,
         \u0432\u044B \u043D\u0435 \u043F\u043E\u043D\u044F\u043B\u0438 \u043F\u0440\u0438\u0447\u0438\u043D\u0443"
-      - 
+      - "La charla contin\xFAa... hasta que una broma sobre el rey corta el murmullo.
+        No entiendes el motivo, pero el silencio ahora pesa como una losa"
       - 
       - 
       - 
@@ -2474,11 +2524,11 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Go fetch another tankard of ale
       - "\u0421\u0445\u043E\u0434\u0438\u0442\u044C \u0437\u0430 \u0435\u0449\u0435
         \u043E\u0434\u043D\u043E\u0439 \u043A\u0440\u0443\u0436\u0435\u0447\u043A\u043E\u0439
         \u044D\u043B\u044F"
-      - 
+      - Ir por otra jarra de cerveza
       - 
       - 
       - 
@@ -2494,11 +2544,12 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - "The ale\u2019s stronger than expected, and the room\u2019s starting to swim"
       - "\u042D\u043B\u044C \u043E\u043A\u0430\u0437\u0430\u043B\u0441\u044F \u0437\u0430\u0431\u043E\u0440\u0438\u0441\u0442\u044B\u0439
         \u0438 \u0432 \u0433\u043B\u0430\u0437\u0430\u0445 \u043D\u0435\u043C\u043D\u043E\u0433\u043E
         \u043C\u0443\u0442\u043D\u0435\u0435\u0442"
-      - 
+      - "La cerveza es m\xE1s potente de lo que pensabas, y la vista ya no es la
+        misma"
       - 
       - 
       - 
@@ -2514,9 +2565,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Go grab a bite to eat
       - "\u041F\u043E\u0439\u0442\u0438 \u043F\u043E\u0434\u043A\u0440\u0435\u043F\u0438\u0442\u044C\u0441\u044F"
-      - 
+      - Ir a por algo de comer
       - 
       - 
       - 
@@ -2532,11 +2583,11 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - You devour the stew, and it tastes... oddly enchanted
       - "\u0412\u044B \u0441\u044A\u0435\u0434\u0430\u0435\u0442\u0435 \u043F\u043E\u0445\u043B\u0435\u0431\u043A\u0443,
         \u043A\u043E\u0442\u043E\u0440\u0430\u044F \u043A\u0430\u0436\u0435\u0442\u0441\u044F
         \u0432\u0430\u043C \u0432\u043E\u043B\u0448\u0435\u0431\u043D\u043E\u0439"
-      - 
+      - "Te tomas la sopa, y sospechas que est\xE1... embrujada"
       - 
       - 
       - 
@@ -2578,13 +2629,15 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - "Wait for the guards to leave, then eavesdrop on the merchants\u2019 hushed
+        whispers"
       - "\u0414\u043E\u0436\u0434\u0430\u0442\u044C\u0441\u044F \u043F\u043E\u043A\u0430
         \u0441\u0442\u0440\u0430\u0436\u0430 \u0443\u0439\u0434\u0435\u0442 \u0438
         \u043F\u043E\u0434\u0441\u043B\u0443\u0448\u0430\u0442\u044C, \u043E \u0447\u0435\u043C
         \u043D\u0430\u0447\u043D\u0443\u0442 \u0448\u0435\u043F\u0442\u0430\u0442\u044C\u0441\u044F
         \u0442\u043E\u0440\u0433\u043E\u0432\u0446\u044B"
-      - 
+      - Esperar a que los guardias se vayan y escuchar a escondidas lo que susurran
+        los mercaderes
       - 
       - 
       - 
@@ -2600,13 +2653,15 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - "You\u2019ve uncovered that the stablehand is cheating on his wife... with
+        the butcher\u2019s daughter. Groundbreaking intel"
       - "\u0412\u044B \u0443\u0437\u043D\u0430\u043B\u0438, \u0447\u0442\u043E \u043A\u043E\u043D\u044E\u0445
         \u0438\u0437\u043C\u0435\u043D\u044F\u0435\u0442 \u0441\u0432\u043E\u0435\u0439
         \u0436\u0435\u043D\u0435 \u0441 \u0434\u043E\u0447\u043A\u043E\u0439 \u043C\u044F\u0441\u043D\u0438\u043A\u0430,
         \u0446\u0435\u043D\u043D\u043E\u0441\u0442\u044C \u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0446\u0438\u0438
         \u043F\u043E\u0434 \u0432\u043E\u043F\u0440\u043E\u0441\u043E\u043C"
-      - 
+      - Descubres que el mozo le pone los cuernos a su esposa... con la hija del
+        carnicero. Todo un hallazgo
       - 
       - 
       - 
@@ -2622,12 +2677,14 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Wait for the guard to step away from the tent, then corner the merchant for
+        details
       - "\u0414\u043E\u0436\u0434\u0430\u0442\u044C\u0441\u044F \u043F\u043E\u043A\u0430
         \u0441\u0442\u0440\u0430\u0436\u0430 \u043E\u0442\u043E\u0439\u0434\u0435\u0442
         \u043E\u0442 \u043F\u0430\u043B\u0430\u0442\u043A\u0438 \u0438 \u0441\u043F\u0440\u043E\u0441\u0438\u0442\u044C
         \u0443 \u0442\u043E\u0440\u0433\u043E\u0432\u0446\u0430 \u043F\u043E\u0434\u0440\u043E\u0431\u043D\u043E\u0441\u0442\u0438"
-      - 
+      - "Espera a que el guardia se aleje de la tienda, y pregunta al mercader...
+        con discreci\xF3n"
       - 
       - 
       - 
@@ -2643,7 +2700,8 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - "The merchant couldn\u2019t give you anything useful - too busy shaking in
+        his boots at the guards\u2019 sudden inspection"
       - "\u041D\u0438\u0447\u0435\u0433\u043E \u043D\u043E\u0432\u043E\u0433\u043E
         \u0438 \u0432\u043D\u044F\u0442\u043D\u043E\u0433\u043E \u0442\u043E\u0440\u0433\u043E\u0432\u0435\u0446
         \u0432\u0430\u043C \u0441\u043A\u0430\u0437\u0430\u0442\u044C \u0442\u0430\u043A
@@ -2651,7 +2709,8 @@ MonoBehaviour:
         \u0441\u0438\u043B\u044C\u043D\u043E \u043D\u0430\u043F\u0443\u0433\u0430\u043D
         \u0442\u0435\u043C, \u0447\u0442\u043E \u043D\u0430 \u0440\u044B\u043D\u043E\u043A
         \u0437\u0430\u044F\u0432\u0438\u043B\u0430\u0441\u044C \u0441\u0442\u0440\u0430\u0436\u0430"
-      - 
+      - "El mercader no suelta ni una pista \xFAtil - demasiado ocupado temblando
+        por la guardia"
       - 
       - 
       - 
@@ -2667,14 +2726,16 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - As you weave through the market, you spot guards shoving leaflets at a merchant
+        - one bears your scowling likeness
       - "\u0412\u044B \u0438\u0434\u0435\u0442\u0435 \u043F\u043E \u0440\u044B\u043D\u043A\u0443
         \u0438 \u0437\u0430\u043C\u0435\u0447\u0430\u0435\u0442\u0435, \u0447\u0442\u043E
         \u0441\u0442\u0440\u0430\u0436\u043D\u0438\u043A \u043F\u043E\u043A\u0430\u0437\u044B\u0432\u0430\u044E\u0442
         \u043B\u0438\u0441\u0442\u043E\u0432\u043A\u0438 \u0442\u043E\u0440\u0433\u043E\u0432\u0446\u0443,
         \u043E\u0434\u0438\u043D \u0438\u0437 \u043D\u0438\u0445 \u0441 \u0432\u0430\u0448\u0438\u043C
         \u043F\u043E\u0440\u0442\u0440\u0435\u0442\u043E\u043C "
-      - 
+      - "Avanzas por el mercado cuando ves a los guardias mostrar folletos a un vendedor...
+        \xA1y uno tiene tu retrato!"
       - 
       - 
       - 
@@ -3205,7 +3266,8 @@ MonoBehaviour:
         \u0430 \u0442\u043E\u0440\u0433\u043E\u0432\u0435\u0446 \u0443\u0431\u0438\u0440\u0430\u0435\u0442
         \u0431\u0443\u043C\u0430\u0433\u0443 \u0438 \u0443\u0445\u043E\u0434\u0438\u0442
         \u0432 \u0441\u0432\u043E\u0439 \u0448\u0430\u0442\u0435\u0440"
-      - 
+      - El bullicio te distrae... al volver, los guardias se han ido, y el mercader
+        esconde el folleto antes de desaparecer en su tienda
       - 
       - 
       - 
@@ -3225,7 +3287,7 @@ MonoBehaviour:
       - "\u041D\u0435 \u0442\u0435\u0440\u044F\u0442\u044C \u0432\u0440\u0435\u043C\u0435\u043D\u0438
         \u0438 \u043F\u0440\u043E\u0434\u043E\u043B\u0436\u0438\u0442\u044C \u0438\u0441\u043A\u0430\u0442\u044C
         \u0441\u0442\u0440\u0430\u0436\u0443 \u043D\u0430 \u0440\u044B\u043D\u043A\u0435"
-      - 
+      - "Sin perder un segundo, sigue el rastro de la guardia entre el gent\xEDo"
       - 
       - 
       - 
@@ -3247,7 +3309,8 @@ MonoBehaviour:
         \u0432 \u0442\u0440\u0430\u043A\u0442\u0438\u0440 \u0447\u0442\u043E\u0431\u044B
         \u0443\u0437\u043D\u0430\u0442\u044C \u043F\u043E\u0441\u043B\u0435\u0434\u043D\u0438\u0435
         \u043D\u043E\u0432\u043E\u0441\u0442\u0438"
-      - 
+      - Los guardias se esfuman entre la multitud... Mejor ir a la taberna a cazar
+        rumores
       - 
       - 
       - 
@@ -3266,7 +3329,7 @@ MonoBehaviour:
       - Take a stroll through the bazaar
       - "\u041F\u0440\u043E\u0433\u0443\u043B\u044F\u0442\u044C\u0441\u044F \u043F\u043E
         \u0440\u044B\u043D\u043A\u0443 "
-      - 
+      - Take a stroll through the marketplace
       - 
       - 
       - 
@@ -3286,7 +3349,8 @@ MonoBehaviour:
       - "\u0412\u044B \u0440\u0435\u0448\u0430\u0435\u0442\u0435 \u043F\u0440\u043E\u0433\u0443\u043B\u044F\u0442\u044C\u0441\u044F
         \u043F\u043E \u0440\u044B\u043D\u043A\u0443 \u0432 \u043F\u043E\u0438\u0441\u043A\u0430\u0445
         \u0441\u043B\u0443\u0445\u043E\u0432"
-      - 
+      - "Recorres el mercado, cazando rumores entre el barullo - los secretos son
+        la moneda m\xE1s valiosa aqu\xED"
       - 
       - 
       - 
@@ -3697,12 +3761,12 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Use the chaos as cover - time to 'liberate' something shiny from a stall
       - "\u0412\u043E\u0441\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u044C\u0441\u044F
         \u0441\u0443\u043C\u0430\u0442\u043E\u0445\u043E\u0439 \u0438 \u0432\u0441\u0435
         - \u0442\u0430\u043A\u0438 \u0441\u0442\u0430\u0449\u0438\u0442\u044C \u0445\u043E\u0442\u044C
         \u0447\u0442\u043E - \u0442\u043E \u0441 \u043F\u0440\u0438\u043B\u0430\u0432\u043A\u0430"
-      - 
+      - Aprovecha el jaleo - es hora de 'adquirir' algo sin pagar
       - 
       - 
       - 
@@ -3737,7 +3801,8 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - "The passerby is a blind monk! He seizes your wrist, whispering - My son,
+        to strike God\u2019s servant is to invite curses upon yourself!"
       - "\u041F\u0440\u043E\u0445\u043E\u0436\u0438\u0439, \u043E\u043A\u0430\u0437\u0430\u043B\u0441\u044F
         \u0441\u043B\u0435\u043F\u044B\u043C \u043C\u043E\u043D\u0430\u0445\u043E\u043C!
         \u041E\u043D \u0445\u0432\u0430\u0442\u0430\u0435\u0442 \u0432\u0430\u0441
@@ -3745,7 +3810,8 @@ MonoBehaviour:
         - \u0421\u044B\u043D \u043C\u043E\u0439 \u0442\u044B \u043D\u0430\u043F\u0430\u043B
         \u043D\u0430 \u0441\u043B\u0443\u0436\u0438\u0442\u0435\u043B\u044F \u0431\u043E\u0436\u044C\u0435\u0433\u043E,
         \u0436\u0434\u0443\u0442 \u0442\u0435\u0431\u044F \u043F\u0440\u043E\u043A\u043B\u044F\u0442\u0438\u044F!"
-      - 
+      - "\xA1El transe\xFAnte resulta ser un monje ciego! Te agarra del brazo y susurra
+        - Hijo m\xEDo, has atacado a un siervo de Dios... \xA1te esperan maldiciones!"
       - 
       - 
       - 
@@ -3761,9 +3827,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Crack a joke
       - "\u041E\u0442\u0448\u0443\u0442\u0438\u0442\u044C\u0441\u044F"
-      - 
+      - Soltar una broma
       - 
       - 
       - 
@@ -3779,13 +3845,21 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - 'You ask if they offer curse-removal discounts
+
+
+        The joke makes him
+        laugh as he walks away'
       - "\u0412\u044B \u0441\u043F\u0440\u0430\u0448\u0438\u0432\u0430\u0435\u0442\u0435,
         \u043A\u043E\u0433\u0434\u0430 \u0443 \u043D\u0438\u0445 \u0441\u043A\u0438\u0434\u043A\u0438
         \u043D\u0430 \u0441\u043D\u044F\u0442\u0438\u0435 \u043F\u0440\u043E\u043A\u043B\u044F\u0442\u0438\u044F\n\n\u0428\u0443\u0442\u043A\u0430
         \u0435\u0433\u043E \u0440\u0430\u0441\u0441\u043C\u0435\u0448\u0438\u043B\u0430,
         \u0438 \u043E\u043D \u0443\u0445\u043E\u0434\u0438\u0442"
-      - 
+      - 'Le preguntas si hacen descuentos para quitar maldiciones
+
+
+        La broma
+        le arranca una risa antes de irse'
       - 
       - 
       - 
@@ -3801,9 +3875,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Break free
       - "\u041E\u0441\u0432\u043E\u0431\u043E\u0434\u0438\u0442\u044C\u0441\u044F"
-      - 
+      - Liberarse
       - 
       - 
       - 
@@ -3819,7 +3893,8 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - "You yank your hand back and step away - but the monk\u2019s quicker. His
+        staff cracks against your skull before he vanishes into the crowd"
       - "\u0412\u044B\u0441\u0432\u043E\u0431\u043E\u0436\u0434\u0430\u044F \u0440\u0443\u043A\u0443,
         \u0432\u044B \u043E\u0442\u0445\u043E\u0434\u0438\u0442\u0435 \u043D\u0430
         \u0448\u0430\u0433 \u043E\u0442 \u043D\u0435\u0433\u043E, \u043D\u043E \u043C\u043E\u043D\u0430\u0445
@@ -3827,7 +3902,8 @@ MonoBehaviour:
         - \u0431\u043E\u043B\u044C\u043D\u043E \u0431\u044C\u0435\u0442 \u0432\u0430\u0441
         \u043F\u0430\u043B\u043A\u043E\u0439 \u043F\u043E \u0433\u043E\u043B\u043E\u0432\u0435
         \u0438 \u0443\u0445\u043E\u0434\u0438\u0442"
-      - 
+      - "Logras liberar la mano y retrocedes... pero el monje es \xE1gil. Su bast\xF3n
+        te golpea la cabeza con dolor antes de marcharse"
       - 
       - 
       - 
@@ -3843,11 +3919,11 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - A scrawny kid catches you mid-theft
       - "\u0412\u0430\u0448\u0435 \u0432\u043E\u0440\u043E\u0432\u0441\u0442\u0432\u043E
         \u0437\u0430\u043C\u0435\u0447\u0430\u0435\u0442 \u0442\u043E\u0449\u0438\u0439
         \u043C\u0430\u043B\u044C\u0447\u0438\u0448\u043A\u0430"
-      - 
+      - "Un chico escu\xE1lido atrapa tu mano en el acto"
       - 
       - 
       - 
@@ -3863,10 +3939,10 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Take pity on the urchin and hand him the corn
       - "\u041F\u043E\u0436\u0430\u043B\u0435\u0442\u044C \u043C\u0430\u043B\u044C\u0446\u0430
         \u0438 \u043E\u0442\u0434\u0430\u0442\u044C \u0435\u043C\u0443 \u043A\u0443\u043A\u0443\u0440\u0443\u0437\u0443"
-      - 
+      - "Compadecerte del chiquillo y darle el ma\xEDz"
       - 
       - 
       - 
@@ -3882,11 +3958,11 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - "The guards are lookin for you\u2026 But hey, my lips are sealed"
       - "\u0412\u0430\u0441 \u0446\u0430\u0440\u0441\u043A\u0438\u0435 \u0438\u0449\u0443\u0442\u2026
         \u041D\u043E \u044F \u0442\u0430\u043A \u0443\u0436 \u0438 \u0431\u044B\u0442\u044C
         \u043D\u0438\u0447\u0435\u0433\u043E \u0438\u043C \u043D\u0435 \u0441\u043A\u0430\u0436\u0443"
-      - 
+      - "La guardia te busca\u2026 Pero por ahora no dir\xE9 nada"
       - 
       - 
       - 
@@ -3902,9 +3978,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Shove him away
       - "\u041F\u0440\u043E\u0433\u043D\u0430\u0442\u044C \u0435\u0433\u043E"
-      - 
+      - Echarlo a patadas
       - 
       - 
       - 
@@ -3920,10 +3996,10 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
-      - "\u041C\u0430\u043B\u044C\u0447\u0438\u0448\u043A\u0430 \u0440\u0430\u0441\u0441\u0442\u0440\u043E\u0438\u043B\u0441\u044F.\n\n
+      - "The kid scowls\n\nthis isn\u2019t over"
+      - "\u041C\u0430\u043B\u044C\u0447\u0438\u0448\u043A\u0430 \u0440\u0430\u0441\u0441\u0442\u0440\u043E\u0438\u043B\u0441\u044F\n\n
         \u041E\u043D \u044D\u0442\u043E \u0437\u0430\u043F\u043E\u043C\u043D\u0438\u0442"
-      - 
+      - "El chico frunce el ce\xF1o \n\nesto no quedar\xE1 as\xED"
       - 
       - 
       - 
@@ -3939,13 +4015,14 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - "You\u2019d already forgotten the woman you shoved aside... but she hasn\u2019t
+        forgotten you"
       - "\u0412\u044B \u0441\u043E\u0432\u0441\u0435\u043C \u0437\u0430\u0431\u044B\u043B\u0438
         \u043F\u0440\u043E \u0436\u0435\u043D\u0449\u0438\u043D\u0443, \u043A\u043E\u0442\u043E\u0440\u0443\u044E
         \u0442\u043E\u043B\u043A\u043D\u0443\u043B\u0438, \u0430 \u0432\u043E\u0442
         \u043E\u043D\u0430 \u043F\u0440\u043E \u0432\u0430\u0441 \u0441\u043E\u0432\u0441\u0435\u043C
         \u043D\u0435\u0442"
-      - 
+      - "Hab\xEDas olvidado a aquella mujer que empujaste... pero ella no te ha olvidado"
       - 
       - 
       - 
@@ -3961,10 +4038,10 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - "Pretend you didn\u2019t notice"
       - "\u0421\u0434\u0435\u043B\u0430\u0442\u044C \u0432\u0438\u0434, \u0447\u0442\u043E
         \u043D\u0435 \u0437\u0430\u043C\u0435\u0442\u0438\u043B\u0438"
-      - 
+      - Fingir que no la has visto
       - 
       - 
       - 
@@ -3980,11 +4057,12 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - You turn away - only to catch a wicker basket right between your shoulder
+        blades
       - "\u0412\u044B \u043E\u0442\u0432\u043E\u0440\u0430\u0447\u0438\u0432\u0430\u0435\u0442\u0435\u0441\u044C
         - \u0438 \u043F\u043E\u043B\u0443\u0447\u0430\u0435\u0442\u0435 \u043A\u043E\u0440\u0437\u0438\u043D\u043E\u0439
         \u043F\u043E \u0441\u043F\u0438\u043D\u0435"
-      - 
+      - Te giras, y una cesta de mimbre te golpea la espalda
       - 
       - 
       - 
@@ -4000,10 +4078,10 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Apologize and offer help
       - "\u0418\u0437\u0432\u0438\u043D\u0438\u0442\u044C\u0441\u044F \u0438 \u043F\u0440\u0435\u0434\u043B\u043E\u0436\u0438\u0442\u044C
-        \u043F\u043E\u043C\u043E\u0447\u044C"
-      - 
+        \u043F\u043E\u043C\u043E\u0449\u044C"
+      - Pedir disculpas y ofrecer ayuda
       - 
       - 
       - 
@@ -4019,12 +4097,13 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - As you pack the goods, your hand sneaks a plum into your pocket on its own
       - "\u041F\u043E\u043A\u0430 \u0432\u044B \u0441\u043A\u043B\u0430\u0434\u044B\u0432\u0430\u0435\u0442\u0435
         \u043F\u0440\u043E\u0434\u0443\u043A\u0442\u044B, \u0440\u0443\u043A\u0430
         \u0441\u0430\u043C\u0430 \u0443\u043D\u043E\u0441\u0438\u0442 \u043E\u0434\u043D\u0443
         \u0441\u043B\u0438\u0432\u0443 \u0432 \u043A\u0430\u0440\u043C\u0430\u043D"
-      - 
+      - Mientras guardas los alimentos, tu mano se lleva una ciruela al bolsillo
+        por su cuenta
       - 
       - 
       - 
@@ -4040,7 +4119,8 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - During your little escapade, you lose sight of the guards, and the path leads
+        you to the gates of the royal palace
       - "\u0412\u043E \u0432\u0440\u0435\u043C\u044F \u0441\u0432\u043E\u0435\u0433\u043E
         \u043C\u0430\u043B\u0435\u043D\u044C\u043A\u043E\u0433\u043E \u043F\u0440\u0438\u043A\u043B\u044E\u0447\u0435\u043D\u0438\u044F
         \u0432\u044B \u0443\u043F\u0443\u0441\u043A\u0430\u0435\u0442\u0435 \u0441\u0442\u0440\u0430\u0436\u0443
@@ -4048,7 +4128,8 @@ MonoBehaviour:
         \u043F\u0440\u0438\u0432\u043E\u0434\u0438\u0442 \u0432\u0430\u0441 \u043A
         \u0432\u0440\u0430\u0442\u0430\u043C \u0446\u0430\u0440\u0441\u043A\u043E\u0433\u043E
         \u0434\u0432\u043E\u0440\u0446\u0430"
-      - 
+      - "Durante tu peque\xF1a aventura, pierdes de vista a los guardias y el camino
+        te lleva a las puertas del palacio real"
       - 
       - 
       - 
@@ -4362,7 +4443,8 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - The cart jolts sharply and halts. The wheels are stuck deep in the mud, the
+        horses snort restlessly. The guards sigh, bracing to push
       - "\u0422\u0435\u043B\u0435\u0433\u0430 \u0440\u0435\u0437\u043A\u043E \u0434\u0451\u0440\u0433\u0430\u0435\u0442\u0441\u044F
         \u0438 \u0437\u0430\u043C\u0438\u0440\u0430\u0435\u0442. \u041A\u043E\u043B\u0451\u0441\u0430
         \u0433\u043B\u0443\u0431\u043E\u043A\u043E \u0443\u0432\u044F\u0437\u043B\u0438
@@ -4370,7 +4452,9 @@ MonoBehaviour:
         \u0431\u0435\u0441\u043F\u043E\u043A\u043E\u0439\u043D\u043E \u0444\u044B\u0440\u043A\u0430\u044E\u0442.
         \u0421\u0442\u0440\u0430\u0436\u043D\u0438\u043A\u0438 \u0432\u0437\u0434\u044B\u0445\u0430\u044E\u0442,
         \u0433\u043E\u0442\u043E\u0432\u044F\u0441\u044C \u0442\u043E\u043B\u043A\u0430\u0442\u044C"
-      - 
+      - "El carro se sacude bruscamente y se detiene. Las ruedas est\xE1n atascadas
+        en el barro, los caballos resoplan inquietos. Los guardias suspiran, prepar\xE1ndose
+        para empujar"
       - 
       - 
       - 
@@ -4386,10 +4470,10 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Help the guards push the cart out
       - "\u041F\u043E\u043C\u043E\u0447\u044C \u0441\u0442\u0440\u0430\u0436\u043D\u0438\u043A\u0430\u043C
         \u0432\u044B\u0442\u043E\u043B\u043A\u0430\u0442\u044C \u0442\u0435\u043B\u0435\u0433\u0443"
-      - 
+      - Ayudar a los guardias a empujar el carro
       - 
       - 
       - 
@@ -4405,14 +4489,16 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - "The cart budges - but you faceplant into the mud. The guards roar with laughter
+        as you stand there, filthy. Off to a \u2018great\u2019 start"
       - "\u0422\u0435\u043B\u0435\u0433\u0430 \u043F\u043E\u0434\u0434\u0430\u0451\u0442\u0441\u044F,
         \u043D\u043E \u0442\u044B \u043F\u0430\u0434\u0430\u0435\u0448\u044C \u0432
         \u0433\u0440\u044F\u0437\u044C. \u0421\u0442\u0440\u0430\u0436\u043D\u0438\u043A\u0438
         \u0441\u043C\u0435\u044E\u0442\u0441\u044F, \u0430 \u0442\u044B \u0432\u0435\u0441\u044C
         \u0432 \u0433\u0440\u044F\u0437\u0438. \u041F\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u0435
         \u043D\u0430\u0447\u0438\u043D\u0430\u0435\u0442\u0441\u044F \"\u0443\u0434\u0430\u0447\u043D\u043E\""
-      - 
+      - "El carro cede - pero te caes de bruces en el barro. Los guardias se r\xEDen
+        a carcajadas mientras quedas cubierto de lodo. Un \u2018excelente\u2019 comienzo"
       - 
       - 
       - 
@@ -4428,11 +4514,11 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - "Staying put in the cart? That\u2019s not your style"
       - "\u041E\u0441\u0442\u0430\u0442\u044C\u0441\u044F \u0441\u0438\u0434\u0435\u0442\u044C
         \u0432 \u0442\u0435\u043B\u0435\u0433\u0435 - \u044D\u0442\u043E \u043D\u0435
         \u0432\u0430\u0448\u0435 \u0434\u0435\u043B\u043E"
-      - 
+      - Quedarte sentado en el carro no es lo tuyo
       - 
       - 
       - 
@@ -4448,13 +4534,15 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - "The cart lurches forward - but you catch a strange click from the wheel.
+        The guards don\u2019t seem to notice"
       - "\u0422\u0435\u043B\u0435\u0433\u0430 \u0441\u0434\u0432\u0438\u0433\u0430\u0435\u0442\u0441\u044F,
         \u043D\u043E \u0432\u044B \u0441\u043B\u044B\u0448\u0438\u0442\u0435 \u0441\u0442\u0440\u0430\u043D\u043D\u044B\u0439
         \u0449\u0435\u043B\u0447\u043E\u043A \u043E\u0442 \u043A\u043E\u043B\u0435\u0441\u0430
         - \u043D\u043E \u0441\u0442\u0440\u0430\u0436\u043D\u0438\u043A\u0438, \u043A\u0430\u0436\u0435\u0442\u0441\u044F,
         \u043D\u0435 \u0437\u0430\u043C\u0435\u0442\u0438\u043B\u0438"
-      - 
+      - "El carro avanza - pero oyes un clic extra\xF1o en la rueda. Los guardias
+        no parecen darse cuenta"
       - 
       - 
       - 
@@ -4636,10 +4724,10 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Flee into the dark forest
       - "\u0421\u0431\u0435\u0436\u0430\u0442\u044C \u0432 \u0442\u0435\u043C\u043D\u044B\u0439
         \u043B\u0435\u0441"
-      - 
+      - Escapar al bosque oscuro
       - 
       - 
       - 
@@ -4655,14 +4743,16 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - The guards chased you into the forest, but fear stopped them in their tracks.
+        You definitely need a drink after that
       - "\u0421\u0442\u0440\u0430\u0436\u043D\u0438\u043A\u0438 \u043F\u043E\u0431\u0435\u0436\u0430\u043B\u0438
         \u0437\u0430 \u0432\u0430\u043C\u0438 \u0432 \u043B\u0435\u0441, \u043D\u043E
         \u0441\u0442\u0440\u0430\u0445 \u0438\u0445 \u043E\u0441\u0442\u0430\u043D\u043E\u0432\u0438\u043B,
         \u0430 \u0432\u0430\u043C \u043F\u043E\u0441\u043B\u0435 \u0442\u0430\u043A\u043E\u0433\u043E
         \u043E\u0434\u043D\u043E\u0437\u043D\u0430\u0447\u043D\u043E \u043D\u0430\u0434\u043E
         \u0432\u044B\u043F\u0438\u0442\u044C"
-      - 
+      - "Los guardias corrieron tras vosotros al bosque, pero el miedo los detuvo.
+        Definitivamente necesit\xE1is un trago despu\xE9s de esto"
       - 
       - 
       - 
@@ -4678,14 +4768,16 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Following the guards, you approach the palace gates and watch them disappear
+        behind them
       - "\u041F\u0440\u043E\u0434\u043E\u043B\u0436\u0430\u044F \u0441\u043B\u0435\u0434\u043E\u0432\u0430\u0442\u044C
         \u0437\u0430 \u0441\u0442\u0440\u0430\u0436\u0435\u0439, \u0432\u044B \u043F\u043E\u0434\u0445\u043E\u0434\u0438\u0442\u0435
         \u043A \u0432\u043E\u0440\u043E\u0442\u0430\u043C \u0434\u0432\u043E\u0440\u0446\u0430,
         \u0432\u044B \u0432\u0438\u0434\u0438\u0442\u0435 \u043A\u0430\u043A \u043E\u043D\u0438
         \u0441\u043A\u0440\u044B\u0432\u0430\u044E\u0442\u0441\u044F \u0437\u0430
         \u0432\u043E\u0440\u043E\u0442\u0430\u043C\u0438 "
-      - 
+      - Al seguir a los guardias, te acercas a las puertas del palacio y los ves
+        desaparecer tras ellas
       - 
       - 
       - 
@@ -4701,10 +4793,10 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Secretly follow the guards into the castle
       - "\u0422\u0430\u0439\u043D\u043E \u043F\u0440\u043E\u0441\u043B\u0435\u0434\u043E\u0432\u0430\u0442\u044C
         \u0437\u0430 \u0441\u0442\u0440\u0430\u0436\u0435\u0439 \u0432 \u0437\u0430\u043C\u043E\u043A"
-      - 
+      - Seguir sigilosamente a los guardias al castillo
       - 
       - 
       - 
@@ -4720,13 +4812,15 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Approaching the castle gates, you throw a scarf over your head and blend
+        in with four monks
       - "\u041F\u043E\u0434\u043E\u0439\u0434\u044F \u043A \u0432\u043E\u0440\u043E\u0442\u0430\u043C
         \u0437\u0430\u043C\u043A\u0430 \u0432\u044B, \u043D\u0430\u043A\u0438\u043D\u0443\u0432
         \u043F\u043B\u0430\u0442\u043E\u043A \u043D\u0430 \u0433\u043E\u043B\u043E\u0432\u0443
         \u0441\u043B\u0438\u0432\u0430\u0435\u0442\u0435\u0441\u044C \u0441 \u0447\u0435\u0442\u044B\u0440\u044C\u043C\u044F
         \u043C\u043E\u043D\u0430\u0445\u0430\u043C\u0438"
-      - 
+      - Al acercarte a las puertas del castillo, te pones una bufanda en la cabeza
+        y te mezclas con cuatro monjes
       - 
       - 
       - 
@@ -4742,12 +4836,12 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - The guards notice you're not a monk and demand to know your business here
       - "\u0421\u0442\u0440\u0430\u0436\u043D\u0438\u043A\u0438 \u0437\u0430\u043C\u0435\u0447\u0430\u044E\u0442,
         \u0447\u0442\u043E \u0432\u044B \u043D\u0435 \u043C\u043E\u043D\u0430\u0445
         \u0438 \u0438\u043D\u0442\u0435\u0440\u0435\u0441\u0443\u044E\u0442\u0441\u044F
         \u0446\u0435\u043B\u044C\u044E \u0432\u0430\u0448\u0435\u0433\u043E \u0432\u0438\u0437\u0438\u0442\u0430"
-      - 
+      - Los guardias notan que no eres monje y preguntan el motivo de tu visita
       - 
       - 
       - 
@@ -4763,10 +4857,10 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Attempt to pass through without disguise
       - "\u041F\u043E\u043F\u044B\u0442\u0430\u0442\u044C\u0441\u044F \u043F\u0440\u043E\u0439\u0442\u0438
         \u0431\u0435\u0437 \u043C\u0430\u0441\u043A\u0438\u0440\u043E\u0432\u043A\u0438"
-      - 
+      - Intentar pasar sin disfraz
       - 
       - 
       - 
@@ -4782,13 +4876,18 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - 'The guards question your purpose
+
+
+        You claim to come by the king''s
+        order'
       - "\u0421\u0442\u0440\u0430\u0436\u043D\u0438\u043A\u0438 \u0438\u043D\u0442\u0435\u0440\u0435\u0441\u0443\u044E\u0442\u0441\u044F
         \u0446\u0435\u043B\u044C\u044E \u0432\u0430\u0448\u0435\u0433\u043E \u0432\u0438\u0437\u0438\u0442\u0430\n\n\u0412\u044B
         \u043E\u0442\u0432\u0435\u0447\u0430\u0435\u0442\u0435, \u0447\u0442\u043E
         \u043F\u0440\u0438\u0448\u043B\u0438 \u043F\u043E \u043F\u0440\u0438\u043A\u0430\u0437\u0443
         \u0446\u0430\u0440\u044F"
-      - 
+      - "Los guardias preguntan por tu prop\xF3sito\n\nDices que vienes por orden
+        del rey"
       - 
       - 
       - 
@@ -4804,10 +4903,10 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - The guards frown and eye you suspiciously
       - "\u0421\u0442\u0440\u0430\u0436\u043D\u0438\u043A\u0438 \u043D\u0430\u0445\u043C\u0443\u0440\u0438\u0432\u0448\u0438\u0441\u044C
         \u0441\u043C\u043E\u0442\u0440\u044F\u0442 \u043D\u0430 \u0432\u0430\u0441"
-      - 
+      - "Los guardias fruncen el ce\xF1o y te miran con sospecha"
       - 
       - 
       - 
@@ -4823,12 +4922,12 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Tell them the whole story from the beginning up to now
       - "\u0420\u0430\u0441\u0441\u043A\u0430\u0437\u0430\u0442\u044C \u0438\u043C
         \u0432\u0441\u044E \u0438\u0441\u0442\u043E\u0440\u0438\u044E \u043E\u0442
         \u043D\u0430\u0447\u0430\u043B\u0430 \u0434\u043E \u044D\u0442\u043E\u0433\u043E
         \u043C\u043E\u043C\u0435\u043D\u0442\u0430"
-      - 
+      - Contarles toda la historia desde el principio hasta ahora
       - 
       - 
       - 
@@ -4844,13 +4943,14 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - The guards exchange glances, sigh, and point you toward your next destination
       - "\u0421\u0442\u0440\u0430\u0436\u043D\u0438\u043A\u0438 \u043F\u0435\u0440\u0435\u0433\u043B\u044F\u0434\u044B\u0432\u0430\u044E\u0442\u0441\u044F
         \u043C\u0435\u0436\u0434\u0443 \u0441\u043E\u0431\u043E\u0439, \u0432\u0437\u0434\u044B\u0445\u0430\u044E\u0442
         \u0438 \u043F\u043E\u043A\u0430\u0437\u044B\u0432\u0430\u044E\u0442 \u043A\u0443\u0434\u0430
         \u0432\u0430\u043C \u043D\u0443\u0436\u043D\u043E \u0438\u0434\u0442\u0438
         \u0434\u0430\u043B\u0435\u0435"
-      - 
+      - "Los guardias intercambian miradas, suspiran y te indican hacia d\xF3nde
+        debes ir"
       - 
       - 
       - 
@@ -4866,13 +4966,15 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - State that you know what happened and are willing to help... for a worthy
+        reward
       - "\u0421\u043A\u0430\u0437\u0430\u0442\u044C, \u0447\u0442\u043E \u0437\u043D\u0430\u0435\u0442\u0435,
         \u0447\u0442\u043E \u0441\u043B\u0443\u0447\u0438\u043B\u043E\u0441\u044C
         \u0438 \u0433\u043E\u0442\u043E\u0432\u044B \u043F\u043E\u043C\u043E\u0447\u044C
         \u0435\u0441\u043B\u0438 \u0431\u0443\u0434\u0435\u0442 \u0434\u043E\u0441\u0442\u043E\u0439\u043D\u043E\u0435
         \u0432\u043E\u0437\u043D\u0430\u0433\u0440\u0430\u0436\u0434\u0435\u043D\u0438\u0435"
-      - 
+      - "Decir que sabes lo ocurrido y est\xE1s dispuesto a ayudar... por una recompensa
+        digna"
       - 
       - 
       - 
@@ -4888,13 +4990,15 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - The guards exchange glances and, with a smile, point you toward your next
+        destination
       - "\u0421\u0442\u0440\u0430\u0436\u043D\u0438\u043A\u0438 \u043F\u0435\u0440\u0435\u0433\u043B\u044F\u0434\u044B\u0432\u0430\u044E\u0442\u0441\u044F
         \u043C\u0435\u0436\u0434\u0443 \u0441\u043E\u0431\u043E\u0439, \u0438 c \u0443\u043B\u044B\u0431\u043A\u043E\u0439
         \u043F\u043E\u043A\u0430\u0437\u044B\u0432\u0430\u044E\u0442 \u043A\u0443\u0434\u0430
         \u0432\u0430\u043C \u043D\u0443\u0436\u043D\u043E \u0438\u0434\u0442\u0438
         \u0434\u0430\u043B\u0435\u0435"
-      - 
+      - "Los guardias intercambian miradas y, con una sonrisa, te indican hacia d\xF3nde
+        debes ir"
       - 
       - 
       - 
@@ -5592,14 +5696,16 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - You head to the river to wash off the mud. One of the guards accompanies
+        you. The water is icy, the current swift
       - "\u0412\u044B \u0438\u0434\u0451\u0442\u0435 \u043A \u0440\u0435\u043A\u0435,
         \u0447\u0442\u043E\u0431\u044B \u0441\u043C\u044B\u0442\u044C \u0433\u0440\u044F\u0437\u044C,
         \u043E\u0434\u0438\u043D \u0438\u0437 \u0441\u0442\u0440\u0430\u0436\u043D\u0438\u043A\u043E\u0432
         \u0438\u0434\u0435\u0442 \u0441 \u0432\u0430\u043C\u0438. \u0412\u043E\u0434\u0430
         \u0432 \u0440\u0435\u043A\u0435 \u0445\u043E\u043B\u043E\u0434\u043D\u0430\u044F,
         \u0442\u0435\u0447\u0435\u043D\u0438\u0435 \u0431\u044B\u0441\u0442\u0440\u043E\u0435"
-      - 
+      - "Vas al r\xEDo para lavarte el lodo. Uno de los guardias te acompa\xF1a.
+        El agua est\xE1 helada, la corriente es r\xE1pida"
       - 
       - 
       - 
@@ -5615,10 +5721,10 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Distract the guard and attempt to escape
       - "\u041E\u0442\u0432\u043B\u0435\u0447\u044C \u0441\u0442\u0440\u0430\u0436\u043D\u0438\u043A\u0430
         \u0438 \u043F\u043E\u043F\u044B\u0442\u0430\u0442\u044C\u0441\u044F \u0441\u0431\u0435\u0436\u0430\u0442\u044C"
-      - 
+      - Distraer al guardia e intentar escapar
       - 
       - 
       - 
@@ -5634,13 +5740,15 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - You shove him into the river without warning. He crashes into the water with
+        a curse, giving you time to slip away
       - "\u041D\u0435\u043E\u0436\u0438\u0434\u0430\u043D\u043D\u043E \u0442\u043E\u043B\u043A\u0430\u0435\u0448\u044C
         \u0435\u0433\u043E \u0432 \u0440\u0435\u043A\u0443. \u041E\u043D \u0441 \u0433\u0440\u043E\u0445\u043E\u0442\u043E\u043C
         \u043F\u0430\u0434\u0430\u0435\u0442 \u0432 \u0432\u043E\u0434\u0443, \u0440\u0443\u0433\u0430\u044F\u0441\u044C.
         \u0423 \u0432\u0430\u0441 \u0435\u0441\u0442\u044C \u0432\u0440\u0435\u043C\u044F,
         \u0447\u0442\u043E\u0431\u044B \u0441\u043A\u0440\u044B\u0442\u044C\u0441\u044F"
-      - 
+      - "Lo empujas al r\xEDo de improvisto. Cae al agua con un juramento, d\xE1ndote
+        tiempo para escabullirte"
       - 
       - 
       - 
@@ -5656,9 +5764,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Dive into the water
       - "\u041D\u044B\u0440\u043D\u0443\u0442\u044C \u0432 \u0432\u043E\u0434\u0443"
-      - 
+      - Zambullirse en el agua
       - 
       - 
       - 
@@ -5674,14 +5782,16 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - You submerge and stealthily swim beneath the overhanging leaves. The guard
+        assumes you've drowned and leaves
       - "\u0412\u044B \u0441\u043A\u0440\u044B\u0432\u0430\u0435\u0442\u0435\u0441\u044C
         \u043F\u043E\u0434 \u0432\u043E\u0434\u043E\u0439, \u0438 \u043D\u0435\u0437\u0430\u043C\u0435\u0442\u043D\u043E
         \u0432\u043F\u043B\u044B\u0432\u0430\u0435\u0442\u0435 \u043F\u043E\u0434
         \u043B\u0438\u0441\u0442\u0432\u043E\u0439, \u0441\u0442\u0440\u0430\u0436\u043D\u0438\u043A
         \u043F\u043E\u0434\u0443\u043C\u0430\u043B \u0447\u0442\u043E \u0432\u044B
         \u0443\u0442\u043E\u043D\u0443\u043B\u0438 \u0438 \u0443\u0448\u0435\u043B"
-      - 
+      - "Te sumerges y nad\xE1s sigilosamente bajo el follaje. El guardia asume que
+        te ahogaste y se va"
       - 
       - 
       - 
@@ -5697,11 +5807,11 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Climbing out and shaking yourself off, you ponder where to go next
       - "\u0412\u044B\u043F\u043B\u044B\u0432 \u0438 \u043E\u0442\u0440\u044F\u0445\u043D\u0443\u0432\u0448\u0438\u0441\u044C
         \u0432\u044B \u0434\u0443\u043C\u0430\u0435\u0442\u0435 \u043A\u0443\u0434\u0430
         \u043F\u043E\u0439\u0442\u0438"
-      - 
+      - "Al salir y sacudirte, reflexionas sobre ad\xF3nde ir ahora"
       - 
       - 
       - 
@@ -5717,9 +5827,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Wet your whistle
       - "\u041F\u0440\u043E\u043C\u043E\u0447\u0438\u0442\u044C \u0433\u043E\u0440\u043B\u043E"
-      - 
+      - Mojar el gaznate
       - 
       - 
       - 
@@ -5735,10 +5845,10 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - You suddenly crave ale - preferably in heroic quantities
       - "\u0412\u0430\u043C \u043E\u0447\u0435\u043D\u044C \u0437\u0430\u0445\u043E\u0442\u0435\u043B\u043E\u0441\u044C
         \u0432\u044B\u043F\u0438\u0442\u044C \u044D\u043B\u044F"
-      - 
+      - "Te entra un ansia irrefrenable de cerveza... y no ser\xE1 solo una"
       - 
       - 
       - 
@@ -5754,10 +5864,10 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Shadow the guards
       - "\u041F\u0440\u043E\u0441\u043B\u0435\u0434\u0438\u0442\u044C \u0437\u0430
         \u0441\u0442\u0440\u0430\u0436\u0435\u0439"
-      - 
+      - "Seguir a los guardias con discreci\xF3n"
       - 
       - 
       - 
@@ -5773,12 +5883,13 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - "Now you\u2019re itching to know - what the hell do the guards really want
+        with you?"
       - "\u0412\u0430\u043C \u0441\u0442\u0430\u043B\u043E \u0438\u043D\u0442\u0435\u0440\u0435\u0441\u043D\u043E
         \u0447\u0442\u043E \u0432\u0441\u0435 - \u0442\u0430\u043A\u0438 \u043D\u0443\u0436\u043D\u043E
         \u0441\u0442\u0440\u0430\u0436\u043D\u0438\u043A\u0430\u043C \u043E\u0442
         \u0432\u0430\u0441"
-      - 
+      - "Te pica la curiosidad - \xBFqu\xE9 diablos quieren los guardias contigo?"
       - 
       - 
       - 
@@ -5794,13 +5905,14 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - "The guard flails in the water, choking - clearly, swimming wasn\u2019t in
+        his training"
       - "\u0421\u0442\u0440\u0430\u0436\u043D\u0438\u043A \u0431\u0430\u0440\u0430\u0445\u0442\u0430\u0435\u0442\u0441\u044F
         \u0432 \u0432\u043E\u0434\u0435, \u043E\u043D \u043D\u0430\u0447\u0438\u043D\u0430\u0435\u0442
         \u0442\u043E\u043D\u0443\u0442\u044C, \u043F\u043E\u0445\u043E\u0436\u0435
         \u0447\u0442\u043E \u043E\u043D \u043D\u0435 \u0443\u043C\u0435\u0435\u0442
         \u043F\u043B\u0430\u0432\u0430\u0442\u044C"
-      - 
+      - "El guardia se ahoga en el agua, pataleando - nunca aprendi\xF3 a nadar"
       - 
       - 
       - 
@@ -5816,9 +5928,10 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
-      - "\u041F\u043E\u043C\u043E\u0447\u044C \u0442\u043E\u043D\u0443\u0449\u0435\u043C\u0443"
-      - 
+      - Save the drowning guard
+      - "\u041F\u043E\u043C\u043E\u0447\u044C \u0442\u043E\u043D\u0443\u0449\u0435\u043C\u0443
+        \u0441\u0442\u0440\u0430\u0436\u043D\u0438\u043A\u0443"
+      - Ayudar al guardia que se ahoga
       - 
       - 
       - 
@@ -5834,13 +5947,15 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - You shove a log into the water - the guard clings to it, gasping as he fights
+        for the shore
       - "\u0412\u044B \u0441\u0442\u0430\u043B\u043A\u0438\u0432\u0430\u0435\u0442\u0435
         \u0431\u0440\u0435\u0432\u043D\u043E \u0441 \u0431\u0435\u0440\u0435\u0433\u0430
         \u0438 \u0441\u0442\u0440\u0430\u0436\u043D\u0438\u043A, \u0445\u0432\u0430\u0442\u0430\u044F\u0441\u044C
         \u0437\u0430 \u043D\u0435\u0433\u043E \u043F\u044B\u0442\u0430\u0435\u0442\u0441\u044F
         \u0432\u044B\u043F\u043B\u044B\u0442\u044C \u043D\u0430 \u0431\u0435\u0440\u0435\u0433"
-      - 
+      - "Empujas un tronco hacia el r\xEDo; el guardia se aferra a \xE9l, escupiendo
+        agua mientras nada hacia la orilla"
       - 
       - 
       - 
@@ -5856,9 +5971,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - "Don\u2019t help"
       - "\u041D\u0435 \u043F\u043E\u043C\u043E\u0433\u0430\u0442\u044C"
-      - 
+      - No ayudarlo
       - 
       - 
       - 
@@ -5874,12 +5989,12 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Right now, you only care about your own skin
       - "\u0412\u0430\u0441 \u0432 \u0434\u0430\u043D\u043D\u044B\u0439 \u043C\u043E\u043C\u0435\u043D\u0442
         \u0432\u0430\u0441 \u0438\u043D\u0442\u0435\u0440\u0435\u0441\u0443\u0435\u0442
         \u0442\u043E\u043B\u044C\u043A\u043E \u043B\u0438\u0447\u043D\u0430\u044F
         \u0441\u0443\u0434\u044C\u0431\u0430"
-      - 
+      - En este momento, solo te importa tu propio pellejo
       - 
       - 
       - 
@@ -5895,7 +6010,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - "The cartwheel snaps on a rock - wood splinters, the wagon collapses, and
+        you\u2019re launched into the bushes. You lie still, breath held, until the
+        guards give up the search"
       - "\u041D\u0430\u0435\u0445\u0430\u0432 \u043D\u0430 \u043A\u0430\u043C\u0435\u043D\u044C
         \u043A\u043E\u043B\u0435\u0441\u043E \u043B\u043E\u043C\u0430\u0435\u0442\u0441\u044F
         \u0438 \u0432\u0441\u044F \u0442\u0435\u043B\u0435\u0433\u0430 \u0440\u0430\u0437\u0432\u0430\u043B\u0438\u0432\u0430\u0435\u0442\u0441\u044F,
@@ -5903,7 +6020,9 @@ MonoBehaviour:
         \u0438 \u043F\u0440\u044F\u0447\u0435\u0442\u0435\u0441\u044C \u0442\u0430\u043C,
         \u043F\u043E\u043A\u0430 \u0441\u0442\u0440\u0430\u0436\u0430 \u043D\u0435
         \u043D\u0430\u0439\u0434\u044F \u0432\u0430\u0441 \u0443\u0445\u043E\u0434\u0438\u0442  "
-      - 
+      - "La rueda se rompe al golpear una piedra, el carro se desmorona, y sales
+        volando hacia los arbustos. Te quedas agazapado hasta que los guardias abandonan
+        la b\xFAsqueda"
       - 
       - 
       - 
@@ -5919,11 +6038,11 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - "Climb onto the nearest roof to track the guards\u2019 movements"
       - "\u041F\u043E\u043F\u044B\u0442\u0430\u0442\u044C\u0441\u044F \u0441\u043B\u0435\u0434\u0438\u0442\u044C
         \u0437\u0430 \u0441\u0442\u0440\u0430\u0436\u0435\u0439 \u0441 \u0431\u043B\u0438\u0436\u0430\u0439\u0448\u0435\u0439
         \u043A\u0440\u044B\u0448\u0438"
-      - 
+      - "Intentar seguir a los guardias desde el tejado m\xE1s cercano"
       - 
       - 
       - 
@@ -5939,13 +6058,15 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - The roof tile crumbles - you crash down, shoulder screaming. Maybe stick
+        to street-level surveillance
       - "\u041E\u043F\u043E\u0440\u0430 \u043F\u043E\u0434 \u043D\u043E\u0433\u043E\u0439
-        \u043A\u0440\u043E\u0448\u0438\u0442\u0441\u044F,  \u0432\u044B \u0441\u0440\u044B\u0432\u0430\u0435\u0442\u0435\u0441\u044C
+        \u043A\u0440\u043E\u0448\u0438\u0442\u0441\u044F, \u0432\u044B \u0441\u0440\u044B\u0432\u0430\u0435\u0442\u0435\u0441\u044C
         \u0432\u043D\u0438\u0437 \u0438 \u0431\u043E\u043B\u044C\u043D\u043E \u0431\u044C\u0435\u0442\u0435\u0441\u044C
         \u043F\u043B\u0435\u0447\u043E\u043C. \u041B\u0443\u0447\u0448\u0435 \u043F\u0440\u043E\u0434\u043E\u043B\u0436\u0438\u0442\u044C
         \u0441\u043B\u0435\u0436\u043A\u0443 \u043F\u0435\u0448\u043A\u043E\u043C"
-      - 
+      - La teja se desmorona - caes con un golpe brutal en el hombro. Mejor seguir
+        a pie, listillo
       - 
       - 
       - 
@@ -5961,11 +6082,11 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Tail the guards the boring way - both feet on the ground
       - "\u041F\u0440\u043E\u0441\u043B\u0435\u0434\u0438\u0442\u044C \u0437\u0430
         \u0441\u0442\u0440\u0430\u0436\u0435\u0439, \u0431\u0435\u0437 \u0430\u043A\u0440\u043E\u0431\u0430\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0445
         \u0444\u043E\u043A\u0443\u0441\u043E\u0432"
-      - 
+      - 'Seguir a los guardias como la gente normal: con los pies en la tierra'
       - 
       - 
       - 
@@ -5981,10 +6102,10 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
-      - "\u0421\u0442\u0440\u0430\u0436\u0430 \u0443\u0445\u043E\u0434\u0438\u0442 
+      - The guards head toward the marketplace
+      - "\u0421\u0442\u0440\u0430\u0436\u0430 \u0443\u0445\u043E\u0434\u0438\u0442
         \u0432 \u0441\u0442\u043E\u0440\u043E\u043D\u0443 \u0431\u0430\u0437\u0430\u0440\u0430"
-      - 
+      - Los guardias se dirigen al mercado
       - 
       - 
       - 
@@ -6065,11 +6186,11 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - "Start yelling at rocks, waiting for an echo that\u2019ll never come"
       - "\u041D\u0430\u0447\u0430\u0442\u044C \u0433\u0440\u043E\u043C\u043A\u043E
         \u043A\u0440\u0438\u0447\u0430\u0442\u044C \u043D\u0430 \u043A\u0430\u043C\u043D\u0438,
         \u0432 \u043E\u0436\u0438\u0434\u0430\u043D\u0438\u0438 \u044D\u0445\u0430"
-      - 
+      - Ponerte a gritarle a las piedras, esperando un eco imaginario
       - 
       - 
       - 
@@ -6085,12 +6206,12 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - The guards heard your shouts - yet somehow, you slipped away
       - "\u0412\u0430\u0448\u0438 \u043A\u0440\u0438\u043A\u0438 \u0443\u0441\u043B\u044B\u0448\u0430\u043B\u0438
         \u0441\u0442\u0440\u0430\u0436\u043D\u0438\u043A\u0438, \u043D\u043E \u0432\u0430\u043C
         \u0443\u0434\u0430\u043B\u043E\u0441\u044C \u043E\u0442 \u043D\u0438\u0445
         \u0441\u0431\u0435\u0436\u0430\u0442\u044C"
-      - 
+      - Los guardias oyeron tus gritos... pero lograste escapar
       - 
       - 
       - 
@@ -6150,14 +6271,16 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - A faint glow catches your eye - a keyhole. If only you had a tool... even
+        a rusty nail
       - "\u0412\u044B \u0437\u0430\u043C\u0435\u0447\u0430\u0435\u0442\u0435 \u0441\u043B\u0430\u0431\u043E\u0435
         \u0441\u0432\u0435\u0447\u0435\u043D\u0438\u0435, \u044D\u0442\u043E \u0437\u0430\u043C\u043E\u0447\u043D\u0430\u044F
         \u0441\u043A\u0432\u0430\u0436\u0438\u043D\u0430. \u0412\u043E\u0442 \u0431\u044B
         \u0447\u0442\u043E-\u0442\u043E \u0447\u0435\u043C \u0435\u0435 \u043E\u0442\u043A\u0440\u044B\u0442\u044C,
         \u0445\u043E\u0442\u044F \u0431\u044B \u0441\u0442\u0430\u0440\u044B\u0439
         \u0433\u0432\u043E\u0437\u0434\u044C "
-      - 
+      - "Ves un tenue resplandor: una cerradura. \xA1Con que tuvieras algo para abrirla...
+        hasta un clavo oxidado!"
       - 
       - 
       - 
@@ -6173,14 +6296,16 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - "A faint glow reveals a keyhole. With a rusty nail as your \u2018key\u2019,
+        the lock clicks open"
       - "\u0412\u044B \u0437\u0430\u043C\u0435\u0447\u0430\u0435\u0442\u0435 \u0441\u043B\u0430\u0431\u043E\u0435
         \u0441\u0432\u0435\u0447\u0435\u043D\u0438\u0435, \u044D\u0442\u043E \u0437\u0430\u043C\u043E\u0447\u043D\u0430\u044F
         \u0441\u043A\u0432\u0430\u0436\u0438\u043D\u0430. \u0418\u0441\u043F\u043E\u043B\u044C\u0437\u0443\u044F
         \u0433\u0432\u043E\u0437\u0434\u044C, \u0432\u043C\u0435\u0441\u0442\u043E
         \u043A\u043B\u044E\u0447\u0430, \u0432\u044B \u043E\u0442\u043A\u0440\u044B\u0432\u0430\u0435\u0442\u0435
         \u0437\u0430\u043C\u043E\u043A"
-      - 
+      - Un resplandor tenue delata una cerradura. Usando un clavo como llave, la
+        abres con un clic
       - 
       - 
       - 
@@ -6236,7 +6361,8 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - "Back at the table, they\u2019re debating weekly brawls - and somehow, you\u2019re
+        already on the roster"
       - "\u0412\u044B \u0432\u043E\u0437\u0432\u0440\u0430\u0449\u0430\u0435\u0442\u0435\u0441\u044C
         \u0437\u0430 \u0441\u0442\u043E\u043B, \u0430 \u0442\u0430\u043C \u0443\u0436\u0435
         \u0432\u043E\u0432\u0441\u044E \u043E\u0431\u0441\u0443\u0436\u0434\u0430\u044E\u0442,
@@ -6245,7 +6371,8 @@ MonoBehaviour:
         \u043A\u0443\u043B\u0430\u0447\u043D\u044B\u0435 \u0431\u043E\u0438. \u0411\u043E\u043B\u0435\u0435
         \u0442\u043E\u0433\u043E - \u0432\u0430\u0441 \u0443\u0436\u0435 \u0437\u0430\u043F\u0438\u0441\u0430\u043B\u0438
         \u0432 \u043A\u043E\u043C\u0430\u043D\u0434\u0443"
-      - 
+      - "Al volver, la mesa discute peleas semanales\u2026 y por alg\xFAn motivo,
+        ya est\xE1s en la lista"
       - 
       - 
       - 
@@ -6261,10 +6388,10 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Splash water on your face and pray for sobriety
       - "\u0423\u043C\u044B\u0442\u044C\u0441\u044F \u0438 \u043F\u043E\u0441\u0442\u0430\u0440\u0430\u0442\u044C\u0441\u044F
         \u043F\u0440\u043E\u0442\u0440\u0435\u0437\u0432\u0435\u0442\u044C"
-      - 
+      - Lavarse la cara y intentar despejar la resaca
       - 
       - 
       - 
@@ -6280,14 +6407,16 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - "Your opponent\u2019s a mountain of muscle. Prioritizing apple preservation,
+        you hand it to a street kid for safekeeping"
       - "\u041F\u0440\u043E\u0442\u0438\u0432 \u0432\u0430\u0441 \u0431\u0443\u0434\u0435\u0442
         \u0434\u0440\u0430\u0442\u044C\u0441\u044F \u043A\u0440\u0443\u043F\u043D\u044B\u0439
         \u043C\u0443\u0436\u0438\u043A. \u0411\u043E\u044F\u0441\u044C, \u0447\u0442\u043E
         \u044F\u0431\u043B\u043E\u043A\u043E \u043D\u0435 \u043F\u0435\u0440\u0435\u0436\u0438\u0432\u0451\u0442
         \u0441\u0440\u0430\u0436\u0435\u043D\u0438\u044F, \u0432\u044B \u043E\u0442\u0434\u0430\u0451\u0442\u0435
         \u0435\u0433\u043E \u043F\u0430\u0446\u0430\u043D\u0443 \u043D\u0430 \u0445\u0440\u0430\u043D\u0435\u043D\u0438\u0435"
-      - 
+      - "Te enfrentar\xE1s a un gigante. Decides que el manzano es m\xE1s importante,
+        y se lo conf\xEDas a un chaval"
       - 
       - 
       - 
@@ -6303,13 +6432,15 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - "They\u2019ve pitted you against last week\u2019s champion - a mountain of
+        a man with fists like anvils"
       - "\u041F\u0440\u043E\u0442\u0438\u0432 \u0432\u0430\u0441 \u0432\u044B\u0441\u0442\u0430\u0432\u0438\u043B\u0438
         \u0447\u0435\u043C\u043F\u0438\u043E\u043D\u0430 \u043F\u0440\u043E\u0448\u043B\u043E\u0439
         \u043D\u0435\u0434\u0435\u043B\u0438, \u043A\u0440\u0443\u043F\u043D\u043E\u0433\u043E
         \u0438 \u0441 \u0432\u0438\u0434\u0443 \u043E\u0447\u0435\u043D\u044C \u0441\u0438\u043B\u044C\u043D\u043E\u0433\u043E
         \u043C\u0443\u0436\u0438\u043A\u0430"
-      - 
+      - "Te enfrentan al campe\xF3n de la semana pasada: un coloso con pinta de aplastarte
+        como un insecto"
       - 
       - 
       - 
@@ -6325,10 +6456,10 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Pump yourself up before the fight
       - "\u0412\u0437\u0431\u0443\u0434\u043E\u0440\u0430\u0436\u0438\u0442\u044C
         \u043A\u0440\u043E\u0432\u044C \u043F\u0435\u0440\u0435\u0434 \u0441\u0445\u0432\u0430\u0442\u043A\u043E\u0439"
-      - 
+      - Calentar la sangre antes del combate
       - 
       - 
       - 
@@ -6344,7 +6475,8 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - "Facing last week\u2019s champion - a hulking brute - you slap yourself twice,
+        sharpening your focus"
       - "\u041F\u0440\u043E\u0442\u0438\u0432 \u0432\u0430\u0441 - \u0447\u0435\u043C\u043F\u0438\u043E\u043D
         \u043F\u0440\u043E\u0448\u043B\u043E\u0439 \u043D\u0435\u0434\u0435\u043B\u0438,
         \u043A\u0440\u0443\u043F\u043D\u044B\u0439 \u043C\u0443\u0436\u0438\u043A.
@@ -6352,7 +6484,8 @@ MonoBehaviour:
         \u043F\u043E\u0449\u0451\u0447\u0438\u043D, \u0447\u0442\u043E\u0431\u044B
         \u0432\u0437\u0431\u043E\u0434\u0440\u0438\u0442\u044C\u0441\u044F \u043F\u0435\u0440\u0435\u0434
         \u0431\u043E\u0435\u043C"
-      - 
+      - "Enfrentas al campe\xF3n: un gigante. Te das dos bofetadas para despertar
+        el instinto"
       - 
       - 
       - 
@@ -6368,14 +6501,16 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - "You stumble outside. The crowd forms a ring - jeers and bets fly, but your
+        vision\u2019s still ale-blurred"
       - "\u0412\u044B \u0432\u044B\u0445\u043E\u0434\u0438\u0442\u0435 \u043D\u0430
         \u0443\u043B\u0438\u0446\u0443, \u0442\u043E\u043B\u043F\u0430 \u0441\u043E\u0431\u0438\u0440\u0430\u0435\u0442\u0441\u044F
         \u0432 \u043A\u0440\u0443\u0433, \u043A\u0440\u0438\u043A\u0438 \u0438 \u0441\u0442\u0430\u0432\u043A\u0438
         \u0440\u0430\u0437\u0434\u0430\u044E\u0442\u0441\u044F \u0441\u043E \u0432\u0441\u0435\u0445
         \u0441\u0442\u043E\u0440\u043E\u043D, \u0430 \u0432 \u0433\u043B\u0430\u0437\u0430\u0445
         \u043F\u043E-\u043F\u0440\u0435\u0436\u043D\u0435\u043C\u0443 \u043C\u0443\u0442\u043D\u043E"
-      - 
+      - "Sales a la calle. La gente forma un c\xEDrculo, las apuestas gritadas te
+        rodean\u2026 y la resaca nubla tu vista"
       - 
       - 
       - 
@@ -6391,11 +6526,11 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Brace into a fighting stance - let him make the first move
       - "\u0417\u0430\u043D\u044F\u0442\u044C \u0431\u043E\u0435\u0432\u0443\u044E
         \u0441\u0442\u043E\u0439\u043A\u0443 \u0438 \u0436\u0434\u0430\u0442\u044C
         \u043F\u0435\u0440\u0432\u043E\u0433\u043E \u0443\u0434\u0430\u0440\u0430"
-      - 
+      - Adoptar una postura de combate y esperar el primer golpe
       - 
       - 
       - 
@@ -6411,12 +6546,13 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - You brace for the first strike - and it lands. Your block crumbles; the force
+        is brutal
       - "\u0412\u044B \u0436\u0434\u0435\u0442\u0435 \u043F\u0435\u0440\u0432\u043E\u0433\u043E
         \u0443\u0434\u0430\u0440\u0430, \u0438 \u0432\u044B \u0435\u0433\u043E \u043F\u043E\u043B\u0443\u0447\u0430\u0435\u0442\u0435,
         \u0431\u043B\u043E\u043A \u0432\u0430\u0441 \u043D\u0435 \u0441\u043F\u0430\u0441\u0430\u0435\u0442,
         \u0443\u0434\u0430\u0440 \u0441\u043B\u0438\u0448\u043A\u043E\u043C \u0441\u0438\u043B\u044C\u043D\u044B\u0439"
-      - 
+      - Esperas el golpe - y conecta. Tu bloqueo falla; la potencia es bestial
       - 
       - 
       - 
@@ -6432,10 +6568,10 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Strike first - no hesitation
       - "\u0421\u0440\u0430\u0437\u0443 \u0430\u0442\u0430\u043A\u043E\u0432\u0430\u0442\u044C
         \u043F\u0435\u0440\u0432\u044B\u043C"
-      - 
+      - Atacar primero, sin dudar
       - 
       - 
       - 
@@ -6451,7 +6587,8 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - You swing first - but the ale betrays you. He shrugs off the blow, countering
+        with a rib-cracking punch to your chest
       - "\u0412\u044B \u0431\u044C\u0451\u0442\u0435 \u043F\u0435\u0440\u0432\u044B\u043C,
         \u043D\u043E \u0432\u044B \u0441\u043B\u0438\u0448\u043A\u043E\u043C \u043C\u043D\u043E\u0433\u043E
         \u0432\u044B\u043F\u0438\u043B\u0438. \u041F\u0440\u043E\u0442\u0438\u0432\u043D\u0438\u043A
@@ -6459,7 +6596,8 @@ MonoBehaviour:
         \u043F\u043B\u0435\u0447\u043E\u043C \u0438 \u0441 \u0445\u0440\u0443\u0441\u0442\u043E\u043C
         \u043E\u0442\u0432\u0435\u0447\u0430\u0435\u0442 \u043A\u0443\u043B\u0430\u043A\u043E\u043C
         \u0432 \u0433\u0440\u0443\u0434\u044C"
-      - 
+      - "Atacas primero, pero el alcohol te juega en contra. \xC9l bloquea con el
+        hombro y devuelve un pu\xF1etazo que te cruje las costillas"
       - 
       - 
       - 
@@ -6475,14 +6613,16 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - You step outside. The crowd forms a roaring circle - bets and jeers hammer
+        your skull, while your vision swims in ale-fed fog
       - "\u0412\u044B \u0432\u044B\u0445\u043E\u0434\u0438\u0442\u0435 \u043D\u0430
         \u0443\u043B\u0438\u0446\u0443, \u0442\u043E\u043B\u043F\u0430 \u0441\u043E\u0431\u0438\u0440\u0430\u0435\u0442\u0441\u044F
         \u0432 \u043A\u0440\u0443\u0433, \u043A\u0440\u0438\u043A\u0438 \u0438 \u0441\u0442\u0430\u0432\u043A\u0438
         \u0440\u0430\u0437\u0434\u0430\u044E\u0442\u0441\u044F \u0441\u043E \u0432\u0441\u0435\u0445
         \u0441\u0442\u043E\u0440\u043E\u043D, \u0430 \u0432 \u0433\u043B\u0430\u0437\u0430\u0445
         \u043F\u043E-\u043F\u0440\u0435\u0436\u043D\u0435\u043C\u0443 \u043C\u0443\u0442\u043D\u043E"
-      - 
+      - "Sales a la calle. El gent\xEDo grita apuestas, formando un c\xEDrculo que
+        te aturde\u2026 y la vista sigue nublada por la resaca"
       - 
       - 
       - 
@@ -6498,11 +6638,11 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Assume a fighting stance. Wait for his move
       - "\u0417\u0430\u043D\u044F\u0442\u044C \u0431\u043E\u0435\u0432\u0443\u044E
         \u0441\u0442\u043E\u0439\u043A\u0443 \u0438 \u0436\u0434\u0430\u0442\u044C
         \u043F\u0435\u0440\u0432\u043E\u0433\u043E \u0443\u0434\u0430\u0440\u0430"
-      - 
+      - Ponte en guardia. Espera su ataque
       - 
       - 
       - 
@@ -6518,12 +6658,12 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - The first strike lands. Your block shatters - too slow, too weak
       - "\u0412\u044B \u0436\u0434\u0435\u0442\u0435 \u043F\u0435\u0440\u0432\u043E\u0433\u043E
         \u0443\u0434\u0430\u0440\u0430, \u0438 \u0432\u044B \u0435\u0433\u043E \u043F\u043E\u043B\u0443\u0447\u0430\u0435\u0442\u0435,
         \u0431\u043B\u043E\u043A \u0432\u0430\u0441 \u043D\u0435 \u0441\u043F\u0430\u0441\u0430\u0435\u0442,
         \u0443\u0434\u0430\u0440 \u0441\u043B\u0438\u0448\u043A\u043E\u043C \u0441\u0438\u043B\u044C\u043D\u044B\u0439"
-      - 
+      - El primer golpe conecta. Tu bloqueo cede - demasiado brutal
       - 
       - 
       - 
@@ -6539,10 +6679,10 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Strike first - no hesitation
       - "\u0421\u0440\u0430\u0437\u0443 \u0430\u0442\u0430\u043A\u043E\u0432\u0430\u0442\u044C
         \u043F\u0435\u0440\u0432\u044B\u043C"
-      - 
+      - Atacar primero, sin dudar
       - 
       - 
       - 
@@ -6558,7 +6698,8 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - You lunge first - ale-heavy and sloppy. He tanks it with his shoulder, cracking
+        a fist into your ribs in return
       - "\u0412\u044B \u0431\u044C\u0451\u0442\u0435 \u043F\u0435\u0440\u0432\u044B\u043C,
         \u043D\u043E \u0432\u044B \u0441\u043B\u0438\u0448\u043A\u043E\u043C \u043C\u043D\u043E\u0433\u043E
         \u0432\u044B\u043F\u0438\u043B\u0438. \u041F\u0440\u043E\u0442\u0438\u0432\u043D\u0438\u043A
@@ -6566,7 +6707,8 @@ MonoBehaviour:
         \u043F\u043B\u0435\u0447\u043E\u043C \u0438 \u0441 \u0445\u0440\u0443\u0441\u0442\u043E\u043C
         \u043E\u0442\u0432\u0435\u0447\u0430\u0435\u0442 \u043A\u0443\u043B\u0430\u043A\u043E\u043C
         \u0432 \u0433\u0440\u0443\u0434\u044C"
-      - 
+      - "Atacas primero - torpe por la resaca. \xC9l absorbe el golpe con el hombro
+        y devuelve un pu\xF1etazo que cruje tus costillas"
       - 
       - 
       - 
@@ -6582,13 +6724,13 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - The enemy advances. He winds up a huge swing - his fist rockets toward you
       - "\u041F\u0440\u043E\u0442\u0438\u0432\u043D\u0438\u043A \u0438\u0434\u0451\u0442
         \u0432 \u043D\u0430\u0441\u0442\u0443\u043F\u043B\u0435\u043D\u0438\u0435.
         \u041E\u043D \u0448\u0438\u0440\u043E\u043A\u043E \u0437\u0430\u043C\u0430\u0445\u0438\u0432\u0430\u0435\u0442\u0441\u044F,
         \u0438 \u043A\u0443\u043B\u0430\u043A \u043D\u0435\u0441\u0451\u0442\u0441\u044F
         \u043F\u0440\u044F\u043C\u043E \u043A \u0432\u0430\u043C"
-      - 
+      - "El rival avanza. Un pu\xF1etazo descomunal vuela hacia ti"
       - 
       - 
       - 
@@ -6604,9 +6746,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Dodge to the side
       - "\u0423\u0432\u0435\u0440\u043D\u0443\u0442\u044C\u0441\u044F \u0432 \u0441\u0442\u043E\u0440\u043E\u043D\u0443"
-      - 
+      - Esquivar hacia un lado
       - 
       - 
       - 
@@ -6622,13 +6764,14 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - You dodge the punch - only to slip and crunch the apple beneath your backside
       - "\u0412\u044B \u0443\u043A\u043B\u043E\u043D\u044F\u0435\u0442\u0435\u0441\u044C,
         \u0438 \u043A\u0443\u043B\u0430\u043A \u043F\u0440\u043E\u043B\u0435\u0442\u0430\u0435\u0442
         \u043C\u0438\u043C\u043E, \u043D\u043E \u043F\u043E\u0441\u043A\u0430\u043B\u044C\u0437\u044B\u0432\u0430\u0435\u0442\u0435\u0441\u044C
         \u0438 \u043F\u0430\u0434\u0430\u0435\u0442\u0435 \u043D\u0430 \u0437\u0435\u043C\u043B\u044E
         \u0440\u0430\u0437\u0434\u0430\u0432\u0438\u0432 \u044F\u0431\u043B\u043E\u043A\u043E"
-      - 
+      - "Esquivas el pu\xF1etazo\u2026 pero resbalas y aplastas la manzana con tu
+        trasero"
       - 
       - 
       - 
@@ -6644,13 +6787,14 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - You dodge - his fist misses - then your feet betray you. The ground greets
+        your skull with a crack
       - "\u0412\u044B \u0443\u043A\u043B\u043E\u043D\u044F\u0435\u0442\u0435\u0441\u044C,
         \u0438 \u043A\u0443\u043B\u0430\u043A \u043F\u0440\u043E\u043B\u0435\u0442\u0430\u0435\u0442
         \u043C\u0438\u043C\u043E, \u043D\u043E \u043F\u043E\u0441\u043A\u0430\u043B\u044C\u0437\u044B\u0432\u0430\u0435\u0442\u0435\u0441\u044C
         \u0438 \u0431\u044C\u0435\u0442\u0435\u0441\u044C \u0433\u043E\u043B\u043E\u0432\u043E\u0439
         \u043E\u0431 \u0437\u0435\u043C\u043B\u044E"
-      - 
+      - "Esquivas el golpe\u2026 pero resbalas y la cabeza choca contra el suelo"
       - 
       - 
       - 
@@ -6666,10 +6810,10 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Counter with a jaw-breaking punch
       - "\u041E\u0442\u0432\u0435\u0442\u0438\u0442\u044C \u0443\u0434\u0430\u0440\u043E\u043C
         \u0432 \u0447\u0435\u043B\u044E\u0441\u0442\u044C"
-      - 
+      - "Contraatacar con un golpe a la mand\xEDbula"
       - 
       - 
       - 
@@ -6685,13 +6829,15 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Your fist connects - but so does his. The impact nearly floors you, but you
+        stagger upright
       - "\u0412\u0430\u0448 \u043A\u0443\u043B\u0430\u043A \u043F\u043E\u043F\u0430\u0434\u0430\u0435\u0442
         \u0432 \u0446\u0435\u043B\u044C, \u043D\u043E \u0438 \u0435\u0433\u043E -
         \u0442\u043E\u0436\u0435. \u0423\u0434\u0430\u0440 \u0431\u044B\u043B \u0441\u0438\u043B\u044C\u043D\u044B\u043C,
         \u0432\u044B \u0447\u0443\u0434\u043E\u043C \u0443\u0441\u0442\u043E\u044F\u043B\u0438
         \u043D\u0430 \u043D\u043E\u0433\u0430\u0445"
-      - 
+      - "Tu pu\xF1etazo acierta\u2026 pero el suyo tambi\xE9n. Casi caes, pero logras
+        mantenerte a duras penas"
       - 
       - 
       - 
@@ -6707,12 +6853,12 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - "The enemy\u2019s slowing - but still deadly. The crowd howls for blood"
       - "\u041F\u0440\u043E\u0442\u0438\u0432\u043D\u0438\u043A \u0443\u0436\u0435
         \u043D\u0430\u0447\u0430\u043B \u0443\u0441\u0442\u0430\u0432\u0430\u0442\u044C,
         \u043D\u043E \u0432\u0441\u0435 \u0435\u0449\u0451 \u043E\u043F\u0430\u0441\u0435\u043D.
         \u0422\u043E\u043B\u043F\u0430 \u0436\u0434\u0451\u0442 \u0437\u0440\u0435\u043B\u0438\u0449\u0430"
-      - 
+      - "El rival flaquea\u2026 pero sigue siendo letal. La multitud grita por espect\xE1culo"
       - 
       - 
       - 
@@ -6728,10 +6874,10 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Step back to catch your breath - just for a moment
       - "\u041E\u0442\u0441\u0442\u0443\u043F\u0438\u0442\u044C \u043D\u0430 \u0448\u0430\u0433
         \u0447\u0442\u043E\u0431\u044B \u043E\u0442\u0434\u044B\u0448\u0430\u0442\u044C\u0441\u044F"
-      - 
+      - Retrocede un paso para recuperar el aliento
       - 
       - 
       - 
@@ -6747,14 +6893,16 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - A kid from the crowd hurls an apple at you - you catch and devour it. Energy
+        coursing through your veins!
       - "\u0412\u0434\u0440\u0443\u0433 \u043F\u0430\u0446\u0430\u043D \u0438\u0437
         \u0442\u043E\u043B\u043F\u044B \u0431\u0440\u043E\u0441\u0430\u0435\u0442
         \u0432\u0430\u043C \u044F\u0431\u043B\u043E\u043A\u043E, \u0438 \u0432\u044B
         \u0431\u044B\u0441\u0442\u0440\u043E \u0441\u044A\u0435\u0434\u0430\u0435\u0442\u0435
         \u0435\u0433\u043E \u0438 \u043F\u043E\u043B\u0443\u0447\u0430\u0435\u0442\u0435
         \u0437\u0430\u0440\u044F\u0434 \u0441\u0438\u043B "
-      - 
+      - "Un chaval te lanza una manzana - la atrapas y tragas. \xA1Un torrente de
+        energ\xEDa te inunda!"
       - 
       - 
       - 
@@ -6770,10 +6918,10 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Attempt a feint - fake left, strike right
       - "\u041F\u043E\u043F\u0440\u043E\u0431\u043E\u0432\u0430\u0442\u044C \u043E\u0431\u043C\u0430\u043D\u043D\u044B\u0439
         \u0444\u0438\u043D\u0442"
-      - 
+      - Probar una finta - amaga a la izquierda, golpea a la derecha
       - 
       - 
       - 
@@ -6789,13 +6937,15 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - The feint almost works - until his eyes narrow. His counterpunch slams into
+        your ribs
       - "\u0412\u044B \u043F\u043E\u0447\u0442\u0438 \u043E\u0431\u043C\u0430\u043D\u0443\u043B\u0438
         \u0435\u0433\u043E, \u043D\u043E \u0432 \u043F\u043E\u0441\u043B\u0435\u0434\u043D\u0438\u0439
         \u043C\u043E\u043C\u0435\u043D\u0442 \u043E\u043D \u0432\u0438\u0434\u0438\u0442
         \u0443\u043B\u043E\u0432\u043A\u0443 \u0438 \u0431\u044C\u0451\u0442 \u0432
         \u043E\u0442\u0432\u0435\u0442"
-      - 
+      - "La finta casi funciona\u2026 hasta que \xE9l reacciona. Su contraataque
+        impacta en tu costado"
       - 
       - 
       - 
@@ -6811,12 +6961,14 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - "Your opponent\u2019s slowing - but his fists still carry death. The crowd
+        howls for a finale"
       - "\u041F\u0440\u043E\u0442\u0438\u0432\u043D\u0438\u043A \u0443\u0436\u0435
         \u043D\u0430\u0447\u0430\u043B \u0443\u0441\u0442\u0430\u0432\u0430\u0442\u044C,
         \u043D\u043E \u0432\u0441\u0435 \u0435\u0449\u0451 \u043E\u043F\u0430\u0441\u0435\u043D.
         \u0422\u043E\u043B\u043F\u0430 \u0436\u0434\u0451\u0442 \u0437\u0440\u0435\u043B\u0438\u0449\u0430"
-      - 
+      - "El rival flaquea\u2026 pero sus pu\xF1os siguen siendo letales. La multitud
+        exige un espect\xE1culo"
       - 
       - 
       - 
@@ -6832,10 +6984,10 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Step back to gasp for air - just one shaky breath
       - "\u041E\u0442\u0441\u0442\u0443\u043F\u0438\u0442\u044C \u043D\u0430 \u0448\u0430\u0433
         \u0447\u0442\u043E\u0431\u044B \u043E\u0442\u0434\u044B\u0448\u0430\u0442\u044C\u0441\u044F"
-      - 
+      - Retrocede un paso para recuperar el aliento - solo un instante
       - 
       - 
       - 
@@ -6851,11 +7003,11 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - A few ragged breaths - now your mind clears. Time for a new plan
       - "\u0412\u044B \u043D\u0435\u043C\u043D\u043E\u0433\u043E \u043E\u0442\u0434\u044B\u0448\u0430\u043B\u0438\u0441\u044C
         \u0438 \u0433\u043E\u0442\u043E\u0432\u044B \u043E\u0431\u0434\u0443\u043C\u0430\u0442\u044C
         \u043D\u043E\u0432\u0443\u044E \u0442\u0430\u043A\u0442\u0438\u043A\u0443"
-      - 
+      - Recuperas el aliento - la mente se despeja. Hora de un nuevo plan
       - 
       - 
       - 
@@ -6871,10 +7023,10 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Attempt a feint - fake left, strike right
       - "\u041F\u043E\u043F\u0440\u043E\u0431\u043E\u0432\u0430\u0442\u044C \u043E\u0431\u043C\u0430\u043D\u043D\u044B\u0439
         \u0444\u0438\u043D\u0442"
-      - 
+      - Probar una finta - amaga a la izquierda, golpea a la derecha
       - 
       - 
       - 
@@ -6890,13 +7042,15 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - The feint almost works - until his eyes flash with realization. His counterpunch
+        cracks your ribs like dry wood
       - "\u0412\u044B \u043F\u043E\u0447\u0442\u0438 \u043E\u0431\u043C\u0430\u043D\u0443\u043B\u0438
         \u0435\u0433\u043E, \u043D\u043E \u0432 \u043F\u043E\u0441\u043B\u0435\u0434\u043D\u0438\u0439
         \u043C\u043E\u043C\u0435\u043D\u0442 \u043E\u043D \u0432\u0438\u0434\u0438\u0442
         \u0443\u043B\u043E\u0432\u043A\u0443 \u0438 \u0431\u044C\u0451\u0442 \u0432
         \u043E\u0442\u0432\u0435\u0442"
-      - 
+      - "La finta casi funciona\u2026 hasta que \xE9l lo ve venir. Su contraataque
+        te deja sin aliento"
       - 
       - 
       - 
@@ -6912,13 +7066,15 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - The opponent shakes his head, staggering - but still lethal. The crowd roars
+        for carnage
       - "\u041F\u0440\u043E\u0442\u0438\u0432\u043D\u0438\u043A \u043C\u043E\u0442\u0430\u0435\u0442
         \u0433\u043E\u043B\u043E\u0432\u043E\u0439, \u043D\u0435\u043C\u043D\u043E\u0433\u043E
         \u043F\u043E\u0448\u0430\u0442\u044B\u0432\u0430\u0435\u0442\u0441\u044F,
         \u043D\u043E \u0435\u0449\u0451 \u043E\u043F\u0430\u0441\u0435\u043D. \u0422\u043E\u043B\u043F\u0430
         \u0436\u0434\u0451\u0442 \u0437\u0440\u0435\u043B\u0438\u0449\u0430"
-      - 
+      - "El rival mueve la cabeza, tambale\xE1ndose - pero sigue siendo peligroso.
+        El p\xFAblico grita por sangre"
       - 
       - 
       - 
@@ -6934,11 +7090,11 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - "No hesitation - strike while he\u2019s vulnerable!"
       - "\u041D\u0435 \u0442\u0435\u0440\u044F\u0442\u044C \u0432\u0440\u0435\u043C\u0435\u043D\u0438,
         \u0432\u043E\u0441\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u044C\u0441\u044F
         \u0441\u0438\u0442\u0443\u0430\u0446\u0438\u0435\u0439"
-      - 
+      - "\xA1Sin perder tiempo - ataca mientras flaquea!"
       - 
       - 
       - 
@@ -6954,12 +7110,13 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Your fist cracks his cheekbone - he reels, swaying like a storm-tossed ship
       - "\u0412\u044B \u0431\u044C\u0451\u0442\u0435 \u0435\u043C\u0443 \u0432 \u0441\u043A\u0443\u043B\u0443
         - \u0443\u0434\u0430\u0440 \u0442\u043E\u0447\u043D\u044B\u0439, \u0438 \u043E\u043D
         \u043F\u043E\u0448\u0430\u0442\u044B\u0432\u0430\u0435\u0442\u0441\u044F
         \u0435\u0449\u0451 \u0441\u0438\u043B\u044C\u043D\u0435\u0435"
-      - 
+      - "El pu\xF1etazo impacta en su p\xF3mulo\u2014vacila, tambale\xE1ndose como
+        un borracho"
       - 
       - 
       - 
@@ -6975,10 +7132,10 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Attempt a feint - fake left, strike right
       - "\u041F\u043E\u043F\u0440\u043E\u0431\u043E\u0432\u0430\u0442\u044C \u043E\u0431\u043C\u0430\u043D\u043D\u044B\u0439
         \u0444\u0438\u043D\u0442"
-      - 
+      - Probar una finta - amaga a la izquierda, golpea a la derecha
       - 
       - 
       - 
@@ -6994,13 +7151,15 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - The feint almost works - until his eyes flash with realization. His counterpunch
+        cracks your ribs like dry wood
       - "\u0412\u044B \u043F\u043E\u0447\u0442\u0438 \u043E\u0431\u043C\u0430\u043D\u0443\u043B\u0438
         \u0435\u0433\u043E, \u043D\u043E \u0432 \u043F\u043E\u0441\u043B\u0435\u0434\u043D\u0438\u0439
         \u043C\u043E\u043C\u0435\u043D\u0442 \u043E\u043D \u0432\u0438\u0434\u0438\u0442
         \u0443\u043B\u043E\u0432\u043A\u0443 \u0438 \u0431\u044C\u0451\u0442 \u0432
         \u043E\u0442\u0432\u0435\u0442"
-      - 
+      - "La finta casi funciona\u2026 hasta que \xE9l lo ve venir. Su contraataque
+        te deja sin aliento"
       - 
       - 
       - 
@@ -7016,12 +7175,13 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Both of you gasp for air - he staggers, but his eyes burn with raw defiance
       - "\u0412\u044B \u043E\u0431\u0430 \u0442\u044F\u0436\u0435\u043B\u043E \u0434\u044B\u0448\u0438\u0442\u0435.
         \u041F\u0440\u043E\u0442\u0438\u0432\u043D\u0438\u043A \u043F\u043E\u0448\u0430\u0442\u044B\u0432\u0430\u0435\u0442\u0441\u044F,
         \u043D\u043E \u0435\u0433\u043E \u0432\u0437\u0433\u043B\u044F\u0434 \u043F\u043E\u043B\u043E\u043D
         \u0443\u043F\u0440\u044F\u043C\u0441\u0442\u0432\u0430"
-      - 
+      - "Jade\xE1is como bestias heridas - \xE9l tambalea, pero su mirada arde en
+        terquedad"
       - 
       - 
       - 
@@ -7037,10 +7197,10 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Wind up for the finishing blow - put everything into it
       - "\u0420\u0430\u0437\u043C\u0430\u0445\u043D\u0443\u0442\u044C\u0441\u044F
         \u043D\u0430 \u0440\u0435\u0448\u0430\u044E\u0449\u0438\u0439 \u0443\u0434\u0430\u0440"
-      - 
+      - "Prep\xE1rate para el golpe definitivo - con toda tu fuerza"
       - 
       - 
       - 
@@ -7056,12 +7216,14 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - He dodges - his fist plows into your gut. The world tilts as you faceplant
+        into mud
       - "\u041E\u043D \u0443\u043A\u043B\u043E\u043D\u044F\u0435\u0442\u0441\u044F
         \u0438 \u0431\u044C\u0451\u0442 \u0432 \u0436\u0438\u0432\u043E\u0442. \u041F\u043E\u0441\u043B\u0435\u0434\u043D\u0438\u0439
         \u0443\u0434\u0430\u0440 - \u0438 \u0432\u044B \u043F\u0430\u0434\u0430\u0435\u0442\u0435
         \u0432 \u0433\u0440\u044F\u0437\u044C"
-      - 
+      - "Esquiva - y su pu\xF1o clava en tu est\xF3mago. Caes de bruces al barro,
+        vencido"
       - 
       - 
       - 
@@ -7077,11 +7239,11 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Feign collapse - then uppercut from the dirt
       - "\u0421\u0434\u0435\u043B\u0430\u0442\u044C \u0432\u0438\u0434, \u0447\u0442\u043E
         \u043F\u0430\u0434\u0430\u0435\u0442\u0435, \u0438 \u0443\u0434\u0430\u0440\u0438\u0442\u044C
         \u0441\u043D\u0438\u0437\u0443"
-      - 
+      - "Fingir una ca\xEDda - y lanzar un gancho al ment\xF3n desde el suelo"
       - 
       - 
       - 
@@ -7097,7 +7259,8 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - "As he leans in for the kill - your fist burrows into his gut. The champion
+        drops. The crowd\u2019s shrieks chase you back to the tavern"
       - "\u041E\u043D \u0442\u044F\u043D\u0435\u0442\u0441\u044F \u0432\u0430\u0441
         \u0434\u043E\u0431\u0438\u0442\u044C - \u0438 \u043F\u043E\u043B\u0443\u0447\u0430\u0435\u0442
         \u0432 \u0436\u0438\u0432\u043E\u0442, \u043F\u0440\u043E\u0442\u0438\u0432\u043D\u0438\u043A
@@ -7105,7 +7268,8 @@ MonoBehaviour:
         \u0440\u0430\u0434\u043E\u0441\u0442\u043D\u043E \u0432\u0438\u0437\u0436\u0438\u0442,
         \u0438 \u0432\u044B \u0432\u043E\u0437\u0432\u0440\u0430\u0449\u0430\u0435\u0442\u0435\u0441\u044C
         \u0432 \u0442\u0440\u0430\u043A\u0442\u0438\u0440"
-      - 
+      - "Cuando se inclina para rematarte - tu pu\xF1o clava en su est\xF3mago. El
+        gigante cae. Los gritos de la turba te siguen hasta la taberna"
       - 
       - 
       - 
@@ -7121,7 +7285,8 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - "A drunk bard stumbles onto the stage: \u2018Next tune\u2019s \u201ELimping
+        Mary from the Lowlands\u201C - dedicated to my darling wife!"
       - "\u041D\u0430 \u0441\u0446\u0435\u043D\u0443 \u0432\u044B\u0445\u043E\u0434\u0438\u0442
         \u043F\u044C\u044F\u043D\u044B\u0439 \u0431\u0430\u0440\u0434 \u0438 \u0430\u043D\u043E\u043D\u0441\u0438\u0440\u0443\u0435\u0442
         - \u0441\u043B\u0435\u0434\u0443\u044E\u0449\u0430\u044F \u043F\u0435\u0441\u043D\u044F
@@ -7129,7 +7294,8 @@ MonoBehaviour:
         \u041C\u0430\u0440\u0438\u044F \u0438\u0437 \u043D\u0438\u0437\u0438\u043D\u044B\"
         \u0438 \u043F\u043E\u0441\u0432\u044F\u0449\u0430\u0435\u0442\u0441\u044F
         \u043C\u043E\u0435\u0439 \u0436\u0435\u043D\u0435"
-      - 
+      - "Un bardo ebrio sube al escenario: \u2018La pr\xF3xima es \u201EMaria la
+        Coja del Pantano\u201C\u2026 \xA1para mi amada esposa!"
       - 
       - 
       - 
@@ -7145,9 +7311,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Drink more
       - "\u0412\u044B\u043F\u0438\u0442\u044C \u0435\u0449\u0435"
-      - 
+      - "Beber m\xE1s"
       - 
       - 
       - 
@@ -7163,11 +7329,11 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Back to the table - back to the ale
       - "\u0412\u044B \u0432\u043E\u0437\u0432\u0440\u0430\u0449\u0430\u0435\u0442\u0435\u0441\u044C
         \u0437\u0430 \u0441\u0442\u043E\u043B \u0438 \u043F\u0440\u043E\u0434\u043E\u043B\u0436\u0430\u0435\u0442\u0435
         \u043F\u0438\u0442\u044C \u044D\u043B\u044C"
-      - 
+      - Vuelves a la mesa y sigues bebiendo cerveza.
       - 
       - 
       - 
@@ -7183,10 +7349,10 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - No question - more ale!
       - "\u041E\u0434\u043D\u043E\u0437\u043D\u0430\u0447\u043D\u043E \u0432\u044B\u043F\u0438\u0442\u044C
         \u0435\u0449\u0435"
-      - 
+      - Sin duda, otra ronda
       - 
       - 
       - 
@@ -7202,11 +7368,11 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Back to the table - back to the ale
       - "\u0412\u044B \u0432\u043E\u0437\u0432\u0440\u0430\u0449\u0430\u0435\u0442\u0435\u0441\u044C
         \u0437\u0430 \u0441\u0442\u043E\u043B \u0438 \u043F\u0440\u043E\u0434\u043E\u043B\u0436\u0430\u0435\u0442\u0435
         \u043F\u0438\u0442\u044C \u044D\u043B\u044C"
-      - 
+      - Vuelves a la mesa y sigues bebiendo cerveza.
       - 
       - 
       - 
@@ -7222,7 +7388,8 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - "The ale cheers you - cheeks flushed, belly warm and full, words slurring
+        freely. The world sways gently... and somehow, it\u2019s perfect"
       - "\u042D\u043B\u044C \u0432\u0430\u0441 \u0432\u0435\u0441\u0435\u043B\u0438\u0442,
         \u0449\u0451\u043A\u0438 \u0440\u0430\u0437\u0433\u043E\u0440\u0435\u043B\u0438\u0441\u044C,
         \u043F\u0443\u0437\u043E \u043D\u0430\u043B\u0438\u043B\u043E\u0441\u044C
@@ -7232,7 +7399,8 @@ MonoBehaviour:
         \u043F\u043E\u043A\u0430\u0447\u0438\u0432\u0430\u0435\u0442\u0441\u044F,
         \u043D\u043E \u0432 \u044D\u0442\u043E\u043C \u0434\u0430\u0436\u0435 \u0435\u0441\u0442\u044C
         \u043F\u0440\u0435\u043B\u0435\u0441\u0442\u044C"
-      - 
+      - "La cerveza te alegra - mejillas ardientes, tripa llena como un odre, lengua
+        suelta. El mundo baila\u2026 y hasta tiene su encanto"
       - 
       - 
       - 
@@ -7248,11 +7416,11 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Raise a toast to the good old days
       - "\u041F\u043E\u0434\u043D\u044F\u0442\u044C \u0442\u043E\u0441\u0442 \u0437\u0430
         \u0441\u0442\u0430\u0440\u044B\u0435 \u0434\u043E\u0431\u0440\u044B\u0435
         \u0432\u0440\u0435\u043C\u0435\u043D\u0430"
-      - 
+      - Brindar por los viejos tiempos
       - 
       - 
       - 
@@ -7268,13 +7436,15 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - "You rise, mug aloft, slurring a \u2018touching\u2019 memory\u2026 or at
+        least it feels profound right now"
       - "\u0412\u044B \u0432\u0441\u0442\u0430\u0451\u0442\u0435 \u0438\u0437-\u0437\u0430
         \u0441\u0442\u043E\u043B\u0430, \u0440\u0430\u0437\u043C\u0430\u0445\u0438\u0432\u0430\u0435\u0442\u0435
         \u043A\u0440\u0443\u0436\u043A\u043E\u0439 \u0438 \u0432\u0441\u043F\u043E\u043C\u0438\u043D\u0430\u0435\u0442\u0435
         \u0447\u0442\u043E-\u0442\u043E \u0442\u0440\u043E\u0433\u0430\u0442\u0435\u043B\u044C\u043D\u043E\u0435\u2026
         \u0432\u0430\u043C \u0442\u0430\u043A \u043A\u0430\u0436\u0435\u0442\u0441\u044F"
-      - 
+      - "Te levantas, jarra en alto, evocando un recuerdo \u2018conmovedor\u2019\u2026
+        o eso crees entre brumas"
       - 
       - 
       - 
@@ -7290,11 +7460,11 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Hug the nearest patron and belt out a drunken ballad
       - "\u041E\u0431\u043D\u044F\u0442\u044C \u0431\u043B\u0438\u0436\u0430\u0439\u0448\u0435\u0433\u043E
         \u0441\u043E\u0441\u0435\u0434\u0430 \u0438 \u043D\u0430\u0447\u0430\u0442\u044C
         \u043F\u0435\u0442\u044C"
-      - 
+      - "Abrazar al primero que pilles y entonar una canci\xF3n borracha"
       - 
       - 
       - 
@@ -7310,12 +7480,14 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - "You\u2019re not sure who you\u2019re hugging - just that it\u2019s tight.
+        Your voice cracks, but your soul screams the chorus"
       - "\u0412\u044B \u043D\u0435 \u0443\u0432\u0435\u0440\u0435\u043D\u044B, \u043A\u0442\u043E
         \u0440\u044F\u0434\u043E\u043C, \u043D\u043E \u043E\u0431\u043D\u0438\u043C\u0430\u0435\u0442\u0435
         \u043A\u0440\u0435\u043F\u043A\u043E. \u0413\u043E\u043B\u043E\u0441 \u0441\u0440\u044B\u0432\u0430\u0435\u0442\u0441\u044F,
         \u043D\u043E \u0434\u0443\u0448\u0430 \u043F\u043E\u0451\u0442"
-      - 
+      - "No sabes a qui\xE9n abrazas - solo que es con fuerza. La voz falla, pero
+        el alma canta a gritos"
       - 
       - 
       - 
@@ -7331,13 +7503,15 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - "Your toast slurs, the mug\u2019s near empty - but your eyes gleam. Your
+        body demands an encore"
       - "\u0412\u0430\u0448 \u0442\u043E\u0441\u0442 \u0432\u044B\u0445\u043E\u0434\u0438\u0442
         \u0441\u0431\u0438\u0432\u0447\u0438\u0432\u044B\u043C, \u043A\u0440\u0443\u0436\u043A\u0430
         \u043F\u043E\u0447\u0442\u0438 \u043F\u0443\u0441\u0442\u0430, \u043D\u043E
         \u0433\u043B\u0430\u0437\u0430 \u0431\u043B\u0435\u0441\u0442\u044F\u0442.
         \u0422\u0435\u043B\u043E \u0442\u0440\u0435\u0431\u0443\u0435\u0442 \u043F\u0440\u043E\u0434\u043E\u043B\u0436\u0435\u043D\u0438\u044F"
-      - 
+      - "El brindis es un farfullo, la jarra casi vac\xEDa\u2026 pero tus ojos brillan.
+        El cuerpo exige otra ronda"
       - 
       - 
       - 
@@ -7353,10 +7527,10 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - "Grab the wooden post for balance - the floor\u2019s being suspiciously wobbly"
       - "\u041E\u043F\u0435\u0440\u0435\u0442\u044C\u0441\u044F \u043D\u0430 \u0441\u0442\u043E\u043B\u0431
         \u0434\u043B\u044F \u0440\u0430\u0432\u043D\u043E\u0432\u0435\u0441\u0438\u044F"
-      - 
+      - "Ag\xE1rrate al poste de madera\u2026 el suelo parece conspirar contra ti"
       - 
       - 
       - 
@@ -7372,7 +7546,8 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - "You lean on the post\u2026 then hug it. Soon, you\u2019re sharing heartfelt
+        secrets. It nods along"
       - "\u0412\u044B \u043E\u0431\u043B\u043E\u043A\u0430\u0447\u0438\u0432\u0430\u0435\u0442\u0435\u0441\u044C
         \u043D\u0430 \u0441\u0442\u043E\u043B\u0431, \u043F\u043E\u0442\u043E\u043C
         \u043E\u0431\u043D\u0438\u043C\u0430\u0435\u0442\u0435 \u0435\u0433\u043E.
@@ -7380,7 +7555,8 @@ MonoBehaviour:
         \u0441 \u043D\u0438\u043C \u0434\u0443\u0448\u0435\u0432\u043D\u0443\u044E
         \u0431\u0435\u0441\u0435\u0434\u0443. \u041A\u0430\u0436\u0435\u0442\u0441\u044F,
         \u043E\u043D \u043F\u043E\u043D\u0438\u043C\u0430\u0435\u0442"
-      - 
+      - "Te apoyas en el poste\u2026 luego lo abrazas. Minutos despu\xE9s, confiesas
+        tus penas. Parece entender"
       - 
       - 
       - 
@@ -7396,10 +7572,10 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Attempt to reach the door
       - "\u041F\u043E\u043F\u044B\u0442\u0430\u0442\u044C\u0441\u044F \u0434\u043E\u0439\u0442\u0438
         \u0434\u043E \u0434\u0432\u0435\u0440\u0438"
-      - 
+      - Intentar llegar a la puerta
       - 
       - 
       - 
@@ -7415,14 +7591,16 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - You lurch toward freedom - shoulder meets doorframe with a thud. Darkness
+        claims you mid-stumble, body crumpling like a discarded rag
       - "\u0412\u044B \u043F\u043E\u0447\u0442\u0438 \u0432\u044B\u0445\u043E\u0434\u0438\u0442\u0435,
         \u043D\u043E \u0432\u0440\u0435\u0437\u0430\u0435\u0442\u0435\u0441\u044C
         \u043F\u043B\u0435\u0447\u043E\u043C \u0432 \u043A\u043E\u0441\u044F\u043A.
         \u0412\u0430\u0441 \u0437\u0430\u043A\u0440\u0443\u0436\u0438\u043B\u043E,
         \u0438 \u0432\u044B \u0432\u044B\u0440\u0443\u0431\u0438\u043B\u0438\u0441\u044C
         \u043F\u0440\u044F\u043C\u043E \u0440\u044F\u0434\u043E\u043C \u0441 \u0434\u0432\u0435\u0440\u044C\u044E"
-      - 
+      - "Tambaleas hacia la salida\u2014hombro contra marco, \xA1crack!. El sue\xF1o
+        te arrulla en el suelo, como un ni\xF1o"
       - 
       - 
       - 
@@ -7438,14 +7616,16 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - You and the neighbors belt out a drunken anthem. The room spins, your knees
+        wobble - sheer drunken bliss
       - "\u0412\u044B \u0432\u043C\u0435\u0441\u0442\u0435 \u0441 \u0441\u043E\u0441\u0435\u0434\u044F\u043C\u0438
         \u043F\u043E\u0451\u0442\u0435 \u0445\u043E\u0440\u043E\u043C. \u0413\u043E\u043B\u043E\u0432\u0430
         \u043A\u0440\u0443\u0436\u0438\u0442\u0441\u044F, \u043D\u043E\u0433\u0438
         \u043F\u043E\u0434\u0440\u0430\u0433\u0438\u0432\u0430\u044E\u0442, \u043D\u0430\u0441\u0442\u0440\u043E\u0435\u043D\u0438\u0435
         \u043D\u0430 \u043F\u0438\u043A\u0435. \u0412\u044B \u043F\u044C\u044F\u043D\u044B
         \u2014 \u043F\u043E-\u043D\u0430\u0441\u0442\u043E\u044F\u0449\u0435\u043C\u0443"
-      - 
+      - "Cant\xE1is a grito pelado con los parroquianos. La cabeza gira, las piernas
+        flaquean - borrachera pura"
       - 
       - 
       - 
@@ -7461,10 +7641,10 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Time to dance!
       - "\u0420\u0435\u0448\u0438\u0442\u044C, \u0447\u0442\u043E \u043C\u043E\u0436\u0435\u0442\u0435
         \u0441\u0442\u0430\u043D\u0446\u0435\u0432\u0430\u0442\u044C"
-      - 
+      - "\xA1Es la hora de bailar! "
       - 
       - 
       - 
@@ -7480,7 +7660,8 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - "You rise from the table - legs rebelling. One \u2018graceful\u2019 pirouette
+        later, you crash-land by the door, snoring into the floorboards"
       - "\u0412\u044B \u0432\u0441\u0442\u0430\u0435\u0442\u0435 \u0438\u0437-\u0437\u0430
         \u0441\u0442\u043E\u043B\u0430, \u043D\u043E \u043D\u043E\u0433\u0438 \u0432\u0430\u0441
         \u043D\u0435 \u0441\u043B\u0443\u0448\u0430\u044E\u0442\u0441\u044F \u0438
@@ -7488,7 +7669,8 @@ MonoBehaviour:
         \u0434\u0432\u0438\u0436\u0435\u043D\u0438\u0435 \u0432\u044B \u043F\u0440\u0438\u0437\u0435\u043C\u043B\u044F\u0435\u0442\u0435\u0441\u044C
         \u0440\u044F\u0434\u043E\u043C \u0441 \u0434\u0432\u0435\u0440\u044C\u044E
         \u0438 \u0437\u0430\u0441\u044B\u043F\u0430\u0435\u0442\u0435 "
-      - 
+      - "Te levantas\u2026 las piernas te traicionan. Tras un \u2018elegante\u2019
+        giro, aterrizas junto a la puerta, roncando en el suelo"
       - 
       - 
       - 
@@ -7504,10 +7686,10 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - "Go \u2018stretch\u2019 outside"
       - "\u041F\u043E\u0439\u0442\u0438 \u0440\u0430\u0437\u043C\u044F\u0442\u044C\u0441\u044F
         \u043D\u0430 \u0443\u043B\u0438\u0446\u0435"
-      - 
+      - "Ir a \u2018estirarse\u2019 a la calle"
       - 
       - 
       - 
@@ -7523,7 +7705,8 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - "You stride out to claim your champion\u2019s glory - only to faceplant into
+        a puddle. The last thing you see: a chicken judging you"
       - "\u0412\u044B \u0432\u044B\u0445\u043E\u0434\u0438\u0442\u0435 \u043D\u0430
         \u0432\u043E\u0437\u0434\u0443\u0445, \u0447\u0442\u043E\u0431\u044B \u043F\u043E\u043A\u0430\u0437\u0430\u0442\u044C,
         \u043A\u0442\u043E \u0442\u0443\u0442 \u0447\u0435\u043C\u043F\u0438\u043E\u043D
@@ -7531,7 +7714,8 @@ MonoBehaviour:
         \u041F\u043E\u0441\u043B\u0435\u0434\u043D\u0435\u0435, \u0447\u0442\u043E
         \u0432\u0438\u0434\u0438\u0442\u0435 - \u043A\u0443\u0440\u0438\u0446\u0443,
         \u0441\u043C\u043E\u0442\u0440\u044F\u0449\u0443\u044E \u043D\u0430 \u0432\u0430\u0441"
-      - 
+      - "Sales a proclamar tu grandeza\u2026 y caes de bruces en un charco. Lo \xFAltimo
+        que ves: una gallina juzg\xE1ndote"
       - 
       - 
       - 
@@ -7547,7 +7731,8 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - You wake to the sun stabbing your eyes. The tavern yard lies deserted. Your
+        head thrums, your clothes reek of ale and smoke
       - "\u0412\u044B \u043F\u0440\u0438\u0445\u043E\u0434\u0438\u0442\u0435 \u0432
         \u0441\u0435\u0431\u044F \u043E\u0442 \u0442\u043E\u0433\u043E, \u0447\u0442\u043E
         \u0441\u043E\u043B\u043D\u0446\u0435 \u0441\u0432\u0435\u0442\u0438\u0442
@@ -7555,7 +7740,8 @@ MonoBehaviour:
         \u0442\u0440\u0430\u043A\u0442\u0438\u0440\u0430 \u043F\u0443\u0441\u0442.
         \u0413\u043E\u043B\u043E\u0432\u0430 \u0433\u0443\u0434\u0438\u0442, \u043E\u0434\u0435\u0436\u0434\u0430
         \u043F\u0430\u0445\u043D\u0435\u0442 \u044D\u043B\u0435\u043C \u0438 \u0434\u044B\u043C\u043E\u043C"
-      - 
+      - "Despiertas con el sol clav\xE1ndose en tus ojos. El patio est\xE1 vac\xEDo.
+        La cabeza zumba, la ropa huele a cerveza y humo"
       - 
       - 
       - 
@@ -7571,10 +7757,10 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Get up, dust yourself off, and scan the area
       - "\u041F\u043E\u0434\u043D\u044F\u0442\u044C\u0441\u044F, \u043E\u0442\u0440\u044F\u0445\u043D\u0443\u0442\u044C\u0441\u044F
         \u0438 \u043E\u0441\u043C\u043E\u0442\u0440\u0435\u0442\u044C\u0441\u044F"
-      - 
+      - Levantarse, sacudirse y mirar alrededor
       - 
       - 
       - 
@@ -7590,14 +7776,16 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - "The innkeeper laughs at your state - then slides you a steaming stew. Fortified,
+        you\u2019re ready to visit the Tsar and unravel his trouble"
       - "\u0422\u0440\u0430\u043A\u0442\u0438\u0440\u0449\u0438\u043A \u0441\u043C\u0435\u0435\u0442\u0441\u044F
         \u043D\u0430\u0434 \u0432\u0430\u043C\u0438, \u0430 \u043F\u043E\u0442\u043E\u043C
         \u0434\u0430\u0435\u0442 \u0441\u044B\u0442\u043D\u0443\u044E \u043F\u043E\u0445\u043B\u0435\u0431\u043A\u0443.
         \u0422\u0435\u043F\u0435\u0440\u044C \u0432\u044B \u0433\u043E\u0442\u043E\u0432\u044B
         \u043F\u043E\u0439\u0442\u0438 \u043A \u0426\u0430\u0440\u044E \u0438 \u0443\u0437\u043D\u0430\u0442\u044C
         \u0447\u0442\u043E \u0442\u0430\u043C \u0437\u0430 \u0431\u0435\u0434\u0430"
-      - 
+      - "El tabernero se r\xEDe de ti\u2026 pero te sirve un guiso caliente. Ahora,
+        listo para ir al Zar y averiguar el problema"
       - 
       - 
       - 
@@ -7613,11 +7801,11 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Haul yourself to the hayloft and snooze a few more hours
       - "\u041F\u0435\u0440\u0435\u0431\u0440\u0430\u0442\u044C\u0441\u044F \u043D\u0430
         \u0441\u0435\u043D\u043E\u0432\u0430\u043B \u0438 \u0432\u0437\u0434\u0440\u0435\u043C\u043D\u0443\u0442\u044C
         \u0435\u0449\u0435 \u0447\u0430\u0441\u043E\u043A - \u0434\u0440\u0443\u0433\u043E\u0439"
-      - 
+      - "Esc\xF3ndete en el pajar y echa una siesta larga"
       - 
       - 
       - 
@@ -7633,14 +7821,16 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - "You drift into blissful sleep\u2014until the king\u2019s guard yanks you
+        upright. They march your stumbling form to the throne"
       - "\u0412\u044B \u0441\u043B\u0430\u0434\u043A\u043E \u0437\u0430\u0441\u044B\u043F\u0430\u0435\u0442\u0435,
         \u0438 \u0432\u0434\u0440\u0443\u0433 \u0432\u0430\u0441 \u043D\u0430\u0445\u043E\u0434\u0438\u0442
         \u0446\u0430\u0440\u0441\u043A\u0430\u044F \u0441\u0442\u0440\u0430\u0436\u0430.
         \u0412\u0430\u0441 \u043F\u043E\u0434\u043D\u0438\u043C\u0430\u044E\u0442
         \u0438 \u0432\u0435\u0434\u0443\u0442, \u043F\u043E\u0448\u0430\u0442\u044B\u0432\u0430\u044F\u0441\u044C,
         \u043A \u0446\u0430\u0440\u044E"
-      - 
+      - "Te duermes\u2026 hasta que la guardia real te arrastra. Te llevan tambaleante
+        ante el rey"
       - 
       - 
       - 
@@ -7656,7 +7846,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - "You wake with a headache worthy of a troll\u2019s club and the distinct
+        sense you lost a fight with a cart. The chicken still judges you. From the
+        tavern: muffled laughter - another damn day"
       - "\u0412\u044B \u043F\u0440\u043E\u0441\u044B\u043F\u0430\u0435\u0442\u0435\u0441\u044C
         \u0441 \u0433\u043E\u043B\u043E\u0432\u043D\u043E\u0439 \u0431\u043E\u043B\u044C\u044E
         \u0438 \u043E\u0449\u0443\u0449\u0435\u043D\u0438\u0435\u043C, \u0431\u0443\u0434\u0442\u043E
@@ -7666,7 +7858,9 @@ MonoBehaviour:
         \u0442\u0440\u0430\u043A\u0442\u0438\u0440\u0430 \u0434\u043E\u043D\u043E\u0441\u0438\u0442\u0441\u044F
         \u0448\u0443\u043C - \u043D\u043E\u0432\u044B\u0439 \u0434\u0435\u043D\u044C
         \u043D\u0430\u0447\u0430\u043B\u0441\u044F"
-      - 
+      - "Despiertas con un dolor de cabeza de gigante y el recuerdo de una carreta
+        pas\xE1ndote por encima. La gallina sigue ah\xED. Risas desde la taberna
+        - otro maldito d\xEDa"
       - 
       - 
       - 
@@ -7682,10 +7876,10 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Attempt to rise with dignity
       - "\u041F\u043E\u043F\u044B\u0442\u0430\u0442\u044C\u0441\u044F \u0432\u0441\u0442\u0430\u0442\u044C
         \u0441 \u0434\u043E\u0441\u0442\u043E\u0438\u043D\u0441\u0442\u0432\u043E\u043C"
-      - 
+      - Intentar levantarse con elegancia
       - 
       - 
       - 
@@ -7701,14 +7895,16 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - You haul yourself up, wheezing. Somehow, only the chicken witnessed your
+        shame - so technically, it almost counts as dignity
       - "\u0412\u044B \u043F\u043E\u0434\u043D\u0438\u043C\u0430\u0435\u0442\u0435\u0441\u044C,
         \u0442\u044F\u0436\u0435\u043B\u043E \u0434\u044B\u0448\u0430. \u041D\u0438\u043A\u0442\u043E,
         \u043A\u0440\u043E\u043C\u0435 \u043A\u0443\u0440\u0438\u0446\u044B, \u043D\u0435
         \u0432\u0438\u0434\u0435\u043B \u044D\u0442\u043E\u0433\u043E, \u0442\u0430\u043A
         \u0447\u0442\u043E \u043F\u043E\u043B\u0443\u0447\u0438\u043B\u043E\u0441\u044C
         \u043F\u043E\u0447\u0442\u0438 \u0434\u043E\u0441\u0442\u043E\u0439\u043D\u043E"
-      - 
+      - "Te levantas jadeando. Milagrosamente, solo la gallina vio el espect\xE1culo
+        - as\xED que casi fue elegante"
       - 
       - 
       - 
@@ -7724,11 +7920,11 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - 'Grope blindly for anything to haul yourself upright '
       - "\u041F\u043E\u043F\u044B\u0442\u0430\u0442\u044C\u0441\u044F \u043D\u0430\u0449\u0443\u043F\u0430\u0442\u044C
         \u0447\u0442\u043E-\u0442\u043E \u0447\u0442\u043E \u043F\u043E\u043C\u043E\u0436\u0435\u0442
         \u0432\u0430\u043C \u0432\u0441\u0442\u0430\u0442\u044C"
-      - 
+      - Tanteas en busca de algo para levantarte
       - 
       - 
       - 
@@ -7744,14 +7940,16 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - "Your hand clunks against a giant ladle - now your makeshift staff as you
+        hobble toward the king\u2019s castle"
       - "\u0412\u0430\u0448\u0430 \u0440\u0443\u043A\u0430 \u043D\u0430\u0442\u044B\u043A\u0430\u0435\u0442\u0441\u044F
         \u043D\u0430 \u0431\u043E\u043B\u044C\u0448\u043E\u0439 \u043F\u043E\u043B\u043E\u0432\u043D\u0438\u043A,
         \u0432\u044B \u0438\u0441\u043F\u043E\u043B\u044C\u0437\u0443\u0435\u0442\u0435
         \u0435\u0433\u043E \u0432\u043C\u0435\u0441\u0442\u043E \u043F\u043E\u0441\u043E\u0445\u0430.
         \u0418 \u043E\u0442\u043F\u0440\u0430\u0432\u043B\u044F\u0435\u0442\u0435\u0441\u044C
         \u0432 \u0437\u0430\u043C\u043E\u043A \u043A \u0446\u0430\u0440\u044E"
-      - 
+      - "Tus dedos topan con un cuchar\xF3n - ahora es tu bast\xF3n real mientras
+        marchas al castillo del rey"
       - 
       - 
       - 
@@ -7810,13 +8008,15 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - The moment your fingers brush the stone, a trap snares shut - but you snatch
+        the prize, barely avoiding searing flames
       - "\u041A\u0430\u043A \u0442\u043E\u043B\u044C\u043A\u043E \u0432\u044B \u043A\u0430\u0441\u0430\u0435\u0442\u0435\u0441\u044C
         \u043A\u0430\u043C\u043D\u044F, \u0430\u043A\u0442\u0438\u0432\u0438\u0440\u0443\u0435\u0442\u0441\u044F
         \u043B\u043E\u0432\u0443\u0448\u043A\u0430, \u0432\u0430\u043C \u0443\u0434\u0430\u0451\u0442\u0441\u044F
         \u0441\u0445\u0432\u0430\u0442\u0438\u0442\u044C \u0434\u043E\u0431\u044B\u0447\u0443
-        \u0438 \u043D\u0435 \u043E\u0436\u0435\u0447\u044C \u0440\u0443\u043A\u0443"
-      - 
+        \u0438 \u043D\u0435 \u043E\u0431\u0436\u0435\u0447\u044C \u0440\u0443\u043A\u0443"
+      - "Al tocar la piedra, una trampa se activa - pero logras agarrar el bot\xEDn,
+        esquivando llamas por segundos"
       - 
       - 
       - 
@@ -8583,14 +8783,16 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - "We can\u2019t let you roam the demo alone just yet - but very soon, you\u2019ll
+        be ready!"
       - "\u041C\u044B \u043D\u0435 \u043C\u043E\u0436\u0435\u043C \u043E\u0442\u043F\u0440\u0430\u0432\u0438\u0442\u044C
         \u0432\u0430\u0441 \u043F\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u043E\u0432\u0430\u0442\u044C
         \u043F\u043E \u0434\u0435\u043C\u043E\u0432\u0435\u0440\u0441\u0438\u0438,
         \u0431\u0435\u0437 \u043F\u043E\u0434\u043C\u043E\u0433\u0438, \u043D\u043E
         \u0443\u0436\u0435 \u0441\u043E\u0432\u0441\u0435\u043C \u0441\u043A\u043E\u0440\u043E,
         \u0432\u044B \u0431\u0443\u0434\u0435\u0442\u0435 \u0433\u043E\u0442\u043E\u0432\u044B"
-      - 
+      - "No podemos dejarte explorar la demo sin ayuda\u2026 pero muy pronto estar\xE1s
+        listo"
       - 
       - "\u0412\u0430\u043C \u0442\u0440\u044D\u0431\u0430 \u0437\u0430\u0439\u0441\u0446\u0456
         \u0434\u0430\u0434\u043E\u043C\u0443 \u043F\u0430 \u043D\u0435\u0430\u0431\u0445\u043E\u0434\u043D\u044B\u044F
@@ -9018,10 +9220,10 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Take the gold coins
       - "\u0412\u0437\u044F\u0442\u044C \u0437\u043E\u043B\u043E\u0442\u044B\u0435
         \u043C\u043E\u043D\u0435\u0442\u044B"
-      - 
+      - Tomar las monedas de oro
       - 
       - "\u040E\u0437\u044F\u0446\u044C \u0437\u043E\u043B\u0430\u0442\u0430"
       - 
@@ -9037,12 +9239,13 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - You take 10 peculiar gold coins with you - relics from your last escapade
       - "\u0412\u044B \u0431\u0435\u0440\u0435\u0442\u0435 10 \u043E\u0441\u043E\u0431\u044B\u0445
         \u0437\u043E\u043B\u043E\u0442\u044B\u0445 \u043C\u043E\u043D\u0435\u0442,
         \u043E\u0441\u0442\u0430\u0432\u0448\u0438\u0435\u0441\u044F \u0443 \u0432\u0430\u0441
         \u0441 \u043F\u043E\u0441\u043B\u0435\u0434\u043D\u0435\u0433\u043E \u043F\u0440\u0438\u043A\u043B\u044E\u0447\u0435\u043D\u0438\u044F"
-      - 
+      - "Llevas contigo 10 monedas de oro singulares - vestigios de tu \xFAltima
+        aventura"
       - 
       - "\u0424\u0456\u043D\u0430\u043D\u0441\u044B \u045E \u0442\u0430\u043A\u043E\u0439
         \u0441\u043F\u0440\u0430\u0432\u0435 \u043D\u0435 \u043F\u0430\u0448\u043A\u043E\u0434\u0437\u044F\u0446\u044C"
@@ -9120,10 +9323,10 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Take the gold coins
       - "\u0412\u0437\u044F\u0442\u044C \u0437\u043E\u043B\u043E\u0442\u044B\u0435
         \u043C\u043E\u043D\u0435\u0442\u044B"
-      - 
+      - Tomar las monedas de oro
       - 
       - 
       - 
@@ -9139,12 +9342,13 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - You take 10 peculiar gold coins with you - relics from your last escapade
       - "\u0412\u044B \u0431\u0435\u0440\u0435\u0442\u0435 10 \u043E\u0441\u043E\u0431\u044B\u0445
         \u0437\u043E\u043B\u043E\u0442\u044B\u0445 \u043C\u043E\u043D\u0435\u0442,
         \u043E\u0441\u0442\u0430\u0432\u0448\u0438\u0435\u0441\u044F \u0443 \u0432\u0430\u0441
         \u0441 \u043F\u043E\u0441\u043B\u0435\u0434\u043D\u0435\u0433\u043E \u043F\u0440\u0438\u043A\u043B\u044E\u0447\u0435\u043D\u0438\u044F"
-      - 
+      - "Llevas contigo 10 monedas de oro singulares - vestigios de tu \xFAltima
+        aventura"
       - 
       - 
       - 
@@ -9281,7 +9485,8 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - You take a detour, but the path is blocked by a massive debris pile. The
+        developers promise to clear it by the full release
       - "\u0412\u044B \u0438\u0434\u0435\u0442\u0435 \u0432 \u043E\u0431\u0445\u043E\u0434,
         \u043D\u043E \u043F\u0443\u0442\u044C \u0432\u0430\u043C \u043F\u0440\u0435\u0433\u0440\u0430\u0436\u0434\u0430\u0435\u0442
         \u043E\u0433\u0440\u043E\u043C\u043D\u044B\u0439 \u0437\u0430\u0432\u0430\u043B,
@@ -9289,7 +9494,8 @@ MonoBehaviour:
         \u043E\u0431\u0435\u0449\u0430\u044E\u0442 \u0443\u0431\u0440\u0430\u0442\u044C
         \u0435\u0433\u043E \u043A \u0440\u0435\u043B\u0438\u0437\u0443 \u043F\u043E\u043B\u043D\u043E\u0439
         \u0432\u0435\u0440\u0441\u0438\u0438"
-      - 
+      - "Tomas un desv\xEDo, pero el camino est\xE1 bloqueado por un enorme derrumbe.
+        Los desarrolladores prometen eliminarlo para el lanzamiento completo"
       - 
       - "\u0412\u0430\u043C \u0437\u0434\u0430\u0435\u0446\u0446\u0430 \u0448\u0442\u043E
         \u0430\u0431\u044B\u0439\u0441\u0446\u0456 \u043B\u0435\u0441 \u0431\u0443\u0434\u0437\u0435
@@ -12192,13 +12398,14 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - "You\u2019ve always wanted to trek through the swamp  - \n why not do it
+        now?"
       - "\u0412\u044B \u0434\u0430\u0432\u043D\u043E \u0445\u043E\u0442\u0435\u043B\u0438
         \u043F\u0440\u043E\u0433\u0443\u043B\u044F\u0442\u044C\u0441\u044F \u043F\u043E
         \u0431\u043E\u043B\u043E\u0442\u0443, \u0442\u0430\u043A \u043F\u043E\u0447\u0435\u043C\u0443
         \u0431\u044B \u043D\u0435 \u0441\u0434\u0435\u043B\u0430\u0442\u044C \u044D\u0442\u043E
         \u0441\u0435\u0439\u0447\u0430\u0441!"
-      - 
+      - "Siempre quisiste caminar por el pantano -\xBFpor qu\xE9 no hacerlo ahora?"
       - 
       - 
       - 
@@ -12232,14 +12439,16 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Your path is blocked by a massive debris pile. The developers promise to
+        clear it in the full release
       - "\u041F\u0443\u0442\u044C \u0432\u0430\u043C \u043F\u0440\u0435\u0433\u0440\u0430\u0436\u0434\u0430\u0435\u0442
         \u043E\u0433\u0440\u043E\u043C\u043D\u044B\u0439 \u0437\u0430\u0432\u0430\u043B,
         \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u0447\u0438\u043A\u0438
         \u043E\u0431\u0435\u0449\u0430\u044E\u0442 \u0443\u0431\u0440\u0430\u0442\u044C
         \u0435\u0433\u043E \u043A \u0440\u0435\u043B\u0438\u0437\u0443 \u043F\u043E\u043B\u043D\u043E\u0439
         \u0432\u0435\u0440\u0441\u0438\u0438"
-      - 
+      - "El camino est\xE1 bloqueado por un enorme derrumbe. Los desarrolladores
+        prometen eliminarlo en el lanzamiento completo"
       - 
       - 
       - 
@@ -12520,7 +12729,8 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Before you stretch the fens, shrouded in mist. The air hangs thick and damp.
+        A faint splash echoes in the distance. The swamp awaits
       - "\u041F\u0435\u0440\u0435\u0434 \u0432\u0430\u043C\u0438 \u043F\u0440\u043E\u0441\u0442\u0438\u0440\u0430\u044E\u0442\u0441\u044F
         \u0442\u043E\u043F\u0438, \u0443\u043A\u0443\u0442\u0430\u043D\u043D\u044B\u0435
         \u0442\u0443\u043C\u0430\u043D\u043E\u043C. \u0412\u043E\u0437\u0434\u0443\u0445
@@ -12528,7 +12738,8 @@ MonoBehaviour:
         \u0412\u0434\u0430\u043B\u0435\u043A\u0435 \u0441\u043B\u044B\u0448\u0438\u0442\u0441\u044F
         \u0442\u0438\u0445\u0438\u0439 \u0432\u0441\u043F\u043B\u0435\u0441\u043A.
         \u0411\u043E\u043B\u043E\u0442\u043E \u0436\u0434\u0451\u0442"
-      - 
+      - "Ante ti se extienden las ci\xE9nagas, envueltas en niebla. El aire es pesado
+        y h\xFAmedo. Un leve chapoteo resuena a lo lejos. El pantano aguarda"
       - 
       - 
       - 
@@ -12544,12 +12755,12 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Walk along the moss-covered, winding, and slippery stone path
       - "\u0418\u0434\u0442\u0438 \u043F\u043E \u0437\u0430\u0440\u043E\u0441\u0448\u0435\u0439
         \u043C\u0445\u043E\u043C, \u0438\u0437\u0432\u0438\u043B\u0438\u0441\u0442\u043E\u0439
         \u0438 \u0441\u043A\u043E\u043B\u044C\u0437\u043A\u043E\u0439, \u043A\u0430\u043C\u0435\u043D\u043D\u043E\u0439
         \u0442\u0440\u043E\u043F\u0435"
-      - 
+      - Caminar por el sendero de piedra resbaladizo, sinuoso y cubierto de musgo
       - 
       - 
       - 
@@ -12565,14 +12776,16 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Your footsteps echo hollowly in the silence, as if the swamp itself is listening.
+        Soon, a new obstacle looms before you...
       - "\u0428\u0430\u0433\u0438 \u0433\u0443\u043B\u043A\u043E \u043E\u0442\u0434\u0430\u044E\u0442\u0441\u044F
         \u0432 \u0442\u0438\u0448\u0438\u043D\u0435, \u0441\u043B\u043E\u0432\u043D\u043E
         \u0431\u043E\u043B\u043E\u0442\u043E \u0441\u043B\u0443\u0448\u0430\u0435\u0442
         \u0442\u0435\u0431\u044F. \u0412\u0441\u043A\u043E\u0440\u0435 \u043F\u0435\u0440\u0435\u0434
         \u0432\u0430\u043C\u0438 \u043E\u0442\u043A\u0440\u044B\u0432\u0430\u0435\u0442\u0441\u044F
         \u043D\u043E\u0432\u0430\u044F \u043F\u0440\u0435\u0433\u0440\u0430\u0434\u0430\u2026"
-      - 
+      - "Tus pasos resuenan huecos en el silencio, como si el pantano te escuchara.
+        Pronto, un nuevo obst\xE1culo se alza ante ti..."
       - 
       - 
       - 
@@ -12588,11 +12801,11 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Wade straight through the murky water
       - "\u0418\u0434\u0442\u0438 \u043D\u0430\u043F\u0440\u044F\u043C\u0438\u043A
         \u0447\u0435\u0440\u0435\u0437 \u0433\u0440\u044F\u0437\u043D\u0443\u044E
         \u0432\u043E\u0434\u0443"
-      - 
+      - "Avanzar directamente a trav\xE9s del agua lodosa"
       - 
       - 
       - 
@@ -12608,14 +12821,16 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - You step into the icy mire. The mud sucks at your legs, pulling you deeper
+        as the fog thickens ahead. You had to let the horses go
       - "\u0412\u044B \u0437\u0430\u0445\u043E\u0434\u0438\u0442\u0435 \u0432 \u043B\u0435\u0434\u044F\u043D\u0443\u044E
         \u0436\u0438\u0436\u0443. \u0418\u043B \u0442\u044F\u043D\u0435\u0442 \u043D\u043E\u0433\u0438
         \u0432\u0441\u0451 \u0433\u043B\u0443\u0431\u0436\u0435, \u0430 \u0432\u043F\u0435\u0440\u0435\u0434\u0438
         \u0441\u0433\u0443\u0449\u0430\u0435\u0442\u0441\u044F \u0442\u0443\u043C\u0430\u043D.
         \u041A\u043E\u043D\u0435\u0439 \u043F\u0440\u0438\u0448\u043B\u043E\u0441\u044C
         \u043E\u0442\u043F\u0443\u0441\u0442\u0438\u0442\u044C"
-      - 
+      - "Entras en el fango helado. El lodo tira de tus piernas hundi\xE9ndolas m\xE1s,
+        mientras la niebla se espesa adelante. Tuviste que soltar los caballos"
       - 
       - 
       - 
@@ -12631,7 +12846,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - The fog grows thicker, swallowing the horizon. The swamp pulls at your legs
+        like clinging hands, refusing to let go. The water ripples... yet there's
+        no wind
       - "\u0422\u0443\u043C\u0430\u043D \u0441\u0442\u0430\u043D\u043E\u0432\u0438\u0442\u0441\u044F
         \u043F\u043B\u043E\u0442\u043D\u0435\u0435, \u0441\u043A\u0440\u044B\u0432\u0430\u044F
         \u0433\u043E\u0440\u0438\u0437\u043E\u043D\u0442. \u0411\u043E\u043B\u043E\u0442\u043E
@@ -12640,7 +12857,8 @@ MonoBehaviour:
         \u043E\u0442\u043F\u0443\u0441\u043A\u0430\u0442\u044C. \u0412\u043E\u0434\u0430
         \u043A\u043E\u043B\u044B\u0448\u0435\u0442\u0441\u044F, \u043D\u043E \u0432\u0435\u0442\u0440\u0430
         \u043D\u0435\u0442"
-      - 
+      - "La niebla se espesa, devorando el horizonte. El pantano hunde tus piernas
+        como garras, neg\xE1ndose a soltarte. El agua ondula... aunque no hay viento"
       - 
       - 
       - 
@@ -12656,11 +12874,11 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Press onward through the fog
       - "\u041F\u0440\u043E\u0434\u043E\u043B\u0436\u0430\u0442\u044C \u0438\u0434\u0442\u0438
         \u0432\u043F\u0435\u0440\u0451\u0434, \u043D\u0435\u0441\u043C\u043E\u0442\u0440\u044F
         \u043D\u0430 \u0442\u0443\u043C\u0430\u043D"
-      - 
+      - "Avanzar a trav\xE9s de la niebla"
       - 
       - 
       - 
@@ -12676,7 +12894,8 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - "You realize you\u2019ve emerged somewhere else entirely. Your footprints
+        have vanished behind you. The swamp has led you to a shadowy clearing"
       - "\u0412\u044B \u0437\u0430\u043C\u0435\u0447\u0430\u0435\u0442\u0435, \u043A\u0430\u043A
         \u043E\u043A\u0430\u0437\u044B\u0432\u0430\u0435\u0442\u0435\u0441\u044C
         \u0432 \u0434\u0440\u0443\u0433\u043E\u043C \u043C\u0435\u0441\u0442\u0435.
@@ -12684,7 +12903,8 @@ MonoBehaviour:
         \u043D\u0435\u0442 \u0441\u043B\u0435\u0434\u043E\u0432. \u0411\u043E\u043B\u043E\u0442\u043E
         \u0432\u044B\u0432\u043E\u0434\u0438\u0442 \u0432\u0430\u0441 \u043D\u0430
         \u0442\u0451\u043C\u043D\u0443\u044E \u043F\u043E\u043B\u044F\u043D\u0443"
-      - 
+      - Te das cuenta de que has aparecido en otro lugar. Tus huellas han desaparecido.
+        El pantano te ha guiado a un claro oscuro
       - 
       - 
       - 
@@ -12700,10 +12920,10 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Stop and listen carefully
       - "\u041E\u0441\u0442\u0430\u043D\u043E\u0432\u0438\u0442\u044C\u0441\u044F
         \u0438 \u043F\u043E\u043F\u044B\u0442\u0430\u0442\u044C\u0441\u044F \u043F\u0440\u0438\u0441\u043B\u0443\u0448\u0430\u0442\u044C\u0441\u044F"
-      - 
+      - "Detenerse y escuchar con atenci\xF3n"
       - 
       - 
       - 
@@ -12719,14 +12939,16 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - A squelching footstep sounds behind you. Something steps into the water just
+        nearby - but when you turn, nothing's there...
       - "\u041F\u043E\u0437\u0430\u0434\u0438 \u0441\u043B\u044B\u0448\u0438\u0442\u0441\u044F
         \u0445\u043B\u044E\u043F\u0430\u044E\u0449\u0438\u0439 \u0448\u0430\u0433.
         \u041A\u0442\u043E-\u0442\u043E \u043D\u0430\u0441\u0442\u0443\u043F\u0430\u0435\u0442
         \u0432 \u0432\u043E\u0434\u0443 \u0441\u043E\u0432\u0441\u0435\u043C \u0440\u044F\u0434\u043E\u043C,
         \u043D\u043E, \u043E\u0431\u0435\u0440\u043D\u0443\u0432\u0448\u0438\u0441\u044C,
         \u0442\u044B \u043D\u0438\u043A\u043E\u0433\u043E \u043D\u0435 \u0432\u0438\u0434\u0438\u0448\u044C..."
-      - 
+      - "Un chapoteo de pasos resuena detr\xE1s de ti. Algo entra al agua muy cerca...
+        pero al voltear, no hay nadie..."
       - 
       - 
       - 
@@ -12742,7 +12964,8 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Ahead lies a crumbling wooden bridge spanning a flooded ravine. The planks
+        creak, the ropes are taut but rotten
       - "\u0412\u043F\u0435\u0440\u0435\u0434\u0438 \u0440\u0430\u0437\u0440\u0443\u0448\u0435\u043D\u043D\u044B\u0439
         \u0434\u0435\u0440\u0435\u0432\u044F\u043D\u043D\u044B\u0439 \u043C\u043E\u0441\u0442,
         \u043F\u0435\u0440\u0435\u043A\u0438\u043D\u0443\u0442\u044B\u0439 \u0447\u0435\u0440\u0435\u0437
@@ -12750,7 +12973,8 @@ MonoBehaviour:
         \u0414\u043E\u0441\u043A\u0438 \u0441\u043A\u0440\u0438\u043F\u044F\u0442,
         \u0442\u0440\u043E\u0441\u044B \u043D\u0430\u0442\u044F\u043D\u0443\u0442\u044B,
         \u043D\u043E \u0434\u0440\u044F\u0445\u043B\u044B\u0435"
-      - 
+      - "Al frente hay un puente de madera destrozado que cruza un barranco inundado.
+        Las tablas crujen, las cuerdas est\xE1n tensas pero podridas"
       - 
       - 
       - 
@@ -12766,10 +12990,10 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Cross the bridge cautiously
       - "\u041E\u0441\u0442\u043E\u0440\u043E\u0436\u043D\u043E \u043F\u0440\u043E\u0439\u0442\u0438
         \u043F\u043E \u043C\u043E\u0441\u0442\u0443"
-      - 
+      - Cruzar el puente con cuidado
       - 
       - 
       - 
@@ -12785,11 +13009,12 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - The ropes begin to snap, the bridge lurches violently to one side
       - "\u0412\u0435\u0440\u0451\u0432\u043A\u0438 \u043D\u0430\u0447\u0438\u043D\u0430\u044E\u0442
         \u0440\u0432\u0430\u0442\u044C\u0441\u044F, \u043C\u043E\u0441\u0442 \u0440\u0435\u0437\u043A\u043E
         \u043A\u0440\u0435\u043D\u0438\u0442\u0441\u044F \u043D\u0430\u0431\u043E\u043A"
-      - 
+      - Las cuerdas empiezan a romperse, el puente se inclina bruscamente hacia un
+        lado
       - 
       - 
       - 
@@ -12805,10 +13030,10 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Sprint across the bridge
       - "\u0411\u044B\u0441\u0442\u0440\u043E \u043F\u0440\u043E\u0431\u0435\u0436\u0430\u0442\u044C
         \u043F\u043E \u043C\u043E\u0441\u0442\u0443"
-      - 
+      - "Correr r\xE1pidamente por el puente"
       - 
       - 
       - 
@@ -12824,13 +13049,15 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - The bridge collapses, but you leap forward and crash onto the ravine's edge,
+        barely managing to grab hold
       - "\u041C\u043E\u0441\u0442 \u0440\u0443\u0448\u0438\u0442\u0441\u044F, \u043D\u043E
         \u0432\u044B \u043F\u0440\u044B\u0433\u0430\u0435\u0442\u0435 \u0432\u043F\u0435\u0440\u0451\u0434
         \u0438 \u043F\u0430\u0434\u0430\u0435\u0442\u0435 \u043D\u0430 \u043A\u0440\u0430\u0439
         \u043E\u0432\u0440\u0430\u0433\u0430, \u0435\u0434\u0432\u0430 \u0443\u0441\u043F\u0435\u0432\u0430\u044F
         \u0437\u0430\u0446\u0435\u043F\u0438\u0442\u044C\u0441\u044F"
-      - 
+      - "El puente se derrumba, pero saltas hacia adelante y caes al borde del barranco,
+        aferr\xE1ndote por poco"
       - 
       - 
       - 
@@ -12846,7 +13073,8 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - "This concludes the demo. The hero's fate will be revealed in the full version
+        of the game \n\nPlease be sure to wishlist it - it means the world to us!"
       - "\u041D\u0430 \u044D\u0442\u043E\u043C \u0434\u0435\u043C\u043E \u043A\u043E\u043D\u0447\u0430\u0435\u0442\u0441\u044F,
         \u043E \u0441\u0443\u0434\u044C\u0431\u0435 \u0433\u0435\u0440\u043E\u044F
         \u0432\u044B \u043C\u043E\u0436\u0435\u0442\u0435 \u0443\u0437\u043D\u0430\u0442\u044C
@@ -12855,7 +13083,8 @@ MonoBehaviour:
         \u0434\u043E\u0431\u0430\u0432\u044C\u0442\u0435 \u0438\u0433\u0440\u0443
         \u0432 \u0432\u0438\u0448\u043B\u0438\u0441\u0442, \u0434\u043B\u044F \u043D\u0430\u0441
         \u044D\u0442\u043E \u043E\u0447\u0435\u043D\u044C \u0432\u0430\u0436\u043D\u043E! "
-      - 
+      - "La demo termina aqu\xED. El destino del h\xE9roe se revelar\xE1 en la versi\xF3n
+        completa\n\n \xA1A\xF1\xE1dela a tu wishlist - es muy importante para nosotros!"
       - 
       - 
       - 
@@ -12871,10 +13100,10 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Take a step back
       - "\u0412\u0435\u0440\u043D\u0443\u0442\u044C\u0441\u044F \u043D\u0430 \u0448\u0430\u0433
         \u043D\u0430\u0437\u0430\u0434"
-      - 
+      - Retroceder un paso
       - 
       - 
       - 
@@ -12890,10 +13119,10 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Magic whisks you one step back
       - "\u041C\u0430\u0433\u0438\u044F \u043F\u0435\u0440\u0435\u043D\u043E\u0441\u0438\u0442
         \u0432\u0430\u0441 \u043D\u0430 \u0448\u0430\u0433 \u043D\u0430\u0437\u0430\u0434"
-      - 
+      - "La magia te lleva un paso atr\xE1s"
       - 
       - 
       - 
@@ -12909,10 +13138,10 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Return to the swamp entrance
       - "\u0412\u0435\u0440\u043D\u0443\u0442\u044C\u0441\u044F \u043A\u043E \u0432\u0445\u043E\u0434\u0443
         \u0432 \u0431\u043E\u043B\u043E\u0442\u043E"
-      - 
+      - Volver a la entrada del pantano
       - 
       - 
       - 
@@ -12928,10 +13157,10 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Magic transports you back to the swamp's entrance
       - "\u041C\u0430\u0433\u0438\u044F \u043F\u0435\u0440\u0435\u043D\u043E\u0441\u0438\u0442
         \u0432\u0430\u0441 \u043A\u043E \u0432\u0445\u043E\u0434\u0443 \u0432 \u0431\u043E\u043B\u043E\u0442\u043E"
-      - 
+      - La magia te transporta de vuelta a la entrada del pantano
       - 
       - 
       - 
@@ -12947,14 +13176,16 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - You clutch the rotten railing as your companions retreat in panic. Need to
+        act - now!
       - "\u0412\u044B \u0445\u0432\u0430\u0442\u0430\u0435\u0442\u0435\u0441\u044C
         \u0437\u0430 \u0433\u043D\u0438\u043B\u044B\u0435 \u043F\u0435\u0440\u0438\u043B\u0430,
         \u043F\u043E\u043A\u0430 \u0441\u043F\u0443\u0442\u043D\u0438\u043A\u0438
         \u0432 \u043F\u0430\u043D\u0438\u043A\u0435 \u043E\u0442\u0441\u0442\u0443\u043F\u0430\u044E\u0442
         \u043D\u0430\u0437\u0430\u0434. \u041D\u0443\u0436\u043D\u043E \u0447\u0442\u043E-\u0442\u043E
         \u0434\u0435\u043B\u0430\u0442\u044C - \u0441\u0440\u043E\u0447\u043D\u043E"
-      - 
+      - "Te aferras a la podrida barandilla mientras tus compa\xF1eros retroceden
+        en p\xE1nico. \xA1Hay que actuar - ya!"
       - 
       - 
       - 
@@ -12970,10 +13201,10 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Attempt to carefully move forward
       - "\u041F\u043E\u043F\u044B\u0442\u0430\u0442\u044C\u0441\u044F \u043E\u0441\u0442\u043E\u0440\u043E\u0436\u043D\u043E
         \u043F\u0435\u0440\u0435\u0431\u0440\u0430\u0442\u044C\u0441\u044F \u0434\u0430\u043B\u044C\u0448\u0435"
-      - 
+      - Intentar avanzar con cuidado
       - 
       - 
       - 
@@ -12989,7 +13220,8 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - As you take the final step, the cables snap, and the entire structure vanishes
+        into the water. There's no going back now
       - "\u041A\u043E\u0433\u0434\u0430 \u0432\u044B \u0434\u0435\u043B\u0430\u0435\u0442\u0435
         \u043F\u043E\u0441\u043B\u0435\u0434\u043D\u0438\u0439 \u0448\u0430\u0433,
         \u0442\u0440\u043E\u0441\u044B \u043D\u0435 \u0432\u044B\u0434\u0435\u0440\u0436\u0438\u0432\u0430\u044E\u0442,
@@ -12997,7 +13229,8 @@ MonoBehaviour:
         \u0438\u0441\u0447\u0435\u0437\u0430\u0435\u0442 \u0432 \u0432\u043E\u0434\u0435.
         \u0412\u043E\u0437\u0432\u0440\u0430\u0449\u0430\u0442\u044C\u0441\u044F
         \u043D\u0430\u0437\u0430\u0434 \u0443\u0436\u0435 \u043D\u0435\u043B\u044C\u0437\u044F"
-      - 
+      - "Cuando das el \xFAltimo paso, los cables se rompen y toda la estructura
+        desaparece en el agua. Ya no hay vuelta atr\xE1s"
       - 
       - 
       - 
@@ -13013,10 +13246,10 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Jump into the water while there's still time
       - "\u041F\u0440\u044B\u0433\u043D\u0443\u0442\u044C \u0432 \u0432\u043E\u0434\u0443,
         \u043F\u043E\u043A\u0430 \u0435\u0449\u0451 \u043D\u0435 \u043F\u043E\u0437\u0434\u043D\u043E"
-      - 
+      - "Saltar al agua mientras a\xFAn hay tiempo"
       - 
       - 
       - 
@@ -13032,12 +13265,13 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - You scramble ashore, but the current sweeps away a pouch containing something
+        vital
       - "\u0412\u044B \u0432\u044B\u0431\u0438\u0440\u0430\u0435\u0442\u0435\u0441\u044C,
         \u043D\u043E \u0432\u043E\u0434\u0430 \u0443\u043D\u043E\u0441\u0438\u0442
         \u043C\u0435\u0448\u043E\u0447\u0435\u043A \u0441 \u0447\u0435\u043C-\u0442\u043E
         \u0432\u0430\u0436\u043D\u044B\u043C"
-      - 
+      - Logras salir, pero la corriente arrastra una bolsa con algo importante
       - 
       - 
       - 
@@ -13053,7 +13287,8 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - In the center sways a hut on chicken legs - it seems to scrutinize you. The
+        young warrior grips his sword hilt in terror
       - "\u0412 \u0446\u0435\u043D\u0442\u0440\u0435 \u043F\u043E\u043A\u0430\u0447\u0438\u0432\u0430\u0435\u0442\u0441\u044F
         \u0438\u0437\u0431\u0443\u0448\u043A\u0430 \u043D\u0430 \u043A\u0443\u0440\u044C\u0438\u0445
         \u043D\u043E\u0433\u0430\u0445 - \u043E\u043D\u0430 \u0431\u0443\u0434\u0442\u043E
@@ -13061,7 +13296,8 @@ MonoBehaviour:
         \u041C\u043E\u043B\u043E\u0434\u043E\u0439 \u0432\u043E\u0438\u043D \u0432
         \u0441\u0442\u0440\u0430\u0445\u0435 \u0441\u0436\u0438\u043C\u0430\u0435\u0442
         \u0440\u0443\u043A\u043E\u044F\u0442\u044C \u043C\u0435\u0447\u0430"
-      - 
+      - "En el centro se balancea una choza sobre patas de gallina - parece escrutarte.
+        El joven guerrero agarra la empu\xF1adura de su espada con temor"
       - 
       - 
       - 
@@ -13077,10 +13313,10 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Approach cautiously
       - "\u041E\u0441\u0442\u043E\u0440\u043E\u0436\u043D\u043E \u043F\u043E\u0434\u043E\u0439\u0442\u0438
         \u0431\u043B\u0438\u0436\u0435"
-      - 
+      - "Acercarse con precauci\xF3n"
       - 
       - 
       - 
@@ -13096,13 +13332,15 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - The door swings open on its own. Darkness looms inside, yet the scent of
+        herbs, ash, and something ancient wafts outward
       - "\u0414\u0432\u0435\u0440\u044C \u0441\u0430\u043C\u0430 \u043E\u0442\u043A\u0440\u044B\u0432\u0430\u0435\u0442\u0441\u044F
         \u043F\u0435\u0440\u0435\u0434 \u0442\u043E\u0431\u043E\u0439. \u0412\u043D\u0443\u0442\u0440\u0438
         \u0442\u0435\u043C\u043D\u043E, \u043D\u043E \u043E\u0442\u0442\u0443\u0434\u0430
         \u0432\u0435\u0435\u0442 \u0437\u0430\u043F\u0430\u0445\u043E\u043C \u0442\u0440\u0430\u0432,
         \u0437\u043E\u043B\u044B \u0438 \u0447\u0435\u0433\u043E-\u0442\u043E \u0441\u0442\u0430\u0440\u043E\u0433\u043E"
-      - 
+      - La puerta se abre sola. Dentro hay oscuridad, pero un olor a hierbas, cenizas
+        y algo antiguo flota en el aire
       - 
       - 
       - 
@@ -13118,11 +13356,11 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Allow the young warrior to draw his sword
       - "\u0420\u0430\u0437\u0440\u0435\u0448\u0438\u0442\u044C \u043C\u043E\u043B\u043E\u0434\u043E\u043C\u0443
         \u0432\u043E\u0438\u043D\u0443 \u0434\u043E\u0441\u0442\u0430\u0442\u044C
         \u043C\u0435\u0447"
-      - 
+      - Permitir que el joven guerrero desenvaine su espada
       - 
       - 
       - 
@@ -13138,14 +13376,16 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Laughter echoes from the hut. The youth charges forward - the door flies
+        open - something yanks him inside. Silence falls
       - "\u0418\u0437 \u0438\u0437\u0431\u0443\u0448\u043A\u0438 \u0440\u0430\u0437\u0434\u0430\u0451\u0442\u0441\u044F
         \u0441\u043C\u0435\u0445. \u042E\u043D\u0435\u0446 \u0431\u0440\u043E\u0441\u0430\u0435\u0442\u0441\u044F
         \u0432\u043F\u0435\u0440\u0451\u0434, \u0434\u0432\u0435\u0440\u044C \u0440\u0430\u0441\u043F\u0430\u0445\u0438\u0432\u0430\u0435\u0442\u0441\u044F
         - \u0447\u0442\u043E-\u0442\u043E \u0443\u0442\u044F\u0433\u0438\u0432\u0430\u0435\u0442
         \u0435\u0433\u043E \u0432\u043D\u0443\u0442\u0440\u044C, \u0438 \u0441\u0442\u0430\u043D\u043E\u0432\u0438\u0442\u0441\u044F
         \u0442\u0438\u0445\u043E"
-      - 
+      - Una risa resuena en la choza. El joven se lanza hacia adelante - la puerta
+        se abre de golpe - algo lo jala adentro. Todo queda en silencio
       - 
       - 
       - 
@@ -13161,7 +13401,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - A faint fire flickers by the wall, casting shadows across the table. Strange
+        patterns, bones, and tangled threads are laid out upon it. The young warrior
+        tightens his grip on the sword
       - "\u0423 \u0441\u0442\u0435\u043D\u044B \u043C\u0435\u0440\u0446\u0430\u0435\u0442
         \u0441\u043B\u0430\u0431\u044B\u0439 \u043E\u0433\u043E\u043D\u044C, \u043E\u0442\u0431\u0440\u0430\u0441\u044B\u0432\u0430\u044F
         \u0442\u0435\u043D\u0438 \u043D\u0430 \u0441\u0442\u043E\u043B. \u041D\u0430
@@ -13171,7 +13413,9 @@ MonoBehaviour:
         \u043D\u0438\u0442\u0438. \u041C\u043E\u043B\u043E\u0434\u043E\u0439 \u0432\u043E\u0438\u043D
         \u0435\u0449\u0435 \u0441\u0438\u043B\u044C\u043D\u0435\u0435 \u0441\u0436\u0438\u043C\u0430\u0435\u0442
         \u043C\u0435\u0447"
-      - 
+      - "Un fuego tenue parpadea junto a la pared, proyectando sombras sobre la mesa.
+        Sobre ella hay extra\xF1os patrones, huesos e hilos enredados. El joven guerrero
+        aprieta m\xE1s fuerte su espada"
       - 
       - 
       - 
@@ -13187,9 +13431,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Enter first
       - "\u0412\u043E\u0439\u0442\u0438 \u0432\u043D\u0443\u0442\u0440\u044C \u043F\u0435\u0440\u0432\u044B\u043C"
-      - 
+      - Entrar primero
       - 
       - 
       - 
@@ -13205,13 +13449,14 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - The moment you step inside, the door slams shut behind you, cutting you off
+        from the guard
       - "\u041A\u0430\u043A \u0442\u043E\u043B\u044C\u043A\u043E \u0432\u044B \u0437\u0430\u0445\u043E\u0434\u0438\u0442\u0435,
         \u0434\u0432\u0435\u0440\u044C \u043C\u043E\u043C\u0435\u043D\u0442\u0430\u043B\u044C\u043D\u043E
         \u0437\u0430\u0445\u043B\u043E\u043F\u044B\u0432\u0430\u0435\u0442\u0441\u044F,
         \u0440\u0430\u0437\u0434\u0435\u043B\u044F\u044F \u0432\u0430\u0441 \u0441\u043E
         \u0441\u0442\u0440\u0430\u0436\u043D\u0438\u043A\u043E\u043C"
-      - 
+      - "En cuanto entras, la puerta se cierra de golpe, separ\xE1ndote del guardia"
       - 
       - 
       - 
@@ -13227,10 +13472,10 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Let the young warrior enter first
       - "\u041F\u043E\u0437\u0432\u043E\u043B\u0438\u0442\u044C \u043C\u043E\u043B\u043E\u0434\u043E\u043C\u0443
         \u0432\u043E\u0438\u043D\u0443 \u0432\u043E\u0439\u0442\u0438 \u043F\u0435\u0440\u0432\u044B\u043C"
-      - 
+      - Permitir que el joven guerrero entre primero
       - 
       - 
       - 
@@ -13246,7 +13491,8 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - "A voice from the darkness: 'Ah, fresh meat\u2026' The youth gasps, drops
+        his sword, and flees in terror, vanishing into the black"
       - "\u0413\u043E\u043B\u043E\u0441 \u0438\u0437 \u0442\u0435\u043C\u043D\u043E\u0442\u044B:
         \"\u041E, \u043C\u043E\u043B\u043E\u0434\u043E\u0435 \u043C\u044F\u0441\u043E\u2026\"
         \u042E\u043D\u0435\u0446, \u0432\u0441\u043A\u0440\u0438\u043A\u043D\u0443\u0432,
@@ -13254,7 +13500,8 @@ MonoBehaviour:
         \u043E\u043D \u0431\u0440\u043E\u0441\u0430\u0435\u0442\u0441\u044F \u043F\u0440\u043E\u0447\u044C,
         \u0440\u0430\u0441\u0442\u0432\u043E\u0440\u044F\u044F\u0441\u044C \u0432
         \u0442\u0435\u043C\u043D\u043E\u0442\u0435"
-      - 
+      - "Una voz en la oscuridad: 'Oh, carne joven\u2026' El joven grita, suelta
+        la espada y huye aterrado, disolvi\xE9ndose en la negrura"
       - 
       - 
       - 
