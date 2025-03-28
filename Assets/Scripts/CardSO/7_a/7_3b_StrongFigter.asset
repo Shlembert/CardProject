@@ -26,7 +26,7 @@ MonoBehaviour:
     itemSprite: {fileID: 0}
     requiredItemSprite: {fileID: 21300000, guid: f3f8b74d060340c4bbb001c0cf4797db, type: 3}
     removeItemSprite: 1
-    changeBanner: 1
+    changeBanner: 0
     nextSetIfItem: {fileID: 11400000, guid: 6264f9759467bb54ca4c5808dea7714e, type: 2}
     nextSetIfNoItem: {fileID: 11400000, guid: 6264f9759467bb54ca4c5808dea7714e, type: 2}
     isWinIfItem: 0
@@ -39,10 +39,10 @@ MonoBehaviour:
     isWinIfNoItem: 0
     winContentIfNoItem: []
     locationSpriteNoItem: {fileID: 0}
-    reverseSpriteIfNoItem: {fileID: 21300000, guid: 8cae47ce39b9ba14892a9f8677c4e344, type: 3}
+    reverseSpriteIfNoItem: {fileID: 21300000, guid: 32a8e6d4c547a6743a4d561ae9bd02cf, type: 3}
     reverseAudioClipNoItem: {fileID: 0}
     reverseTopTextIfNoItem: 7_3_StrongFigter_cardLeft_REV_NO
-    changeLifePointsIfNoItem: -1
+    changeLifePointsIfNoItem: 0
   rightCard:
     messageText: 7_3_StrongFigter_cardRight
     illustrationSprite: {fileID: 21300000, guid: 8590725d28b7aac479735b3766a6a4da, type: 3}
@@ -67,10 +67,10 @@ MonoBehaviour:
         \u0434\u043B\u044F \u043D\u0430\u0441 \u044D\u0442\u043E \u043E\u0447\u0435\u043D\u044C
         \u0432\u0430\u0436\u043D\u043E!!!"
     locationSpriteIfItem: {fileID: 0}
-    reverseSpriteIfItem: {fileID: 21300000, guid: 8cae47ce39b9ba14892a9f8677c4e344, type: 3}
+    reverseSpriteIfItem: {fileID: 21300000, guid: 32a8e6d4c547a6743a4d561ae9bd02cf, type: 3}
     reverseAudioClipItem: {fileID: 0}
     reverseTopTextIfItem: 7_3_StrongFigter_cardRight_REV
-    changeLifePointsIfItem: -1
+    changeLifePointsIfItem: 0
     isWinIfNoItem: 0
     winContentIfNoItem: []
     locationSpriteNoItem: {fileID: 0}

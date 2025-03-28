@@ -10,57 +10,57 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c8636afbb060c9543bb985dfc1b704ad, type: 3}
-  m_Name: 19_bolota_2_Horse
+  m_Name: 4_TiedUp_Death
   m_EditorClassIdentifier: 
   portrait: {fileID: 21300000, guid: 197dd67124b07df43a9a84d23debca95, type: 3}
   bannerAnimator: {fileID: 9100000, guid: 443731da750020044b2c1478522ebd84, type: 2}
   animationClip: {fileID: 7400000, guid: 3f30bb1b9d4fbfe459f29f1ad7741892, type: 2}
   bannerSound: {fileID: 0}
-  bannerText: 19_bolota_bunner
+  bannerText: 4_TiedUp_Death_bunner
   checkPoint: 0
   leftCard:
-    messageText: 19_bolota_cardLeft
-    illustrationSprite: {fileID: 21300000, guid: f5065783795e0b644a2a3b61f305ee88, type: 3}
-    animator: {fileID: 9100000, guid: f6a75bad72b0c0e4e9d5c766b622329e, type: 2}
-    animationClip: {fileID: 7400000, guid: af6e57611d49c674c8965aa8e77d991f, type: 2}
+    messageText: 4_TiedUp_Death_cardLeft
+    illustrationSprite: {fileID: 21300000, guid: 9fc1c3f76e43f814a9b4b544133f8ed0, type: 3}
+    animator: {fileID: 9100000, guid: ad45f86425dd4314cbfac146b5526a84, type: 2}
+    animationClip: {fileID: 7400000, guid: c3103df58126c5540977b9343879b9ed, type: 2}
     itemSprite: {fileID: 0}
     requiredItemSprite: {fileID: 0}
     removeItemSprite: 0
     changeBanner: 1
-    nextSetIfItem: {fileID: 11400000, guid: 7cd79f73e50d01d489176f4ac7f51d88, type: 2}
+    nextSetIfItem: {fileID: 11400000, guid: 68236e48266d8f94f8006bf32b10680c, type: 2}
     nextSetIfNoItem: {fileID: 0}
     isWinIfItem: 0
     winContentIfItem: []
-    locationSpriteIfItem: {fileID: 21300000, guid: 645ea81797de9ff42906357adb275073, type: 3}
-    reverseSpriteIfItem: {fileID: 21300000, guid: 888d20f68c104e0408dc92d5383f09a2, type: 3}
+    locationSpriteIfItem: {fileID: 21300000, guid: bfda25037043650409951ac81830f4eb, type: 3}
+    reverseSpriteIfItem: {fileID: 21300000, guid: 9fcd9d0bef2eda842b81bff509b5104e, type: 3}
     reverseAudioClipItem: {fileID: 0}
-    reverseTopTextIfItem: 19_bolota_cardLeft_REV
+    reverseTopTextIfItem: 4_TiedUp_Death_cardLeft_REV
     changeLifePointsIfItem: 0
     isWinIfNoItem: 0
     winContentIfNoItem: []
     locationSpriteNoItem: {fileID: 0}
-    reverseSpriteIfNoItem: {fileID: 21300000, guid: 915053cf774be73468f9a5700ae4dcb4, type: 3}
+    reverseSpriteIfNoItem: {fileID: 0}
     reverseAudioClipNoItem: {fileID: 0}
     reverseTopTextIfNoItem: 
     changeLifePointsIfNoItem: 0
   rightCard:
-    messageText: 19_bolota_cardRight
-    illustrationSprite: {fileID: 21300000, guid: 898b8ff66ec7cf942936f9256f5562e5, type: 3}
-    animator: {fileID: 9100000, guid: c21c6e308a7f0aa4092589b9cebc2019, type: 2}
-    animationClip: {fileID: 7400000, guid: bff11866c9cf43140ac22149c4b81878, type: 2}
+    messageText: 4_TiedUp_Death_cardRight
+    illustrationSprite: {fileID: 21300000, guid: 67a3e61c0eba3fd419a4d1df12ab19aa, type: 3}
+    animator: {fileID: 9100000, guid: 30363666fb5d0fd4aaead09c592d2633, type: 2}
+    animationClip: {fileID: 7400000, guid: 0c3af284b1bf56a40aa5919fedf2fd68, type: 2}
     itemSprite: {fileID: 0}
-    requiredItemSprite: {fileID: 21300000, guid: c1c42e746793f0745850d8b664a420e1, type: 3}
-    removeItemSprite: 1
-    changeBanner: 1
-    nextSetIfItem: {fileID: 11400000, guid: 35f425a6374a62049a881a7f347d85bd, type: 2}
+    requiredItemSprite: {fileID: 0}
+    removeItemSprite: 0
+    changeBanner: 0
+    nextSetIfItem: {fileID: 11400000, guid: 8b89e771499f0544da56ded8a4c2541a, type: 2}
     nextSetIfNoItem: {fileID: 0}
     isWinIfItem: 0
     winContentIfItem: []
-    locationSpriteIfItem: {fileID: 0}
-    reverseSpriteIfItem: {fileID: 21300000, guid: db283f1e8457db047afc3768ed208597, type: 3}
+    locationSpriteIfItem: {fileID: 21300000, guid: 707c135420fff1c41ad274f4ddbeeda4, type: 3}
+    reverseSpriteIfItem: {fileID: 21300000, guid: 9fcd9d0bef2eda842b81bff509b5104e, type: 3}
     reverseAudioClipItem: {fileID: 0}
-    reverseTopTextIfItem: 19_bolota_cardRight_REV
-    changeLifePointsIfItem: 0
+    reverseTopTextIfItem: 4_TiedUp_Death_cardRight_REV
+    changeLifePointsIfItem: 1
     isWinIfNoItem: 0
     winContentIfNoItem: []
     locationSpriteNoItem: {fileID: 0}

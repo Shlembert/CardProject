@@ -28,7 +28,7 @@ MonoBehaviour:
     removeItemSprite: 0
     changeBanner: 1
     nextSetIfItem: {fileID: 11400000, guid: 72ca73bf9afe59b42aeef7fdf8b004e8, type: 2}
-    nextSetIfNoItem: {fileID: 11400000, guid: a7d772fd3150eda43ab9878888647f5f, type: 2}
+    nextSetIfNoItem: {fileID: 11400000, guid: 2c31ef0aaf558d4488ee9c48a6b4684b, type: 2}
     isWinIfItem: 0
     winContentIfItem:
     - Sprite: {fileID: 21300000, guid: e4c8367392ccb2049af70a4445e057d8, type: 3}
@@ -42,16 +42,16 @@ MonoBehaviour:
     changeLifePointsIfItem: 0
     isWinIfNoItem: 0
     winContentIfNoItem: []
-    locationSpriteNoItem: {fileID: 0}
-    reverseSpriteIfNoItem: {fileID: 0}
+    locationSpriteNoItem: {fileID: 21300000, guid: 26773e6948ef2ab419b3a8047b3862c4, type: 3}
+    reverseSpriteIfNoItem: {fileID: 21300000, guid: 888d20f68c104e0408dc92d5383f09a2, type: 3}
     reverseAudioClipNoItem: {fileID: 0}
-    reverseTopTextIfNoItem: 
+    reverseTopTextIfNoItem: 18_Morning_OldMan_cardLeft_REV
     changeLifePointsIfNoItem: 0
   rightCard:
     messageText: 18_Morning_OldMan_cardRight
-    illustrationSprite: {fileID: 21300000, guid: 49e242707fa1a1b4180e96f5ea53c8df, type: 3}
-    animator: {fileID: 0}
-    animationClip: {fileID: 0}
+    illustrationSprite: {fileID: 21300000, guid: a44ede3f25cfc6643a7176030f31fb56, type: 3}
+    animator: {fileID: 9100000, guid: 011129c00800ea2468ac73f60be67517, type: 2}
+    animationClip: {fileID: 7400000, guid: d6514bd6b1540a6439567ecedcaedbaf, type: 2}
     itemSprite: {fileID: 0}
     requiredItemSprite: {fileID: 0}
     removeItemSprite: 0

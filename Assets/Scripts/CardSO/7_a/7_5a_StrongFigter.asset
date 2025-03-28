@@ -20,22 +20,22 @@ MonoBehaviour:
   checkPoint: 0
   leftCard:
     messageText: 7_5_StrongFigter_cardLeft
-    illustrationSprite: {fileID: 21300000, guid: 67a3e61c0eba3fd419a4d1df12ab19aa, type: 3}
-    animator: {fileID: 9100000, guid: 30363666fb5d0fd4aaead09c592d2633, type: 2}
-    animationClip: {fileID: 7400000, guid: 0c3af284b1bf56a40aa5919fedf2fd68, type: 2}
+    illustrationSprite: {fileID: 21300000, guid: bf0f3f774eb371245b703d57d7426307, type: 3}
+    animator: {fileID: 9100000, guid: 863f692cd243da8459226ec497cb776a, type: 2}
+    animationClip: {fileID: 7400000, guid: 5c1b7337a1121e94499f04312bcd6c2c, type: 2}
     itemSprite: {fileID: 0}
     requiredItemSprite: {fileID: 0}
     removeItemSprite: 0
-    changeBanner: 0
-    nextSetIfItem: {fileID: 11400000, guid: 9aff173861edb354ba9cac2215ad305a, type: 2}
+    changeBanner: 1
+    nextSetIfItem: {fileID: 11400000, guid: 984cee3dcb076a143b4f22c69c4985a6, type: 2}
     nextSetIfNoItem: {fileID: 0}
     isWinIfItem: 0
     winContentIfItem: []
-    locationSpriteIfItem: {fileID: 0}
+    locationSpriteIfItem: {fileID: 21300000, guid: fd887baf6ae92dd43b86b89feaf8211e, type: 3}
     reverseSpriteIfItem: {fileID: 21300000, guid: 8cae47ce39b9ba14892a9f8677c4e344, type: 3}
     reverseAudioClipItem: {fileID: 0}
     reverseTopTextIfItem: 7_5_StrongFigter_cardLeft_REV
-    changeLifePointsIfItem: -1
+    changeLifePointsIfItem: 0
     isWinIfNoItem: 0
     winContentIfNoItem: []
     locationSpriteNoItem: {fileID: 0}
@@ -45,9 +45,9 @@ MonoBehaviour:
     changeLifePointsIfNoItem: 0
   rightCard:
     messageText: 7_5_StrongFigter_cardRight
-    illustrationSprite: {fileID: 21300000, guid: ae17f90630edeba4395cf82fd7a6ace7, type: 3}
-    animator: {fileID: 9100000, guid: 3fbb24bd8e8979b4191438a91033b961, type: 2}
-    animationClip: {fileID: 7400000, guid: c4e4dd12bf1841d49b45adc838e04ea7, type: 2}
+    illustrationSprite: {fileID: 21300000, guid: 648e6a68d858f13479c5b0044e363aa1, type: 3}
+    animator: {fileID: 9100000, guid: 17634fb9518116f46a26b5d30165d9b2, type: 2}
+    animationClip: {fileID: 7400000, guid: 28a0be8f5cf38b84caaf145b98becb9a, type: 2}
     itemSprite: {fileID: 0}
     requiredItemSprite: {fileID: 0}
     removeItemSprite: 0
@@ -57,7 +57,7 @@ MonoBehaviour:
     isWinIfItem: 0
     winContentIfItem: []
     locationSpriteIfItem: {fileID: 21300000, guid: c18e414ce2c7daa47b12034389325b14, type: 3}
-    reverseSpriteIfItem: {fileID: 21300000, guid: 2da9229e64bdf244799cfafa6b456a96, type: 3}
+    reverseSpriteIfItem: {fileID: 21300000, guid: 5096cb21a1b05614c9f88a869ac3aacd, type: 3}
     reverseAudioClipItem: {fileID: 0}
     reverseTopTextIfItem: 7_5_StrongFigter_cardRight_REV
     changeLifePointsIfItem: 0

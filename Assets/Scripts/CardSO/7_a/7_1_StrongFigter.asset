@@ -38,7 +38,7 @@ MonoBehaviour:
     changeLifePointsIfItem: 0
     isWinIfNoItem: 0
     winContentIfNoItem: []
-    locationSpriteNoItem: {fileID: 0}
+    locationSpriteNoItem: {fileID: 21300000, guid: a808282df68d4054ca6a02cfe7e21b1c, type: 3}
     reverseSpriteIfNoItem: {fileID: 21300000, guid: a2ce439a28863a846978c460f00834eb, type: 3}
     reverseAudioClipNoItem: {fileID: 0}
     reverseTopTextIfNoItem: 7_1_StrongFigter_cardLeft_REV_NO

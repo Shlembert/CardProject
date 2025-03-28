@@ -34,18 +34,21 @@ public class HPController : MonoBehaviour
             for (int i = currentHp - 1; i >= newHp; i--)
             {
                 hPAnimation.RemoveLife(hpImages[i]);
-                if (CurrentHP >= 2) CurrentHP--;
-                else 
-                {
-                    Debug.Log("Game Over");
-                   stateManager.State = StateGame.Dead;
-                    gameController.IsGameOver = true;
-
-                  await  gameController.ShowDead();
-                    return;
-                }
-                
+                CurrentHP--;
             }
+
+            // ЗАКОММЕНТИРОВАНО: блок смерти
+            /*
+            if (CurrentHP >= 2) CurrentHP--;
+            else 
+            {
+                Debug.Log("Game Over");
+                stateManager.State = StateGame.Dead;
+                gameController.IsGameOver = true;
+                await gameController.ShowDead();
+                return;
+            }
+            */
         }
         else if (newHp > currentHp)
         {
@@ -55,6 +58,9 @@ public class HPController : MonoBehaviour
                 hPAnimation.AddLife(hpImages[i]);
             }
         }
+
+        // Защита от отрицательных HP (на всякий случай)
+        CurrentHP = Mathf.Max(0, CurrentHP);
     }
 
     // Метод для установки точного количества жизней
@@ -72,7 +78,6 @@ public class HPController : MonoBehaviour
                 hPAnimation.RemoveLife(hpImages[i]);
                 CurrentHP--;
             }
-            
         }
         else if (targetHp > currentHp)
         {

@@ -49,11 +49,11 @@ MonoBehaviour:
     animator: {fileID: 9100000, guid: e89e94b098cb61348929ce0f1ed95634, type: 2}
     animationClip: {fileID: 7400000, guid: d19e330ce3468eb47b65d9c7cf58b2d3, type: 2}
     itemSprite: {fileID: 0}
-    requiredItemSprite: {fileID: 21300000, guid: 5517ac6f8f20c1440bcb354a7835d8fc, type: 3}
+    requiredItemSprite: {fileID: 0}
     removeItemSprite: 0
     changeBanner: 1
     nextSetIfItem: {fileID: 11400000, guid: 26eba1feaf30ed442b390559a9fa03b8, type: 2}
-    nextSetIfNoItem: {fileID: 11400000, guid: 72fdfe391bd70cb43a777a698d9a350b, type: 2}
+    nextSetIfNoItem: {fileID: 0}
     isWinIfItem: 0
     winContentIfItem: []
     locationSpriteIfItem: {fileID: 21300000, guid: 00144b0161cf1094ebc48d47c2ffc238, type: 3}
@@ -63,8 +63,8 @@ MonoBehaviour:
     changeLifePointsIfItem: 0
     isWinIfNoItem: 0
     winContentIfNoItem: []
-    locationSpriteNoItem: {fileID: 21300000, guid: bfda25037043650409951ac81830f4eb, type: 3}
-    reverseSpriteIfNoItem: {fileID: 21300000, guid: 76f4c762f8d5a79458b5249c60ec8686, type: 3}
+    locationSpriteNoItem: {fileID: 0}
+    reverseSpriteIfNoItem: {fileID: 0}
     reverseAudioClipNoItem: {fileID: 0}
-    reverseTopTextIfNoItem: 10_GO_WAY_HOW_1_cardRight_REV_NO
+    reverseTopTextIfNoItem: 
     changeLifePointsIfNoItem: 0

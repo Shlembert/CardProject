@@ -633,6 +633,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 984cee3dcb076a143b4f22c69c4985a6
+    m_Address: 7_TraktirFightDeath_2
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 98c89f143e8b094419287231c4810f49
     m_Address: 7_Guard_in_Water
     m_ReadOnly: 0
@@ -663,11 +668,6 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 9f0f51697aa9569478ae654655cef90a
-    m_Address: 17_YW_2_HORSE
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: a00032c3e4d3c964fa2e64adc17025a8
     m_Address: 5_4_BazaarEnd
     m_ReadOnly: 0
@@ -695,11 +695,6 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: a64ca44ae06b9d84087d7c618bf10924
     m_Address: 5_1_TraderCallPolice
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: a7d772fd3150eda43ab9878888647f5f
-    m_Address: 19_bolota_2_Horse
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -793,6 +788,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c03d062dc26e7204b862ac74021e4ec9
+    m_Address: 7_TraktirFightDeath
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: c18e414ce2c7daa47b12034389325b14
     m_Address: TraktirBlur
     m_ReadOnly: 0
@@ -818,6 +818,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c544977d9f0fc684eaaf40af08a58374
+    m_Address: 4_TiedUp_Death
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: c555ea478d6eac3499f1d9eb2871b842
     m_Address: HorsesWorkHard
     m_ReadOnly: 0
@@ -825,11 +830,6 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: c5ba98a259a655449911c157791ac119
     m_Address: CratchHand
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: c6f78d8a9ab28ea42aa0588e928071d4
-    m_Address: 18_2_CrazyHorses
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0

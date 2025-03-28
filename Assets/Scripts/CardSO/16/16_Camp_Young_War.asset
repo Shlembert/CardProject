@@ -49,11 +49,11 @@ MonoBehaviour:
     animator: {fileID: 9100000, guid: 7aa63f6289716a84a9f1b780d44e139f, type: 2}
     animationClip: {fileID: 7400000, guid: f231523f6a2c7d442af6ed23711fdd0c, type: 2}
     itemSprite: {fileID: 0}
-    requiredItemSprite: {fileID: 21300000, guid: 9a9641d0b3101a64fbe07f50c561043d, type: 3}
+    requiredItemSprite: {fileID: 0}
     removeItemSprite: 0
     changeBanner: 0
     nextSetIfItem: {fileID: 11400000, guid: 42a243cd2bbf85f42a0162ef0fd74609, type: 2}
-    nextSetIfNoItem: {fileID: 11400000, guid: 9f0f51697aa9569478ae654655cef90a, type: 2}
+    nextSetIfNoItem: {fileID: 0}
     isWinIfItem: 0
     winContentIfItem: []
     locationSpriteIfItem: {fileID: 0}
@@ -64,7 +64,7 @@ MonoBehaviour:
     isWinIfNoItem: 0
     winContentIfNoItem: []
     locationSpriteNoItem: {fileID: 0}
-    reverseSpriteIfNoItem: {fileID: 21300000, guid: 37fdc1bc39cc2eb479b32bf6cc8c8a1d, type: 3}
+    reverseSpriteIfNoItem: {fileID: 0}
     reverseAudioClipNoItem: {fileID: 0}
-    reverseTopTextIfNoItem: 16_Camp_Young_War_cardRight_REV
+    reverseTopTextIfNoItem: 
     changeLifePointsIfNoItem: 0

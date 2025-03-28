@@ -65,7 +65,7 @@ MonoBehaviour:
     - Sprite: {fileID: 21300000, guid: e4c8367392ccb2049af70a4445e057d8, type: 3}
       Message: WinAddToWishlist_toAll
     locationSpriteIfItem: {fileID: 0}
-    reverseSpriteIfItem: {fileID: 21300000, guid: a53077e88f0187b4c85ad7a1de28e00e, type: 3}
+    reverseSpriteIfItem: {fileID: 21300000, guid: e80ac9b54e747e74eb3122bbc3ad1cc0, type: 3}
     reverseAudioClipItem: {fileID: 0}
     reverseTopTextIfItem: 19_bolot_bridge_cardRight_REV
     changeLifePointsIfItem: 0

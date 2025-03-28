@@ -45,9 +45,9 @@ MonoBehaviour:
     changeLifePointsIfNoItem: 1
   rightCard:
     messageText: 7_4a_StrongFigter_cardRight
-    illustrationSprite: {fileID: 21300000, guid: ae17f90630edeba4395cf82fd7a6ace7, type: 3}
-    animator: {fileID: 9100000, guid: 3fbb24bd8e8979b4191438a91033b961, type: 2}
-    animationClip: {fileID: 7400000, guid: c4e4dd12bf1841d49b45adc838e04ea7, type: 2}
+    illustrationSprite: {fileID: 21300000, guid: 63a8cfaf3240a5b47b35677af0f843e3, type: 3}
+    animator: {fileID: 9100000, guid: faf7ab21ca97aab4f8bd123e4acb640f, type: 2}
+    animationClip: {fileID: 7400000, guid: de7ef9ee727fe6049a1b999f96c16bb6, type: 2}
     itemSprite: {fileID: 0}
     requiredItemSprite: {fileID: 0}
     removeItemSprite: 0
@@ -60,7 +60,7 @@ MonoBehaviour:
     reverseSpriteIfItem: {fileID: 21300000, guid: 8cae47ce39b9ba14892a9f8677c4e344, type: 3}
     reverseAudioClipItem: {fileID: 0}
     reverseTopTextIfItem: 7_4a_StrongFigter_cardRight_REV
-    changeLifePointsIfItem: 0
+    changeLifePointsIfItem: -1
     isWinIfNoItem: 0
     winContentIfNoItem: []
     locationSpriteNoItem: {fileID: 0}

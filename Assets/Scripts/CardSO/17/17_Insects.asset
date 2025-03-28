@@ -24,25 +24,25 @@ MonoBehaviour:
     animator: {fileID: 9100000, guid: 61f2e16b8a0e1394ba0fd95f75c65b67, type: 2}
     animationClip: {fileID: 7400000, guid: a148a2b2788bca842907b6c5b073c8db, type: 2}
     itemSprite: {fileID: 0}
-    requiredItemSprite: {fileID: 21300000, guid: c1c42e746793f0745850d8b664a420e1, type: 3}
+    requiredItemSprite: {fileID: 0}
     removeItemSprite: 0
     changeBanner: 0
-    nextSetIfItem: {fileID: 11400000, guid: c6f78d8a9ab28ea42aa0588e928071d4, type: 2}
-    nextSetIfNoItem: {fileID: 11400000, guid: c234e0cbf234bc54facea55ca1613883, type: 2}
+    nextSetIfItem: {fileID: 11400000, guid: c234e0cbf234bc54facea55ca1613883, type: 2}
+    nextSetIfNoItem: {fileID: 0}
     isWinIfItem: 0
     winContentIfItem: []
     locationSpriteIfItem: {fileID: 0}
-    reverseSpriteIfItem: {fileID: 21300000, guid: 8cae47ce39b9ba14892a9f8677c4e344, type: 3}
+    reverseSpriteIfItem: {fileID: 21300000, guid: 8035b6efaf50318498eb37841767c805, type: 3}
     reverseAudioClipItem: {fileID: 0}
     reverseTopTextIfItem: 17_Insects_cardLeft_REV
-    changeLifePointsIfItem: -1
+    changeLifePointsIfItem: 0
     isWinIfNoItem: 0
     winContentIfNoItem: []
     locationSpriteNoItem: {fileID: 0}
-    reverseSpriteIfNoItem: {fileID: 21300000, guid: 8cae47ce39b9ba14892a9f8677c4e344, type: 3}
+    reverseSpriteIfNoItem: {fileID: 0}
     reverseAudioClipNoItem: {fileID: 0}
-    reverseTopTextIfNoItem: 17_Insects_cardLeft_REV
-    changeLifePointsIfNoItem: -1
+    reverseTopTextIfNoItem: 
+    changeLifePointsIfNoItem: 0
   rightCard:
     messageText: 17_Insects_cardRight
     illustrationSprite: {fileID: 21300000, guid: ab01296ec2da7014eaefd90b06f175e6, type: 3}

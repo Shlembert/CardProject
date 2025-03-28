@@ -12,7 +12,7 @@ PlayerSettings:
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
-  companyName: HGI
+  companyName: HGIsoft
   productName: PrincessOrDragon
   defaultCursor: {fileID: 2800000, guid: b14237ba63c25b9448cb0d1bdabd18ff, type: 3}
   cursorHotspot: {x: 0, y: 0}
@@ -143,7 +143,7 @@ PlayerSettings:
   loadStoreDebugModeEnabled: 0
   visionOSBundleVersion: 1.0
   tvOSBundleVersion: 1.0
-  bundleVersion: D00136
+  bundleVersion: D00138
   preloadedAssets: []
   metroInputSource: 0
   wsaTransparentSwapchain: 0

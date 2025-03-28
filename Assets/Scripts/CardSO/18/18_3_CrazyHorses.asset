@@ -27,15 +27,11 @@ MonoBehaviour:
     requiredItemSprite: {fileID: 0}
     removeItemSprite: 0
     changeBanner: 0
-    nextSetIfItem: {fileID: 11400000, guid: f7ac6ab6472ba5b4bbb883128ab4d7c0, type: 2}
+    nextSetIfItem: {fileID: 11400000, guid: 5998c1d2ef75a0d468bcc09dd2c39c54, type: 2}
     nextSetIfNoItem: {fileID: 0}
-    isWinIfItem: 1
-    winContentIfItem:
-    - Sprite: {fileID: 21300000, guid: f7cc7da663419b844b2961016b89467c, type: 3}
-      Message: 18_CrazyHorses_win_1
-    - Sprite: {fileID: 21300000, guid: f7cc7da663419b844b2961016b89467c, type: 3}
-      Message: WinAddToWishlist_toAll
-    locationSpriteIfItem: {fileID: 0}
+    isWinIfItem: 0
+    winContentIfItem: []
+    locationSpriteIfItem: {fileID: 21300000, guid: 430a2eedccf4abe46b9ab99bb6e679e5, type: 3}
     reverseSpriteIfItem: {fileID: 21300000, guid: 9630fd6b9dd7da649b19b5cba2f7605c, type: 3}
     reverseAudioClipItem: {fileID: 0}
     reverseTopTextIfItem: 18_CrazyHorses_cardLeft_REV
@@ -53,19 +49,19 @@ MonoBehaviour:
     animator: {fileID: 9100000, guid: 6685171af68d6064ea2d4d18650fbbf0, type: 2}
     animationClip: {fileID: 7400000, guid: decfa8e848cbc4945923dd619bb34302, type: 2}
     itemSprite: {fileID: 0}
-    requiredItemSprite: {fileID: 21300000, guid: 9a9641d0b3101a64fbe07f50c561043d, type: 3}
+    requiredItemSprite: {fileID: 0}
     removeItemSprite: 1
     changeBanner: 0
-    nextSetIfItem: {fileID: 11400000, guid: f7ac6ab6472ba5b4bbb883128ab4d7c0, type: 2}
+    nextSetIfItem: {fileID: 11400000, guid: 5998c1d2ef75a0d468bcc09dd2c39c54, type: 2}
     nextSetIfNoItem: {fileID: 0}
-    isWinIfItem: 1
+    isWinIfItem: 0
     winContentIfItem:
     - Sprite: {fileID: 21300000, guid: 6ae74f89e5006914ca5e67fb16c9b582, type: 3}
       Message: 18_CrazyHorses_win_2
     - Sprite: {fileID: 21300000, guid: 6ae74f89e5006914ca5e67fb16c9b582, type: 3}
       Message: WinAddToWishlist_toAll
-    locationSpriteIfItem: {fileID: 0}
-    reverseSpriteIfItem: {fileID: 21300000, guid: 8c13063fd19e47e4ab5fbfbc3eb6bcc3, type: 3}
+    locationSpriteIfItem: {fileID: 21300000, guid: 430a2eedccf4abe46b9ab99bb6e679e5, type: 3}
+    reverseSpriteIfItem: {fileID: 21300000, guid: db283f1e8457db047afc3768ed208597, type: 3}
     reverseAudioClipItem: {fileID: 0}
     reverseTopTextIfItem: 18_CrazyHorses_cardRight_REV
     changeLifePointsIfItem: 0
