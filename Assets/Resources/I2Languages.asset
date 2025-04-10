@@ -2615,7 +2615,7 @@ MonoBehaviour:
         \u043D\u0435\u0441\u0447\u0430\u0441\u0442\u044C\u0435 \u0438 \u043A\u043E\u0440\u043E\u043B\u044C
         \u043F\u0440\u0438\u043A\u0430\u0437\u044B\u0432\u0430\u0435\u0442 \u0433\u0435\u0440\u043E\u044E
         \u0441 \u043E\u043A\u0440\u0430\u0438\u043D\u044B, \u0442\u043E \u0435\u0441\u0442\u044C
-        \u043D\u0430\u043C \u044F\u0432\u0438\u0442\u044C\u0441\u044F \u0432 \u0437\u0430\u043C\u043E\u043A"
+        \u0432\u0430\u043C \u044F\u0432\u0438\u0442\u044C\u0441\u044F \u0432 \u0437\u0430\u043C\u043E\u043A"
       - "Escuchas al guardia decirte que hay dolor y el rey ordena a un h\xE9roe
         de las afueras que venga al castillo"
       - 
@@ -2734,7 +2734,7 @@ MonoBehaviour:
         - one bears your scowling likeness
       - "\u0412\u044B \u0438\u0434\u0435\u0442\u0435 \u043F\u043E \u0440\u044B\u043D\u043A\u0443
         \u0438 \u0437\u0430\u043C\u0435\u0447\u0430\u0435\u0442\u0435, \u0447\u0442\u043E
-        \u0441\u0442\u0440\u0430\u0436\u043D\u0438\u043A \u043F\u043E\u043A\u0430\u0437\u044B\u0432\u0430\u044E\u0442
+        \u0441\u0442\u0440\u0430\u0436\u043D\u0438\u043A\u0438 \u043F\u043E\u043A\u0430\u0437\u044B\u0432\u0430\u044E\u0442
         \u043B\u0438\u0441\u0442\u043E\u0432\u043A\u0438 \u0442\u043E\u0440\u0433\u043E\u0432\u0446\u0443,
         \u043E\u0434\u0438\u043D \u0438\u0437 \u043D\u0438\u0445 \u0441 \u0432\u0430\u0448\u0438\u043C
         \u043F\u043E\u0440\u0442\u0440\u0435\u0442\u043E\u043C "
@@ -2997,7 +2997,7 @@ MonoBehaviour:
       Description: 
       Languages:
       - Magic whisks you one step back
-      - "\u041C\u0430\u0433\u0438\u044F \u043F\u0435\u0440\u0435\u043D\u043E\u0441\u0442\u0438
+      - "\u041C\u0430\u0433\u0438\u044F \u043F\u0435\u0440\u0435\u043D\u043E\u0441\u0438\u0442
         \u0432\u0430\u0441 \u043D\u0430 \u043E\u0434\u0438\u043D \u0448\u0430\u0433
         \u043D\u0430\u0437\u0430\u0434"
       - La magia te retrocede un paso
@@ -4634,7 +4634,7 @@ MonoBehaviour:
       - "\u0422\u0435\u043B\u0435\u0433\u0430 \u043F\u043E\u0434\u0434\u0430\u0451\u0442\u0441\u044F,
         \u043D\u043E \u0442\u044B \u043F\u0430\u0434\u0430\u0435\u0448\u044C \u0432
         \u0433\u0440\u044F\u0437\u044C. \u0421\u0442\u0440\u0430\u0436\u043D\u0438\u043A\u0438
-        \u0441\u043C\u0435\u044E\u0442\u0441\u044F, \u0430 \u0442\u044B \u0432\u0435\u0441\u044C
+        \u0441\u043C\u0435\u044E\u0442\u0441\u044F, \u0430 \u0432\u044B \u0432\u0435\u0441\u044C
         \u0432 \u0433\u0440\u044F\u0437\u0438. \u041F\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u0435
         \u043D\u0430\u0447\u0438\u043D\u0430\u0435\u0442\u0441\u044F \"\u0443\u0434\u0430\u0447\u043D\u043E\""
       - "El carro cede - pero te caes de bruces en el barro. Los guardias se r\xEDen
@@ -7720,15 +7720,15 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - You lurch toward freedom - shoulder meets doorframe with a thud. Darkness
-        claims you mid-stumble, body crumpling like a discarded rag
+      - Lurching toward freedom - shoulder meets doorframe. Darkness takes you, body
+        crumpling like a rag
       - "\u0412\u044B \u043F\u043E\u0447\u0442\u0438 \u0432\u044B\u0445\u043E\u0434\u0438\u0442\u0435,
         \u043D\u043E \u0432\u0440\u0435\u0437\u0430\u0435\u0442\u0435\u0441\u044C
         \u043F\u043B\u0435\u0447\u043E\u043C \u0432 \u043A\u043E\u0441\u044F\u043A.
         \u0412\u0430\u0441 \u0437\u0430\u043A\u0440\u0443\u0436\u0438\u043B\u043E,
         \u0438 \u0432\u044B \u0432\u044B\u0440\u0443\u0431\u0438\u043B\u0438\u0441\u044C
         \u043F\u0440\u044F\u043C\u043E \u0440\u044F\u0434\u043E\u043C \u0441 \u0434\u0432\u0435\u0440\u044C\u044E"
-      - "Tambaleas hacia la salida\u2014hombro contra marco, \xA1crack!. El sue\xF1o
+      - "Tambaleas hacia la salida - hombro contra marco, \xA1crack!. El sue\xF1o
         te arrulla en el suelo, como un ni\xF1o"
       - 
       - 
@@ -7886,7 +7886,7 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - Get up, dust yourself off, and scan the area
+      - Get up, dust yourself off, and survey the area
       - "\u041F\u043E\u0434\u043D\u044F\u0442\u044C\u0441\u044F, \u043E\u0442\u0440\u044F\u0445\u043D\u0443\u0442\u044C\u0441\u044F
         \u0438 \u043E\u0441\u043C\u043E\u0442\u0440\u0435\u0442\u044C\u0441\u044F"
       - Levantarse, sacudirse y mirar alrededor
@@ -8579,8 +8579,8 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - There will be a separate full-fledged branch, sorry, but it is not available
-        in the demo version
+      - You're lucky, there's a general amnesty in the demo version and you're escorted
+        to the King
       - "\u0412\u0430\u043C \u043F\u043E\u0432\u0435\u0437\u043B\u043E \u0438 \u0432
         \u0434\u0435\u043C\u043E \u0432\u0435\u0440\u0441\u0438\u0438 \u0434\u0435\u0439\u0441\u0442\u0432\u0443\u0435\u0442
         \u0432\u0441\u0435\u043E\u0431\u0449\u0430\u044F \u0430\u043C\u043D\u0438\u0441\u0442\u0438\u044F,
@@ -8625,8 +8625,8 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - There will be a separate full-fledged branch, sorry, but it is not available
-        in the demo version
+      - You're lucky, there's a general amnesty in the demo version and you're escorted
+        to the King
       - "\u0412\u0430\u043C \u043F\u043E\u0432\u0435\u0437\u043B\u043E \u0438 \u0432
         \u0434\u0435\u043C\u043E \u0432\u0435\u0440\u0441\u0438\u0438 \u0434\u0435\u0439\u0441\u0442\u0432\u0443\u0435\u0442
         \u0432\u0441\u0435\u043E\u0431\u0449\u0430\u044F \u0430\u043C\u043D\u0438\u0441\u0442\u0438\u044F,
@@ -8689,8 +8689,8 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 'You''re lucky, there''s a general amnesty in the demo version and you''re
-        escorted to the Czar '
+      - You're lucky, there's a general amnesty in the demo version and you're escorted
+        to the King
       - "\u0412\u0430\u043C \u043F\u043E\u0432\u0435\u0437\u043B\u043E, \u0432 \u0434\u0435\u043C\u043E
         \u0432\u0435\u0440\u0441\u0438\u0438 \u0434\u0435\u0439\u0441\u0442\u0432\u0443\u0435\u0442
         \u0432\u0441\u0435\u043E\u0431\u0449\u0430\u044F \u0430\u043C\u043D\u0438\u0441\u0442\u0438\u044F,
@@ -8732,7 +8732,7 @@ MonoBehaviour:
       Description: 
       Languages:
       - 'You''re lucky, there''s a general amnesty in the demo version and you''re
-        escorted to the Czar '
+        escorted to the King '
       - "\u0412\u0430\u043C \u043F\u043E\u0432\u0435\u0437\u043B\u043E, \u0432 \u0434\u0435\u043C\u043E
         \u0432\u0435\u0440\u0441\u0438\u0438 \u0434\u0435\u0439\u0441\u0442\u0432\u0443\u0435\u0442
         \u0432\u0441\u0435\u043E\u0431\u0449\u0430\u044F \u0430\u043C\u043D\u0438\u0441\u0442\u0438\u044F,
@@ -9047,10 +9047,10 @@ MonoBehaviour:
       Description: 
       Languages:
       - One is young and strong, and the other, in years, but wise and experienced
-      - "\u041E\u0434\u043D\u043E\u0433\u043E \u043C\u043E\u043B\u043E\u0434\u043E\u0433\u043E
-        \u0438 \u043A\u0440\u0435\u043F\u043A\u043E\u0433\u043E, \u0430 \u0432\u0442\u043E\u0440\u043E\u0433\u043E,
-        \u0432 \u043B\u0435\u0442\u0430\u0445, \u043D\u043E \u043C\u0443\u0434\u0440\u043E\u0433\u043E
-        \u0438 \u043E\u043F\u044B\u0442\u043D\u043E\u0433\u043E \u0432\u043E\u0439\u043D\u0430"
+      - "\u041E\u0434\u043D\u043E\u0433\u043E - \u043C\u043E\u043B\u043E\u0434\u043E\u0433\u043E
+        \u0438 \u0441\u0438\u043B\u044C\u043D\u043E\u0433\u043E, \u0432\u0442\u043E\u0440\u043E\u0433\u043E
+        - \u043F\u043E\u0436\u0438\u043B\u043E\u0433\u043E, \u043D\u043E \u043C\u0443\u0434\u0440\u043E\u0433\u043E
+        \u0438 \u0431\u044B\u0432\u0430\u043B\u043E\u0433\u043E \u0432\u043E\u0438\u043D\u0430"
       - A uno joven y fuerte, y al otro, un guerrero veterano, sabio y experimentado
       - 
       - "\u0410\u0434\u043D\u0430\u0433\u043E \u043C\u0430\u043B\u0430\u0434\u043E\u0433\u0430
@@ -11164,9 +11164,9 @@ MonoBehaviour:
       - The old man offers to make a stop, says that as long as he is with you, you
         are safe
       - "\u0421\u0442\u0430\u0440\u0438\u043A \u043F\u0440\u0435\u0434\u043B\u0430\u0433\u0430\u0435\u0442
-        \u0443\u0441\u0442\u0440\u043E\u0438\u0442\u044C \u043F\u0440\u0438\u0432\u0430\u043B,
-        \u0433\u043E\u0432\u043E\u0440\u0438\u0442 \u0447\u0442\u043E \u043F\u043E\u043A\u0430
-        \u043E\u043D \u0441 \u0432\u0430\u043C\u0438 \u0432\u044B \u0432 \u0431\u0435\u0437\u043E\u043F\u0430\u0441\u043D\u043E\u0441\u0442\u0438"
+        \u0443\u0441\u0442\u0440\u043E\u0438\u0442\u044C \u043F\u0440\u0438\u0432\u0430\u043B
+        \u0438 \u0433\u043E\u0432\u043E\u0440\u0438\u0442, \u0447\u0442\u043E, \u043F\u043E\u043A\u0430
+        \u043E\u043D \u0441 \u0432\u0430\u043C\u0438, \u0432\u044B \u0432 \u0431\u0435\u0437\u043E\u043F\u0430\u0441\u043D\u043E\u0441\u0442\u0438"
       - "El anciano sugiere hacer una pausa y dice que mientras est\xE9 contigo,
         estar\xE1s a salvo"
       - 
@@ -11869,8 +11869,8 @@ MonoBehaviour:
       Description: 
       Languages:
       - Prepare breakfast on your own
-      - "\u041F\u0440\u0438\u0433\u043E\u0442\u043E\u0432\u0438\u0442\u044C \u0441\u0430\u043C\u043E\u043C\u0443
-        \u043F\u043E \u0431\u044B\u0441\u0442\u0440\u0435\u043D\u044C\u043A\u043E\u043C\u0443"
+      - "\u041F\u0440\u0438\u0433\u043E\u0442\u043E\u0432\u0438\u0442\u044C \u0441\u0430\u043C\u043E\u043C\u0443  
+        \u043F\u043E - \u0431\u044B\u0441\u0442\u0440\u0435\u043D\u044C\u043A\u043E\u043C\u0443"
       - "Preparar algo r\xE1pido por tu cuenta"
       - 
       - 
@@ -12509,7 +12509,7 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - Through the marshes
+      - Through the swamp
       - "\u0427\u0435\u0440\u0435\u0437 \u0442\u043E\u043F\u0438"
       - "Atravesar las ci\xE9nagas"
       - 
@@ -13051,8 +13051,8 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - "You realize you\u2019ve emerged somewhere else entirely. Your footprints
-        have vanished behind you. The swamp has led you to a shadowy clearing"
+      - You find yourself elsewhere. No tracks behind. The swamp leads you to a dark
+        clearing.
       - "\u0412\u044B \u0437\u0430\u043C\u0435\u0447\u0430\u0435\u0442\u0435, \u043A\u0430\u043A
         \u043E\u043A\u0430\u0437\u044B\u0432\u0430\u0435\u0442\u0435\u0441\u044C
         \u0432 \u0434\u0440\u0443\u0433\u043E\u043C \u043C\u0435\u0441\u0442\u0435.
@@ -13103,7 +13103,7 @@ MonoBehaviour:
         \u041A\u0442\u043E-\u0442\u043E \u043D\u0430\u0441\u0442\u0443\u043F\u0430\u0435\u0442
         \u0432 \u0432\u043E\u0434\u0443 \u0441\u043E\u0432\u0441\u0435\u043C \u0440\u044F\u0434\u043E\u043C,
         \u043D\u043E, \u043E\u0431\u0435\u0440\u043D\u0443\u0432\u0448\u0438\u0441\u044C,
-        \u0442\u044B \u043D\u0438\u043A\u043E\u0433\u043E \u043D\u0435 \u0432\u0438\u0434\u0438\u0448\u044C..."
+        \u0432\u044B \u043D\u0438\u043A\u043E\u0433\u043E \u043D\u0435 \u0432\u0438\u0434\u0438\u0442\u0435..."
       - "Un chapoteo de pasos resuena detr\xE1s de ti. Algo entra al agua muy cerca...
         pero al voltear, no hay nadie..."
       - 
@@ -13448,7 +13448,7 @@ MonoBehaviour:
         young warrior grips his sword hilt in terror
       - "\u0412 \u0446\u0435\u043D\u0442\u0440\u0435 \u043F\u043E\u043A\u0430\u0447\u0438\u0432\u0430\u0435\u0442\u0441\u044F
         \u0438\u0437\u0431\u0443\u0448\u043A\u0430 \u043D\u0430 \u043A\u0443\u0440\u044C\u0438\u0445
-        \u043D\u043E\u0433\u0430\u0445 - \u043E\u043D\u0430 \u0431\u0443\u0434\u0442\u043E
+        \u043D\u043E\u0436\u043A\u0430\u0445 - \u043E\u043D\u0430 \u0431\u0443\u0434\u0442\u043E
         \u0432\u0430\u0441 \u0440\u0430\u0437\u0433\u043B\u044F\u0434\u044B\u0432\u0430\u0435\u0442.
         \u041C\u043E\u043B\u043E\u0434\u043E\u0439 \u0432\u043E\u0438\u043D \u0432
         \u0441\u0442\u0440\u0430\u0445\u0435 \u0441\u0436\u0438\u043C\u0430\u0435\u0442

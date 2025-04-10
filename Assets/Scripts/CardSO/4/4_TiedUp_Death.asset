@@ -35,7 +35,7 @@ MonoBehaviour:
     reverseSpriteIfItem: {fileID: 21300000, guid: 9fcd9d0bef2eda842b81bff509b5104e, type: 3}
     reverseAudioClipItem: {fileID: 0}
     reverseTopTextIfItem: 4_TiedUp_Death_cardLeft_REV
-    changeLifePointsIfItem: 0
+    changeLifePointsIfItem: 2
     isWinIfNoItem: 0
     winContentIfNoItem: []
     locationSpriteNoItem: {fileID: 0}
@@ -60,7 +60,7 @@ MonoBehaviour:
     reverseSpriteIfItem: {fileID: 21300000, guid: 9fcd9d0bef2eda842b81bff509b5104e, type: 3}
     reverseAudioClipItem: {fileID: 0}
     reverseTopTextIfItem: 4_TiedUp_Death_cardRight_REV
-    changeLifePointsIfItem: 1
+    changeLifePointsIfItem: 3
     isWinIfNoItem: 0
     winContentIfNoItem: []
     locationSpriteNoItem: {fileID: 0}

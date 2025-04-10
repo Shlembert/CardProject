@@ -16,7 +16,7 @@ MonoBehaviour:
   bannerAnimator: {fileID: 9100000, guid: 443731da750020044b2c1478522ebd84, type: 2}
   animationClip: {fileID: 7400000, guid: 3f30bb1b9d4fbfe459f29f1ad7741892, type: 2}
   bannerSound: {fileID: 0}
-  bannerText: 6_Castle_Gate_how_bunner
+  bannerText: 6_Castle_Gate_bunner
   checkPoint: 0
   leftCard:
     messageText: 6_Castle_Gate_cardLeft
