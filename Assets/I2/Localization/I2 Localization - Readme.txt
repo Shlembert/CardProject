@@ -1,6 +1,6 @@
 ﻿----------------------------------------------
               I2 Localization
-                   2.8.22 f5
+                   2.8.22 f6
         http://www.inter-illusion.com
           inter.illusion@gmail.com
 ----------------------------------------------
