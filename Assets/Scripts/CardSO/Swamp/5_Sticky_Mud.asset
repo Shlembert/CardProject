@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8636afbb060c9543bb985dfc1b704ad, type: 3}
+  m_Name: 5_Sticky_Mud
+  m_EditorClassIdentifier: 
+  portrait: {fileID: 21300000, guid: 197dd67124b07df43a9a84d23debca95, type: 3}
+  bannerAnimator: {fileID: 9100000, guid: 443731da750020044b2c1478522ebd84, type: 2}
+  animationClip: {fileID: 7400000, guid: 3f30bb1b9d4fbfe459f29f1ad7741892, type: 2}
+  bannerSound: {fileID: 0}
+  bannerText: 5_Sticky_Mud_bunner
+  checkPoint: 0
+  leftCard:
+    messageText: 5_Sticky_Mud_cardLeft
+    illustrationSprite: {fileID: 21300000, guid: 59fd1eb3588a73a4f9105f13ea78aa1c, type: 3}
+    animator: {fileID: 9100000, guid: 99fc7c4bfc0cc0d4e96110f4f030b75c, type: 2}
+    animationClip: {fileID: 7400000, guid: 73b484647275f7c41a1552cee64f8cce, type: 2}
+    itemSprite: {fileID: 0}
+    requiredItemSprite: {fileID: 0}
+    removeItemSprite: 0
+    changeBanner: 1
+    nextSetIfItem: {fileID: 11400000, guid: ae4cf36d1de94fb4cbcb995874a33e6c, type: 2}
+    nextSetIfNoItem: {fileID: 0}
+    isWinIfItem: 0
+    winContentIfItem:
+    - Sprite: {fileID: 21300000, guid: e4c8367392ccb2049af70a4445e057d8, type: 3}
+      Message: 17_YoungWatchmen_2_win_1
+    - Sprite: {fileID: 21300000, guid: e4c8367392ccb2049af70a4445e057d8, type: 3}
+      Message: WinAddToWishlist_toAll
+    locationSpriteIfItem: {fileID: 0}
+    reverseSpriteIfItem: {fileID: 21300000, guid: e27e7be38f73bf548b59f94d4190e244, type: 3}
+    reverseAudioClipItem: {fileID: 0}
+    reverseTopTextIfItem: 5_Sticky_Mud_cardLeft_REV
+    changeLifePointsIfItem: 0
+    isWinIfNoItem: 0
+    winContentIfNoItem: []
+    locationSpriteNoItem: {fileID: 0}
+    reverseSpriteIfNoItem: {fileID: 0}
+    reverseAudioClipNoItem: {fileID: 0}
+    reverseTopTextIfNoItem: 
+    changeLifePointsIfNoItem: 0
+  rightCard:
+    messageText: 5_Sticky_Mud_cardRight
+    illustrationSprite: {fileID: 21300000, guid: 06547fa020560ec4da79b88a8bb92e63, type: 3}
+    animator: {fileID: 9100000, guid: 456c736c9dac65e43880663f08c9f9ce, type: 2}
+    animationClip: {fileID: 7400000, guid: 62e5df6b6baa88242b8b5f9a146a5fd8, type: 2}
+    itemSprite: {fileID: 0}
+    requiredItemSprite: {fileID: 0}
+    removeItemSprite: 0
+    changeBanner: 1
+    nextSetIfItem: {fileID: 11400000, guid: ae4cf36d1de94fb4cbcb995874a33e6c, type: 2}
+    nextSetIfNoItem: {fileID: 0}
+    isWinIfItem: 0
+    winContentIfItem:
+    - Sprite: {fileID: 21300000, guid: e4c8367392ccb2049af70a4445e057d8, type: 3}
+      Message: 17_YoungWatchmen_2_win_1
+    - Sprite: {fileID: 21300000, guid: e4c8367392ccb2049af70a4445e057d8, type: 3}
+      Message: WinAddToWishlist_toAll
+    locationSpriteIfItem: {fileID: 0}
+    reverseSpriteIfItem: {fileID: 21300000, guid: e80ac9b54e747e74eb3122bbc3ad1cc0, type: 3}
+    reverseAudioClipItem: {fileID: 0}
+    reverseTopTextIfItem: 5_Sticky_Mud_cardRight_REV
+    changeLifePointsIfItem: 0
+    isWinIfNoItem: 0
+    winContentIfNoItem: []
+    locationSpriteNoItem: {fileID: 0}
+    reverseSpriteIfNoItem: {fileID: 0}
+    reverseAudioClipNoItem: {fileID: 0}
+    reverseTopTextIfNoItem: 
+    changeLifePointsIfNoItem: 0

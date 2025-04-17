@@ -77,6 +77,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 114b259528608ef42a03c28f682fcf03
+    m_Address: 2_Swamp
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 1197b20940e0f5946a560ca5aaddde07
     m_Address: 5_1_GuardsGone
     m_ReadOnly: 0
@@ -109,6 +114,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 15569d469a1e49942981da553910a13b
     m_Address: RiverVillage
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1b0c80c8ce3a6364688267d417a5e45d
+    m_Address: 10_Toad Swamp
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -262,6 +272,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3cb539d5476acd7489f67f1e1b7e5d6e
+    m_Address: 1_2_Swamp
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 3d0028b64a7695942a5fa11a39ffbbad
     m_Address: 5gold
     m_ReadOnly: 0
@@ -317,6 +332,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 44a04c6d97d2a184baaee81d9758a4d4
+    m_Address: 11_Whispering_Mist
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 45679513fcb06b347a3687d64c8a03d6
     m_Address: "Forest\u0421ompletelyDark2"
     m_ReadOnly: 0
@@ -324,6 +344,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 464b7affdba76894890035339f23a217
     m_Address: BG4WINS
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 47be9b5f1ab42d44296cee78092d47e5
+    m_Address: 8_Shaky_Hill
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -354,6 +379,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 510de7f9521b95a4591210ad2b28eca5
     m_Address: 7_4a_StrongFigter
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5309c82be95d42046bfa073524b549fc
+    m_Address: 1_Swamp
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -479,6 +509,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 68236e48266d8f94f8006bf32b10680c
     m_Address: 4_TiedUp
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6a0b8dc50ac09f741a07c965e54217bf
+    m_Address: 12_Mermaid
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -618,6 +653,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 91938d1fe0cdd0a4aac2278ba853f579
+    m_Address: 7_Slough
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 92980bbab46386e4dba3b7a2db8a784d
     m_Address: 4_OldWomanGiveApple
     m_ReadOnly: 0
@@ -698,6 +738,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a745d6a5a43a1974f8be4ddd983dbf77
+    m_Address: 9_JAIL_WINDOW
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: a808282df68d4054ca6a02cfe7e21b1c
     m_Address: VillageHouseBlur
     m_ReadOnly: 0
@@ -720,6 +765,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: ac9147a2f4c385d4ca8611875967e63e
     m_Address: 7_Listen
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ae4cf36d1de94fb4cbcb995874a33e6c
+    m_Address: 6_Bolotnitsa
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -770,6 +820,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: be6b478ce069ede4f813e36fb0b5dc40
     m_Address: 10_HORSES_2B_1SAD
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: beaa5b9831a2fed4eabd5fd85e110b25
+    m_Address: 4_Swamp_Devil
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -833,6 +888,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c6d5b2c58053470498dd559ec1541f16
+    m_Address: 9_Kikimora
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: c9c8342b5ceced44da8deabd5c9bdafa
     m_Address: 7_3b_StrongFigter
     m_ReadOnly: 0
@@ -878,6 +938,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d961f6aa740c62b43abe8ce69e3138bd
+    m_Address: 5_Sticky_Mud
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: db4e7a2d00787834bac2584722c5a333
     m_Address: StoneTreasure
     m_ReadOnly: 0
@@ -885,6 +950,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: dda3bc681e3a24240bbe7122c67b10f1
     m_Address: 13_5_RogueLager
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ddbef08b8371b9544847703178010129
+    m_Address: 9_2_STABLE
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -925,6 +995,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: e6ef0b5954f6f044dbc082a54225770f
     m_Address: 5_3_FingerEar
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e822de54c118df242b4fa10eacf1eb8f
+    m_Address: 1_1_Swamp
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -978,8 +1053,18 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f209ce0805dd8f14c8ba6ceed2ce90e0
+    m_Address: 9_STABLE
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: f37a147bf86398240a7aab9ec8b330ab
     m_Address: 14_ShalashAlone
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f3bdb87383a118b4182ed818ad90613b
+    m_Address: 13_Swamp_Exit
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -1005,6 +1090,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: f7cc7da663419b844b2961016b89467c
     m_Address: HorsesRest
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f9b0814d65fdf0d44ab19357171748ee
+    m_Address: 3_Rotten_Tree
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -1060,6 +1150,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: fef015f630ec80949843cdc55fc893af
     m_Address: ForestSettings
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ff82abcf7db871c41aa23201c6cf2fea
+    m_Address: 9_2_GUARDS
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
